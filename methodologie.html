@@ -38,7 +38,8 @@ description: Protocole de recherche, niveaux de vérification A/B/C, corrections
   <li><strong>Identifiants.</strong> Les identifiants <code>STP-001</code> à <code>STP-{{ site.data.stats.total | prepend: "00" | slice: -3, 3 }}</code> sont pérennes : une entrée corrigée garde son identifiant et son adresse ; un doublon est signalé, pas supprimé.</li>
   <li><strong>Intitulés.</strong> Les titres d’épisodes et de films sont cités dans leur forme originale, tels qu’ils figurent dans le registre.</li>
   <li><strong>Citer l’atlas.</strong> « Star Trek Political Atlas, <em>identifiant — intitulé</em>, corpus V{{ ed.meta.version }}, URL de la fiche, date de consultation. » Citer l’identifiant permet de retrouver l’entrée après correction.</li>
-  <li><strong>Correction.</strong> Une erreur n’est jamais corrigée silencieusement : la correction est consignée avec son motif, et la donnée initiale reste dans l’historique Git du dépôt.</li>
+  <li><strong>Correction.</strong> Une erreur n’est jamais corrigée silencieusement : la correction est consignée avec son motif dans la note d’audit de l’entrée, et la donnée initiale reste dans la version précédente du corpus et dans l’historique Git du dépôt. Depuis la V0.4, chaque version est produite à partir de la précédente par un journal de corrections publié dans le dépôt (<code>data/corrections/</code>), qui donne pour chaque champ sa valeur avant et après.</li>
+  <li><strong>Recoupement V0.4.</strong> Une entrée ne change de niveau que si la source consultée confirme son fait central (acteur, acte politique, épisode). Une nuance secondaire est notée en réserve ; un fait central absent ou contredit maintient l’entrée en C et la divergence est consignée. Sources du niveau A : pages éditoriales et récapitulatifs de startrek.com, synopsis Paramount+. Niveau B : principalement les résumés d’épisodes de Wikipedia, et des comptes rendus indépendants (Reactor, TrekCore, Den of Geek).</li>
 </ul>
 
 <h2 id="derivations">Règles de dérivation de l’atlas</h2>
@@ -66,6 +67,12 @@ description: Protocole de recherche, niveaux de vérification A/B/C, corrections
 <p>Absentes du corpus, elles proviennent d’un relevé séparé (<code>data/diffusion.json</code>, {{ site.data.diffusion.releve_le }}) où chaque date est accompagnée de la page consultée. Elles ne modifient aucun champ du corpus.</p>
 <h3>Atlas thématique</h3>
 <p>Voir la <a href="{{ '/atlas/' | relative_url }}#correspondances">table des correspondances</a> entre domaines et catégories.</p>
+<h3 id="categories-v04">Catégories ajoutées en V0.4</h3>
+<p>Quatre catégories ont été ajoutées pour que chacun des dix domaines de l’atlas repose sur une catégorie du corpus : <code>institutions/fédéralisme</code>, <code>colonialisme/occupation</code>, <code>religion/légitimité</code>, <code>technologie/bioéthique</code>. Les entrées « autre / à qualifier » ont été requalifiées, et la nouvelle catégorie a été ajoutée aux entrées déjà classées dont le texte la justifiait.</p>
+<p>Méthode : la catégorie est déduite <strong>uniquement</strong> de l’intitulé et de la problématique déjà présents dans le corpus, sans connaissance extérieure ; la proposition, avec les mots du texte qui la justifient et un indice de confiance, a été validée avant intégration. Chaque fiche concernée porte, dans sa note d’audit, la justification de ses catégories. C’est une interprétation éditoriale : elle peut être discutée comme toute entrée, via la page <a href="{{ '/contribuer/' | relative_url }}">Contribuer</a>.</p>
+<div class="defile" tabindex="0" role="region" aria-label="Catégories du corpus"><table><thead><tr><th scope="col">Catégorie</th><th scope="col">Entrées</th></tr></thead><tbody>
+{%- for c in site.data.stats.categories %}<tr><td><code>{{ c.cle }}</code></td><td>{{ c.n }}</td></tr>{% endfor %}
+</tbody></table></div>
 
 <h2 id="corrections">Corrections documentées</h2>
 {{ ed.corrections.markdown | markdownify }}

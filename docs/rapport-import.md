@@ -1,6 +1,6 @@
 # Rapport d'import
 
-> Généré par `scripts/import.mjs`. Sources : `data/source/Star_Trek_Atlas_Politique_V0_3_2026-11-08.csv`, `data/source/Star_Trek_Atlas_Politique_V0_3_2026-11-08.md`.
+> Généré par `scripts/import.mjs`. Sources : `data/source/Star_Trek_Atlas_Politique_V0_4_2026-11-10.csv`, `data/source/Star_Trek_Atlas_Politique_V0_4_2026-11-10.md`.
 
 ## Comptages
 
@@ -12,22 +12,20 @@
 | Colonnes | 12 (`id`, `cycle`, `period`, `event`, `source`, `politics`, `categories_politiques`, `niveau_recoupement`, `nature_source`, `url_source`, `note_audit`, `version_entree`) |
 | Fiches approfondies extraites du Markdown | 31 |
 | Notices du registre intégral (Markdown) | 305 |
-| Corrections documentées (Markdown) | 15 |
+| Corrections documentées (Markdown) | 20 |
 | Pages d'événement générées | 305 |
 
 ## Répartition par niveau
 
-- A : 17
-- B : 26
-- C : 262
+- A : 94
+- B : 165
+- C : 46
 
 ## Références de source non rattachées à une série
 
 Segments du champ `source` sans sigle de série reconnu (laissés tels quels, non interprétés) :
 
-- STP-009 : « First Contact »
-- STP-011 : « First Contact »
-- STP-013 : « First Contact »
+- aucun
 
 ## Classement de continuité (règle dérivée)
 
@@ -52,5 +50,5 @@ Segments du champ `source` sans sigle de série reconnu (laissés tels quels, no
 
 ## Dates de diffusion rattachées
 
-68 entrées ont au moins une date d'épisode vérifiée (source : `data/diffusion.json`).
+292 entrées ont au moins une date d'épisode vérifiée (source : `data/diffusion.json`).
 

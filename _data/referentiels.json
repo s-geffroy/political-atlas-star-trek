@@ -76,8 +76,10 @@
   {
    "slug": "institutions-federalisme",
    "nom": "Institutions et fédéralisme",
-   "categories": [],
-   "lexique": "Sénat|Conseil|constitution|élection|électo|parlement|président|chancel|gouvernement|institution|adhésion|réintégration|fédéralisme|fondation de la Fédération"
+   "categories": [
+    "institutions/fédéralisme"
+   ],
+   "lexique": null
   },
   {
    "slug": "guerres-securite-collective",
@@ -90,8 +92,10 @@
   {
    "slug": "colonialisme-occupation-resistance",
    "nom": "Colonialisme, occupation et résistance",
-   "categories": [],
-   "lexique": "occup|colon|résistan|annex|libération|indépendan|esclav|servitude"
+   "categories": [
+    "colonialisme/occupation"
+   ],
+   "lexique": null
   },
   {
    "slug": "droits-civiques-discriminations",
@@ -136,14 +140,18 @@
   {
    "slug": "religion-legitimite",
    "nom": "Religion et légitimité politique",
-   "categories": [],
-   "lexique": "relig|Prophète|prophét|[Vv]edek|\\bKai\\b|culte|croyance|sacré|théocra|divin|spirituel|orthodox"
+   "categories": [
+    "religion/légitimité"
+   ],
+   "lexique": null
   },
   {
    "slug": "technologie-bioethique-ia",
    "nom": "Technologie, bioéthique et intelligences artificielles",
-   "categories": [],
-   "lexique": "synthétique|androïde|hologramme|holograph|intelligence artificielle|\\bIA\\b|génétique|eugén|[Aa]ugment|clon|bioéth|\\bData\\b|technolog|[Bb]org|implant|artificiel"
+   "categories": [
+    "technologie/bioéthique"
+   ],
+   "lexique": null
   }
  ]
 }

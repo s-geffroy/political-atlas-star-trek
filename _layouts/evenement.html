@@ -35,7 +35,7 @@ layout: default
     <dt>Source de contrôle</dt><dd>{% if e.url_source != "" %}<a href="{{ e.url_source }}" rel="noopener">{{ e.url_source | escape }}</a>{% else %}Aucune URL dans le corpus.{% endif %}</dd>
     {%- if e.note_audit != "" %}<dt>Note d’audit</dt><dd>{{ e.note_audit | escape }}</dd>{% endif %}
     {%- if e.note_editoriale %}<dt>Note éditoriale</dt><dd>{{ e.note_editoriale | escape }}</dd>{% endif %}
-    {%- if e.correction %}<dt>Correction V0.3</dt><dd>{{ e.correction.motif | markdownify | remove: "<p>" | remove: "</p>" | strip }}</dd>{% endif %}
+    {%- for c in e.corrections %}<dt>Correction documentée</dt><dd>{{ c.motif | markdownify | remove: "<p>" | remove: "</p>" | strip }}</dd>{% endfor %}
     <dt>Version d’entrée</dt><dd>{{ e.version_entree }}</dd>
     {%- if e.diffusion.size > 0 %}
     <dt class="derive">Première diffusion</dt><dd>{% for d in e.diffusion %}{{ d.titre | escape }} : <time datetime="{{ d.date }}">{{ d.date }}</time> (<a href="{{ d.source_url }}" rel="noopener">source</a>){% unless forloop.last %} ; {% endunless %}{% endfor %}</dd>

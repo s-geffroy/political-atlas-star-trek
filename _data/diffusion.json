@@ -10,104 +10,104 @@
    "note": "NBC. Debut = The Man Trap ; fin = Turnabout Intruder.",
    "evenements": [
     {
+     "id": "STP-036",
+     "date": "1966-12-15"
+    },
+    {
+     "id": "STP-037",
+     "date": "1966-12-15"
+    },
+    {
+     "id": "STP-063",
+     "date": "1966-12-15"
+    },
+    {
+     "id": "STP-058",
+     "date": "1967-02-09"
+    },
+    {
+     "id": "STP-005",
+     "date": "1967-02-16"
+    },
+    {
+     "id": "STP-057",
+     "date": "1967-02-23"
+    },
+    {
+     "id": "STP-062",
+     "date": "1967-03-23"
+    },
+    {
+     "id": "STP-001",
+     "date": "1967-09-15"
+    },
+    {
+     "id": "STP-233",
+     "date": "1967-10-06"
+    },
+    {
+     "id": "STP-234",
+     "date": "1967-10-06"
+    },
+    {
+     "id": "STP-070",
+     "date": "1967-10-13"
+    },
+    {
+     "id": "STP-064",
+     "date": "1967-11-17"
+    },
+    {
+     "id": "STP-065",
+     "date": "1967-12-01"
+    },
+    {
+     "id": "STP-067",
+     "date": "1968-01-05"
+    },
+    {
+     "id": "STP-060",
+     "date": "1968-02-02"
+    },
+    {
+     "id": "STP-059",
+     "date": "1968-02-16"
+    },
+    {
+     "id": "STP-066",
+     "date": "1968-03-01"
+    },
+    {
+     "id": "STP-246",
+     "date": "1968-03-08"
+    },
+    {
+     "id": "STP-245",
+     "date": "1968-11-22"
+    },
+    {
+     "id": "STP-247",
+     "date": "1969-01-03"
+    },
+    {
+     "id": "STP-056",
+     "date": "1969-01-10"
+    },
+    {
+     "id": "STP-068",
+     "date": "1969-01-17"
+    },
+    {
+     "id": "STP-069",
+     "date": "1969-02-21"
+    },
+    {
      "id": "STP-061",
      "date": "1969-02-28"
     },
     {
      "id": "STP-010",
-     "date": "2005-05-06"
-    },
-    {
-     "id": "STP-001",
-     "date": null
-    },
-    {
-     "id": "STP-005",
-     "date": null
-    },
-    {
-     "id": "STP-036",
-     "date": null
-    },
-    {
-     "id": "STP-037",
-     "date": null
-    },
-    {
-     "id": "STP-056",
-     "date": null
-    },
-    {
-     "id": "STP-057",
-     "date": null
-    },
-    {
-     "id": "STP-058",
-     "date": null
-    },
-    {
-     "id": "STP-059",
-     "date": null
-    },
-    {
-     "id": "STP-060",
-     "date": null
-    },
-    {
-     "id": "STP-062",
-     "date": null
-    },
-    {
-     "id": "STP-063",
-     "date": null
-    },
-    {
-     "id": "STP-064",
-     "date": null
-    },
-    {
-     "id": "STP-065",
-     "date": null
-    },
-    {
-     "id": "STP-066",
-     "date": null
-    },
-    {
-     "id": "STP-067",
-     "date": null
-    },
-    {
-     "id": "STP-068",
-     "date": null
-    },
-    {
-     "id": "STP-069",
-     "date": null
-    },
-    {
-     "id": "STP-070",
-     "date": null
-    },
-    {
-     "id": "STP-233",
-     "date": null
-    },
-    {
-     "id": "STP-234",
-     "date": null
-    },
-    {
-     "id": "STP-245",
-     "date": null
-    },
-    {
-     "id": "STP-246",
-     "date": null
-    },
-    {
-     "id": "STP-247",
-     "date": null
+     "date": "1969-03-07"
     }
    ]
   },
@@ -120,32 +120,32 @@
    "note": "NBC.",
    "evenements": [
     {
+     "id": "STP-250",
+     "date": "1973-10-20"
+    },
+    {
      "id": "STP-004",
-     "date": null
+     "date": "1973-12"
     },
     {
      "id": "STP-014",
-     "date": null
-    },
-    {
-     "id": "STP-071",
-     "date": null
+     "date": "1973-12"
     },
     {
      "id": "STP-072",
-     "date": null
+     "date": "1973-12"
     },
     {
-     "id": "STP-248",
-     "date": null
+     "id": "STP-071",
+     "date": "1974-01-12"
     },
     {
      "id": "STP-249",
-     "date": null
+     "date": "1974-09-14"
     },
     {
-     "id": "STP-250",
-     "date": null
+     "id": "STP-248",
+     "date": "1974-09-28"
     }
    ]
   },
@@ -170,6 +170,14 @@
      "date": "1986-11-26"
     },
     {
+     "id": "STP-009",
+     "date": "1987-09-28"
+    },
+    {
+     "id": "STP-011",
+     "date": "1987-09-28"
+    },
+    {
      "id": "STP-076",
      "date": "1989-06-09"
     },
@@ -191,6 +199,10 @@
     },
     {
      "id": "STP-012",
+     "date": "1996-11-22"
+    },
+    {
+     "id": "STP-013",
      "date": "1996-11-22"
     },
     {
@@ -244,188 +256,188 @@
    "note": "Syndication US. Encounter at Farpoint diffuse 'starting the week of September 28, 1987' (https://en.wikipedia.org/wiki/Encounter_at_Farpoint) ; All Good Things... 1994-05-23 confirme par son article.",
    "evenements": [
     {
+     "id": "STP-009",
+     "date": "1987-09-28"
+    },
+    {
+     "id": "STP-011",
+     "date": "1987-09-28"
+    },
+    {
+     "id": "STP-089",
+     "date": "1987-09-28"
+    },
+    {
+     "id": "STP-091",
+     "date": "1987-10-12"
+    },
+    {
+     "id": "STP-090",
+     "date": "1987-10-19"
+    },
+    {
+     "id": "STP-092",
+     "date": "1987-11-09"
+    },
+    {
+     "id": "STP-109",
+     "date": "1988-01-25"
+    },
+    {
+     "id": "STP-093",
+     "date": "1988-04-18"
+    },
+    {
+     "id": "STP-279",
+     "date": "1988-05-09"
+    },
+    {
      "id": "STP-094",
      "date": "1989-02-13"
+    },
+    {
+     "id": "STP-003",
+     "date": "1989-03-20"
+    },
+    {
+     "id": "STP-099",
+     "date": "1989-10-02"
+    },
+    {
+     "id": "STP-104",
+     "date": "1989-10-16"
+    },
+    {
+     "id": "STP-096",
+     "date": "1989-11-06"
+    },
+    {
+     "id": "STP-095",
+     "date": "1990-01"
+    },
+    {
+     "id": "STP-112",
+     "date": "1990-01"
+    },
+    {
+     "id": "STP-251",
+     "date": "1990-01-01"
+    },
+    {
+     "id": "STP-278",
+     "date": "1990-02-19"
+    },
+    {
+     "id": "STP-117",
+     "date": "1990-03-12"
+    },
+    {
+     "id": "STP-097",
+     "date": "1990-03-19"
+    },
+    {
+     "id": "STP-098",
+     "date": "1990-06-18"
+    },
+    {
+     "id": "STP-100",
+     "date": "1990-11-05"
+    },
+    {
+     "id": "STP-113",
+     "date": "1991-01-28"
+    },
+    {
+     "id": "STP-119",
+     "date": "1991-02-18"
     },
     {
      "id": "STP-101",
      "date": "1991-04-29"
     },
     {
+     "id": "STP-108",
+     "date": "1991-05-06"
+    },
+    {
+     "id": "STP-102",
+     "date": "1991-06-17"
+    },
+    {
+     "id": "STP-276",
+     "date": "1991-10-07"
+    },
+    {
+     "id": "STP-002",
+     "date": "1991-11-04"
+    },
+    {
+     "id": "STP-105",
+     "date": "1991-11-04"
+    },
+    {
+     "id": "STP-253",
+     "date": "1992-02"
+    },
+    {
      "id": "STP-107",
      "date": "1992-03-16"
     },
     {
-     "id": "STP-002",
-     "date": null
-    },
-    {
-     "id": "STP-003",
-     "date": null
-    },
-    {
-     "id": "STP-009",
-     "date": null
-    },
-    {
-     "id": "STP-011",
-     "date": null
-    },
-    {
-     "id": "STP-089",
-     "date": null
-    },
-    {
-     "id": "STP-090",
-     "date": null
-    },
-    {
-     "id": "STP-091",
-     "date": null
-    },
-    {
-     "id": "STP-092",
-     "date": null
-    },
-    {
-     "id": "STP-093",
-     "date": null
-    },
-    {
-     "id": "STP-095",
-     "date": null
-    },
-    {
-     "id": "STP-096",
-     "date": null
-    },
-    {
-     "id": "STP-097",
-     "date": null
-    },
-    {
-     "id": "STP-098",
-     "date": null
-    },
-    {
-     "id": "STP-099",
-     "date": null
-    },
-    {
-     "id": "STP-100",
-     "date": null
-    },
-    {
-     "id": "STP-102",
-     "date": null
-    },
-    {
-     "id": "STP-103",
-     "date": null
-    },
-    {
-     "id": "STP-104",
-     "date": null
-    },
-    {
-     "id": "STP-105",
-     "date": null
-    },
-    {
-     "id": "STP-106",
-     "date": null
-    },
-    {
-     "id": "STP-108",
-     "date": null
-    },
-    {
-     "id": "STP-109",
-     "date": null
-    },
-    {
-     "id": "STP-110",
-     "date": null
-    },
-    {
-     "id": "STP-111",
-     "date": null
-    },
-    {
-     "id": "STP-112",
-     "date": null
-    },
-    {
-     "id": "STP-113",
-     "date": null
-    },
-    {
-     "id": "STP-114",
-     "date": null
-    },
-    {
-     "id": "STP-115",
-     "date": null
-    },
-    {
-     "id": "STP-116",
-     "date": null
-    },
-    {
-     "id": "STP-117",
-     "date": null
-    },
-    {
-     "id": "STP-118",
-     "date": null
-    },
-    {
-     "id": "STP-119",
-     "date": null
-    },
-    {
-     "id": "STP-251",
-     "date": null
-    },
-    {
      "id": "STP-252",
-     "date": null
-    },
-    {
-     "id": "STP-253",
-     "date": null
-    },
-    {
-     "id": "STP-254",
-     "date": null
-    },
-    {
-     "id": "STP-255",
-     "date": null
-    },
-    {
-     "id": "STP-269",
-     "date": null
-    },
-    {
-     "id": "STP-276",
-     "date": null
-    },
-    {
-     "id": "STP-277",
-     "date": null
-    },
-    {
-     "id": "STP-278",
-     "date": null
-    },
-    {
-     "id": "STP-279",
-     "date": null
+     "date": "1992-04-27"
     },
     {
      "id": "STP-280",
-     "date": null
+     "date": "1992-05"
+    },
+    {
+     "id": "STP-111",
+     "date": "1992-11-16"
+    },
+    {
+     "id": "STP-254",
+     "date": "1992-11-16"
+    },
+    {
+     "id": "STP-110",
+     "date": "1992-12-14"
+    },
+    {
+     "id": "STP-106",
+     "date": "1993-02-08"
+    },
+    {
+     "id": "STP-277",
+     "date": "1993-05-17"
+    },
+    {
+     "id": "STP-255",
+     "date": "1993-11-15"
+    },
+    {
+     "id": "STP-116",
+     "date": "1994-01-10"
+    },
+    {
+     "id": "STP-118",
+     "date": "1994-01-17"
+    },
+    {
+     "id": "STP-103",
+     "date": "1994-03-28"
+    },
+    {
+     "id": "STP-114",
+     "date": "1994-03-28"
+    },
+    {
+     "id": "STP-115",
+     "date": "1994-05-16"
+    },
+    {
+     "id": "STP-269",
+     "date": "1994-05-16"
     }
    ]
   },
@@ -438,24 +450,124 @@
    "note": "Syndication US. Debut (Emissary) 1993-01-03 concordant liste + article. Fin divergente : liste 1999-06-02 (prose de la liste des series : June 2, 1999 ; tableau saison 7 : May 31, 1999) ; article What You Leave Behind : infobox 1999-05-31, 'aired the week of May 31, 1999', section Broadcast 'first shown on June 2, 1999'. Precision ramenee a l'annee.",
    "evenements": [
     {
+     "id": "STP-003",
+     "date": "1989-03-20"
+    },
+    {
+     "id": "STP-098",
+     "date": "1990-06-18"
+    },
+    {
      "id": "STP-120",
-     "date": "1993-06"
+     "date": "1993-01-03"
+    },
+    {
+     "id": "STP-121",
+     "date": "1993-01-03"
+    },
+    {
+     "id": "STP-122",
+     "date": "1993-01-03"
+    },
+    {
+     "id": "STP-123",
+     "date": "1993-01-03"
+    },
+    {
+     "id": "STP-304",
+     "date": "1993-01-10"
+    },
+    {
+     "id": "STP-130",
+     "date": "1993-02-14"
     },
     {
      "id": "STP-125",
      "date": "1993-06"
     },
     {
+     "id": "STP-124",
+     "date": "1993-06-20"
+    },
+    {
      "id": "STP-126",
      "date": "1993-09"
+    },
+    {
+     "id": "STP-133",
+     "date": "1993-10-24"
     },
     {
      "id": "STP-271",
      "date": "1993-11"
     },
     {
+     "id": "STP-142",
+     "date": "1993-11-14"
+    },
+    {
+     "id": "STP-275",
+     "date": "1994-02-13"
+    },
+    {
+     "id": "STP-114",
+     "date": "1994-03-28"
+    },
+    {
+     "id": "STP-127",
+     "date": "1994-04-24"
+    },
+    {
+     "id": "STP-235",
+     "date": "1994-05-15"
+    },
+    {
+     "id": "STP-236",
+     "date": "1994-05-15"
+    },
+    {
+     "id": "STP-128",
+     "date": "1994-06-12"
+    },
+    {
+     "id": "STP-131",
+     "date": "1994-10-15"
+    },
+    {
      "id": "STP-006",
      "date": "1995-01"
+    },
+    {
+     "id": "STP-237",
+     "date": "1995-04-15"
+    },
+    {
+     "id": "STP-134",
+     "date": "1995-05-20"
+    },
+    {
+     "id": "STP-135",
+     "date": "1995-05-20"
+    },
+    {
+     "id": "STP-132",
+     "date": "1995-06-17"
+    },
+    {
+     "id": "STP-136",
+     "date": "1995-09-30"
+    },
+    {
+     "id": "STP-137",
+     "date": "1995-09-30"
+    },
+    {
+     "id": "STP-138",
+     "date": "1995-09-30"
+    },
+    {
+     "id": "STP-151",
+     "date": "1995-10-14"
     },
     {
      "id": "STP-139",
@@ -466,8 +578,64 @@
      "date": "1996-02"
     },
     {
+     "id": "STP-272",
+     "date": "1996-02-24"
+    },
+    {
+     "id": "STP-141",
+     "date": "1996-05-04"
+    },
+    {
+     "id": "STP-152",
+     "date": "1996-05-18"
+    },
+    {
+     "id": "STP-140",
+     "date": "1996-09-30"
+    },
+    {
+     "id": "STP-273",
+     "date": "1996-12-30"
+    },
+    {
+     "id": "STP-143",
+     "date": "1997-02-17"
+    },
+    {
+     "id": "STP-144",
+     "date": "1997-02-17"
+    },
+    {
+     "id": "STP-258",
+     "date": "1997-04-14"
+    },
+    {
+     "id": "STP-145",
+     "date": "1997-06-16"
+    },
+    {
+     "id": "STP-146",
+     "date": "1997-06-16"
+    },
+    {
+     "id": "STP-147",
+     "date": "1997-06-16"
+    },
+    {
+     "id": "STP-150",
+     "date": "1997-10-18"
+    },
+    {
      "id": "STP-274",
      "date": "1997-11"
+    },
+    {
+     "id": "STP-148",
+     "date": "1997-11-01"
+    },
+    {
+     "id": "STP-256",
+     "date": "1998-02-07"
     },
     {
      "id": "STP-149",
@@ -478,6 +646,14 @@
      "date": "1998-04"
     },
     {
+     "id": "STP-159",
+     "date": "1998-05-09"
+    },
+    {
+     "id": "STP-259",
+     "date": "1998-11-18"
+    },
+    {
      "id": "STP-157",
      "date": "1999"
     },
@@ -486,192 +662,28 @@
      "date": "1999"
     },
     {
-     "id": "STP-003",
-     "date": null
-    },
-    {
-     "id": "STP-098",
-     "date": null
-    },
-    {
-     "id": "STP-114",
-     "date": null
-    },
-    {
-     "id": "STP-121",
-     "date": null
-    },
-    {
-     "id": "STP-122",
-     "date": null
-    },
-    {
-     "id": "STP-123",
-     "date": null
-    },
-    {
-     "id": "STP-124",
-     "date": null
-    },
-    {
-     "id": "STP-127",
-     "date": null
-    },
-    {
-     "id": "STP-128",
-     "date": null
-    },
-    {
-     "id": "STP-130",
-     "date": null
-    },
-    {
-     "id": "STP-131",
-     "date": null
-    },
-    {
-     "id": "STP-132",
-     "date": null
-    },
-    {
-     "id": "STP-133",
-     "date": null
-    },
-    {
-     "id": "STP-134",
-     "date": null
-    },
-    {
-     "id": "STP-135",
-     "date": null
-    },
-    {
-     "id": "STP-136",
-     "date": null
-    },
-    {
-     "id": "STP-137",
-     "date": null
-    },
-    {
-     "id": "STP-138",
-     "date": null
-    },
-    {
-     "id": "STP-140",
-     "date": null
-    },
-    {
-     "id": "STP-141",
-     "date": null
-    },
-    {
-     "id": "STP-142",
-     "date": null
-    },
-    {
-     "id": "STP-143",
-     "date": null
-    },
-    {
-     "id": "STP-144",
-     "date": null
-    },
-    {
-     "id": "STP-145",
-     "date": null
-    },
-    {
-     "id": "STP-146",
-     "date": null
-    },
-    {
-     "id": "STP-147",
-     "date": null
-    },
-    {
-     "id": "STP-148",
-     "date": null
-    },
-    {
-     "id": "STP-150",
-     "date": null
-    },
-    {
-     "id": "STP-151",
-     "date": null
-    },
-    {
-     "id": "STP-152",
-     "date": null
-    },
-    {
-     "id": "STP-154",
-     "date": null
-    },
-    {
-     "id": "STP-155",
-     "date": null
-    },
-    {
-     "id": "STP-156",
-     "date": null
-    },
-    {
-     "id": "STP-159",
-     "date": null
-    },
-    {
-     "id": "STP-160",
-     "date": null
-    },
-    {
-     "id": "STP-235",
-     "date": null
-    },
-    {
-     "id": "STP-236",
-     "date": null
-    },
-    {
-     "id": "STP-237",
-     "date": null
-    },
-    {
-     "id": "STP-256",
-     "date": null
-    },
-    {
      "id": "STP-257",
-     "date": null
-    },
-    {
-     "id": "STP-258",
-     "date": null
-    },
-    {
-     "id": "STP-259",
-     "date": null
-    },
-    {
-     "id": "STP-272",
-     "date": null
-    },
-    {
-     "id": "STP-273",
-     "date": null
-    },
-    {
-     "id": "STP-275",
-     "date": null
-    },
-    {
-     "id": "STP-304",
-     "date": null
+     "date": "1999-02-24"
     },
     {
      "id": "STP-305",
-     "date": null
+     "date": "1999-03-03"
+    },
+    {
+     "id": "STP-156",
+     "date": "1999-05-05"
+    },
+    {
+     "id": "STP-154",
+     "date": "1999-05-12"
+    },
+    {
+     "id": "STP-155",
+     "date": "1999-05-12"
+    },
+    {
+     "id": "STP-160",
+     "date": "1999-05-26"
     }
    ]
   },
@@ -684,112 +696,112 @@
    "note": "UPN. Caretaker -> Endgame.",
    "evenements": [
     {
+     "id": "STP-269",
+     "date": "1994-05-16"
+    },
+    {
+     "id": "STP-161",
+     "date": "1995-01-16"
+    },
+    {
+     "id": "STP-162",
+     "date": "1995-09-04"
+    },
+    {
+     "id": "STP-164",
+     "date": "1995-11-27"
+    },
+    {
+     "id": "STP-284",
+     "date": "1996-01-22"
+    },
+    {
+     "id": "STP-165",
+     "date": "1996-02-19"
+    },
+    {
+     "id": "STP-163",
+     "date": "1996-05-20"
+    },
+    {
+     "id": "STP-167",
+     "date": "1996-09-18"
+    },
+    {
+     "id": "STP-166",
+     "date": "1996-11-27"
+    },
+    {
+     "id": "STP-144",
+     "date": "1997-02-17"
+    },
+    {
+     "id": "STP-260",
+     "date": "1997-04-30"
+    },
+    {
+     "id": "STP-168",
+     "date": "1997-05-21"
+    },
+    {
+     "id": "STP-173",
+     "date": "1997-09-24"
+    },
+    {
+     "id": "STP-262",
+     "date": "1997-11-19"
+    },
+    {
+     "id": "STP-169",
+     "date": "1998-03-04"
+    },
+    {
+     "id": "STP-261",
+     "date": "1998-04-29"
+    },
+    {
+     "id": "STP-285",
+     "date": "1998-12-09"
+    },
+    {
+     "id": "STP-170",
+     "date": "1998-12-16"
+    },
+    {
+     "id": "STP-283",
+     "date": "1999-05-19"
+    },
+    {
+     "id": "STP-263",
+     "date": "2000-02-02"
+    },
+    {
+     "id": "STP-174",
+     "date": "2000-05-24"
+    },
+    {
+     "id": "STP-171",
+     "date": "2000-11-01"
+    },
+    {
      "id": "STP-281",
      "date": "2000-11-29"
+    },
+    {
+     "id": "STP-175",
+     "date": "2001-01-31"
     },
     {
      "id": "STP-282",
      "date": "2001-02-14"
     },
     {
+     "id": "STP-264",
+     "date": "2001-02-21"
+    },
+    {
      "id": "STP-172",
      "date": "2001-04-18"
-    },
-    {
-     "id": "STP-144",
-     "date": null
-    },
-    {
-     "id": "STP-161",
-     "date": null
-    },
-    {
-     "id": "STP-162",
-     "date": null
-    },
-    {
-     "id": "STP-163",
-     "date": null
-    },
-    {
-     "id": "STP-164",
-     "date": null
-    },
-    {
-     "id": "STP-165",
-     "date": null
-    },
-    {
-     "id": "STP-166",
-     "date": null
-    },
-    {
-     "id": "STP-167",
-     "date": null
-    },
-    {
-     "id": "STP-168",
-     "date": null
-    },
-    {
-     "id": "STP-169",
-     "date": null
-    },
-    {
-     "id": "STP-170",
-     "date": null
-    },
-    {
-     "id": "STP-171",
-     "date": null
-    },
-    {
-     "id": "STP-173",
-     "date": null
-    },
-    {
-     "id": "STP-174",
-     "date": null
-    },
-    {
-     "id": "STP-175",
-     "date": null
-    },
-    {
-     "id": "STP-260",
-     "date": null
-    },
-    {
-     "id": "STP-261",
-     "date": null
-    },
-    {
-     "id": "STP-262",
-     "date": null
-    },
-    {
-     "id": "STP-263",
-     "date": null
-    },
-    {
-     "id": "STP-264",
-     "date": null
-    },
-    {
-     "id": "STP-269",
-     "date": null
-    },
-    {
-     "id": "STP-283",
-     "date": null
-    },
-    {
-     "id": "STP-284",
-     "date": null
-    },
-    {
-     "id": "STP-285",
-     "date": null
     }
    ]
   },
@@ -802,8 +814,124 @@
    "note": "UPN. Broken Bow -> These Are the Voyages...",
    "evenements": [
     {
+     "id": "STP-036",
+     "date": "1966-12-15"
+    },
+    {
+     "id": "STP-005",
+     "date": "1967-02-16"
+    },
+    {
+     "id": "STP-001",
+     "date": "1967-09-15"
+    },
+    {
      "id": "STP-010",
-     "date": "2005-05-06"
+     "date": "1969-03-07"
+    },
+    {
+     "id": "STP-002",
+     "date": "1991-11-04"
+    },
+    {
+     "id": "STP-013",
+     "date": "1996-11-22"
+    },
+    {
+     "id": "STP-015",
+     "date": "2001-09-26"
+    },
+    {
+     "id": "STP-016",
+     "date": "2001-09-26"
+    },
+    {
+     "id": "STP-018",
+     "date": "2001-09-26"
+    },
+    {
+     "id": "STP-017",
+     "date": "2001-10-24"
+    },
+    {
+     "id": "STP-021",
+     "date": "2001-10-31"
+    },
+    {
+     "id": "STP-020",
+     "date": "2001-11-14"
+    },
+    {
+     "id": "STP-241",
+     "date": "2002-01-23"
+    },
+    {
+     "id": "STP-019",
+     "date": "2002-02-27"
+    },
+    {
+     "id": "STP-024",
+     "date": "2002-04-24"
+    },
+    {
+     "id": "STP-022",
+     "date": "2002-10-02"
+    },
+    {
+     "id": "STP-025",
+     "date": "2002-10-30"
+    },
+    {
+     "id": "STP-244",
+     "date": "2002-11-13"
+    },
+    {
+     "id": "STP-243",
+     "date": "2003-02-05"
+    },
+    {
+     "id": "STP-023",
+     "date": "2003-02-12"
+    },
+    {
+     "id": "STP-242",
+     "date": "2003-04-30"
+    },
+    {
+     "id": "STP-026",
+     "date": "2003-05-21"
+    },
+    {
+     "id": "STP-291",
+     "date": "2003-11-12"
+    },
+    {
+     "id": "STP-290",
+     "date": "2004-04-21"
+    },
+    {
+     "id": "STP-028",
+     "date": "2004-05-12"
+    },
+    {
+     "id": "STP-029",
+     "date": "2004-05-12"
+    },
+    {
+     "id": "STP-030",
+     "date": "2004-11-19"
+    },
+    {
+     "id": "STP-031",
+     "date": "2004-11-26"
+    },
+    {
+     "id": "STP-032",
+     "date": "2004-12-03"
+    },
+    {
+     "id": "STP-033",
+     "date": "2005-01-28"
     },
     {
      "id": "STP-034",
@@ -818,123 +946,7 @@
      "date": "2005-05-13"
     },
     {
-     "id": "STP-001",
-     "date": null
-    },
-    {
-     "id": "STP-002",
-     "date": null
-    },
-    {
-     "id": "STP-005",
-     "date": null
-    },
-    {
-     "id": "STP-013",
-     "date": null
-    },
-    {
-     "id": "STP-015",
-     "date": null
-    },
-    {
-     "id": "STP-016",
-     "date": null
-    },
-    {
-     "id": "STP-017",
-     "date": null
-    },
-    {
-     "id": "STP-018",
-     "date": null
-    },
-    {
-     "id": "STP-019",
-     "date": null
-    },
-    {
-     "id": "STP-020",
-     "date": null
-    },
-    {
-     "id": "STP-021",
-     "date": null
-    },
-    {
-     "id": "STP-022",
-     "date": null
-    },
-    {
-     "id": "STP-023",
-     "date": null
-    },
-    {
-     "id": "STP-024",
-     "date": null
-    },
-    {
-     "id": "STP-025",
-     "date": null
-    },
-    {
-     "id": "STP-026",
-     "date": null
-    },
-    {
      "id": "STP-027",
-     "date": null
-    },
-    {
-     "id": "STP-028",
-     "date": null
-    },
-    {
-     "id": "STP-029",
-     "date": null
-    },
-    {
-     "id": "STP-030",
-     "date": null
-    },
-    {
-     "id": "STP-031",
-     "date": null
-    },
-    {
-     "id": "STP-032",
-     "date": null
-    },
-    {
-     "id": "STP-033",
-     "date": null
-    },
-    {
-     "id": "STP-036",
-     "date": null
-    },
-    {
-     "id": "STP-241",
-     "date": null
-    },
-    {
-     "id": "STP-242",
-     "date": null
-    },
-    {
-     "id": "STP-243",
-     "date": null
-    },
-    {
-     "id": "STP-244",
-     "date": null
-    },
-    {
-     "id": "STP-290",
-     "date": null
-    },
-    {
-     "id": "STP-291",
      "date": null
     }
    ]
@@ -948,16 +960,100 @@
    "note": "Premiere sur CBS et CBS All Access, puis Paramount+. Finale : Life, Itself (S5).",
    "evenements": [
     {
+     "id": "STP-233",
+     "date": "1967-10-06"
+    },
+    {
+     "id": "STP-039",
+     "date": "2017-09-24"
+    },
+    {
+     "id": "STP-040",
+     "date": "2017-09-24"
+    },
+    {
+     "id": "STP-176",
+     "date": "2018-01-07"
+    },
+    {
+     "id": "STP-238",
+     "date": "2018-01-28"
+    },
+    {
+     "id": "STP-042",
+     "date": "2018-02-11"
+    },
+    {
+     "id": "STP-043",
+     "date": "2018-02-11"
+    },
+    {
+     "id": "STP-287",
+     "date": "2019-01-24"
+    },
+    {
      "id": "STP-286",
      "date": "2019-02-21"
+    },
+    {
+     "id": "STP-045",
+     "date": "2019-04-11"
     },
     {
      "id": "STP-178",
      "date": "2020-10-15"
     },
     {
+     "id": "STP-179",
+     "date": "2020-10-29"
+    },
+    {
+     "id": "STP-180",
+     "date": "2020-10-29"
+    },
+    {
+     "id": "STP-181",
+     "date": "2020-11-05"
+    },
+    {
+     "id": "STP-184",
+     "date": "2020-11-19"
+    },
+    {
+     "id": "STP-182",
+     "date": "2020-11-26"
+    },
+    {
+     "id": "STP-183",
+     "date": "2020-11-26"
+    },
+    {
      "id": "STP-288",
      "date": "2020-12-10"
+    },
+    {
+     "id": "STP-185",
+     "date": "2020-12-31"
+    },
+    {
+     "id": "STP-186",
+     "date": "2021-01-07"
+    },
+    {
+     "id": "STP-188",
+     "date": "2021-11-18"
+    },
+    {
+     "id": "STP-189",
+     "date": "2021-12-30"
+    },
+    {
+     "id": "STP-190",
+     "date": "2022-03-10"
+    },
+    {
+     "id": "STP-041",
+     "date": "2023-07-27"
     },
     {
      "id": "STP-194",
@@ -968,35 +1064,19 @@
      "date": "2024-04-25"
     },
     {
-     "id": "STP-039",
-     "date": null
+     "id": "STP-191",
+     "date": "2024-05-09"
     },
     {
-     "id": "STP-040",
-     "date": null
+     "id": "STP-192",
+     "date": "2024-05-09"
     },
     {
-     "id": "STP-041",
-     "date": null
-    },
-    {
-     "id": "STP-042",
-     "date": null
-    },
-    {
-     "id": "STP-043",
-     "date": null
+     "id": "STP-193",
+     "date": "2024-05-30"
     },
     {
      "id": "STP-044",
-     "date": null
-    },
-    {
-     "id": "STP-045",
-     "date": null
-    },
-    {
-     "id": "STP-176",
      "date": null
     },
     {
@@ -1004,75 +1084,7 @@
      "date": null
     },
     {
-     "id": "STP-179",
-     "date": null
-    },
-    {
-     "id": "STP-180",
-     "date": null
-    },
-    {
-     "id": "STP-181",
-     "date": null
-    },
-    {
-     "id": "STP-182",
-     "date": null
-    },
-    {
-     "id": "STP-183",
-     "date": null
-    },
-    {
-     "id": "STP-184",
-     "date": null
-    },
-    {
-     "id": "STP-185",
-     "date": null
-    },
-    {
-     "id": "STP-186",
-     "date": null
-    },
-    {
      "id": "STP-187",
-     "date": null
-    },
-    {
-     "id": "STP-188",
-     "date": null
-    },
-    {
-     "id": "STP-189",
-     "date": null
-    },
-    {
-     "id": "STP-190",
-     "date": null
-    },
-    {
-     "id": "STP-191",
-     "date": null
-    },
-    {
-     "id": "STP-192",
-     "date": null
-    },
-    {
-     "id": "STP-193",
-     "date": null
-    },
-    {
-     "id": "STP-233",
-     "date": null
-    },
-    {
-     "id": "STP-238",
-     "date": null
-    },
-    {
-     "id": "STP-287",
      "date": null
     }
    ]
@@ -1086,12 +1098,12 @@
    "note": "10 episodes, CBS All Access.",
    "evenements": [
     {
-     "id": "STP-265",
-     "date": null
+     "id": "STP-266",
+     "date": "2018-12-06"
     },
     {
-     "id": "STP-266",
-     "date": null
+     "id": "STP-265",
+     "date": "2020-01-09"
     }
    ]
   },
@@ -1103,6 +1115,10 @@
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Picard_episodes",
    "note": "CBS All Access / Paramount+. Finale : The Last Generation (S3E10).",
    "evenements": [
+    {
+     "id": "STP-009",
+     "date": "1987-09-28"
+    },
     {
      "id": "STP-195",
      "date": "2020-01-23"
@@ -1116,15 +1132,35 @@
      "date": "2020-01-23"
     },
     {
-     "id": "STP-007",
-     "date": null
+     "id": "STP-201",
+     "date": "2020-03-19"
+    },
+    {
+     "id": "STP-203",
+     "date": "2022-03-10"
     },
     {
      "id": "STP-008",
-     "date": null
+     "date": "2022-03-17"
     },
     {
-     "id": "STP-009",
+     "id": "STP-204",
+     "date": "2022-05-05"
+    },
+    {
+     "id": "STP-206",
+     "date": "2023-03-16"
+    },
+    {
+     "id": "STP-207",
+     "date": "2023-04-13"
+    },
+    {
+     "id": "STP-208",
+     "date": "2023-04-20"
+    },
+    {
+     "id": "STP-007",
      "date": null
     },
     {
@@ -1140,35 +1176,11 @@
      "date": null
     },
     {
-     "id": "STP-201",
-     "date": null
-    },
-    {
      "id": "STP-202",
      "date": null
     },
     {
-     "id": "STP-203",
-     "date": null
-    },
-    {
-     "id": "STP-204",
-     "date": null
-    },
-    {
      "id": "STP-205",
-     "date": null
-    },
-    {
-     "id": "STP-206",
-     "date": null
-    },
-    {
-     "id": "STP-207",
-     "date": null
-    },
-    {
-     "id": "STP-208",
      "date": null
     }
    ]
@@ -1183,35 +1195,43 @@
    "evenements": [
     {
      "id": "STP-209",
-     "date": null
+     "date": "2020-08-06"
     },
     {
      "id": "STP-210",
-     "date": null
-    },
-    {
-     "id": "STP-211",
-     "date": null
+     "date": "2021-09-23"
     },
     {
      "id": "STP-212",
-     "date": null
+     "date": "2021-10-07"
     },
     {
-     "id": "STP-213",
-     "date": null
+     "id": "STP-289",
+     "date": "2021-10-07"
     },
     {
-     "id": "STP-214",
-     "date": null
+     "id": "STP-211",
+     "date": "2021-10-14"
     },
     {
      "id": "STP-215",
-     "date": null
+     "date": "2022-10-27"
+    },
+    {
+     "id": "STP-213",
+     "date": "2023-09-21"
+    },
+    {
+     "id": "STP-214",
+     "date": "2023-10-05"
     },
     {
      "id": "STP-216",
-     "date": null
+     "date": "2023-11-02"
+    },
+    {
+     "id": "STP-270",
+     "date": "2023-11-02"
     },
     {
      "id": "STP-217",
@@ -1219,14 +1239,6 @@
     },
     {
      "id": "STP-218",
-     "date": null
-    },
-    {
-     "id": "STP-270",
-     "date": null
-    },
-    {
-     "id": "STP-289",
      "date": null
     }
    ]
@@ -1241,35 +1253,35 @@
    "evenements": [
     {
      "id": "STP-219",
-     "date": null
+     "date": "2021-10-28"
     },
     {
      "id": "STP-220",
-     "date": null
+     "date": "2021-10-28"
     },
     {
      "id": "STP-221",
-     "date": null
+     "date": "2022-12-22"
     },
     {
      "id": "STP-222",
-     "date": null
+     "date": "2022-12-22"
     },
     {
      "id": "STP-223",
-     "date": null
+     "date": "2022-12-22"
     },
     {
      "id": "STP-224",
-     "date": null
+     "date": "2024-07-01"
     },
     {
      "id": "STP-225",
-     "date": null
+     "date": "2024-07-01"
     },
     {
      "id": "STP-226",
-     "date": null
+     "date": "2024-07-01"
     },
     {
      "id": "STP-227",
@@ -1286,12 +1298,48 @@
    "note": "Paramount+. En cours (saison 5 annoncee, date TBA). Saison 4 diffusee du 2026-07-23 (Valles Marineris) au 2026-09-24 (Tomorrow's Enterprise), 10 episodes.",
    "evenements": [
     {
+     "id": "STP-005",
+     "date": "1967-02-16"
+    },
+    {
+     "id": "STP-046",
+     "date": "2022-05-05"
+    },
+    {
+     "id": "STP-050",
+     "date": "2022-05-19"
+    },
+    {
+     "id": "STP-051",
+     "date": "2022-05-26"
+    },
+    {
+     "id": "STP-049",
+     "date": "2022-06-09"
+    },
+    {
+     "id": "STP-047",
+     "date": "2022-07-07"
+    },
+    {
+     "id": "STP-240",
+     "date": "2022-07-07"
+    },
+    {
+     "id": "STP-052",
+     "date": "2023-06-15"
+    },
+    {
      "id": "STP-048",
      "date": "2023-06-22"
     },
     {
-     "id": "STP-050",
-     "date": "2023-06-22"
+     "id": "STP-041",
+     "date": "2023-07-27"
+    },
+    {
+     "id": "STP-053",
+     "date": "2023-07-27"
     },
     {
      "id": "STP-302",
@@ -1324,42 +1372,6 @@
     {
      "id": "STP-301",
      "date": "2026-09-10"
-    },
-    {
-     "id": "STP-005",
-     "date": null
-    },
-    {
-     "id": "STP-041",
-     "date": null
-    },
-    {
-     "id": "STP-046",
-     "date": null
-    },
-    {
-     "id": "STP-047",
-     "date": null
-    },
-    {
-     "id": "STP-049",
-     "date": null
-    },
-    {
-     "id": "STP-051",
-     "date": null
-    },
-    {
-     "id": "STP-052",
-     "date": null
-    },
-    {
-     "id": "STP-053",
-     "date": null
-    },
-    {
-     "id": "STP-240",
-     "date": null
     }
    ]
   },
@@ -1371,6 +1383,10 @@
    "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
    "note": "Paramount+, deux episodes le 2026-01-15 ; fin de la saison 1 le 2026-03-12 (Rubincon). En cours (saison 2 en post-production). La prose de https://en.wikipedia.org/wiki/List_of_Star_Trek_television_series indique January 16, 2026 ; l'article de la serie et la presse (ex. https://scifibulletin.com/2025/10/12/starfleet-academy-opens-on-january-15-video/) donnent le 15.",
    "evenements": [
+    {
+     "id": "STP-228",
+     "date": "2026-01-15"
+    },
     {
      "id": "STP-229",
      "date": "2026-01-15"
@@ -1396,24 +1412,20 @@
      "date": "2026-01-29"
     },
     {
+     "id": "STP-231",
+     "date": "2026-02-12"
+    },
+    {
      "id": "STP-297",
      "date": "2026-03-05"
     },
     {
-     "id": "STP-296",
+     "id": "STP-232",
      "date": "2026-03-12"
     },
     {
-     "id": "STP-228",
-     "date": null
-    },
-    {
-     "id": "STP-231",
-     "date": null
-    },
-    {
-     "id": "STP-232",
-     "date": null
+     "id": "STP-296",
+     "date": "2026-03-12"
     }
    ]
   }

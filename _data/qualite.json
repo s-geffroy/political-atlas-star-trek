@@ -1,10 +1,10 @@
 {
  "genere_le": "2026-11-10",
  "source": {
-  "csv": "data/source/Star_Trek_Atlas_Politique_V0_3_2026-11-08.csv",
-  "md": "data/source/Star_Trek_Atlas_Politique_V0_3_2026-11-08.md",
-  "version": "0.3",
-  "etat": "État : 8 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
+  "csv": "data/source/Star_Trek_Atlas_Politique_V0_4_2026-11-10.csv",
+  "md": "data/source/Star_Trek_Atlas_Politique_V0_4_2026-11-10.md",
+  "version": "0.4",
+  "etat": "État : 10 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
   "colonnes": [
    "id",
    "cycle",
@@ -21,7 +21,7 @@
   ]
  },
  "erreurs": 0,
- "avertissements": 3,
+ "avertissements": 2,
  "controles": [
   {
    "num": 1,
@@ -45,7 +45,7 @@
    "statut": "ok",
    "erreurs": [],
    "avertissements": [],
-   "info": "A : 17, B : 26, C : 262."
+   "info": "A : 94, B : 165, C : 46."
   },
   {
    "num": 4,
@@ -53,16 +53,14 @@
    "statut": "ok",
    "erreurs": [],
    "avertissements": [],
-   "info": "143 URL contrôlées (syntaxe seulement, pas de requête réseau)."
+   "info": "594 URL contrôlées (syntaxe seulement, pas de requête réseau)."
   },
   {
    "num": 5,
    "titre": "Présence des fiches approfondies",
-   "statut": "avertissement",
+   "statut": "ok",
    "erreurs": [],
-   "avertissements": [
-    "STP-077 : fiche sans source de contrôle"
-   ],
+   "avertissements": [],
    "info": "31 fiches : STP-006, STP-034, STP-048, STP-061, STP-077, STP-094, STP-101, STP-107, STP-125, STP-126, STP-129, STP-139, STP-149, STP-153, STP-157, STP-172, STP-194, STP-197, STP-230, STP-239, STP-267, STP-271, STP-274, STP-281, STP-282, STP-286, STP-293, STP-295, STP-297, STP-298, STP-300."
   },
   {
@@ -110,32 +108,11 @@
   }
  ],
  "limites": {
-  "sans_url": 262,
-  "niveau_c": 262,
-  "autre_a_qualifier": 85,
-  "non_rattachees": [
-   {
-    "id": "STP-009",
-    "refs": [
-     "First Contact"
-    ]
-   },
-   {
-    "id": "STP-011",
-    "refs": [
-     "First Contact"
-    ]
-   },
-   {
-    "id": "STP-013",
-    "refs": [
-     "First Contact"
-    ]
-   }
-  ],
-  "fiches_sans_source": [
-   "STP-077"
-  ],
-  "avec_diffusion": 68
+  "sans_url": 46,
+  "niveau_c": 46,
+  "autre_a_qualifier": 0,
+  "non_rattachees": [],
+  "fiches_sans_source": [],
+  "avec_diffusion": 292
  }
 }

@@ -29,7 +29,8 @@ dependance npm** -- transforme les sources en donnees Jekyll, qui sont
 commitees :
 
 ```
-data/source/              CSV + Markdown du corpus (V0.3), copies tels quels
+data/source/              CSV + Markdown du corpus (V0.3, V0.4), jamais modifies
+data/corrections/         journaux de corrections (V0.4.json : 406 corrections tracees)
 data/diffusion.json       dates de diffusion relevees, chacune avec sa source
 data/ids-publies.json     identifiants deja publies (ne fait que grandir)
 scripts/lib/csv.mjs       parseur CSV (BOM, guillemets, « ; »)
@@ -37,6 +38,7 @@ scripts/lib/fiches.mjs    extraction des 31 fiches et du registre Markdown
 scripts/lib/derive.mjs    regles de derivation (serie, continuite, ordre)
 scripts/lib/atlas.mjs     table domaines <-> categories
 scripts/import.mjs        sources -> _data/*.json, _evenements/*.md, atlas/*.md
+scripts/nouvelle-version.mjs  version N + journal -> version N+1
 scripts/validate.mjs      10 controles documentaires -> docs/rapport-qualite.md
 scripts/check-links.mjs   liens internes d'un site construit (prefixe compris)
 tests/                    node --test
@@ -83,10 +85,22 @@ son deroulement et ses echecs sont visibles dans l'onglet **Actions** du depot.
 Reglage a faire une fois : depot > **Settings** > **Pages** > *Deploy from a
 branch*, branche `main`, dossier `/ (root)`.
 
-## Mettre a jour le corpus (V0.4 et suivantes)
+## Mettre a jour le corpus (V0.5 et suivantes)
 
-1. Deposer `Star_Trek_Atlas_Politique_V0_4_<date>.csv` et `.md` dans
-   `data/source/` (l'import prend automatiquement la version la plus haute).
+Deux voies, qui aboutissent au meme resultat :
+
+- **Corrections tracees (recommande)** : ecrire un journal
+  `data/corrections/V0.5.json` (meme forme que `V0.4.json` : pour chaque
+  entree, les champs avec leur valeur `avant` et `apres`, et un motif), puis
+  `node scripts/nouvelle-version.mjs data/corrections/V0.5.json`. Le script
+  refuse toute valeur « avant » inattendue, ajoute une note d'audit a chaque
+  entree modifiee et ecrit les nouveaux fichiers a cote des anciens.
+- **Fichiers fournis** : deposer `Star_Trek_Atlas_Politique_V0_5_<date>.csv`
+  et `.md` dans `data/source/`.
+
+Puis :
+
+1. L'import prend automatiquement la version la plus haute de `data/source/`.
 2. `npm run check`.
 3. Lire `docs/rapport-import.md` et `docs/rapport-qualite.md`.
 4. Commit, push.

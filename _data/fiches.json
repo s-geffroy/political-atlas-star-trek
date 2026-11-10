@@ -101,7 +101,7 @@
   "entetes": {
    "periode": "2293",
    "source_audiovisuelle": "Film «The Undiscovered Country»",
-   "recoupement": "C — Référence candidate de la V0.2/V0.3, non recoupée dans cet audit"
+   "recoupement": "A — Synopsis officiel"
   },
   "volets": {
    "faits": "L’explosion de Praxis menace les conditions d’existence et la puissance stratégique klingonnes. Des responsables entament un rapprochement avec la Fédération tandis que des acteurs des deux camps cherchent à le saboter.",
@@ -110,7 +110,12 @@
    "objections": "Praxis n’est ni Tchernobyl ni l’effondrement de l’URSS : le film condense des phénomènes distincts en un événement dramatique.",
    "contexte": "Film sorti en 1991, année de dissolution de l’Union soviétique."
   },
-  "sources": []
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.4)",
+    "url": "https://www.startrek.com/en-un/movies/star-trek-vi-the-undiscovered-country"
+   }
+  ]
  },
  "STP-094": {
   "id": "STP-094",

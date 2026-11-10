@@ -4,15 +4,15 @@
  "niveaux": [
   {
    "cle": "A",
-   "n": 17
+   "n": 94
   },
   {
    "cle": "B",
-   "n": 26
+   "n": 165
   },
   {
    "cle": "C",
-   "n": 262
+   "n": 46
   }
  ],
  "cycles": [
@@ -155,7 +155,7 @@
   },
   {
    "cle": "Film",
-   "n": 19,
+   "n": 22,
    "nom": "Films"
   },
   {
@@ -216,32 +216,44 @@
  ],
  "categories": [
   {
-   "cle": "autre / à qualifier",
-   "n": 85
-  },
-  {
    "cle": "guerre/bataille",
-   "n": 78
+   "n": 90
   },
   {
    "cle": "justice/droits",
-   "n": 68
-  },
-  {
-   "cle": "renseignement/sécurité",
-   "n": 54
+   "n": 89
   },
   {
    "cle": "diplomatie/traité",
-   "n": 49
+   "n": 66
+  },
+  {
+   "cle": "renseignement/sécurité",
+   "n": 58
   },
   {
    "cle": "insurrection/pouvoir",
-   "n": 41
+   "n": 54
+  },
+  {
+   "cle": "institutions/fédéralisme",
+   "n": 39
   },
   {
    "cle": "économie/social",
-   "n": 24
+   "n": 33
+  },
+  {
+   "cle": "technologie/bioéthique",
+   "n": 30
+  },
+  {
+   "cle": "colonialisme/occupation",
+   "n": 26
+  },
+  {
+   "cle": "religion/légitimité",
+   "n": 9
   }
  ],
  "continuites": [
@@ -268,16 +280,20 @@
  ],
  "versions": [
   {
+   "cle": "V0.4 révisé",
+   "n": 274
+  },
+  {
    "cle": "V0.2",
-   "n": 255
+   "n": 14
   },
   {
    "cle": "V0.3 ajout",
-   "n": 35
+   "n": 12
   },
   {
    "cle": "V0.3 révisé",
-   "n": 15
+   "n": 5
   }
  ],
  "precisions": [
@@ -318,6 +334,6 @@
   }
  ],
  "max_serie": 59,
- "max_categorie": 85,
+ "max_categorie": 90,
  "max_cycle": 41
 }

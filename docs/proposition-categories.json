@@ -1,0 +1,711 @@
+{
+ "statut": "VALIDÉE le 2026-11-10 par le responsable du projet — intégrée au corpus V0.4",
+ "nouvelles_categories": [
+  "institutions/fédéralisme",
+  "colonialisme/occupation",
+  "religion/légitimité",
+  "technologie/bioéthique"
+ ],
+ "A": {
+  "STP-002": {
+   "categories": [
+    "insurrection/pouvoir"
+   ],
+   "justification": "« Scission idéologique, exil »",
+   "confiance": "moyenne"
+  },
+  "STP-004": {
+   "categories": [
+    "colonialisme/occupation"
+   ],
+   "justification": "« Mise en servitude des espèces », « Esclavage »",
+   "confiance": "haute"
+  },
+  "STP-007": {
+   "categories": [
+    "insurrection/pouvoir",
+    "justice/droits"
+   ],
+   "justification": "« régime autoritaire », « Xénophobie d'État »",
+   "confiance": "haute"
+  },
+  "STP-010": {
+   "categories": [
+    "guerre/bataille",
+    "justice/droits"
+   ],
+   "justification": "« crimes militaires », « Violence exterminatrice »",
+   "confiance": "haute"
+  },
+  "STP-012": {
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "justification": "« Premier contact », « diplomatie interstellaire »",
+   "confiance": "haute"
+  },
+  "STP-013": {
+   "categories": [
+    "institutions/fédéralisme"
+   ],
+   "justification": "« établissement d'institutions planétaires », « puissance diplomatique unifiée »",
+   "confiance": "haute"
+  },
+  "STP-015": {
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "justification": "« tensions diplomatiques », « tutelle stratégique »",
+   "confiance": "haute"
+  },
+  "STP-016": {
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "justification": "« Premier contact conflictuel », « diplomatie de crise »",
+   "confiance": "haute"
+  },
+  "STP-017": {
+   "categories": [
+    "colonialisme/occupation"
+   ],
+   "justification": "« colonie de Terra Nova », « Colonisation »",
+   "confiance": "haute"
+  },
+  "STP-022": {
+   "categories": [
+    "guerre/bataille"
+   ],
+   "justification": "« premier affrontement indirect », « Dissuasion, frontière »",
+   "confiance": "haute"
+  },
+  "STP-024": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« colonie d'internement », « persécution », « culpabilité par appartenance »",
+   "confiance": "haute"
+  },
+  "STP-025": {
+   "categories": [
+    "économie/social",
+    "guerre/bataille"
+   ],
+   "justification": "« Planète de mineurs », « extorsion », « Autodéfense communautaire »",
+   "confiance": "moyenne"
+  },
+  "STP-043": {
+   "categories": [
+    "insurrection/pouvoir"
+   ],
+   "justification": "« unification politique », « Centralisation du pouvoir »",
+   "confiance": "haute"
+  },
+  "STP-049": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« sacrifie un enfant », « instrumentalisation d'une minorité sans consentement »",
+   "confiance": "haute"
+  },
+  "STP-055": {
+   "categories": [
+    "institutions/fédéralisme"
+   ],
+   "justification": "« crise de la chaîne de commandement », « contrôle de l'outil militaire »",
+   "confiance": "moyenne"
+  },
+  "STP-059": {
+   "categories": [
+    "insurrection/pouvoir"
+   ],
+   "justification": "« Régime néonazi », « Fascisme importé »",
+   "confiance": "haute"
+  },
+  "STP-061": {
+   "categories": [
+    "économie/social"
+   ],
+   "justification": "« Structure de caste, lutte sociale et inégalités »",
+   "confiance": "haute"
+  },
+  "STP-062": {
+   "categories": [
+    "guerre/bataille",
+    "diplomatie/traité"
+   ],
+   "justification": "« Projet impérial », « Prévention du conflit entre grandes puissances »",
+   "confiance": "haute"
+  },
+  "STP-066": {
+   "categories": [
+    "guerre/bataille",
+    "institutions/fédéralisme"
+   ],
+   "justification": "« Conflit entre peuples », « Mythe constitutionnel »",
+   "confiance": "moyenne"
+  },
+  "STP-067": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« Enlèvement et déplacement forcé », « Servitude »",
+   "confiance": "haute"
+  },
+  "STP-069": {
+   "categories": [
+    "économie/social"
+   ],
+   "justification": "« Isolement social », « Contre-culture »",
+   "confiance": "moyenne"
+  },
+  "STP-071": {
+   "categories": [
+    "renseignement/sécurité"
+   ],
+   "justification": "« politique de sécurité »",
+   "confiance": "faible"
+  },
+  "STP-074": {
+   "categories": [
+    "guerre/bataille",
+    "technologie/bioéthique"
+   ],
+   "justification": "« revanche », « anciens programmes eugéniques »",
+   "confiance": "moyenne"
+  },
+  "STP-077": {
+   "categories": [
+    "économie/social",
+    "diplomatie/traité"
+   ],
+   "justification": "« crise économique-écologique », « ouverture diplomatique »",
+   "confiance": "haute"
+  },
+  "STP-078": {
+   "categories": [
+    "renseignement/sécurité",
+    "diplomatie/traité"
+   ],
+   "justification": "« conspiration de faucons », « Sabotage de la détente »",
+   "confiance": "haute"
+  },
+  "STP-100": {
+   "categories": [
+    "insurrection/pouvoir",
+    "institutions/fédéralisme"
+   ],
+   "justification": "« Crise de succession », « Légitimité du pouvoir et règles coutumières »",
+   "confiance": "haute"
+  },
+  "STP-104": {
+   "categories": [
+    "religion/légitimité",
+    "diplomatie/traité"
+   ],
+   "justification": "« religion et ingérence », « Directive première »",
+   "confiance": "haute"
+  },
+  "STP-107": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« correction forcée de l'identité de genre », « Persécution des minorités »",
+   "confiance": "haute"
+  },
+  "STP-109": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« préjugés sexistes », « Rapports de sexe »",
+   "confiance": "haute"
+  },
+  "STP-117": {
+   "categories": [
+    "technologie/bioéthique",
+    "justice/droits"
+   ],
+   "justification": "« autonomie des synthétiques », « tutelle de l'État »",
+   "confiance": "haute"
+  },
+  "STP-119": {
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "justification": "« Diplomatie de premier contact »",
+   "confiance": "haute"
+  },
+  "STP-122": {
+   "categories": [
+    "colonialisme/occupation",
+    "institutions/fédéralisme"
+   ],
+   "justification": "« Retrait de Cardassia », « Transition post-coloniale », « fragilité des institutions »",
+   "confiance": "haute"
+  },
+  "STP-124": {
+   "categories": [
+    "religion/légitimité"
+   ],
+   "justification": "« enseignement des Prophètes », « pouvoir des institutions religieuses »",
+   "confiance": "haute"
+  },
+  "STP-130": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« Responsabilité pénale et personnalité juridique »",
+   "confiance": "haute"
+  },
+  "STP-134": {
+   "categories": [
+    "institutions/fédéralisme",
+    "économie/social"
+   ],
+   "justification": "« Conflit entre exécutif central et communautés rurales », « matériels agricoles »",
+   "confiance": "haute"
+  },
+  "STP-136": {
+   "categories": [
+    "insurrection/pouvoir"
+   ],
+   "justification": "« Soulèvement », « Transition du pouvoir militaire vers un gouvernement civil »",
+   "confiance": "haute"
+  },
+  "STP-151": {
+   "categories": [
+    "technologie/bioéthique",
+    "justice/droits"
+   ],
+   "justification": "« augmentation forcée », « Servitude génétique et contrôle pharmaceutique »",
+   "confiance": "haute"
+  },
+  "STP-154": {
+   "categories": [
+    "insurrection/pouvoir",
+    "guerre/bataille"
+   ],
+   "justification": "« détourne les campagnes militaires », « Conflit de succession »",
+   "confiance": "haute"
+  },
+  "STP-155": {
+   "categories": [
+    "insurrection/pouvoir"
+   ],
+   "justification": "« Changement de pouvoir dans l'Empire klingon »",
+   "confiance": "haute"
+  },
+  "STP-161": {
+   "categories": [
+    "institutions/fédéralisme"
+   ],
+   "justification": "« Intégration d'adversaires au sein d'une communauté politique »",
+   "confiance": "moyenne"
+  },
+  "STP-163": {
+   "categories": [
+    "insurrection/pouvoir"
+   ],
+   "justification": "« Tentative de détournement », « Coup de force »",
+   "confiance": "haute"
+  },
+  "STP-169": {
+   "categories": [
+    "colonialisme/occupation"
+   ],
+   "justification": "« Occupation de Voyager », « Occupation, déshumanisation »",
+   "confiance": "haute"
+  },
+  "STP-178": {
+   "categories": [
+    "économie/social"
+   ],
+   "justification": "« Choc systémique, pénurie stratégique »",
+   "confiance": "haute"
+  },
+  "STP-180": {
+   "categories": [
+    "institutions/fédéralisme",
+    "justice/droits"
+   ],
+   "justification": "« indépendante du gouvernement fédéral », « xénophobie »",
+   "confiance": "haute"
+  },
+  "STP-181": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« Conservatisme identitaire et capacité d'intégration »",
+   "confiance": "moyenne"
+  },
+  "STP-182": {
+   "categories": [
+    "institutions/fédéralisme",
+    "diplomatie/traité"
+   ],
+   "justification": "« réunification », « départ de la Fédération », « diplomatie entre États »",
+   "confiance": "haute"
+  },
+  "STP-183": {
+   "categories": [
+    "technologie/bioéthique"
+   ],
+   "justification": "« Politisation de la recherche », « données du projet de propulsion »",
+   "confiance": "moyenne"
+  },
+  "STP-184": {
+   "categories": [
+    "économie/social",
+    "colonialisme/occupation"
+   ],
+   "justification": "« Domination », « Extraction, esclavage et emprise commerciale »",
+   "confiance": "haute"
+  },
+  "STP-186": {
+   "categories": [
+    "insurrection/pouvoir"
+   ],
+   "justification": "« Effondrement d'un régime personnel et vacance de puissance »",
+   "confiance": "haute"
+  },
+  "STP-191": {
+   "categories": [
+    "colonialisme/occupation"
+   ],
+   "justification": "« Occupation brutale », « Colonialisme »",
+   "confiance": "haute"
+  },
+  "STP-195": {
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "justification": "« Assistance humanitaire à un adversaire historique »",
+   "confiance": "haute"
+  },
+  "STP-198": {
+   "categories": [
+    "diplomatie/traité",
+    "institutions/fédéralisme"
+   ],
+   "justification": "« Abandon par la Fédération », « Repli national, dilemme de solidarité »",
+   "confiance": "moyenne"
+  },
+  "STP-202": {
+   "categories": [
+    "technologie/bioéthique",
+    "justice/droits"
+   ],
+   "justification": "« interdiction fédérale des synthétiques », « politique restrictive »",
+   "confiance": "haute"
+  },
+  "STP-203": {
+   "categories": [
+    "insurrection/pouvoir",
+    "guerre/bataille"
+   ],
+   "justification": "« Confédération terrienne xénophobe », « Impérialisme d'extermination »",
+   "confiance": "haute"
+  },
+  "STP-207": {
+   "categories": [
+    "guerre/bataille",
+    "renseignement/sécurité"
+   ],
+   "justification": "« assimilation d'une génération de personnels », « gouvernance sécuritaire »",
+   "confiance": "moyenne"
+  },
+  "STP-209": {
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "justification": "« seconds contacts », « Bureaucratie de l'aide »",
+   "confiance": "moyenne"
+  },
+  "STP-211": {
+   "categories": [
+    "institutions/fédéralisme"
+   ],
+   "justification": "« Crise de direction », « Gouvernance interne »",
+   "confiance": "moyenne"
+  },
+  "STP-213": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« Hiérarchie familiale », « émancipation »",
+   "confiance": "moyenne"
+  },
+  "STP-215": {
+   "categories": [
+    "technologie/bioéthique",
+    "institutions/fédéralisme"
+   ],
+   "justification": "« flotte automatisée », « automatisation et contrôle démocratique »",
+   "confiance": "haute"
+  },
+  "STP-217": {
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "justification": "« risque de crise diplomatique »",
+   "confiance": "faible"
+  },
+  "STP-218": {
+   "categories": [
+    "institutions/fédéralisme"
+   ],
+   "justification": "« intégration dans les institutions »",
+   "confiance": "moyenne"
+  },
+  "STP-221": {
+   "categories": [
+    "guerre/bataille"
+   ],
+   "justification": "« anéantir Starfleet en représailles »",
+   "confiance": "haute"
+  },
+  "STP-227": {
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "justification": "« Premier contact, ingérence involontaire et souveraineté »",
+   "confiance": "haute"
+  },
+  "STP-228": {
+   "categories": [
+    "institutions/fédéralisme"
+   ],
+   "justification": "« Reconstruction de l'État fédéral et accès à l'éducation »",
+   "confiance": "haute"
+  },
+  "STP-229": {
+   "categories": [
+    "économie/social"
+   ],
+   "justification": "« Ascension sociale », « étudiant issu de la rue »",
+   "confiance": "moyenne"
+  },
+  "STP-230": {
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "justification": "« Survie d'un peuple », « intervention fédérale »",
+   "confiance": "moyenne"
+  },
+  "STP-231": {
+   "categories": [
+    "guerre/bataille"
+   ],
+   "justification": "« menace hostile », « Sécurité collective »",
+   "confiance": "moyenne"
+  },
+  "STP-232": {
+   "categories": [
+    "institutions/fédéralisme"
+   ],
+   "justification": "« Responsabilité des dirigeants », « pouvoir institutionnel »",
+   "confiance": "faible"
+  },
+  "STP-233": {
+   "categories": [
+    "insurrection/pouvoir",
+    "colonialisme/occupation"
+   ],
+   "justification": "« Empire terrien esclavagiste », « Totalitarisme », « impérialisme »",
+   "confiance": "haute"
+  },
+  "STP-242": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« assignée à la reproduction », « Système de caste sexuelle »",
+   "confiance": "haute"
+  },
+  "STP-245": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« Domination de caste et servitude »",
+   "confiance": "haute"
+  },
+  "STP-246": {
+   "categories": [
+    "technologie/bioéthique"
+   ],
+   "justification": "« technologie militaire autonome », « Automatisation de la force »",
+   "confiance": "haute"
+  },
+  "STP-249": {
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "justification": "« non-ingérence », « Directive première », « envoyés »",
+   "confiance": "moyenne"
+  },
+  "STP-250": {
+   "categories": [
+    "technologie/bioéthique",
+    "colonialisme/occupation"
+   ],
+   "justification": "« colonisation expérimentale », « Eugénisme politique »",
+   "confiance": "haute"
+  },
+  "STP-255": {
+   "categories": [
+    "technologie/bioéthique",
+    "économie/social"
+   ],
+   "justification": "« Externalités écologiques des voyages à distorsion »",
+   "confiance": "moyenne"
+  },
+  "STP-256": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« ségrégation raciale », « Racisme »",
+   "confiance": "haute"
+  },
+  "STP-262": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« Délit de pensée », « présomption d'innocence »",
+   "confiance": "haute"
+  },
+  "STP-266": {
+   "categories": [
+    "colonialisme/occupation",
+    "justice/droits"
+   ],
+   "justification": "« hiérarchie Kelpiens–Ba'ul », « Domination d'une espèce par une autre »",
+   "confiance": "haute"
+  },
+  "STP-268": {
+   "categories": [
+    "justice/droits"
+   ],
+   "justification": "« crimes commis pendant son règne », « Responsabilité historique »",
+   "confiance": "haute"
+  },
+  "STP-269": {
+   "categories": [
+    "institutions/fédéralisme"
+   ],
+   "justification": "« Dissidence institutionnelle », « Directive première »",
+   "confiance": "moyenne"
+  },
+  "STP-277": {
+   "categories": [
+    "religion/légitimité",
+    "insurrection/pouvoir"
+   ],
+   "justification": "« retour de Kahless », « Légitimité charismatique contre gouvernance politique »",
+   "confiance": "haute"
+  },
+  "STP-285": {
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "justification": "« ingérence non autorisée », « non-ingérence »",
+   "confiance": "faible"
+  },
+  "STP-290": {
+   "categories": [
+    "guerre/bataille"
+   ],
+   "justification": "« Éthique de survie », « dommages causés aux neutres »",
+   "confiance": "faible"
+  },
+  "STP-291": {
+   "categories": [
+    "colonialisme/occupation",
+    "justice/droits"
+   ],
+   "justification": "« Oppression de populations », « Ségrégation, colonisation »",
+   "confiance": "haute"
+  },
+  "STP-292": {
+   "categories": [
+    "institutions/fédéralisme",
+    "renseignement/sécurité"
+   ],
+   "justification": "« Isolement de Betazed », « Sécurité, frontières, souveraineté »",
+   "confiance": "moyenne"
+  }
+ },
+ "B": {
+  "institutions/fédéralisme": {
+   "STP-001": "« réforme des institutions »",
+   "STP-011": "« effondrement institutionnel »",
+   "STP-029": "« Éclatement politique du Conseil xindi »",
+   "STP-032": "« Transition constitutionnelle »",
+   "STP-044": "« capture d'institutions de sécurité »",
+   "STP-064": "« Fédéralisme », « admissions à la Fédération »",
+   "STP-083": "« Coup d'État contre le Sénat romulien »",
+   "STP-135": "« Élection », « Transition électorale »",
+   "STP-159": "« Modernisation institutionnelle »",
+   "STP-166": "« négociation constitutionnelle »",
+   "STP-185": "« fusion institutionnelle »",
+   "STP-187": "« Réintégration de Ni'Var et de la Terre à la Fédération »",
+   "STP-189": "« Débat institutionnel »",
+   "STP-199": "« Vide institutionnel »",
+   "STP-206": "« Capture interne des institutions »",
+   "STP-208": "« Réparation institutionnelle »",
+   "STP-223": "« Accès aux institutions et citoyenneté »",
+   "STP-235": "« Réforme institutionnelle »",
+   "STP-273": "« adhésion de Bajor à la Fédération »",
+   "STP-279": "« Prise de contrôle institutionnel »",
+   "STP-282": "« institutions endogènes »",
+   "STP-293": "« Fédéralisme asymétrique »"
+  },
+  "colonialisme/occupation": {
+   "STP-051": "« protection des colonies et souveraineté territoriale »",
+   "STP-054": "« Occupation klingonne », « résistance locale »",
+   "STP-099": "« Souveraineté des colons »",
+   "STP-103": "« Déplacement des colons », « Souveraineté autochtone »",
+   "STP-112": "« indépendantisme »",
+   "STP-114": "« frontières des colonies », « défaut de consentement des habitants »",
+   "STP-121": "« Résistance bajorane », « occupant cardassien »",
+   "STP-127": "« violence des colons », « Statut des frontières »",
+   "STP-150": "« Résistance clandestine », « l'Occupation »",
+   "STP-156": "« résistance cardassienne », « Lutte de libération »",
+   "STP-157": "« perte de légitimité de l'occupant »",
+   "STP-236": "« réduit des Terriens en esclavage », « Cycle de domination »",
+   "STP-237": "« Libération anticoloniale »",
+   "STP-298": "« Occupation militaire », « résistance locale »",
+   "STP-299": "« résistance de Mat'aar XII »",
+   "STP-304": "« indépendance bajorane », « autodétermination »"
+  },
+  "religion/légitimité": {
+   "STP-001": "« religion civique »",
+   "STP-021": "« sanctuaire religieux »",
+   "STP-070": "« Théocratie technologique »",
+   "STP-272": "« castes d'jarra », « pouvoir religieux »",
+   "STP-273": "« Émissaire », « autorité religieuse »",
+   "STP-287": "« religion populaire »"
+  },
+  "technologie/bioéthique": {
+   "STP-005": "« Guerres eugéniques », « Autoritarisme biotechnologique »",
+   "STP-044": "« capture d'institutions de sécurité par une IA »",
+   "STP-046": "« Prolifération technologique »",
+   "STP-047": "« politique de l'eugénisme »",
+   "STP-050": "« génétiquement modifiés »",
+   "STP-070": "« ordinateur Vaal », « Théocratie technologique »",
+   "STP-094": "« Data », « propriété d'un être conscient »",
+   "STP-095": "« vétérans génétiquement conditionnés »",
+   "STP-111": "« exocomps », « Droits de sujets artificiels »",
+   "STP-172": "« Statut des IA »",
+   "STP-193": "« technologie des Progéniteurs »",
+   "STP-196": "« Attaque des synthétiques »",
+   "STP-197": "« formes de vie synthétiques »",
+   "STP-200": "« politique de terreur technologique »",
+   "STP-201": "« droits des synthétiques »",
+   "STP-222": "« Guerre technologique »",
+   "STP-253": "« sélection sociale et génétique », « Eugénisme »",
+   "STP-254": "« travailleurs artificiels exocomps »",
+   "STP-265": "« Terrorisme technologique »",
+   "STP-280": "« drone Borg Hugh », « Guerre biologique/informationnelle »",
+   "STP-281": "« proies holographiques intelligentes », « droit des intelligences artificielles »"
+  }
+ }
+}

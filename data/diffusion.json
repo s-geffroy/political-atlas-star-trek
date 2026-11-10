@@ -4,7 +4,8 @@
   "ENRICHISSEMENT HORS CORPUS : ces dates ne figurent pas dans le CSV V0.3.",
   "Releve le 2026-11-10 sur les pages citees en source_url (Wikipedia en anglais ; Memory Alpha inaccessible ce jour-la).",
   "Regle : une date n'est retenue que si elle a ete lue sur la page citee ; en cas de divergence entre pages, la precision est reduite (mois, annee) ou la date mise a null, et la note l'explique.",
-  "titre_corpus = libelle exact employe dans le champ source du CSV, pour le rattachement."
+  "titre_corpus = libelle exact employe dans le champ source du CSV, pour le rattachement.",
+  "Complement du 2026-11-10 (passe V0.4) : dates des episodes cites par toutes les entrees, relevees de la meme facon ; une seule source par date sauf mention dans note."
  ],
  "releve_le": "2026-11-10",
  "series": [
@@ -533,6 +534,1878 @@
    "date": "2026-07-23",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes",
    "note": "S4E1, Paramount+."
+  },
+  {
+   "serie": "DS9",
+   "titre": "To the Death",
+   "titre_corpus": "To the Death",
+   "date": "1996-05-11",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Emissary",
+   "titre_corpus": "Emissary",
+   "date": "1993-01-03",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Épisode pilote double, listé comme une seule diffusion. Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Maquis, Part I",
+   "titre_corpus": "The Maquis",
+   "date": "1994-04-24",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Maquis, Part II",
+   "titre_corpus": "The Maquis",
+   "date": "1994-05-01",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Necessary Evil",
+   "titre_corpus": "Necessary Evil",
+   "date": "1993-11-14",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Shakaar",
+   "titre_corpus": "Shakaar",
+   "date": "1995-05-20",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Darkness and the Light",
+   "titre_corpus": "The Darkness and the Light",
+   "date": "1997-01-06",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "In the Hands of the Prophets",
+   "titre_corpus": "In the Hands of the Prophets",
+   "date": "1993-06-20",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Jem'Hadar",
+   "titre_corpus": "The Jem'Hadar",
+   "date": "1994-06-12",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Dax",
+   "titre_corpus": "Dax",
+   "date": "1993-02-14",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Equilibrium",
+   "titre_corpus": "Equilibrium",
+   "date": "1994-10-15",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Adversary",
+   "titre_corpus": "The Adversary",
+   "date": "1995-06-17",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Second Skin",
+   "titre_corpus": "Second Skin",
+   "date": "1994-10-22",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Cardassians",
+   "titre_corpus": "Cardassians",
+   "date": "1993-10-24",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Way of the Warrior",
+   "titre_corpus": "The Way of the Warrior",
+   "date": "1995-09-30",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Épisode double, listé comme une seule diffusion. Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Apocalypse Rising",
+   "titre_corpus": "Apocalypse Rising",
+   "date": "1996-09-30",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "For the Cause",
+   "titre_corpus": "For the Cause",
+   "date": "1996-05-04",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "For the Uniform",
+   "titre_corpus": "For the Uniform",
+   "date": "1997-02-03",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Things Past",
+   "titre_corpus": "Things Past",
+   "date": "1996-11-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "By Inferno's Light",
+   "titre_corpus": "By Inferno's Light",
+   "date": "1997-02-17",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Call to Arms",
+   "titre_corpus": "Call to Arms",
+   "date": "1997-06-16",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "A Time to Stand",
+   "titre_corpus": "A Time to Stand",
+   "date": "1997-09-27",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Sacrifice of Angels",
+   "titre_corpus": "Sacrifice of Angels",
+   "date": "1997-11-01",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Behind the Lines",
+   "titre_corpus": "Behind the Lines",
+   "date": "1997-10-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Favor the Bold",
+   "titre_corpus": "Favor the Bold",
+   "date": "1997-10-25",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Hippocratic Oath",
+   "titre_corpus": "Hippocratic Oath",
+   "date": "1995-10-14",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Rocks and Shoals",
+   "titre_corpus": "Rocks and Shoals",
+   "date": "1997-10-04",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Quickening",
+   "titre_corpus": "The Quickening",
+   "date": "1996-05-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Tacking into the Wind",
+   "titre_corpus": "Tacking Into the Wind",
+   "date": "1999-05-12",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Titre Wikipedia : « Tacking into the Wind ». Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "When It Rains...",
+   "titre_corpus": "When It Rains…",
+   "date": "1999-05-05",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Titre Wikipedia : « When It Rains... ». Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Dogs of War",
+   "titre_corpus": "The Dogs of War",
+   "date": "1999-05-26",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Profit and Lace",
+   "titre_corpus": "Profit and Lace",
+   "date": "1998-05-09",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Crossover",
+   "titre_corpus": "Crossover",
+   "date": "1994-05-15",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Through the Looking Glass",
+   "titre_corpus": "Through the Looking Glass",
+   "date": "1995-04-15",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Shattered Mirror",
+   "titre_corpus": "Shattered Mirror",
+   "date": "1996-04-20",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Emperor's New Cloak",
+   "titre_corpus": "The Emperor's New Cloak",
+   "date": "1999-02-03",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Far Beyond the Stars",
+   "titre_corpus": "Far Beyond the Stars",
+   "date": "1998-02-07",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Badda-Bing Badda-Bang",
+   "titre_corpus": "Badda-Bing, Badda-Bang",
+   "date": "1999-02-24",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Titre Wikipedia : « Badda-Bing Badda-Bang ». Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Ties of Blood and Water",
+   "titre_corpus": "Ties of Blood and Water",
+   "date": "1997-04-14",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Siege of AR-558",
+   "titre_corpus": "The Siege of AR-558",
+   "date": "1998-11-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Accession",
+   "titre_corpus": "Accession",
+   "date": "1996-02-24",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Rapture",
+   "titre_corpus": "Rapture",
+   "date": "1996-12-30",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Paradise",
+   "titre_corpus": "Paradise",
+   "date": "1994-02-13",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Past Prologue",
+   "titre_corpus": "Past Prologue",
+   "date": "1993-01-10",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Inter Arma Enim Silent Leges",
+   "titre_corpus": "Inter Arma Enim Silent Leges",
+   "date": "1999-03-03",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Date de la liste Wikipedia (diffusion d'origine en syndication) ; une seule source consultée, non recoupée."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Unification, Part I",
+   "titre_corpus": "Unification",
+   "date": "1991-11-04",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_5",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Unification, Part II",
+   "titre_corpus": "Unification",
+   "date": "1991-11-11",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_5",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Contagion",
+   "titre_corpus": "Contagion",
+   "date": "1989-03-20",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_2",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Encounter at Farpoint",
+   "titre_corpus": "Encounter at Farpoint",
+   "date": "1987-09-28",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_1",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Last Outpost",
+   "titre_corpus": "The Last Outpost",
+   "date": "1987-10-19",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_1",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Code of Honor",
+   "titre_corpus": "Code of Honor",
+   "date": "1987-10-12",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_1",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Justice",
+   "titre_corpus": "Justice",
+   "date": "1987-11-09",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_1",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Symbiosis",
+   "titre_corpus": "Symbiosis",
+   "date": "1988-04-18",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_1",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Hunted",
+   "titre_corpus": "The Hunted",
+   "date": "1990-01",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3",
+   "note": "Liste de la saison 3 : 1990-01-10 ; article Wikipedia de l'épisode : 1990-01-08 (syndication). Précision réduite au mois."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Enemy",
+   "titre_corpus": "The Enemy",
+   "date": "1989-11-06",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Sins of the Father",
+   "titre_corpus": "Sins of the Father",
+   "date": "1990-03-19",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Best of Both Worlds, Part I",
+   "titre_corpus": "The Best of Both Worlds",
+   "date": "1990-06-18",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Best of Both Worlds, Part II",
+   "titre_corpus": "The Best of Both Worlds",
+   "date": "1990-09-24",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_4",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Ensigns of Command",
+   "titre_corpus": "The Ensigns of Command",
+   "date": "1989-10-02",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Reunion",
+   "titre_corpus": "Reunion",
+   "date": "1990-11-05",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_4",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Redemption, Part I",
+   "titre_corpus": "Redemption",
+   "date": "1991-06-17",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_4",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Redemption, Part II",
+   "titre_corpus": "Redemption",
+   "date": "1991-09-23",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_5",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Journey's End",
+   "titre_corpus": "Journey's End",
+   "date": "1994-03-28",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_7",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Who Watches the Watchers",
+   "titre_corpus": "Who Watches the Watchers",
+   "date": "1989-10-16",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Face of the Enemy",
+   "titre_corpus": "Face of the Enemy",
+   "date": "1993-02-08",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_6",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Half a Life",
+   "titre_corpus": "Half a Life",
+   "date": "1991-05-06",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_4",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Angel One",
+   "titre_corpus": "Angel One",
+   "date": "1988-01-25",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_1",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Chain of Command, Part I",
+   "titre_corpus": "Chain of Command",
+   "date": "1992-12-14",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_6",
+   "note": "Dates des deux parties lues dans la liste de la saison 6 et concordantes avec l'article de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Chain of Command, Part II",
+   "titre_corpus": "Chain of Command",
+   "date": "1992-12-21",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_6",
+   "note": "Dates des deux parties lues dans la liste de la saison 6 et concordantes avec l'article de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Quality of Life",
+   "titre_corpus": "The Quality of Life",
+   "date": "1992-11-16",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_6",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The High Ground",
+   "titre_corpus": "The High Ground",
+   "date": "1990-01",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3",
+   "note": "Liste de la saison 3 : 1990-01-31 ; article de l'épisode : 1990-01-29. Précision réduite au mois."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Wounded",
+   "titre_corpus": "The Wounded",
+   "date": "1991-01-28",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_4",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Preemptive Strike",
+   "titre_corpus": "Preemptive Strike",
+   "date": "1994-05-16",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_7",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Pegasus",
+   "titre_corpus": "The Pegasus",
+   "date": "1994-01-10",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_7",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Offspring",
+   "titre_corpus": "The Offspring",
+   "date": "1990-03-12",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Homeward",
+   "titre_corpus": "Homeward",
+   "date": "1994-01-17",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_7",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "First Contact",
+   "titre_corpus": "First Contact",
+   "date": "1991-02-18",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_4",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Defector",
+   "titre_corpus": "The Defector",
+   "date": "1990-01-01",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Perfect Mate",
+   "titre_corpus": "The Perfect Mate",
+   "date": "1992-04-27",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_5",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Masterpiece Society",
+   "titre_corpus": "The Masterpiece Society",
+   "date": "1992-02",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_5",
+   "note": "Liste de la saison 5 : 1992-02-03 ; article de l'épisode : 1992-02-10. Précision réduite au mois."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Force of Nature",
+   "titre_corpus": "Force of Nature",
+   "date": "1993-11-15",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_7",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Ensign Ro",
+   "titre_corpus": "Ensign Ro",
+   "date": "1991-10-07",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_5",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Rightful Heir",
+   "titre_corpus": "Rightful Heir",
+   "date": "1993-05-17",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_6",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Yesterday's Enterprise",
+   "titre_corpus": "Yesterday’s Enterprise",
+   "date": "1990-02-19",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode. Titre du corpus avec apostrophe typographique."
+  },
+  {
+   "serie": "TNG",
+   "titre": "Conspiracy",
+   "titre_corpus": "Conspiracy",
+   "date": "1988-05-09",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_1",
+   "note": "Concorde avec l'infobox de l'article Wikipedia de l'épisode."
+  },
+  {
+   "serie": "TNG",
+   "titre": "I, Borg",
+   "titre_corpus": "I, Borg",
+   "date": "1992-05",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_5",
+   "note": "Liste de la saison 5 : 1992-05-11 ; article de l'épisode : 1992-05-10. Précision réduite au mois."
+  },
+  {
+   "serie": "TOS",
+   "titre": "Amok Time",
+   "titre_corpus": "Amok Time",
+   "date": "1967-09-15",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2",
+   "note": ""
+  },
+  {
+   "serie": "TAS",
+   "titre": "The Slaver Weapon",
+   "titre_corpus": "The Slaver Weapon",
+   "date": "1973-12",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
+   "note": "Wikipedia (liste TAS et article de l'épisode) : 8 décembre 1973 ; rewatch Reactor (https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/) : 15 décembre 1973. Précision réduite au mois."
+  },
+  {
+   "serie": "TOS",
+   "titre": "Space Seed",
+   "titre_corpus": "Space Seed",
+   "date": "1967-02-16",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_1",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "The Savage Curtain",
+   "titre_corpus": "The Savage Curtain",
+   "date": "1969-03-07",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_3",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "Balance of Terror",
+   "titre_corpus": "Balance of Terror",
+   "date": "1966-12-15",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_1",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "Let That Be Your Last Battlefield",
+   "titre_corpus": "Let That Be Your Last Battlefield",
+   "date": "1969-01-10",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_3",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "A Taste of Armageddon",
+   "titre_corpus": "A Taste of Armageddon",
+   "date": "1967-02-23",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_1",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "The Return of the Archons",
+   "titre_corpus": "The Return of the Archons",
+   "date": "1967-02-09",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_1",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "Patterns of Force",
+   "titre_corpus": "Patterns of Force",
+   "date": "1968-02-16",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "A Private Little War",
+   "titre_corpus": "A Private Little War",
+   "date": "1968-02-02",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "Errand of Mercy",
+   "titre_corpus": "Errand of Mercy",
+   "date": "1967-03-23",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_1",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "Journey to Babel",
+   "titre_corpus": "Journey to Babel",
+   "date": "1967-11-17",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "Friday's Child",
+   "titre_corpus": "Friday's Child",
+   "date": "1967-12-01",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "The Omega Glory",
+   "titre_corpus": "The Omega Glory",
+   "date": "1968-03-01",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "The Gamesters of Triskelion",
+   "titre_corpus": "The Gamesters of Triskelion",
+   "date": "1968-01-05",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "The Mark of Gideon",
+   "titre_corpus": "The Mark of Gideon",
+   "date": "1969-01-17",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_3",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "The Way to Eden",
+   "titre_corpus": "The Way to Eden",
+   "date": "1969-02-21",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_3",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "The Apple",
+   "titre_corpus": "The Apple",
+   "date": "1967-10-13",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2",
+   "note": ""
+  },
+  {
+   "serie": "TAS",
+   "titre": "The Jihad",
+   "titre_corpus": "The Jihad",
+   "date": "1974-01-12",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "Mirror, Mirror",
+   "titre_corpus": "Mirror, Mirror",
+   "date": "1967-10-06",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "Plato's Stepchildren",
+   "titre_corpus": "Plato's Stepchildren",
+   "date": "1968-11-22",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_3",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "The Ultimate Computer",
+   "titre_corpus": "The Ultimate Computer",
+   "date": "1968-03-08",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2",
+   "note": ""
+  },
+  {
+   "serie": "TOS",
+   "titre": "Whom Gods Destroy",
+   "titre_corpus": "Whom Gods Destroy",
+   "date": "1969-01-03",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_3",
+   "note": ""
+  },
+  {
+   "serie": "TAS",
+   "titre": "Albatross",
+   "titre_corpus": "Albatross",
+   "date": "1974-09-28",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
+   "note": ""
+  },
+  {
+   "serie": "TAS",
+   "titre": "Bem",
+   "titre_corpus": "Bem",
+   "date": "1974-09-14",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
+   "note": ""
+  },
+  {
+   "serie": "TAS",
+   "titre": "The Infinite Vulcan",
+   "titre_corpus": "The Infinite Vulcan",
+   "date": "1973-10-20",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "The Forge",
+   "titre_corpus": "The Forge",
+   "date": "2004-11-19",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Kir'Shara",
+   "titre_corpus": "Kir'Shara",
+   "date": "2004-12-03",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Awakening",
+   "titre_corpus": "Awakening",
+   "date": "2004-11-26",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Borderland",
+   "titre_corpus": "Borderland",
+   "date": "2004-10-29",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Broken Bow",
+   "titre_corpus": "Broken Bow",
+   "date": "2001-09-26",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_1",
+   "note": "Pilote de deux heures diffusé en une seule soirée ; scindé en deux épisodes en syndication."
+  },
+  {
+   "serie": "ENT",
+   "titre": "First Flight",
+   "titre_corpus": "First Flight",
+   "date": "2003-05-14",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_2",
+   "note": "Diffusé le même soir que « Bounty » selon la liste de saison."
+  },
+  {
+   "serie": "ENT",
+   "titre": "Terra Nova",
+   "titre_corpus": "Terra Nova",
+   "date": "2001-10-24",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_1",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Shockwave, Part I",
+   "titre_corpus": "Shockwave",
+   "date": "2002-05-22",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_1",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Shockwave, Part II",
+   "titre_corpus": "Shockwave",
+   "date": "2002-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_2",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Storm Front, Part I",
+   "titre_corpus": "Storm Front",
+   "date": "2004-10-08",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Storm Front, Part II",
+   "titre_corpus": "Storm Front",
+   "date": "2004-10-15",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Fusion",
+   "titre_corpus": "Fusion",
+   "date": "2002-02-27",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_1",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Civilization",
+   "titre_corpus": "Civilization",
+   "date": "2001-11-14",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_1",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "The Andorian Incident",
+   "titre_corpus": "The Andorian Incident",
+   "date": "2001-10-31",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_1",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Shadows of P'Jem",
+   "titre_corpus": "Shadows of P'Jem",
+   "date": "2002-02-06",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_1",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Minefield",
+   "titre_corpus": "Minefield",
+   "date": "2002-10-02",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_2",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Cease Fire",
+   "titre_corpus": "Cease Fire",
+   "date": "2003-02-12",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_2",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Detained",
+   "titre_corpus": "Detained",
+   "date": "2002-04-24",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_1",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Marauders",
+   "titre_corpus": "Marauders",
+   "date": "2002-10-30",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_2",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "The Expanse",
+   "titre_corpus": "The Expanse",
+   "date": "2003-05-21",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_2",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "The Council",
+   "titre_corpus": "The Council",
+   "date": "2004-05-12",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_3",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Countdown",
+   "titre_corpus": "Countdown",
+   "date": "2004-05-19",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_3",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Zero Hour",
+   "titre_corpus": "Zero Hour",
+   "date": "2004-05-26",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_3",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Babel One",
+   "titre_corpus": "Babel One",
+   "date": "2005-01-28",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "United",
+   "titre_corpus": "United",
+   "date": "2005-02-04",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "The Aenar",
+   "titre_corpus": "The Aenar",
+   "date": "2005-02-11",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Dear Doctor",
+   "titre_corpus": "Dear Doctor",
+   "date": "2002-01-23",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_1",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Cogenitor",
+   "titre_corpus": "Cogenitor",
+   "date": "2003-04-30",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_2",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Stigma",
+   "titre_corpus": "Stigma",
+   "date": "2003-02-05",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_2",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "The Communicator",
+   "titre_corpus": "The Communicator",
+   "date": "2002-11-13",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_2",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "Damage",
+   "titre_corpus": "Damage",
+   "date": "2004-04-21",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_3",
+   "note": ""
+  },
+  {
+   "serie": "ENT",
+   "titre": "North Star",
+   "titre_corpus": "North Star",
+   "date": "2003-11-12",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_3",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Hunters",
+   "titre_corpus": "Hunters",
+   "date": "1998-02-11",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Voyager_season_4",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Caretaker",
+   "titre_corpus": "Caretaker",
+   "date": "1995-01-16",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": "Pilote de deux heures diffusé en une seule soirée sur UPN (scindé en deux épisodes en syndication)."
+  },
+  {
+   "serie": "VOY",
+   "titre": "Learning Curve",
+   "titre_corpus": "Learning Curve",
+   "date": "1995-05-22",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Initiations",
+   "titre_corpus": "Initiations",
+   "date": "1995-09-04",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Maneuvers",
+   "titre_corpus": "Maneuvers",
+   "date": "1995-11-20",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Basics, Part I",
+   "titre_corpus": "Basics",
+   "date": "1996-05-20",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Basics, Part II",
+   "titre_corpus": "Basics",
+   "date": "1996-09-04",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Resistance",
+   "titre_corpus": "Resistance",
+   "date": "1995-11-27",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Death Wish",
+   "titre_corpus": "Death Wish",
+   "date": "1996-02-19",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "The Q and the Grey",
+   "titre_corpus": "The Q and the Grey",
+   "date": "1996-11-27",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "The Chute",
+   "titre_corpus": "The Chute",
+   "date": "1996-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Scorpion, Part I",
+   "titre_corpus": "Scorpion",
+   "date": "1997-05-21",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Scorpion, Part II",
+   "titre_corpus": "Scorpion",
+   "date": "1997-09-03",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Voyager_season_4",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "The Killing Game, Part I",
+   "titre_corpus": "The Killing Game",
+   "date": "1998-03-04",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Voyager_season_4",
+   "note": "Les deux parties figurent avec une même date de diffusion."
+  },
+  {
+   "serie": "VOY",
+   "titre": "The Killing Game, Part II",
+   "titre_corpus": "The Killing Game",
+   "date": "1998-03-04",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Voyager_season_4",
+   "note": "Les deux parties figurent avec une même date de diffusion."
+  },
+  {
+   "serie": "VOY",
+   "titre": "Counterpoint",
+   "titre_corpus": "Counterpoint",
+   "date": "1998-12-16",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Critical Care",
+   "titre_corpus": "Critical Care",
+   "date": "2000-11-01",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Nemesis",
+   "titre_corpus": "Nemesis",
+   "date": "1997-09-24",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Voyager_season_4",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Unimatrix Zero, Part I",
+   "titre_corpus": "Unimatrix Zero",
+   "date": "2000-05-24",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Unimatrix Zero, Part II",
+   "titre_corpus": "Unimatrix Zero",
+   "date": "2000-10-04",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Repentance",
+   "titre_corpus": "Repentance",
+   "date": "2001-01-31",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Distant Origin",
+   "titre_corpus": "Distant Origin",
+   "date": "1997-04-30",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Living Witness",
+   "titre_corpus": "Living Witness",
+   "date": "1998-04-29",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Voyager_season_4",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Random Thoughts",
+   "titre_corpus": "Random Thoughts",
+   "date": "1997-11-19",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Voyager_season_4",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Memorial",
+   "titre_corpus": "Memorial",
+   "date": "2000-02-02",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Workforce, Part I",
+   "titre_corpus": "Workforce",
+   "date": "2001-02-21",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Workforce, Part II",
+   "titre_corpus": "Workforce",
+   "date": "2001-02-28",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Warhead",
+   "titre_corpus": "Warhead",
+   "date": "1999-05-19",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Alliances",
+   "titre_corpus": "Alliances",
+   "date": "1996-01-22",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "VOY",
+   "titre": "Thirty Days",
+   "titre_corpus": "Thirty Days",
+   "date": "1998-12-09",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "The Vulcan Hello",
+   "titre_corpus": "The Vulcan Hello",
+   "date": "2017-09-24",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Battle at the Binary Stars",
+   "titre_corpus": "Battle at the Binary Stars",
+   "date": "2017-09-24",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Will You Take My Hand?",
+   "titre_corpus": "Will You Take My Hand?",
+   "date": "2018-02-11",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Point of Light",
+   "titre_corpus": "Point of Light",
+   "date": "2019-01-31",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Such Sweet Sorrow, Part 1",
+   "titre_corpus": "Such Sweet Sorrow",
+   "date": "2019-04-11",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+   "note": "Épisode en deux parties ; la liste Wikipedia donne une date par partie."
+  },
+  {
+   "serie": "DIS",
+   "titre": "Such Sweet Sorrow, Part 2",
+   "titre_corpus": "Such Sweet Sorrow",
+   "date": "2019-04-18",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+   "note": "Épisode en deux parties ; la liste Wikipedia donne une date par partie."
+  },
+  {
+   "serie": "DIS",
+   "titre": "Despite Yourself",
+   "titre_corpus": "Despite Yourself",
+   "date": "2018-01-07",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "What's Past Is Prologue",
+   "titre_corpus": "What's Past Is Prologue",
+   "date": "2018-01-28",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "People of Earth",
+   "titre_corpus": "People of Earth",
+   "date": "2020-10-29",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Unification III",
+   "titre_corpus": "Unification III",
+   "date": "2020-11-26",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Forget Me Not",
+   "titre_corpus": "Forget Me Not",
+   "date": "2020-11-05",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Scavengers",
+   "titre_corpus": "Scavengers",
+   "date": "2020-11-19",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "The Sanctuary",
+   "titre_corpus": "The Sanctuary",
+   "date": "2020-12-03",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "There Is a Tide...",
+   "titre_corpus": "There Is a Tide…",
+   "date": "2020-12-31",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "That Hope Is You, Part 2",
+   "titre_corpus": "That Hope Is You, Part 2",
+   "date": "2021-01-07",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Kobayashi Maru",
+   "titre_corpus": "Kobayashi Maru",
+   "date": "2021-11-18",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+   "note": "Le titre réel est « Kobayashi Maru » (S4E1)."
+  },
+  {
+   "serie": "DIS",
+   "titre": "Anomaly",
+   "titre_corpus": "Anomaly",
+   "date": "2021-11-25",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "...But to Connect",
+   "titre_corpus": "...But to Connect",
+   "date": "2021-12-30",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "All In",
+   "titre_corpus": "All In",
+   "date": "2022-02-10",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Species Ten-C",
+   "titre_corpus": "Species Ten-C",
+   "date": "2022-03-10",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Coming Home",
+   "titre_corpus": "Coming Home",
+   "date": "2022-03-17",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Erigah",
+   "titre_corpus": "Erigah",
+   "date": "2024-05-09",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_5",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "Life, Itself",
+   "titre_corpus": "Life, Itself",
+   "date": "2024-05-30",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_5",
+   "note": ""
+  },
+  {
+   "serie": "Short Treks",
+   "titre": "Children of Mars",
+   "titre_corpus": "Children of Mars",
+   "date": "2020-01-09",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
+   "note": ""
+  },
+  {
+   "serie": "Short Treks",
+   "titre": "The Brightest Star",
+   "titre_corpus": "The Brightest Star",
+   "date": "2018-12-06",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
+   "note": ""
+  },
+  {
+   "serie": "DIS",
+   "titre": "New Eden",
+   "titre_corpus": "New Eden",
+   "date": "2019-01-24",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+   "note": ""
+  },
+  {
+   "serie": "PIC",
+   "titre": "Assimilation",
+   "titre_corpus": "Assimilation",
+   "date": "2022-03-17",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2",
+   "note": ""
+  },
+  {
+   "serie": "PIC",
+   "titre": "Farewell",
+   "titre_corpus": "Farewell",
+   "date": "2022-05-05",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2",
+   "note": ""
+  },
+  {
+   "serie": "PIC",
+   "titre": "The End Is the Beginning",
+   "titre_corpus": "The End Is the Beginning",
+   "date": "2020-02-06",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+   "note": ""
+  },
+  {
+   "serie": "PIC",
+   "titre": "Maps and Legends",
+   "titre_corpus": "Maps and Legends",
+   "date": "2020-01-30",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+   "note": ""
+  },
+  {
+   "serie": "PIC",
+   "titre": "Et in Arcadia Ego, Part 1",
+   "titre_corpus": "Et in Arcadia Ego",
+   "date": "2020-03-19",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+   "note": "Épisode en deux parties."
+  },
+  {
+   "serie": "PIC",
+   "titre": "Et in Arcadia Ego, Part 2",
+   "titre_corpus": "Et in Arcadia Ego",
+   "date": "2020-03-26",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+   "note": "Épisode en deux parties ; date confirmée par la date de publication du récapitulatif officiel startrek.com."
+  },
+  {
+   "serie": "PIC",
+   "titre": "Penance",
+   "titre_corpus": "Penance",
+   "date": "2022-03-10",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2",
+   "note": ""
+  },
+  {
+   "serie": "PIC",
+   "titre": "Imposters",
+   "titre_corpus": "Imposters",
+   "date": "2023-03-16",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3",
+   "note": ""
+  },
+  {
+   "serie": "PIC",
+   "titre": "The Last Generation",
+   "titre_corpus": "The Last Generation",
+   "date": "2023-04-20",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3",
+   "note": ""
+  },
+  {
+   "serie": "PIC",
+   "titre": "Võx",
+   "titre_corpus": "Võx",
+   "date": "2023-04-13",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3",
+   "note": ""
+  },
+  {
+   "serie": "LD",
+   "titre": "Second Contact",
+   "titre_corpus": "Second Contact",
+   "date": "2020-08-06",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_1",
+   "note": ""
+  },
+  {
+   "serie": "LD",
+   "titre": "Where Pleasant Fountains Lie",
+   "titre_corpus": "Where Pleasant Fountains Lie",
+   "date": "2021-09-23",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
+   "note": ""
+  },
+  {
+   "serie": "LD",
+   "titre": "First First Contact",
+   "titre_corpus": "First First Contact",
+   "date": "2021-10-14",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
+   "note": ""
+  },
+  {
+   "serie": "LD",
+   "titre": "wej Duj",
+   "titre_corpus": "wej Duj",
+   "date": "2021-10-07",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
+   "note": ""
+  },
+  {
+   "serie": "LD",
+   "titre": "Something Borrowed, Something Green",
+   "titre_corpus": "Something Borrowed, Something Green",
+   "date": "2023-09-21",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4",
+   "note": ""
+  },
+  {
+   "serie": "LD",
+   "titre": "Parth Ferengi's Heart Place",
+   "titre_corpus": "Parth Ferengi's Heart Place",
+   "date": "2023-10-05",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4",
+   "note": ""
+  },
+  {
+   "serie": "LD",
+   "titre": "The Stars at Night",
+   "titre_corpus": "The Stars at Night",
+   "date": "2022-10-27",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_3",
+   "note": ""
+  },
+  {
+   "serie": "LD",
+   "titre": "Old Friends, New Planets",
+   "titre_corpus": "Old Friends, New Planets",
+   "date": "2023-11-02",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4",
+   "note": ""
+  },
+  {
+   "serie": "SNW",
+   "titre": "Tomorrow and Tomorrow and Tomorrow",
+   "titre_corpus": "Tomorrow and Tomorrow and Tomorrow",
+   "date": "2023-06-29",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+   "note": ""
+  },
+  {
+   "serie": "SNW",
+   "titre": "Under the Cloak of War",
+   "titre_corpus": "Under the Cloak of War",
+   "date": "2023-07-27",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+   "note": ""
+  },
+  {
+   "serie": "SNW",
+   "titre": "Strange New Worlds",
+   "titre_corpus": "Strange New Worlds",
+   "date": "2022-05-05",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1",
+   "note": ""
+  },
+  {
+   "serie": "SNW",
+   "titre": "A Quality of Mercy",
+   "titre_corpus": "A Quality of Mercy",
+   "date": "2022-07-07",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1",
+   "note": ""
+  },
+  {
+   "serie": "SNW",
+   "titre": "The Broken Circle",
+   "titre_corpus": "The Broken Circle",
+   "date": "2023-06-15",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+   "note": ""
+  },
+  {
+   "serie": "SNW",
+   "titre": "Lift Us Where Suffering Cannot Reach",
+   "titre_corpus": "Lift Us Where Suffering Cannot Reach",
+   "date": "2022-06-09",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1",
+   "note": ""
+  },
+  {
+   "serie": "SNW",
+   "titre": "Ghosts of Illyria",
+   "titre_corpus": "Ghosts of Illyria",
+   "date": "2022-05-19",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1",
+   "note": ""
+  },
+  {
+   "serie": "SNW",
+   "titre": "Memento Mori",
+   "titre_corpus": "Memento Mori",
+   "date": "2022-05-26",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1",
+   "note": ""
+  },
+  {
+   "serie": "SNW",
+   "titre": "Hegemony",
+   "titre_corpus": "Hegemony",
+   "date": "2023-08-10",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+   "note": ""
+  },
+  {
+   "serie": "PRO",
+   "titre": "Lost and Found",
+   "titre_corpus": "Lost and Found",
+   "date": "2021-10-28",
+   "source_url": "https://prodigy.trekcore.com/episodes/season1/prodigy-ep101.html",
+   "note": "Pilote de double durée : TrekCore le compte comme un seul épisode (1.01, Paramount+, 28 octobre 2021), Wikipedia (saison 1) comme deux épisodes sous un même titre, avec la date du 28 octobre 2021 pour l'épisode 1. Je n'ai pas lu de date distincte pour une partie 2."
+  },
+  {
+   "serie": "PRO",
+   "titre": "Supernova, Part 1",
+   "titre_corpus": "Supernova",
+   "date": "2022-12-22",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
+   "note": ""
+  },
+  {
+   "serie": "PRO",
+   "titre": "Supernova, Part 2",
+   "titre_corpus": "Supernova",
+   "date": "2022-12-29",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
+   "note": ""
+  },
+  {
+   "serie": "PRO",
+   "titre": "Ouroboros, Part I",
+   "titre_corpus": "Ouroboros",
+   "date": "2024-07-01",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2",
+   "note": "Saison 2 mise en ligne d'un bloc sur Netflix."
+  },
+  {
+   "serie": "PRO",
+   "titre": "Ouroboros, Part II",
+   "titre_corpus": "Ouroboros",
+   "date": "2024-07-01",
+   "source_url": "https://prodigy.trekcore.com/episodes/season2/prodigy-ep220.html",
+   "note": "Netflix."
+  },
+  {
+   "serie": "SFA",
+   "titre": "Kids These Days",
+   "titre_corpus": "Kids These Days",
+   "date": "2026-01-15",
+   "source_url": "https://en.wikipedia.org/wiki/Kids_These_Days_(Star_Trek:_Starfleet_Academy)",
+   "note": "Paramount+, mis en ligne avec « Beta Test »."
+  },
+  {
+   "serie": "SFA",
+   "titre": "Come, Let's Away",
+   "titre_corpus": "Come, Let's Away",
+   "date": "2026-02-12",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+   "note": ""
   }
  ]
 }

@@ -65,7 +65,8 @@ export function importer(csvPath, mdPath) {
   // Corrections documentees : une ligne par STP dans la section dediee.
   const corrections = new Map();
   for (const m of (editorial.corrections?.markdown || '').matchAll(/^- \*\*(STP-\d{3})\*\* — (.+?) \*Motif :\* (.+)$/gm)) {
-    corrections.set(m[1], { libelle: m[2].trim(), motif: m[3].trim() });
+    if (!corrections.has(m[1])) corrections.set(m[1], []);
+    corrections.get(m[1]).push({ libelle: m[2].trim(), motif: m[3].trim() });
   }
 
   const evenements = records.map(({ line, data: d }) => {
@@ -85,7 +86,7 @@ export function importer(csvPath, mdPath) {
       ordre: ordreDiegetique(d.period),
       cycle_slug: slug(d.cycle),
       fiche: ficheParId.has(d.id),
-      correction: corrections.get(d.id) || null,
+      corrections: corrections.get(d.id) || [],
       note_editoriale: registre.get(d.id)?.note_editoriale || null,
       diffusion: dates,
     };
@@ -119,7 +120,7 @@ export function importer(csvPath, mdPath) {
   for (const [k, ids] of parEpisode) for (const a of ids) for (const b of ids) lier(a, b, `épisode commun : ${k.split('|')[1]}`);
   const citationsInconnues = [];
   for (const e of evenements) {
-    const textes = [e.note_audit, ficheParId.get(e.id)?.brut, e.correction?.motif, e.note_editoriale].filter(Boolean).join('\n');
+    const textes = [e.note_audit, ficheParId.get(e.id)?.brut, ...e.corrections.map((c) => c.motif), e.note_editoriale].filter(Boolean).join('\n');
     for (const m of textes.matchAll(/STP-\d{3}/g)) {
       if (!parId.has(m[0])) citationsInconnues.push({ dans: e.id, cite: m[0] });
       else lier(e.id, m[0], 'identifiant cité dans la notice');
@@ -205,7 +206,7 @@ function rapportImport(r) {
   L.push(`| Colonnes | ${r.header.length} (${r.header.map((h) => '`' + h + '`').join(', ')}) |`);
   L.push(`| Fiches approfondies extraites du Markdown | ${r.fiches.length} |`);
   L.push(`| Notices du registre intégral (Markdown) | ${r.registre.size} |`);
-  L.push(`| Corrections documentées (Markdown) | ${r.corrections.size} |`);
+  L.push(`| Corrections documentées (Markdown) | ${[...r.corrections.values()].flat().length} |`);
   L.push(`| Pages d'événement générées | ${r.evenements.length} |`, '');
   if (r.rejects.length) {
     L.push('## Lignes rejetées', '');

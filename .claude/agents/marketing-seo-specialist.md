@@ -10,10 +10,10 @@ tools: WebFetch, WebSearch, Read, Write, Edit
 # Skills prechargees : .claude/team.yaml, limitees aux skills installees
 # (agency-agents.sh relink).
 skills:
-  - seo-technical
+  - seo-geo
   - seo-schema
   - seo-sitemap
-  - seo-geo
+  - seo-technical
 ---
 # Marketing SEO Specialist
 

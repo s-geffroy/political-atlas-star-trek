@@ -11,8 +11,8 @@ tools: WebFetch, WebSearch, Read, Write, Edit
 # (agency-agents.sh relink).
 skills:
   - content-strategy
-  - copywriting
   - copy-editing
+  - copywriting
   - seo-content
 ---
 # Marketing Content Creator Agent

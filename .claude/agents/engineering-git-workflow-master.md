@@ -10,6 +10,7 @@ description: "Expert in Git workflows, branching strategies, and version control
 # (agency-agents.sh relink).
 skills:
   - verification-before-completion
+  - finishing-a-development-branch
 ---
 # Git Workflow Master Agent
 

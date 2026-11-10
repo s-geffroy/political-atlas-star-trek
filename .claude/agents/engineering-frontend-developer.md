@@ -11,6 +11,7 @@ description: "Expert frontend developer specializing in modern web technologies,
 skills:
   - frontend-design
   - theme-factory
+  - webapp-testing
 ---
 # Frontend Developer Agent Personality
 

@@ -1,17 +1,16 @@
-# L'equipe Claude de BASE du template github-pages : chaque agent et les skills
-# qu'il precharge. Toute application creee depuis ce template en herite ;
-# workon (etape 8) la complete pour son sujet. Compose par
-# scripts/claude-team.sh (API Claude), relu, modifiable a la main ; pose par
-# agency-agents.sh template github-pages et claude-skills.sh template github-pages.
+# L'equipe Claude de cette application : chaque sous-agent et les skills
+# qu'il precharge (cle `skills:` de son en-tete). Ecrit par workon ;
+# /opt/infra/scripts/agency-agents.sh relink le reporte dans les agents.
+# Modifiable a la main : relancer ensuite `workon agents` ou relink.
 agents:
-  # Rédige et fait évoluer les articles du site Jekyll (brouillons dans _drafts/, puis _posts/ au bon nom de fichier), en français accentué et aligné sur le ton déjà publié.
-  marketing-content-creator: [content-strategy, copywriting, copy-editing, seo-content]
-  # Exploite les greffons de la liste blanche (jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from) pour un référencement propre sans casser les permaliens publiés.
-  marketing-seo-specialist: [seo-technical, seo-schema, seo-sitemap, seo-geo]
-  # Adapte gabarits Liquid, CSS et remote_theme dans les limites de Jekyll 3.10 en safe mode, sans recourir à _plugins/ ni à un workflow Actions.
-  engineering-frontend-developer: [frontend-design, theme-factory]
-  # Vérifie sur le site publié par GitHub Pages que les pages et gabarits restent accessibles (contrastes, titres, textes alternatifs des images d'assets/).
-  testing-accessibility-auditor: []
-  # Encadre le seul geste de publication du template, le git push sur main, avec des commits propres et la relecture du front matter avant chaque poussée.
-  engineering-git-workflow-master: [verification-before-completion]
-skills_partages: [verification-before-completion, brainstorming, pplx-research, frontend-design]
+  academic-historian: [pplx-research, deep-research]
+  engineering-data-engineer: [test-driven-development, data-extractor]
+  engineering-data-visualization-engineer: [chart-designer]
+  engineering-frontend-developer: [frontend-design, theme-factory, webapp-testing]
+  engineering-git-workflow-master: [verification-before-completion, finishing-a-development-branch]
+  engineering-technical-writer: [doc-coauthoring]
+  marketing-content-creator: [content-strategy, copy-editing, copywriting, seo-content]
+  marketing-seo-specialist: [seo-geo, seo-schema, seo-sitemap, seo-technical]
+  research-synthesist: [pplx-research, academic-search]
+  testing-accessibility-auditor: [webapp-testing]
+skills_partages: [brainstorming, content-writer, email-marketing, seo-optimizer, social-publisher, writing-plans]

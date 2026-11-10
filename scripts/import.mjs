@@ -52,6 +52,10 @@ export function lireRelations() {
   const p = path.join(ROOT, 'data/relations.json');
   return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')).relations : [];
 }
+export function lireSansRelation() {
+  const p = path.join(ROOT, 'data/relations.json');
+  return fs.existsSync(p) ? (JSON.parse(fs.readFileSync(p, 'utf8')).examinees_sans_relation || { ids: [] }) : { ids: [] };
+}
 
 export function importer(csvPath, mdPath) {
   const csvText = fs.readFileSync(csvPath, 'utf8');
@@ -118,7 +122,8 @@ export function importer(csvPath, mdPath) {
 
   // Relations documentees (data/relations.json), affichees dans les deux sens.
   const relations = lireRelations();
-  for (const e of evenements) e.relations = { sortantes: [], entrantes: [] };
+  const sansRel = lireSansRelation();
+  for (const e of evenements) e.relations = { sortantes: [], entrantes: [], examinee_le: sansRel.ids.includes(e.id) ? sansRel.date : null };
   for (const x of relations) {
     if (!parId.has(x.de) || !parId.has(x.vers)) continue;
     parId.get(x.de).relations.sortantes.push({ id: x.vers, type: x.type, url: x.url, justification: x.justification });
@@ -440,6 +445,19 @@ export function ecrireSorties(r) {
     const p = path.join(dirR, f);
     if (/^STP-\d{3}\.md$/.test(f) && fs.readFileSync(p, 'utf8').includes('GENERE par scripts/import.mjs')) fs.unlinkSync(p);
   }
+  // Adresses deja publiees (registre qui ne fait que grandir) : une cle qui
+  // n'est plus tete de groupe devient une page de renvoi vers l'arc qui
+  // contient desormais cet evenement.
+  const clesP = path.join(ROOT, 'data/reseau-cles-publiees.json');
+  const clesAvant = fs.existsSync(clesP) ? JSON.parse(fs.readFileSync(clesP, 'utf8')) : [];
+  const clesMaintenant = res.composantes.map((c) => c.cle);
+  for (const k of clesAvant.filter((k) => !clesMaintenant.includes(k))) {
+    const g = res.composantes.find((c) => c.ids.includes(k));
+    ecrire(path.join(dirR, `${k}.md`), ['---', '# Fichier GENERE par scripts/import.mjs (renvoi d\'une adresse deja publiee).', 'layout: reseau-renvoi',
+      `cible: ${g ? g.cle : 'null'}`, `stp: ${k}`, `title: ${yamlStr(`Réseau — arc déplacé (${k})`)}`, 'sitemap: false',
+      `permalink: /reseau/${k}/`, 'nav: graphiques', '---', ''].join('\n'));
+  }
+  ecrire(clesP, JSON.stringify([...new Set([...clesAvant, ...clesMaintenant])].sort(), null, 1) + '\n');
   for (const c of res.composantes) {
     ecrire(path.join(dirR, `${c.cle}.md`), ['---', '# Fichier GENERE par scripts/import.mjs.', 'layout: reseau-groupe', `groupe: ${c.cle}`,
       `title: ${yamlStr(`Réseau — ${c.titre} (${c.taille} événements)`)}`,

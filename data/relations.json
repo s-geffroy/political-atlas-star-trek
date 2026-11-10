@@ -1,9 +1,10 @@
 {
  "_lisez_moi": [
-  "Relations documentees entre evenements (enrichissement hors corpus) : 60 validees le 2026-11-10 (docs/proposition-relations.md), 82 ajoutees le meme jour (docs/proposition-relations-2.md).",
+  "Relations documentees entre evenements (enrichissement hors corpus) : 60 validees le 2026-11-10 (docs/proposition-relations.md), 82 ajoutees le meme jour (docs/proposition-relations-2.md), 21 en troisieme passe (docs/proposition-relations-3.md).",
   "Types : cause (de est presente par la source comme une cause de vers), suite (vers prolonge directement l intrigue de de), meme_arc (meme arc narratif ou conflit nomme par la source).",
   "Chaque relation cite la page qui l etablit explicitement. Deux evenements d un meme episode ne sont relies que si la source etablit un enchainement entre eux.",
-  "Doublons tranches le 2026-11-10 (STP-294, STP-296) : les relations qui les visaient sont reportees sur l entree principale ou retirees si elles y existaient deja."
+  "Doublons tranches le 2026-11-10 (STP-294, STP-296) : les relations qui les visaient sont reportees sur l entree principale ou retirees si elles y existaient deja.",
+  "examinees_sans_relation : evenements pour lesquels trois passes de recherche n ont trouve aucune relation etablie par une source (resultat, non oubli)."
  ],
  "relations": [
   {
@@ -985,6 +986,266 @@
    "type": "cause",
    "url": "https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)",
    "justification": "Face à l'ordre impérial de détruire les Halkans, Kirk plaide auprès de Spock pour le renversement de l'Empire et l'exhorte à prendre le commandement pour sauver les Halkans."
+  },
+  {
+   "de": "STP-062",
+   "vers": "STP-079",
+   "type": "suite",
+   "url": "https://memory-alpha.fandom.com/wiki/Organian_Peace_Treaty",
+   "justification": "Selon Memory Alpha, le traité d'Organia imposé par les Organiens en 2267 (TOS « Errand of Mercy ») « was eventually superseded by the Khitomer Accords of 2293, which bore out the Organians having predicted that the Klingons and the Federation would one day become friends » (Star Trek VI). Les accords de Khitomer remplacent donc explicitement la paix imposée à Organia."
+  },
+  {
+   "de": "STP-009",
+   "vers": "STP-011",
+   "type": "cause",
+   "url": "https://memory-alpha.fandom.com/wiki/World_War_III",
+   "justification": "Memory Alpha : la Troisième Guerre mondiale « was preceded by the Eugenics Wars and the Second Civil War », et Pike les présente dans SNW « Strange New Worlds » comme une seule escalade. La page cite aussi Star Trek: First Contact pour ses suites, avec les villes détruites, « few governments left » et une « post-atomic horror ». Ensuite, « Earth later began rebuilding ». La reconstruction de 011 découle donc des guerres de 009."
+  },
+  {
+   "de": "STP-086",
+   "vers": "STP-087",
+   "type": "cause",
+   "url": "https://memory-alpha.fandom.com/wiki/Khan_Noonien_Singh_(alternate_reality)",
+   "justification": "Memory Alpha : « Following the destruction of Vulcan in 2258, Admiral Alexander Marcus of Section 31 initiated a program to militarize Starfleet », en vue d'une guerre contre les Klingons qu'il jugeait inévitable. Les deux faits relèvent de la continuité Kelvin."
+  },
+  {
+   "de": "STP-005",
+   "vers": "STP-087",
+   "type": "suite",
+   "url": "https://memory-alpha.fandom.com/wiki/Khan_Noonien_Singh_(alternate_reality)",
+   "justification": "Memory Alpha décrit Khan comme le plus marquant des « Augments of the late-20th century Eugenics Wars ». Il s'est enfui avec ses fidèles à bord du Botany Bay (TOS « Space Seed » ; Star Trek Into Darkness). Marcus découvre le vaisseau, réveille Khan et le contraint à concevoir des armes pour son programme de militarisation. Le passé de Khan est antérieur à la divergence Kelvin, et la source rattache explicitement les deux faits. Ce lien est symétrique de la relation existante 005>074."
+  },
+  {
+   "de": "STP-105",
+   "vers": "STP-106",
+   "type": "suite",
+   "url": "https://memory-alpha.fandom.com/wiki/Face_Of_The_Enemy_(episode)",
+   "justification": "Memory Alpha range «Face of the Enemy» dans l'arc « Vulcan/Romulan reunification », avec «Unification II» pour épisode précédent. Selon la page, N'Vek « is part of Spock's underground movement and is attempting to create a way for many dissidents to escape ». L'exfiltration du vice-proconsul M'ret prolonge donc le mouvement clandestin de Spock établi dans «Unification»."
+  },
+  {
+   "de": "STP-106",
+   "vers": "STP-182",
+   "type": "meme_arc",
+   "url": "https://memory-alpha.fandom.com/wiki/Face_Of_The_Enemy_(episode)",
+   "justification": "Même arc nommé par Memory Alpha (« Vulcan/Romulan reunification ») : l'épisode suivant de l'arc est DIS «Unification III». La page précise que l'épisode est resté jusqu'en 2020 le seul à traiter du mouvement de réunification de Spock après «Unification II», et que « the ultimate outcome of the movement would be revealed in Unification III », c'est-à-dire Ni'Var."
+  },
+  {
+   "de": "STP-120",
+   "vers": "STP-125",
+   "type": "cause",
+   "url": "https://en.wikipedia.org/wiki/Duet_(Star_Trek:_Deep_Space_Nine)",
+   "justification": "Le patient cardassien est arrêté pour un syndrome contracté à Gallitep, « a brutal labor camp [...] during the occupation of Bajor ». C'est en criminel de guerre de l'occupation qu'il est mis en cause, et Marritza veut être jugé pour que « Cardassia must be forced to admit its wrongdoings ». L'occupation est la cause directe du procès."
+  },
+  {
+   "de": "STP-124",
+   "vers": "STP-126",
+   "type": "suite",
+   "url": "https://memory-alpha.fandom.com/wiki/Winn_Adami",
+   "justification": "La fiche Winn Adami de Memory Alpha enchaîne les deux faits. Après la crise de l'école et la tentative d'assassinat de Bareil, rival de Winn pour le poste de kai («In the Hands of the Prophets»), « shortly thereafter, Winn secretly lent her support to Minister Jaro Essa and [...] the Circle in their attempt to topple the Bajoran Provisional Government », en échange de l'assurance de devenir kai («The Circle», «The Siege»)."
+  },
+  {
+   "de": "STP-277",
+   "vers": "STP-137",
+   "type": "suite",
+   "url": "https://memory-alpha.fandom.com/wiki/Kahless_(clone)",
+   "justification": "Memory Alpha (Kahless, clone) : l'empereur symbolique installé dans «Rightful Heir» montre son absence de pouvoir en 2372, quand la flotte envahit l'Union cardassienne. « Emperor Kahless condemned the invasion but was overruled by Gowron » (DS9 «The Way of the Warrior», «The Sword of Kahless»). La page de «The Way of the Warrior» confirme que Worf a tenté de joindre l'empereur, en renvoi explicite à «Rightful Heir»."
+  },
+  {
+   "de": "STP-146",
+   "vers": "STP-149",
+   "type": "meme_arc",
+   "url": "https://en.wikipedia.org/wiki/In_the_Pale_Moonlight",
+   "justification": "La page situe le complot dans la guerre du Dominion : « As the Federation's losses in the Dominion War mount », Sisko décide d'amener les Romuliens dans le conflit ; « Soon, the Romulans declare war on the Dominion »."
+  },
+  {
+   "de": "STP-147",
+   "vers": "STP-151",
+   "type": "suite",
+   "url": "https://en.wikipedia.org/wiki/Rocks_and_Shoals_(Star_Trek:_Deep_Space_Nine)",
+   "justification": "« Rocks and Shoals » est « the second episode of the sixth season's opening six-episode story arc » et suit directement « A Time to Stand » (source de STP-147) ; l'équipage de Sisko y affronte des Jem'Hadar rationnés en ketracel-white par leur Vorta."
+  },
+  {
+   "de": "STP-146",
+   "vers": "STP-259",
+   "type": "meme_arc",
+   "url": "https://en.wikipedia.org/wiki/The_Siege_of_AR-558",
+   "justification": "L'épisode « focuses on one battle in the Dominion War », la guerre entre la Fédération et le Dominion."
+  },
+  {
+   "de": "STP-146",
+   "vers": "STP-274",
+   "type": "meme_arc",
+   "url": "https://en.wikipedia.org/wiki/Statistical_Probabilities",
+   "justification": "L'épisode appartient au « Dominion War storyline » : la prévision des augmentés (« the Federation is doomed to lose the war ») porte sur cette guerre, pendant des pourparlers proposés par Damar."
+  },
+  {
+   "de": "STP-120",
+   "vers": "STP-142",
+   "type": "meme_arc",
+   "url": "https://en.wikipedia.org/wiki/Things_Past_(Star_Trek:_Deep_Space_Nine)",
+   "justification": "Les faits se déroulent « on Terok Nor (as DS9 was then called) during the Cardassian occupation of Bajor » : Odo, alors chef de la sécurité, fit exécuter des Bajorans innocents parce que « Dukat simply wanted to make an example of them »."
+  },
+  {
+   "de": "STP-123",
+   "vers": "STP-304",
+   "type": "cause",
+   "url": "https://en.wikipedia.org/wiki/Past_Prologue",
+   "justification": "Tahna veut « collapse the wormhole with an explosive device » parce que sans lui « Bajor will have no motivation to invite Federation presence on Bajoran territory », présence « which he sees as a new occupation » : l'enjeu stratégique du trou de ver motive son action."
+  },
+  {
+   "de": "STP-302",
+   "vers": "STP-303",
+   "type": "cause",
+   "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_4",
+   "justification": "Résumé de « Valles Marineris » : les Martiens sont « at war with the Dol'drm » et leur chef veut utiliser le carburant du vaisseau comme arme ; « Pike makes a last minute decision not to interfere ». La guerre ancienne est l'objet même du dilemme de Pike."
+  },
+  {
+   "de": "STP-216",
+   "vers": "STP-218",
+   "type": "cause",
+   "url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4",
+   "justification": "Pour secourir Mariner enlevée par Locarno, Freeman obtient de D'Erika un cuirassé orion « on the condition that D'Vana return to Orion » : la crise Locarno déclenche le retour de Tendi sur Orion et la recomposition de ses liens avec Starfleet."
+  },
+  {
+   "de": "STP-211",
+   "vers": "STP-212",
+   "type": "meme_arc",
+   "url": "https://en.wikipedia.org/wiki/First_First_Contact",
+   "justification": "La page rattache l'épisode au fil de saison sur « the threat of the Pakleds » : à la fin de « First First Contact », « Freeman is arrested for allegedly detonating a Veruvian bomb on Pakled Planet », cliffhanger qui clôt l'arc pakled de la saison 2."
+  },
+  {
+   "de": "STP-287",
+   "vers": "STP-044",
+   "type": "meme_arc",
+   "url": "https://en.wikipedia.org/wiki/New_Eden_(Star_Trek:_Discovery)",
+   "justification": "Arc de l'Ange rouge de la saison 2 : les colons de Terralysium y ont été amenés par l'Ange rouge, dont « Perpetual Infinity » révèle qu'il s'agit de Gabrielle Burnham cherchant à empêcher le futur où Control détruit toute vie ; Control infiltre ensuite Section 31."
+  },
+  {
+   "de": "STP-176",
+   "vers": "STP-238",
+   "type": "meme_arc",
+   "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+   "justification": "Arc Miroir de la saison 1 : dans « Vaulting Ambition » Lorca et ses alliés complotent pour renverser Georgiou ; dans « What's Past Is Prologue » ils « kill those loyal to Georgiou and usurp her throne ». Même tentative de renversement, vue sous deux angles (continuité Miroir des deux côtés)."
+  },
+  {
+   "de": "STP-191",
+   "vers": "STP-192",
+   "type": "meme_arc",
+   "url": "https://en.wikipedia.org/wiki/Erigah",
+   "justification": "Même épisode : Rayner, survivant d'une occupation breen qui a tué sa famille, voit Burnham utiliser son histoire pour convaincre le primarque Ruhn que s'emparer de L'ak provoquerait un conflit avec les autres factions breens ; la rivale Tahal est désignée comme « responsible for the death of Rayner's family »."
   }
- ]
+ ],
+ "examinees_sans_relation": {
+  "date": "2026-11-10",
+  "passes": 3,
+  "ids": [
+   "STP-003",
+   "STP-006",
+   "STP-010",
+   "STP-013",
+   "STP-017",
+   "STP-020",
+   "STP-022",
+   "STP-025",
+   "STP-033",
+   "STP-049",
+   "STP-051",
+   "STP-055",
+   "STP-056",
+   "STP-057",
+   "STP-058",
+   "STP-059",
+   "STP-060",
+   "STP-061",
+   "STP-063",
+   "STP-064",
+   "STP-065",
+   "STP-066",
+   "STP-067",
+   "STP-068",
+   "STP-069",
+   "STP-070",
+   "STP-071",
+   "STP-073",
+   "STP-075",
+   "STP-076",
+   "STP-080",
+   "STP-082",
+   "STP-088",
+   "STP-089",
+   "STP-090",
+   "STP-091",
+   "STP-092",
+   "STP-093",
+   "STP-095",
+   "STP-096",
+   "STP-099",
+   "STP-101",
+   "STP-104",
+   "STP-107",
+   "STP-108",
+   "STP-109",
+   "STP-110",
+   "STP-111",
+   "STP-112",
+   "STP-113",
+   "STP-116",
+   "STP-118",
+   "STP-119",
+   "STP-129",
+   "STP-130",
+   "STP-131",
+   "STP-152",
+   "STP-164",
+   "STP-167",
+   "STP-168",
+   "STP-170",
+   "STP-171",
+   "STP-172",
+   "STP-173",
+   "STP-174",
+   "STP-175",
+   "STP-181",
+   "STP-204",
+   "STP-209",
+   "STP-210",
+   "STP-215",
+   "STP-217",
+   "STP-228",
+   "STP-229",
+   "STP-240",
+   "STP-241",
+   "STP-242",
+   "STP-244",
+   "STP-245",
+   "STP-246",
+   "STP-247",
+   "STP-248",
+   "STP-249",
+   "STP-250",
+   "STP-251",
+   "STP-252",
+   "STP-253",
+   "STP-255",
+   "STP-256",
+   "STP-257",
+   "STP-260",
+   "STP-261",
+   "STP-262",
+   "STP-263",
+   "STP-264",
+   "STP-271",
+   "STP-275",
+   "STP-279",
+   "STP-280",
+   "STP-282",
+   "STP-283",
+   "STP-285",
+   "STP-291",
+   "STP-298",
+   "STP-299",
+   "STP-300",
+   "STP-301"
+  ]
+ }
 }

@@ -81,6 +81,11 @@ layout: default
   <p class="carte__meta">Relations établies explicitement par la source citée (enrichissement hors corpus, <a href="{{ '/methodologie/' | relative_url }}#relations">méthode</a>) {% assign grp = site.data.reseau.composantes | where_exp: "c", "c.ids contains e.id" | first %}· <a href="{% if grp %}{{ '/reseau/' | append: grp.cle | append: '/' | relative_url }}{% else %}{{ '/reseau/' | relative_url }}{% endif %}">voir le réseau</a>.</p>
   {%- endif %}
 
+  {%- if RS.size == 0 and RE.size == 0 and e.relations.examinee_le %}
+  <h2>Relations documentées</h2>
+  <p>Aucune relation documentée : trois passes de recherche (dernière le {{ e.relations.examinee_le }}) n’ont trouvé aucune source établissant un lien de cause, de suite ou d’arc avec un autre événement de l’atlas. C’est un résultat de recherche, non un oubli ; une source nouvelle peut être <a href="{{ '/contribuer/' | relative_url }}">signalée</a>.</p>
+  {%- endif %}
+
   <h2>Événements associés</h2>
   {%- if e.associes.size > 0 %}
   <ul class="cartes">

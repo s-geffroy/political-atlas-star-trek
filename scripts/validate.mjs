@@ -136,6 +136,13 @@ export function valider({ csv, md } = dernieresSources()) {
       if (vusRel.has(k)) err.push(`relation ${k} : en double`);
       vusRel.add(k);
     }
+    // « Examinees sans relation » : identifiants connus, et vraiment sans relation.
+    const relies = new Set(r.relations.flatMap((x) => [x.de, x.vers]));
+    const sansRel = fs.existsSync(path.join(ROOT, 'data/relations.json')) ? (JSON.parse(fs.readFileSync(path.join(ROOT, 'data/relations.json'), 'utf8')).examinees_sans_relation || { ids: [] }).ids : [];
+    for (const id of sansRel) {
+      if (!ids.has(id)) err.push(`sans relation : ${id} inconnu`);
+      else if (relies.has(id)) err.push(`sans relation : ${id} porte pourtant une relation`);
+    }
     ajouter(6, 'Cohérence fiches ↔ événements', err, warn, `${r.registre.size} notices de registre comparées au CSV ; ${r.doublons.length} doublons tranchés et ${r.relations.length} relations documentées vérifiés.`);
   }
 

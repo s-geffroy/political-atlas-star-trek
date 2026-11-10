@@ -253,6 +253,11 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .empile__val { color: var(--doux); font-variant-numeric: tabular-nums; }
 @media (max-width: 40rem) { .empile li { grid-template-columns: 1fr auto; } .empile__barre { grid-column: 1 / -1; grid-row: 2; } }
 
+/* --- Relations documentees ----------------------------------------------- */
+.relations { padding-left: 1.2rem; }
+.relations li { margin: 0.45rem 0; }
+.rel { font-family: var(--police-titre); text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; color: var(--ambre); }
+
 /* --- Divers ------------------------------------------------------------- */
 .sommaire { display: grid; gap: 0.6rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); list-style: none; padding: 0; }
 .sommaire li { max-width: none; }

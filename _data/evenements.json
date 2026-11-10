@@ -66,6 +66,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 1,
   "bande": "Passé lointain",
   "associes": [
@@ -152,6 +156,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 2,
   "bande": "Passé lointain",
   "associes": [
@@ -231,6 +239,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 3,
   "bande": "Passé lointain",
   "associes": []
@@ -286,6 +298,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 4,
   "bande": "Passé lointain",
   "associes": [
@@ -371,6 +387,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-074",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Space_Seed",
+     "justification": "La page de « Space Seed » indique : « The events of \"Space Seed\" are followed up in the 1982 film Star Trek II: The Wrath of Khan ». La page du film le confirme : il « is a sequel to the television episode \"Space Seed\" ». Le retour de Khan prolonge directement son exil après la période des guerres eugéniques."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 9,
   "bande": "XXe siècle",
   "associes": []
@@ -420,6 +447,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 10,
   "bande": "XXIe siècle",
   "associes": []
@@ -459,6 +490,10 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 13,
   "bande": "XXIe siècle",
   "associes": []
@@ -517,6 +552,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 14,
   "bande": "XXIe siècle",
   "associes": [
@@ -584,6 +623,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 15,
   "bande": "XXIe siècle",
   "associes": [
@@ -652,6 +695,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 11,
   "bande": "XXIe siècle",
   "associes": [
@@ -730,6 +777,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 16,
   "bande": "XXIe siècle",
   "associes": [
@@ -801,6 +852,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 17,
   "bande": "XXIe siècle",
   "associes": [
@@ -872,6 +927,10 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 18,
   "bande": "XXIIe siècle",
   "associes": [
@@ -929,6 +988,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 12,
   "bande": "XXIe siècle",
   "associes": [
@@ -1002,6 +1065,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 19,
   "bande": "XXIIe siècle",
   "associes": [
@@ -1066,6 +1133,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 20,
   "bande": "XXIIe siècle",
   "associes": [
@@ -1130,6 +1201,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 21,
   "bande": "XXIIe siècle",
   "associes": []
@@ -1208,6 +1283,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-026",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise",
+     "justification": "Selon l'article, « an escalation of the Temporal Cold War introduced the Xindi » en saison 3. Dans « The Expanse », c'est le commanditaire futur du Cabale suliban qui révèle à Archer la piste xindie."
+    },
+    {
+     "id": "STP-024",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Detained_(Star_Trek:_Enterprise)",
+     "justification": "Le camp tandarien est « an internment camp for Suliban imprisoned when the Cabal began attacking the Tandaran Sector » : les attaques du Cabale suliban, acteur de la guerre froide temporelle, déclenchent l'internement. Le colonel Grat interroge d'ailleurs Archer sur la guerre froide temporelle."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 22,
   "bande": "XXIIe siècle",
   "associes": [
@@ -1277,6 +1369,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-243",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Stigma_(Star_Trek:_Enterprise)",
+     "justification": "L'article présente le syndrome de Pa'nar de T'Pol dans « Stigma » comme contracté lors de la fusion mentale de « Fusion », imposée par Tolaris, membre d'une secte vulcaine rebelle : « contracted from her mind meld »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 23,
   "bande": "XXIIe siècle",
   "associes": []
@@ -1328,6 +1431,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 24,
   "bande": "XXIIe siècle",
   "associes": []
@@ -1387,6 +1494,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-023",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Cease_Fire_(Star_Trek:_Enterprise)",
+     "justification": "Dans le conflit de Weytahn, Shran « only trusts Archer (particularly since the events of \"The Andorian Incident\") » : la médiation d'Archer découle directement de la crise de P'Jem."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 26,
   "bande": "XXIIe siècle",
   "associes": []
@@ -1436,6 +1554,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 27,
   "bande": "XXIIe siècle",
   "associes": []
@@ -1485,6 +1607,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-021",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Cease_Fire_(Star_Trek:_Enterprise)",
+     "justification": "Dans le conflit de Weytahn, Shran « only trusts Archer (particularly since the events of \"The Andorian Incident\") » : la médiation d'Archer découle directement de la crise de P'Jem."
+    }
+   ]
+  },
   "rang_diegetique": 28,
   "bande": "XXIIe siècle",
   "associes": []
@@ -1534,6 +1667,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-018",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Detained_(Star_Trek:_Enterprise)",
+     "justification": "Le camp tandarien est « an internment camp for Suliban imprisoned when the Cabal began attacking the Tandaran Sector » : les attaques du Cabale suliban, acteur de la guerre froide temporelle, déclenchent l'internement. Le colonel Grat interroge d'ailleurs Archer sur la guerre froide temporelle."
+    }
+   ]
+  },
   "rang_diegetique": 29,
   "bande": "XXIIe siècle",
   "associes": []
@@ -1584,6 +1728,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 30,
   "bande": "XXIIe siècle",
   "associes": []
@@ -1634,6 +1782,30 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-027",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Expanse_(Star_Trek:_Enterprise_episode)",
+     "justification": "Après l'attaque de la sonde, qui creuse un sillon de 4 000 km de la Floride au Venezuela, Starfleet « orders Archer to take Enterprise to the Expanse to try to stop the Xindi ». L'épisode « set the foundation for the season-spanning Xindi story arc »."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-028",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise",
+     "justification": "L'article décrit les Constructeurs de sphères comme des « aliens who were also manipulating the Xindi into attacking Earth during Archer's time period » : ils sont donc à l'origine de l'attaque xindie contre la Terre."
+    },
+    {
+     "id": "STP-018",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise",
+     "justification": "Selon l'article, « an escalation of the Temporal Cold War introduced the Xindi » en saison 3. Dans « The Expanse », c'est le commanditaire futur du Cabale suliban qui révèle à Archer la piste xindie."
+    }
+   ]
+  },
   "rang_diegetique": 34,
   "bande": "XXIIe siècle",
   "associes": []
@@ -1672,6 +1844,17 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-026",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Expanse_(Star_Trek:_Enterprise_episode)",
+     "justification": "Après l'attaque de la sonde, qui creuse un sillon de 4 000 km de la Floride au Venezuela, Starfleet « orders Archer to take Enterprise to the Expanse to try to stop the Xindi ». L'épisode « set the foundation for the season-spanning Xindi story arc »."
+    }
+   ]
+  },
   "rang_diegetique": 35,
   "bande": "XXIIe siècle",
   "associes": []
@@ -1740,6 +1923,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-026",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise",
+     "justification": "L'article décrit les Constructeurs de sphères comme des « aliens who were also manipulating the Xindi into attacking Earth during Archer's time period » : ils sont donc à l'origine de l'attaque xindie contre la Terre."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 37,
   "bande": "XXIIe siècle",
   "associes": [
@@ -1809,6 +2003,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 38,
   "bande": "XXIIe siècle",
   "associes": [
@@ -1867,6 +2065,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-031",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Kir%27Shara",
+     "justification": "« The Forge », « Awakening » et « Kir'Shara » forment « a three-part story arc ». Selon l'article, « the embassy bombing was merely a pretext to weaken the pacifist Syrrannites prior to the Andorian strike »."
+    },
+    {
+     "id": "STP-032",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Kir%27Shara",
+     "justification": "Il s'agit du dernier volet de l'arc en trois parties ouvert par « The Forge ». Archer, T'Pol et T'Pau révèlent au Haut Commandement que l'attentat contre l'ambassade était un prétexte ; V'Las est alors « relieved of his post » et le Haut Commandement est dissous."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 39,
   "bande": "XXIIe siècle",
   "associes": [
@@ -1933,6 +2148,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-030",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Kir%27Shara",
+     "justification": "« The Forge », « Awakening » et « Kir'Shara » forment « a three-part story arc ». Selon l'article, « the embassy bombing was merely a pretext to weaken the pacifist Syrrannites prior to the Andorian strike »."
+    }
+   ]
+  },
   "rang_diegetique": 40,
   "bande": "XXIIe siècle",
   "associes": [
@@ -2005,6 +2231,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-030",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Kir%27Shara",
+     "justification": "Il s'agit du dernier volet de l'arc en trois parties ouvert par « The Forge ». Archer, T'Pol et T'Pau révèlent au Haut Commandement que l'attentat contre l'ambassade était un prétexte ; V'Las est alors « relieved of his post » et le Haut Commandement est dissous."
+    }
+   ]
+  },
   "rang_diegetique": 41,
   "bande": "XXIIe siècle",
   "associes": [
@@ -2088,6 +2325,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 42,
   "bande": "XXIIe siècle",
   "associes": []
@@ -2146,6 +2387,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 43,
   "bande": "XXIIe siècle",
   "associes": [
@@ -2220,6 +2465,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 45,
   "bande": "XXIIe siècle",
   "associes": [
@@ -2286,6 +2535,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 46,
   "bande": "XXIIe siècle",
   "associes": [
@@ -2351,6 +2604,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 47,
   "bande": "XXIIe siècle",
   "associes": [
@@ -2420,6 +2677,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 48,
   "bande": "XXIIe siècle",
   "associes": []
@@ -2478,6 +2739,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-041",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+     "justification": "Le résumé de « Context Is for Kings » parle de « the war Burnham started by killing T'Kuvma » : la bataille des Étoiles binaires déclenche la guerre Fédération–Klingons."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 61,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -2535,6 +2807,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 62,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -2593,6 +2869,24 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-052",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+     "justification": "« The Broken Circle » : « a cabal of ex-Starfleet and Klingon soldiers are plotting to restart the recently ended Klingon–Federation war ». C'est le même conflit, que des factions veulent relancer."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-039",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+     "justification": "Le résumé de « Context Is for Kings » parle de « the war Burnham started by killing T'Kuvma » : la bataille des Étoiles binaires déclenche la guerre Fédération–Klingons."
+    }
+   ]
+  },
   "rang_diegetique": 63,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -2651,6 +2945,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 64,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -2717,6 +3015,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 65,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -2765,6 +3067,17 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-045",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+     "justification": "Pour échapper à Control, Burnham propose d'envoyer Discovery dans le futur « where Control cannot get to it » ; l'équipage reçoit ensuite l'ordre de ne jamais en parler « to prevent another incident like Control »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 66,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -2819,6 +3132,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-044",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+     "justification": "Pour échapper à Control, Burnham propose d'envoyer Discovery dans le futur « where Control cannot get to it » ; l'équipage reçoit ensuite l'ordre de ne jamais en parler « to prevent another incident like Control »."
+    }
+   ]
+  },
   "rang_diegetique": 70,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -2869,6 +3193,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 72,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -2941,6 +3269,24 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-048",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+     "justification": "La saison 2 reprend l'arrestation de la saison 1 ; dans « Ad Astra per Aspera », l'accusation montre que Number One « violated Starfleet's anti–genetic modification laws »."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-050",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/A_Quality_of_Mercy_(Star_Trek:_Strange_New_Worlds)",
+     "justification": "Batel « arrests Number One for being an Illyrian » ; la page rappelle que les Illyriens sont « banned by the Federation due to their genetic engineering » et renvoie à la révélation de « Ghosts of Illyria »."
+    }
+   ]
+  },
   "rang_diegetique": 73,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -3006,6 +3352,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-047",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+     "justification": "La saison 2 reprend l'arrestation de la saison 1 ; dans « Ad Astra per Aspera », l'accusation montre que Number One « violated Starfleet's anti–genetic modification laws »."
+    }
+   ]
+  },
   "rang_diegetique": 74,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -3063,6 +3420,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 75,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -3123,6 +3484,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-047",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/A_Quality_of_Mercy_(Star_Trek:_Strange_New_Worlds)",
+     "justification": "Batel « arrests Number One for being an Illyrian » ; la page rappelle que les Illyriens sont « banned by the Federation due to their genetic engineering » et renvoie à la révélation de « Ghosts of Illyria »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 76,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -3196,6 +3568,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 77,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -3246,6 +3622,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-041",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+     "justification": "« The Broken Circle » : « a cabal of ex-Starfleet and Klingon soldiers are plotting to restart the recently ended Klingon–Federation war ». C'est le même conflit, que des factions veulent relancer."
+    }
+   ]
+  },
   "rang_diegetique": 78,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -3303,6 +3690,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 79,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -3373,6 +3764,10 @@
    "motif": "Même épisode (SNW «A Case of Chiaroscuro») et même fait : occupation klingonne de Mat’aar XII et résistance locale. STP-298 est retenue comme principale : fiche approfondie et niveau de recoupement supérieur."
   },
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 81,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -3438,6 +3833,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 82,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -3503,6 +3902,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 83,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -3552,6 +3955,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 84,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -3601,6 +4008,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 85,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -3650,6 +4061,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 86,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -3699,6 +4114,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 87,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -3748,6 +4167,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 88,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -3798,6 +4221,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 89,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -3847,6 +4274,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 90,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -3913,6 +4344,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 91,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -3969,6 +4404,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 92,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -4019,6 +4458,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 93,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -4068,6 +4511,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 94,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -4123,6 +4570,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 95,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -4172,6 +4623,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 96,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -4227,6 +4682,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 97,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -4282,6 +4741,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 98,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -4336,6 +4799,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 99,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -4400,6 +4867,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 108,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -4450,6 +4921,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-005",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Space_Seed",
+     "justification": "La page de « Space Seed » indique : « The events of \"Space Seed\" are followed up in the 1982 film Star Trek II: The Wrath of Khan ». La page du film le confirme : il « is a sequel to the television episode \"Space Seed\" ». Le retour de Khan prolonge directement son exil après la période des guerres eugéniques."
+    }
+   ]
+  },
   "rang_diegetique": 109,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -4499,6 +4981,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 110,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -4554,6 +5040,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 111,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -4604,6 +5094,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 112,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -4669,6 +5163,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 113,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -4734,6 +5232,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 114,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -4798,6 +5300,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 174,
   "bande": "XXIVe siècle",
   "associes": []
@@ -4847,6 +5353,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-098",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_First_Contact",
+     "justification": "Dans le film, Picard « awakens from a nightmare in which he relives his assimilation by the cybernetic Borg from six years earlier ». Selon la section Production, la séquence d'ouverture fait « a direct reference to his time as a Borg ». La nouvelle attaque borg contre la Terre prolonge l'affrontement de « The Best of Both Worlds »."
+    }
+   ]
+  },
   "rang_diegetique": 194,
   "bande": "XXIVe siècle",
   "associes": [
@@ -4911,6 +5428,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 218,
   "bande": "XXIVe siècle",
   "associes": []
@@ -4961,6 +5482,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 240,
   "bande": "XXIVe siècle",
   "associes": [
@@ -5019,6 +5544,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 241,
   "bande": "XXIVe siècle",
   "associes": [
@@ -5076,6 +5605,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 58,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -5133,6 +5666,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 71,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -5190,6 +5727,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 80,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -5240,6 +5781,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 106,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -5290,6 +5835,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 120,
   "bande": "XXIVe siècle",
   "associes": []
@@ -5344,6 +5893,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 121,
   "bande": "XXIVe siècle",
   "associes": []
@@ -5398,6 +5951,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 122,
   "bande": "XXIVe siècle",
   "associes": []
@@ -5447,6 +6004,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 123,
   "bande": "XXIVe siècle",
   "associes": []
@@ -5497,6 +6058,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 124,
   "bande": "XXIVe siècle",
   "associes": []
@@ -5552,6 +6117,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 127,
   "bande": "XXIVe siècle",
   "associes": []
@@ -5602,6 +6171,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 128,
   "bande": "XXIVe siècle",
   "associes": []
@@ -5657,6 +6230,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 129,
   "bande": "XXIVe siècle",
   "associes": []
@@ -5708,6 +6285,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-100",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Reunion_(episode)",
+     "justification": "Selon Memory Alpha, dans « Reunion », « K'Ehleyr discovers that Duras framed Worf's father, Mogh, for the Khitomer betrayal ». Duras tue ensuite K'Ehleyr puis meurt en duel contre Worf, pendant la succession de K'mpec. L'épisode prolonge le mensonge sur Khitomer révélé dans « Sins of the Father »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 130,
   "bande": "XXIVe siècle",
   "associes": []
@@ -5772,6 +6360,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-081",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_First_Contact",
+     "justification": "Dans le film, Picard « awakens from a nightmare in which he relives his assimilation by the cybernetic Borg from six years earlier ». Selon la section Production, la séquence d'ouverture fait « a direct reference to his time as a Borg ». La nouvelle attaque borg contre la Terre prolonge l'affrontement de « The Best of Both Worlds »."
+    },
+    {
+     "id": "STP-207",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3",
+     "justification": "Résumé de « Võx » : « Picard's supposed Irumodic Syndrome was actually undetected, organic Borg technology from his time as Locutus ». Les Changelings l'ont copiée « into Starfleet's transporter systems » pour « infect officers under the age of 25 ». La Reine borg s'en sert ensuite le jour de Frontier Day. L'assimilation de Picard en 2366 est donc la condition de l'assimilation de masse."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 131,
   "bande": "XXIVe siècle",
   "associes": [
@@ -5852,6 +6457,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 132,
   "bande": "XXIVe siècle",
   "associes": []
@@ -5902,6 +6511,24 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-102",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)",
+     "justification": "Wikipedia présente « Reunion » comme le prédécesseur de « Redemption ». La page de « Reunion » qualifie « Redemption » de « the sequel to 'Reunion' ». La maison Duras, menée par Lursa et B'Etor, conteste la place de chancelier de Gowron, ce qui ouvre la guerre civile."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-097",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Reunion_(episode)",
+     "justification": "Selon Memory Alpha, dans « Reunion », « K'Ehleyr discovers that Duras framed Worf's father, Mogh, for the Khitomer betrayal ». Duras tue ensuite K'Ehleyr puis meurt en duel contre Worf, pendant la succession de K'mpec. L'épisode prolonge le mensonge sur Khitomer révélé dans « Sins of the Father »."
+    }
+   ]
+  },
   "rang_diegetique": 137,
   "bande": "XXIVe siècle",
   "associes": []
@@ -5951,6 +6578,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 138,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6006,6 +6637,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-100",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)",
+     "justification": "Wikipedia présente « Reunion » comme le prédécesseur de « Redemption ». La page de « Reunion » qualifie « Redemption » de « the sequel to 'Reunion' ». La maison Duras, menée par Lursa et B'Etor, conteste la place de chancelier de Gowron, ce qui ouvre la guerre civile."
+    },
+    {
+     "id": "STP-278",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)",
+     "justification": "La source établit explicitement le franchissement de chronologie : « Sela reveals that she is the daughter of Tasha Yar, who returned to the past on the Enterprise-C 24 years earlier (\"Yesterday's Enterprise\") ». Sela dirige le soutien romulien à la maison Duras. La relation part de la chronologie modifiée vers la continuité principale. Elle porte sur le départ de l'Enterprise-C et de Tasha Yar à la fin de l'épisode, pas sur la guerre elle-même."
+    }
+   ]
+  },
   "rang_diegetique": 139,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6056,6 +6704,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-127",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Maquis",
+     "justification": "Article « Maquis » : après l'accord de Dorvan V (TNG «Journey's End»), d'autres colons refusent d'évacuer et restent sous juridiction cardassienne ; les ressentiments montent et l'attaché Calvin Hudson finit par prendre la tête du Maquis (DS9 «The Maquis»). Wikipedia (The Maquis) précise que le double épisode « follow[s] plot elements introduced in » «Journey's End»."
+    },
+    {
+     "id": "STP-115",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)",
+     "justification": "La page de « Preemptive Strike » nomme l'arc : « The appearance of Nechayev and Evek was intended to add continuity to the developing Maquis arc ». Elle rattache aussi le volet amérindien de l'épisode à celui fait « previously in \"Journey's End\" », où les colons de Dorvan V passent sous contrôle cardassien. Il s'agit de l'arc maquisard."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 165,
   "bande": "XXIVe siècle",
   "associes": [
@@ -6114,6 +6779,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 140,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6169,6 +6838,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-182",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Unification_III",
+     "justification": "« Unification III » « serves as an informal sequel to the two-part Star Trek: The Next Generation episode \"Unification\" ». Cet épisode avait vu Spock « begin to unify the Vulcan and Romulan people », et Ni'Var est l'aboutissement de cette réunification."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 143,
   "bande": "XXIVe siècle",
   "associes": [
@@ -6227,6 +6907,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 144,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6276,6 +6960,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 145,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6325,6 +7013,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 141,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6374,6 +7066,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 125,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6428,6 +7124,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 150,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6480,6 +7180,10 @@
   "doublons": [
    "STP-254"
   ],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 151,
   "bande": "XXIVe siècle",
   "associes": [
@@ -6546,6 +7250,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 133,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6601,6 +7309,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 152,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6675,6 +7387,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 166,
   "bande": "XXIVe siècle",
   "associes": [
@@ -6753,6 +7469,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-127",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "La page rattache au même mouvement maquisard l'apparition du Maquis dans TNG «Preemptive Strike»."
+    },
+    {
+     "id": "STP-103",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)",
+     "justification": "La page de « Preemptive Strike » nomme l'arc : « The appearance of Nechayev and Evek was intended to add continuity to the developing Maquis arc ». Elle rattache aussi le volet amérindien de l'épisode à celui fait « previously in \"Journey's End\" », où les colons de Dorvan V passent sous contrôle cardassien. Il s'agit de l'arc maquisard."
+    }
+   ]
+  },
   "rang_diegetique": 167,
   "bande": "XXIVe siècle",
   "associes": [
@@ -6819,6 +7552,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 168,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6869,6 +7606,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 134,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6918,6 +7659,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 169,
   "bande": "XXIVe siècle",
   "associes": []
@@ -6972,6 +7717,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 142,
   "bande": "XXIVe siècle",
   "associes": []
@@ -7040,6 +7789,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 153,
   "bande": "XXIVe siècle",
   "associes": [
@@ -7151,6 +7904,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 154,
   "bande": "XXIVe siècle",
   "associes": [
@@ -7244,6 +8001,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 155,
   "bande": "XXIVe siècle",
   "associes": [
@@ -7322,6 +8083,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 156,
   "bande": "XXIVe siècle",
   "associes": [
@@ -7405,6 +8170,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 157,
   "bande": "XXIVe siècle",
   "associes": []
@@ -7454,6 +8223,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 158,
   "bande": "XXIVe siècle",
   "associes": [
@@ -7536,6 +8309,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 159,
   "bande": "XXIVe siècle",
   "associes": []
@@ -7591,6 +8368,36 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-141",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Le mécontentement du Maquis envers la Fédération « would recur in future Deep Space Nine episodes such as \"For the Cause,\" \"For the Uniform,\" and \"Blaze of Glory\" »."
+    },
+    {
+     "id": "STP-161",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Le Maquis introduit ici devient « a key component in the launch of the upcoming series » Voyager, où « The two crews then had to work together to return to the Alpha Quadrant »."
+    },
+    {
+     "id": "STP-115",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "La page rattache au même mouvement maquisard l'apparition du Maquis dans TNG «Preemptive Strike»."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-103",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Maquis",
+     "justification": "Article « Maquis » : après l'accord de Dorvan V (TNG «Journey's End»), d'autres colons refusent d'évacuer et restent sous juridiction cardassienne ; les ressentiments montent et l'attaché Calvin Hudson finit par prendre la tête du Maquis (DS9 «The Maquis»). Wikipedia (The Maquis) précise que le double épisode « follow[s] plot elements introduced in » «Journey's End»."
+    }
+   ]
+  },
   "rang_diegetique": 170,
   "bande": "XXIVe siècle",
   "associes": [
@@ -7654,6 +8461,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 171,
   "bande": "XXIVe siècle",
   "associes": []
@@ -7704,6 +8515,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 183,
   "bande": "XXIVe siècle",
   "associes": []
@@ -7753,6 +8568,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 175,
   "bande": "XXIVe siècle",
   "associes": []
@@ -7808,6 +8627,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 176,
   "bande": "XXIVe siècle",
   "associes": []
@@ -7857,6 +8680,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 177,
   "bande": "XXIVe siècle",
   "associes": []
@@ -7921,6 +8748,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-258",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Ties_of_Blood_and_Water",
+     "justification": "Le résumé présente Ghemor comme « the Cardassian who Kira befriended when she was kidnapped by the Obsidian Order to expose him as a dissident », renvoi explicite (lien) à «Second Skin»."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 178,
   "bande": "XXIVe siècle",
   "associes": [
@@ -7979,6 +8817,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 179,
   "bande": "XXIVe siècle",
   "associes": [
@@ -8049,6 +8891,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 180,
   "bande": "XXIVe siècle",
   "associes": [
@@ -8113,6 +8959,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 184,
   "bande": "XXIVe siècle",
   "associes": [
@@ -8178,6 +9028,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-143",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "justification": "« The Klingon invasion of Cardassia had all but destroyed Cardassian infrastructure. In mid-2373, frustrated at the apparent cowardice of the Detapa Council […] Gul Dukat negotiated the entry of the Cardassian Union into the Dominion. »"
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 185,
   "bande": "XXIVe siècle",
   "associes": [
@@ -8242,6 +9103,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-140",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Apocalypse_Rising_(episode)",
+     "justification": "L'épisode sert à « end the Klingon conflict » ouvert en saison 4 et à le relier à l'arc du Dominion : « There was a shape-shifter behind it all along » ; une fois le faux Martok démasqué, Gowron déclare un cessez-le-feu. By Inferno's Light (Memory Alpha) précise que la guerre klingonne « began in \"The Way of the Warrior\" »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 186,
   "bande": "XXIVe siècle",
   "associes": [
@@ -8316,6 +9188,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 187,
   "bande": "XXIVe siècle",
   "associes": []
@@ -8371,6 +9247,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-138",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Apocalypse_Rising_(episode)",
+     "justification": "L'épisode sert à « end the Klingon conflict » ouvert en saison 4 et à le relier à l'arc du Dominion : « There was a shape-shifter behind it all along » ; une fois le faux Martok démasqué, Gowron déclare un cessez-le-feu. By Inferno's Light (Memory Alpha) précise que la guerre klingonne « began in \"The Way of the Warrior\" »."
+    }
+   ]
+  },
   "rang_diegetique": 195,
   "bande": "XXIVe siècle",
   "associes": []
@@ -8429,6 +9316,24 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-144",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Maquis",
+     "justification": "Historique du Maquis : après la défection d'Eddington et l'affaire des colonies empoisonnées («For the Cause», «For the Uniform»), « barely a month later » Cardassie rejoint le Dominion et les Jem'Hadar anéantissent toutes les colonies maquisardes (« By Inferno's Light », « Blaze of Glory »)."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-127",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Le mécontentement du Maquis envers la Fédération « would recur in future Deep Space Nine episodes such as \"For the Cause,\" \"For the Uniform,\" and \"Blaze of Glory\" »."
+    }
+   ]
+  },
   "rang_diegetique": 188,
   "bande": "XXIVe siècle",
   "associes": []
@@ -8493,6 +9398,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 196,
   "bande": "XXIVe siècle",
   "associes": [
@@ -8550,6 +9459,24 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-146",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "justification": "L'entrée de Cardassia dans le Dominion donne à celui-ci une tête de pont (« new Dominion foothold ») ; ses convois franchissent le trou de ver, la Fédération le mine, Weyoun lance un ultimatum et la flotte cardasso-dominion attaque DS9 (« By Inferno's Light » puis « Call to Arms »)."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-137",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "justification": "« The Klingon invasion of Cardassia had all but destroyed Cardassian infrastructure. In mid-2373, frustrated at the apparent cowardice of the Detapa Council […] Gul Dukat negotiated the entry of the Cardassian Union into the Dominion. »"
+    }
+   ]
+  },
   "rang_diegetique": 197,
   "bande": "XXIVe siècle",
   "associes": [
@@ -8617,6 +9544,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-141",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Maquis",
+     "justification": "Historique du Maquis : après la défection d'Eddington et l'affaire des colonies empoisonnées («For the Cause», «For the Uniform»), « barely a month later » Cardassie rejoint le Dominion et les Jem'Hadar anéantissent toutes les colonies maquisardes (« By Inferno's Light », « Blaze of Glory »)."
+    }
+   ]
+  },
   "rang_diegetique": 198,
   "bande": "XXIVe siècle",
   "associes": [
@@ -8675,6 +9613,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 199,
   "bande": "XXIVe siècle",
   "associes": [
@@ -8740,6 +9682,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-143",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "justification": "L'entrée de Cardassia dans le Dominion donne à celui-ci une tête de pont (« new Dominion foothold ») ; ses convois franchissent le trou de ver, la Fédération le mine, Weyoun lance un ultimatum et la flotte cardasso-dominion attaque DS9 (« By Inferno's Light » puis « Call to Arms »)."
+    }
+   ]
+  },
   "rang_diegetique": 200,
   "bande": "XXIVe siècle",
   "associes": [
@@ -8813,6 +9766,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-148",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Sacrifice_of_Angels",
+     "justification": "« This episode is the conclusion of a six-episode story » ouvert par «A Time to Stand» après que « the Dominion captured the titular space station » ; Sisko mène la flotte qui reprend DS9."
+    },
+    {
+     "id": "STP-150",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Sacrifice_of_Angels",
+     "justification": "Dans l'arc de l'occupation de la station, « the main characters remaining on the station, led by Major Kira Nerys, work to undermine Dominion rule »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 201,
   "bande": "XXIVe siècle",
   "associes": [
@@ -8877,6 +9847,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-147",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Sacrifice_of_Angels",
+     "justification": "« This episode is the conclusion of a six-episode story » ouvert par «A Time to Stand» après que « the Dominion captured the titular space station » ; Sisko mène la flotte qui reprend DS9."
+    },
+    {
+     "id": "STP-150",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Sacrifice_of_Angels",
+     "justification": "«Sacrifice of Angels» reprend immédiatement là où s'achève «Favor the Bold» ; le sabotage de Rom met hors service les armes de la station, que le Defiant attaque ensuite. Memory Alpha (Dominion War) : l'information des résistants de DS9 sur le champ de mines déclenche l'offensive de Sisko."
+    }
+   ]
+  },
   "rang_diegetique": 206,
   "bande": "XXIVe siècle",
   "associes": []
@@ -8927,6 +9914,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 207,
   "bande": "XXIVe siècle",
   "associes": []
@@ -8987,6 +9978,24 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-148",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Sacrifice_of_Angels",
+     "justification": "«Sacrifice of Angels» reprend immédiatement là où s'achève «Favor the Bold» ; le sabotage de Rom met hors service les armes de la station, que le Defiant attaque ensuite. Memory Alpha (Dominion War) : l'information des résistants de DS9 sur le champ de mines déclenche l'offensive de Sisko."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-147",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Sacrifice_of_Angels",
+     "justification": "Dans l'arc de l'occupation de la station, « the main characters remaining on the station, led by Major Kira Nerys, work to undermine Dominion rule »."
+    }
+   ]
+  },
   "rang_diegetique": 208,
   "bande": "XXIVe siècle",
   "associes": []
@@ -9051,6 +10060,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 209,
   "bande": "XXIVe siècle",
   "associes": []
@@ -9100,6 +10113,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 189,
   "bande": "XXIVe siècle",
   "associes": []
@@ -9159,6 +10176,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-158",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Morphogenic_virus",
+     "justification": "Le virus conçu par Section 31 et transmis aux Fondateurs via Odo est guéri grâce au remède extrait de Sloan ; « Odo cured the Female Changeling by linking with her, prompting the Dominion's surrender » — « The cure to the morphogenic virus was instrumental in ending the Dominion War »."
+    },
+    {
+     "id": "STP-305",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Inter_Arma_Enim_Silent_Leges_(episode)",
+     "justification": "« This episode was spawned by \"Inquisition\", particularly Sisko's instruction to Bashir at the end of that episode that if he meets Sloan again, he is to pretend to join Sloan's cause. »"
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 219,
   "bande": "XXIVe siècle",
   "associes": []
@@ -9209,6 +10243,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 220,
   "bande": "XXIVe siècle",
   "associes": [
@@ -9266,6 +10304,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 221,
   "bande": "XXIVe siècle",
   "associes": [
@@ -9333,6 +10375,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-157",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "justification": "La révolte de Damar, soutenue par la Fédération (« When It Rains… »), est écrasée (« The Dogs of War ») mais « had left a scintillating impression upon the Cardassian people » : Damar, Garak et Kira entraînent alors « a popular uprising against the Dominion » (« What You Leave Behind »)."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 222,
   "bande": "XXIVe siècle",
   "associes": [
@@ -9399,6 +10452,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-156",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "justification": "La révolte de Damar, soutenue par la Fédération (« When It Rains… »), est écrasée (« The Dogs of War ») mais « had left a scintillating impression upon the Cardassian people » : Damar, Garak et Kira entraînent alors « a popular uprising against the Dominion » (« What You Leave Behind »)."
+    }
+   ]
+  },
   "rang_diegetique": 223,
   "bande": "XXIVe siècle",
   "associes": [
@@ -9457,6 +10521,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-153",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Morphogenic_virus",
+     "justification": "Le virus conçu par Section 31 et transmis aux Fondateurs via Odo est guéri grâce au remède extrait de Sloan ; « Odo cured the Female Changeling by linking with her, prompting the Dominion's surrender » — « The cure to the morphogenic virus was instrumental in ending the Dominion War »."
+    }
+   ]
+  },
   "rang_diegetique": 224,
   "bande": "XXIVe siècle",
   "associes": [
@@ -9525,6 +10600,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 225,
   "bande": "XXIVe siècle",
   "associes": [
@@ -9589,6 +10668,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 226,
   "bande": "XXIVe siècle",
   "associes": [
@@ -9662,6 +10745,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-127",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Le Maquis introduit ici devient « a key component in the launch of the upcoming series » Voyager, où « The two crews then had to work together to return to the Alpha Quadrant »."
+    }
+   ]
+  },
   "rang_diegetique": 181,
   "bande": "XXIVe siècle",
   "associes": [
@@ -9735,6 +10829,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-284",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)",
+     "justification": "Dans « Maneuvers », Culluh s'enfuit avec un module de téléportation, « believing Federation technology will allow him to unite and lead other Kazon sects ». L'arc « continues in \"Alliances\" and \"Basics\" »."
+    },
+    {
+     "id": "STP-163",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)",
+     "justification": "L'arc de Culluh et de Seska « continues in \"Alliances\" and \"Basics\" (parts I and II which bridge seasons 2 and 3) ». Dans « Basics », les Kazon-Nistrim s'emparent de Voyager."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 182,
   "bande": "XXIVe siècle",
   "associes": []
@@ -9789,6 +10900,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-162",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)",
+     "justification": "L'arc de Culluh et de Seska « continues in \"Alliances\" and \"Basics\" (parts I and II which bridge seasons 2 and 3) ». Dans « Basics », les Kazon-Nistrim s'emparent de Voyager."
+    },
+    {
+     "id": "STP-284",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)",
+     "justification": "La page de « Maneuvers » range « Alliances » et « Basics » dans le même arc kazon, celui de Culluh et de Seska."
+    }
+   ]
+  },
   "rang_diegetique": 190,
   "bande": "XXIVe siècle",
   "associes": []
@@ -9846,6 +10974,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 191,
   "bande": "XXIVe siècle",
   "associes": []
@@ -9895,6 +11027,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-166",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Q_and_the_Grey",
+     "justification": "Section Background : « The trigger for the civil war among the Q was the suicide of the Q known as \"Quinn\" », personnage au centre de « Death Wish »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 202,
   "bande": "XXIVe siècle",
   "associes": []
@@ -9946,6 +11089,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-165",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Q_and_the_Grey",
+     "justification": "Section Background : « The trigger for the civil war among the Q was the suicide of the Q known as \"Quinn\" », personnage au centre de « Death Wish »."
+    }
+   ]
+  },
   "rang_diegetique": 203,
   "bande": "XXIVe siècle",
   "associes": []
@@ -10000,6 +11154,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 204,
   "bande": "XXIVe siècle",
   "associes": []
@@ -10054,6 +11212,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 210,
   "bande": "XXIVe siècle",
   "associes": []
@@ -10113,6 +11275,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-281",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Flesh_and_Blood_(Star_Trek:_Voyager)",
+     "justification": "L'article indique : « This episode is a follow on from the events of 'The Killing Game' ». La révolte des hologrammes contre les Hirogens prolonge donc directement l'occupation de Voyager par les Hirogens."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 211,
   "bande": "XXIVe siècle",
   "associes": []
@@ -10163,6 +11336,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 227,
   "bande": "XXIVe siècle",
   "associes": []
@@ -10218,6 +11395,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 234,
   "bande": "XXIVe siècle",
   "associes": []
@@ -10274,6 +11455,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 235,
   "bande": "XXIVe siècle",
   "associes": []
@@ -10329,6 +11514,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 212,
   "bande": "XXIVe siècle",
   "associes": []
@@ -10383,6 +11572,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 233,
   "bande": "XXIVe siècle",
   "associes": []
@@ -10437,6 +11630,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 236,
   "bande": "XXIVe siècle",
   "associes": []
@@ -10496,6 +11693,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 67,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -10542,6 +11743,10 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 59,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -10600,6 +11805,29 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-179",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+     "justification": "Après le Burn, « the quadrant is disconnected and is no longer governed by the United Federation of Planets » ; la Terre (« People of Earth ») et Ni'Var (« Unification III ») ont quitté la Fédération."
+    },
+    {
+     "id": "STP-292",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+     "justification": "« Beta Test » : « Betazed, which left the Federation after the Burn »."
+    },
+    {
+     "id": "STP-294",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+     "justification": "« Vox in Excelso » : pendant le Burn, « Qo'noS and the Klingon Empire were destroyed », et les Klingons sont menacés d'extinction."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 278,
   "bande": "XXXIe siècle",
   "associes": []
@@ -10658,6 +11886,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-178",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+     "justification": "Après le Burn, « the quadrant is disconnected and is no longer governed by the United Federation of Planets » ; la Terre (« People of Earth ») et Ni'Var (« Unification III ») ont quitté la Fédération."
+    }
+   ]
+  },
   "rang_diegetique": 305,
   "bande": "Non ordonnable sans interprétation",
   "associes": [
@@ -10730,6 +11969,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-187",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+     "justification": "La Terre, sortie de la Fédération (saison 3), « decides to rejoin the Federation » dans « Coming Home »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 285,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -10787,6 +12037,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 286,
   "bande": "XXXIIe siècle",
   "associes": []
@@ -10837,6 +12091,24 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-187",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+     "justification": "« All Is Possible » : « Ni'Var fast-tracks its negotiations with the Federation » ; Burnham et Saru aident à trouver un compromis accepté par les deux parties."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-105",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Unification_III",
+     "justification": "« Unification III » « serves as an informal sequel to the two-part Star Trek: The Next Generation episode \"Unification\" ». Cet épisode avait vu Spock « begin to unify the Vulcan and Romulan people », et Ni'Var est l'aboutissement de cette réunification."
+    }
+   ]
+  },
   "rang_diegetique": 287,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -10901,6 +12173,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 288,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -10975,6 +12251,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-185",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+     "justification": "La Chaîne d'émeraude, « a syndicate of Andorians and Orions led by Osyraa » (« The Sanctuary ») ; dans « There Is a Tide... », « Osyraa proposes a peace treaty between the Federation and the Emerald Chain »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 289,
   "bande": "XXXIIe siècle",
   "associes": []
@@ -11026,6 +12313,24 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-186",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+     "justification": "Après l'échec de la négociation, Burnham « kills Osyraa in a fight » et « The Emerald Chain collapses after Osyraa's death » (« That Hope Is You, Part 2 »)."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-184",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+     "justification": "La Chaîne d'émeraude, « a syndicate of Andorians and Orions led by Osyraa » (« The Sanctuary ») ; dans « There Is a Tide... », « Osyraa proposes a peace treaty between the Federation and the Emerald Chain »."
+    }
+   ]
+  },
   "rang_diegetique": 290,
   "bande": "XXXIIe siècle",
   "associes": []
@@ -11075,6 +12380,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-185",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+     "justification": "Après l'échec de la négociation, Burnham « kills Osyraa in a fight » et « The Emerald Chain collapses after Osyraa's death » (« That Hope Is You, Part 2 »)."
+    }
+   ]
+  },
   "rang_diegetique": 291,
   "bande": "XXXIIe siècle",
   "associes": []
@@ -11114,6 +12430,23 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-180",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+     "justification": "La Terre, sortie de la Fédération (saison 3), « decides to rejoin the Federation » dans « Coming Home »."
+    },
+    {
+     "id": "STP-182",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+     "justification": "« All Is Possible » : « Ni'Var fast-tracks its negotiations with the Federation » ; Burnham et Saru aident à trouver un compromis accepté par les deux parties."
+    }
+   ]
+  },
   "rang_diegetique": 292,
   "bande": "XXXIIe siècle",
   "associes": []
@@ -11177,6 +12510,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-189",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+     "justification": "Le DMA détruit Kwejian, la planète de Book (« Kobayashi Maru ») ; dans « ...But to Connect », Book soutient Tarka et son arme « to destroy the DMA before it harms anyone else », contre l'option du contact."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 293,
   "bande": "XXXIIe siècle",
   "associes": []
@@ -11236,6 +12580,24 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-190",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+     "justification": "À l'issue du débat, l'assemblée vote pour le premier contact, qui aboutit dans « Species Ten-C » (« releases the hydrocarbon representing peace »)."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-188",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+     "justification": "Le DMA détruit Kwejian, la planète de Book (« Kobayashi Maru ») ; dans « ...But to Connect », Book soutient Tarka et son arme « to destroy the DMA before it harms anyone else », contre l'option du contact."
+    }
+   ]
+  },
   "rang_diegetique": 294,
   "bande": "XXXIIe siècle",
   "associes": []
@@ -11294,6 +12656,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-189",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+     "justification": "À l'issue du débat, l'assemblée vote pour le premier contact, qui aboutit dans « Species Ten-C » (« releases the hydrocarbon representing peace »)."
+    }
+   ]
+  },
   "rang_diegetique": 295,
   "bande": "XXXIIe siècle",
   "associes": []
@@ -11343,6 +12716,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 296,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -11409,6 +12786,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 297,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -11474,6 +12855,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 298,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -11536,6 +12921,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 115,
   "bande": "XXIVe siècle",
   "associes": [
@@ -11602,6 +12991,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 242,
   "bande": "XXIVe siècle",
   "associes": [
@@ -11677,6 +13070,30 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-197",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "« Starfleet banned the creation of synthetics after the attack » (« Remembrance »)."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-265",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Children_of_Mars_(Star_Trek:_Short_Treks)",
+     "justification": "Le court métrage montre « Mars and its shipyard facilities [...] attacked by rogue synthetics » et, selon la section Production, « ties-into Picard ». C'est la même attaque que dans PIC « Remembrance »."
+    },
+    {
+     "id": "STP-200",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "« Broken Pieces » : « the Zhat Vash sent the half-Romulan Oh to infiltrate Starfleet and instigate the Mars attack »."
+    }
+   ]
+  },
   "rang_diegetique": 264,
   "bande": "XXIVe siècle",
   "associes": [
@@ -11731,6 +13148,24 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-202",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "Fin de saison : « After the Federation lifts the ban on synths, Picard and Soji set off in La Sirena »."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-196",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "« Starfleet banned the creation of synthetics after the attack » (« Remembrance »)."
+    }
+   ]
+  },
   "rang_diegetique": 265,
   "bande": "XXIVe siècle",
   "associes": []
@@ -11781,6 +13216,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 266,
   "bande": "XXIVe siècle",
   "associes": [
@@ -11836,6 +13275,10 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 268,
   "bande": "XXIVe siècle",
   "associes": []
@@ -11875,6 +13318,17 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-196",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "« Broken Pieces » : « the Zhat Vash sent the half-Romulan Oh to infiltrate Starfleet and instigate the Mars attack »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 269,
   "bande": "XXIVe siècle",
   "associes": []
@@ -11930,6 +13384,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 270,
   "bande": "XXIVe siècle",
   "associes": []
@@ -11969,6 +13427,17 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-197",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "Fin de saison : « After the Federation lifts the ban on synths, Picard and Soji set off in La Sirena »."
+    }
+   ]
+  },
   "rang_diegetique": 271,
   "bande": "XXIVe siècle",
   "associes": []
@@ -12019,6 +13488,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 272,
   "bande": "XXVe siècle",
   "associes": []
@@ -12074,6 +13547,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 273,
   "bande": "XXVe siècle",
   "associes": [
@@ -12120,6 +13597,10 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 274,
   "bande": "XXVe siècle",
   "associes": []
@@ -12180,6 +13661,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 275,
   "bande": "XXVe siècle",
   "associes": [
@@ -12254,6 +13739,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-098",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3",
+     "justification": "Résumé de « Võx » : « Picard's supposed Irumodic Syndrome was actually undetected, organic Borg technology from his time as Locutus ». Les Changelings l'ont copiée « into Starfleet's transporter systems » pour « infect officers under the age of 25 ». La Reine borg s'en sert ensuite le jour de Frontier Day. L'assimilation de Picard en 2366 est donc la condition de l'assimilation de masse."
+    }
+   ]
+  },
   "rang_diegetique": 276,
   "bande": "XXVe siècle",
   "associes": [
@@ -12319,6 +13815,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 277,
   "bande": "XXVe siècle",
   "associes": [
@@ -12383,6 +13883,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 243,
   "bande": "XXIVe siècle",
   "associes": []
@@ -12438,6 +13942,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 244,
   "bande": "XXIVe siècle",
   "associes": []
@@ -12487,6 +13995,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 245,
   "bande": "XXIVe siècle",
   "associes": []
@@ -12542,6 +14054,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 246,
   "bande": "XXIVe siècle",
   "associes": [
@@ -12605,6 +14121,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 247,
   "bande": "XXIVe siècle",
   "associes": [
@@ -12662,6 +14182,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 248,
   "bande": "XXIVe siècle",
   "associes": []
@@ -12712,6 +14236,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 249,
   "bande": "XXIVe siècle",
   "associes": []
@@ -12764,6 +14292,10 @@
   "doublons": [
    "STP-270"
   ],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 252,
   "bande": "XXIVe siècle",
   "associes": [
@@ -12811,6 +14343,10 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 253,
   "bande": "XXIVe siècle",
   "associes": []
@@ -12849,6 +14385,10 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 254,
   "bande": "XXIVe siècle",
   "associes": [
@@ -12907,6 +14447,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 255,
   "bande": "XXIVe siècle",
   "associes": [
@@ -12964,6 +14508,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 256,
   "bande": "XXIVe siècle",
   "associes": [
@@ -13031,6 +14579,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-224",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
+     "justification": "Le Diviner a été envoyé du futur parce que « first contact with Starfleet caused a civil war » ; à la fin de la saison, Gwyn « chooses to go to her homeworld and attempt to prevent the civil war », ce qui ouvre la saison 2."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 257,
   "bande": "XXIVe siècle",
   "associes": [
@@ -13101,6 +14660,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 258,
   "bande": "XXIVe siècle",
   "associes": [
@@ -13172,6 +14735,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 259,
   "bande": "XXIVe siècle",
   "associes": [
@@ -13241,6 +14808,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-221",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
+     "justification": "Le Diviner a été envoyé du futur parce que « first contact with Starfleet caused a civil war » ; à la fin de la saison, Gwyn « chooses to go to her homeworld and attempt to prevent the civil war », ce qui ouvre la saison 2."
+    }
+   ]
+  },
   "rang_diegetique": 260,
   "bande": "XXIVe siècle",
   "associes": [
@@ -13304,6 +14882,17 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-226",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2",
+     "justification": "Dans « Brink », la jeune Asencia « has sided with the rebellion against her older self » ; dans « Ouroboros », Gwyn bat Asencia."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 261,
   "bande": "XXIVe siècle",
   "associes": [
@@ -13367,6 +14956,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-225",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2",
+     "justification": "Dans « Brink », la jeune Asencia « has sided with the rebellion against her older self » ; dans « Ouroboros », Gwyn bat Asencia."
+    }
+   ]
+  },
   "rang_diegetique": 262,
   "bande": "XXIVe siècle",
   "associes": [
@@ -13426,6 +15026,10 @@
   "diffusion": [],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 263,
   "bande": "XXIVe siècle",
   "associes": [
@@ -13483,6 +15087,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 279,
   "bande": "XXXIIe siècle",
   "associes": []
@@ -13532,6 +15140,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 280,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -13596,6 +15208,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 281,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -13660,6 +15276,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 282,
   "bande": "XXXIIe siècle",
   "associes": []
@@ -13714,6 +15334,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 283,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -13780,6 +15404,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 49,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -13837,6 +15465,23 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-235",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Crossover_(episode)",
+     "justification": "Résumé de «Crossover» : l'Intendante explique que Kirk a eu une « profound influence » sur Spock Miroir, qui « preached peaceful reforms after \"our\" Kirk left » et devint commandant en chef de l'Empire ; une fois ses réformes achevées, l'Empire était trop faible pour se défendre."
+    },
+    {
+     "id": "STP-236",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Crossover_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "L'Intendante raconte la visite de Kirk dans l'univers Miroir un siècle plus tôt : « that incident led to the formation of a powerful alliance between the Klingons, Cardassians and Bajorans » et à « the eventual conquest of the Terrans »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 50,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -13895,6 +15540,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-234",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Crossover_(episode)",
+     "justification": "Résumé de «Crossover» : l'Intendante explique que Kirk a eu une « profound influence » sur Spock Miroir, qui « preached peaceful reforms after \"our\" Kirk left » et devint commandant en chef de l'Empire ; une fois ses réformes achevées, l'Empire était trop faible pour se défendre."
+    }
+   ]
+  },
   "rang_diegetique": 51,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -13962,6 +15618,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-234",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Crossover_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "L'Intendante raconte la visite de Kirk dans l'univers Miroir un siècle plus tôt : « that incident led to the formation of a powerful alliance between the Klingons, Cardassians and Bajorans » et à « the eventual conquest of the Terrans »."
+    }
+   ]
+  },
   "rang_diegetique": 116,
   "bande": "XXIVe siècle",
   "associes": [
@@ -14046,6 +15713,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 117,
   "bande": "XXIVe siècle",
   "associes": [
@@ -14104,6 +15775,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 52,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -14167,6 +15842,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 284,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -14224,6 +15903,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 107,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -14281,6 +15964,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 25,
   "bande": "XXIIe siècle",
   "associes": []
@@ -14330,6 +16017,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 31,
   "bande": "XXIIe siècle",
   "associes": []
@@ -14379,6 +16070,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-019",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Stigma_(Star_Trek:_Enterprise)",
+     "justification": "L'article présente le syndrome de Pa'nar de T'Pol dans « Stigma » comme contracté lors de la fusion mentale de « Fusion », imposée par Tolaris, membre d'une secte vulcaine rebelle : « contracted from her mind meld »."
+    }
+   ]
+  },
   "rang_diegetique": 32,
   "bande": "XXIIe siècle",
   "associes": []
@@ -14428,6 +16130,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 33,
   "bande": "XXIIe siècle",
   "associes": []
@@ -14477,6 +16183,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 100,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -14526,6 +16236,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 101,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -14580,6 +16294,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 102,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -14634,6 +16352,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 103,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -14683,6 +16405,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 104,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -14738,6 +16464,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 105,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -14793,6 +16523,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 135,
   "bande": "XXIVe siècle",
   "associes": []
@@ -14842,6 +16576,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 146,
   "bande": "XXIVe siècle",
   "associes": []
@@ -14893,6 +16631,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 147,
   "bande": "XXIVe siècle",
   "associes": []
@@ -14956,6 +16698,10 @@
    "motif": "Même épisode (TNG «The Quality of Life») et même fait : reconnaissance de la vie des exocomps et refus de leur sacrifice. STP-111 est retenue comme principale : intitulé confirmé par une source officielle (niveau A) ; l’« accès aux droits civiques » de STP-254 n’est pas attesté."
   },
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 160,
   "bande": "XXIVe siècle",
   "associes": [
@@ -15015,6 +16761,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 172,
   "bande": "XXIVe siècle",
   "associes": []
@@ -15064,6 +16814,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 7,
   "bande": "XXe siècle",
   "associes": []
@@ -15113,6 +16867,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 8,
   "bande": "XXe siècle",
   "associes": []
@@ -15167,6 +16925,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-133",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Ties_of_Blood_and_Water",
+     "justification": "Le résumé présente Ghemor comme « the Cardassian who Kira befriended when she was kidnapped by the Obsidian Order to expose him as a dissident », renvoi explicite (lien) à «Second Skin»."
+    }
+   ]
+  },
   "rang_diegetique": 213,
   "bande": "XXIVe siècle",
   "associes": []
@@ -15216,6 +16985,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 228,
   "bande": "XXIVe siècle",
   "associes": []
@@ -15265,6 +17038,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 214,
   "bande": "XXIVe siècle",
   "associes": []
@@ -15314,6 +17091,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 215,
   "bande": "XXIVe siècle",
   "associes": []
@@ -15363,6 +17144,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 216,
   "bande": "XXIVe siècle",
   "associes": []
@@ -15412,6 +17197,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 229,
   "bande": "XXIVe siècle",
   "associes": []
@@ -15467,6 +17256,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 237,
   "bande": "XXIVe siècle",
   "associes": []
@@ -15519,6 +17312,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-196",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Children_of_Mars_(Star_Trek:_Short_Treks)",
+     "justification": "Le court métrage montre « Mars and its shipyard facilities [...] attacked by rogue synthetics » et, selon la section Production, « ties-into Picard ». C'est la même attaque que dans PIC « Remembrance »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 267,
   "bande": "XXIVe siècle",
   "associes": []
@@ -15569,6 +17373,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-286",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/The_Sound_of_Thunder_(Star_Trek:_Discovery)",
+     "justification": "Hannah Spear y reprend Siranna, la sœur de Saru, « from the short 'The Brightest Star' ». Saru revient sur Kaminar, où l'épisode met fin à la sélection des Kelpiens par les Ba'ul. La page Short Treks indique aussi que « The Brightest Star » est l'un des courts qui « tie directly into the second season of Discovery »."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 57,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -15624,6 +17439,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 118,
   "bande": "XXIVe siècle",
   "associes": [
@@ -15686,6 +17505,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 119,
   "bande": "XXIVe siècle",
   "associes": [
@@ -15759,6 +17582,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 173,
   "bande": "XXIVe siècle",
   "associes": [
@@ -15844,6 +17671,10 @@
    "motif": "Même épisode (LD «Old Friends, New Planets») et même fait : la flotte indépendante « Nova Fleet » de Nick Locarno. Doublon déjà signalé dans le corpus V0.3 (« ne pas compter deux événements distincts ») ; STP-216, entrée la plus ancienne, est retenue comme principale."
   },
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 250,
   "bande": "XXIVe siècle",
   "associes": [
@@ -15903,6 +17734,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 161,
   "bande": "XXIVe siècle",
   "associes": []
@@ -15953,6 +17788,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-273",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Rapture_(episode)",
+     "justification": "«Rapture» est présenté « Following on from \"Destiny\" and \"Accession\", as Part III of the 'Emissary Trilogy' », jalon de l'acceptation par Sisko de son rôle d'Émissaire."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 192,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16004,6 +17850,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-272",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Rapture_(episode)",
+     "justification": "«Rapture» est présenté « Following on from \"Destiny\" and \"Accession\", as Part III of the 'Emissary Trilogy' », jalon de l'acceptation par Sisko de son rôle d'Émissaire."
+    }
+   ]
+  },
   "rang_diegetique": 205,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16053,6 +17910,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 217,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16103,6 +17964,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 162,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16153,6 +18018,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 148,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16203,6 +18072,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 163,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16253,6 +18126,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-102",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)",
+     "justification": "La source établit explicitement le franchissement de chronologie : « Sela reveals that she is the daughter of Tasha Yar, who returned to the past on the Enterprise-C 24 years earlier (\"Yesterday's Enterprise\") ». Sela dirige le soutien romulien à la maison Duras. La relation part de la chronologie modifiée vers la continuité principale. Elle porte sur le départ de l'Enterprise-C et de Tasha Yar à la fin de l'épisode, pas sur la guerre elle-même."
+    }
+   ],
+   "entrantes": []
+  },
   "rang_diegetique": 136,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16303,6 +18187,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 126,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16353,6 +18241,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 149,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16404,6 +18296,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-169",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Flesh_and_Blood_(Star_Trek:_Voyager)",
+     "justification": "L'article indique : « This episode is a follow on from the events of 'The Killing Game' ». La révolte des hologrammes contre les Hirogens prolonge donc directement l'occupation de Voyager par les Hirogens."
+    }
+   ]
+  },
   "rang_diegetique": 238,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16454,6 +18357,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 239,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16503,6 +18410,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 230,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16552,6 +18463,24 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [
+    {
+     "id": "STP-163",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)",
+     "justification": "La page de « Maneuvers » range « Alliances » et « Basics » dans le même arc kazon, celui de Culluh et de Seska."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-162",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)",
+     "justification": "Dans « Maneuvers », Culluh s'enfuit avec un module de téléportation, « believing Federation technology will allow him to unite and lead other Kazon sects ». L'arc « continues in \"Alliances\" and \"Basics\" »."
+    }
+   ]
+  },
   "rang_diegetique": 193,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16601,6 +18530,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 231,
   "bande": "XXIVe siècle",
   "associes": []
@@ -16650,6 +18583,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-266",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/The_Sound_of_Thunder_(Star_Trek:_Discovery)",
+     "justification": "Hannah Spear y reprend Siranna, la sœur de Saru, « from the short 'The Brightest Star' ». Saru revient sur Kaminar, où l'épisode met fin à la sélection des Kelpiens par les Ba'ul. La page Short Treks indique aussi que « The Brightest Star » est l'un des courts qui « tie directly into the second season of Discovery »."
+    }
+   ]
+  },
   "rang_diegetique": 68,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -16700,6 +18644,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 69,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -16754,6 +18702,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 60,
   "bande": "XXIIIe siècle",
   "associes": []
@@ -16803,6 +18755,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 251,
   "bande": "XXIVe siècle",
   "associes": [
@@ -16860,6 +18816,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 44,
   "bande": "XXIIe siècle",
   "associes": []
@@ -16910,6 +18870,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 36,
   "bande": "XXIIe siècle",
   "associes": []
@@ -16960,6 +18924,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-178",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+     "justification": "« Beta Test » : « Betazed, which left the Federation after the Burn »."
+    }
+   ]
+  },
   "rang_diegetique": 299,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -17025,6 +19000,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 300,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -17089,6 +19068,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-178",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+     "justification": "« Vox in Excelso » : pendant le Burn, « Qo'noS and the Klingon Empire were destroyed », et les Klingons sont menacés d'extinction."
+    }
+   ]
+  },
   "rang_diegetique": 301,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -17154,6 +19144,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 302,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -17220,6 +19214,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 303,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -17293,6 +19291,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 304,
   "bande": "XXXIIe siècle",
   "associes": [
@@ -17360,6 +19362,10 @@
   "doublons": [
    "STP-054"
   ],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 53,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -17427,6 +19433,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 54,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -17491,6 +19501,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 55,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -17555,6 +19569,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 56,
   "bande": "XXIIIe siècle",
   "associes": [
@@ -17619,6 +19637,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 5,
   "bande": "Passé lointain",
   "associes": [
@@ -17676,6 +19698,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 6,
   "bande": "Passé lointain",
   "associes": [
@@ -17735,6 +19761,10 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": []
+  },
   "rang_diegetique": 164,
   "bande": "XXIVe siècle",
   "associes": []
@@ -17785,6 +19815,17 @@
   ],
   "doublon_de": null,
   "doublons": [],
+  "relations": {
+   "sortantes": [],
+   "entrantes": [
+    {
+     "id": "STP-153",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Inter_Arma_Enim_Silent_Leges_(episode)",
+     "justification": "« This episode was spawned by \"Inquisition\", particularly Sisko's instruction to Bashir at the end of that episode that if he meets Sloan again, he is to pretend to join Sloan's cause. »"
+    }
+   ]
+  },
   "rang_diegetique": 232,
   "bande": "XXIVe siècle",
   "associes": []

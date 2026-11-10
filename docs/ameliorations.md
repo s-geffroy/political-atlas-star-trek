@@ -57,11 +57,13 @@ STP-013 rattachee a TNG « Up the Long Ladder » et « Attached » (formation du
 - 10. Analyses fiction / histoire : une page par fiche approfondie (/analyses/STP-NNN/), composee des volets de la fiche, des dates de diffusion sourcees et du paragraphe « Lignes de force » de la periode ; aucune analyse redigee.
 - 11. Graphiques comparatifs (/graphiques/) : categories x series, categories x decennie de diffusion (cartes de chaleur lisibles comme tableaux), niveaux par serie (barres empilees). Palette des niveaux A/B/C revalidee (luminosite, daltonisme, contraste) et appliquee a tout le site.
 
+- 13. Relations documentees : 60 relations orientees (22 causes, 28 suites, 10 meme arc), chacune etablie par la page citee, affichees sur 87 fiches (`data/relations.json`, proposition validee : `docs/proposition-relations.md`).
+
 ## P2 -- evolutions
 
 10. Ecrire d'autres analyses fiction / histoire a partir des 31 fiches (Terra Prime, Leyton, Section 31, Data).
 11. Graphiques comparatifs : repartition des categories par serie et par decennie de diffusion.
 12. Visualisations geopolitiques : acteurs (Federation, Klingons, Romuliens, Cardassiens, Dominion...). Cela suppose d'ajouter au corpus un champ « acteurs », qui n'existe pas aujourd'hui.
-13. References croisees avancees : relations explicites entre entrees (cause, consequence, doublon) saisies dans le corpus, plutot que deduites.
+13. Relations : etendre au-dela des 60 relations actuelles (paires partageant un episode, relations entre series non explorees).
 14. Le cas echeant, migrer vers Astro avec le template `github-pages-ci`, par exemple pour une recherche plein texte indexee ou des pages par acteur.
 15. Domaine personnalise : saisir le domaine dans Settings > Pages, puis vider `baseurl`.

@@ -48,6 +48,11 @@ export function lireDoublons() {
   return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')).doublons : [];
 }
 
+export function lireRelations() {
+  const p = path.join(ROOT, 'data/relations.json');
+  return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')).relations : [];
+}
+
 export function importer(csvPath, mdPath) {
   const csvText = fs.readFileSync(csvPath, 'utf8');
   const md = fs.readFileSync(mdPath, 'utf8');
@@ -110,6 +115,15 @@ export function importer(csvPath, mdPath) {
     }
   }
   const distincts = evenements.filter((e) => !e.doublon_de);
+
+  // Relations documentees (data/relations.json), affichees dans les deux sens.
+  const relations = lireRelations();
+  for (const e of evenements) e.relations = { sortantes: [], entrantes: [] };
+  for (const x of relations) {
+    if (!parId.has(x.de) || !parId.has(x.vers)) continue;
+    parId.get(x.de).relations.sortantes.push({ id: x.vers, type: x.type, url: x.url, justification: x.justification });
+    parId.get(x.vers).relations.entrantes.push({ id: x.de, type: x.type, url: x.url, justification: x.justification });
+  }
 
   // Rang diegetique (tri seulement) et bande d'affichage (siecle de la cle).
   const groupe = (o) => (o.precision === 'passe_lointain' ? 0 : o.cle == null ? 2 : 1);
@@ -183,7 +197,7 @@ export function importer(csvPath, mdPath) {
       version: (csvPath.match(/_V(\d+_\d+)_/) || [])[1]?.replace('_', '.') || null,
       etat: editorial.etat, colonnes: header,
     },
-    header, records, rejects, evenements, distincts, doublons, fiches, problemesFiches, registre, editorial, stats, atlas,
+    header, records, rejects, evenements, distincts, doublons, relations, fiches, problemesFiches, registre, editorial, stats, atlas,
     citationsInconnues, diffusion, corrections,
     referentiels: { series: SERIES, continuites: CONTINUITES, precisions: PRECISIONS, domaines: DOMAINES },
   };

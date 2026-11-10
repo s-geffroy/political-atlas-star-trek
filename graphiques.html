@@ -13,7 +13,7 @@ description: Répartition des catégories politiques de l’atlas Star Trek par 
   <div class="defile" tabindex="0" role="region" aria-label="Catégories par série">
   <table class="carte-chaleur">
     <thead><tr><th scope="col">Catégorie</th>{% for s in G.series %}<th scope="col" title="{{ s.nom }}">{{ s.code | replace: "Short Treks", "ST" }}</th>{% endfor %}</tr></thead>
-    <tbody>{% for l in G.par_serie.lignes %}<tr><th scope="row">{{ l.cle }}</th>{% for c in l.cellules %}<td class="q{{ c.q }}" title="{{ l.cle }} — {{ G.series[forloop.index0].nom }} : {{ c.n }}">{% if c.n > 0 %}{{ c.n }}{% else %}<span aria-label="0">·</span>{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
+    <tbody>{% for l in G.par_serie.lignes %}<tr><th scope="row">{{ l.cle }}</th>{% for c in l.cellules %}<td class="q{{ c.q }}" title="{{ l.cle }} — {{ G.series[forloop.index0].nom }} : {{ c.n }}">{% if c.n > 0 %}{{ c.n }}{% else %}<span class="visuellement-cache">0</span><span aria-hidden="true">·</span>{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
   </table>
   </div>
 </figure>
@@ -23,7 +23,7 @@ description: Répartition des catégories politiques de l’atlas Star Trek par 
   <div class="defile" tabindex="0" role="region" aria-label="Catégories par décennie de diffusion">
   <table class="carte-chaleur">
     <thead><tr><th scope="col">Catégorie</th>{% for d in G.decennies %}<th scope="col">{{ d }}</th>{% endfor %}</tr></thead>
-    <tbody>{% for l in G.par_decennie.lignes %}<tr><th scope="row">{{ l.cle }}</th>{% for c in l.cellules %}<td class="q{{ c.q }}" title="{{ l.cle }} — {{ G.decennies[forloop.index0] }} : {{ c.n }}">{% if c.n > 0 %}{{ c.n }}{% else %}<span aria-label="0">·</span>{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
+    <tbody>{% for l in G.par_decennie.lignes %}<tr><th scope="row">{{ l.cle }}</th>{% for c in l.cellules %}<td class="q{{ c.q }}" title="{{ l.cle }} — {{ G.decennies[forloop.index0] }} : {{ c.n }}">{% if c.n > 0 %}{{ c.n }}{% else %}<span class="visuellement-cache">0</span><span aria-hidden="true">·</span>{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
   </table>
   </div>
   <p class="carte__meta">Une décennie de diffusion n’explique pas à elle seule le contenu politique d’un épisode : voir les <a href="{{ '/analyses/' | relative_url }}">analyses fiction / histoire</a> et leurs limites.</p>
@@ -34,7 +34,8 @@ description: Répartition des catégories politiques de l’atlas Star Trek par 
   <ul class="legende" aria-label="Légende">
     <li><span class="pastille-leg niv-A" aria-hidden="true"></span>A — source officielle</li>
     <li><span class="pastille-leg niv-B" aria-hidden="true"></span>B — source indépendante</li>
-    <li><span class="pastille-leg niv-C" aria-hidden="true"></span>C — non recoupé</li>
+    {%- assign nC = site.data.stats.niveaux | where: "cle", "C" | first %}{% if nC.n > 0 %}
+    <li><span class="pastille-leg niv-C" aria-hidden="true"></span>C — non recoupé</li>{% endif %}
   </ul>
   <ol class="empile" aria-label="Niveaux par série">
     {%- for n in G.niveaux_par_serie %}

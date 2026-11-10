@@ -1,5 +1,7 @@
-{%- comment -%} Bascule entre les deux chronologies : deux pages, de simples liens (aucun JavaScript). {%- endcomment -%}
-<nav class="onglets" aria-label="Type de chronologie">
+{%- comment -%} Navigation entre les vues de la chronologie : de simples liens (aucun JavaScript). {%- endcomment -%}
+<nav class="onglets" aria-label="Vues de la chronologie">
   <a href="{{ '/chronologie/' | relative_url }}"{% if include.vue == "diegetique" %} aria-current="page"{% endif %}>Chronologie diégétique</a>
   <a href="{{ '/chronologie/diffusion/' | relative_url }}"{% if include.vue == "diffusion" %} aria-current="page"{% endif %}>Chronologie de diffusion</a>
+  <a href="{{ '/chronologie/series/' | relative_url }}"{% if include.vue == "series" %} aria-current="page"{% endif %}>Séries et saisons</a>
+  <a href="{{ '/chronologie/films/' | relative_url }}"{% if include.vue == "films" %} aria-current="page"{% endif %}>Films</a>
 </nav>

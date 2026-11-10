@@ -4,10 +4,38 @@
   {
    "code": "TOS",
    "nom": "Star Trek: The Original Series",
+   "diffuseur": "NBC",
    "debut": "1966-09-08",
    "fin": "1969-06-03",
+   "statut": "terminée",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Original_Series_episodes",
-   "note": "NBC. Debut = The Man Trap ; fin = Turnabout Intruder.",
+   "note": "Dates NBC (The Man Trap -> Turnabout Intruder), confirmées par https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series (« aired on NBC from September 8, 1966, to June 3, 1969 »). L'infobox de cet article donne le 1966-09-06 : première diffusion sur CTV (Canada), écartée car hors États-Unis. 79 épisodes hors pilote « The Cage ».",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "1966-09-08",
+     "fin": "1967-04-13",
+     "episodes": 29,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Original_Series_episodes",
+     "note": ""
+    },
+    {
+     "numero": 2,
+     "debut": "1967-09-15",
+     "fin": "1968-03-29",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Original_Series_episodes",
+     "note": ""
+    },
+    {
+     "numero": 3,
+     "debut": "1968-09-20",
+     "fin": "1969-06-03",
+     "episodes": 24,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Original_Series_episodes",
+     "note": ""
+    }
+   ],
    "evenements": [
     {
      "id": "STP-036",
@@ -114,10 +142,30 @@
   {
    "code": "TAS",
    "nom": "Star Trek: The Animated Series",
+   "diffuseur": "NBC",
    "debut": "1973-09-08",
    "fin": "1974-10-12",
+   "statut": "terminée",
    "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
-   "note": "NBC.",
+   "note": "22 épisodes.",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "1973-09-08",
+     "fin": "1974-01-12",
+     "episodes": 16,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
+     "note": ""
+    },
+    {
+     "numero": 2,
+     "debut": "1974-09-07",
+     "fin": "1974-10-12",
+     "episodes": 6,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
+     "note": ""
+    }
+   ],
    "evenements": [
     {
      "id": "STP-250",
@@ -151,11 +199,14 @@
   },
   {
    "code": "Film",
-   "nom": "Films (sorties en salle aux États-Unis)",
+   "nom": "Films",
+   "diffuseur": null,
    "debut": "1979-12-07",
    "fin": "2025-01-24",
+   "statut": null,
    "source_url": null,
-   "note": "Bornes calculées à partir des films datés ci-dessous.",
+   "note": "Bornes calculées à partir des films datés.",
+   "saisons": [],
    "evenements": [
     {
      "id": "STP-073",
@@ -250,10 +301,70 @@
   {
    "code": "TNG",
    "nom": "Star Trek: The Next Generation",
+   "diffuseur": "Syndication (États-Unis)",
    "debut": "1987-09-28",
    "fin": "1994-05-23",
+   "statut": "terminée",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes",
-   "note": "Syndication US. Encounter at Farpoint diffuse 'starting the week of September 28, 1987' (https://en.wikipedia.org/wiki/Encounter_at_Farpoint) ; All Good Things... 1994-05-23 confirme par son article.",
+   "note": "Diffusion en syndication : Encounter at Farpoint diffusé « starting the week of September 28, 1987 » (https://en.wikipedia.org/wiki/Encounter_at_Farpoint) ; les dates sont donc celles de la semaine de diffusion. Dates par saison lues dans le tableau « Series overview » de la liste.",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "1987-09-28",
+     "fin": "1988-05-16",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes",
+     "note": ""
+    },
+    {
+     "numero": 2,
+     "debut": "1988-11-21",
+     "fin": "1989-07-17",
+     "episodes": 22,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes",
+     "note": ""
+    },
+    {
+     "numero": 3,
+     "debut": "1989-09-25",
+     "fin": "1990-06-18",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes",
+     "note": ""
+    },
+    {
+     "numero": 4,
+     "debut": "1990-09-24",
+     "fin": "1991-06-17",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes",
+     "note": ""
+    },
+    {
+     "numero": 5,
+     "debut": "1991-09-23",
+     "fin": "1992-06-15",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes",
+     "note": ""
+    },
+    {
+     "numero": 6,
+     "debut": "1992-09-21",
+     "fin": "1993-06-21",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes",
+     "note": ""
+    },
+    {
+     "numero": 7,
+     "debut": "1993-09-20",
+     "fin": "1994-05-23",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes",
+     "note": ""
+    }
+   ],
    "evenements": [
     {
      "id": "STP-009",
@@ -444,10 +555,70 @@
   {
    "code": "DS9",
    "nom": "Star Trek: Deep Space Nine",
+   "diffuseur": "Syndication (États-Unis)",
    "debut": "1993-01-03",
    "fin": "1999",
+   "statut": "terminée",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
-   "note": "Syndication US. Debut (Emissary) 1993-01-03 concordant liste + article. Fin divergente : liste 1999-06-02 (prose de la liste des series : June 2, 1999 ; tableau saison 7 : May 31, 1999) ; article What You Leave Behind : infobox 1999-05-31, 'aired the week of May 31, 1999', section Broadcast 'first shown on June 2, 1999'. Precision ramenee a l'annee.",
+   "note": "176 épisodes. Fin ramenée à l'année : divergence 1999-05-31 / 1999-06-02 (voir saison 7).",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "1993-01-03",
+     "fin": "1993-06-19",
+     "episodes": 20,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+     "note": ""
+    },
+    {
+     "numero": 2,
+     "debut": "1993-09-25",
+     "fin": "1994-06-11",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+     "note": ""
+    },
+    {
+     "numero": 3,
+     "debut": "1994-09-24",
+     "fin": "1995-06-17",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+     "note": ""
+    },
+    {
+     "numero": 4,
+     "debut": "1995-09-30",
+     "fin": "1996-06-15",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+     "note": ""
+    },
+    {
+     "numero": 5,
+     "debut": "1996-09-28",
+     "fin": "1997-06-16",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+     "note": ""
+    },
+    {
+     "numero": 6,
+     "debut": "1997-09-27",
+     "fin": "1998-06-13",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+     "note": ""
+    },
+    {
+     "numero": 7,
+     "debut": "1998-09-30",
+     "fin": "1999",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+     "note": "Fin divergente : 1999-06-02 dans la liste (tableau récapitulatif et tableau des épisodes), dans l'infobox de https://en.wikipedia.org/wiki/Star_Trek:_Deep_Space_Nine et dans la prose de https://en.wikipedia.org/wiki/What_You_Leave_Behind (« first shown on June 2, 1999 ») ; 1999-05-31 dans l'infobox de What You Leave Behind et dans le tableau récapitulatif de https://en.wikipedia.org/wiki/List_of_Star_Trek_television_series. Précision ramenée à l'année."
+    }
+   ],
    "evenements": [
     {
      "id": "STP-003",
@@ -690,10 +861,70 @@
   {
    "code": "VOY",
    "nom": "Star Trek: Voyager",
+   "diffuseur": "UPN",
    "debut": "1995-01-16",
    "fin": "2001-05-23",
+   "statut": "terminée",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
-   "note": "UPN. Caretaker -> Endgame.",
+   "note": "172 épisodes (Caretaker -> Endgame) ; total confirmé par https://en.wikipedia.org/wiki/Star_Trek (1995-01-16 – 2001-05-23, UPN).",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "1995-01-16",
+     "fin": "1995-05-22",
+     "episodes": 16,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+     "note": ""
+    },
+    {
+     "numero": 2,
+     "debut": "1995-08-28",
+     "fin": "1996-05-20",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+     "note": ""
+    },
+    {
+     "numero": 3,
+     "debut": "1996-09-04",
+     "fin": "1997-05-21",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+     "note": ""
+    },
+    {
+     "numero": 4,
+     "debut": "1997-09-03",
+     "fin": "1998-05-20",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+     "note": ""
+    },
+    {
+     "numero": 5,
+     "debut": "1998-10-14",
+     "fin": "1999-05-26",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+     "note": ""
+    },
+    {
+     "numero": 6,
+     "debut": "1999-09-22",
+     "fin": "2000-05-24",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+     "note": ""
+    },
+    {
+     "numero": 7,
+     "debut": "2000-10-04",
+     "fin": "2001-05-23",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+     "note": ""
+    }
+   ],
    "evenements": [
     {
      "id": "STP-269",
@@ -808,10 +1039,46 @@
   {
    "code": "ENT",
    "nom": "Star Trek: Enterprise",
+   "diffuseur": "UPN",
    "debut": "2001-09-26",
    "fin": "2005-05-13",
+   "statut": "terminée",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes",
-   "note": "UPN. Broken Bow -> These Are the Voyages...",
+   "note": "98 épisodes (Broken Bow -> These Are the Voyages...).",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "2001-09-26",
+     "fin": "2002-05-22",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes",
+     "note": ""
+    },
+    {
+     "numero": 2,
+     "debut": "2002-09-18",
+     "fin": "2003-05-21",
+     "episodes": 26,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes",
+     "note": ""
+    },
+    {
+     "numero": 3,
+     "debut": "2003-09-10",
+     "fin": "2004-05-26",
+     "episodes": 24,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes",
+     "note": ""
+    },
+    {
+     "numero": 4,
+     "debut": "2004-10-08",
+     "fin": "2005-05-13",
+     "episodes": 22,
+     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes",
+     "note": ""
+    }
+   ],
    "evenements": [
     {
      "id": "STP-036",
@@ -954,10 +1221,54 @@
   {
    "code": "DIS",
    "nom": "Star Trek: Discovery",
+   "diffuseur": "CBS (premier épisode), CBS All Access, puis Paramount+",
    "debut": "2017-09-24",
    "fin": "2024-05-30",
-   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Discovery_episodes",
-   "note": "Premiere sur CBS et CBS All Access, puis Paramount+. Finale : Life, Itself (S5).",
+   "statut": "terminée",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery",
+   "note": "65 épisodes. Infobox : CBS 2017-09-24 ; CBS All Access 2017-09-24 – 2021-01-07 ; Paramount+ 2021-11-18 – 2024-05-30. L'ancienne URL List_of_Star_Trek:_Discovery_episodes redirige désormais vers cet article.",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "2017-09-24",
+     "fin": "2018-02-11",
+     "episodes": 15,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery",
+     "note": "Diffusée en deux parties : 9 épisodes du 2017-09-24 au 2017-11-12, puis 6 du 2018-01-07 au 2018-02-11."
+    },
+    {
+     "numero": 2,
+     "debut": "2019-01-17",
+     "fin": "2019-04-18",
+     "episodes": 14,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery",
+     "note": ""
+    },
+    {
+     "numero": 3,
+     "debut": "2020-10-15",
+     "fin": "2021-01-07",
+     "episodes": 13,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery",
+     "note": ""
+    },
+    {
+     "numero": 4,
+     "debut": "2021-11-18",
+     "fin": "2022-03-17",
+     "episodes": 13,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery",
+     "note": "Paramount+."
+    },
+    {
+     "numero": 5,
+     "debut": "2024-04-04",
+     "fin": "2024-05-30",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery",
+     "note": ""
+    }
+   ],
    "evenements": [
     {
      "id": "STP-233",
@@ -1092,10 +1403,30 @@
   {
    "code": "Short Treks",
    "nom": "Star Trek: Short Treks",
+   "diffuseur": "CBS All Access",
    "debut": "2018-10-04",
    "fin": "2020-01-09",
+   "statut": "terminée",
    "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
-   "note": "10 episodes, CBS All Access.",
+   "note": "Courts métrages, 10 épisodes.",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "2018-10-04",
+     "fin": "2019-01-03",
+     "episodes": 4,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
+     "note": ""
+    },
+    {
+     "numero": 2,
+     "debut": "2019-10-05",
+     "fin": "2020-01-09",
+     "episodes": 6,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
+     "note": ""
+    }
+   ],
    "evenements": [
     {
      "id": "STP-266",
@@ -1110,10 +1441,38 @@
   {
    "code": "PIC",
    "nom": "Star Trek: Picard",
+   "diffuseur": "CBS All Access, puis Paramount+",
    "debut": "2020-01-23",
    "fin": "2023-04-20",
-   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Picard_episodes",
-   "note": "CBS All Access / Paramount+. Finale : The Last Generation (S3E10).",
+   "statut": "terminée",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard",
+   "note": "30 épisodes. Ancienne URL de liste devenue redirection vers cet article.",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "2020-01-23",
+     "fin": "2020-03-26",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard",
+     "note": "CBS All Access."
+    },
+    {
+     "numero": 2,
+     "debut": "2022-03-03",
+     "fin": "2022-05-05",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard",
+     "note": "Paramount+."
+    },
+    {
+     "numero": 3,
+     "debut": "2023-02-16",
+     "fin": "2023-04-20",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard",
+     "note": ""
+    }
+   ],
    "evenements": [
     {
      "id": "STP-009",
@@ -1188,10 +1547,54 @@
   {
    "code": "LD",
    "nom": "Star Trek: Lower Decks",
+   "diffuseur": "CBS All Access, puis Paramount+",
    "debut": "2020-08-06",
    "fin": "2024-12-19",
-   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_television_series",
-   "note": "5 saisons. Dates lues uniquement sur la liste des series (non recoupees).",
+   "statut": "terminée",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks",
+   "note": "50 épisodes. Dates confirmées par l'infobox de l'article et par https://en.wikipedia.org/wiki/Star_Trek (2020-08-06 – 2024-12-19).",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "2020-08-06",
+     "fin": "2020-10-08",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks",
+     "note": "CBS All Access."
+    },
+    {
+     "numero": 2,
+     "debut": "2021-08-12",
+     "fin": "2021-10-14",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks",
+     "note": "Paramount+."
+    },
+    {
+     "numero": 3,
+     "debut": "2022-08-25",
+     "fin": "2022-10-27",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks",
+     "note": ""
+    },
+    {
+     "numero": 4,
+     "debut": "2023-09-07",
+     "fin": "2023-11-02",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks",
+     "note": ""
+    },
+    {
+     "numero": 5,
+     "debut": "2024-10-24",
+     "fin": "2024-12-19",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks",
+     "note": ""
+    }
+   ],
    "evenements": [
     {
      "id": "STP-209",
@@ -1246,10 +1649,30 @@
   {
    "code": "PRO",
    "nom": "Star Trek: Prodigy",
+   "diffuseur": "Paramount+, puis Netflix",
    "debut": "2021-10-28",
    "fin": "2024-07-01",
+   "statut": "terminée",
    "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy",
-   "note": "S1 sur Paramount+ (fin S1 : 2022-12-29) ; S2 publiee en bloc sur Netflix le 2024-07-01. Serie annulee.",
+   "note": "40 épisodes. Série annulée ; saison 2 mise en ligne d'un bloc sur Netflix. Dates confirmées par https://en.wikipedia.org/wiki/Star_Trek (2021-10-28 – 2024-07-01).",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "2021-10-28",
+     "fin": "2022-12-29",
+     "episodes": 20,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy",
+     "note": "Paramount+, en deux parties : 10 épisodes du 2021-10-28 au 2022-02-03, puis 10 du 2022-10-27 au 2022-12-29."
+    },
+    {
+     "numero": 2,
+     "debut": "2024-07-01",
+     "fin": "2024-07-01",
+     "episodes": 20,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy",
+     "note": "Netflix, 20 épisodes publiés le même jour."
+    }
+   ],
    "evenements": [
     {
      "id": "STP-219",
@@ -1292,10 +1715,54 @@
   {
    "code": "SNW",
    "nom": "Star Trek: Strange New Worlds",
+   "diffuseur": "Paramount+",
    "debut": "2022-05-05",
    "fin": null,
-   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes",
-   "note": "Paramount+. En cours (saison 5 annoncee, date TBA). Saison 4 diffusee du 2026-07-23 (Valles Marineris) au 2026-09-24 (Tomorrow's Enterprise), 10 episodes.",
+   "statut": "en cours",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds",
+   "note": "40 épisodes diffusés. Saison 5 commandée, date non annoncée.",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "2022-05-05",
+     "fin": "2022-07-07",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds",
+     "note": ""
+    },
+    {
+     "numero": 2,
+     "debut": "2023-06-15",
+     "fin": "2023-08-10",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds",
+     "note": ""
+    },
+    {
+     "numero": 3,
+     "debut": "2025-07-17",
+     "fin": "2025-09-11",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds",
+     "note": ""
+    },
+    {
+     "numero": 4,
+     "debut": "2026-07-23",
+     "fin": "2026-09-24",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds",
+     "note": ""
+    },
+    {
+     "numero": 5,
+     "debut": null,
+     "fin": null,
+     "episodes": 6,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds",
+     "note": "Annoncée : 6 épisodes commandés, dates « TBA » sur la page."
+    }
+   ],
    "evenements": [
     {
      "id": "STP-005",
@@ -1376,12 +1843,82 @@
    ]
   },
   {
+   "code": "VST",
+   "nom": "Star Trek: Very Short Treks",
+   "diffuseur": "StarTrek.com et YouTube",
+   "debut": "2023-09-08",
+   "fin": "2023-10-04",
+   "statut": "terminée",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Very_Short_Treks",
+   "note": "5 courts métrages animés, un par semaine. Un making-of supplémentaire (2023-10-10) n'est pas compté.",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "2023-09-08",
+     "fin": "2023-10-04",
+     "episodes": 5,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Very_Short_Treks",
+     "note": ""
+    }
+   ],
+   "evenements": []
+  },
+  {
+   "code": "SCOUTS",
+   "nom": "Star Trek: Scouts",
+   "diffuseur": "YouTube",
+   "debut": "2025-09-08",
+   "fin": null,
+   "statut": "en cours",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek#YouTube_series",
+   "note": "Websérie animée préscolaire (Nickelodeon Digital Studio / CBS Studios), épisodes de 3 à 4 minutes. Wikipedia : premiers épisodes publiés les 8 et 9 septembre 2025, saison complète de 20 épisodes attendue en 2026 ; pas d'article dédié. Le découpage en saisons et les dates suivantes viennent d'epguides (d'après TVmaze, source non officielle) et de TrekCore.",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "2025-09-08",
+     "fin": "2026-03-21",
+     "episodes": 20,
+     "source_url": "https://epguides.com/StarTrekScouts/",
+     "note": "Début concordant Wikipedia/epguides. Fin lue uniquement sur epguides (épisodes 11-20 du 23 janvier au 21 mars 2026). 20 vidéos aussi chez https://blog.trekcore.com/2026/09/star-trek-scouts-returns-with-three-new-holodeck-rescue-adventures/."
+    },
+    {
+     "numero": 2,
+     "debut": "2026-09",
+     "fin": null,
+     "episodes": null,
+     "source_url": "https://epguides.com/StarTrekScouts/",
+     "note": "En cours. epguides : épisodes 1-3 du 8 au 10 septembre 2026 ; TrekCore (https://blog.trekcore.com/2026/09/star-trek-scouts-returns-with-three-new-holodeck-rescue-adventures/) : deux premiers épisodes le 9 septembre 2026. Précision ramenée au mois. 30 épisodes commandés selon TrekCore ; nombre diffusé non établi (epguides en liste 7, dont un annoncé le 2026-11-06)."
+    }
+   ],
+   "evenements": []
+  },
+  {
    "code": "SFA",
    "nom": "Star Trek: Starfleet Academy",
-   "debut": "2026-01-15",
+   "diffuseur": "Paramount+",
+   "debut": "2026-01",
    "fin": null,
+   "statut": "en cours",
    "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
-   "note": "Paramount+, deux episodes le 2026-01-15 ; fin de la saison 1 le 2026-03-12 (Rubincon). En cours (saison 2 en post-production). La prose de https://en.wikipedia.org/wiki/List_of_Star_Trek_television_series indique January 16, 2026 ; l'article de la serie et la presse (ex. https://scifibulletin.com/2025/10/12/starfleet-academy-opens-on-january-15-video/) donnent le 15.",
+   "note": "Début divergent : 2026-01-15 dans l'infobox et le tableau de l'article, et sur https://en.wikipedia.org/wiki/Star_Trek ; la prose de https://en.wikipedia.org/wiki/List_of_Star_Trek_television_series dit « premiered on January 16, 2026 ». Précision ramenée au mois (la presse, ex. https://scifibulletin.com/2025/10/12/starfleet-academy-opens-on-january-15-video/ citée par le relevé antérieur, donne le 15 ; non relue ici).",
+   "saisons": [
+    {
+     "numero": 1,
+     "debut": "2026-01",
+     "fin": "2026-03-12",
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+     "note": "Début ramené au mois (divergence 15/16 janvier 2026, voir la série)."
+    },
+    {
+     "numero": 2,
+     "debut": "2027-03",
+     "fin": null,
+     "episodes": 10,
+     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+     "note": "Annoncée pour mars 2027 (tableau récapitulatif : « Start date 2027-03 »), fin TBA."
+    }
+   ],
    "evenements": [
     {
      "id": "STP-228",
@@ -1434,100 +1971,187 @@
   {
    "titre": "Star Trek: The Motion Picture",
    "date": "1979-12-07",
+   "mode": "salle",
+   "continuite": "principale",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
    "note": "",
-   "titre_corpus": "The Motion Picture"
+   "titre_corpus": "The Motion Picture",
+   "evenements": [
+    "STP-073"
+   ]
   },
   {
    "titre": "Star Trek II: The Wrath of Khan",
    "date": "1982-06-04",
+   "mode": "salle",
+   "continuite": "principale",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
    "note": "",
-   "titre_corpus": "The Wrath of Khan"
+   "titre_corpus": "The Wrath of Khan",
+   "evenements": [
+    "STP-074"
+   ]
   },
   {
    "titre": "Star Trek III: The Search for Spock",
    "date": "1984-06-01",
+   "mode": "salle",
+   "continuite": "principale",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
    "note": "",
-   "titre_corpus": null
+   "titre_corpus": null,
+   "evenements": []
   },
   {
    "titre": "Star Trek IV: The Voyage Home",
    "date": "1986-11-26",
+   "mode": "salle",
+   "continuite": "principale",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
    "note": "",
-   "titre_corpus": "The Voyage Home"
+   "titre_corpus": "The Voyage Home",
+   "evenements": [
+    "STP-075"
+   ]
   },
   {
    "titre": "Star Trek V: The Final Frontier",
    "date": "1989-06-09",
+   "mode": "salle",
+   "continuite": "principale",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
    "note": "",
-   "titre_corpus": "The Final Frontier"
+   "titre_corpus": "The Final Frontier",
+   "evenements": [
+    "STP-076"
+   ]
   },
   {
    "titre": "Star Trek VI: The Undiscovered Country",
    "date": "1991-12-06",
+   "mode": "salle",
+   "continuite": "principale",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
    "note": "",
-   "titre_corpus": "The Undiscovered Country"
+   "titre_corpus": "The Undiscovered Country",
+   "evenements": [
+    "STP-077",
+    "STP-078",
+    "STP-079"
+   ]
   },
   {
    "titre": "Star Trek Generations",
    "date": "1994-11-18",
+   "mode": "salle",
+   "continuite": "principale",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
    "note": "",
-   "titre_corpus": "Generations"
+   "titre_corpus": "Generations",
+   "evenements": [
+    "STP-080"
+   ]
   },
   {
    "titre": "Star Trek: First Contact",
    "date": "1996-11-22",
+   "mode": "salle",
+   "continuite": "principale",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
    "note": "",
-   "titre_corpus": "First Contact"
+   "titre_corpus": "First Contact",
+   "evenements": [
+    "STP-009",
+    "STP-011",
+    "STP-012",
+    "STP-013",
+    "STP-081"
+   ]
   },
   {
    "titre": "Star Trek: Insurrection",
    "date": "1998-12-11",
+   "mode": "salle",
+   "continuite": "principale",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
    "note": "",
-   "titre_corpus": "Insurrection"
+   "titre_corpus": "Insurrection",
+   "evenements": [
+    "STP-082"
+   ]
   },
   {
    "titre": "Star Trek: Nemesis",
    "date": "2002-12-13",
+   "mode": "salle",
+   "continuite": "principale",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
    "note": "",
-   "titre_corpus": "Nemesis"
+   "titre_corpus": "Nemesis",
+   "evenements": [
+    "STP-083",
+    "STP-084"
+   ]
   },
   {
    "titre": "Star Trek",
    "date": "2009-05-08",
+   "mode": "salle",
+   "continuite": "Kelvin",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
-   "note": "Kelvin.",
-   "titre_corpus": "Star Trek"
+   "note": "",
+   "titre_corpus": "Star Trek",
+   "evenements": [
+    "STP-085",
+    "STP-086"
+   ]
   },
   {
    "titre": "Star Trek Into Darkness",
    "date": "2013-05-17",
+   "mode": "salle",
+   "continuite": "Kelvin",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
-   "note": "Kelvin. La meme page donne May 16, 2013 dans le tableau du box-office (probablement avant-premieres) ; date retenue = colonne 'U.S. release date'.",
-   "titre_corpus": "Star Trek Into Darkness"
+   "note": "Le relevé antérieur signalait May 16, 2013 dans le tableau du box-office de la même page ; cette mention n'y figure plus ce jour, seule la date du 2013-05-17 a été lue.",
+   "titre_corpus": "Star Trek Into Darkness",
+   "evenements": [
+    "STP-087"
+   ]
   },
   {
    "titre": "Star Trek Beyond",
    "date": "2016-07-22",
+   "mode": "salle",
+   "continuite": "Kelvin",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
-   "note": "Kelvin.",
-   "titre_corpus": "Star Trek Beyond"
+   "note": "",
+   "titre_corpus": "Star Trek Beyond",
+   "evenements": [
+    "STP-088"
+   ]
   },
   {
    "titre": "Star Trek: Section 31",
    "date": "2025-01-24",
+   "mode": "streaming",
+   "continuite": "principale",
    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
-   "note": "Telefilm Paramount+.",
-   "titre_corpus": "Star Trek: Section 31"
+   "note": "Téléfilm Paramount+.",
+   "titre_corpus": "Star Trek: Section 31",
+   "evenements": [
+    "STP-267",
+    "STP-268"
+   ]
+  },
+  {
+   "titre": "Film Star Trek de Jonathan Goldstein et John Francis Daley (sans titre)",
+   "date": null,
+   "mode": null,
+   "continuite": null,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "Annoncé : réalisateurs engagés en novembre 2025 par Paramount Skydance ; aucune date de sortie lue. Continuité non fixée (« less concerned with which timeline ») : « principale » est une valeur par défaut. Mode « salle » supposé (film Paramount Pictures), non lu. Star Trek 4 (Kelvin) est annulé selon la même page. Continuité et mode de sortie non établis.",
+   "titre_corpus": null,
+   "evenements": []
   }
  ]
 }

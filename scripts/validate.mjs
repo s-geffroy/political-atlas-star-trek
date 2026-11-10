@@ -74,7 +74,12 @@ export function valider({ csv, md } = dernieresSources()) {
     for (const { data } of r.records) if (data.url_source) { n++; if (!ok(data.url_source)) err.push(`${data.id} : url_source « ${data.url_source} »`); }
     for (const f of r.fiches) for (const s of f.sources) { n++; if (!ok(s.url)) err.push(`${f.id} : « ${s.url} »`); }
     const diff = r.diffusion;
-    for (const x of [...diff.series, ...diff.films, ...diff.episodes]) if (x.source_url) { n++; if (!ok(x.source_url)) err.push(`diffusion : « ${x.source_url} »`); }
+    const saisons = diff.series.flatMap((x) => x.saisons || []);
+    for (const x of [...diff.series, ...saisons, ...diff.films, ...diff.episodes]) if (x.source_url) { n++; if (!ok(x.source_url)) err.push(`diffusion : « ${x.source_url} »`); }
+    const dateOk = (d) => d === null || d === undefined || /^\d{4}(-\d{2}(-\d{2})?)?$/.test(d);
+    for (const x of [...diff.series, ...saisons]) for (const k of ['debut', 'fin']) if (!dateOk(x[k])) err.push(`diffusion : date « ${x[k]} » mal formée`);
+    for (const x of [...diff.films, ...diff.episodes]) if (!dateOk(x.date)) err.push(`diffusion : date « ${x.date} » mal formée`);
+    for (const x of [...saisons, ...diff.films, ...diff.episodes]) if (x.date !== undefined ? x.date && !x.source_url : (x.debut && !x.source_url)) err.push(`diffusion : date sans source (${x.titre || 'saison ' + x.numero})`);
     ajouter(4, 'Liens syntaxiquement valides', err, [], `${n} URL contrôlées (syntaxe seulement, pas de requête réseau).`);
   }
 

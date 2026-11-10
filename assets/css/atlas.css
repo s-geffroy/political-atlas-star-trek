@@ -219,6 +219,10 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .frise .bande { font-family: var(--police-titre); text-transform: uppercase; letter-spacing: 0.08em; color: var(--ambre); margin: 1.2rem 0 0.5rem; }
 .frise .bande::before { border-color: var(--ambre); background: var(--ambre); }
 
+/* Catalogue des saisons : une ligne par saison, sans decor (DOM leger). */
+.saisons { margin: 0.4rem 0 0; padding-left: 1.4rem; color: var(--doux); }
+.saisons li { margin: 0.15rem 0; }
+
 /* --- Divers ------------------------------------------------------------- */
 .sommaire { display: grid; gap: 0.6rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); list-style: none; padding: 0; }
 .sommaire li { max-width: none; }

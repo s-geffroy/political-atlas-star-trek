@@ -1,0 +1,17 @@
+---
+title: Séries et saisons
+nav: chronologie
+permalink: /chronologie/series/
+description: Toutes les séries Star Trek avec leurs saisons, dates de première diffusion et nombre d’épisodes, chaque date étant sourcée.
+---
+{%- assign D = site.data.diffusion -%}
+<p class="chapo">Catalogue des séries de la franchise, saison par saison, dans l’ordre de première diffusion.</p>
+{% include chrono-onglets.html vue="series" %}
+<div class="encadre encadre--alerte"><p><strong>Enrichissement hors corpus.</strong> Ces dates ne figurent pas dans le corpus de l’atlas ; elles ont été relevées (dernier relevé : {{ D.releve_le }}) sur les pages citées. Une date absente n’a pas pu être lue sur une source.</p></div>
+{%- for b in D.blocs %}{% if b.code != "Film" %}
+<h2 class="piste-titre" id="serie-{{ b.code | slugify }}">{{ b.nom }}</h2>
+<p class="carte__meta">{% if b.diffuseur %}{{ b.diffuseur }} · {% endif %}{% if b.debut %}{{ b.debut }}{% else %}date non vérifiée{% endif %}{% if b.fin %} → {{ b.fin }}{% elsif b.debut %} → en cours{% endif %}{% if b.source_url %} · <a href="{{ b.source_url }}" rel="noopener">source</a>{% endif %} · {% if b.evenements.size > 0 %}<a href="{{ '/evenements/' | relative_url }}?serie={{ b.code | uri_escape }}">{{ b.evenements.size }} entrée{% if b.evenements.size > 1 %}s{% endif %}</a>{% else %}aucune entrée{% endif %}</p>
+{%- if b.saisons.size > 0 %}
+<ol class="saisons">{% for sa in b.saisons %}<li>Saison {{ sa.numero }} : {% if sa.debut %}{{ sa.debut }}{% else %}?{% endif %} → {% if sa.fin %}{{ sa.fin }}{% else %}en cours{% endif %}{% if sa.episodes %} · {{ sa.episodes }} épisodes{% endif %}{% if sa.note != "" and sa.note %} · {{ sa.note | escape }}{% endif %}</li>{% endfor %}</ol>
+{%- endif %}
+{%- endif %}{% endfor %}

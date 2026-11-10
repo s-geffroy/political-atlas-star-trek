@@ -6,24 +6,20 @@ description: Les événements politiques de Star Trek classés selon les dates r
 ---
 {%- assign D = site.data.diffusion -%}
 {%- assign evs = site.data.evenements -%}
-<p class="chapo">Les entrées de l’atlas rangées selon la date réelle de première diffusion de l’épisode ou du film où elles apparaissent, série par série.</p>
+<p class="chapo">Toutes les séries et tous les films de la franchise, dans l’ordre de leur première diffusion, avec les entrées de l’atlas rangées selon la date de l’épisode ou du film où elles apparaissent. Les œuvres qu’aucune entrée ne cite figurent aussi, signalées comme telles.</p>
 {% include chrono-onglets.html vue="diffusion" %}
 
 <div class="encadre encadre--alerte">
   <p><strong>Enrichissement hors corpus.</strong> Le corpus ne contient pas de dates de diffusion. Celles-ci ont été relevées (dernier relevé : {{ D.releve_le }}) sur les pages citées dans le fichier de données ; une date n’apparaît que si elle a été lue sur sa source, accessible depuis chaque fiche. Quand deux pages divergent (diffusions en syndication de TNG et DS9), la précision est réduite au mois ou à l’année, ou la date est omise.</p>
 </div>
-<p>
-  {%- for b in D.blocs %}<a href="#bloc-{{ b.code | slugify }}">{{ b.code }}</a>{% unless forloop.last %} · {% endunless %}{% endfor -%}
-</p>
 {%- for b in D.blocs %}
 <h2 class="piste-titre" id="bloc-{{ b.code | slugify }}">{{ b.nom }} — {% if b.debut %}{{ b.debut }}{% else %}date non vérifiée{% endif %}{% if b.fin %} → {{ b.fin }}{% elsif b.debut %} → en cours{% endif %}</h2>
-<p class="carte__meta">{% if b.source_url %}<a href="{{ b.source_url }}" rel="noopener">Source des bornes</a>. {% endif %}{{ b.evenements.size }} entrée{% if b.evenements.size > 1 %}s{% endif %} citant cette série.</p>
+<p class="carte__meta">{% if b.code == "Film" %}<a href="{{ '/chronologie/films/' | relative_url }}">Liste et dates des films</a>. {% else %}<a href="{{ '/chronologie/series/' | relative_url }}#serie-{{ b.code | slugify }}">Saisons et dates</a>. {% endif %}{% if b.evenements.size > 0 %}{{ b.evenements.size }} entrée{% if b.evenements.size > 1 %}s{% endif %} de l’atlas.{% else %}Aucune entrée de l’atlas ne cite cette œuvre à ce jour.{% endif %}</p>
+{%- if b.evenements.size > 0 %}
 <ol class="frise">
   {%- for x in b.evenements %}{% assign e = evs | where: "id", x.id | first %}
   <li data-niv="{{ e.niveau_recoupement }}"><a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{% if x.date %}{{ x.date }}{% else %}date non renseignée{% endif %} · {{ e.id }} — {{ e.event | escape }}</a></li>
   {%- endfor %}
 </ol>
-{%- endfor %}
-{%- if D.films.size > 0 %}
-<p>Les dates de sortie des {{ D.films.size }} films, y compris ceux qui ne sont rattachés à aucune entrée, sont réunies sur une page à part : <a href="{{ '/chronologie/films/' | relative_url }}">dates de sortie des films</a>.</p>
 {%- endif %}
+{%- endfor %}

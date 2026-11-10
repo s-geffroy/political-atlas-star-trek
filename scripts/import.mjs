@@ -173,6 +173,7 @@ export function importer(csvPath, mdPath) {
 // --- ecriture ---------------------------------------------------------------
 
 const yamlStr = (s) => JSON.stringify(String(s));
+const titreFilm = (t) => (t || '').toLowerCase().replace(/\s+/g, ' ').trim();
 function ecrire(p, contenu) {
   fs.mkdirSync(path.dirname(p), { recursive: true });
   fs.writeFileSync(p, contenu);
@@ -238,19 +239,24 @@ export function ecrireSorties(r) {
   ecrire(D('editorial.json'), JSON.stringify({ ...r.editorial, meta: r.meta }, null, 1) + '\n');
   // Chronologie de diffusion : series (et films regroupes) ordonnees par
   // premiere diffusion verifiee ; une serie sans date verifiee va en fin.
+  // Chronologie de diffusion EXHAUSTIVE : toutes les series du catalogue
+  // (data/diffusion.json), y compris celles sans entree, et tous les films.
   const diff = r.diffusion;
-  const films = (diff.films || []).filter((f) => f.date && f.source_url).sort((a, b) => a.date.localeCompare(b.date));
+  const films = (diff.films || []).slice().sort((a, b) => (a.date || '9999').localeCompare(b.date || '9999'))
+    .map((f) => ({ ...f, evenements: (f.titre_corpus ? r.evenements.filter((e) => e.episodes.some((p) => p.serie === 'Film' && titreFilm(p.titre) === titreFilm(f.titre_corpus))) : []).map((e) => e.id) }));
+  const filmsDates = films.filter((f) => f.date);
+  const parSerie = (code) => r.evenements.filter((e) => e.series.includes(code))
+    .map((e) => ({ id: e.id, date: e.diffusion[0]?.date || null }))
+    .sort((x, y) => (x.date || '9999').localeCompare(y.date || '9999') || x.id.localeCompare(y.id));
   const blocs = [
-    ...(diff.series || []).map((s) => ({ code: s.code, nom: s.nom, debut: s.debut || null, fin: s.fin || null, source_url: s.source_url || null, note: s.note || '' })),
-    ...(films.length ? [{ code: 'Film', nom: 'Films (sorties en salle aux États-Unis)', debut: films[0].date, fin: films[films.length - 1].date, source_url: null, note: 'Bornes calculées à partir des films datés ci-dessous.' }] : []),
-  ].filter((b) => r.stats.series.some((s) => s.cle === b.code))
-    .sort((a, b) => (a.debut || '9999').localeCompare(b.debut || '9999'))
-    .map((b) => ({
-      ...b,
-      evenements: r.evenements.filter((e) => e.series.includes(b.code))
-        .map((e) => ({ id: e.id, date: e.diffusion[0]?.date || null }))
-        .sort((x, y) => (x.date || '9999').localeCompare(y.date || '9999') || x.id.localeCompare(y.id)),
-    }));
+    ...(diff.series || []).map((s) => ({ code: s.code, nom: s.nom, diffuseur: s.diffuseur || null, debut: s.debut || null, fin: s.fin || null,
+      statut: s.statut || null, source_url: s.source_url || null, note: s.note || '', saisons: s.saisons || [] })),
+    ...(filmsDates.length ? [{ code: 'Film', nom: 'Films', diffuseur: null, debut: filmsDates[0].date, fin: filmsDates[filmsDates.length - 1].date, statut: null,
+      source_url: null, note: 'Bornes calculées à partir des films datés.', saisons: [] }] : []),
+  ].sort((a, b) => (a.debut || '9999').localeCompare(b.debut || '9999'))
+    .map((b) => ({ ...b, evenements: parSerie(b.code) }));
+  const sansSerie = r.stats.series.filter((s) => !blocs.some((b) => b.code === s.cle)).map((s) => s.cle);
+  if (sansSerie.length) console.warn('Séries citées absentes du catalogue de diffusion :', sansSerie.join(', '));
   ecrire(D('diffusion.json'), JSON.stringify({ releve_le: diff.releve_le || null, blocs, films }, null, 1) + '\n');
   ecrire(D('referentiels.json'), JSON.stringify(r.referentiels, null, 1) + '\n');
 

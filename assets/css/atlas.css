@@ -199,20 +199,25 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .volet--objections { border-left-color: var(--rouge); }
 
 /* --- Chronologie -------------------------------------------------------- */
-.onglets { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 1rem 0; }
-.onglets [role="tab"] { min-height: 2.75rem; padding: 0.4rem 1.2rem; font: 600 0.9rem var(--police-titre); text-transform: uppercase; letter-spacing: 0.08em; background: var(--surface-2); color: var(--texte); border: 0; border-left: 0.45rem solid var(--cyan); border-radius: 0 999px 999px 0; cursor: pointer; }
-.onglets [role="tab"][aria-selected="true"] { background: var(--cyan); color: #00151b; }
-.piste { margin: 1.5rem 0 2.5rem; }
-.piste > h3 { display: inline-block; background: var(--surface-2); padding: 0.3rem 1rem; border-radius: 0 999px 999px 0; border-left: 0.45rem solid var(--lavande); color: var(--texte); }
-.piste--miroir > h3 { border-left-color: var(--magenta); }
-.piste--kelvin > h3 { border-left-color: var(--cyan); }
-.piste--modifiee > h3 { border-left-color: var(--rouge); }
+/* Une entree = <li> + <a> ; pastille de niveau generee en CSS (data-niv). */
+.onglets { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 1rem 0 1.5rem; }
+.onglets a { display: inline-block; min-height: 2.75rem; line-height: 1.9rem; padding: 0.4rem 1.2rem; font: 600 0.9rem/1.9rem var(--police-titre); text-transform: uppercase; letter-spacing: 0.08em; background: var(--surface-2); color: var(--texte); text-decoration: none; border-left: 0.45rem solid var(--cyan); border-radius: 0 999px 999px 0; }
+.onglets a:hover { background: #17294a; }
+.onglets a[aria-current="page"] { background: var(--cyan); color: #00151b; }
+.piste-titre { display: inline-block; font-size: 1.15rem; text-transform: none; letter-spacing: 0.02em; color: var(--texte); background: var(--surface-2); padding: 0.3rem 1rem; border-radius: 0 999px 999px 0; border-left: 0.45rem solid var(--lavande); margin-top: 2rem; }
+.piste--miroir { border-left-color: var(--magenta); }
+.piste--kelvin { border-left-color: var(--cyan); }
+.piste--modifiee { border-left-color: var(--rouge); }
 .frise { list-style: none; margin: 0.6rem 0 0; padding: 0 0 0 1.4rem; border-left: 3px solid var(--ligne); }
-.frise > li { max-width: none; position: relative; margin: 0 0 0.7rem; }
-.frise > li::before { content: ""; position: absolute; left: calc(-1.4rem - 7px); top: 0.55rem; width: 11px; height: 11px; border-radius: 50%; background: var(--fond); border: 3px solid var(--ambre); }
-.frise .bande { list-style: none; font-family: var(--police-titre); text-transform: uppercase; letter-spacing: 0.08em; color: var(--ambre); margin: 1.2rem 0 0.5rem; }
+.frise > li { max-width: none; position: relative; margin: 0 0 0.45rem; }
+.frise > li::before { content: ""; position: absolute; left: calc(-1.4rem - 7px); top: 0.55rem; width: 11px; height: 11px; border-radius: 50%; background: var(--fond); border: 3px solid var(--niv-c); }
+.frise > li[data-niv="A"]::before { border-color: var(--niv-a); }
+.frise > li[data-niv="B"]::before { border-color: var(--niv-b); }
+.frise > li[data-niv]::after { content: attr(data-niv); content: attr(data-niv) / "Niveau " attr(data-niv); display: inline-block; margin-left: 0.5rem; min-width: 1.6rem; padding: 0 0.4rem; border-radius: 999px; text-align: center; font: 700 0.78rem/1.35rem var(--police-titre); color: #04060b; background: var(--niv-c); }
+.frise > li[data-niv="A"]::after { background: var(--niv-a); }
+.frise > li[data-niv="B"]::after { background: var(--niv-b); }
+.frise .bande { font-family: var(--police-titre); text-transform: uppercase; letter-spacing: 0.08em; color: var(--ambre); margin: 1.2rem 0 0.5rem; }
 .frise .bande::before { border-color: var(--ambre); background: var(--ambre); }
-.frise .temps { font-family: var(--mono); font-size: 0.86rem; color: var(--cyan); display: block; }
 
 /* --- Divers ------------------------------------------------------------- */
 .sommaire { display: grid; gap: 0.6rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); list-style: none; padding: 0; }

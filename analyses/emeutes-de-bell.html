@@ -21,7 +21,7 @@ description: "Analyse de STP-006, les émeutes de Bell (Star Trek: Deep Space Ni
 
 <h2>2. Contexte de production et de diffusion</h2>
 <section class="volet"><h3>Ce que dit la fiche</h3>{{ f.volets.contexte | markdownify }}</section>
-<p>Repères de diffusion relevés pour l’atlas (enrichissement hors corpus, voir la <a href="{{ '/chronologie/' | relative_url }}?vue=diffusion">chronologie de diffusion</a>) :</p>
+<p>Repères de diffusion relevés pour l’atlas (enrichissement hors corpus, voir la <a href="{{ '/chronologie/diffusion/' | relative_url }}">chronologie de diffusion</a>) :</p>
 <ul>
   <li><em>Deep Space Nine</em> : première diffusion le <time datetime="{{ ds9.debut }}">{{ ds9.debut }}</time>, fin en {{ ds9.fin }} (<a href="{{ ds9.source_url }}" rel="noopener">source</a>).</li>
   {%- for d in e.diffusion %}

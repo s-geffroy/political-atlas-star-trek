@@ -1,61 +1,25 @@
 ---
-title: Chronologie
+title: Chronologie diégétique
 nav: chronologie
 permalink: /chronologie/
-description: Double chronologie de l’atlas politique de Star Trek — histoire fictive (diégétique) et dates réelles de diffusion vérifiées.
-scripts: [chronologie.js]
+description: Chronologie de l’histoire fictive de Star Trek, événement par événement, avec les continuités alternatives (Miroir, Kelvin, temporalités modifiées) en pistes séparées.
 ---
-{%- assign R = site.data.referentiels -%}
-{%- assign D = site.data.diffusion -%}
 {%- assign tri = site.data.evenements | sort: "rang_diegetique" -%}
-<p class="chapo">Deux lectures du même corpus : l’ordre de l’histoire fictive, et l’ordre de diffusion réel des œuvres. Une période floue (« XXIVe siècle », « Passé lointain ») n’est jamais convertie en année : elle reste affichée telle quelle, et sert seulement à ranger l’entrée dans son siècle.</p>
+<script>/* Ancienne adresse ?vue=diffusion : redirection vers la page dediee. */ if (/[?&]vue=diffusion/.test(location.search)) location.replace({{ '/chronologie/diffusion/' | relative_url | jsonify }});</script>
+<p class="chapo">Deux lectures du même corpus : l’ordre de l’histoire fictive (cette page) et l’ordre de diffusion réel des œuvres. Une période floue (« XXIVe siècle », « Passé lointain ») n’est jamais convertie en année : elle reste affichée telle quelle, et sert seulement à ranger l’entrée dans son siècle.</p>
+{% include chrono-onglets.html vue="diegetique" %}
 
-<div class="onglets" role="tablist" aria-label="Type de chronologie" hidden>
-  <button role="tab" id="t-diegetique" aria-controls="p-diegetique" aria-selected="true">Chronologie diégétique</button>
-  <button role="tab" id="t-diffusion" aria-controls="p-diffusion" aria-selected="false" tabindex="-1">Chronologie de diffusion</button>
-</div>
-
-<section id="p-diegetique" role="tabpanel" aria-labelledby="t-diegetique">
-  <h2>Chronologie diégétique</h2>
-  <p>Les continuités alternatives forment des pistes séparées : leurs événements ne s’intercalent pas dans l’histoire principale.</p>
-  <nav aria-label="Pistes"><p>
-    {%- for c in site.data.stats.continuites %}<a href="#piste-{{ c.cle }}">{{ c.nom }} ({{ c.n }})</a>{% unless forloop.last %} · {% endunless %}{% endfor -%}
-  </p></nav>
-  {%- for c in site.data.stats.continuites %}
-  <div class="piste piste--{{ c.cle }}" id="piste-{{ c.cle }}">
-    <h3>{{ c.nom }} — {{ c.n }} entrée{% if c.n > 1 %}s{% endif %}</h3>
-    <ol class="frise">
-      {%- assign bande = "" -%}
-      {%- for e in tri %}{% if e.continuite == c.cle %}
-      {%- if e.bande != bande %}{% assign bande = e.bande %}<li class="bande">{{ bande }}</li>{% endif %}
-      <li><span class="temps">{{ e.period | escape }}</span><a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{{ e.id }} — {{ e.event | escape }}</a> <span class="niveau niveau--{{ e.niveau_recoupement }}">{{ e.niveau_recoupement }}</span></li>
-      {%- endif %}{% endfor %}
-    </ol>
-  </div>
-  {%- endfor %}
-</section>
-
-<section id="p-diffusion" role="tabpanel" aria-labelledby="t-diffusion">
-  <h2>Chronologie de diffusion</h2>
-  <div class="encadre encadre--alerte">
-    <p><strong>Enrichissement hors corpus.</strong> Le CSV V{{ site.data.editorial.meta.version }} ne contient aucune date de diffusion. Les dates ci-dessous ont été relevées le {{ D.releve_le }} sur les pages citées ; une date n’apparaît que si elle a été lue sur sa source. Quand deux pages divergent (diffusions en syndication de TNG et DS9), la précision est réduite au mois ou à l’année, ou la date est omise.</p>
-  </div>
-  {%- for b in D.blocs %}
-  <div class="piste">
-    <h3>{{ b.nom }} — {% if b.debut %}<time datetime="{{ b.debut }}">{{ b.debut }}</time>{% else %}date non vérifiée{% endif %}{% if b.fin %} → <time datetime="{{ b.fin }}">{{ b.fin }}</time>{% elsif b.debut %} → en cours{% endif %}</h3>
-    <p class="carte__meta">{% if b.source_url %}<a href="{{ b.source_url }}" rel="noopener">Source des bornes</a>. {% endif %}{{ b.evenements.size }} entrée{% if b.evenements.size > 1 %}s{% endif %} citant cette série.</p>
-    <ol class="frise">
-      {%- for x in b.evenements %}{% assign e = site.data.evenements | where: "id", x.id | first %}
-      <li><span class="temps">{% if x.date %}<time datetime="{{ x.date }}">{{ x.date }}</time>{% else %}date d’épisode non renseignée{% endif %}</span><a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{{ e.id }} — {{ e.event | escape }}</a> <span class="carte__meta">({{ e.source | escape }})</span></li>
-      {%- endfor %}
-    </ol>
-  </div>
-  {%- endfor %}
-  {%- if D.films.size > 0 %}
-  <h3>Films : dates de sortie relevées</h3>
-  <div class="defile" tabindex="0" role="region" aria-label="Dates de sortie des films"><table>
-    <thead><tr><th scope="col">Film</th><th scope="col">Sortie (États-Unis)</th><th scope="col">Source</th></tr></thead>
-    <tbody>{% for f in D.films %}<tr><td>{{ f.titre }}</td><td><time datetime="{{ f.date }}">{{ f.date }}</time></td><td><a href="{{ f.source_url }}" rel="noopener">page consultée</a></td></tr>{% endfor %}</tbody>
-  </table></div>
-  {%- endif %}
-</section>
+<p>Les continuités alternatives forment des pistes séparées : leurs événements ne s’intercalent pas dans l’histoire principale. Pastille : niveau de recoupement.</p>
+<p>
+  {%- for c in site.data.stats.continuites %}<a href="#piste-{{ c.cle }}">{{ c.nom }} ({{ c.n }})</a>{% unless forloop.last %} · {% endunless %}{% endfor -%}
+</p>
+{%- for c in site.data.stats.continuites %}
+<h2 class="piste-titre piste--{{ c.cle }}" id="piste-{{ c.cle }}">{{ c.nom }} — {{ c.n }} entrée{% if c.n > 1 %}s{% endif %}</h2>
+<ol class="frise">
+  {%- assign bande = "" -%}
+  {%- for e in tri %}{% if e.continuite == c.cle %}
+  {%- if e.bande != bande %}{% assign bande = e.bande %}<li class="bande">{{ bande }}</li>{% endif %}
+  <li data-niv="{{ e.niveau_recoupement }}"><a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{{ e.period | escape }} · {{ e.id }} — {{ e.event | escape }}</a></li>
+  {%- endif %}{% endfor %}
+</ol>
+{%- endfor %}

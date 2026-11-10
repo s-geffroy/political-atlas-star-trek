@@ -1,0 +1,538 @@
+{
+ "_lisez_moi": [
+  "Dates de premiere diffusion (series, episodes) ou de sortie US (films).",
+  "ENRICHISSEMENT HORS CORPUS : ces dates ne figurent pas dans le CSV V0.3.",
+  "Releve le 2026-11-10 sur les pages citees en source_url (Wikipedia en anglais ; Memory Alpha inaccessible ce jour-la).",
+  "Regle : une date n'est retenue que si elle a ete lue sur la page citee ; en cas de divergence entre pages, la precision est reduite (mois, annee) ou la date mise a null, et la note l'explique.",
+  "titre_corpus = libelle exact employe dans le champ source du CSV, pour le rattachement."
+ ],
+ "releve_le": "2026-11-10",
+ "series": [
+  {
+   "code": "TOS",
+   "nom": "Star Trek: The Original Series",
+   "debut": "1966-09-08",
+   "fin": "1969-06-03",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Original_Series_episodes",
+   "note": "NBC. Debut = The Man Trap ; fin = Turnabout Intruder."
+  },
+  {
+   "code": "TAS",
+   "nom": "Star Trek: The Animated Series",
+   "debut": "1973-09-08",
+   "fin": "1974-10-12",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
+   "note": "NBC."
+  },
+  {
+   "code": "TNG",
+   "nom": "Star Trek: The Next Generation",
+   "debut": "1987-09-28",
+   "fin": "1994-05-23",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes",
+   "note": "Syndication US. Encounter at Farpoint diffuse 'starting the week of September 28, 1987' (https://en.wikipedia.org/wiki/Encounter_at_Farpoint) ; All Good Things... 1994-05-23 confirme par son article."
+  },
+  {
+   "code": "DS9",
+   "nom": "Star Trek: Deep Space Nine",
+   "debut": "1993-01-03",
+   "fin": "1999",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Syndication US. Debut (Emissary) 1993-01-03 concordant liste + article. Fin divergente : liste 1999-06-02 (prose de la liste des series : June 2, 1999 ; tableau saison 7 : May 31, 1999) ; article What You Leave Behind : infobox 1999-05-31, 'aired the week of May 31, 1999', section Broadcast 'first shown on June 2, 1999'. Precision ramenee a l'annee."
+  },
+  {
+   "code": "VOY",
+   "nom": "Star Trek: Voyager",
+   "debut": "1995-01-16",
+   "fin": "2001-05-23",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": "UPN. Caretaker -> Endgame."
+  },
+  {
+   "code": "ENT",
+   "nom": "Star Trek: Enterprise",
+   "debut": "2001-09-26",
+   "fin": "2005-05-13",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes",
+   "note": "UPN. Broken Bow -> These Are the Voyages..."
+  },
+  {
+   "code": "DIS",
+   "nom": "Star Trek: Discovery",
+   "debut": "2017-09-24",
+   "fin": "2024-05-30",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Discovery_episodes",
+   "note": "Premiere sur CBS et CBS All Access, puis Paramount+. Finale : Life, Itself (S5)."
+  },
+  {
+   "code": "PIC",
+   "nom": "Star Trek: Picard",
+   "debut": "2020-01-23",
+   "fin": "2023-04-20",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Picard_episodes",
+   "note": "CBS All Access / Paramount+. Finale : The Last Generation (S3E10)."
+  },
+  {
+   "code": "LD",
+   "nom": "Star Trek: Lower Decks",
+   "debut": "2020-08-06",
+   "fin": "2024-12-19",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_television_series",
+   "note": "5 saisons. Dates lues uniquement sur la liste des series (non recoupees)."
+  },
+  {
+   "code": "PRO",
+   "nom": "Star Trek: Prodigy",
+   "debut": "2021-10-28",
+   "fin": "2024-07-01",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy",
+   "note": "S1 sur Paramount+ (fin S1 : 2022-12-29) ; S2 publiee en bloc sur Netflix le 2024-07-01. Serie annulee."
+  },
+  {
+   "code": "SNW",
+   "nom": "Star Trek: Strange New Worlds",
+   "debut": "2022-05-05",
+   "fin": null,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes",
+   "note": "Paramount+. En cours (saison 5 annoncee, date TBA). Saison 4 diffusee du 2026-07-23 (Valles Marineris) au 2026-09-24 (Tomorrow's Enterprise), 10 episodes."
+  },
+  {
+   "code": "SFA",
+   "nom": "Star Trek: Starfleet Academy",
+   "debut": "2026-01-15",
+   "fin": null,
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+   "note": "Paramount+, deux episodes le 2026-01-15 ; fin de la saison 1 le 2026-03-12 (Rubincon). En cours (saison 2 en post-production). La prose de https://en.wikipedia.org/wiki/List_of_Star_Trek_television_series indique January 16, 2026 ; l'article de la serie et la presse (ex. https://scifibulletin.com/2025/10/12/starfleet-academy-opens-on-january-15-video/) donnent le 15."
+  },
+  {
+   "code": "Short Treks",
+   "nom": "Star Trek: Short Treks",
+   "debut": "2018-10-04",
+   "fin": "2020-01-09",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
+   "note": "10 episodes, CBS All Access."
+  }
+ ],
+ "films": [
+  {
+   "titre": "Star Trek: The Motion Picture",
+   "date": "1979-12-07",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "The Motion Picture"
+  },
+  {
+   "titre": "Star Trek II: The Wrath of Khan",
+   "date": "1982-06-04",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "The Wrath of Khan"
+  },
+  {
+   "titre": "Star Trek III: The Search for Spock",
+   "date": "1984-06-01",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": null
+  },
+  {
+   "titre": "Star Trek IV: The Voyage Home",
+   "date": "1986-11-26",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "The Voyage Home"
+  },
+  {
+   "titre": "Star Trek V: The Final Frontier",
+   "date": "1989-06-09",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "The Final Frontier"
+  },
+  {
+   "titre": "Star Trek VI: The Undiscovered Country",
+   "date": "1991-12-06",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "The Undiscovered Country"
+  },
+  {
+   "titre": "Star Trek Generations",
+   "date": "1994-11-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "Generations"
+  },
+  {
+   "titre": "Star Trek: First Contact",
+   "date": "1996-11-22",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "First Contact"
+  },
+  {
+   "titre": "Star Trek: Insurrection",
+   "date": "1998-12-11",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "Insurrection"
+  },
+  {
+   "titre": "Star Trek: Nemesis",
+   "date": "2002-12-13",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "Nemesis"
+  },
+  {
+   "titre": "Star Trek",
+   "date": "2009-05-08",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "Kelvin.",
+   "titre_corpus": "Star Trek"
+  },
+  {
+   "titre": "Star Trek Into Darkness",
+   "date": "2013-05-17",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "Kelvin. La meme page donne May 16, 2013 dans le tableau du box-office (probablement avant-premieres) ; date retenue = colonne 'U.S. release date'.",
+   "titre_corpus": "Star Trek Into Darkness"
+  },
+  {
+   "titre": "Star Trek Beyond",
+   "date": "2016-07-22",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "Kelvin.",
+   "titre_corpus": "Star Trek Beyond"
+  },
+  {
+   "titre": "Star Trek: Section 31",
+   "date": "2025-01-24",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "Telefilm Paramount+.",
+   "titre_corpus": "Star Trek: Section 31"
+  }
+ ],
+ "episodes": [
+  {
+   "serie": "DS9",
+   "titre": "Past Tense, Part I",
+   "titre_corpus": "Past Tense",
+   "date": null,
+   "source_url": "https://en.wikipedia.org/wiki/Past_Tense_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Divergence (syndication) : article 1995-01-02 ; liste https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes 1994-12-31. Annee differente."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Past Tense, Part II",
+   "titre_corpus": "Past Tense",
+   "date": "1995-01",
+   "source_url": "https://en.wikipedia.org/wiki/Past_Tense_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Article 1995-01-09 ; liste 1995-01-07."
+  },
+  {
+   "serie": "ENT",
+   "titre": "Demons",
+   "titre_corpus": "Demons",
+   "date": "2005-05-06",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes",
+   "note": "UPN."
+  },
+  {
+   "serie": "ENT",
+   "titre": "Terra Prime",
+   "titre_corpus": "Terra Prime",
+   "date": "2005-05-13",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes",
+   "note": "UPN, meme soir que These Are the Voyages..."
+  },
+  {
+   "serie": "ENT",
+   "titre": "These Are the Voyages...",
+   "titre_corpus": "These Are the Voyages…",
+   "date": "2005-05-13",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes",
+   "note": "UPN, finale de la serie."
+  },
+  {
+   "serie": "SNW",
+   "titre": "Ad Astra per Aspera",
+   "titre_corpus": "Ad Astra per Aspera",
+   "date": "2023-06-22",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes",
+   "note": "S2E2, Paramount+."
+  },
+  {
+   "serie": "TOS",
+   "titre": "The Cloud Minders",
+   "titre_corpus": "The Cloud Minders",
+   "date": "1969-02-28",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Original_Series_episodes",
+   "note": "NBC."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Measure of a Man",
+   "titre_corpus": "The Measure of a Man",
+   "date": "1989-02-13",
+   "source_url": "https://en.wikipedia.org/wiki/The_Measure_of_a_Man_(Star_Trek:_The_Next_Generation)",
+   "note": "Syndication ; liste et article concordants."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Drumhead",
+   "titre_corpus": "The Drumhead",
+   "date": "1991-04-29",
+   "source_url": "https://en.wikipedia.org/wiki/The_Drumhead",
+   "note": "Syndication ; liste et article concordants."
+  },
+  {
+   "serie": "TNG",
+   "titre": "The Outcast",
+   "titre_corpus": "The Outcast",
+   "date": "1992-03-16",
+   "source_url": "https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)",
+   "note": "Syndication ; liste et article concordants."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Duet",
+   "titre_corpus": "Duet",
+   "date": "1993-06",
+   "source_url": "https://en.wikipedia.org/wiki/Duet_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Article 1993-06-14 ; liste 1993-06-13."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Homecoming",
+   "titre_corpus": "The Homecoming",
+   "date": "1993-09",
+   "source_url": "https://en.wikipedia.org/wiki/The_Homecoming_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Article 1993-09-27 ; liste 1993-09-26."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Circle",
+   "titre_corpus": "The Circle",
+   "date": "1993-10",
+   "source_url": "https://en.wikipedia.org/wiki/The_Circle_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Article 1993-10-04 ; liste 1993-10-03."
+  },
+  {
+   "serie": "DS9",
+   "titre": "The Siege",
+   "titre_corpus": "The Siege",
+   "date": "1993-10",
+   "source_url": "https://en.wikipedia.org/wiki/The_Siege_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Article 1993-10-11 ; liste 1993-10-10."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Bar Association",
+   "titre_corpus": "Bar Association",
+   "date": "1996-02",
+   "source_url": "https://en.wikipedia.org/wiki/Bar_Association_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Article 1996-02-19 ; liste 1996-02-17."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Homefront",
+   "titre_corpus": "Homefront",
+   "date": null,
+   "source_url": "https://en.wikipedia.org/wiki/Homefront_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Divergence : article 1996-01-01 ; liste 1995-12-30. Annee differente."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Paradise Lost",
+   "titre_corpus": "Paradise Lost",
+   "date": "1996-01",
+   "source_url": "https://en.wikipedia.org/wiki/Paradise_Lost_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Article 1996-01-08 ; liste 1996-01-06."
+  },
+  {
+   "serie": "DS9",
+   "titre": "In the Pale Moonlight",
+   "titre_corpus": "In the Pale Moonlight",
+   "date": "1998-04",
+   "source_url": "https://en.wikipedia.org/wiki/In_the_Pale_Moonlight",
+   "note": "Article : infobox 1998-04-13, texte 1998-04-15 ; liste 1998-04-11."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Inquisition",
+   "titre_corpus": "Inquisition",
+   "date": "1998-04",
+   "source_url": "https://en.wikipedia.org/wiki/Inquisition_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Article 1998-04-06 ; liste 1998-04-04."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Extreme Measures",
+   "titre_corpus": "Extreme Measures",
+   "date": "1999-05",
+   "source_url": "https://en.wikipedia.org/wiki/Extreme_Measures_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Article 1999-05-17 ; liste 1999-05-19."
+  },
+  {
+   "serie": "DS9",
+   "titre": "What You Leave Behind",
+   "titre_corpus": "What You Leave Behind",
+   "date": "1999",
+   "source_url": "https://en.wikipedia.org/wiki/What_You_Leave_Behind",
+   "note": "Article : infobox 1999-05-31 ('week of May 31, 1999'), section Broadcast 1999-06-02 ; liste 1999-06-02. Mois divergents -> annee seule."
+  },
+  {
+   "serie": "VOY",
+   "titre": "Author, Author",
+   "titre_corpus": "Author, Author",
+   "date": "2001-04-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": "UPN."
+  },
+  {
+   "serie": "DIS",
+   "titre": "That Hope Is You, Part 1",
+   "titre_corpus": "That Hope Is You",
+   "date": "2020-10-15",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "note": "S3E1, CBS All Access."
+  },
+  {
+   "serie": "DIS",
+   "titre": "Su'Kal",
+   "titre_corpus": "Su'Kal",
+   "date": "2020-12-24",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "note": "S3E11."
+  },
+  {
+   "serie": "DIS",
+   "titre": "Mirrors",
+   "titre_corpus": "Mirrors",
+   "date": "2024-04-25",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Discovery_episodes",
+   "note": "Saison 5, episode 5 (pas saison 4). Paramount+."
+  },
+  {
+   "serie": "PIC",
+   "titre": "Remembrance",
+   "titre_corpus": "Remembrance",
+   "date": "2020-01-23",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Picard_episodes",
+   "note": "S1E1, CBS All Access."
+  },
+  {
+   "serie": "SFA",
+   "titre": "Vox in Excelso",
+   "titre_corpus": "Vox in Excelso",
+   "date": "2026-01-29",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+   "note": "S1E4, Paramount+."
+  },
+  {
+   "serie": "SFA",
+   "titre": "Beta Test",
+   "titre_corpus": "Beta Test",
+   "date": "2026-01-15",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+   "note": "S1E2, publie le meme jour que S1E1 Kids These Days."
+  },
+  {
+   "serie": "SFA",
+   "titre": "Rubincon",
+   "titre_corpus": "Rubincon",
+   "date": "2026-03-12",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+   "note": "S1E10, finale de saison. Graphie 'Rubincon' telle que sur la page."
+  },
+  {
+   "serie": "SFA",
+   "titre": "300th Night",
+   "titre_corpus": "300th Night",
+   "date": "2026-03-05",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+   "note": "S1E9."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Sanctuary",
+   "titre_corpus": "Sanctuary",
+   "date": "1993-11",
+   "source_url": "https://en.wikipedia.org/wiki/Sanctuary_(Star_Trek:_Deep_Space_Nine)",
+   "note": "Article 1993-11-29 ('aired on November 29, 1993, in broadcast syndication') ; liste 1993-11-28."
+  },
+  {
+   "serie": "DS9",
+   "titre": "Statistical Probabilities",
+   "titre_corpus": "Statistical Probabilities",
+   "date": "1997-11",
+   "source_url": "https://en.wikipedia.org/wiki/Statistical_Probabilities",
+   "note": "Article 1997-11-24 ; liste 1997-11-22."
+  },
+  {
+   "serie": "VOY",
+   "titre": "Flesh and Blood",
+   "titre_corpus": "Flesh and Blood",
+   "date": "2000-11-29",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": "UPN, episode double diffuse en une soiree."
+  },
+  {
+   "serie": "VOY",
+   "titre": "The Void",
+   "titre_corpus": "The Void",
+   "date": "2001-02-14",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": "UPN."
+  },
+  {
+   "serie": "DIS",
+   "titre": "The Sound of Thunder",
+   "titre_corpus": "The Sound of Thunder",
+   "date": "2019-02-21",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Discovery_episodes",
+   "note": "S2E6, CBS All Access."
+  },
+  {
+   "serie": "DIS",
+   "titre": "Terra Firma, Part 1",
+   "titre_corpus": "Terra Firma",
+   "date": "2020-12-10",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "note": "S3E9 (la page l'intitule simplement 'Terra Firma')."
+  },
+  {
+   "serie": "DIS",
+   "titre": "Terra Firma, Part 2",
+   "titre_corpus": "Terra Firma",
+   "date": "2020-12-17",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "note": "S3E10. Le titre n'apparaissait pas dans le tableau extrait, mais l'article designe cet episode comme 'Terra Firma, Part 2'."
+  },
+  {
+   "serie": "SNW",
+   "titre": "A Case of Chiaroscuro",
+   "titre_corpus": "A Case of Chiaroscuro",
+   "date": "2026-08-13",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes",
+   "note": "S4E4, Paramount+."
+  },
+  {
+   "serie": "SNW",
+   "titre": "Orders of Magnitude",
+   "titre_corpus": "Orders of Magnitude",
+   "date": "2026-09-10",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes",
+   "note": "S4E8, Paramount+."
+  },
+  {
+   "serie": "SNW",
+   "titre": "Valles Marineris",
+   "titre_corpus": "Valles Marineris",
+   "date": "2026-07-23",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes",
+   "note": "S4E1, Paramount+."
+  }
+ ]
+}

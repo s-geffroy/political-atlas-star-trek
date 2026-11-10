@@ -1,0 +1,91 @@
+---
+layout: default
+---
+{%- assign S = site.data.stats -%}
+{%- assign evs = site.data.evenements -%}
+{%- assign ed = site.data.editorial -%}
+<section class="balayage" aria-labelledby="titre-accueil">
+  <h1 id="titre-accueil">{{ site.title }}</h1>
+  <p class="chapo">{{ site.tagline }}. Une encyclopédie documentaire indépendante, entre atlas historique, publication universitaire et observatoire géopolitique : que s’est-il passé politiquement dans l’univers <em>Star Trek</em>, avec quels acteurs, quelles causes et quelles conséquences — et quels parallèles rigoureux avec l’histoire réelle ?</p>
+</section>
+
+{%- assign nA = S.niveaux | where: "cle", "A" | first -%}
+{%- assign nB = S.niveaux | where: "cle", "B" | first -%}
+<div class="compteurs" role="list">
+  <div class="compteur" role="listitem"><b>{{ S.total }}</b><span>entrées documentaires</span></div>
+  <div class="compteur" role="listitem"><b>{{ S.fiches }}</b><span>fiches approfondies</span></div>
+  <div class="compteur" role="listitem"><b>{{ nA.n | plus: nB.n }}</b><span>entrées recoupées (A ou B)</span></div>
+  <div class="compteur" role="listitem"><b>{{ S.series.size }}</b><span>séries et ensembles couverts</span></div>
+</div>
+
+<div class="encadre encadre--ambre">
+  <p><strong>État du corpus.</strong> {{ ed.etat | escape }} Le registre est un inventaire de travail, pas une démonstration d’exhaustivité : {{ S.niveaux[2].n }} entrées sur {{ S.total }} restent au niveau C. <a href="{{ '/methodologie/' | relative_url }}">Lire la méthodologie</a>.</p>
+</div>
+
+<h2>À la une</h2>
+{%- assign une = evs | where: "id", "STP-006" -%}
+{%- assign fichesA = evs | where: "fiche", true | where: "niveau_recoupement", "A" -%}
+<div class="grille-2">
+  <div class="panneau">
+    {%- assign bell = une | first %}
+    <h3><a href="{{ '/analyses/emeutes-de-bell/' | relative_url }}">Les émeutes de Bell : fiction, contexte et limites</a></h3>
+    <p>{{ bell.event }} — {{ bell.period }}, {{ bell.source }}. Une analyse croisée de l’épisode, de son contexte de diffusion et des résonances ultérieures, sans lecture « prophétique ».</p>
+    <p><a href="{{ '/evenements/STP-006/' | relative_url }}">Fiche STP-006</a> · <a href="{{ '/analyses/' | relative_url }}">Toutes les analyses</a></p>
+  </div>
+  <div class="panneau">
+    <h3>Fiches approfondies de niveau A</h3>
+    <ul class="cartes">
+      {%- for e in fichesA limit: 6 %}{% unless e.id == "STP-006" %}{% include carte.html e=e court=true %}{% endunless %}{% endfor %}
+    </ul>
+    <p><a href="{{ '/evenements/' | relative_url }}?niv=A">Toutes les entrées de niveau A</a></p>
+  </div>
+</div>
+
+<h2>Répartitions</h2>
+<div class="grille-2">
+  <section class="panneau" aria-labelledby="r-niv">
+    <h3 id="r-niv">Niveaux de vérification</h3>
+    <ul class="barres">
+      {%- for n in S.niveaux %}
+      <li><a href="{{ '/evenements/' | relative_url }}?niv={{ n.cle }}"><span class="niveau niveau--{{ n.cle }}">{{ n.cle }}</span></a><span class="jauge" aria-hidden="true"><i style="width: {{ n.n | times: 100 | divided_by: S.total }}%"></i></span><span class="n">{{ n.n }}</span></li>
+      {%- endfor %}
+    </ul>
+    <p class="carte__meta"><a href="{{ '/methodologie/' | relative_url }}#niveaux">Définition des niveaux A, B, C</a></p>
+  </section>
+  <section class="panneau" aria-labelledby="r-cat">
+    <h3 id="r-cat">Catégories politiques</h3>
+    <ul class="barres barres--magenta">
+      {%- for c in S.categories %}
+      <li><a href="{{ '/evenements/' | relative_url }}?cat={{ c.cle | uri_escape }}">{{ c.cle }}</a><span class="jauge" aria-hidden="true"><i style="width: {{ c.n | times: 100 | divided_by: S.max_categorie }}%"></i></span><span class="n">{{ c.n }}</span></li>
+      {%- endfor %}
+    </ul>
+    <p class="carte__meta">Une entrée peut porter plusieurs catégories.</p>
+  </section>
+  <section class="panneau" aria-labelledby="r-serie">
+    <h3 id="r-serie">Séries</h3>
+    <ul class="barres barres--ambre">
+      {%- for s in S.series %}
+      <li><a href="{{ '/evenements/' | relative_url }}?serie={{ s.cle | uri_escape }}">{{ s.nom }}</a><span class="jauge" aria-hidden="true"><i style="width: {{ s.n | times: 100 | divided_by: S.max_serie }}%"></i></span><span class="n">{{ s.n }}</span></li>
+      {%- endfor %}
+    </ul>
+    <p class="carte__meta">Série déduite du sigle du champ source ; une entrée peut citer plusieurs séries.</p>
+  </section>
+  <section class="panneau" aria-labelledby="r-cycle">
+    <h3 id="r-cycle">Périodes et cycles du registre</h3>
+    <ul class="barres">
+      {%- for c in S.cycles %}
+      <li><a href="{{ '/evenements/' | relative_url }}?cycle={{ c.slug }}">{{ c.cle }}</a><span class="jauge" aria-hidden="true"><i style="width: {{ c.n | times: 100 | divided_by: S.max_cycle }}%"></i></span><span class="n">{{ c.n }}</span></li>
+      {%- endfor %}
+    </ul>
+  </section>
+</div>
+
+<h2>Parcourir</h2>
+<ul class="sommaire">
+  <li><a href="{{ '/evenements/' | relative_url }}"><b>Explorateur</b><span>Recherche et filtres sur les {{ S.total }} entrées.</span></a></li>
+  <li><a href="{{ '/chronologie/' | relative_url }}"><b>Chronologie</b><span>Lecture diégétique ou par date de diffusion.</span></a></li>
+  <li><a href="{{ '/atlas/' | relative_url }}"><b>Atlas thématique</b><span>Dix grands domaines politiques et leur table de correspondance.</span></a></li>
+  <li><a href="{{ '/analyses/' | relative_url }}"><b>Fiction et histoire réelle</b><span>Comparaisons argumentées, limites comprises.</span></a></li>
+  <li><a href="{{ '/methodologie/' | relative_url }}"><b>Méthodologie et sources</b><span>Protocole, niveaux, corrections, rapport de qualité.</span></a></li>
+  <li><a href="{{ '/contribuer/' | relative_url }}"><b>Contribuer</b><span>Signaler une erreur, proposer une vérification.</span></a></li>
+</ul>

@@ -14,4 +14,33 @@
 # Si un jour ce projet a besoin d'un outil qui tourne (un optimiseur d'images,
 # un convertisseur), c'est ici qu'il se declare, avec son exposition dans
 # app.yaml.
-services: {}
+services:
+  # Outil de VERIFICATION, pas d'hebergement : le constructeur officiel de
+  # GitHub Pages (meme image, meme Jekyll 3.10, meme liste blanche que GitHub).
+  # Il ne publie rien et n'expose rien ; profil cli, jamais lance par `up`.
+  #   sudo appctl run pages-build   ->  _site/ (non versionne)
+  # Ajoute a la demande de l'utilisateur (2026-11-10).
+  pages-build:
+    image: ghcr.io/actions/jekyll-build-pages:v1.0.13
+    profiles: ["cli"]
+    working_dir: /src
+    volumes:
+      - ./:/src
+    environment:
+      INPUT_SOURCE: src
+      INPUT_DESTINATION: src/_site
+      INPUT_FUTURE: "false"
+      INPUT_VERBOSE: "false"
+      INPUT_BUILD_REVISION: local
+      GITHUB_REPOSITORY: s-geffroy/political-atlas-star-trek
+      PAGES_REPO_NWO: s-geffroy/political-atlas-star-trek
+      JEKYLL_ENV: production
+    networks: [political-atlas-star-trek-internal]
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+
+networks:
+  political-atlas-star-trek-internal:
+    name: political-atlas-star-trek-internal

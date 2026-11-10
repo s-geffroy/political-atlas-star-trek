@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{%- assign d = site.data.atlas.domaines | where: "slug", page.domaine | first -%}
+<article>
+  <p class="fil"><a href="{{ '/atlas/' | relative_url }}">Atlas thématique</a> › {{ d.nom }}</p>
+  <h1>{{ d.nom }}</h1>
+  <dl class="donnees">
+    <dt>Catégories rattachées</dt><dd>{% if d.categories.size > 0 %}<code>{{ d.categories | join: "</code>, <code>" }}</code>{% else %}Aucune catégorie de la base ne correspond à ce domaine.{% endif %}</dd>
+    <dt>Entrées par catégorie</dt><dd>{{ d.evenements.size }}</dd>
+    {%- if d.lexique %}<dt>Règle lexicale</dt><dd><code>{{ d.lexique | escape }}</code> — {{ d.rapprochements_lexicaux.size }} entrées repérées</dd>{% endif %}
+  </dl>
+  <p><a href="{{ '/atlas/' | relative_url }}#correspondances">Voir la table complète des correspondances</a></p>
+
+  {%- if d.evenements.size > 0 %}
+  <h2>Entrées rattachées par catégorie</h2>
+  <ul class="cartes">
+    {%- for id in d.evenements %}{% assign e = site.data.evenements | where: "id", id | first %}{% include carte.html e=e %}{% endfor %}
+  </ul>
+  {%- endif %}
+
+  {%- if d.rapprochements_lexicaux.size > 0 %}
+  <h2>Rapprochements lexicaux, non validés</h2>
+  <div class="encadre encadre--alerte"><p>Ces entrées ne portent pas de catégorie correspondant à ce domaine. Elles ont été repérées automatiquement par la règle lexicale ci-dessus et doivent être lues comme des pistes, pas comme un classement.</p></div>
+  <ul class="cartes">
+    {%- for id in d.rapprochements_lexicaux %}{% assign e = site.data.evenements | where: "id", id | first %}{% include carte.html e=e %}{% endfor %}
+  </ul>
+  {%- endif %}
+</article>

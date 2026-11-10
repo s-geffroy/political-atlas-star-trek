@@ -1,9 +1,6 @@
 ---
 layout: home
 title: Accueil
+nav: accueil
+description: Atlas politique, historique et sociologique de l’univers Star Trek — encyclopédie documentaire indépendante, avec niveaux de vérification explicites.
 ---
-
-Cette page est le point d'entree du site. Remplace ce texte.
-
-Les articles deposes dans `_posts/` apparaissent automatiquement ci-dessous
-avec le theme `minima`.

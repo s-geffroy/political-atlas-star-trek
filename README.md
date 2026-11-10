@@ -1,110 +1,126 @@
-# political-atlas-star-trek
+# Star Trek Political Atlas
 
-Site **Jekyll** publie par **GitHub Pages**. **Rien n'est heberge ici.**
+*Atlas politique, historique et sociologique de l'univers Star Trek* -- site
+documentaire en francais, publie par **GitHub Pages** (constructeur Jekyll
+natif) a l'adresse :
 
-## Ce que ce depot est
+<https://s-geffroy.github.io/political-atlas-star-trek/>
 
-Un espace de travail versionne, isole des autres applications du VPS, avec son
-propre Claude Code authentifie. Le site, lui, est construit par GitHub a chaque
-`git push` et servi depuis les serveurs de GitHub.
+Projet independant, non affilie a Paramount / CBS Studios.
 
-`sudo appctl validate` repondra « 0 service », et c'est normal : `app.yaml` et
-`compose.yaml` declarent explicitement qu'il n'y a rien a demarrer.
+## Contenu
 
-Si quelqu'un demande de « deployer le site ici », c'est qu'il s'est trompe de
-template : `static` est celui d'un site servi par ce VPS.
+| Page | Adresse | Source des donnees |
+|---|---|---|
+| Accueil (tableau de bord) | `/` | `_data/stats.json` |
+| Explorateur (recherche, filtres, URL partageable) | `/evenements/` | `_data/evenements.json` |
+| 305 fiches d'evenement | `/evenements/STP-001/` ... `/evenements/STP-305/` | `_data/evenements.json`, `_data/fiches.json` |
+| Chronologie diegetique / de diffusion | `/chronologie/` (`?vue=diffusion`) | `_data/evenements.json`, `_data/diffusion.json` |
+| Atlas thematique (10 domaines) | `/atlas/`, `/atlas/<domaine>/` | `_data/atlas.json` |
+| Fiction et histoire reelle | `/analyses/`, `/analyses/emeutes-de-bell/` | fiche STP-006, `_data/editorial.json` |
+| Methodologie, limites, rapport de qualite | `/methodologie/` | `_data/editorial.json`, `_data/qualite.json` |
+| Contribuer | `/contribuer/` | -- |
 
-## Prerequis, a trancher AVANT de creer le depot distant
+## Architecture
 
-GitHub Pages est disponible :
+Le site est construit par **GitHub**, au `git push`, avec Jekyll 3.10 en safe
+mode (aucun workflow GitHub Actions). Un import en Node -- **sans aucune
+dependance npm** -- transforme les sources en donnees Jekyll, qui sont
+commitees :
 
-- sur un depot **public**, avec un compte **GitHub Free** ;
-- sur un depot **prive**, seulement a partir de **GitHub Pro** (payant).
+```
+data/source/              CSV + Markdown du corpus (V0.3), copies tels quels
+data/diffusion.json       dates de diffusion relevees, chacune avec sa source
+data/ids-publies.json     identifiants deja publies (ne fait que grandir)
+scripts/lib/csv.mjs       parseur CSV (BOM, guillemets, « ; »)
+scripts/lib/fiches.mjs    extraction des 31 fiches et du registre Markdown
+scripts/lib/derive.mjs    regles de derivation (serie, continuite, ordre)
+scripts/lib/atlas.mjs     table domaines <-> categories
+scripts/import.mjs        sources -> _data/*.json, _evenements/*.md, atlas/*.md
+scripts/validate.mjs      10 controles documentaires -> docs/rapport-qualite.md
+scripts/check-links.mjs   liens internes d'un site construit (prefixe compris)
+tests/                    node --test
+_layouts/ _includes/      gabarits (pas de theme)
+assets/css/atlas.css      systeme graphique
+assets/js/                explorateur et chronologie (amelioration progressive)
+docs/                     rapports d'import et de qualite (non publies)
+```
 
-Et dans les deux cas, **le site publie est public**. Un depot prive protege les
-sources, pas le site. Restreindre l'acces au site lui-meme demande une
-organisation sur GitHub Enterprise Cloud.
+Les fichiers `_data/*.json`, `_evenements/*.md` et `atlas/*.md` sont
+**generes** : ne pas les modifier a la main.
 
-C'est a decider avant l'etape « Rattacher un depot GitHub prive ? » de
-`workon new` : apres, le depot existe.
+## Commandes
 
-## Activer Pages
+Prerequis : Node 18 ou plus (deja present sur le VPS). Rien a installer.
 
-1. Creer le depot sur GitHub, y pousser ce projet.
-2. Depot > **Settings** > **Pages**.
-3. **Source** : *Deploy from a branch*.
-4. **Branch** : `main`, dossier `/ (root)`.
+```bash
+npm run import     # sources -> donnees Jekyll et pages
+npm run validate   # 10 controles ; sort en erreur si un controle echoue
+npm test           # tests automatises
+npm run check      # les trois, dans l'ordre
+```
 
-Aucun workflow GitHub Actions n'est necessaire : le constructeur Jekyll natif
-fait le travail. Le modele inverse -- Jekyll 4 et greffons libres, batis par un
-workflow de ce depot -- est le template `github-pages-ci` ; les deux s'excluent,
-puisqu'ils demandent des reglages differents dans Settings > Pages.
+Verification optionnelle avec le constructeur officiel de GitHub Pages
+(meme image Docker que GitHub, declaree dans `compose.yaml`, profil `cli`) :
+
+```bash
+sudo appctl run pages-build                          # construit dans _site/
+node scripts/check-links.mjs _site /political-atlas-star-trek
+```
+
+`_site/` n'est jamais commite.
 
 ## Publier
 
 ```bash
-git add -A
-git commit -m "..."
-git push
+npm run check
+git add -A && git commit -m "..." && git push
 ```
 
-C'est tout. La construction prend une a deux minutes ; son deroulement et ses
-echecs sont visibles dans l'onglet **Actions** du depot, meme sans workflow --
-le constructeur natif s'y affiche.
+**Le push est la publication.** La construction prend une a deux minutes ;
+son deroulement et ses echecs sont visibles dans l'onglet **Actions** du depot.
 
-## Organisation
+Reglage a faire une fois : depot > **Settings** > **Pages** > *Deploy from a
+branch*, branche `main`, dossier `/ (root)`.
 
-```
-_config.yml        reglages du site (titre, url, baseurl, greffons, exclusions)
-index.md           page d'accueil
-404.html           page servie sur une adresse inconnue
-_posts/            articles : AAAA-MM-JJ-titre.md
-_drafts/           brouillons : jamais publies (a creer au besoin)
-assets/            images, fichiers joints
-specs/             specifications du projet, exclues du site
-```
+## Mettre a jour le corpus (V0.4 et suivantes)
 
-Un article porte un front matter :
+1. Deposer `Star_Trek_Atlas_Politique_V0_4_<date>.csv` et `.md` dans
+   `data/source/` (l'import prend automatiquement la version la plus haute).
+2. `npm run check`.
+3. Lire `docs/rapport-import.md` et `docs/rapport-qualite.md`.
+4. Commit, push.
 
-```markdown
----
-layout: post
-title: "Titre de l'article"
-date: 2026-08-25
-categories: [notes]
----
-```
+Aucun fichier de presentation n'est a toucher. Garanties :
 
-## Domaine personnalise
+- un identifiant deja publie qui disparait de la source **fait echouer** la
+  validation (une URL ne doit pas disparaitre) ;
+- le CSV est reconstruit a partir des donnees publiees et compare a la source :
+  toute perte est detectee ;
+- les textes des fiches doivent etre des sous-chaines exactes du Markdown ;
+- le format attendu du Markdown est celui de V0.3 : section
+  `## Cas approfondis`, fiches `### STP-NNN — Titre`, volets en gras. Un volet
+  manquant est signale.
 
-Saisir le domaine dans **Settings > Pages** : GitHub cree lui-meme le commit du
-fichier `CNAME`. Cote DNS, chez le registrar :
+## Ecarts assumes avec la specification
 
-- apex (`exemple.fr`) : quatre enregistrements **A** vers `185.199.108.153`,
-  `185.199.109.153`, `185.199.110.153`, `185.199.111.153` ;
-- sous-domaine (`www`) : un **CNAME** vers `<utilisateur>.github.io`.
+La specification (`Star_Trek_Prompt_GitHub_Pages_V1`) demandait Astro,
+TypeScript et un deploiement par GitHub Actions. Ce depot est configure pour le
+constructeur Jekyll natif, et ses regles interdisent d'y poser un workflow ;
+le choix a ete fait de rester en Jekyll. Consequences :
 
-Puis cocher **Enforce HTTPS** -- disponible jusqu'a 24 h apres la
-configuration, le temps que le certificat soit emis.
+- pas de TypeScript : scripts en JavaScript (modules ES), sans dependance ;
+- pas d'integration continue cote GitHub : les tests et la validation se
+  lancent avant le push (`npm run check`) ;
+- le depot s'appelle `political-atlas-star-trek` (et non
+  `star-trek-political-atlas`) : prefixe `/political-atlas-star-trek/` ;
+- `robots.txt` est publie, mais sur un site de projet il n'est pas a la racine
+  du domaine : les moteurs ne le lisent pas. Il le sera avec un domaine
+  personnalise.
 
-**Rien de tout cela ne passe par ce VPS** : ni Traefik, ni `app.yaml`, ni
-`app-exposure.py`, ni la zone publique de `/opt/infra/.env`.
+Une migration vers Astro passerait par le template `github-pages-ci` et un
+changement de Settings > Pages ; elle n'est pas faite.
 
-Ne pas oublier de vider `baseurl` dans `_config.yml` en meme temps.
+## Licences
 
-## Ce que le constructeur natif ne sait pas faire
-
-- Il tourne en **safe mode** : les greffons deposes dans `_plugins/` sont
-  **ignores**, sans erreur ni avertissement.
-- Seule la liste blanche de <https://pages.github.com/versions.json> est
-  chargeable -- `jekyll-feed`, `jekyll-seo-tag`, `jekyll-sitemap`,
-  `jekyll-redirect-from`, `jekyll-remote-theme` et quelques autres.
-- La version de Jekyll est **3.10**, pas Jekyll 4. Les recettes du web qui
-  supposent Jekyll 4 ne marchent pas ici.
-- Pour changer de theme sans sortir du constructeur natif : `remote_theme:`,
-  qui est dans la liste blanche.
-
-## Commandes
-
-`sudo appctl validate` repond « 0 service » ; `build`, `up`, `down`, `rebuild`
-et `restart` sortent en 0 sans rien faire.
+Code : MIT. Contenus documentaires : CC BY-SA 4.0. Voir `LICENSE`.

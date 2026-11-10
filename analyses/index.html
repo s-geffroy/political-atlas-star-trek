@@ -1,0 +1,26 @@
+---
+title: Fiction et histoire réelle
+nav: analyses
+permalink: /analyses/
+description: Comparer un événement politique de Star Trek, son contexte de production, l’actualité de sa diffusion et ses résonances ultérieures — avec les limites de la comparaison.
+---
+<p class="chapo">Une comparaison entre fiction et histoire se construit en cinq temps : l’événement fictif, son contexte de production, l’actualité contemporaine de sa diffusion, les résonances politiques ultérieures, et les différences qui limitent l’analogie.</p>
+
+<div class="encadre encadre--alerte">
+  <p><strong>Règles de la section.</strong> Une ressemblance n’est pas une identité. Aucune page de l’atlas n’affirme que <em>Star Trek</em> aurait « prédit » un événement réel : une œuvre écrite à une date donnée répond aux débats de cette date, et une résonance ultérieure est une lecture, pas une preuve. Chaque comparaison expose au moins une objection.</p>
+</div>
+
+<h2>Analyses publiées</h2>
+<ul class="sommaire">
+  <li><a href="{{ '/analyses/emeutes-de-bell/' | relative_url }}"><b>Les émeutes de Bell</b><span>STP-006 · DS9 « Past Tense » · Zones de Sanctuaire, relégation sociale et visibilité de la répression.</span></a></li>
+</ul>
+
+<h2>Matière disponible pour d’autres analyses</h2>
+<p>Les {{ site.data.stats.fiches }} fiches approfondies contiennent chacune un volet « Parallèle réel à étudier » et un volet « Objections et limites ». Elles constituent le point de départ des analyses à venir :</p>
+<ul class="cartes">
+  {%- assign fiches = site.data.evenements | where: "fiche", true -%}
+  {%- for e in fiches %}{% include carte.html e=e court=true %}{% endfor %}
+</ul>
+
+<h2>Lignes de force du document analytique</h2>
+{{ site.data.editorial.lignes_de_force.markdown | markdownify }}

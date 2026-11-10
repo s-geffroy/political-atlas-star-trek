@@ -1,0 +1,323 @@
+{
+ "total": 305,
+ "fiches": 31,
+ "niveaux": [
+  {
+   "cle": "A",
+   "n": 17
+  },
+  {
+   "cle": "B",
+   "n": 26
+  },
+  {
+   "cle": "C",
+   "n": 262
+  }
+ ],
+ "cycles": [
+  {
+   "cle": "Terre : origines et histoire antérieure",
+   "n": 15,
+   "slug": "terre-origines-et-histoire-anterieure"
+  },
+  {
+   "cle": "Enterprise : diplomatie et fondation de la Fédération",
+   "n": 23,
+   "slug": "enterprise-diplomatie-et-fondation-de-la-federation"
+  },
+  {
+   "cle": "Discovery et Strange New Worlds : crises du XXIIIe siècle",
+   "n": 17,
+   "slug": "discovery-et-strange-new-worlds-crises-du-xxiiie-siecle"
+  },
+  {
+   "cle": "TOS et The Animated Series : conflits idéologiques",
+   "n": 17,
+   "slug": "tos-et-the-animated-series-conflits-ideologiques"
+  },
+  {
+   "cle": "Films classiques et Kelvin",
+   "n": 16,
+   "slug": "films-classiques-et-kelvin"
+  },
+  {
+   "cle": "The Next Generation : institutions, guerre, droits",
+   "n": 31,
+   "slug": "the-next-generation-institutions-guerre-droits"
+  },
+  {
+   "cle": "Deep Space Nine : occupations, démocratie, guerre",
+   "n": 41,
+   "slug": "deep-space-nine-occupations-democratie-guerre"
+  },
+  {
+   "cle": "Voyager : Delta Quadrant, gouvernance et droits",
+   "n": 15,
+   "slug": "voyager-delta-quadrant-gouvernance-et-droits"
+  },
+  {
+   "cle": "Discovery : futur et reconstruction post-Burn",
+   "n": 19,
+   "slug": "discovery-futur-et-reconstruction-post-burn"
+  },
+  {
+   "cle": "Picard : gouvernance, synthétiques, Romuliens",
+   "n": 14,
+   "slug": "picard-gouvernance-synthetiques-romuliens"
+  },
+  {
+   "cle": "Lower Decks : politique des marges et adhésions",
+   "n": 10,
+   "slug": "lower-decks-politique-des-marges-et-adhesions"
+  },
+  {
+   "cle": "Prodigy : esclavage, contact et guerre civile",
+   "n": 9,
+   "slug": "prodigy-esclavage-contact-et-guerre-civile"
+  },
+  {
+   "cle": "Starfleet Academy (saison 1, 2026)",
+   "n": 5,
+   "slug": "starfleet-academy-saison-1-2026"
+  },
+  {
+   "cle": "Univers Miroir et réalités parallèles",
+   "n": 8,
+   "slug": "univers-miroir-et-realites-paralleles"
+  },
+  {
+   "cle": "Compléments : épisodes sociaux, politiques locales et formats courts",
+   "n": 30,
+   "slug": "complements-episodes-sociaux-politiques-locales-et-formats-courts"
+  },
+  {
+   "cle": "La politique des réfugiés",
+   "n": 3,
+   "slug": "la-politique-des-refugies"
+  },
+  {
+   "cle": "Pouvoir technocratique",
+   "n": 2,
+   "slug": "pouvoir-technocratique"
+  },
+  {
+   "cle": "The Next Generation : événements omis",
+   "n": 5,
+   "slug": "the-next-generation-evenements-omis"
+  },
+  {
+   "cle": "Voyager : événements omis",
+   "n": 5,
+   "slug": "voyager-evenements-omis"
+  },
+  {
+   "cle": "Discovery : événements omis",
+   "n": 3,
+   "slug": "discovery-evenements-omis"
+  },
+  {
+   "cle": "Lower Decks : événements omis",
+   "n": 1,
+   "slug": "lower-decks-evenements-omis"
+  },
+  {
+   "cle": "Enterprise : événements omis",
+   "n": 2,
+   "slug": "enterprise-evenements-omis"
+  },
+  {
+   "cle": "Starfleet Academy : actualisation 2026",
+   "n": 6,
+   "slug": "starfleet-academy-actualisation-2026"
+  },
+  {
+   "cle": "Strange New Worlds : saison 4 2026",
+   "n": 6,
+   "slug": "strange-new-worlds-saison-4-2026"
+  },
+  {
+   "cle": "Deep Space Nine : situations omises",
+   "n": 2,
+   "slug": "deep-space-nine-situations-omises"
+  }
+ ],
+ "series": [
+  {
+   "cle": "TOS",
+   "n": 25,
+   "nom": "The Original Series"
+  },
+  {
+   "cle": "TAS",
+   "n": 7,
+   "nom": "The Animated Series"
+  },
+  {
+   "cle": "Film",
+   "n": 19,
+   "nom": "Films"
+  },
+  {
+   "cle": "TNG",
+   "n": 46,
+   "nom": "The Next Generation"
+  },
+  {
+   "cle": "DS9",
+   "n": 59,
+   "nom": "Deep Space Nine"
+  },
+  {
+   "cle": "VOY",
+   "n": 27,
+   "nom": "Voyager"
+  },
+  {
+   "cle": "ENT",
+   "n": 34,
+   "nom": "Enterprise"
+  },
+  {
+   "cle": "DIS",
+   "n": 32,
+   "nom": "Discovery"
+  },
+  {
+   "cle": "Short Treks",
+   "n": 2,
+   "nom": "Short Treks"
+  },
+  {
+   "cle": "PIC",
+   "n": 17,
+   "nom": "Picard"
+  },
+  {
+   "cle": "LD",
+   "n": 12,
+   "nom": "Lower Decks"
+  },
+  {
+   "cle": "PRO",
+   "n": 9,
+   "nom": "Prodigy"
+  },
+  {
+   "cle": "SNW",
+   "n": 19,
+   "nom": "Strange New Worlds"
+  },
+  {
+   "cle": "SFA",
+   "n": 11,
+   "nom": "Starfleet Academy"
+  }
+ ],
+ "categories": [
+  {
+   "cle": "autre / à qualifier",
+   "n": 85
+  },
+  {
+   "cle": "guerre/bataille",
+   "n": 78
+  },
+  {
+   "cle": "justice/droits",
+   "n": 68
+  },
+  {
+   "cle": "renseignement/sécurité",
+   "n": 54
+  },
+  {
+   "cle": "diplomatie/traité",
+   "n": 49
+  },
+  {
+   "cle": "insurrection/pouvoir",
+   "n": 41
+  },
+  {
+   "cle": "économie/social",
+   "n": 24
+  }
+ ],
+ "continuites": [
+  {
+   "cle": "principale",
+   "n": 287,
+   "nom": "Continuité principale"
+  },
+  {
+   "cle": "miroir",
+   "n": 9,
+   "nom": "Univers Miroir"
+  },
+  {
+   "cle": "kelvin",
+   "n": 4,
+   "nom": "Chronologie Kelvin"
+  },
+  {
+   "cle": "modifiee",
+   "n": 5,
+   "nom": "Temporalité ou réalité modifiée"
+  }
+ ],
+ "versions": [
+  {
+   "cle": "V0.2",
+   "n": 255
+  },
+  {
+   "cle": "V0.3 ajout",
+   "n": 35
+  },
+  {
+   "cle": "V0.3 révisé",
+   "n": 15
+  }
+ ],
+ "precisions": [
+  {
+   "cle": "annee",
+   "n": 211,
+   "nom": "Année explicite"
+  },
+  {
+   "cle": "annee_qualifiee",
+   "n": 25,
+   "nom": "Année avec réserve (intervalle, « env. », alternative…)"
+  },
+  {
+   "cle": "decennie",
+   "n": 36,
+   "nom": "Décennie"
+  },
+  {
+   "cle": "borne",
+   "n": 5,
+   "nom": "Borne (« vers », « avant », « après »)"
+  },
+  {
+   "cle": "siecle",
+   "n": 21,
+   "nom": "Siècle seulement"
+  },
+  {
+   "cle": "passe_lointain",
+   "n": 6,
+   "nom": "Passé lointain non daté"
+  },
+  {
+   "cle": "indeterminee",
+   "n": 1,
+   "nom": "Non ordonnable sans interprétation"
+  }
+ ],
+ "max_serie": 59,
+ "max_categorie": 85,
+ "max_cycle": 41
+}

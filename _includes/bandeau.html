@@ -1,0 +1,24 @@
+{%- assign sections = "accueil:/|evenements:/evenements/|chronologie:/chronologie/|atlas:/atlas/|analyses:/analyses/|methodologie:/methodologie/|contribuer:/contribuer/" | split: "|" -%}
+{%- assign libelles = "Accueil|Événements|Chronologie|Atlas thématique|Analyses|Méthodologie|Contribuer" | split: "|" -%}
+<header class="bandeau cadre" role="banner">
+  <div class="bandeau__haut">
+    <div class="coude" aria-hidden="true"></div>
+    <div class="titrage">
+      <div class="titrage__barre" aria-hidden="true"><span></span><span></span><span></span></div>
+      <p class="marque"><a href="{{ '/' | relative_url }}">{{ site.title }}</a> <small>{{ site.tagline }}</small></p>
+    </div>
+  </div>
+  <nav class="nav" aria-label="Navigation principale">
+    <div class="nav__pied" aria-hidden="true"></div>
+    <ul>
+      {%- for s in sections -%}
+      {%- assign parts = s | split: ":" -%}
+      {%- assign cle = parts[0] -%}
+      {%- assign actif = false -%}
+      {%- if page.nav == cle -%}{%- assign actif = true -%}{%- endif -%}
+      {%- if page.collection == "evenements" and cle == "evenements" -%}{%- assign actif = true -%}{%- endif -%}
+      <li><a href="{{ parts[1] | relative_url }}"{% if actif %} aria-current="page"{% endif %}>{{ libelles[forloop.index0] }}</a></li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+</header>

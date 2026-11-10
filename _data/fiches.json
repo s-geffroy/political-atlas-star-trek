@@ -1,0 +1,691 @@
+{
+ "STP-006": {
+  "id": "STP-006",
+  "titre": "Émeutes de Bell contre les Zones de Sanctuaire",
+  "entetes": {
+   "periode": "XXIe siècle",
+   "source_audiovisuelle": "DS9 «Past Tense», parties I–II",
+   "recoupement": "A — Editorial officiel : faits de la fiction"
+  },
+  "volets": {
+   "faits": "Deux voyageurs temporels rejoignent une Zone de Sanctuaire de San Francisco en septembre 2024. Sisko endosse l’identité de Gabriel Bell après la mort prématurée du véritable militant et protège les otages pendant la révolte. La répression et sa publicité provoquent une réaction politique.",
+   "mecanisme": "La zone est une technologie administrative de relégation : elle transforme la précarité en problème de localisation policière. L’épisode ajoute un second mécanisme : la visibilité publique d’une violence jusqu’alors confinée.",
+   "parallele": "Aux États-Unis, l’arrêt *City of Grants Pass v. Johnson* du 28 juin 2024 est un point d’appui documenté pour discuter du traitement juridique des campements et de la tension entre ordre public et assistance. L’article officiel de Star Trek rapproche déjà cette intrigue de la ségrégation socio-économique.",
+   "objections": "Le droit de sanctionner certains campements n’équivaut pas à des districts clos et obligatoires; l’épisode ne prédit pas juridiquement 2024. Il ne montre pas non plus une causalité suffisante pour faire des émeutes la cause unique de la Fédération.",
+   "contexte": "Diffusion originale 1995 : débats américains sur la pauvreté urbaine, la criminalité et la réforme de l’aide sociale; ne pas projeter rétrospectivement un scénario écrit trente ans plus tôt."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/star-treks-best-revolutions-rebellions"
+   },
+   {
+    "libelle": "Source documentaire pour le parallèle",
+    "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/23-175.html"
+   }
+  ]
+ },
+ "STP-034": {
+  "id": "STP-034",
+  "titre": "Proclamation et développement d'une coalition anti-étrangers Terra Prime",
+  "entetes": {
+   "periode": "2154",
+   "source_audiovisuelle": "ENT «Demons»; «Terra Prime»",
+   "recoupement": "A — Editorial officiel : Terra Prime"
+  },
+  "volets": {
+   "faits": "Terra Prime, mouvement de John Frederick Paxton, veut expulser les extraterrestres de la Terre au moment où plusieurs mondes discutent d’une coalition. Le groupe utilise une arme martienne et une enfant issue d’ADN humain-vulcain comme supports de propagande.",
+   "mecanisme": "L’opposition à l’institution fédérative devient une politique de pureté identitaire : elle identifie la coopération à une menace démographique et cherche à capter les infrastructures stratégiques.",
+   "parallele": "Comparaison structurale avec les mouvements nativistes et les paniques démographiques : la propagande transforme un symbole familial en preuve imaginaire d’une contamination collective.",
+   "objections": "Les mouvements anti-immigration réels sont hétérogènes; assimilation directe de tout souverainisme au terrorisme de Terra Prime serait fausse.",
+   "contexte": "Diffusion 2005, après le 11-Septembre et dans une période américaine de débat intense sur sécurité, immigration et identité."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/best-of-charles-trip-tucker"
+   }
+  ]
+ },
+ "STP-048": {
+  "id": "STP-048",
+  "titre": "Procès d'Una, reconnaissance d'un droit d'asile contre la persécution illyrienne",
+  "entetes": {
+   "periode": "2259",
+   "source_audiovisuelle": "SNW «Ad Astra per Aspera»",
+   "recoupement": "A — Récapitulatif officiel"
+  },
+  "volets": {
+   "faits": "Una est poursuivie pour avoir caché son origine illyrienne et des modifications génétiques culturellement constitutives de son groupe. Sa défense établit qu’elle s’est signalée et demande la protection prévue par le Code de Starfleet.",
+   "mecanisme": "L’interdit fédéral contre les Augments, construit à partir d’un traumatisme historique, devient une discrimination indiscriminée. L’audience mobilise la contradiction entre norme générale et droit d’asile individuel.",
+   "parallele": "L’épisode permet de confronter régulation des biotechnologies et garanties contre la discrimination, sans supprimer les débats de bioéthique.",
+   "objections": "Le jugement n’abroge pas l’interdiction générale de modification génétique. Une victoire individuelle en justice n’est pas la réforme complète d’un système.",
+   "contexte": "Diffusé en 2023, dans un contexte de discussion accrue sur les identités, la protection des minorités et les technologies de modification génétique."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/recap-202-ad-astra-per-aspera-strange-new-worlds"
+   }
+  ]
+ },
+ "STP-061": {
+  "id": "STP-061",
+  "titre": "Lutte des Troglytes de la planète Ardana contre les élites de Stratos",
+  "entetes": {
+   "periode": "2260s",
+   "source_audiovisuelle": "TOS «The Cloud Minders»",
+   "recoupement": "A — Editorial officiel"
+  },
+  "volets": {
+   "faits": "Sur Ardana, des élites habitent Stratos tandis que les Troglytes travaillent dans des mines dont les conditions affectent leurs capacités. Un mouvement de contestation remet en cause cette hiérarchie.",
+   "mecanisme": "La fiction relie statut social, environnement professionnel et légitimation idéologique : une inégalité structurelle est justifiée comme une différence naturelle entre groupes.",
+   "parallele": "Éclairage historique de la ségrégation et des luttes pour les droits civiques dans l’Amérique de 1969, ainsi que des rapports entre exposition aux risques professionnels et pouvoir politique.",
+   "objections": "Les Troglytes ne représentent pas un groupe américain précis. Réduire l’épisode à une métaphore raciale unique ferait perdre la dimension de classe et de santé au travail.",
+   "contexte": "Épisode de 1969 dans la continuité des conflits politiques des années 1960."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/lost-trek-history-the-cloud-minders"
+   },
+   {
+    "libelle": "Source documentaire pour le parallèle",
+    "url": "https://www.archives.gov/milestone-documents/civil-rights-act"
+   }
+  ]
+ },
+ "STP-077": {
+  "id": "STP-077",
+  "titre": "Explosion de Praxis et crise économique-écologique de l'Empire klingon",
+  "entetes": {
+   "periode": "2293",
+   "source_audiovisuelle": "Film «The Undiscovered Country»",
+   "recoupement": "C — Référence candidate de la V0.2/V0.3, non recoupée dans cet audit"
+  },
+  "volets": {
+   "faits": "L’explosion de Praxis menace les conditions d’existence et la puissance stratégique klingonnes. Des responsables entament un rapprochement avec la Fédération tandis que des acteurs des deux camps cherchent à le saboter.",
+   "mecanisme": "Un choc écologique et industriel agit comme accélérateur de changement diplomatique; la crise rend l’ordre militaire coûteux et expose les intérêts des appareils hostiles à la détente.",
+   "parallele": "Parallèle de conception particulièrement fort avec la fin de la guerre froide et les transformations soviétiques de la fin des années 1980 et du début des années 1990.",
+   "objections": "Praxis n’est ni Tchernobyl ni l’effondrement de l’URSS : le film condense des phénomènes distincts en un événement dramatique.",
+   "contexte": "Film sorti en 1991, année de dissolution de l’Union soviétique."
+  },
+  "sources": []
+ },
+ "STP-094": {
+  "id": "STP-094",
+  "titre": "Audience déterminant si Data est propriété de Starfleet ou libre de refuser son démontage",
+  "entetes": {
+   "periode": "2365",
+   "source_audiovisuelle": "TNG «The Measure of a Man»",
+   "recoupement": "A — Editorial officiel"
+  },
+  "volets": {
+   "faits": "À Starbase 173, le commandant Maddox veut démonter Data pour étudier et reproduire sa technologie. Data refuse. L’audience décide qu’il n’est pas la propriété de Starfleet et qu’il est libre de choisir.",
+   "mecanisme": "Le litige déplace la question de l’efficacité technique vers celle du statut juridique et du consentement. Il distingue soigneusement une protection procédurale de la reconnaissance exhaustive de tous les droits d’une personne.",
+   "parallele": "Comparaison contemporaine utile avec la gouvernance des systèmes d’intelligence artificielle avancés : quel critère matériel ou comportemental justifierait un droit opposable? La discussion reste philosophique.",
+   "objections": "L’épisode ne démontre pas que les IA actuelles sont conscientes ni titulaires de droits. Data est un personnage fictif doté de propriétés postulées par le récit.",
+   "contexte": "Diffusion 1989 : réflexion sur les machines intelligentes, l’automatisation et les droits des êtres non humains."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/star-trek-sets-course-nearest-starbase"
+   }
+  ]
+ },
+ "STP-101": {
+  "id": "STP-101",
+  "titre": "Enquête de l'amirale Satie et montée d'une chasse aux suspects",
+  "entetes": {
+   "periode": "2367",
+   "source_audiovisuelle": "TNG «The Drumhead»",
+   "recoupement": "A — Editorial officiel"
+  },
+  "volets": {
+   "faits": "L’amirale Norah Satie transforme une enquête sur une suspicion de sabotage en procédure accusatoire visant des officiers, notamment Picard, malgré l’absence de preuve d’un complot généralisé.",
+   "mecanisme": "L’état d’exception est construit discursivement : l’accusation devient le propre critère de suspicion, et la sécurité prend la place des garanties procédurales.",
+   "parallele": "Rapprochement historique avec le maccarthysme américain; rapprochement contemporain plus général avec les abus de pouvoirs de contrôle en situation d’alerte.",
+   "objections": "La vérification de risques réels de sécurité est parfois nécessaire. Le problème de l’épisode est l’absence de preuves et de proportionnalité, pas le principe même d’une enquête.",
+   "contexte": "Diffusé en 1991; la référence au maccarthysme est plus directe que tout parallèle exclusif aux technologies numériques du XXIe siècle."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/your-ultimate-star-trek-picard-watch-guide"
+   }
+  ]
+ },
+ "STP-107": {
+  "id": "STP-107",
+  "titre": "Politique de correction forcée de l'identité de genre sur J'naii",
+  "entetes": {
+   "periode": "2368",
+   "source_audiovisuelle": "TNG «The Outcast»",
+   "recoupement": "A — Editorial officiel"
+  },
+  "volets": {
+   "faits": "Sur la planète des J’naii, Soren vit une identité de genre réprouvée par les normes officielles. Le dispositif social prétend effacer l’écart par une « correction » forcée.",
+   "mecanisme": "L’assimilation est présentée comme une violence institutionnelle se disant thérapeutique. La force politique de l’épisode provient du renversement du point de vue majoritaire.",
+   "parallele": "Le récit fait écho aux discriminations liées à l’orientation sexuelle et à l’identité de genre, aux pratiques dites de conversion et au statut public du consentement.",
+   "objections": "Sa métaphore n’est pas un modèle exact de la diversité des expériences LGBTQ+; le choix d’un couple visuellement hétérosexuel a aussi été débattu.",
+   "contexte": "Épisode de 1992, dont les auteurs mobilisent explicitement le langage du débat américain sur les minorités sexuelles."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/the-next-generations-call-for-equality"
+   }
+  ]
+ },
+ "STP-125": {
+  "id": "STP-125",
+  "titre": "Tribunal du passé d'un administrateur de camp cardassien",
+  "entetes": {
+   "periode": "2369",
+   "source_audiovisuelle": "DS9 «Duet»",
+   "recoupement": "B — Résumé secondaire indexé"
+  },
+  "volets": {
+   "faits": "Kira arrête un Cardassien qui semble avoir participé au camp de travail de Gallitep. L’accusé est en réalité Marritza, un ancien employé du camp qui se fait passer pour le bourreau pour forcer Cardassia à regarder ses crimes.",
+   "mecanisme": "L’épisode oppose mémoire, identification personnelle et responsabilité collective. Le besoin de justice peut se transformer en punition fondée sur la seule appartenance nationale.",
+   "parallele": "Analogies prudentes avec les débats sur la justice transitionnelle, les témoignages des crimes de masse et la mémoire des occupations.",
+   "objections": "Il ne présente pas un tribunal pénal formel comparable à Nuremberg; Marritza cherche volontairement à endosser une culpabilité qui ne lui appartient pas.",
+   "contexte": "Diffusion 1993, dans une Amérique qui suit notamment les guerres de l’ex-Yougoslavie et les débats sur les crimes de guerre."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/episodes/duet"
+   }
+  ]
+ },
+ "STP-126": {
+  "id": "STP-126",
+  "titre": "Tentative de coup d'État du Cercle contre le gouvernement provisoire bajoran",
+  "entetes": {
+   "periode": "2369–2370 selon jalons diégétiques",
+   "source_audiovisuelle": "DS9 «The Homecoming»; «The Circle»; «The Siege»",
+   "recoupement": "B — Résumé secondaire indexé"
+  },
+  "volets": {
+   "faits": "Le Cercle, mouvement nationaliste bajoran, exploite la transition fragile après le retrait cardassien. Il arme une faction, chasse les étrangers et menace la station; l’enquête découvre un soutien secret cardassien.",
+   "mecanisme": "Une force revendiquant la souveraineté nationale s’appuie matériellement sur l’ancienne puissance occupante. Le soutien extérieur peut dénaturer une revendication d’indépendance.",
+   "parallele": "Parallèles de mécanisme avec les transitions post-occupation, le financement extérieur de milices et les fractures internes des mouvements nationalistes.",
+   "objections": "Nationalisme, résistance à l’occupation et extrémisme xénophobe ne sont pas synonymes; le Cercle est une faction particulière du paysage bajoran.",
+   "contexte": "Diffusé en 1993 pendant le cycle de conflits et de recompositions étatiques de l’après-guerre froide."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/episodes/the-circle"
+   }
+  ]
+ },
+ "STP-129": {
+  "id": "STP-129",
+  "titre": "Grève des salariés de Quark et affrontement avec l'Autorité commerciale ferengie",
+  "entetes": {
+   "periode": "2372",
+   "source_audiovisuelle": "DS9 «Bar Association»",
+   "recoupement": "A — Editorial officiel"
+  },
+  "volets": {
+   "faits": "Rom et les salariés de Quark s’organisent en syndicat après des retenues de salaire et l’absence de garanties sociales. L’Autorité commerciale ferengie intervient pour casser la grève.",
+   "mecanisme": "Le conflit montre les mécanismes de négociation collective, de dépendance à l’employeur et de répression économique, dans une société où la poursuite du profit prétend être une valeur totale.",
+   "parallele": "À mettre en regard de l’histoire du syndicalisme et des désaccords contemporains sur représentation collective, statuts des salariés et pouvoir de négociation.",
+   "objections": "La Fédération n’est pas dépeinte comme un modèle économique institutionnel documenté dans tous ses détails; comparer Quark à une entreprise américaine précise serait abusif.",
+   "contexte": "Diffusion 1996, au moment de transformations du marché du travail dans les économies occidentales."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/unionizing-star-trek-deep-space-nine"
+   }
+  ]
+ },
+ "STP-139": {
+  "id": "STP-139",
+  "titre": "Tentative de coup d’État militaire de l’amiral Leyton contre les autorités civiles fédérales",
+  "entetes": {
+   "periode": "2372",
+   "source_audiovisuelle": "DS9 «Homefront»; «Paradise Lost»",
+   "recoupement": "A — Editorial officiel"
+  },
+  "volets": {
+   "faits": "L’amiral Leyton exploite la crainte d’une infiltration des Changelings pour renforcer la présence militaire sur Terre et préparer un renversement du pouvoir civil. Sisko révèle la manipulation.",
+   "mecanisme": "La menace extérieure sert de prétexte à la concentration interne du pouvoir. La crise repose sur l’articulation entre renseignement, mise en scène d’une attaque et défaillance des contre-pouvoirs.",
+   "parallele": "Comparaison méthodologique avec les débats historiques et contemporains sur les lois d’urgence et la surveillance. L’épisode précède les attentats du 11 septembre 2001.",
+   "objections": "Il ne faut donc pas le présenter comme une réponse à la Patriot Act. Il exprime des craintes antérieures sur le rapport entre sécurité et libertés.",
+   "contexte": "Diffusion 1996, dans l’après-guerre froide et les débats sur le terrorisme."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/a-guide-to-star-treks-bad-admirals"
+   }
+  ]
+ },
+ "STP-149": {
+  "id": "STP-149",
+  "titre": "Complot de Garak et Sisko conduisant Romulus à entrer en guerre",
+  "entetes": {
+   "periode": "2374",
+   "source_audiovisuelle": "DS9 «In the Pale Moonlight»",
+   "recoupement": "A — Editorial officiel"
+  },
+  "volets": {
+   "faits": "Sisko collabore avec Garak pour produire une fausse preuve d’une menace du Dominion contre Romulus. L’assassinat du sénateur Vreenak, organisé par Garak, conduit les Romuliens à entrer en guerre.",
+   "mecanisme": "Le succès stratégique repose sur la falsification d’indices et la fabrication d’un consentement à la guerre chez un tiers jusque-là neutre.",
+   "parallele": "Cas d’école pour l’étude de la désinformation d’État, de la raison d’État et des normes du consentement à la guerre.",
+   "objections": "Sisko n’ordonne pas explicitement chacun des meurtres et l’épisode ne donne pas d’accès à la décision politique romulienne complète. Le caractère efficace de la ruse n’en prouve pas la légitimité.",
+   "contexte": "Diffusion 1998; éviter les lectures qui prétendent qu’il a été écrit en réponse à une guerre survenue après 1998."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/this-classic-ds9-episode-tackles-the-finer-points-of-morality"
+   }
+  ]
+ },
+ "STP-153": {
+  "id": "STP-153",
+  "titre": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
+  "entetes": {
+   "periode": "2375",
+   "source_audiovisuelle": "DS9 «Inquisition»; «Extreme Measures»",
+   "recoupement": "A — Récapitulatif officiel"
+  },
+  "volets": {
+   "faits": "Section 31 infecte secrètement les Fondateurs par un virus morphogénique, transmis via Odo. Bashir découvre un remède, rendant possible la guérison de la dirigeante du Dominion et la conclusion de la guerre.",
+   "mecanisme": "Les services clandestins utilisent une arme biologique menaçant une espèce au nom de la survie de la Fédération. La frontière entre défense collective et politique d’extermination s’effondre.",
+   "parallele": "Parallèle analytique avec l’interdiction des armes biologiques et les principes du droit des conflits armés.",
+   "objections": "Le concept de génocide doit être manié précisément : la finalité d’extermination de l’espèce est exposée par le récit; les catégories de droit international contemporaines ne se transposent pas automatiquement à des espèces fictives.",
+   "contexte": "Épisodes diffusés en 1999, à une époque marquée par les controverses sur les limites des interventions et de la guerre."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty"
+   }
+  ]
+ },
+ "STP-157": {
+  "id": "STP-157",
+  "titre": "Répression de masse de Cardassia par le Dominion et soulèvement populaire",
+  "entetes": {
+   "periode": "2375",
+   "source_audiovisuelle": "DS9 «What You Leave Behind»",
+   "recoupement": "B — Résumé secondaire indexé"
+  },
+  "volets": {
+   "faits": "Lorsque les forces cardassiennes se retournent contre le Dominion, la dirigeante des Fondateurs ordonne une répression de masse contre les civils de Cardassia. La résistance et la coalition remportent finalement le conflit.",
+   "mecanisme": "La domination d’un allié devient exterminatrice à partir du moment où ce dernier reprend sa souveraineté. Le coût civil révèle la logique punitive de l’empire.",
+   "parallele": "Permet d’étudier punition collective, crimes de masse, dépendance de régimes satellites et reconstruction post-conflit.",
+   "objections": "Il est impossible de faire correspondre précisément Cardassia à un seul pays réel; la série recycle plusieurs traditions historiques d’occupation et de guerre totale.",
+   "contexte": "Fin de DS9 en 1999 après plusieurs saisons consacrées à l’occupation de Bajor et à l’effondrement d’une alliance de guerre."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/episodes/what-you-leave-behind"
+   }
+  ]
+ },
+ "STP-172": {
+  "id": "STP-172",
+  "titre": "Arbitrage reconnaissant au Docteur la maîtrise de son œuvre sans statuer sur sa pleine personnalité",
+  "entetes": {
+   "periode": "2377",
+   "source_audiovisuelle": "VOY «Author, Author»",
+   "recoupement": "B — Base des événements"
+  },
+  "volets": {
+   "faits": "Le Docteur poursuit son éditeur pour reprendre le contrôle d’un holoroman diffusé sans son accord. L’arbitre lui reconnaît un droit d’auteur sans décider qu’il est pleinement une personne.",
+   "mecanisme": "Le droit de propriété intellectuelle constitue un premier seuil de reconnaissance fonctionnelle, mais ne résout pas le problème de la citoyenneté.",
+   "parallele": "Débat utile pour distinguer titularité de droits, propriété de données et statut moral des agents artificiels.",
+   "objections": "La décision fictionnelle ne règle aucune question juridique actuelle sur les modèles génératifs, les droits d’auteur ou la conscience machinique.",
+   "contexte": "Épisode diffusé en 2001, avant les débats actuels sur les modèles de fondation."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/events/holographic-rights-ruling"
+   }
+  ]
+ },
+ "STP-194": {
+  "id": "STP-194",
+  "titre": "Exode ancien de dissidents de l’Empire terrien, découvert dans l’épave du ISS Enterprise en 3191",
+  "entetes": {
+   "periode": "XXIVe siècle (événement relaté en 3191)",
+   "source_audiovisuelle": "DIS «Mirrors»",
+   "recoupement": "A — Récapitulatif officiel"
+  },
+  "volets": {
+   "faits": "En 3191, Discovery retrouve une épave de l’ISS Enterprise. Une inscription raconte une mutinerie menée par des dissidents de l’Empire terrien qui tentaient de faire passer des réfugiés dans l’univers principal.",
+   "mecanisme": "La mémoire inscrite dans l’artefact distingue l’événement ancien de son dévoilement tardif. Il s’agit d’une politique d’exil et non d’un déplacement de populations survenu en 3191.",
+   "parallele": "Parallèle structurel avec les exils politiques et la conservation des traces matérielles de résistances clandestines.",
+   "objections": "Identifier sans réserve le haut chancelier mentionné avec Spock relève d’une hypothèse de continuité, pas de la seule inscription.",
+   "contexte": "Épisode diffusé en 2024."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/recap-505-discovery-mirrors"
+   }
+  ]
+ },
+ "STP-197": {
+  "id": "STP-197",
+  "titre": "Interdiction fédérale des formes de vie synthétiques",
+  "entetes": {
+   "periode": "2385",
+   "source_audiovisuelle": "PIC saison 1",
+   "recoupement": "B — Base des événements"
+  },
+  "volets": {
+   "faits": "Après l’attaque des chantiers martiens en 2385, le Conseil de la Fédération interdit la création et l’usage de synthétiques. L’effort de secours massif des Romuliens est également abandonné.",
+   "mecanisme": "Réponse à la catastrophe par interdiction générale d’une catégorie technique et désengagement humanitaire. Une vulnérabilité institutionnelle se transforme en exclusion politique.",
+   "parallele": "Comparaison avec la régulation d’urgence des technologies et les politiques qui suspendent des garanties en situation de choc.",
+   "objections": "La réalité des dangers d’une technologie doit être établie empiriquement; la série révèle ensuite une manipulation derrière l’attaque de Mars.",
+   "contexte": "Diffusé en 2020, sur fond de débats sociaux sur technologie, frontières et crise humanitaire."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/events/synthetic-ban"
+   }
+  ]
+ },
+ "STP-230": {
+  "id": "STP-230",
+  "titre": "Crise menaçant l'existence et l'avenir des Klingons",
+  "entetes": {
+   "periode": "XXXIIe siècle",
+   "source_audiovisuelle": "SFA «Vox in Excelso»",
+   "recoupement": "B — Compte rendu indépendant détaillé"
+  },
+  "volets": {
+   "faits": "Après le Burn, Qo’noS est inhabitable et plusieurs maisons klingonnes vivent en diaspora. La Fédération propose une planète de repli, mais leur représentativité et leur conception de l’honneur rendent l’aide politiquement délicate.",
+   "mecanisme": "Secourir n’autorise pas à définir à la place du bénéficiaire son identité et sa souveraineté. La prise en charge humanitaire devient une négociation interculturelle.",
+   "parallele": "Comparer aux situations de déplacement forcé et à la protection des héritages culturels lors de crises d’habitat.",
+   "objections": "Un geste diplomatique théâtral de la Fédération ne constitue pas un modèle général applicable aux réfugiés réels.",
+   "contexte": "Diffusé le 29 janvier 2026."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/"
+   }
+  ]
+ },
+ "STP-239": {
+  "id": "STP-239",
+  "titre": "Réformes d’un haut chancelier de l’Empire terrien, assassinat et fuite de dissidents sur le ISS Enterprise",
+  "entetes": {
+   "periode": "XXXIIe siècle, Miroir",
+   "source_audiovisuelle": "DIS «Mirrors»",
+   "recoupement": "A — Récapitulatif officiel"
+  },
+  "volets": {
+   "faits": "Le journal de bord et l’inscription du ISS Enterprise indiquent qu’un haut chancelier terrien réformiste a été tué. Des dissidents ont ensuite fui avec le navire en aidant des réfugiés à passer entre les univers.",
+   "mecanisme": "Le pouvoir autoritaire peut connaître des réformes internes que des factions radicales répriment; l’exil conserve une continuité de la réforme avortée.",
+   "parallele": "Éclairages possibles par des tentatives de libéralisation au sein de régimes autoritaires et les risques subis par leurs soutiens.",
+   "objections": "L’identité de ce chancelier n’est pas directement confirmée dans l’épisode. Le document ne prouve pas que toutes les initiatives ont pris la forme d’un programme constitutionnel.",
+   "contexte": "Épisode de 2024, récit d’un passé de l’univers Miroir."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/news/recap-505-discovery-mirrors"
+   }
+  ]
+ },
+ "STP-267": {
+  "id": "STP-267",
+  "titre": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure",
+  "entetes": {
+   "periode": "vers 2324 (chronologie secondaire)",
+   "source_audiovisuelle": "Film « Star Trek: Section 31 » (2025)",
+   "recoupement": "A — Synopsis officiel; année diégétique secondaire seulement"
+  },
+  "volets": {
+   "faits": "Le film suit Georgiou, ancienne impératrice d’un régime esclavagiste, impliquée dans une mission de Section 31 pour empêcher la mise en service d’une arme dangereuse.",
+   "mecanisme": "La sécurité collective est confiée à une structure opaque et à une personne dont l’expérience de l’autocratie est à la fois un atout tactique et un risque moral.",
+   "parallele": "La comparaison pertinente touche au contrôle démocratique des services secrets et à la responsabilité des anciens dirigeants impliqués dans des crimes.",
+   "objections": "L’ancrage exact en 2324 dépend d’indices et de chronologies secondaires, non d’une datation unanime à l’écran.",
+   "contexte": "Film diffusé en 2025, après cinq saisons de Discovery."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://www.startrek.com/movies/star-trek-section-31"
+   }
+  ]
+ },
+ "STP-271": {
+  "id": "STP-271",
+  "titre": "Rejet par Bajor de l’installation des réfugiés skrreeans sur sa planète",
+  "entetes": {
+   "periode": "2369",
+   "source_audiovisuelle": "DS9 «Sanctuary»",
+   "recoupement": "B — Résumé secondaire indexé"
+  },
+  "volets": {
+   "faits": "Les Skrreeans, chassés de leur monde et guidés par une croyance en un nouveau foyer, veulent s’établir sur Bajor. Le gouvernement provisoire refuse, invoquant sa propre reconstruction et les ressources disponibles.",
+   "mecanisme": "Une société fraîchement sortie d’une occupation se retrouve à décider si sa propre vulnérabilité justifie d’exclure d’autres victimes. L’asile est une décision politique située.",
+   "parallele": "Confrontation utile aux règles de protection des réfugiés et au principe de non-refoulement, dont l’application suppose néanmoins d’établir les conditions juridiques précises.",
+   "objections": "L’épisode ne démontre pas une violation automatique d’une convention réelle; Bajor offre une autre planète, mais la relation aux Skrreeans est marquée par la violence et le refus.",
+   "contexte": "Diffusion 1993, dans le contexte de flux de déplacés liés aux guerres de l’ex-Yougoslavie."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/episodes/sanctuary"
+   },
+   {
+    "libelle": "Source documentaire pour le parallèle",
+    "url": "https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention"
+   }
+  ]
+ },
+ "STP-274": {
+  "id": "STP-274",
+  "titre": "Prévision statistique d’une défaite fédérale et projet clandestin de transmettre des stratégies au Dominion",
+  "entetes": {
+   "periode": "2374",
+   "source_audiovisuelle": "DS9 «Statistical Probabilities»",
+   "recoupement": "B — Résumé secondaire indexé"
+  },
+  "volets": {
+   "faits": "Bashir et des personnes génétiquement augmentées élaborent une prévision selon laquelle la Fédération perdra la guerre. Certains envisagent de communiquer au Dominion des informations militaires pour forcer la paix.",
+   "mecanisme": "Une prédiction devient une prescription : les experts remplacent un choix démocratique, moral et stratégique par une projection mathématique tenue pour certaine.",
+   "parallele": "Rapprochement avec la gouvernementalité algorithmique et les limites des prévisions probabilistes en situations complexes.",
+   "objections": "Un modèle fictionnel erroné ne prouve pas que la modélisation quantitative est inutile; il illustre le coût de l’hubris prédictive et de l’absence de contre-expertise.",
+   "contexte": "Diffusion 1997, avant l’essor actuel de l’IA générative."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/episodes/statistical-probabilities"
+   }
+  ]
+ },
+ "STP-281": {
+  "id": "STP-281",
+  "titre": "Révolte de proies holographiques intelligentes contre leurs créateurs hirogens",
+  "entetes": {
+   "periode": "2377",
+   "source_audiovisuelle": "VOY «Flesh and Blood»",
+   "recoupement": "B — Résumé secondaire indexé"
+  },
+  "volets": {
+   "faits": "Des hologrammes créés comme proies pour les chasses hirogenes développent une autonomie et se révoltent. Le Docteur soutient leur revendication, avant de devoir s’opposer aux violences du meneur Iden.",
+   "mecanisme": "L’émancipation d’un groupe construit pour souffrir pose la question du statut de victime et de la légitimité des moyens de libération.",
+   "parallele": "Parallèle philosophique avec les débats sur la sentience artificielle, et historique avec les luttes contre des systèmes de servitude.",
+   "objections": "Les hologrammes de l’épisode sont explicitement dotés de propriétés fictives; leur traitement ne constitue pas une preuve concernant les IA réelles.",
+   "contexte": "Diffusion 2000."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/episodes/flesh-and-blood"
+   }
+  ]
+ },
+ "STP-282": {
+  "id": "STP-282",
+  "titre": "Formation d’une coalition de survie dans le Void contre une économie de pillage",
+  "entetes": {
+   "periode": "2377",
+   "source_audiovisuelle": "VOY «The Void»",
+   "recoupement": "B — Résumé secondaire indexé"
+  },
+  "volets": {
+   "faits": "Bloquée dans le Void, Voyager refuse une économie de survie par pillage et agrège des navires acceptant des règles communes de non-agression et de redistribution.",
+   "mecanisme": "La Fédération se présente comme une technologie institutionnelle reproductible sans territoire ni centre coercitif : la coopération produit une capacité de sortie de crise.",
+   "parallele": "Cas pédagogique pour comparer dilemme du prisonnier, biens communs et institutions coopératives.",
+   "objections": "L’épisode valorise une coalition qui tient grâce à la confiance et à l’autorité personnelle de Janeway; il ne prouve pas que la coopération est toujours dominante.",
+   "contexte": "Diffusion 2001."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/episodes/the-void"
+   }
+  ]
+ },
+ "STP-286": {
+  "id": "STP-286",
+  "titre": "Fin du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
+  "entetes": {
+   "periode": "2257",
+   "source_audiovisuelle": "DIS «The Sound of Thunder»",
+   "recoupement": "B — Résumé secondaire indexé"
+  },
+  "volets": {
+   "faits": "Sur Kaminar, le gouvernement ba’ul contrôle les Kelpiens en leur présentant le vahar’ai comme une mort inéluctable. La découverte d’un passé où les rôles étaient inversés provoque une rupture, puis une tentative d’extermination.",
+   "mecanisme": "Le système de domination repose sur une mémoire historique traumatique devenue justification permanente de la répression.",
+   "parallele": "Permet de discuter cycles de violence, gouvernance par la peur et transition après système de domination.",
+   "objections": "L’histoire d’une inversion ancienne du rapport prédateur/proie interdit une lecture manichéenne pure; elle ne justifie pas davantage les mises à mort institutionnelles.",
+   "contexte": "Diffusion 2019."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/episodes/the-sound-of-thunder"
+   }
+  ]
+ },
+ "STP-293": {
+  "id": "STP-293",
+  "titre": "Négociation de réintégration de Betazed et proposition d’y établir le siège fédéral",
+  "entetes": {
+   "periode": "3191–3192",
+   "source_audiovisuelle": "SFA «Beta Test»",
+   "recoupement": "B — Compte rendu indépendant détaillé"
+  },
+  "volets": {
+   "faits": "La présidence de Betazed, longtemps isolée derrière une barrière psionique, négocie son retour dans la Fédération. Les responsables fédéraux proposent d’établir le siège politique fédéral sur Betazed pour crédibiliser l’engagement.",
+   "mecanisme": "L’offre déplace le centre institutionnel pour rendre une réintégration plus symétrique; la négociation concerne la crédibilité des garanties, pas seulement l’appartenance formelle.",
+   "parallele": "Rapprochement avec les fédérations asymétriques, les garanties de souveraineté et les politiques de sortie de l’isolationnisme.",
+   "objections": "La proposition fictionnelle ne permet pas d’affirmer que tout État revenu dans une organisation doit accueillir ses institutions centrales.",
+   "contexte": "Épisode de janvier 2026."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/"
+   }
+  ]
+ },
+ "STP-295": {
+  "id": "STP-295",
+  "titre": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
+  "entetes": {
+   "periode": "3191–3192",
+   "source_audiovisuelle": "SFA «Vox in Excelso»",
+   "recoupement": "B — Compte rendu indépendant détaillé"
+  },
+  "volets": {
+   "faits": "Une flotte klingonne reçoit l’occasion de présenter l’installation sur Faan Alpha comme une conquête plutôt qu’une concession humanitaire de la Fédération.",
+   "mecanisme": "La diplomatie transforme un transfert territorial en acte symbolique acceptable pour la culture des bénéficiaires. Le jeu des apparences est au cœur de la ratification sociale d’un accord.",
+   "parallele": "Étudier en parallèle les rituels diplomatiques, les récits de légitimité et la protection de la dignité collective.",
+   "objections": "La mise en scène pourrait être jugée paternaliste ou manipulatrice; son efficacité locale ne valide pas toutes les politiques fondées sur l’honneur.",
+   "contexte": "Épisode de 2026."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/"
+   }
+  ]
+ },
+ "STP-297": {
+  "id": "STP-297",
+  "titre": "Menace d’une chaîne de mines Omega-47 perturbant les voyages à distorsion",
+  "entetes": {
+   "periode": "3191–3192",
+   "source_audiovisuelle": "SFA «300th Night»; «Rubincon»",
+   "recoupement": "B — Résumé secondaire de saison, détail à vérifier"
+  },
+  "volets": {
+   "faits": "Nus Braka détient des mines Omega-47 capables de détruire les conditions matérielles du voyage à distorsion et utilise cette menace contre la Fédération.",
+   "mecanisme": "Une menace de destruction systémique vise les infrastructures de mobilité et de liaison sur lesquelles repose un ordre politique interplanétaire.",
+   "parallele": "Résonance avec les stratégies de dissuasion, les armes perturbant les infrastructures critiques et les théories de coercition.",
+   "objections": "Les propriétés de l’Omega-47 sont imaginaires; ne pas les assimiler scientifiquement à une arme réelle précise.",
+   "contexte": "Épisodes de mars 2026."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/series/starfleet-academy"
+   }
+  ]
+ },
+ "STP-298": {
+  "id": "STP-298",
+  "titre": "Occupation militaire klingonne de Mat’aar XII et résistance locale",
+  "entetes": {
+   "periode": "XXIIIe siècle",
+   "source_audiovisuelle": "SNW «A Case of Chiaroscuro»",
+   "recoupement": "B — Résumé secondaire indexé"
+  },
+  "volets": {
+   "faits": "Sur Mat’aar XII, une autorité klingonne maintient une occupation et une surveillance de la population. Une résistance clandestine tente de frapper ses dispositifs militaires et de protéger des habitants.",
+   "mecanisme": "L’occupation produit une double économie d’information : collaboration apparente et résistance cachée. Les agents vivent au croisement des contraintes de survie et des impératifs de loyauté.",
+   "parallele": "Comparaison avec les mécanismes généraux d’une occupation militaire, notamment surveillance, soupçon et débats sur les cibles d’une résistance.",
+   "objections": "Éviter d’identifier d’office les Klingons à une armée ou un pays existant; les enjeux légaux dépendent de faits contextuels propres à chaque conflit.",
+   "contexte": "Diffusé en août 2026."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/episodes/a-case-of-chiaroscuro"
+   }
+  ]
+ },
+ "STP-300": {
+  "id": "STP-300",
+  "titre": "Ordre de l’amiral Reeger de détruire Argus II en prétendant viser des collaborateurs",
+  "entetes": {
+   "periode": "XXIIIe siècle",
+   "source_audiovisuelle": "SNW «Orders of Magnitude»",
+   "recoupement": "B — Résumé secondaire indexé"
+  },
+  "volets": {
+   "faits": "Vétéran traumatisé, l’amiral Reeger veut détruire Argus II, planète non fédérée de milliers d’habitants, qu’il considère collectivement comme complice. Kirk refuse et sa mise hors de fonction est organisée.",
+   "mecanisme": "Le commandement militaire cherche à substituer une présomption de culpabilité collective à l’individualisation des actes. Le refus d’obéir devient la dernière protection contre une politique d’anéantissement.",
+   "parallele": "Confrontation avec les principes de distinction et de proportionnalité du droit humanitaire et les devoirs militaires face à un ordre manifestement criminel.",
+   "objections": "Un épisode dramatique condense la procédure de contrôle du commandement; la qualification d’un crime réel exige une analyse précise de l’intention, du contexte et des faits.",
+   "contexte": "Diffusé le 10 septembre 2026."
+  },
+  "sources": [
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle",
+    "url": "https://startrekarchive.com/episodes/orders-of-magnitude"
+   }
+  ]
+ }
+}

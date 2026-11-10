@@ -1,0 +1,89 @@
+---
+title: Méthodologie et sources
+nav: methodologie
+permalink: /methodologie/
+description: Protocole de recherche, niveaux de vérification A/B/C, corrections, règles de dérivation, limites du corpus et rapport de qualité documentaire de l’atlas politique de Star Trek.
+---
+{%- assign ed = site.data.editorial -%}
+{%- assign Q = site.data.qualite -%}
+{%- assign R = site.data.referentiels -%}
+<p class="chapo">Ce que l’atlas sait, comment il le sait, et ce qu’il ne sait pas encore. Source : <em>{{ ed.titre_document }}</em> ({{ ed.etat }}).</p>
+
+<nav aria-label="Sommaire de la page"><ul>
+  <li><a href="#synthese">Synthèse vérifiable</a></li>
+  <li><a href="#niveaux">Niveaux de vérification</a></li>
+  <li><a href="#protocole">Protocole d’audit</a></li>
+  <li><a href="#selection">Critères de sélection et règles de citation</a></li>
+  <li><a href="#derivations">Règles de dérivation de l’atlas</a></li>
+  <li><a href="#corrections">Corrections documentées</a></li>
+  <li><a href="#qualite">Rapport de qualité</a></li>
+  <li><a href="#limites">Limites et programme de vérification</a></li>
+  <li><a href="#sources">Sources</a></li>
+</ul></nav>
+
+<h2 id="synthese">Synthèse vérifiable</h2>
+{{ ed.synthese.markdown | markdownify }}
+
+<h2 id="niveaux">Niveaux de vérification</h2>
+{% include niveaux.html %}
+
+<h2 id="protocole">Protocole d’audit</h2>
+{{ ed.protocole.markdown | markdownify }}
+
+<h2 id="selection">Critères de sélection et règles de citation</h2>
+<ul>
+  <li><strong>Périmètre.</strong> Corpus audiovisuel officiel : séries télévisées, animation, films, <em>Short Treks</em>. Romans, comics, jeux et podcasts ne sont pas intégrés à la chronologie.</li>
+  <li><strong>Unité.</strong> Une entrée est un objet documentaire (un procès, une politique durable, une guerre…), non un épisode : le décompte n’est pas un nombre d’épisodes.</li>
+  <li><strong>Identifiants.</strong> Les identifiants <code>STP-001</code> à <code>STP-{{ site.data.stats.total | prepend: "00" | slice: -3, 3 }}</code> sont pérennes : une entrée corrigée garde son identifiant et son adresse ; un doublon est signalé, pas supprimé.</li>
+  <li><strong>Intitulés.</strong> Les titres d’épisodes et de films sont cités dans leur forme originale, tels qu’ils figurent dans le registre.</li>
+  <li><strong>Citer l’atlas.</strong> « Star Trek Political Atlas, <em>identifiant — intitulé</em>, corpus V{{ ed.meta.version }}, URL de la fiche, date de consultation. » Citer l’identifiant permet de retrouver l’entrée après correction.</li>
+  <li><strong>Correction.</strong> Une erreur n’est jamais corrigée silencieusement : la correction est consignée avec son motif, et la donnée initiale reste dans l’historique Git du dépôt.</li>
+</ul>
+
+<h2 id="derivations">Règles de dérivation de l’atlas</h2>
+<p>L’atlas n’ajoute aucune donnée au corpus. Quelques champs sont <strong>dérivés</strong> des champs existants, selon des règles fixes ; ils sont signalés « dérivé » sur les fiches.</p>
+<h3>Série</h3>
+<p>Lue dans le sigle placé en tête de chaque segment du champ <code>source</code> ; un segment sans sigle hérite du précédent. Aucun titre n’est rattaché à une série par connaissance extérieure. Sigles reconnus :</p>
+<div class="defile"><table><thead><tr><th scope="col">Sigle</th><th scope="col">Série</th></tr></thead><tbody>
+{%- for s in R.series %}<tr><td><code>{{ s.code }}</code></td><td>{{ s.nom }}</td></tr>{% endfor %}
+</tbody></table></div>
+<h3>Continuité</h3>
+<ul>
+  <li><strong>{{ R.continuites.kelvin }}</strong> : le champ <code>period</code> contient « Kelvin ».</li>
+  <li><strong>{{ R.continuites.modifiee }}</strong> : <code>period</code> contient « chronologie modifiée », « (alt.) », « timeline alternative », « branche temporelle » ou « réalité alternative ».</li>
+  <li><strong>{{ R.continuites.miroir }}</strong> : <code>period</code> contient « Miroir », ou le cycle est « Univers Miroir… » (sauf mention précédente).</li>
+  <li><strong>{{ R.continuites.principale }}</strong> : tous les autres cas, y compris les récits de la continuité principale qui évoquent l’Empire terrien.</li>
+</ul>
+<h3>Ordre diégétique</h3>
+<p>Pour trier, une clé est lue dans la période : année explicite, décennie, borne (« vers », « avant », « après ») ou siècle. Cette clé n’est jamais affichée comme une date ; la période reste montrée telle qu’écrite dans le corpus.</p>
+<div class="defile"><table><thead><tr><th scope="col">Précision</th><th scope="col">Entrées</th></tr></thead><tbody>
+{%- for p in site.data.stats.precisions %}<tr><td>{{ p.nom }}</td><td>{{ p.n }}</td></tr>{% endfor %}
+</tbody></table></div>
+<h3>Événements associés</h3>
+<p>Deux entrées sont associées si elles citent le même épisode dans leur champ <code>source</code>, ou si l’une cite l’identifiant de l’autre dans sa note d’audit, sa fiche, sa correction ou sa note éditoriale. Une association entre continuités différentes est signalée comme telle.</p>
+<h3>Dates de diffusion</h3>
+<p>Absentes du corpus, elles proviennent d’un relevé séparé (<code>data/diffusion.json</code>, {{ site.data.diffusion.releve_le }}) où chaque date est accompagnée de la page consultée. Elles ne modifient aucun champ du corpus.</p>
+<h3>Atlas thématique</h3>
+<p>Voir la <a href="{{ '/atlas/' | relative_url }}#correspondances">table des correspondances</a> entre domaines et catégories.</p>
+
+<h2 id="corrections">Corrections documentées</h2>
+{{ ed.corrections.markdown | markdownify }}
+
+<h2 id="qualite">Rapport de qualité documentaire</h2>
+<p>Produit par le validateur automatique à chaque import ({{ Q.genere_le }}) : <strong>{{ Q.erreurs }} erreur(s), {{ Q.avertissements }} avertissement(s)</strong>.</p>
+<div class="defile"><table>
+  <thead><tr><th scope="col">#</th><th scope="col">Contrôle</th><th scope="col">Statut</th><th scope="col">Détail</th></tr></thead>
+  <tbody>{% for c in Q.controles %}<tr><td>{{ c.num }}</td><td>{{ c.titre }}</td><td>{{ c.statut }}</td><td>{{ c.info | escape }}{% for x in c.erreurs %}<br><strong>Erreur :</strong> {{ x | escape }}{% endfor %}{% for x in c.avertissements %}<br>Avertissement : {{ x | escape }}{% endfor %}</td></tr>{% endfor %}</tbody>
+</table></div>
+
+<h2 id="limites">Limites et programme de vérification</h2>
+<ul>
+  <li>{{ Q.limites.niveau_c }} entrées sur {{ site.data.stats.total }} sont de niveau C ; {{ Q.limites.sans_url }} n’ont pas d’URL de contrôle.</li>
+  <li>{{ Q.limites.autre_a_qualifier }} entrées portent la catégorie « autre / à qualifier ».</li>
+  <li>{{ Q.limites.avec_diffusion }} entrées seulement sont reliées à une date de diffusion vérifiée.</li>
+  {%- if Q.limites.non_rattachees.size > 0 %}<li>Références sans sigle de série, non rattachées : {% for x in Q.limites.non_rattachees %}{{ x.id }} (« {{ x.refs | join: "», «" }} »){% unless forloop.last %}, {% endunless %}{% endfor %}.</li>{% endif %}
+</ul>
+{{ ed.reserves.markdown | markdownify }}
+
+<h2 id="sources">Sources méthodologiques et documentaires</h2>
+{{ ed.sources_methodo.markdown | markdownify }}

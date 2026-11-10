@@ -1,0 +1,74 @@
+---
+title: Explorateur des événements
+nav: evenements
+permalink: /evenements/
+description: Les 305 entrées de l’atlas politique de Star Trek, avec recherche, filtres par série, catégorie, période et niveau de vérification.
+scripts: [explorateur.js]
+---
+{%- assign S = site.data.stats -%}
+{%- assign evs = site.data.evenements -%}
+{%- assign bandes = evs | sort: "rang_diegetique" | map: "bande" | uniq -%}
+<p class="chapo">Les {{ S.total }} entrées du registre, avec leurs intitulés d’origine. Recherche et filtres se combinent ; l’adresse de la page conserve la sélection et peut être partagée.</p>
+
+<form class="filtres" id="filtres" role="search" aria-label="Filtrer les événements" hidden>
+  <div class="large">
+    <label for="f-q">Recherche textuelle</label>
+    <input id="f-q" name="q" type="search" placeholder="Bajor, Section 31, réfugiés, STP-006…" autocomplete="off">
+  </div>
+  <div>
+    <label for="f-serie">Série</label>
+    <select id="f-serie" name="serie"><option value="">Toutes</option>
+      {%- for s in S.series %}<option value="{{ s.cle }}">{{ s.nom }} ({{ s.n }})</option>{% endfor %}
+    </select>
+  </div>
+  <div>
+    <label for="f-cat">Catégorie politique</label>
+    <select id="f-cat" name="cat"><option value="">Toutes</option>
+      {%- for c in S.categories %}<option value="{{ c.cle }}">{{ c.cle }} ({{ c.n }})</option>{% endfor %}
+    </select>
+  </div>
+  <div>
+    <label for="f-epoque">Période (époque fictive)</label>
+    <select id="f-epoque" name="epoque"><option value="">Toutes</option>
+      {%- for b in bandes %}<option value="{{ b | slugify }}">{{ b }}</option>{% endfor %}
+    </select>
+  </div>
+  <div>
+    <label for="f-cycle">Cycle du registre</label>
+    <select id="f-cycle" name="cycle"><option value="">Tous</option>
+      {%- for c in S.cycles %}<option value="{{ c.slug }}">{{ c.cle }} ({{ c.n }})</option>{% endfor %}
+    </select>
+  </div>
+  <div>
+    <label for="f-niv">Niveau documentaire</label>
+    <select id="f-niv" name="niv"><option value="">Tous</option>
+      {%- for n in S.niveaux %}<option value="{{ n.cle }}">{{ n.cle }} ({{ n.n }})</option>{% endfor %}
+    </select>
+  </div>
+  <div>
+    <label for="f-cont">Continuité</label>
+    <select id="f-cont" name="cont"><option value="">Toutes</option>
+      {%- for c in S.continuites %}<option value="{{ c.cle }}">{{ c.nom }} ({{ c.n }})</option>{% endfor %}
+    </select>
+  </div>
+  <div>
+    <label for="f-tri">Trier par</label>
+    <select id="f-tri" name="tri">
+      <option value="id">Identifiant</option>
+      <option value="periode">Période fictive</option>
+      <option value="titre">Titre</option>
+    </select>
+  </div>
+  <div>
+    <button class="bouton" type="reset" id="f-raz">Réinitialiser</button>
+  </div>
+</form>
+
+<p class="etat" id="etat" role="status" aria-live="polite"><strong>{{ S.total }}</strong> entrées.</p>
+
+<ol class="cartes" id="liste">
+  {%- for e in evs %}
+  {%- include carte.html e=e -%}
+  {%- endfor %}
+</ol>
+<noscript><p>La recherche et les filtres demandent JavaScript ; sans lui, la liste complète reste consultable ci-dessus.</p></noscript>

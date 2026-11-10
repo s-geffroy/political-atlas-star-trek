@@ -5,15 +5,23 @@
 # Le titre, la description et le nom d'auteur s'ecrivent en francais normal,
 # avec leurs accents : ils seront lus par des visiteurs. La regle « sans
 # accents » de ce depot vise les fichiers d'infrastructure, pas le contenu.
-title: political-atlas-star-trek
-description: Une ligne pour dire de quoi parle ce site.
-author: Auteur
+title: Star Trek Political Atlas
+tagline: Atlas politique, historique et sociologique de l’univers Star Trek
+description: >-
+  Encyclopédie documentaire indépendante des événements politiques de l’univers
+  Star Trek : 305 entrées, 31 fiches approfondies, niveaux de vérification
+  explicites. Projet non affilié à Paramount.
+author: Star Trek Political Atlas
+lang: fr
+locale: fr_FR
+# Depot GitHub, pour les liens « contribuer » et « signaler ».
+repository: s-geffroy/political-atlas-star-trek
 
 # L'adresse publique du site, sans barre oblique finale.
 #   site de projet    : https://<utilisateur>.github.io
 #   site d'utilisateur: https://<utilisateur>.github.io
 #   domaine personnel : https://www.exemple.fr
-url: "https://CHANGEME.github.io"
+url: "https://s-geffroy.github.io"
 
 # LE PIEGE A CONNAITRE. baseurl est le chemin sous lequel le site est servi :
 #
@@ -27,7 +35,24 @@ url: "https://CHANGEME.github.io"
 # journaux.
 baseurl: "/political-atlas-star-trek"
 
-theme: minima
+# Pas de theme : gabarits propres dans _layouts/ et _includes/.
+
+# Une page statique par identifiant STP, generee par scripts/import.mjs.
+collections:
+  evenements:
+    output: true
+    permalink: /evenements/:name/
+
+defaults:
+  - scope: { path: "", type: evenements }
+    values: { layout: evenement }
+  - scope: { path: "" }
+    values: { layout: page }
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: false
 
 # Greffons. Le constructeur de GitHub Pages tourne en SAFE MODE : il ne charge
 # que les greffons de sa liste blanche, quoi qu'on ecrive ici, et ignore
@@ -51,6 +76,14 @@ exclude:
   - vendor/
   - Gemfile
   - Gemfile.lock
+  - data/
+  - scripts/
+  - tests/
+  - docs/
+  - node_modules/
+  - package.json
+  - CONTRIBUTING.md
+  - LICENSE
 
 # Domaine personnalise : ce n'est PAS un reglage de ce fichier. C'est un fichier
 # CNAME a la racine du depot, plus des enregistrements chez le registrar :

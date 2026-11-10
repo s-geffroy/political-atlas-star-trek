@@ -1,0 +1,1521 @@
+{
+ "releve_le": "2026-11-10",
+ "blocs": [
+  {
+   "code": "TOS",
+   "nom": "Star Trek: The Original Series",
+   "debut": "1966-09-08",
+   "fin": "1969-06-03",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Original_Series_episodes",
+   "note": "NBC. Debut = The Man Trap ; fin = Turnabout Intruder.",
+   "evenements": [
+    {
+     "id": "STP-061",
+     "date": "1969-02-28"
+    },
+    {
+     "id": "STP-010",
+     "date": "2005-05-06"
+    },
+    {
+     "id": "STP-001",
+     "date": null
+    },
+    {
+     "id": "STP-005",
+     "date": null
+    },
+    {
+     "id": "STP-036",
+     "date": null
+    },
+    {
+     "id": "STP-037",
+     "date": null
+    },
+    {
+     "id": "STP-056",
+     "date": null
+    },
+    {
+     "id": "STP-057",
+     "date": null
+    },
+    {
+     "id": "STP-058",
+     "date": null
+    },
+    {
+     "id": "STP-059",
+     "date": null
+    },
+    {
+     "id": "STP-060",
+     "date": null
+    },
+    {
+     "id": "STP-062",
+     "date": null
+    },
+    {
+     "id": "STP-063",
+     "date": null
+    },
+    {
+     "id": "STP-064",
+     "date": null
+    },
+    {
+     "id": "STP-065",
+     "date": null
+    },
+    {
+     "id": "STP-066",
+     "date": null
+    },
+    {
+     "id": "STP-067",
+     "date": null
+    },
+    {
+     "id": "STP-068",
+     "date": null
+    },
+    {
+     "id": "STP-069",
+     "date": null
+    },
+    {
+     "id": "STP-070",
+     "date": null
+    },
+    {
+     "id": "STP-233",
+     "date": null
+    },
+    {
+     "id": "STP-234",
+     "date": null
+    },
+    {
+     "id": "STP-245",
+     "date": null
+    },
+    {
+     "id": "STP-246",
+     "date": null
+    },
+    {
+     "id": "STP-247",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "TAS",
+   "nom": "Star Trek: The Animated Series",
+   "debut": "1973-09-08",
+   "fin": "1974-10-12",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
+   "note": "NBC.",
+   "evenements": [
+    {
+     "id": "STP-004",
+     "date": null
+    },
+    {
+     "id": "STP-014",
+     "date": null
+    },
+    {
+     "id": "STP-071",
+     "date": null
+    },
+    {
+     "id": "STP-072",
+     "date": null
+    },
+    {
+     "id": "STP-248",
+     "date": null
+    },
+    {
+     "id": "STP-249",
+     "date": null
+    },
+    {
+     "id": "STP-250",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "Film",
+   "nom": "Films (sorties en salle aux États-Unis)",
+   "debut": "1979-12-07",
+   "fin": "2025-01-24",
+   "source_url": null,
+   "note": "Bornes calculées à partir des films datés ci-dessous.",
+   "evenements": [
+    {
+     "id": "STP-073",
+     "date": "1979-12-07"
+    },
+    {
+     "id": "STP-074",
+     "date": "1982-06-04"
+    },
+    {
+     "id": "STP-075",
+     "date": "1986-11-26"
+    },
+    {
+     "id": "STP-076",
+     "date": "1989-06-09"
+    },
+    {
+     "id": "STP-077",
+     "date": "1991-12-06"
+    },
+    {
+     "id": "STP-078",
+     "date": "1991-12-06"
+    },
+    {
+     "id": "STP-079",
+     "date": "1991-12-06"
+    },
+    {
+     "id": "STP-080",
+     "date": "1994-11-18"
+    },
+    {
+     "id": "STP-012",
+     "date": "1996-11-22"
+    },
+    {
+     "id": "STP-081",
+     "date": "1996-11-22"
+    },
+    {
+     "id": "STP-082",
+     "date": "1998-12-11"
+    },
+    {
+     "id": "STP-083",
+     "date": "2002-12-13"
+    },
+    {
+     "id": "STP-084",
+     "date": "2002-12-13"
+    },
+    {
+     "id": "STP-085",
+     "date": "2009-05-08"
+    },
+    {
+     "id": "STP-086",
+     "date": "2009-05-08"
+    },
+    {
+     "id": "STP-087",
+     "date": "2013-05-17"
+    },
+    {
+     "id": "STP-088",
+     "date": "2016-07-22"
+    },
+    {
+     "id": "STP-267",
+     "date": "2025-01-24"
+    },
+    {
+     "id": "STP-268",
+     "date": "2025-01-24"
+    }
+   ]
+  },
+  {
+   "code": "TNG",
+   "nom": "Star Trek: The Next Generation",
+   "debut": "1987-09-28",
+   "fin": "1994-05-23",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes",
+   "note": "Syndication US. Encounter at Farpoint diffuse 'starting the week of September 28, 1987' (https://en.wikipedia.org/wiki/Encounter_at_Farpoint) ; All Good Things... 1994-05-23 confirme par son article.",
+   "evenements": [
+    {
+     "id": "STP-094",
+     "date": "1989-02-13"
+    },
+    {
+     "id": "STP-101",
+     "date": "1991-04-29"
+    },
+    {
+     "id": "STP-107",
+     "date": "1992-03-16"
+    },
+    {
+     "id": "STP-002",
+     "date": null
+    },
+    {
+     "id": "STP-003",
+     "date": null
+    },
+    {
+     "id": "STP-009",
+     "date": null
+    },
+    {
+     "id": "STP-011",
+     "date": null
+    },
+    {
+     "id": "STP-089",
+     "date": null
+    },
+    {
+     "id": "STP-090",
+     "date": null
+    },
+    {
+     "id": "STP-091",
+     "date": null
+    },
+    {
+     "id": "STP-092",
+     "date": null
+    },
+    {
+     "id": "STP-093",
+     "date": null
+    },
+    {
+     "id": "STP-095",
+     "date": null
+    },
+    {
+     "id": "STP-096",
+     "date": null
+    },
+    {
+     "id": "STP-097",
+     "date": null
+    },
+    {
+     "id": "STP-098",
+     "date": null
+    },
+    {
+     "id": "STP-099",
+     "date": null
+    },
+    {
+     "id": "STP-100",
+     "date": null
+    },
+    {
+     "id": "STP-102",
+     "date": null
+    },
+    {
+     "id": "STP-103",
+     "date": null
+    },
+    {
+     "id": "STP-104",
+     "date": null
+    },
+    {
+     "id": "STP-105",
+     "date": null
+    },
+    {
+     "id": "STP-106",
+     "date": null
+    },
+    {
+     "id": "STP-108",
+     "date": null
+    },
+    {
+     "id": "STP-109",
+     "date": null
+    },
+    {
+     "id": "STP-110",
+     "date": null
+    },
+    {
+     "id": "STP-111",
+     "date": null
+    },
+    {
+     "id": "STP-112",
+     "date": null
+    },
+    {
+     "id": "STP-113",
+     "date": null
+    },
+    {
+     "id": "STP-114",
+     "date": null
+    },
+    {
+     "id": "STP-115",
+     "date": null
+    },
+    {
+     "id": "STP-116",
+     "date": null
+    },
+    {
+     "id": "STP-117",
+     "date": null
+    },
+    {
+     "id": "STP-118",
+     "date": null
+    },
+    {
+     "id": "STP-119",
+     "date": null
+    },
+    {
+     "id": "STP-251",
+     "date": null
+    },
+    {
+     "id": "STP-252",
+     "date": null
+    },
+    {
+     "id": "STP-253",
+     "date": null
+    },
+    {
+     "id": "STP-254",
+     "date": null
+    },
+    {
+     "id": "STP-255",
+     "date": null
+    },
+    {
+     "id": "STP-269",
+     "date": null
+    },
+    {
+     "id": "STP-276",
+     "date": null
+    },
+    {
+     "id": "STP-277",
+     "date": null
+    },
+    {
+     "id": "STP-278",
+     "date": null
+    },
+    {
+     "id": "STP-279",
+     "date": null
+    },
+    {
+     "id": "STP-280",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "DS9",
+   "nom": "Star Trek: Deep Space Nine",
+   "debut": "1993-01-03",
+   "fin": "1999",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "note": "Syndication US. Debut (Emissary) 1993-01-03 concordant liste + article. Fin divergente : liste 1999-06-02 (prose de la liste des series : June 2, 1999 ; tableau saison 7 : May 31, 1999) ; article What You Leave Behind : infobox 1999-05-31, 'aired the week of May 31, 1999', section Broadcast 'first shown on June 2, 1999'. Precision ramenee a l'annee.",
+   "evenements": [
+    {
+     "id": "STP-120",
+     "date": "1993-06"
+    },
+    {
+     "id": "STP-125",
+     "date": "1993-06"
+    },
+    {
+     "id": "STP-126",
+     "date": "1993-09"
+    },
+    {
+     "id": "STP-271",
+     "date": "1993-11"
+    },
+    {
+     "id": "STP-006",
+     "date": "1995-01"
+    },
+    {
+     "id": "STP-139",
+     "date": "1996-01"
+    },
+    {
+     "id": "STP-129",
+     "date": "1996-02"
+    },
+    {
+     "id": "STP-274",
+     "date": "1997-11"
+    },
+    {
+     "id": "STP-149",
+     "date": "1998-04"
+    },
+    {
+     "id": "STP-153",
+     "date": "1998-04"
+    },
+    {
+     "id": "STP-157",
+     "date": "1999"
+    },
+    {
+     "id": "STP-158",
+     "date": "1999"
+    },
+    {
+     "id": "STP-003",
+     "date": null
+    },
+    {
+     "id": "STP-098",
+     "date": null
+    },
+    {
+     "id": "STP-114",
+     "date": null
+    },
+    {
+     "id": "STP-121",
+     "date": null
+    },
+    {
+     "id": "STP-122",
+     "date": null
+    },
+    {
+     "id": "STP-123",
+     "date": null
+    },
+    {
+     "id": "STP-124",
+     "date": null
+    },
+    {
+     "id": "STP-127",
+     "date": null
+    },
+    {
+     "id": "STP-128",
+     "date": null
+    },
+    {
+     "id": "STP-130",
+     "date": null
+    },
+    {
+     "id": "STP-131",
+     "date": null
+    },
+    {
+     "id": "STP-132",
+     "date": null
+    },
+    {
+     "id": "STP-133",
+     "date": null
+    },
+    {
+     "id": "STP-134",
+     "date": null
+    },
+    {
+     "id": "STP-135",
+     "date": null
+    },
+    {
+     "id": "STP-136",
+     "date": null
+    },
+    {
+     "id": "STP-137",
+     "date": null
+    },
+    {
+     "id": "STP-138",
+     "date": null
+    },
+    {
+     "id": "STP-140",
+     "date": null
+    },
+    {
+     "id": "STP-141",
+     "date": null
+    },
+    {
+     "id": "STP-142",
+     "date": null
+    },
+    {
+     "id": "STP-143",
+     "date": null
+    },
+    {
+     "id": "STP-144",
+     "date": null
+    },
+    {
+     "id": "STP-145",
+     "date": null
+    },
+    {
+     "id": "STP-146",
+     "date": null
+    },
+    {
+     "id": "STP-147",
+     "date": null
+    },
+    {
+     "id": "STP-148",
+     "date": null
+    },
+    {
+     "id": "STP-150",
+     "date": null
+    },
+    {
+     "id": "STP-151",
+     "date": null
+    },
+    {
+     "id": "STP-152",
+     "date": null
+    },
+    {
+     "id": "STP-154",
+     "date": null
+    },
+    {
+     "id": "STP-155",
+     "date": null
+    },
+    {
+     "id": "STP-156",
+     "date": null
+    },
+    {
+     "id": "STP-159",
+     "date": null
+    },
+    {
+     "id": "STP-160",
+     "date": null
+    },
+    {
+     "id": "STP-235",
+     "date": null
+    },
+    {
+     "id": "STP-236",
+     "date": null
+    },
+    {
+     "id": "STP-237",
+     "date": null
+    },
+    {
+     "id": "STP-256",
+     "date": null
+    },
+    {
+     "id": "STP-257",
+     "date": null
+    },
+    {
+     "id": "STP-258",
+     "date": null
+    },
+    {
+     "id": "STP-259",
+     "date": null
+    },
+    {
+     "id": "STP-272",
+     "date": null
+    },
+    {
+     "id": "STP-273",
+     "date": null
+    },
+    {
+     "id": "STP-275",
+     "date": null
+    },
+    {
+     "id": "STP-304",
+     "date": null
+    },
+    {
+     "id": "STP-305",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "VOY",
+   "nom": "Star Trek: Voyager",
+   "debut": "1995-01-16",
+   "fin": "2001-05-23",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "note": "UPN. Caretaker -> Endgame.",
+   "evenements": [
+    {
+     "id": "STP-281",
+     "date": "2000-11-29"
+    },
+    {
+     "id": "STP-282",
+     "date": "2001-02-14"
+    },
+    {
+     "id": "STP-172",
+     "date": "2001-04-18"
+    },
+    {
+     "id": "STP-144",
+     "date": null
+    },
+    {
+     "id": "STP-161",
+     "date": null
+    },
+    {
+     "id": "STP-162",
+     "date": null
+    },
+    {
+     "id": "STP-163",
+     "date": null
+    },
+    {
+     "id": "STP-164",
+     "date": null
+    },
+    {
+     "id": "STP-165",
+     "date": null
+    },
+    {
+     "id": "STP-166",
+     "date": null
+    },
+    {
+     "id": "STP-167",
+     "date": null
+    },
+    {
+     "id": "STP-168",
+     "date": null
+    },
+    {
+     "id": "STP-169",
+     "date": null
+    },
+    {
+     "id": "STP-170",
+     "date": null
+    },
+    {
+     "id": "STP-171",
+     "date": null
+    },
+    {
+     "id": "STP-173",
+     "date": null
+    },
+    {
+     "id": "STP-174",
+     "date": null
+    },
+    {
+     "id": "STP-175",
+     "date": null
+    },
+    {
+     "id": "STP-260",
+     "date": null
+    },
+    {
+     "id": "STP-261",
+     "date": null
+    },
+    {
+     "id": "STP-262",
+     "date": null
+    },
+    {
+     "id": "STP-263",
+     "date": null
+    },
+    {
+     "id": "STP-264",
+     "date": null
+    },
+    {
+     "id": "STP-269",
+     "date": null
+    },
+    {
+     "id": "STP-283",
+     "date": null
+    },
+    {
+     "id": "STP-284",
+     "date": null
+    },
+    {
+     "id": "STP-285",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "ENT",
+   "nom": "Star Trek: Enterprise",
+   "debut": "2001-09-26",
+   "fin": "2005-05-13",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes",
+   "note": "UPN. Broken Bow -> These Are the Voyages...",
+   "evenements": [
+    {
+     "id": "STP-010",
+     "date": "2005-05-06"
+    },
+    {
+     "id": "STP-034",
+     "date": "2005-05-06"
+    },
+    {
+     "id": "STP-035",
+     "date": "2005-05-06"
+    },
+    {
+     "id": "STP-038",
+     "date": "2005-05-13"
+    },
+    {
+     "id": "STP-001",
+     "date": null
+    },
+    {
+     "id": "STP-002",
+     "date": null
+    },
+    {
+     "id": "STP-005",
+     "date": null
+    },
+    {
+     "id": "STP-013",
+     "date": null
+    },
+    {
+     "id": "STP-015",
+     "date": null
+    },
+    {
+     "id": "STP-016",
+     "date": null
+    },
+    {
+     "id": "STP-017",
+     "date": null
+    },
+    {
+     "id": "STP-018",
+     "date": null
+    },
+    {
+     "id": "STP-019",
+     "date": null
+    },
+    {
+     "id": "STP-020",
+     "date": null
+    },
+    {
+     "id": "STP-021",
+     "date": null
+    },
+    {
+     "id": "STP-022",
+     "date": null
+    },
+    {
+     "id": "STP-023",
+     "date": null
+    },
+    {
+     "id": "STP-024",
+     "date": null
+    },
+    {
+     "id": "STP-025",
+     "date": null
+    },
+    {
+     "id": "STP-026",
+     "date": null
+    },
+    {
+     "id": "STP-027",
+     "date": null
+    },
+    {
+     "id": "STP-028",
+     "date": null
+    },
+    {
+     "id": "STP-029",
+     "date": null
+    },
+    {
+     "id": "STP-030",
+     "date": null
+    },
+    {
+     "id": "STP-031",
+     "date": null
+    },
+    {
+     "id": "STP-032",
+     "date": null
+    },
+    {
+     "id": "STP-033",
+     "date": null
+    },
+    {
+     "id": "STP-036",
+     "date": null
+    },
+    {
+     "id": "STP-241",
+     "date": null
+    },
+    {
+     "id": "STP-242",
+     "date": null
+    },
+    {
+     "id": "STP-243",
+     "date": null
+    },
+    {
+     "id": "STP-244",
+     "date": null
+    },
+    {
+     "id": "STP-290",
+     "date": null
+    },
+    {
+     "id": "STP-291",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "DIS",
+   "nom": "Star Trek: Discovery",
+   "debut": "2017-09-24",
+   "fin": "2024-05-30",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Discovery_episodes",
+   "note": "Premiere sur CBS et CBS All Access, puis Paramount+. Finale : Life, Itself (S5).",
+   "evenements": [
+    {
+     "id": "STP-286",
+     "date": "2019-02-21"
+    },
+    {
+     "id": "STP-178",
+     "date": "2020-10-15"
+    },
+    {
+     "id": "STP-288",
+     "date": "2020-12-10"
+    },
+    {
+     "id": "STP-194",
+     "date": "2024-04-25"
+    },
+    {
+     "id": "STP-239",
+     "date": "2024-04-25"
+    },
+    {
+     "id": "STP-039",
+     "date": null
+    },
+    {
+     "id": "STP-040",
+     "date": null
+    },
+    {
+     "id": "STP-041",
+     "date": null
+    },
+    {
+     "id": "STP-042",
+     "date": null
+    },
+    {
+     "id": "STP-043",
+     "date": null
+    },
+    {
+     "id": "STP-044",
+     "date": null
+    },
+    {
+     "id": "STP-045",
+     "date": null
+    },
+    {
+     "id": "STP-176",
+     "date": null
+    },
+    {
+     "id": "STP-177",
+     "date": null
+    },
+    {
+     "id": "STP-179",
+     "date": null
+    },
+    {
+     "id": "STP-180",
+     "date": null
+    },
+    {
+     "id": "STP-181",
+     "date": null
+    },
+    {
+     "id": "STP-182",
+     "date": null
+    },
+    {
+     "id": "STP-183",
+     "date": null
+    },
+    {
+     "id": "STP-184",
+     "date": null
+    },
+    {
+     "id": "STP-185",
+     "date": null
+    },
+    {
+     "id": "STP-186",
+     "date": null
+    },
+    {
+     "id": "STP-187",
+     "date": null
+    },
+    {
+     "id": "STP-188",
+     "date": null
+    },
+    {
+     "id": "STP-189",
+     "date": null
+    },
+    {
+     "id": "STP-190",
+     "date": null
+    },
+    {
+     "id": "STP-191",
+     "date": null
+    },
+    {
+     "id": "STP-192",
+     "date": null
+    },
+    {
+     "id": "STP-193",
+     "date": null
+    },
+    {
+     "id": "STP-233",
+     "date": null
+    },
+    {
+     "id": "STP-238",
+     "date": null
+    },
+    {
+     "id": "STP-287",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "Short Treks",
+   "nom": "Star Trek: Short Treks",
+   "debut": "2018-10-04",
+   "fin": "2020-01-09",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
+   "note": "10 episodes, CBS All Access.",
+   "evenements": [
+    {
+     "id": "STP-265",
+     "date": null
+    },
+    {
+     "id": "STP-266",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "PIC",
+   "nom": "Star Trek: Picard",
+   "debut": "2020-01-23",
+   "fin": "2023-04-20",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Picard_episodes",
+   "note": "CBS All Access / Paramount+. Finale : The Last Generation (S3E10).",
+   "evenements": [
+    {
+     "id": "STP-195",
+     "date": "2020-01-23"
+    },
+    {
+     "id": "STP-196",
+     "date": "2020-01-23"
+    },
+    {
+     "id": "STP-198",
+     "date": "2020-01-23"
+    },
+    {
+     "id": "STP-007",
+     "date": null
+    },
+    {
+     "id": "STP-008",
+     "date": null
+    },
+    {
+     "id": "STP-009",
+     "date": null
+    },
+    {
+     "id": "STP-197",
+     "date": null
+    },
+    {
+     "id": "STP-199",
+     "date": null
+    },
+    {
+     "id": "STP-200",
+     "date": null
+    },
+    {
+     "id": "STP-201",
+     "date": null
+    },
+    {
+     "id": "STP-202",
+     "date": null
+    },
+    {
+     "id": "STP-203",
+     "date": null
+    },
+    {
+     "id": "STP-204",
+     "date": null
+    },
+    {
+     "id": "STP-205",
+     "date": null
+    },
+    {
+     "id": "STP-206",
+     "date": null
+    },
+    {
+     "id": "STP-207",
+     "date": null
+    },
+    {
+     "id": "STP-208",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "LD",
+   "nom": "Star Trek: Lower Decks",
+   "debut": "2020-08-06",
+   "fin": "2024-12-19",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_television_series",
+   "note": "5 saisons. Dates lues uniquement sur la liste des series (non recoupees).",
+   "evenements": [
+    {
+     "id": "STP-209",
+     "date": null
+    },
+    {
+     "id": "STP-210",
+     "date": null
+    },
+    {
+     "id": "STP-211",
+     "date": null
+    },
+    {
+     "id": "STP-212",
+     "date": null
+    },
+    {
+     "id": "STP-213",
+     "date": null
+    },
+    {
+     "id": "STP-214",
+     "date": null
+    },
+    {
+     "id": "STP-215",
+     "date": null
+    },
+    {
+     "id": "STP-216",
+     "date": null
+    },
+    {
+     "id": "STP-217",
+     "date": null
+    },
+    {
+     "id": "STP-218",
+     "date": null
+    },
+    {
+     "id": "STP-270",
+     "date": null
+    },
+    {
+     "id": "STP-289",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "PRO",
+   "nom": "Star Trek: Prodigy",
+   "debut": "2021-10-28",
+   "fin": "2024-07-01",
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy",
+   "note": "S1 sur Paramount+ (fin S1 : 2022-12-29) ; S2 publiee en bloc sur Netflix le 2024-07-01. Serie annulee.",
+   "evenements": [
+    {
+     "id": "STP-219",
+     "date": null
+    },
+    {
+     "id": "STP-220",
+     "date": null
+    },
+    {
+     "id": "STP-221",
+     "date": null
+    },
+    {
+     "id": "STP-222",
+     "date": null
+    },
+    {
+     "id": "STP-223",
+     "date": null
+    },
+    {
+     "id": "STP-224",
+     "date": null
+    },
+    {
+     "id": "STP-225",
+     "date": null
+    },
+    {
+     "id": "STP-226",
+     "date": null
+    },
+    {
+     "id": "STP-227",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "SNW",
+   "nom": "Star Trek: Strange New Worlds",
+   "debut": "2022-05-05",
+   "fin": null,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes",
+   "note": "Paramount+. En cours (saison 5 annoncee, date TBA). Saison 4 diffusee du 2026-07-23 (Valles Marineris) au 2026-09-24 (Tomorrow's Enterprise), 10 episodes.",
+   "evenements": [
+    {
+     "id": "STP-048",
+     "date": "2023-06-22"
+    },
+    {
+     "id": "STP-050",
+     "date": "2023-06-22"
+    },
+    {
+     "id": "STP-302",
+     "date": "2026-07-23"
+    },
+    {
+     "id": "STP-303",
+     "date": "2026-07-23"
+    },
+    {
+     "id": "STP-054",
+     "date": "2026-08-13"
+    },
+    {
+     "id": "STP-298",
+     "date": "2026-08-13"
+    },
+    {
+     "id": "STP-299",
+     "date": "2026-08-13"
+    },
+    {
+     "id": "STP-055",
+     "date": "2026-09-10"
+    },
+    {
+     "id": "STP-300",
+     "date": "2026-09-10"
+    },
+    {
+     "id": "STP-301",
+     "date": "2026-09-10"
+    },
+    {
+     "id": "STP-005",
+     "date": null
+    },
+    {
+     "id": "STP-041",
+     "date": null
+    },
+    {
+     "id": "STP-046",
+     "date": null
+    },
+    {
+     "id": "STP-047",
+     "date": null
+    },
+    {
+     "id": "STP-049",
+     "date": null
+    },
+    {
+     "id": "STP-051",
+     "date": null
+    },
+    {
+     "id": "STP-052",
+     "date": null
+    },
+    {
+     "id": "STP-053",
+     "date": null
+    },
+    {
+     "id": "STP-240",
+     "date": null
+    }
+   ]
+  },
+  {
+   "code": "SFA",
+   "nom": "Star Trek: Starfleet Academy",
+   "debut": "2026-01-15",
+   "fin": null,
+   "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+   "note": "Paramount+, deux episodes le 2026-01-15 ; fin de la saison 1 le 2026-03-12 (Rubincon). En cours (saison 2 en post-production). La prose de https://en.wikipedia.org/wiki/List_of_Star_Trek_television_series indique January 16, 2026 ; l'article de la serie et la presse (ex. https://scifibulletin.com/2025/10/12/starfleet-academy-opens-on-january-15-video/) donnent le 15.",
+   "evenements": [
+    {
+     "id": "STP-229",
+     "date": "2026-01-15"
+    },
+    {
+     "id": "STP-292",
+     "date": "2026-01-15"
+    },
+    {
+     "id": "STP-293",
+     "date": "2026-01-15"
+    },
+    {
+     "id": "STP-230",
+     "date": "2026-01-29"
+    },
+    {
+     "id": "STP-294",
+     "date": "2026-01-29"
+    },
+    {
+     "id": "STP-295",
+     "date": "2026-01-29"
+    },
+    {
+     "id": "STP-297",
+     "date": "2026-03-05"
+    },
+    {
+     "id": "STP-296",
+     "date": "2026-03-12"
+    },
+    {
+     "id": "STP-228",
+     "date": null
+    },
+    {
+     "id": "STP-231",
+     "date": null
+    },
+    {
+     "id": "STP-232",
+     "date": null
+    }
+   ]
+  }
+ ],
+ "films": [
+  {
+   "titre": "Star Trek: The Motion Picture",
+   "date": "1979-12-07",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "The Motion Picture"
+  },
+  {
+   "titre": "Star Trek II: The Wrath of Khan",
+   "date": "1982-06-04",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "The Wrath of Khan"
+  },
+  {
+   "titre": "Star Trek III: The Search for Spock",
+   "date": "1984-06-01",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": null
+  },
+  {
+   "titre": "Star Trek IV: The Voyage Home",
+   "date": "1986-11-26",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "The Voyage Home"
+  },
+  {
+   "titre": "Star Trek V: The Final Frontier",
+   "date": "1989-06-09",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "The Final Frontier"
+  },
+  {
+   "titre": "Star Trek VI: The Undiscovered Country",
+   "date": "1991-12-06",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "The Undiscovered Country"
+  },
+  {
+   "titre": "Star Trek Generations",
+   "date": "1994-11-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "Generations"
+  },
+  {
+   "titre": "Star Trek: First Contact",
+   "date": "1996-11-22",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "First Contact"
+  },
+  {
+   "titre": "Star Trek: Insurrection",
+   "date": "1998-12-11",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "Insurrection"
+  },
+  {
+   "titre": "Star Trek: Nemesis",
+   "date": "2002-12-13",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "",
+   "titre_corpus": "Nemesis"
+  },
+  {
+   "titre": "Star Trek",
+   "date": "2009-05-08",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "Kelvin.",
+   "titre_corpus": "Star Trek"
+  },
+  {
+   "titre": "Star Trek Into Darkness",
+   "date": "2013-05-17",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "Kelvin. La meme page donne May 16, 2013 dans le tableau du box-office (probablement avant-premieres) ; date retenue = colonne 'U.S. release date'.",
+   "titre_corpus": "Star Trek Into Darkness"
+  },
+  {
+   "titre": "Star Trek Beyond",
+   "date": "2016-07-22",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "Kelvin.",
+   "titre_corpus": "Star Trek Beyond"
+  },
+  {
+   "titre": "Star Trek: Section 31",
+   "date": "2025-01-24",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "note": "Telefilm Paramount+.",
+   "titre_corpus": "Star Trek: Section 31"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+---
+title: "Les émeutes de Bell : fiction, contexte et limites"
+nav: analyses
+permalink: /analyses/emeutes-de-bell/
+description: "Analyse de STP-006, les émeutes de Bell (Star Trek: Deep Space Nine, « Past Tense ») — faits de la fiction, contexte de diffusion, résonances et limites de l’analogie."
+---
+{%- assign e = site.data.evenements | where: "id", "STP-006" | first -%}
+{%- assign f = site.data.fiches["STP-006"] -%}
+{%- assign ds9 = site.data.diffusion.blocs | where: "code", "DS9" | first -%}
+<p class="fil"><a href="{{ '/analyses/' | relative_url }}">Analyses</a> › Émeutes de Bell</p>
+<p class="chapo">Fiche source : <a href="{{ '/evenements/STP-006/' | relative_url }}">STP-006 — {{ e.event }}</a>. Niveau de recoupement {{ e.niveau_recoupement }} ({{ e.nature_source }}). Les textes cités en encadré sont ceux du document analytique V{{ site.data.editorial.meta.version }}, sans réécriture.</p>
+
+<h2>1. L’événement fictif</h2>
+<dl class="donnees">
+  <dt>Période fictive</dt><dd>{{ e.period }} (la fiche précise l’année dans les faits ci-dessous)</dd>
+  <dt>Source audiovisuelle</dt><dd>{{ e.source }}</dd>
+  <dt>Problématique</dt><dd>{{ e.politics }}</dd>
+</dl>
+<section class="volet"><h3>Faits canoniques et acteurs</h3>{{ f.volets.faits | markdownify }}</section>
+<section class="volet"><h3>Mécanisme politique</h3>{{ f.volets.mecanisme | markdownify }}</section>
+
+<h2>2. Contexte de production et de diffusion</h2>
+<section class="volet"><h3>Ce que dit la fiche</h3>{{ f.volets.contexte | markdownify }}</section>
+<p>Repères de diffusion relevés pour l’atlas (enrichissement hors corpus, voir la <a href="{{ '/chronologie/' | relative_url }}?vue=diffusion">chronologie de diffusion</a>) :</p>
+<ul>
+  <li><em>Deep Space Nine</em> : première diffusion le <time datetime="{{ ds9.debut }}">{{ ds9.debut }}</time>, fin en {{ ds9.fin }} (<a href="{{ ds9.source_url }}" rel="noopener">source</a>).</li>
+  {%- for d in e.diffusion %}
+  <li>« {{ d.titre }} » : <time datetime="{{ d.date }}">{{ d.date }}</time> (<a href="{{ d.source_url }}" rel="noopener">source</a>).</li>
+  {%- endfor %}
+  <li>« Past Tense, Part I » : les pages consultées divergent sur la date exacte et sur l’année (fin décembre 1994 ou début janvier 1995) ; l’atlas ne retient pas de date.</li>
+</ul>
+
+<h2>3. Le temps de la diffusion</h2>
+<p>Le document analytique situe la période 1993–2001 de la franchise ainsi :</p>
+<blockquote class="encadre">{{ site.data.editorial.lignes_de_force.markdown | split: "**1993–2001 (DS9/VOY).**" | last | split: "**2001–2005" | first | prepend: "**1993–2001 (DS9/VOY).**" | markdownify }}</blockquote>
+<p>Pour cet épisode, la fiche retient les débats américains sur la pauvreté urbaine, la criminalité et la réforme de l’aide sociale. L’atlas ne dispose pas, dans son corpus actuel, d’entretiens ou de documents de production établissant l’intention des scénaristes : le contexte est un cadre de lecture, non une explication causale.</p>
+
+<h2>4. Résonances politiques ultérieures</h2>
+<section class="volet volet--parallele"><h3>Parallèle réel à étudier</h3>{{ f.volets.parallele | markdownify }}</section>
+<p>Sources citées par la fiche :</p>
+<ul>{% for s in f.sources %}<li>{{ s.libelle }} : <a href="{{ s.url }}" rel="noopener">{{ s.url }}</a></li>{% endfor %}</ul>
+
+<h2>5. Différences et limites de la comparaison</h2>
+<section class="volet volet--objections"><h3>Objections et limites de l’analogie</h3>{{ f.volets.objections | markdownify }}</section>
+<div class="encadre encadre--alerte">
+  <p><strong>Ce que cette page n’affirme pas.</strong> Elle n’affirme pas que l’épisode a « prédit » 2024, ni que la décision de 2024 répond à l’épisode, ni que les campements contemporains sont des Zones de Sanctuaire. Le rapprochement porte sur une question commune — le traitement public de la pauvreté sans domicile, entre ordre public et assistance — dont les formes juridiques diffèrent.</p>
+</div>
+
+<p><a href="{{ '/evenements/STP-006/' | relative_url }}">Retour à la fiche STP-006</a> · <a href="{{ '/contribuer/' | relative_url }}">Proposer une correction</a></p>

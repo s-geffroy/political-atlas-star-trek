@@ -1,0 +1,26 @@
+---
+title: Atlas thématique
+nav: atlas
+permalink: /atlas/
+description: Dix grands domaines politiques de l’univers Star Trek et leur table explicite de correspondance avec les catégories de la base.
+---
+{%- assign A = site.data.atlas -%}
+<p class="chapo">Dix domaines de lecture. Chaque domaine s’appuie <strong>uniquement</strong> sur les catégories effectivement présentes dans la base ; aucune catégorie nouvelle n’est attribuée aux entrées. Lorsque aucune catégorie ne correspond, le domaine le dit.</p>
+
+<ul class="sommaire">
+  {%- for d in A.domaines %}
+  <li><a href="{{ '/atlas/' | append: d.slug | append: '/' | relative_url }}"><b>{{ d.nom }}</b><span>{% if d.categories.size > 0 %}{{ d.evenements.size }} entrées par catégorie{% else %}Aucune catégorie correspondante{% endif %}{% if d.rapprochements_lexicaux.size > 0 %} · {{ d.rapprochements_lexicaux.size }} rapprochements lexicaux non validés{% endif %}</span></a></li>
+  {%- endfor %}
+</ul>
+
+<h2 id="correspondances">Table des correspondances</h2>
+<div class="defile"><table>
+  <thead><tr><th scope="col">Domaine</th><th scope="col">Catégories de la base rattachées</th><th scope="col">Entrées</th><th scope="col">Rapprochement lexical (aide de lecture)</th></tr></thead>
+  <tbody>
+  {%- for d in A.domaines %}
+  <tr><td><a href="{{ '/atlas/' | append: d.slug | append: '/' | relative_url }}">{{ d.nom }}</a></td><td>{% if d.categories.size > 0 %}<code>{{ d.categories | join: "</code>, <code>" }}</code>{% else %}aucune{% endif %}</td><td>{{ d.evenements.size }}</td><td>{% if d.lexique %}<code>{{ d.lexique | escape }}</code> sur les champs <code>event</code> et <code>politics</code>{% else %}—{% endif %}</td></tr>
+  {%- endfor %}
+  </tbody>
+</table></div>
+<p>Catégorie de la base sans domaine : {% for c in A.categories_non_couvertes %}<code>{{ c }}</code>{% unless forloop.last %}, {% endunless %}{% endfor %}. La catégorie « insurrection/pouvoir » est rattachée au seul domaine « Autoritarisme et coups d’État » : la base ne distingue pas les insurrections anticoloniales des prises de pouvoir.</p>
+<div class="encadre"><p><strong>Rapprochements lexicaux.</strong> Pour les domaines sans catégorie, une expression régulière publiée ci-dessus repère des mots dans l’intitulé et la problématique des entrées. Ce repérage automatique n’est pas une catégorisation : il produit des faux positifs et des oublis, et il est affiché séparément.</p></div>

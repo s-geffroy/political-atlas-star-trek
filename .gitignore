@@ -17,3 +17,8 @@ Gemfile.lock
 # Marqueur local du VPS, lu par scripts/infra-reconcile.sh : il dit que cette
 # application redemarre au boot de CETTE machine. Rien a faire dans un depot.
 .autostart
+
+# Specifications de travail (versions successives, liens Drive) : non versionnees.
+# Les sources de reference du site sont copiees dans data/source/.
+specs/
+node_modules/

@@ -2,20 +2,21 @@
 layout: default
 title: Page introuvable
 permalink: /404.html
+sitemap: false
 ---
 
 <h1>Page introuvable</h1>
 
-<p>Cette adresse ne correspond a aucune page de ce site.</p>
+<p class="chapo">Cette adresse ne correspond à aucune page de l’atlas.</p>
 
-<p><a href="{{ '/' | relative_url }}">Revenir a l'accueil</a></p>
+<p>Les fiches d’événements ont des adresses de la forme <code>/evenements/STP-006/</code>.</p>
+
+<ul class="sommaire">
+  <li><a href="{{ '/' | relative_url }}"><b>Accueil</b><span>Retour au tableau de bord.</span></a></li>
+  <li><a href="{{ '/evenements/' | relative_url }}"><b>Explorateur</b><span>Rechercher un événement.</span></a></li>
+</ul>
 
 <!--
-  GitHub Pages sert automatiquement ce fichier sur toute adresse inconnue, a
-  condition qu'il soit a la racine du site. Sans lui, le visiteur tombe sur la
-  page 404 generique de GitHub, qui ne ressemble pas au site.
-
-  'relative_url' plutot qu'un '/' en dur : il applique le baseurl de
-  _config.yml, seule facon que le lien marche aussi sur un site de projet servi
-  sous /<depot>/.
+  GitHub Pages sert ce fichier sur toute adresse inconnue, a condition qu'il
+  soit a la racine du site. 'relative_url' applique le baseurl de _config.yml.
 -->

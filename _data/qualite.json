@@ -1,0 +1,141 @@
+{
+ "genere_le": "2026-11-10",
+ "source": {
+  "csv": "data/source/Star_Trek_Atlas_Politique_V0_3_2026-11-08.csv",
+  "md": "data/source/Star_Trek_Atlas_Politique_V0_3_2026-11-08.md",
+  "version": "0.3",
+  "etat": "État : 8 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
+  "colonnes": [
+   "id",
+   "cycle",
+   "period",
+   "event",
+   "source",
+   "politics",
+   "categories_politiques",
+   "niveau_recoupement",
+   "nature_source",
+   "url_source",
+   "note_audit",
+   "version_entree"
+  ]
+ },
+ "erreurs": 0,
+ "avertissements": 3,
+ "controles": [
+  {
+   "num": 1,
+   "titre": "Identifiants uniques et non vides",
+   "statut": "ok",
+   "erreurs": [],
+   "avertissements": [],
+   "info": "305 identifiants distincts, 305 déjà publiés suivis."
+  },
+  {
+   "num": 2,
+   "titre": "Lignes importées et rejets",
+   "statut": "ok",
+   "erreurs": [],
+   "avertissements": [],
+   "info": "305 entrées importées, 0 rejet(s), 305 annoncées par le Markdown."
+  },
+  {
+   "num": 3,
+   "titre": "Niveaux de recoupement A / B / C",
+   "statut": "ok",
+   "erreurs": [],
+   "avertissements": [],
+   "info": "A : 17, B : 26, C : 262."
+  },
+  {
+   "num": 4,
+   "titre": "Liens syntaxiquement valides",
+   "statut": "ok",
+   "erreurs": [],
+   "avertissements": [],
+   "info": "143 URL contrôlées (syntaxe seulement, pas de requête réseau)."
+  },
+  {
+   "num": 5,
+   "titre": "Présence des fiches approfondies",
+   "statut": "avertissement",
+   "erreurs": [],
+   "avertissements": [
+    "STP-077 : fiche sans source de contrôle"
+   ],
+   "info": "31 fiches : STP-006, STP-034, STP-048, STP-061, STP-077, STP-094, STP-101, STP-107, STP-125, STP-126, STP-129, STP-139, STP-149, STP-153, STP-157, STP-172, STP-194, STP-197, STP-230, STP-239, STP-267, STP-271, STP-274, STP-281, STP-282, STP-286, STP-293, STP-295, STP-297, STP-298, STP-300."
+  },
+  {
+   "num": 6,
+   "titre": "Cohérence fiches ↔ événements",
+   "statut": "ok",
+   "erreurs": [],
+   "avertissements": [],
+   "info": "305 notices de registre comparées au CSV."
+  },
+  {
+   "num": 7,
+   "titre": "Dates ambiguës conservées en texte",
+   "statut": "ok",
+   "erreurs": [],
+   "avertissements": [],
+   "info": "94 périodes non réductibles à une année, conservées telles quelles ; la clé d'ordre ne sert qu'au tri et n'est jamais affichée."
+  },
+  {
+   "num": 8,
+   "titre": "Continuités alternatives distinctes",
+   "statut": "avertissement",
+   "erreurs": [],
+   "avertissements": [
+    "STP-047 ↔ STP-240 : association entre continuités différentes (affichée comme telle)",
+    "STP-194 ↔ STP-239 : association entre continuités différentes (affichée comme telle)"
+   ],
+   "info": "Continuité principale : 287, Univers Miroir : 9, Chronologie Kelvin : 4, Temporalité ou réalité modifiée : 5."
+  },
+  {
+   "num": 9,
+   "titre": "Aucun enrichissement inventé",
+   "statut": "ok",
+   "erreurs": [],
+   "avertissements": [],
+   "info": "Champs dérivés limités à une liste fermée ; textes des fiches = sous-chaînes exactes du Markdown ; dates de diffusion toutes sourcées."
+  },
+  {
+   "num": 10,
+   "titre": "Aucune perte de données",
+   "statut": "ok",
+   "erreurs": [],
+   "avertissements": [],
+   "info": "CSV reconstruit à partir des données publiées et comparé octet par octet (hors BOM et fins de ligne)."
+  }
+ ],
+ "limites": {
+  "sans_url": 262,
+  "niveau_c": 262,
+  "autre_a_qualifier": 85,
+  "non_rattachees": [
+   {
+    "id": "STP-009",
+    "refs": [
+     "First Contact"
+    ]
+   },
+   {
+    "id": "STP-011",
+    "refs": [
+     "First Contact"
+    ]
+   },
+   {
+    "id": "STP-013",
+    "refs": [
+     "First Contact"
+    ]
+   }
+  ],
+  "fiches_sans_source": [
+   "STP-077"
+  ],
+  "avec_diffusion": 68
+ }
+}

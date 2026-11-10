@@ -1,0 +1,15 @@
+{
+  "name": "political-atlas-star-trek",
+  "private": true,
+  "description": "Import, validation et tests du corpus de Star Trek Political Atlas (site Jekyll publie par GitHub Pages).",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "import": "node scripts/import.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test tests/",
+    "check": "node scripts/import.mjs && node scripts/validate.mjs && node --test tests/",
+    "links": "node scripts/check-links.mjs"
+  }
+}

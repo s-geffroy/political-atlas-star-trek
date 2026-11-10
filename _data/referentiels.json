@@ -1,0 +1,149 @@
+{
+ "series": [
+  {
+   "code": "TOS",
+   "nom": "The Original Series"
+  },
+  {
+   "code": "TAS",
+   "nom": "The Animated Series"
+  },
+  {
+   "code": "Film",
+   "nom": "Films"
+  },
+  {
+   "code": "TNG",
+   "nom": "The Next Generation"
+  },
+  {
+   "code": "DS9",
+   "nom": "Deep Space Nine"
+  },
+  {
+   "code": "VOY",
+   "nom": "Voyager"
+  },
+  {
+   "code": "ENT",
+   "nom": "Enterprise"
+  },
+  {
+   "code": "DIS",
+   "nom": "Discovery"
+  },
+  {
+   "code": "Short Treks",
+   "nom": "Short Treks"
+  },
+  {
+   "code": "PIC",
+   "nom": "Picard"
+  },
+  {
+   "code": "LD",
+   "nom": "Lower Decks"
+  },
+  {
+   "code": "PRO",
+   "nom": "Prodigy"
+  },
+  {
+   "code": "SNW",
+   "nom": "Strange New Worlds"
+  },
+  {
+   "code": "SFA",
+   "nom": "Starfleet Academy"
+  }
+ ],
+ "continuites": {
+  "principale": "Continuité principale",
+  "miroir": "Univers Miroir",
+  "kelvin": "Chronologie Kelvin",
+  "modifiee": "Temporalité ou réalité modifiée"
+ },
+ "precisions": {
+  "annee": "Année explicite",
+  "annee_qualifiee": "Année avec réserve (intervalle, « env. », alternative…)",
+  "decennie": "Décennie",
+  "borne": "Borne (« vers », « avant », « après »)",
+  "siecle": "Siècle seulement",
+  "passe_lointain": "Passé lointain non daté",
+  "indeterminee": "Non ordonnable sans interprétation"
+ },
+ "domaines": [
+  {
+   "slug": "institutions-federalisme",
+   "nom": "Institutions et fédéralisme",
+   "categories": [],
+   "lexique": "Sénat|Conseil|constitution|élection|électo|parlement|président|chancel|gouvernement|institution|adhésion|réintégration|fédéralisme|fondation de la Fédération"
+  },
+  {
+   "slug": "guerres-securite-collective",
+   "nom": "Guerres et sécurité collective",
+   "categories": [
+    "guerre/bataille"
+   ],
+   "lexique": null
+  },
+  {
+   "slug": "colonialisme-occupation-resistance",
+   "nom": "Colonialisme, occupation et résistance",
+   "categories": [],
+   "lexique": "occup|colon|résistan|annex|libération|indépendan|esclav|servitude"
+  },
+  {
+   "slug": "droits-civiques-discriminations",
+   "nom": "Droits civiques et discriminations",
+   "categories": [
+    "justice/droits"
+   ],
+   "lexique": null
+  },
+  {
+   "slug": "autoritarisme-coups-detat",
+   "nom": "Autoritarisme et coups d’État",
+   "categories": [
+    "insurrection/pouvoir"
+   ],
+   "lexique": null
+  },
+  {
+   "slug": "economie-politique-classes",
+   "nom": "Économie politique et classes sociales",
+   "categories": [
+    "économie/social"
+   ],
+   "lexique": null
+  },
+  {
+   "slug": "renseignement-propagande-raison-detat",
+   "nom": "Renseignement, propagande et raison d’État",
+   "categories": [
+    "renseignement/sécurité"
+   ],
+   "lexique": null
+  },
+  {
+   "slug": "diplomatie-traites",
+   "nom": "Diplomatie et traités",
+   "categories": [
+    "diplomatie/traité"
+   ],
+   "lexique": null
+  },
+  {
+   "slug": "religion-legitimite",
+   "nom": "Religion et légitimité politique",
+   "categories": [],
+   "lexique": "relig|Prophète|prophét|[Vv]edek|\\bKai\\b|culte|croyance|sacré|théocra|divin|spirituel|orthodox"
+  },
+  {
+   "slug": "technologie-bioethique-ia",
+   "nom": "Technologie, bioéthique et intelligences artificielles",
+   "categories": [],
+   "lexique": "synthétique|androïde|hologramme|holograph|intelligence artificielle|\\bIA\\b|génétique|eugén|[Aa]ugment|clon|bioéth|\\bData\\b|technolog|[Bb]org|implant|artificiel"
+  }
+ ]
+}

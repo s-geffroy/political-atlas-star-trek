@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'fr' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#04060b">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/atlas.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/icone.svg' | relative_url }}" type="image/svg+xml">
+  {% feed_meta %}
+</head>
+<body>
+  <a class="evitement" href="#contenu">Aller au contenu</a>
+  {% include bandeau.html %}
+  <main id="contenu" class="cadre" tabindex="-1">
+    {{ content }}
+  </main>
+  {% include pied.html %}
+  {% if page.scripts %}{% for s in page.scripts %}
+  <script src="{{ s | prepend: '/assets/js/' | relative_url }}" defer></script>
+  {% endfor %}{% endif %}
+</body>
+</html>

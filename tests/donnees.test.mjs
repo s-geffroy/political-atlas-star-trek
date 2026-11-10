@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { parseCsv, readRecords, serializeCsv } from '../scripts/lib/csv.mjs';
-import { parseFiches } from '../scripts/lib/fiches.mjs';
+import { parseFiches, paragraphesApresPoint } from '../scripts/lib/fiches.mjs';
 import { episodesDe, continuite, ordreDiegetique } from '../scripts/lib/derive.mjs';
 import { importer, dernieresSources } from '../scripts/import.mjs';
 import { valider } from '../scripts/validate.mjs';
@@ -99,4 +99,11 @@ test('pages generees : une par identifiant, front matter coherent', () => {
     assert.match(t, new RegExp(`^permalink: /evenements/${f.replace('.md', '')}/$`, 'm'));
     assert.match(t, /^title: ".+"$/m);
   }
+});
+
+test('mise en page : paragraphe apres un point, listes et tableaux intacts, texte inchange', () => {
+  const md = '**Point 1 :** a. Fin.\n**Point 2 :** b\nsuite.\n- x.\n- y.\n| a |\n| b |';
+  const out = paragraphesApresPoint(md);
+  assert.equal(out, '**Point 1 :** a. Fin.\n\n**Point 2 :** b\nsuite.\n- x.\n- y.\n| a |\n| b |');
+  assert.equal(out.replace(/\n+/g, ' '), md.replace(/\n+/g, ' '));
 });

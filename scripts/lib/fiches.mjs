@@ -74,6 +74,22 @@ export function parseRegistre(md) {
   return out;
 }
 
+// Mise en page uniquement : deux lignes consecutives du source, dont la
+// premiere finit une phrase (point...), forment deux paragraphes au lieu d'un
+// bloc fusionne par Markdown. Listes, tableaux et titres sont laisses tels quels.
+// Le texte n'est pas modifie (seul un saut de ligne est ajoute).
+export function paragraphesApresPoint(md) {
+  const bloc = /^\s*([-*+]\s|>|\||#|\d+\.\s)/;
+  const lignes = md.split('\n');
+  const out = [];
+  lignes.forEach((l, i) => {
+    out.push(l);
+    const suiv = lignes[i + 1];
+    if (suiv !== undefined && l.trim() && suiv.trim() && /[.!?»]\s*$/.test(l) && !bloc.test(l) && !bloc.test(suiv)) out.push('');
+  });
+  return out.join('\n');
+}
+
 // Sections de niveau 2 utiles aux pages editoriales (methodologie, analyses).
 export function sectionsEditoriales(md) {
   const secs = sections(md);
@@ -82,7 +98,7 @@ export function sectionsEditoriales(md) {
     if (i < 0) return null;
     let body = secs[i].body;
     for (let j = i + 1; j < secs.length && secs[j].level > 2; j++) body += `\n\n### ${secs[j].title}\n\n${secs[j].body}`;
-    return { titre: secs[i].title, markdown: body.trim() };
+    return { titre: secs[i].title, markdown: paragraphesApresPoint(body.trim()) };
   };
   const intro = /^> (.+)$/m.exec(md);
   return {

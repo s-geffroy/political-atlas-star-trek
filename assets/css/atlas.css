@@ -45,7 +45,7 @@ h1, h2, h3, h4 { font-family: var(--police-titre); line-height: 1.2; letter-spac
 h1 { font-size: clamp(1.8rem, 1.3rem + 2.2vw, 2.8rem); margin: 0.2em 0 0.4em; }
 h2 { font-size: clamp(1.35rem, 1.15rem + 0.9vw, 1.8rem); margin: 2rem 0 0.8rem; color: var(--ambre); text-transform: uppercase; letter-spacing: 0.06em; }
 h3 { font-size: 1.2rem; margin: 1.6rem 0 0.5rem; color: var(--cyan); }
-p, li { max-width: var(--mesure); }
+p, li { max-width: none; }
 code { font-family: var(--mono); font-size: 0.9em; color: var(--lavande); }
 hr { border: 0; height: 4px; background: linear-gradient(90deg, var(--ambre) 0 18%, transparent 18% 20%, var(--lavande) 20% 40%, transparent 40% 42%, var(--ligne) 42%); border-radius: 2px; margin: 2rem 0; }
 table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
@@ -58,7 +58,7 @@ th { color: var(--ambre); font-family: var(--police-titre); text-transform: uppe
 .evitement:focus { top: 0; }
 
 /* --- Cadre : bandeau et barre laterale ----------------------------------- */
-.cadre { max-width: 84rem; margin: 0 auto; padding-inline: clamp(1rem, 3vw, 2rem); }
+.cadre { margin: 0 auto; padding-inline: clamp(1rem, 3vw, 2rem); }
 .bandeau { padding-block: 1rem 0; }
 .bandeau__haut { display: grid; grid-template-columns: auto 1fr; gap: 0 0.5rem; align-items: stretch; }
 .coude {
@@ -106,10 +106,10 @@ main { padding-block: 1.5rem 3rem; min-height: 60vh; }
 .pied strong { color: var(--texte); }
 
 /* --- Composants -------------------------------------------------------- */
-.chapo { font-size: 1.12rem; color: var(--doux); max-width: var(--mesure); }
+.chapo { font-size: 1.12rem; color: var(--doux); }
 .fil { font-size: 0.9rem; color: var(--doux); margin-bottom: 0.5rem; }
 .fil a { color: var(--doux); }
-.encadre { background: var(--surface); border-left: 0.5rem solid var(--lavande); border-radius: 0 1rem 1rem 0; padding: 0.9rem 1.2rem; margin: 1.2rem 0; max-width: calc(var(--mesure) + 3rem); }
+.encadre { background: var(--surface); border-left: 0.5rem solid var(--lavande); border-radius: 0 1rem 1rem 0; padding: 0.9rem 1.2rem; margin: 1.2rem 0; }
 .encadre--alerte { border-left-color: var(--magenta); }
 .encadre--ambre { border-left-color: var(--ambre); }
 .encadre > :first-child { margin-top: 0; }

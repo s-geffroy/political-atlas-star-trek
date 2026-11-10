@@ -1,0 +1,64 @@
+{
+ "version": "V0.10",
+ "date": "2026-11-10",
+ "date_longue": "10 novembre 2026",
+ "base": "V0_9_2026-11-10",
+ "titre": "Atlas politique de Star Trek — V0.10 : périodes de l’ISS Enterprise et doublons Starfleet Academy",
+ "resume": "Périodes de STP-239 et STP-194 corrigées d’après les sources (bornes entre 2267 et la fin du XXIVe siècle) ; deux doublons tranchés : STP-294 rattachée à STP-230, STP-296 à STP-232.",
+ "methode": {
+  "periodes": "Recherche ciblée (startrek.com, Memory Alpha).",
+  "doublons": "data/doublons.json"
+ },
+ "comptes": {
+  "corrections": 4,
+  "signalements": 2
+ },
+ "corrections": [
+  {
+   "id": "STP-239",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "XXXIIe siècle, Miroir",
+     "apres": "Entre 2267 et la fin du XXIVe siècle, Miroir"
+    }
+   },
+   "motif": "période corrigée : « XXXIIe siècle » correspondait à la découverte de la plaque en 3191, non aux faits ; les réformes et l’assassinat du chancelier, dans l’univers Miroir, ne sont datés par aucune source qu’entre « Mirror, Mirror » (2267) et la fin du XXIVe siècle. Sources : https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras (« At some point after the events of \"Mirror, Mirror\" » ; « it did crossover sometime before the end of the 24th Century ») ; Memory Alpha, ISS Enterprise (NCC-1701)"
+  },
+  {
+   "id": "STP-194",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "XXIVe siècle (événement relaté en 3191)",
+     "apres": "Entre 2267 et la fin du XXIVe siècle (événement relaté en 3191)"
+    }
+   },
+   "motif": "période précisée : aucune source ne place l’exode lui-même au XXIVe siècle ; il est seulement borné entre 2267 et la fin du XXIVe siècle. Sources : https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras (« At some point after the events of \"Mirror, Mirror\" » ; « it did crossover sometime before the end of the 24th Century ») ; Memory Alpha, ISS Enterprise (NCC-1701)"
+  },
+  {
+   "id": "STP-294",
+   "type": "correction",
+   "champs": {},
+   "motif": "doublon tranché : entrée secondaire de STP-230 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SFA «Vox in Excelso») et même fait : la crise d’existence des Klingons après le Burn, dont l’exode consécutif à l’inhabitabilité de Qo’noS est un aspect. STP-230 est retenue comme principale : fiche approfondie et niveau de recoupement A."
+  },
+  {
+   "id": "STP-296",
+   "type": "correction",
+   "champs": {},
+   "motif": "doublon tranché : entrée secondaire de STP-232 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SFA «Rubincon») et même fait : la crise que Nus Braka impose à la Fédération, dont le procès-spectacle est la forme. STP-232 est retenue comme principale : niveau de recoupement A."
+  },
+  {
+   "id": "STP-230",
+   "type": "signalement",
+   "champs": {},
+   "motif": "doublon tranché : entrée principale ; STP-294 lui est rattachée comme doublon."
+  },
+  {
+   "id": "STP-232",
+   "type": "signalement",
+   "champs": {},
+   "motif": "doublon tranché : entrée principale ; STP-296 lui est rattachée comme doublon."
+  }
+ ]
+}

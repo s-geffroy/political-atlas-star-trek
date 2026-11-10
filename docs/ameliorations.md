@@ -37,6 +37,10 @@ Doublons tranches (`data/doublons.json`, journal `data/corrections/V0.8.json`) :
 
 STP-013 rattachee a TNG « Up the Long Ladder » et « Attached » (formation du gouvernement mondial terrien), STP-014 recoupee (guerres Kzinti) : niveau B. Plus aucun evenement distinct en C (A 212, B 90).
 
+## Fait en V0.10 (2026-11-10)
+
+Doublons tranches : STP-294 -> STP-230, STP-296 -> STP-232 (relations reportees ou retirees). Periodes de STP-239 et STP-194 corrigees : « Entre 2267 et la fin du XXIVe siecle » d'apres startrek.com et Memory Alpha (la date de 3191 est celle de la decouverte, non des faits). 300 evenements distincts pour 305 entrees.
+
 ## P1 -- reste a faire
 
 - 52 entrees B sans source officielle exploitable : pages Paramount+ d'episode non verifiables, saison 4 de SNW et Starfleet Academy sans recapitulatif officiel a ce jour.

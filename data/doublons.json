@@ -3,11 +3,33 @@
   "Doublons tranches : l'entree secondaire decrit le meme fait, dans le meme episode, que l'entree principale.",
   "Aucune entree n'est supprimee : la secondaire garde son identifiant, son adresse et son contenu ; sa page renvoie a la principale.",
   "Les secondaires ne sont pas comptees comme evenements distincts (statistiques, explorateur, atlas, chronologies).",
-  "Decision du 2026-11-10 ; consignee dans la note d'audit des entrees (corpus V0.8)."
+  "Decisions du 2026-11-10 ; consignees dans la note d'audit des entrees (corpus V0.8 et V0.10)."
  ],
  "doublons": [
-  {"secondaire": "STP-054", "principal": "STP-298", "motif": "Même épisode (SNW «A Case of Chiaroscuro») et même fait : occupation klingonne de Mat’aar XII et résistance locale. STP-298 est retenue comme principale : fiche approfondie et niveau de recoupement supérieur."},
-  {"secondaire": "STP-254", "principal": "STP-111", "motif": "Même épisode (TNG «The Quality of Life») et même fait : reconnaissance de la vie des exocomps et refus de leur sacrifice. STP-111 est retenue comme principale : intitulé confirmé par une source officielle (niveau A) ; l’« accès aux droits civiques » de STP-254 n’est pas attesté."},
-  {"secondaire": "STP-270", "principal": "STP-216", "motif": "Même épisode (LD «Old Friends, New Planets») et même fait : la flotte indépendante « Nova Fleet » de Nick Locarno. Doublon déjà signalé dans le corpus V0.3 (« ne pas compter deux événements distincts ») ; STP-216, entrée la plus ancienne, est retenue comme principale."}
+  {
+   "secondaire": "STP-054",
+   "principal": "STP-298",
+   "motif": "Même épisode (SNW «A Case of Chiaroscuro») et même fait : occupation klingonne de Mat’aar XII et résistance locale. STP-298 est retenue comme principale : fiche approfondie et niveau de recoupement supérieur."
+  },
+  {
+   "secondaire": "STP-254",
+   "principal": "STP-111",
+   "motif": "Même épisode (TNG «The Quality of Life») et même fait : reconnaissance de la vie des exocomps et refus de leur sacrifice. STP-111 est retenue comme principale : intitulé confirmé par une source officielle (niveau A) ; l’« accès aux droits civiques » de STP-254 n’est pas attesté."
+  },
+  {
+   "secondaire": "STP-270",
+   "principal": "STP-216",
+   "motif": "Même épisode (LD «Old Friends, New Planets») et même fait : la flotte indépendante « Nova Fleet » de Nick Locarno. Doublon déjà signalé dans le corpus V0.3 (« ne pas compter deux événements distincts ») ; STP-216, entrée la plus ancienne, est retenue comme principale."
+  },
+  {
+   "secondaire": "STP-294",
+   "principal": "STP-230",
+   "motif": "Même épisode (SFA «Vox in Excelso») et même fait : la crise d’existence des Klingons après le Burn, dont l’exode consécutif à l’inhabitabilité de Qo’noS est un aspect. STP-230 est retenue comme principale : fiche approfondie et niveau de recoupement A."
+  },
+  {
+   "secondaire": "STP-296",
+   "principal": "STP-232",
+   "motif": "Même épisode (SFA «Rubincon») et même fait : la crise que Nus Braka impose à la Fédération, dont le procès-spectacle est la forme. STP-232 est retenue comme principale : niveau de recoupement A."
+  }
  ]
 }

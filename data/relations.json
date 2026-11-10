@@ -2,7 +2,8 @@
  "_lisez_moi": [
   "Relations documentees entre evenements (enrichissement hors corpus) : 60 validees le 2026-11-10 (docs/proposition-relations.md), 82 ajoutees le meme jour (docs/proposition-relations-2.md).",
   "Types : cause (de est presente par la source comme une cause de vers), suite (vers prolonge directement l intrigue de de), meme_arc (meme arc narratif ou conflit nomme par la source).",
-  "Chaque relation cite la page qui l etablit explicitement. Deux evenements d un meme episode ne sont relies que si la source etablit un enchainement entre eux."
+  "Chaque relation cite la page qui l etablit explicitement. Deux evenements d un meme episode ne sont relies que si la source etablit un enchainement entre eux.",
+  "Doublons tranches le 2026-11-10 (STP-294, STP-296) : les relations qui les visaient sont reportees sur l entree principale ou retirees si elles y existaient deja."
  ],
  "relations": [
   {
@@ -403,13 +404,6 @@
    "type": "cause",
    "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
    "justification": "« Beta Test » : « Betazed, which left the Federation after the Burn »."
-  },
-  {
-   "de": "STP-178",
-   "vers": "STP-294",
-   "type": "cause",
-   "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
-   "justification": "« Vox in Excelso » : pendant le Burn, « Qo'noS and the Klingon Empire were destroyed », et les Klingons sont menacés d'extinction."
   },
   {
    "de": "STP-221",
@@ -909,13 +903,6 @@
    "justification": "Résumé de «Vox in Excelso» : à cause du Burn, « the Klingon homeworld of Qo'noS was rendered uninhabitable », et l'écrasement d'un vaisseau de survivants met « the species on the brink of extinction »."
   },
   {
-   "de": "STP-294",
-   "vers": "STP-295",
-   "type": "cause",
-   "url": "https://en.wikipedia.org/wiki/Vox_in_Excelso",
-   "justification": "Les Klingons réfugiés refusent l'aide fédérale (« Klingon tradition will not permit them to accept charity ») ; Vance « surrenders to Wochak, who claims Faan Alpha as a spoil of war », au terme d'une bataille mise en scène sans victimes."
-  },
-  {
    "de": "STP-230",
    "vers": "STP-295",
    "type": "cause",
@@ -931,10 +918,10 @@
   },
   {
    "de": "STP-297",
-   "vers": "STP-296",
+   "vers": "STP-232",
    "type": "suite",
    "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
-   "justification": "Dans «300th Night», Braka a enfermé la Fédération derrière des mines Omega ; dans «Rubincon», il organise un procès contre la Fédération, et l'épisode se conclut par la désactivation des mines par SAM et l'arrestation de Braka."
+   "justification": "Dans «300th Night», Braka a enfermé la Fédération derrière des mines Omega ; dans «Rubincon», il organise un procès contre la Fédération, et l'épisode se conclut par la désactivation des mines par SAM et l'arrestation de Braka. (Relation reportée de STP-296, doublon tranché de STP-232.)"
   },
   {
    "de": "STP-231",

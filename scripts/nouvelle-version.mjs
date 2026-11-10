@@ -81,6 +81,7 @@ export function appliquer(journal) {
     if (reFiche.test(md)) {
       md = md.replace(reFiche, (f) => {
         let g = f.replace(/\*\*Recoupement documentaire :\*\* [^\n]*/, `**Recoupement documentaire :** ${d.niveau_recoupement} — ${d.nature_source}`);
+        for (const c of cs) if (c.champs.period) g = g.replace(`**Période diégétique :** ${c.champs.period.avant}`, `**Période diégétique :** ${c.champs.period.apres}`);
         if (d.url_source && !g.includes(d.url_source)) g = g.replace(/\s+$/, '') + `\n\n**Source secondaire/éditoriale de contrôle (${v}) :** ${d.url_source}  \n`;
         return g;
       });

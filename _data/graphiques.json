@@ -83,7 +83,7 @@
   "lignes": [
    {
     "cle": "guerre/bataille",
-    "total": 99,
+    "total": 97,
     "cellules": [
      {
       "n": 11,
@@ -138,14 +138,14 @@
       "q": 3
      },
      {
-      "n": 4,
+      "n": 2,
       "q": 1
      }
     ]
    },
    {
     "cle": "justice/droits",
-    "total": 87,
+    "total": 86,
     "cellules": [
      {
       "n": 5,
@@ -200,8 +200,8 @@
       "q": 2
      },
      {
-      "n": 1,
-      "q": 1
+      "n": 0,
+      "q": 0
      }
     ]
    },
@@ -269,7 +269,7 @@
    },
    {
     "cle": "renseignement/sécurité",
-    "total": 61,
+    "total": 60,
     "cellules": [
      {
       "n": 2,
@@ -324,7 +324,7 @@
       "q": 1
      },
      {
-      "n": 2,
+      "n": 1,
       "q": 1
      }
     ]
@@ -708,7 +708,7 @@
   "lignes": [
    {
     "cle": "guerre/bataille",
-    "total": 88,
+    "total": 86,
     "cellules": [
      {
       "n": 11,
@@ -735,14 +735,14 @@
       "q": 1
      },
      {
-      "n": 27,
+      "n": 25,
       "q": 4
      }
     ]
    },
    {
     "cle": "justice/droits",
-    "total": 81,
+    "total": 80,
     "cellules": [
      {
       "n": 5,
@@ -769,7 +769,7 @@
       "q": 1
      },
      {
-      "n": 19,
+      "n": 18,
       "q": 3
      }
     ]
@@ -810,7 +810,7 @@
    },
    {
     "cle": "renseignement/sécurité",
-    "total": 57,
+    "total": 56,
     "cellules": [
      {
       "n": 2,
@@ -837,7 +837,7 @@
       "q": 1
      },
      {
-      "n": 12,
+      "n": 11,
       "q": 2
      }
     ]
@@ -1196,12 +1196,12 @@
   {
    "code": "SFA",
    "nom": "Starfleet Academy",
-   "total": 11,
+   "total": 9,
    "A": 5,
-   "B": 6,
+   "B": 4,
    "C": 0,
    "pct_A": 8.47,
-   "pct_B": 10.17,
+   "pct_B": 6.78,
    "pct_C": 0
   }
  ],

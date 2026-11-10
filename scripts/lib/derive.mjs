@@ -83,7 +83,7 @@ export function ordreDiegetique(period) {
     const exacte = /^\d{4}$/.test(p);
     return { cle: +m[1], precision: exacte ? 'annee' : 'annee_qualifiee' };
   }
-  if ((m = /^(?:vers|Avant|Après) (\d{4})/.exec(p))) return { cle: +m[1], precision: 'borne' };
+  if ((m = /^(?:vers|Avant|Après|Entre) (\d{4})/.exec(p))) return { cle: +m[1], precision: 'borne' };
   if ((m = /^Années (\d{4})/.exec(p))) return { cle: +m[1], precision: 'decennie' };
   if ((m = /\b(X{1,3}(?:IV|V|I{0,3}))e\b/.exec(p)) && ROMAINS[m[1]])
     return { cle: (ROMAINS[m[1]] - 1) * 100 + 1, precision: 'siecle' };
@@ -94,7 +94,7 @@ export const PRECISIONS = {
   annee: 'Année explicite',
   annee_qualifiee: 'Année avec réserve (intervalle, « env. », alternative…)',
   decennie: 'Décennie',
-  borne: 'Borne (« vers », « avant », « après »)',
+  borne: 'Borne (« vers », « avant », « après », « entre »)',
   siecle: 'Siècle seulement',
   passe_lointain: 'Passé lointain non daté',
   indeterminee: 'Non ordonnable sans interprétation',

@@ -1445,14 +1445,6 @@
     },
     {
      "de": "STP-178",
-     "vers": "STP-294",
-     "type": "cause",
-     "autre": "STP-294",
-     "sortant": true,
-     "groupe": "STP-230"
-    },
-    {
-     "de": "STP-178",
      "vers": "STP-230",
      "type": "cause",
      "autre": "STP-230",
@@ -2605,99 +2597,6 @@
    "nb_relations": 2
   },
   {
-   "titre": "Starfleet Academy — Crise menaçant l'existence et l'avenir des Klingons",
-   "taille": 3,
-   "noeuds": [
-    {
-     "id": "STP-230",
-     "x": 56,
-     "y": 12,
-     "w": 210,
-     "h": 46,
-     "titre": "Crise menaçant l'existence…",
-     "titre_complet": "Crise menaçant l'existence et l'avenir des Klingons",
-     "niv": "A",
-     "cycle": "Starfleet Academy (saison 1, 2026)"
-    },
-    {
-     "id": "STP-294",
-     "x": 56,
-     "y": 76,
-     "w": 210,
-     "h": 46,
-     "titre": "Exode des Klingons après la…",
-     "titre_complet": "Exode des Klingons après la destruction d’habitabilité de Qo’noS liée au Burn",
-     "niv": "B",
-     "cycle": "Starfleet Academy : actualisation 2026"
-    },
-    {
-     "id": "STP-295",
-     "x": 336,
-     "y": 44,
-     "w": 210,
-     "h": 46,
-     "titre": "Accord mettant en scène une…",
-     "titre_complet": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
-     "niv": "B",
-     "cycle": "Starfleet Academy : actualisation 2026"
-    }
-   ],
-   "aretes": [
-    {
-     "de": "STP-294",
-     "vers": "STP-295",
-     "type": "cause",
-     "d": "M266,99 C301,99 301,67 332,67",
-     "url": "https://en.wikipedia.org/wiki/Vox_in_Excelso"
-    },
-    {
-     "de": "STP-230",
-     "vers": "STP-295",
-     "type": "cause",
-     "d": "M266,35 C301,35 301,67 332,67",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1"
-    },
-    {
-     "de": "STP-230",
-     "vers": "STP-294",
-     "type": "episode_commun",
-     "d": "M56,35 C27.333333333333336,35 27.333333333333336,99 56,99",
-     "url": null
-    }
-   ],
-   "externes": [
-    {
-     "de": "STP-178",
-     "vers": "STP-294",
-     "type": "cause",
-     "autre": "STP-178",
-     "sortant": false,
-     "groupe": "STP-178"
-    },
-    {
-     "de": "STP-178",
-     "vers": "STP-230",
-     "type": "cause",
-     "autre": "STP-178",
-     "sortant": false,
-     "groupe": "STP-178"
-    }
-   ],
-   "largeur": 558,
-   "hauteur": 134,
-   "numero": 20,
-   "cle": "STP-230",
-   "ids": [
-    "STP-230",
-    "STP-294",
-    "STP-295"
-   ],
-   "series": [
-    "SFA"
-   ],
-   "nb_relations": 2
-  },
-  {
    "titre": "Starfleet Academy — Menace d’une chaîne de mines Omega-47 perturbant les voyages à…",
    "taille": 3,
    "noeuds": [
@@ -2713,15 +2612,15 @@
      "cycle": "Starfleet Academy (saison 1, 2026)"
     },
     {
-     "id": "STP-296",
+     "id": "STP-232",
      "x": 616,
      "y": 12,
      "w": 210,
      "h": 46,
-     "titre": "Procès-spectacle organisé…",
-     "titre_complet": "Procès-spectacle organisé par Nus Braka contre la Fédération",
-     "niv": "B",
-     "cycle": "Starfleet Academy : actualisation 2026"
+     "titre": "Nus Braka confronte Nahla…",
+     "titre_complet": "Nus Braka confronte Nahla Ake à une crise mettant en jeu la Fédération",
+     "niv": "A",
+     "cycle": "Starfleet Academy (saison 1, 2026)"
     },
     {
      "id": "STP-297",
@@ -2738,7 +2637,7 @@
    "aretes": [
     {
      "de": "STP-297",
-     "vers": "STP-296",
+     "vers": "STP-232",
      "type": "suite",
      "d": "M546,35 C581,35 581,35 612,35",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1"
@@ -2754,11 +2653,11 @@
    "externes": [],
    "largeur": 838,
    "hauteur": 70,
-   "numero": 21,
+   "numero": 20,
    "cle": "STP-231",
    "ids": [
     "STP-231",
-    "STP-296",
+    "STP-232",
     "STP-297"
    ],
    "series": [
@@ -2840,7 +2739,7 @@
    ],
    "largeur": 558,
    "hauteur": 134,
-   "numero": 22,
+   "numero": 21,
    "cle": "STP-235",
    "ids": [
     "STP-235",
@@ -2908,7 +2807,7 @@
    ],
    "largeur": 278,
    "hauteur": 134,
-   "numero": 23,
+   "numero": 22,
    "cle": "STP-002",
    "ids": [
     "STP-002",
@@ -2976,7 +2875,7 @@
    ],
    "largeur": 278,
    "hauteur": 134,
-   "numero": 24,
+   "numero": 23,
    "cle": "STP-009",
    "ids": [
     "STP-009",
@@ -3043,7 +2942,7 @@
    ],
    "largeur": 278,
    "hauteur": 134,
-   "numero": 25,
+   "numero": 24,
    "cle": "STP-012",
    "ids": [
     "STP-012",
@@ -3093,7 +2992,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 26,
+   "numero": 25,
    "cle": "STP-019",
    "ids": [
     "STP-019",
@@ -3143,7 +3042,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 27,
+   "numero": 26,
    "cle": "STP-021",
    "ids": [
     "STP-021",
@@ -3193,7 +3092,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 28,
+   "numero": 27,
    "cle": "STP-036",
    "ids": [
     "STP-036",
@@ -3253,7 +3152,7 @@
    ],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 29,
+   "numero": 28,
    "cle": "STP-044",
    "ids": [
     "STP-044",
@@ -3303,7 +3202,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 30,
+   "numero": 29,
    "cle": "STP-083",
    "ids": [
     "STP-083",
@@ -3362,7 +3261,7 @@
    ],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 31,
+   "numero": 30,
    "cle": "STP-085",
    "ids": [
     "STP-085",
@@ -3412,7 +3311,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 32,
+   "numero": 31,
    "cle": "STP-094",
    "ids": [
     "STP-094",
@@ -3462,7 +3361,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 33,
+   "numero": 32,
    "cle": "STP-133",
    "ids": [
     "STP-133",
@@ -3512,7 +3411,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 34,
+   "numero": 33,
    "cle": "STP-154",
    "ids": [
     "STP-154",
@@ -3571,7 +3470,7 @@
    ],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 35,
+   "numero": 34,
    "cle": "STP-161",
    "ids": [
     "STP-269",
@@ -3622,7 +3521,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 36,
+   "numero": 35,
    "cle": "STP-165",
    "ids": [
     "STP-165",
@@ -3672,7 +3571,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 37,
+   "numero": 36,
    "cle": "STP-169",
    "ids": [
     "STP-169",
@@ -3722,7 +3621,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 38,
+   "numero": 37,
    "cle": "STP-192",
    "ids": [
     "STP-192",
@@ -3772,7 +3671,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 39,
+   "numero": 38,
    "cle": "STP-194",
    "ids": [
     "STP-194",
@@ -3822,7 +3721,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 40,
+   "numero": 39,
    "cle": "STP-212",
    "ids": [
     "STP-212",
@@ -3872,7 +3771,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 41,
+   "numero": 40,
    "cle": "STP-213",
    "ids": [
     "STP-213",
@@ -3922,7 +3821,7 @@
    "externes": [],
    "largeur": 558,
    "hauteur": 70,
-   "numero": 42,
+   "numero": 41,
    "cle": "STP-219",
    "ids": [
     "STP-219",
@@ -3930,6 +3829,65 @@
    ],
    "series": [
     "PRO"
+   ],
+   "nb_relations": 1
+  },
+  {
+   "titre": "Starfleet Academy — Crise menaçant l'existence et l'avenir des Klingons",
+   "taille": 2,
+   "noeuds": [
+    {
+     "id": "STP-230",
+     "x": 56,
+     "y": 12,
+     "w": 210,
+     "h": 46,
+     "titre": "Crise menaçant l'existence…",
+     "titre_complet": "Crise menaçant l'existence et l'avenir des Klingons",
+     "niv": "A",
+     "cycle": "Starfleet Academy (saison 1, 2026)"
+    },
+    {
+     "id": "STP-295",
+     "x": 336,
+     "y": 12,
+     "w": 210,
+     "h": 46,
+     "titre": "Accord mettant en scène une…",
+     "titre_complet": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
+     "niv": "B",
+     "cycle": "Starfleet Academy : actualisation 2026"
+    }
+   ],
+   "aretes": [
+    {
+     "de": "STP-230",
+     "vers": "STP-295",
+     "type": "cause",
+     "d": "M266,35 C301,35 301,35 332,35",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1"
+    }
+   ],
+   "externes": [
+    {
+     "de": "STP-178",
+     "vers": "STP-230",
+     "type": "cause",
+     "autre": "STP-178",
+     "sortant": false,
+     "groupe": "STP-178"
+    }
+   ],
+   "largeur": 558,
+   "hauteur": 70,
+   "numero": 42,
+   "cle": "STP-230",
+   "ids": [
+    "STP-230",
+    "STP-295"
+   ],
+   "series": [
+    "SFA"
    ],
    "nb_relations": 1
   },
@@ -4644,7 +4602,7 @@
    "nb_relations": 0
   }
  ],
- "noeuds": 173,
- "relations": 142,
- "liens_episode": 38
+ "noeuds": 172,
+ "relations": 140,
+ "liens_episode": 37
 }

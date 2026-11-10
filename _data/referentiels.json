@@ -67,7 +67,7 @@
   "annee": "Année explicite",
   "annee_qualifiee": "Année avec réserve (intervalle, « env. », alternative…)",
   "decennie": "Décennie",
-  "borne": "Borne (« vers », « avant », « après »)",
+  "borne": "Borne (« vers », « avant », « après », « entre »)",
   "siecle": "Siècle seulement",
   "passe_lointain": "Passé lointain non daté",
   "indeterminee": "Non ordonnable sans interprétation"

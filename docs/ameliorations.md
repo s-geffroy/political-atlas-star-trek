@@ -29,9 +29,12 @@ Journal : `data/corrections/V0.6.json` ; proposition validee : `docs/proposition
 
 Journal : `data/corrections/V0.7.json` ; proposition validee : `docs/proposition-categories-v07.md`. Categories des 43 entrees reecrites en V0.6 revues a partir du seul texte corrige : 30 ajustees, 13 maintenues.
 
+## Fait en V0.8 (2026-11-10)
+
+Doublons tranches (`data/doublons.json`, journal `data/corrections/V0.8.json`) : STP-054 -> STP-298, STP-254 -> STP-111, STP-270 -> STP-216. Aucune suppression ; les secondaires renvoient a la principale et ne sont plus comptees (302 evenements distincts pour 305 entrees).
+
 ## P1 -- reste a faire
 
-- Doublons signales a trancher (fusion editoriale ou maintien) : STP-054/298, STP-254/111, STP-216/270.
 - STP-013 et STP-014 : trouver une source A ou B, ou reformuler.
 - 52 entrees B sans source officielle exploitable : pages Paramount+ d'episode non verifiables, saison 4 de SNW et Starfleet Academy sans recapitulatif officiel a ce jour.
 - Score Lighthouse officiel a mesurer (https://pagespeed.web.dev/).

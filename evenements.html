@@ -8,7 +8,7 @@ scripts: [explorateur.js]
 {%- assign S = site.data.stats -%}
 {%- assign evs = site.data.evenements -%}
 {%- assign bandes = evs | sort: "rang_diegetique" | map: "bande" | uniq -%}
-<p class="chapo">Les {{ S.total }} entrées du registre, avec leurs intitulés d’origine. Recherche et filtres se combinent ; l’adresse de la page conserve la sélection et peut être partagée.</p>
+<p class="chapo">Les {{ S.distincts }} événements distincts du registre, avec leurs intitulés.{% if S.doublons > 0 %} Les {{ S.doublons }} doublons signalés restent consultables depuis leur entrée principale.{% endif %} Recherche et filtres se combinent ; l’adresse de la page conserve la sélection et peut être partagée.</p>
 
 <form class="filtres" id="filtres" role="search" aria-label="Filtrer les événements" hidden>
   <div class="large">
@@ -64,11 +64,11 @@ scripts: [explorateur.js]
   </div>
 </form>
 
-<p class="etat" id="etat" role="status" aria-live="polite"><strong>{{ S.total }}</strong> entrées.</p>
+<p class="etat" id="etat" role="status" aria-live="polite"><strong>{{ S.distincts }}</strong> entrées.</p>
 
 <h2 class="visuellement-cache">Liste des entrées</h2>
 <ol class="lignes" id="liste">
-  {%- for e in evs %}{% include ligne.html e=e %}{% endfor %}
+  {%- for e in evs %}{% unless e.doublon_de %}{% include ligne.html e=e %}{% endunless %}{% endfor %}
 </ol>
 <p class="carte__meta">Pastille : niveau de recoupement (A, B, C). Mention « fiche » : fiche approfondie disponible.</p>
 <noscript><p>La recherche et les filtres demandent JavaScript ; sans lui, la liste complète reste consultable ci-dessus.</p></noscript>

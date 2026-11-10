@@ -17,7 +17,7 @@ description: Chronologie de l’histoire fictive de Star Trek, événement par �
 <h2 class="piste-titre piste--{{ c.cle }}" id="piste-{{ c.cle }}">{{ c.nom }} — {{ c.n }} entrée{% if c.n > 1 %}s{% endif %}</h2>
 <ol class="frise">
   {%- assign bande = "" -%}
-  {%- for e in tri %}{% if e.continuite == c.cle %}
+  {%- for e in tri %}{% if e.continuite == c.cle and e.doublon_de == nil %}
   {%- if e.bande != bande %}{% assign bande = e.bande %}<li class="bande">{{ bande }}</li>{% endif %}
   <li data-niv="{{ e.niveau_recoupement }}"><a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{{ e.period | escape }} · {{ e.id }} — {{ e.event | escape }}</a></li>
   {%- endif %}{% endfor %}

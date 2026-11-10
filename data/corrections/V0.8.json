@@ -1,0 +1,52 @@
+{
+ "version": "V0.8",
+ "date": "2026-11-10",
+ "date_longue": "10 novembre 2026",
+ "base": "V0_7_2026-11-10",
+ "titre": "Atlas politique de Star Trek — V0.8 : doublons tranchés",
+ "resume": "Trois paires de doublons (même fait, même épisode) ont été tranchées : STP-054 rattachée à STP-298, STP-254 à STP-111, STP-270 à STP-216. Aucune entrée n’est supprimée ; les secondaires ne sont plus comptées comme événements distincts (302 événements distincts pour 305 entrées).",
+ "methode": {
+  "doublons": "data/doublons.json"
+ },
+ "comptes": {
+  "doublons": 3
+ },
+ "corrections": [
+  {
+   "id": "STP-054",
+   "type": "correction",
+   "champs": {},
+   "motif": "doublon tranché : entrée secondaire de STP-298 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SNW «A Case of Chiaroscuro») et même fait : occupation klingonne de Mat’aar XII et résistance locale. STP-298 est retenue comme principale : fiche approfondie et niveau de recoupement supérieur."
+  },
+  {
+   "id": "STP-298",
+   "type": "signalement",
+   "champs": {},
+   "motif": "doublon tranché : entrée principale ; STP-054 lui est rattachée comme doublon."
+  },
+  {
+   "id": "STP-254",
+   "type": "correction",
+   "champs": {},
+   "motif": "doublon tranché : entrée secondaire de STP-111 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (TNG «The Quality of Life») et même fait : reconnaissance de la vie des exocomps et refus de leur sacrifice. STP-111 est retenue comme principale : intitulé confirmé par une source officielle (niveau A) ; l’« accès aux droits civiques » de STP-254 n’est pas attesté."
+  },
+  {
+   "id": "STP-111",
+   "type": "signalement",
+   "champs": {},
+   "motif": "doublon tranché : entrée principale ; STP-254 lui est rattachée comme doublon."
+  },
+  {
+   "id": "STP-270",
+   "type": "correction",
+   "champs": {},
+   "motif": "doublon tranché : entrée secondaire de STP-216 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (LD «Old Friends, New Planets») et même fait : la flotte indépendante « Nova Fleet » de Nick Locarno. Doublon déjà signalé dans le corpus V0.3 (« ne pas compter deux événements distincts ») ; STP-216, entrée la plus ancienne, est retenue comme principale."
+  },
+  {
+   "id": "STP-216",
+   "type": "signalement",
+   "champs": {},
+   "motif": "doublon tranché : entrée principale ; STP-270 lui est rattachée comme doublon."
+  }
+ ]
+}

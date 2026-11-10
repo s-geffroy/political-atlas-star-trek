@@ -12,14 +12,14 @@ layout: default
 {%- assign nA = S.niveaux | where: "cle", "A" | first -%}
 {%- assign nB = S.niveaux | where: "cle", "B" | first -%}
 <div class="compteurs" role="list">
-  <div class="compteur" role="listitem"><b>{{ S.total }}</b><span>entrées documentaires</span></div>
+  <div class="compteur" role="listitem"><b>{{ S.distincts }}</b><span>événements distincts ({{ S.total }} entrées, dont {{ S.doublons }} doublons)</span></div>
   <div class="compteur" role="listitem"><b>{{ S.fiches }}</b><span>fiches approfondies</span></div>
   <div class="compteur" role="listitem"><b>{{ nA.n | plus: nB.n }}</b><span>entrées recoupées (A ou B)</span></div>
   <div class="compteur" role="listitem"><b>{{ S.series.size }}</b><span>séries et ensembles couverts</span></div>
 </div>
 
 <div class="encadre encadre--ambre">
-  <p><strong>Corpus.</strong> {{ ed.etat | markdownify | remove: "<p>" | remove: "</p>" | strip }} Le registre est un inventaire de travail, pas une démonstration d’exhaustivité : {{ S.niveaux[2].n }} entrées sur {{ S.total }} restent au niveau C. <a href="{{ '/methodologie/' | relative_url }}">Lire la méthodologie</a>.</p>
+  <p><strong>Corpus.</strong> {{ ed.etat | markdownify | remove: "<p>" | remove: "</p>" | strip }} Le registre est un inventaire de travail, pas une démonstration d’exhaustivité : {{ S.niveaux[2].n }} événements sur {{ S.distincts }} restent au niveau C. <a href="{{ '/methodologie/' | relative_url }}">Lire la méthodologie</a>.</p>
 </div>
 
 <h2>À la une</h2>
@@ -47,7 +47,7 @@ layout: default
     <h3 id="r-niv">Niveaux de vérification</h3>
     <ul class="barres">
       {%- for n in S.niveaux %}
-      <li><a href="{{ '/evenements/' | relative_url }}?niv={{ n.cle }}"><span class="niveau niveau--{{ n.cle }}">{{ n.cle }}</span></a><span class="jauge" aria-hidden="true"><i style="width: {{ n.n | times: 100 | divided_by: S.total }}%"></i></span><span class="n">{{ n.n }}</span></li>
+      <li><a href="{{ '/evenements/' | relative_url }}?niv={{ n.cle }}"><span class="niveau niveau--{{ n.cle }}">{{ n.cle }}</span></a><span class="jauge" aria-hidden="true"><i style="width: {{ n.n | times: 100 | divided_by: S.distincts }}%"></i></span><span class="n">{{ n.n }}</span></li>
       {%- endfor %}
     </ul>
     <p class="carte__meta"><a href="{{ '/methodologie/' | relative_url }}#niveaux">Définition des niveaux A, B, C</a></p>
@@ -82,7 +82,7 @@ layout: default
 
 <h2>Parcourir</h2>
 <ul class="sommaire">
-  <li><a href="{{ '/evenements/' | relative_url }}"><b>Explorateur</b><span>Recherche et filtres sur les {{ S.total }} entrées.</span></a></li>
+  <li><a href="{{ '/evenements/' | relative_url }}"><b>Explorateur</b><span>Recherche et filtres sur les {{ S.distincts }} événements.</span></a></li>
   <li><a href="{{ '/chronologie/' | relative_url }}"><b>Chronologie</b><span>Lecture diégétique ou par date de diffusion.</span></a></li>
   <li><a href="{{ '/atlas/' | relative_url }}"><b>Atlas thématique</b><span>Dix grands domaines politiques et leur table de correspondance.</span></a></li>
   <li><a href="{{ '/analyses/' | relative_url }}"><b>Fiction et histoire réelle</b><span>Comparaisons argumentées, limites comprises.</span></a></li>

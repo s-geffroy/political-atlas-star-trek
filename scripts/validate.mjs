@@ -114,8 +114,17 @@ export function valider({ csv, md } = dernieresSources()) {
       else if (n.titre !== e.event) warn.push(`${id} : titre du registre « ${n.titre} » ≠ CSV « ${e.event} »`);
     }
     for (const x of r.citationsInconnues) err.push(`${x.dans} cite ${x.cite}, absent du corpus`);
+    // Doublons tranches : cibles existantes, pas de chaine, episode commun.
+    const ids = new Set(r.evenements.map((e) => e.id));
+    const secondaires = new Set(r.doublons.map((d) => d.secondaire));
+    for (const d of r.doublons) {
+      if (!ids.has(d.secondaire) || !ids.has(d.principal)) { err.push(`doublon ${d.secondaire} → ${d.principal} : identifiant inconnu`); continue; }
+      if (secondaires.has(d.principal)) err.push(`doublon ${d.secondaire} → ${d.principal} : la principale est elle-même secondaire`);
+      const a = r.evenements.find((e) => e.id === d.secondaire), b = r.evenements.find((e) => e.id === d.principal);
+      if (!a.episodes.some((p) => b.episodes.some((q) => q.titre === p.titre))) warn.push(`doublon ${d.secondaire} → ${d.principal} : aucun épisode commun`);
+    }
     for (const e of gen) for (const a of e.associes) if (!gen.some((g) => g.id === a.id)) err.push(`${e.id} : associé ${a.id} inconnu`);
-    ajouter(6, 'Cohérence fiches ↔ événements', err, warn, `${r.registre.size} notices de registre comparées au CSV.`);
+    ajouter(6, 'Cohérence fiches ↔ événements', err, warn, `${r.registre.size} notices de registre comparées au CSV ; ${r.doublons.length} doublons tranchés vérifiés.`);
   }
 
   // 7. Dates ambigues conservees comme texte
@@ -145,7 +154,7 @@ export function valider({ csv, md } = dernieresSources()) {
   // 9. Aucun enrichissement invente
   {
     const err = [];
-    const derives = new Set(['categories', 'series', 'episodes', 'references_non_rattachees', 'continuite', 'continuite_regle', 'ordre', 'cycle_slug', 'fiche', 'corrections', 'note_editoriale', 'diffusion', 'associes', 'rang_diegetique', 'bande']);
+    const derives = new Set(['categories', 'series', 'episodes', 'references_non_rattachees', 'continuite', 'continuite_regle', 'ordre', 'cycle_slug', 'fiche', 'corrections', 'note_editoriale', 'diffusion', 'associes', 'rang_diegetique', 'bande', 'doublon_de', 'doublons']);
     for (const e of gen) for (const k of Object.keys(e)) if (!COLONNES.includes(k) && !derives.has(k)) err.push(`${e.id} : champ « ${k} » non prévu`);
     for (const f of Object.values(genFiches)) {
       for (const [k, v] of [...Object.entries(f.volets), ...Object.entries(f.entetes)]) if (!mdText.includes(v)) err.push(`${f.id} : ${k} absent du Markdown source`);

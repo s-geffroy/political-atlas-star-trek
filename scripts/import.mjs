@@ -43,6 +43,11 @@ export function bande(o) {
   return `${romain(siecle)}e siècle`;
 }
 
+export function lireDoublons() {
+  const p = path.join(ROOT, 'data/doublons.json');
+  return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')).doublons : [];
+}
+
 export function importer(csvPath, mdPath) {
   const csvText = fs.readFileSync(csvPath, 'utf8');
   const md = fs.readFileSync(mdPath, 'utf8');
@@ -94,6 +99,18 @@ export function importer(csvPath, mdPath) {
   });
   const parId = new Map(evenements.map((e) => [e.id, e]));
 
+  // Doublons tranches (data/doublons.json) : la secondaire renvoie a la
+  // principale et n'est pas comptee comme evenement distinct.
+  const doublons = lireDoublons();
+  for (const e of evenements) { e.doublon_de = null; e.doublons = []; }
+  for (const d of doublons) {
+    if (parId.has(d.secondaire) && parId.has(d.principal)) {
+      parId.get(d.secondaire).doublon_de = { id: d.principal, motif: d.motif };
+      parId.get(d.principal).doublons.push(d.secondaire);
+    }
+  }
+  const distincts = evenements.filter((e) => !e.doublon_de);
+
   // Rang diegetique (tri seulement) et bande d'affichage (siecle de la cle).
   const groupe = (o) => (o.precision === 'passe_lointain' ? 0 : o.cle == null ? 2 : 1);
   [...evenements]
@@ -143,20 +160,22 @@ export function importer(csvPath, mdPath) {
   const categoriesPresentes = [...new Set(evenements.flatMap((e) => e.categories))].sort();
   const stats = {
     total: evenements.length,
-    fiches: evenements.filter((e) => e.fiche).length,
-    niveaux: compte(evenements.map((e) => e.niveau_recoupement), ['A', 'B', 'C']),
-    cycles: compte(evenements.map((e) => e.cycle), cyclesOrdre).map((c) => ({ ...c, slug: slug(c.cle) })),
-    series: compte(evenements.flatMap((e) => e.series), seriesCodes).map((c) => ({ ...c, nom: SERIES.find((s) => s.code === c.cle).nom })),
-    categories: compte(evenements.flatMap((e) => e.categories)),
-    continuites: compte(evenements.map((e) => e.continuite), Object.keys(CONTINUITES)).map((c) => ({ ...c, nom: CONTINUITES[c.cle] })),
-    versions: compte(evenements.map((e) => e.version_entree)),
-    precisions: compte(evenements.map((e) => e.ordre.precision), Object.keys(PRECISIONS)).map((c) => ({ ...c, nom: PRECISIONS[c.cle] })),
-    max_serie: Math.max(...compte(evenements.flatMap((e) => e.series)).map((c) => c.n)),
-    max_categorie: Math.max(...compte(evenements.flatMap((e) => e.categories)).map((c) => c.n)),
-    max_cycle: Math.max(...compte(evenements.map((e) => e.cycle)).map((c) => c.n)),
+    distincts: distincts.length,
+    doublons: evenements.length - distincts.length,
+    fiches: distincts.filter((e) => e.fiche).length,
+    niveaux: compte(distincts.map((e) => e.niveau_recoupement), ['A', 'B', 'C']),
+    cycles: compte(distincts.map((e) => e.cycle), cyclesOrdre).map((c) => ({ ...c, slug: slug(c.cle) })),
+    series: compte(distincts.flatMap((e) => e.series), seriesCodes).map((c) => ({ ...c, nom: SERIES.find((s) => s.code === c.cle).nom })),
+    categories: compte(distincts.flatMap((e) => e.categories)),
+    continuites: compte(distincts.map((e) => e.continuite), Object.keys(CONTINUITES)).map((c) => ({ ...c, nom: CONTINUITES[c.cle] })),
+    versions: compte(distincts.map((e) => e.version_entree)),
+    precisions: compte(distincts.map((e) => e.ordre.precision), Object.keys(PRECISIONS)).map((c) => ({ ...c, nom: PRECISIONS[c.cle] })),
+    max_serie: Math.max(...compte(distincts.flatMap((e) => e.series)).map((c) => c.n)),
+    max_categorie: Math.max(...compte(distincts.flatMap((e) => e.categories)).map((c) => c.n)),
+    max_cycle: Math.max(...compte(distincts.map((e) => e.cycle)).map((c) => c.n)),
   };
 
-  const atlas = construireAtlas(evenements, categoriesPresentes);
+  const atlas = construireAtlas(distincts, categoriesPresentes);
 
   return {
     meta: {
@@ -164,7 +183,7 @@ export function importer(csvPath, mdPath) {
       version: (csvPath.match(/_V(\d+_\d+)_/) || [])[1]?.replace('_', '.') || null,
       etat: editorial.etat, colonnes: header,
     },
-    header, records, rejects, evenements, fiches, problemesFiches, registre, editorial, stats, atlas,
+    header, records, rejects, evenements, distincts, doublons, fiches, problemesFiches, registre, editorial, stats, atlas,
     citationsInconnues, diffusion, corrections,
     referentiels: { series: SERIES, continuites: CONTINUITES, precisions: PRECISIONS, domaines: DOMAINES },
   };
@@ -243,9 +262,9 @@ export function ecrireSorties(r) {
   // (data/diffusion.json), y compris celles sans entree, et tous les films.
   const diff = r.diffusion;
   const films = (diff.films || []).slice().sort((a, b) => (a.date || '9999').localeCompare(b.date || '9999'))
-    .map((f) => ({ ...f, evenements: (f.titre_corpus ? r.evenements.filter((e) => e.episodes.some((p) => p.serie === 'Film' && titreFilm(p.titre) === titreFilm(f.titre_corpus))) : []).map((e) => e.id) }));
+    .map((f) => ({ ...f, evenements: (f.titre_corpus ? r.distincts.filter((e) => e.episodes.some((p) => p.serie === 'Film' && titreFilm(p.titre) === titreFilm(f.titre_corpus))) : []).map((e) => e.id) }));
   const filmsDates = films.filter((f) => f.date);
-  const parSerie = (code) => r.evenements.filter((e) => e.series.includes(code))
+  const parSerie = (code) => r.distincts.filter((e) => e.series.includes(code))
     .map((e) => ({ id: e.id, date: e.diffusion[0]?.date || null }))
     .sort((x, y) => (x.date || '9999').localeCompare(y.date || '9999') || x.id.localeCompare(y.id));
   const blocs = [

@@ -13,10 +13,17 @@ layout: default
       <span class="niveau niveau--{{ e.niveau_recoupement }}">{{ e.niveau_recoupement }}</span>
       {%- for c in e.categories %} <span class="etiquette">{{ c }}</span>{% endfor -%}
       {%- if f %} <span class="etiquette etiquette--fiche">Fiche approfondie</span>{% else %} <span class="etiquette">Notice synthétique</span>{% endif -%}
+      {%- if e.doublon_de %} <span class="etiquette etiquette--cont">Doublon de {{ e.doublon_de.id }}</span>{% endif -%}
       {%- if e.continuite != "principale" %} <span class="etiquette etiquette--cont">{{ R.continuites[e.continuite] }}</span>{% endif %}
     </p>
   </header>
 
+  {%- if e.doublon_de %}
+  <div class="encadre encadre--ambre"><p><strong>Doublon.</strong> Cette entrée décrit le même fait que <a href="{{ '/evenements/' | append: e.doublon_de.id | append: '/' | relative_url }}">{{ e.doublon_de.id }}</a>, entrée principale, à consulter en priorité. Elle est conservée pour la stabilité des identifiants et des liens, mais n’est pas comptée comme un événement distinct. {{ e.doublon_de.motif | escape }}</p></div>
+  {%- endif %}
+  {%- if e.doublons.size > 0 %}
+  <div class="encadre"><p><strong>Entrée principale.</strong> Doublon{% if e.doublons.size > 1 %}s{% endif %} rattaché{% if e.doublons.size > 1 %}s{% endif %} : {% for d in e.doublons %}<a href="{{ '/evenements/' | append: d | append: '/' | relative_url }}">{{ d }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.</p></div>
+  {%- endif %}
   {%- if e.continuite != "principale" %}
   <div class="encadre encadre--alerte"><p><strong>{{ R.continuites[e.continuite] }}.</strong> Cette entrée relève d’une continuité distincte de la chronologie principale ; elle ne doit pas être fusionnée avec les événements de celle-ci. Classement dérivé de la règle : {{ e.continuite_regle | markdownify | remove: "<p>" | remove: "</p>" | strip }}.</p></div>
   {%- endif %}

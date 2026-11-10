@@ -1,10 +1,12 @@
 {
  "total": 305,
+ "distincts": 302,
+ "doublons": 3,
  "fiches": 31,
  "niveaux": [
   {
    "cle": "A",
-   "n": 213
+   "n": 212
   },
   {
    "cle": "B",
@@ -12,7 +14,7 @@
   },
   {
    "cle": "C",
-   "n": 4
+   "n": 2
   }
  ],
  "cycles": [
@@ -28,7 +30,7 @@
   },
   {
    "cle": "Discovery et Strange New Worlds : crises du XXIIIe siècle",
-   "n": 17,
+   "n": 16,
    "slug": "discovery-et-strange-new-worlds-crises-du-xxiiie-siecle"
   },
   {
@@ -88,7 +90,7 @@
   },
   {
    "cle": "Compléments : épisodes sociaux, politiques locales et formats courts",
-   "n": 30,
+   "n": 28,
    "slug": "complements-episodes-sociaux-politiques-locales-et-formats-courts"
   },
   {
@@ -160,7 +162,7 @@
   },
   {
    "cle": "TNG",
-   "n": 44,
+   "n": 43,
    "nom": "The Next Generation"
   },
   {
@@ -195,7 +197,7 @@
   },
   {
    "cle": "LD",
-   "n": 12,
+   "n": 11,
    "nom": "Lower Decks"
   },
   {
@@ -205,7 +207,7 @@
   },
   {
    "cle": "SNW",
-   "n": 20,
+   "n": 19,
    "nom": "Strange New Worlds"
   },
   {
@@ -221,11 +223,11 @@
   },
   {
    "cle": "justice/droits",
-   "n": 87
+   "n": 86
   },
   {
    "cle": "diplomatie/traité",
-   "n": 69
+   "n": 68
   },
   {
    "cle": "renseignement/sécurité",
@@ -233,7 +235,7 @@
   },
   {
    "cle": "insurrection/pouvoir",
-   "n": 58
+   "n": 57
   },
   {
    "cle": "institutions/fédéralisme",
@@ -241,15 +243,15 @@
   },
   {
    "cle": "technologie/bioéthique",
-   "n": 31
+   "n": 30
   },
   {
    "cle": "économie/social",
-   "n": 28
+   "n": 27
   },
   {
    "cle": "colonialisme/occupation",
-   "n": 27
+   "n": 26
   },
   {
    "cle": "religion/légitimité",
@@ -259,7 +261,7 @@
  "continuites": [
   {
    "cle": "principale",
-   "n": 287,
+   "n": 284,
    "nom": "Continuité principale"
   },
   {
@@ -281,11 +283,11 @@
  "versions": [
   {
    "cle": "V0.4 révisé",
-   "n": 124
+   "n": 122
   },
   {
    "cle": "V0.5 révisé",
-   "n": 113
+   "n": 111
   },
   {
    "cle": "V0.7 révisé",
@@ -293,7 +295,7 @@
   },
   {
    "cle": "V0.6 révisé",
-   "n": 16
+   "n": 14
   },
   {
    "cle": "V0.3 ajout",
@@ -306,17 +308,21 @@
   {
    "cle": "V0.3 révisé",
    "n": 4
+  },
+  {
+   "cle": "V0.8 révisé",
+   "n": 3
   }
  ],
  "precisions": [
   {
    "cle": "annee",
-   "n": 211,
+   "n": 209,
    "nom": "Année explicite"
   },
   {
    "cle": "annee_qualifiee",
-   "n": 25,
+   "n": 24,
    "nom": "Année avec réserve (intervalle, « env. », alternative…)"
   },
   {

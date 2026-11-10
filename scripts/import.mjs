@@ -232,8 +232,14 @@ export function reseau(r) {
     communs.push({ de: id, vers: a.id, type: 'episode_commun', url: null });
   }
   const rels = [...relsDoc, ...communs];
+  // Groupes = arcs internes a une serie : seules les relations entre evenements
+  // de meme serie principale forment les groupes ; les relations entre series
+  // sont listees sous chaque groupe (« liens vers d'autres arcs »).
+  const serieP = (id) => parId.get(id).series[0] || 'Film';
+  const interne = (x) => serieP(x.de) === serieP(x.vers);
   const voisins = new Map();
-  for (const x of rels) for (const [a, b] of [[x.de, x.vers], [x.vers, x.de]]) {
+  for (const id of dansReseau) voisins.set(id, new Set());
+  for (const x of rels.filter(interne)) for (const [a, b] of [[x.de, x.vers], [x.vers, x.de]]) {
     if (!voisins.has(a)) voisins.set(a, new Set());
     voisins.get(a).add(b);
   }
@@ -248,7 +254,9 @@ export function reseau(r) {
   const tronque = (t, n) => (t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : t);
   const sortie = comps.map((ids) => {
     const set = new Set(ids);
-    const aretes = rels.filter((x) => set.has(x.de));
+    const aretes = rels.filter((x) => set.has(x.de) && set.has(x.vers));
+    const externes = relsDoc.filter((x) => (set.has(x.de) || set.has(x.vers)) && !(set.has(x.de) && set.has(x.vers)))
+      .map((x) => ({ de: x.de, vers: x.vers, type: x.type, autre: set.has(x.de) ? x.vers : x.de, sortant: set.has(x.de) }));
     // Couche = plus long chemin depuis une source (cause/suite) ; meme_arc : meme couche minimale.
     const couche = new Map(ids.map((i) => [i, 0]));
     for (let k = 0; k < ids.length; k++) for (const x of aretes) {
@@ -282,16 +290,22 @@ export function reseau(r) {
       }
       return { de: x.de, vers: x.vers, type: x.type, d, url: x.url };
     });
-    const cycles = {};
-    for (const id of ids) cycles[parId.get(id).cycle] = (cycles[parId.get(id).cycle] || 0) + 1;
-    const cycle = Object.entries(cycles).sort((a, b) => b[1] - a[1])[0][0];
-    return { titre: cycle, taille: ids.length, noeuds, aretes: chemins,
+    // Titre : serie principale + evenement le plus connecte du groupe (le pivot).
+    const degre = (id) => aretes.filter((x) => x.de === id || x.vers === id).length + relsDoc.filter((x) => x.de === id || x.vers === id).length / 100;
+    const pivot = [...ids].sort((a, b) => degre(b) - degre(a) || parId.get(a).rang_diegetique - parId.get(b).rang_diegetique)[0];
+    const nomSerie = (SERIES.find((x) => x.code === serieP(pivot)) || { nom: serieP(pivot) }).nom;
+    const cycle = `${nomSerie} — ${tronque(parId.get(pivot).event, 70)}`;
+    return { titre: cycle, taille: ids.length, noeuds, aretes: chemins, externes,
       largeur: PADX + PAD + nCouches * NW + (nCouches - 1) * GX, hauteur: PAD * 2 + maxL * NH + (maxL - 1) * GY };
   }).sort((a, b) => b.taille - a.taille);
   sortie.forEach((c, i) => {
     c.numero = i + 1;
     c.cle = [...c.noeuds.map((n) => n.id)].sort()[0]; // cle stable : plus petit identifiant du groupe
     c.ids = c.noeuds.map((n) => n.id);
+  });
+  const groupeDe = new Map(sortie.flatMap((c) => c.ids.map((id) => [id, c.cle])));
+  sortie.forEach((c) => {
+    for (const x of c.externes) x.groupe = groupeDe.get(x.autre);
     c.series = [...new Set(c.noeuds.flatMap((n) => parId.get(n.id).series))];
     c.nb_relations = c.aretes.filter((a) => a.type !== 'episode_commun').length;
   });

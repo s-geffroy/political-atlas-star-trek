@@ -64,6 +64,6 @@ STP-013 rattachee a TNG « Up the Long Ladder » et « Attached » (formation du
 10. Ecrire d'autres analyses fiction / histoire a partir des 31 fiches (Terra Prime, Leyton, Section 31, Data).
 11. Graphiques comparatifs : repartition des categories par serie et par decennie de diffusion.
 12. Visualisations geopolitiques : acteurs (Federation, Klingons, Romuliens, Cardassiens, Dominion...). Cela suppose d'ajouter au corpus un champ « acteurs », qui n'existe pas aujourd'hui.
-13. Relations : etendre au-dela des 60 relations actuelles (paires partageant un episode, relations entre series non explorees).
+13. Relations : 142 relations depuis l'elargissement (docs/proposition-relations-2.md) ; 132 evenements distincts restent sans relation documentee.
 14. Le cas echeant, migrer vers Astro avec le template `github-pages-ci`, par exemple pour une recherche plein texte indexee ou des pages par acteur.
 15. Domaine personnalise : saisir le domaine dans Settings > Pages, puis vider `baseurl`.

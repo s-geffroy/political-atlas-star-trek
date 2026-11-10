@@ -67,7 +67,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-002",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Romulan",
+     "justification": "Les Romuliens se sont séparés des Vulcains pour des raisons idéologiques : ils ont rejeté (« rejected these principles ») les enseignements de Surak. Peu après la mort de ce dernier, « these Vulcan recidivists abandoned their homeworld to colonize the planets Romulus and Remus »."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 1,
@@ -158,7 +165,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-001",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Romulan",
+     "justification": "Les Romuliens se sont séparés des Vulcains pour des raisons idéologiques : ils ont rejeté (« rejected these principles ») les enseignements de Surak. Peu après la mort de ce dernier, « these Vulcan recidivists abandoned their homeworld to colonize the planets Romulus and Remus »."
+    }
+   ]
   },
   "rang_diegetique": 2,
   "bande": "Passé lointain",
@@ -299,7 +313,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-072",
+     "type": "cause",
+     "url": "http://chakoteya.net/StarTrek/TAS011.htm",
+     "justification": "Spock : « The Slavers and all their subjects were exterminated in the war that followed », et l'arme convoitée est une relique slaver. En conclusion : « That ancient war could have sparked a new war between man and Kzinti »."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 4,
@@ -394,6 +415,12 @@
      "type": "suite",
      "url": "https://en.wikipedia.org/wiki/Space_Seed",
      "justification": "La page de « Space Seed » indique : « The events of \"Space Seed\" are followed up in the 1982 film Star Trek II: The Wrath of Khan ». La page du film le confirme : il « is a sequel to the television episode \"Space Seed\" ». Le retour de Khan prolonge directement son exil après la période des guerres eugéniques."
+    },
+    {
+     "id": "STP-009",
+     "type": "meme_arc",
+     "url": "https://startrek.com/news/recap-star-trek-strange-new-worlds-strange-new-worlds",
+     "justification": "Pike décrit la seconde guerre civile américaine et les guerres eugéniques, « conflicts that led to Earth's catastrophic World War III » : les guerres eugéniques de Khan (TOS/ENT) et le récit de SNW relèvent du même conflit nommé."
     }
    ],
    "entrantes": []
@@ -491,7 +518,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-203",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2",
+     "justification": "La page de saison nomme la « Confederation of Earth », xénophobe, de la ligne temporelle de 2401, et explique qu'elle est née d'un changement opéré par Q en 2024, le 15 avril (« Watcher »). Les deux entrées relèvent de la même chronologie modifiée."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 13,
@@ -554,7 +588,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-203",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2",
+     "justification": "Dans «Penance», la reine borg indique qu'on peut empêcher la formation de la Confédération « by travelling to Los Angeles in 2024 ». Dans «Fly Me to the Moon», Picard sait qu'il est « essential that she does not back out of the Europa mission » (Renée Picard). Le passage d'une chronologie à l'autre est explicite (voyage temporel)."
+    }
+   ]
   },
   "rang_diegetique": 14,
   "bande": "XXIe siècle",
@@ -625,7 +666,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-005",
+     "type": "meme_arc",
+     "url": "https://startrek.com/news/recap-star-trek-strange-new-worlds-strange-new-worlds",
+     "justification": "Pike décrit la seconde guerre civile américaine et les guerres eugéniques, « conflicts that led to Earth's catastrophic World War III » : les guerres eugéniques de Khan (TOS/ENT) et le récit de SNW relèvent du même conflit nommé."
+    }
+   ]
   },
   "rang_diegetique": 15,
   "bande": "XXIe siècle",
@@ -853,7 +901,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-015",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise",
+     "justification": "Selon la présentation de la série, les Vulcains « have withheld advanced technology from humanity since their first contact », car ils jugent les humains pas encore prêts. T'Pol est affectée à l'Enterprise « to keep the humans out of trouble »."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 17,
@@ -989,7 +1044,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-072",
+     "type": "cause",
+     "url": "http://chakoteya.net/StarTrek/TAS011.htm",
+     "justification": "Transcription de l'épisode. Sulu : « The Kzinti fought four wars with humankind and lost all of them. » Spock rappelle que le traité de Sirius leur interdit toute arme hors vaisseaux de police. Le Chuft-Captain déclare : « We seek a weapon that will defeat you at last »."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 12,
@@ -1067,7 +1129,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-012",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise",
+     "justification": "Selon la présentation de la série, les Vulcains « have withheld advanced technology from humanity since their first contact », car ils jugent les humains pas encore prêts. T'Pol est affectée à l'Enterprise « to keep the humans out of trouble »."
+    }
+   ]
   },
   "rang_diegetique": 19,
   "bande": "XXIIe siècle",
@@ -1135,7 +1204,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-018",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Broken_Bow_(Star_Trek:_Enterprise)",
+     "justification": "Klaang porte « proof of Suliban involvement in attacks on Klingon factions » ; les Sulibans qui le poursuivent agissent sur ordre d'une figure du futur, « the enhanced Suliban are following orders in a Temporal Cold War »."
+    }
+   ]
   },
   "rang_diegetique": 20,
   "bande": "XXIIe siècle",
@@ -1296,6 +1372,12 @@
      "type": "cause",
      "url": "https://en.wikipedia.org/wiki/Detained_(Star_Trek:_Enterprise)",
      "justification": "Le camp tandarien est « an internment camp for Suliban imprisoned when the Cabal began attacking the Tandaran Sector » : les attaques du Cabale suliban, acteur de la guerre froide temporelle, déclenchent l'internement. Le colonel Grat interroge d'ailleurs Archer sur la guerre froide temporelle."
+    },
+    {
+     "id": "STP-016",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Broken_Bow_(Star_Trek:_Enterprise)",
+     "justification": "Klaang porte « proof of Suliban involvement in attacks on Klingon factions » ; les Sulibans qui le poursuivent agissent sur ordre d'une figure du futur, « the enhanced Suliban are following orders in a Temporal Cold War »."
     }
    ],
    "entrantes": []
@@ -1845,7 +1927,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-290",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Damage_(Star_Trek:_Enterprise)",
+     "justification": "Privé de distorsion après Azati Prime, Archer vole le module des Illyriens et le justifie comme nécessité de guerre : « saving billions of lives » face à la menace xindie."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-026",
@@ -1930,6 +2019,12 @@
      "type": "cause",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise",
      "justification": "L'article décrit les Constructeurs de sphères comme des « aliens who were also manipulating the Xindi into attacking Earth during Archer's time period » : ils sont donc à l'origine de l'attaque xindie contre la Terre."
+    },
+    {
+     "id": "STP-029",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Council_(Star_Trek:_Enterprise)",
+     "justification": "Un Gardien promet à Dolim « Reptilian dominance if he continues their original plan » ; à la réunion suivante, « the Reptilian and Insectoid members leave » le Conseil."
     }
    ],
    "entrantes": []
@@ -2005,7 +2100,20 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-290",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Damage_(Star_Trek:_Enterprise)",
+     "justification": "Après le vol, « Enterprise heads for the covert rendezvous » fixé par Degra ; dans le même épisode un conseil xindi partiel se divise, Degra insistant pour examiner les preuves d'Archer sur le lien Gardiens–Constructeurs de sphères."
+    },
+    {
+     "id": "STP-028",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Council_(Star_Trek:_Enterprise)",
+     "justification": "Un Gardien promet à Dolim « Reptilian dominance if he continues their original plan » ; à la réunion suivante, « the Reptilian and Insectoid members leave » le Conseil."
+    }
+   ]
   },
   "rang_diegetique": 38,
   "bande": "XXIIe siècle",
@@ -2149,7 +2257,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-032",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Kir%27Shara",
+     "justification": "Le Kir'Shara présenté au Haut Commandement révèle que l'attentat n'était qu'un prétexte avant la frappe contre l'Andorie ; V'Las est relevé et le Haut Commandement dissous."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-030",
@@ -2239,6 +2354,12 @@
      "type": "suite",
      "url": "https://en.wikipedia.org/wiki/Kir%27Shara",
      "justification": "Il s'agit du dernier volet de l'arc en trois parties ouvert par « The Forge ». Archer, T'Pol et T'Pau révèlent au Haut Commandement que l'attentat contre l'ambassade était un prétexte ; V'Las est alors « relieved of his post » et le Haut Commandement est dissous."
+    },
+    {
+     "id": "STP-031",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Kir%27Shara",
+     "justification": "Le Kir'Shara présenté au Haut Commandement révèle que l'attentat n'était qu'un prétexte avant la frappe contre l'Andorie ; V'Las est relevé et le Haut Commandement dissous."
     }
    ]
   },
@@ -2388,7 +2509,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-035",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+     "justification": "Résumé de « Demons » : « A xenophobic faction of humanity threatens to undermine talks to form a new coalition of planets. » Terra Prime et la conférence forment l'intrigue du diptyque Demons / Terra Prime."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 43,
@@ -2466,8 +2594,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-038",
+     "type": "suite",
+     "url": "https://reactormag.com/star-trek-enterprise-rewatch-demons/",
+     "justification": "« The Coalition of Planets is obviously a precursor to the Federation, which will be founded seven years after this episode. » La page Wikipedia de « These Are the Voyages… » situe la signature de la charte « some six years after the events of \"Terra Prime\" »."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-034",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+     "justification": "Résumé de « Demons » : « A xenophobic faction of humanity threatens to undermine talks to form a new coalition of planets. » Terra Prime et la conférence forment l'intrigue du diptyque Demons / Terra Prime."
+    }
+   ]
   },
   "rang_diegetique": 45,
   "bande": "XXIIe siècle",
@@ -2536,7 +2678,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-037",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Balance_of_Terror",
+     "justification": "La zone neutre a été « formed under the terms of the peace treaty that ended the Earth–Romulan War a century earlier »."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 46,
@@ -2606,7 +2755,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-036",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Balance_of_Terror",
+     "justification": "La zone neutre a été « formed under the terms of the peace treaty that ended the Earth–Romulan War a century earlier »."
+    }
+   ]
   },
   "rang_diegetique": 47,
   "bande": "XXIIe siècle",
@@ -2679,7 +2835,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-035",
+     "type": "suite",
+     "url": "https://reactormag.com/star-trek-enterprise-rewatch-demons/",
+     "justification": "« The Coalition of Planets is obviously a precursor to the Federation, which will be founded seven years after this episode. » La page Wikipedia de « These Are the Voyages… » situe la signature de la charte « some six years after the events of \"Terra Prime\" »."
+    }
+   ]
   },
   "rang_diegetique": 48,
   "bande": "XXIIe siècle",
@@ -2748,7 +2911,14 @@
      "justification": "Le résumé de « Context Is for Kings » parle de « the war Burnham started by killing T'Kuvma » : la bataille des Étoiles binaires déclenche la guerre Fédération–Klingons."
     }
    ],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-040",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Battle_at_the_Binary_Stars",
+     "justification": "T'Kuvma exhorte les chefs des 24 grandes maisons à combattre la Fédération qui menacerait l'identité klingonne ; convaincus, ils acceptent de se battre, d'où la bataille aux étoiles binaires."
+    }
+   ]
   },
   "rang_diegetique": 61,
   "bande": "XXIIIe siècle",
@@ -2808,7 +2978,20 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-041",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Battle_at_the_Binary_Stars",
+     "justification": "« T'Kuvma pleads with the other leaders to join him in fighting the United Federation of Planets » ; les chefs klingons « agree to fight », ce qui lance la guerre."
+    },
+    {
+     "id": "STP-039",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Battle_at_the_Binary_Stars",
+     "justification": "T'Kuvma exhorte les chefs des 24 grandes maisons à combattre la Fédération qui menacerait l'identité klingonne ; convaincus, ils acceptent de se battre, d'où la bataille aux étoiles binaires."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 62,
@@ -2876,6 +3059,18 @@
      "type": "meme_arc",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
      "justification": "« The Broken Circle » : « a cabal of ex-Starfleet and Klingon soldiers are plotting to restart the recently ended Klingon–Federation war ». C'est le même conflit, que des factions veulent relancer."
+    },
+    {
+     "id": "STP-042",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Will_You_Take_My_Hand%3F",
+     "justification": "Page (saison 1 de Discovery) : le plan de Cornwell — « detonating the bomb in the active volcano will annihilate all life on Qo'noS and win the war for the Federation » — est l'aboutissement de la guerre."
+    },
+    {
+     "id": "STP-053",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Under_the_Cloak_of_War",
+     "justification": "Dak'Rah a commandé les forces klingonnes sur J'Gal ; « Veterans of the Federation–Klingon war, including Ortegas, M'Benga, and Chapel, are uncomfortable with his presence » (lien DIS → SNW par la guerre nommée)."
     }
    ],
    "entrantes": [
@@ -2884,6 +3079,12 @@
      "type": "cause",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
      "justification": "Le résumé de « Context Is for Kings » parle de « the war Burnham started by killing T'Kuvma » : la bataille des Étoiles binaires déclenche la guerre Fédération–Klingons."
+    },
+    {
+     "id": "STP-040",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Battle_at_the_Binary_Stars",
+     "justification": "« T'Kuvma pleads with the other leaders to join him in fighting the United Federation of Planets » ; les chefs klingons « agree to fight », ce qui lance la guerre."
     }
    ]
   },
@@ -2946,8 +3147,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-043",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Will_You_Take_My_Hand%3F",
+     "justification": "Le détonateur est remis à L'Rell, qui « uses the threat of mass destruction to unite the Klingon houses under her leadership »."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-041",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Will_You_Take_My_Hand%3F",
+     "justification": "Page (saison 1 de Discovery) : le plan de Cornwell — « detonating the bomb in the active volcano will annihilate all life on Qo'noS and win the war for the Federation » — est l'aboutissement de la guerre."
+    }
+   ]
   },
   "rang_diegetique": 64,
   "bande": "XXIIIe siècle",
@@ -3017,7 +3232,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-042",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Will_You_Take_My_Hand%3F",
+     "justification": "Le détonateur est remis à L'Rell, qui « uses the threat of mass destruction to unite the Klingon houses under her leadership »."
+    }
+   ]
   },
   "rang_diegetique": 65,
   "bande": "XXIIIe siècle",
@@ -3074,6 +3296,12 @@
      "type": "cause",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
      "justification": "Pour échapper à Control, Burnham propose d'envoyer Discovery dans le futur « where Control cannot get to it » ; l'équipage reçoit ensuite l'ordre de ne jamais en parler « to prevent another incident like Control »."
+    },
+    {
+     "id": "STP-046",
+     "type": "cause",
+     "url": "https://startrek.com/news/recap-star-trek-strange-new-worlds-strange-new-worlds",
+     "justification": "Le récapitulatif officiel explique que la population de Kiley 279 a fabriqué une bombe à distorsion après avoir étudié la technologie lors de la bataille de Discovery contre Control, livrée tout près : « their battle with Control took place so close to this planet » (lien DIS saison 2 → SNW)."
     }
    ],
    "entrantes": []
@@ -3195,7 +3423,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-044",
+     "type": "cause",
+     "url": "https://startrek.com/news/recap-star-trek-strange-new-worlds-strange-new-worlds",
+     "justification": "Le récapitulatif officiel explique que la population de Kiley 279 a fabriqué une bombe à distorsion après avoir étudié la technologie lors de la bataille de Discovery contre Control, livrée tout près : « their battle with Control took place so close to this planet » (lien DIS saison 2 → SNW)."
+    }
+   ]
   },
   "rang_diegetique": 72,
   "bande": "XXIIIe siècle",
@@ -3360,6 +3595,12 @@
      "type": "suite",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
      "justification": "La saison 2 reprend l'arrestation de la saison 1 ; dans « Ad Astra per Aspera », l'accusation montre que Number One « violated Starfleet's anti–genetic modification laws »."
+    },
+    {
+     "id": "STP-050",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+     "justification": "Una témoigne de l'oppression et de la marginalisation des Illyriens ; la défense soutient qu'elle cherchait l'asile en rejoignant Starfleet, interprétation retenue par les juges qui l'acquittent."
     }
    ]
   },
@@ -3491,6 +3732,12 @@
      "type": "cause",
      "url": "https://en.wikipedia.org/wiki/A_Quality_of_Mercy_(Star_Trek:_Strange_New_Worlds)",
      "justification": "Batel « arrests Number One for being an Illyrian » ; la page rappelle que les Illyriens sont « banned by the Federation due to their genetic engineering » et renvoie à la révélation de « Ghosts of Illyria »."
+    },
+    {
+     "id": "STP-048",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+     "justification": "Una témoigne de l'oppression et de la marginalisation des Illyriens ; la défense soutient qu'elle cherchait l'asile en rejoignant Starfleet, interprétation retenue par les juges qui l'acquittent."
     }
    ],
    "entrantes": []
@@ -3692,7 +3939,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-041",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Under_the_Cloak_of_War",
+     "justification": "Dak'Rah a commandé les forces klingonnes sur J'Gal ; « Veterans of the Federation–Klingon war, including Ortegas, M'Benga, and Chapel, are uncomfortable with his presence » (lien DIS → SNW par la guerre nommée)."
+    }
+   ]
   },
   "rang_diegetique": 79,
   "bande": "XXIIIe siècle",
@@ -4801,7 +5055,20 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-014",
+     "type": "cause",
+     "url": "http://chakoteya.net/StarTrek/TAS011.htm",
+     "justification": "Transcription de l'épisode. Sulu : « The Kzinti fought four wars with humankind and lost all of them. » Spock rappelle que le traité de Sirius leur interdit toute arme hors vaisseaux de police. Le Chuft-Captain déclare : « We seek a weapon that will defeat you at last »."
+    },
+    {
+     "id": "STP-004",
+     "type": "cause",
+     "url": "http://chakoteya.net/StarTrek/TAS011.htm",
+     "justification": "Spock : « The Slavers and all their subjects were exterminated in the war that followed », et l'arme convoitée est une relique slaver. En conclusion : « That ancient war could have sparked a new war between man and Kzinti »."
+    }
+   ]
   },
   "rang_diegetique": 99,
   "bande": "XXIIIe siècle",
@@ -5095,7 +5362,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-079",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country",
+     "justification": "Le résumé du film indique que la perte de Praxis et la dévastation écologique de Qo'noS plongent l'Empire klingon dans le chaos (« throws the Klingon Empire into turmoil ») et le poussent vers la paix. Les négociations qui en découlent aboutissent à la conférence de Khitomer."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 112,
@@ -5164,7 +5438,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-079",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country",
+     "justification": "Après l'assassinat de Gorkon, sa fille Azetbur poursuit les pourparlers sur un site secret, Khitomer. Les conspirateurs fédéraux, klingons et romuliens y tentent ensuite d'assassiner le président de la Fédération (« conspired to sabotage the peace talks »), et l'Enterprise déjoue cette tentative pendant la conférence."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 113,
@@ -5233,8 +5514,28 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-138",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "L'intrigue de DS9 rompt explicitement le cadre de paix établi en 2293 : « the Klingon Empire withdraws from the Khitomer Accords, ending its alliance with the Federation »."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-077",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country",
+     "justification": "Le résumé du film indique que la perte de Praxis et la dévastation écologique de Qo'noS plongent l'Empire klingon dans le chaos (« throws the Klingon Empire into turmoil ») et le poussent vers la paix. Les négociations qui en découlent aboutissent à la conférence de Khitomer."
+    },
+    {
+     "id": "STP-078",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country",
+     "justification": "Après l'assassinat de Gorkon, sa fille Azetbur poursuit les pourparlers sur un site secret, Khitomer. Les conspirateurs fédéraux, klingons et romuliens y tentent ensuite d'assassiner le président de la Fédération (« conspired to sabotage the peace talks »), et l'Enterprise déjoue cette tentative pendant la conférence."
+    }
+   ]
   },
   "rang_diegetique": 114,
   "bande": "XXIIIe siècle",
@@ -5483,7 +5784,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-084",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Nemesis",
+     "justification": "Shinzon prend le contrôle de l'Empire romulien par un coup d'État qui désintègre le préteur et le Sénat. Il affiche ensuite un désir de paix, mais prépare l'éradication de toute vie sur Terre avec son générateur de radiations thalaron."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 240,
@@ -5546,7 +5854,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-083",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Nemesis",
+     "justification": "Shinzon prend le contrôle de l'Empire romulien par un coup d'État qui désintègre le préteur et le Sénat. Il affiche ensuite un désir de paix, mais prépare l'éradication de toute vie sur Terre avec son générateur de radiations thalaron."
+    }
+   ]
   },
   "rang_diegetique": 241,
   "bande": "XXIVe siècle",
@@ -5606,8 +5921,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-086",
+     "type": "suite",
+     "url": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-nero",
+     "justification": "La même vengeance de Nero se poursuit : après l'attaque contre l'USS Kelvin, il oblige Spock à assister à la destruction de Vulcain (« forces him to witness the destruction of Vulcan with Spock's supply of red matter »)."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-195",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Romulus_(star)",
+     "justification": "La même section « The Romulan supernova » relie le sauvetage fédéral (PIC) à la destruction de Romulus en 2387 et à la plongée de Spock et de Nero dans le trou noir, « resulting in the creation of the alternate reality » (film de 2009). Le passage d'une continuité à l'autre est établi explicitement par la source."
+    }
+   ]
   },
   "rang_diegetique": 58,
   "bande": "XXIIIe siècle",
@@ -5668,7 +5997,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-085",
+     "type": "suite",
+     "url": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-nero",
+     "justification": "La même vengeance de Nero se poursuit : après l'attaque contre l'USS Kelvin, il oblige Spock à assister à la destruction de Vulcain (« forces him to witness the destruction of Vulcan with Spock's supply of red matter »)."
+    }
+   ]
   },
   "rang_diegetique": 71,
   "bande": "XXIIIe siècle",
@@ -6118,7 +6454,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-117",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/The_Measure_of_a_Man_(Star_Trek:_The_Next_Generation)",
+     "justification": "« Similar subjects were discussed in a follow-up episode, \"The Offspring\" ». La page précise que le critère établi dans « The Measure of a Man » est réexaminé quand Data crée Lal."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 127,
@@ -6719,7 +7062,14 @@
      "justification": "La page de « Preemptive Strike » nomme l'arc : « The appearance of Nechayev and Evek was intended to add continuity to the developing Maquis arc ». Elle rattache aussi le volet amérindien de l'épisode à celui fait « previously in \"Journey's End\" », où les colons de Dorvan V passent sous contrôle cardassien. Il s'agit de l'arc maquisard."
     }
    ],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-114",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Journey%27s_End_(Star_Trek:_The_Next_Generation)",
+     "justification": "« The Federation has agreed to turn several colonized planets over to the Cardassians as part of a long-negotiated treaty. » L'Enterprise est chargé de déplacer les colons, et Picard reçoit l'ordre d'évacuer ceux de Dorvan V « by any means necessary »."
+    }
+   ]
   },
   "rang_diegetique": 165,
   "bande": "XXIVe siècle",
@@ -7388,7 +7738,26 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-103",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Journey%27s_End_(Star_Trek:_The_Next_Generation)",
+     "justification": "« The Federation has agreed to turn several colonized planets over to the Cardassians as part of a long-negotiated treaty. » L'Enterprise est chargé de déplacer les colons, et Picard reçoit l'ordre d'évacuer ceux de Dorvan V « by any means necessary »."
+    },
+    {
+     "id": "STP-115",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Maquis_(Star_Trek)",
+     "justification": "Le Maquis se forme après le traité de paix Fédération–Cardassia, qui redessine la zone démilitarisée et cède des colonies aux Cardassiens. Certains colons refusent de partir. La même page indique que Ro Laren rejoint le Maquis dans The Next Generation."
+    },
+    {
+     "id": "STP-127",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Selon la page, l'épisode de TNG « Journey's End », diffusé un mois plus tôt, met en place la situation des colons de la nouvelle zone démilitarisée. Ces colons ne sont pas obligés de quitter les mondes annexés par Cardassia, et le diptyque de DS9 en tire la crise maquisarde."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 166,
@@ -7483,6 +7852,12 @@
      "type": "meme_arc",
      "url": "https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)",
      "justification": "La page de « Preemptive Strike » nomme l'arc : « The appearance of Nechayev and Evek was intended to add continuity to the developing Maquis arc ». Elle rattache aussi le volet amérindien de l'épisode à celui fait « previously in \"Journey's End\" », où les colons de Dorvan V passent sous contrôle cardassien. Il s'agit de l'arc maquisard."
+    },
+    {
+     "id": "STP-114",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Maquis_(Star_Trek)",
+     "justification": "Le Maquis se forme après le traité de paix Fédération–Cardassia, qui redessine la zone démilitarisée et cède des colonies aux Cardassiens. Certains colons refusent de partir. La même page indique que Ro Laren rejoint le Maquis dans The Next Generation."
     }
    ]
   },
@@ -7608,7 +7983,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-094",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/The_Measure_of_a_Man_(Star_Trek:_The_Next_Generation)",
+     "justification": "« Similar subjects were discussed in a follow-up episode, \"The Offspring\" ». La page précise que le critère établi dans « The Measure of a Man » est réexaminé quand Data crée Lal."
+    }
+   ]
   },
   "rang_diegetique": 134,
   "bande": "XXIVe siècle",
@@ -7790,7 +8172,20 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-122",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Occupation_of_Bajor",
+     "justification": "L'encadré de l'article sur l'Occupation donne pour issue : « Cardassian military withdrawal », puis « Bajoran Provisional Government established ». La fin de l'occupation débouche directement sur le gouvernement provisoire."
+    },
+    {
+     "id": "STP-276",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Ensign_Ro_(Star_Trek:_The_Next_Generation)",
+     "justification": "« Their homeworld Bajor was annexed by the Cardassians decades ago, and the Bajorans have been refugees ever since. » Orta, défiguré par la torture cardassienne, est le chef bajoran au centre de l'affaire."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 153,
@@ -7905,7 +8300,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-122",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Occupation_of_Bajor",
+     "justification": "Memory Alpha attribue le retrait cardassien de 2369 à la résistance : « Under constant attack by the Bajoran Resistance and unable to subdue them […] the Cardassians withdrew from Bajor in 2369 » (d'après DS9 « Cardassians »)."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 154,
@@ -8003,7 +8405,20 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-121",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Occupation_of_Bajor",
+     "justification": "Memory Alpha attribue le retrait cardassien de 2369 à la résistance : « Under constant attack by the Bajoran Resistance and unable to subdue them […] the Cardassians withdrew from Bajor in 2369 » (d'après DS9 « Cardassians »)."
+    },
+    {
+     "id": "STP-120",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Occupation_of_Bajor",
+     "justification": "L'encadré de l'article sur l'Occupation donne pour issue : « Cardassian military withdrawal », puis « Bajoran Provisional Government established ». La fin de l'occupation débouche directement sur le gouvernement provisoire."
+    }
+   ]
   },
   "rang_diegetique": 155,
   "bande": "XXIVe siècle",
@@ -8084,7 +8499,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-128",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Jem%27Hadar_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Le résumé de Wikipedia montre que l'ultimatum du Dominion vise le trafic qui passe par le trou de ver : le Third Talak'talan annonce que « the Dominion will no longer tolerate the presence of ships from the other side of the wormhole ». L'épisode s'achève sur la destruction de l'Odyssey."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 156,
@@ -8395,6 +8817,12 @@
      "type": "cause",
      "url": "https://memory-alpha.fandom.com/wiki/Maquis",
      "justification": "Article « Maquis » : après l'accord de Dorvan V (TNG «Journey's End»), d'autres colons refusent d'évacuer et restent sous juridiction cardassienne ; les ressentiments montent et l'attaché Calvin Hudson finit par prendre la tête du Maquis (DS9 «The Maquis»). Wikipedia (The Maquis) précise que le double épisode « follow[s] plot elements introduced in » «Journey's End»."
+    },
+    {
+     "id": "STP-114",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Selon la page, l'épisode de TNG « Journey's End », diffusé un mois plus tôt, met en place la situation des colons de la nouvelle zone démilitarisée. Ces colons ne sont pas obligés de quitter les mondes annexés par Cardassia, et le diptyque de DS9 en tire la crise maquisarde."
     }
    ]
   },
@@ -8462,8 +8890,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-146",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "justification": "L'article « Dominion War » place le premier contact officiel (destruction de l'Odyssey par les Jem'Hadar en 2370) en tête de la guerre du Dominion. Il le présente comme l'origine d'une guerre froide où l'invasion devenait inévitable."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-123",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Jem%27Hadar_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Le résumé de Wikipedia montre que l'ultimatum du Dominion vise le trafic qui passe par le trou de ver : le Third Talak'talan annonce que « the Dominion will no longer tolerate the presence of ships from the other side of the wormhole ». L'épisode s'achève sur la destruction de l'Odyssey."
+    }
+   ]
   },
   "rang_diegetique": 171,
   "bande": "XXIVe siècle",
@@ -8681,7 +9123,20 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-137",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
+     "justification": "Memory Alpha range « The Way of the Warrior » dans l'arc nommé « Changeling infiltration », juste après « The Adversary » (arc prev). L'infiltration annoncée par le Changeling capturé (« We're everywhere ») précède l'invasion décidée sur soupçon d'infiltration."
+    },
+    {
+     "id": "STP-139",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/The_Adversary_(episode)",
+     "justification": "Selon une note de production, l'idée de départ de « The Adversary », des Changelings sur Terre, « later served as the basis for the episodes Homefront and Paradise Lost ». Les deux épisodes relèvent de l'arc « Changeling infiltration », qui mène, selon l'article « Dominion War », à la tentative de coup d'État de Leyton."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 177,
@@ -8818,7 +9273,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-135",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Shakaar_(episode)",
+     "justification": "La traque de Shakaar autour des récupérateurs de sol mène Winn à la loi martiale et au bord de la guerre civile. Shakaar se présente alors au poste de Premier ministre, et Kira menace de rendre l'affaire publique si Winn reste candidate."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 179,
@@ -8893,7 +9355,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-134",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Shakaar_(episode)",
+     "justification": "La traque de Shakaar autour des récupérateurs de sol mène Winn à la loi martiale et au bord de la guerre civile. Shakaar se présente alors au poste de Premier ministre, et Kira menace de rendre l'affaire publique si Winn reste candidate."
+    }
+   ]
   },
   "rang_diegetique": 180,
   "bande": "XXIVe siècle",
@@ -8960,7 +9429,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-137",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
+     "justification": "Le Commandement central a été renversé par une résistance civile au profit du Conseil Detapa. Les Klingons, persuadés que des Changelings sont derrière ce coup, envahissent Cardassia : « they are convinced that civilians couldn't have done it without outside help »."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 184,
@@ -9035,9 +9511,28 @@
      "type": "cause",
      "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
      "justification": "« The Klingon invasion of Cardassia had all but destroyed Cardassian infrastructure. In mid-2373, frustrated at the apparent cowardice of the Detapa Council […] Gul Dukat negotiated the entry of the Cardassian Union into the Dominion. »"
+    },
+    {
+     "id": "STP-138",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "La Fédération condamne l'invasion ; l'Empire klingon se retire alors des accords de Khitomer, mettant fin à l'alliance."
     }
    ],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-136",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
+     "justification": "Le Commandement central a été renversé par une résistance civile au profit du Conseil Detapa. Les Klingons, persuadés que des Changelings sont derrière ce coup, envahissent Cardassia : « they are convinced that civilians couldn't have done it without outside help »."
+    },
+    {
+     "id": "STP-132",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
+     "justification": "Memory Alpha range « The Way of the Warrior » dans l'arc nommé « Changeling infiltration », juste après « The Adversary » (arc prev). L'infiltration annoncée par le Changeling capturé (« We're everywhere ») précède l'invasion décidée sur soupçon d'infiltration."
+    }
+   ]
   },
   "rang_diegetique": 185,
   "bande": "XXIVe siècle",
@@ -9112,7 +9607,20 @@
      "justification": "L'épisode sert à « end the Klingon conflict » ouvert en saison 4 et à le relier à l'arc du Dominion : « There was a shape-shifter behind it all along » ; une fois le faux Martok démasqué, Gowron déclare un cessez-le-feu. By Inferno's Light (Memory Alpha) précise que la guerre klingonne « began in \"The Way of the Warrior\" »."
     }
    ],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-079",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "L'intrigue de DS9 rompt explicitement le cadre de paix établi en 2293 : « the Klingon Empire withdraws from the Khitomer Accords, ending its alliance with the Federation »."
+    },
+    {
+     "id": "STP-137",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "La Fédération condamne l'invasion ; l'Empire klingon se retire alors des accords de Khitomer, mettant fin à l'alliance."
+    }
+   ]
   },
   "rang_diegetique": 186,
   "bande": "XXIVe siècle",
@@ -9190,7 +9698,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-132",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/The_Adversary_(episode)",
+     "justification": "Selon une note de production, l'idée de départ de « The Adversary », des Changelings sur Terre, « later served as the basis for the episodes Homefront and Paradise Lost ». Les deux épisodes relèvent de l'arc « Changeling infiltration », qui mène, selon l'article « Dominion War », à la tentative de coup d'État de Leyton."
+    }
+   ]
   },
   "rang_diegetique": 187,
   "bande": "XXIVe siècle",
@@ -9466,6 +9981,12 @@
      "type": "cause",
      "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
      "justification": "L'entrée de Cardassia dans le Dominion donne à celui-ci une tête de pont (« new Dominion foothold ») ; ses convois franchissent le trou de ver, la Fédération le mine, Weyoun lance un ultimatum et la flotte cardasso-dominion attaque DS9 (« By Inferno's Light » puis « Call to Arms »)."
+    },
+    {
+     "id": "STP-144",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/By_Inferno%27s_Light",
+     "justification": "Cardassia admise dans le Dominion sous Dukat, celui-ci promet avec l'aide du Dominion d'éliminer en cinq jours tous les Klingons et Maquisards de l'espace cardassien."
     }
    ],
    "entrantes": [
@@ -9552,6 +10073,12 @@
      "type": "meme_arc",
      "url": "https://memory-alpha.fandom.com/wiki/Maquis",
      "justification": "Historique du Maquis : après la défection d'Eddington et l'affaire des colonies empoisonnées («For the Cause», «For the Uniform»), « barely a month later » Cardassie rejoint le Dominion et les Jem'Hadar anéantissent toutes les colonies maquisardes (« By Inferno's Light », « Blaze of Glory »)."
+    },
+    {
+     "id": "STP-143",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/By_Inferno%27s_Light",
+     "justification": "Cardassia admise dans le Dominion sous Dukat, celui-ci promet avec l'aide du Dominion d'éliminer en cinq jours tous les Klingons et Maquisards de l'espace cardassien."
     }
    ]
   },
@@ -9615,7 +10142,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-273",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Call_to_Arms_(episode)",
+     "justification": "Note de Memory Alpha sur « Call to Arms » : l'insistance de Sisko pour que Bajor n'adhère pas à la Fédération (« Rapture ») « is finally explained in this episode ». Si Bajor avait signé, il n'aurait pas pu conclure de pacte de non-agression avec le Dominion, et Bajor aurait sans doute été le premier monde à tomber."
+    }
+   ]
   },
   "rang_diegetique": 199,
   "bande": "XXIVe siècle",
@@ -9683,13 +10217,32 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-205",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Vadic",
+     "justification": "Memory Alpha : « During the Dominion War in the 2370s, Vadic and nine other \"brothers and sisters\" were held as prisoners of war at Daystrom Station », où ils ont subi les expériences du « Project Proteus ». La torture de ces Changelings s'inscrit dans la guerre du Dominion, nommée par la source."
+    },
+    {
+     "id": "STP-147",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Call_to_Arms_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Les forces du Dominion attaquent la station ; une fois le champ de mines activé, Sisko fait évacuer et cède DS9, que Weyoun et Dukat viennent occuper."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-143",
      "type": "cause",
      "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
      "justification": "L'entrée de Cardassia dans le Dominion donne à celui-ci une tête de pont (« new Dominion foothold ») ; ses convois franchissent le trou de ver, la Fédération le mine, Weyoun lance un ultimatum et la flotte cardasso-dominion attaque DS9 (« By Inferno's Light » puis « Call to Arms »)."
+    },
+    {
+     "id": "STP-128",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "justification": "L'article « Dominion War » place le premier contact officiel (destruction de l'Odyssey par les Jem'Hadar en 2370) en tête de la guerre du Dominion. Il le présente comme l'origine d'une guerre froide où l'invasion devenait inévitable."
     }
    ]
   },
@@ -9781,7 +10334,14 @@
      "justification": "Dans l'arc de l'occupation de la station, « the main characters remaining on the station, led by Major Kira Nerys, work to undermine Dominion rule »."
     }
    ],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-146",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Call_to_Arms_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Les forces du Dominion attaquent la station ; une fois le champ de mines activé, Sisko fait évacuer et cède DS9, que Weyoun et Dukat viennent occuper."
+    }
+   ]
   },
   "rang_diegetique": 201,
   "bande": "XXIVe siècle",
@@ -10244,7 +10804,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-155",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Tacking_Into_the_Wind_(episode)",
+     "justification": "Gowron envoie Martok dans des attaques vouées à l'échec pour le discréditer. Worf le défie alors pour ce motif (« wasting ships and lives […] just so he can perform a petty act of vengeance »), le tue et remet la robe de chancelier à Martok."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 220,
@@ -10306,7 +10873,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-154",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Tacking_Into_the_Wind_(episode)",
+     "justification": "Gowron envoie Martok dans des attaques vouées à l'échec pour le discréditer. Worf le défie alors pour ce motif (« wasting ships and lives […] just so he can perform a petty act of vengeance »), le tue et remet la robe de chancelier à Martok."
+    }
+   ]
   },
   "rang_diegetique": 221,
   "bande": "XXIVe siècle",
@@ -10453,7 +11027,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-158",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/What_You_Leave_Behind",
+     "justification": "Le soulèvement cardassien coupe les communications du Dominion et les vaisseaux cardassiens changent de camp, renversant la bataille ; la Fondatrice capturée finit par ordonner la reddition et signer l'armistice."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-156",
@@ -10529,6 +11110,12 @@
      "type": "cause",
      "url": "https://memory-alpha.fandom.com/wiki/Morphogenic_virus",
      "justification": "Le virus conçu par Section 31 et transmis aux Fondateurs via Odo est guéri grâce au remède extrait de Sloan ; « Odo cured the Female Changeling by linking with her, prompting the Dominion's surrender » — « The cure to the morphogenic virus was instrumental in ending the Dominion War »."
+    },
+    {
+     "id": "STP-157",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/What_You_Leave_Behind",
+     "justification": "Le soulèvement cardassien coupe les communications du Dominion et les vaisseaux cardassiens changent de camp, renversant la bataille ; la Fondatrice capturée finit par ordonner la reddition et signer l'armistice."
     }
    ]
   },
@@ -10601,7 +11188,20 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-160",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/The_Dogs_of_War_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Pour Wikipedia, l'épisode « concludes the series's long-running plot arc exploring the politics of the greedy Ferengi » : Zek, auteur des réformes (droits des travailleurs, etc.), désigne Rom, et Quark reconnaît que son frère convient mieux pour diriger « a new Ferenginar »."
+    },
+    {
+     "id": "STP-214",
+     "type": "suite",
+     "url": "https://blog.trekcore.com/2023/10/star-trek-lower-decks-review-parth-ferengis-heart-place/",
+     "justification": "TrekCore : l'orientation de Ferenginar vers une économie légale « is a direct continuation of the reforms put into place by Grand Nagus Zek and continued by Grand Nagus Rom ». Membre de la Fédération, Ferenginar serait « law-abiding and progressive (thanks to Rom's reforms) »."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 225,
@@ -10669,8 +11269,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-214",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Parth_Ferengi%27s_Heart_Place_(episode)",
+     "justification": "Lien entre séries (DS9 vers Lower Decks) : dans « Parth Ferengi's Heart Place », c'est le Grand Nagus Rom, avec la First Clerk Leeta, qui négocie l'adhésion de Ferenginar à la Fédération. L'amiral Vassery invoque « many progressive changes brought about by Rom and Leeta »."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-159",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/The_Dogs_of_War_(Star_Trek:_Deep_Space_Nine)",
+     "justification": "Pour Wikipedia, l'épisode « concludes the series's long-running plot arc exploring the politics of the greedy Ferengi » : Zek, auteur des réformes (droits des travailleurs, etc.), désigne Rom, et Quark reconnaît que son frère convient mieux pour diriger « a new Ferenginar »."
+    }
+   ]
   },
   "rang_diegetique": 226,
   "bande": "XXIVe siècle",
@@ -10753,6 +11367,12 @@
      "type": "meme_arc",
      "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)",
      "justification": "Le Maquis introduit ici devient « a key component in the launch of the upcoming series » Voyager, où « The two crews then had to work together to return to the Alpha Quadrant »."
+    },
+    {
+     "id": "STP-269",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Caretaker_(episode)",
+     "justification": "Janeway révèle que Tuvok est un agent infiltré dans la cellule maquisarde de Chakotay. Après la destruction du vaisseau maquisard, elle intègre les Maquisards à l'équipage et nomme Chakotay premier officier."
     }
    ]
   },
@@ -11744,7 +12364,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-268",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31",
+     "justification": "Le film revient sur la prise du trône terrien par Georgiou : elle a empoisonné sa famille et réduit en esclavage son ancien allié San. Ce dernier revient l'affronter ; ce sont les crimes de son règne qui fondent la confrontation."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 59,
@@ -11824,6 +12451,18 @@
      "type": "cause",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
      "justification": "« Vox in Excelso » : pendant le Burn, « Qo'noS and the Klingon Empire were destroyed », et les Klingons sont menacés d'extinction."
+    },
+    {
+     "id": "STP-183",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Unification_III",
+     "justification": "« The Ni'Varians believe SB-19 caused the Burn and do not want to give the data to the Federation » : le Burn est à l'origine du conflit sur les données."
+    },
+    {
+     "id": "STP-230",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Vox_in_Excelso",
+     "justification": "Résumé de «Vox in Excelso» : à cause du Burn, « the Klingon homeworld of Qo'noS was rendered uninhabitable », et l'écrasement d'un vaisseau de survivants met « the species on the brink of extinction »."
     }
    ],
    "entrantes": []
@@ -12098,6 +12737,12 @@
      "type": "suite",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
      "justification": "« All Is Possible » : « Ni'Var fast-tracks its negotiations with the Federation » ; Burnham et Saru aident à trouver un compromis accepté par les deux parties."
+    },
+    {
+     "id": "STP-183",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Unification_III",
+     "justification": "Ni'Var refuse les données SB-19 à la Fédération « whom they have left » : le départ de Ni'Var conditionne le différend."
     }
    ],
    "entrantes": [
@@ -12175,7 +12820,20 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-178",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Unification_III",
+     "justification": "« The Ni'Varians believe SB-19 caused the Burn and do not want to give the data to the Federation » : le Burn est à l'origine du conflit sur les données."
+    },
+    {
+     "id": "STP-182",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Unification_III",
+     "justification": "Ni'Var refuse les données SB-19 à la Fédération « whom they have left » : le départ de Ni'Var conditionne le différend."
+    }
+   ]
   },
   "rang_diegetique": 288,
   "bande": "XXXIIe siècle",
@@ -12787,7 +13445,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-193",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_5",
+     "justification": "Moll tue Ruhn et rallie ses forces « behind her plan to resurrect L'ak », révélant « their search for the Progenitors' technology » ; la lutte successorale breene pousse à la course aux technologies des Progéniteurs."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 297,
@@ -12857,7 +13522,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-192",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_5",
+     "justification": "Moll tue Ruhn et rallie ses forces « behind her plan to resurrect L'ak », révélant « their search for the Progenitors' technology » ; la lutte successorale breene pousse à la course aux technologies des Progéniteurs."
+    }
+   ]
   },
   "rang_diegetique": 298,
   "bande": "XXXIIe siècle",
@@ -12923,7 +13595,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-239",
+     "type": "cause",
+     "url": "https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras",
+     "justification": "La plaque de l'ISS Enterprise : « The Terran High Chancellor was killed for trying to make reforms » ; « some Terrans who believed in peace escaped on the I.S.S. Enterprise » jusqu'à l'univers principal."
+    }
+   ]
   },
   "rang_diegetique": 115,
   "bande": "XXIVe siècle",
@@ -12992,7 +13671,20 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-198",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Romulus_(star)",
+     "justification": "Memory Alpha (section « The Romulan supernova ») décrit l'armada de sauvetage de Picard (10 000 transports, 900 millions de Romuliens), puis : « Starfleet subsequently called off the rescue and abandoned the Romulans ». L'abandon clôt le projet de sauvetage."
+    },
+    {
+     "id": "STP-085",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Romulus_(star)",
+     "justification": "La même section « The Romulan supernova » relie le sauvetage fédéral (PIC) à la destruction de Romulus en 2387 et à la plongée de Spock et de Nero dans le trou noir, « resulting in the creation of the alternate reality » (film de 2009). Le passage d'une continuité à l'autre est établi explicitement par la source."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 242,
@@ -13077,6 +13769,12 @@
      "type": "cause",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
      "justification": "« Starfleet banned the creation of synthetics after the attack » (« Remembrance »)."
+    },
+    {
+     "id": "STP-198",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "Résumé de «Remembrance» : Picard a démissionné après que Starfleet a abandonné le sauvetage prévu des Romuliens, « when rogue synthetics attacked the rescue fleet ». L'attaque de Mars est présentée comme ce qui a provoqué l'abandon."
     }
    ],
    "entrantes": [
@@ -13217,8 +13915,28 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-199",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "Résumé de «Absolute Candor» : sur Vashti, ancien centre de relogement des réfugiés romuliens, Picard est attaqué par des « Romulans who resent Starfleet's abandonment of the evacuation ». L'équipage affronte ensuite un chef de guerre local avec l'aide de Seven of Nine, membre des Fenris Rangers (épisode 7)."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-196",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "Résumé de «Remembrance» : Picard a démissionné après que Starfleet a abandonné le sauvetage prévu des Romuliens, « when rogue synthetics attacked the rescue fleet ». L'attaque de Mars est présentée comme ce qui a provoqué l'abandon."
+    },
+    {
+     "id": "STP-195",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Romulus_(star)",
+     "justification": "Memory Alpha (section « The Romulan supernova ») décrit l'armada de sauvetage de Picard (10 000 transports, 900 millions de Romuliens), puis : « Starfleet subsequently called off the rescue and abandoned the Romulans ». L'abandon clôt le projet de sauvetage."
+    }
+   ]
   },
   "rang_diegetique": 266,
   "bande": "XXIVe siècle",
@@ -13277,7 +13995,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-198",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "Résumé de «Absolute Candor» : sur Vashti, ancien centre de relogement des réfugiés romuliens, Picard est attaqué par des « Romulans who resent Starfleet's abandonment of the evacuation ». L'équipage affronte ensuite un chef de guerre local avec l'aide de Seven of Nine, membre des Fenris Rangers (épisode 7)."
+    }
+   ]
   },
   "rang_diegetique": 268,
   "bande": "XXIVe siècle",
@@ -13325,6 +14050,12 @@
      "type": "cause",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
      "justification": "« Broken Pieces » : « the Zhat Vash sent the half-Romulan Oh to infiltrate Starfleet and instigate the Mars attack »."
+    },
+    {
+     "id": "STP-201",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "Résumés de «Broken Pieces» et de «Et in Arcadia Ego» : Raffi met au jour le complot des Zhat Vash derrière l'attaque de Mars, puis la flotte romulienne se prépare à envahir le monde des synthétiques, Coppelius, où se joue la crise."
     }
    ],
    "entrantes": []
@@ -13385,8 +14116,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-202",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "Résumé de «Et in Arcadia Ego, Part 2» : une fois la crise de Coppelius résolue (balise désactivée, retraite des Romuliens), « the Federation lifts the ban on synths »."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-200",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "Résumés de «Broken Pieces» et de «Et in Arcadia Ego» : Raffi met au jour le complot des Zhat Vash derrière l'attaque de Mars, puis la flotte romulienne se prépare à envahir le monde des synthétiques, Coppelius, où se joue la crise."
+    }
+   ]
   },
   "rang_diegetique": 270,
   "bande": "XXIVe siècle",
@@ -13435,6 +14180,12 @@
      "type": "suite",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
      "justification": "Fin de saison : « After the Federation lifts the ban on synths, Picard and Soji set off in La Sirena »."
+    },
+    {
+     "id": "STP-201",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "justification": "Résumé de «Et in Arcadia Ego, Part 2» : une fois la crise de Coppelius résolue (balise désactivée, retraite des Romuliens), « the Federation lifts the ban on synths »."
     }
    ]
   },
@@ -13489,8 +14240,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-008",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2",
+     "justification": "Dans «Penance», la reine borg indique qu'on peut empêcher la formation de la Confédération « by travelling to Los Angeles in 2024 ». Dans «Fly Me to the Moon», Picard sait qu'il est « essential that she does not back out of the Europa mission » (Renée Picard). Le passage d'une chronologie à l'autre est explicite (voyage temporel)."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-007",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2",
+     "justification": "La page de saison nomme la « Confederation of Earth », xénophobe, de la ligne temporelle de 2401, et explique qu'elle est née d'un changement opéré par Q en 2024, le 15 avril (« Watcher »). Les deux entrées relèvent de la même chronologie modifiée."
+    }
+   ]
   },
   "rang_diegetique": 272,
   "bande": "XXVe siècle",
@@ -13598,8 +14363,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-206",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3",
+     "justification": "Résumé de «Dominion» : Vadic a été l'un des dix Changelings sur lesquels des médecins de Starfleet ont mené des expériences. Après son évasion, « she swore revenge and formed the rogue Changeling faction », la faction qui infiltre ensuite Starfleet."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-146",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Vadic",
+     "justification": "Memory Alpha : « During the Dominion War in the 2370s, Vadic and nine other \"brothers and sisters\" were held as prisoners of war at Daystrom Station », où ils ont subi les expériences du « Project Proteus ». La torture de ces Changelings s'inscrit dans la guerre du Dominion, nommée par la source."
+    }
+   ]
   },
   "rang_diegetique": 274,
   "bande": "XXVe siècle",
@@ -13662,8 +14441,28 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-207",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Vadic",
+     "justification": "Memory Alpha : Vadic et ses partisans ont prélevé sur le corps de Picard les altérations borgs et les ont diffusées dans les transporteurs de Starfleet, « giving the Borg the opening that they needed to assimilate Starfleet ». C'est l'assimilation du Frontier Day."
+    },
+    {
+     "id": "STP-208",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Vadic",
+     "justification": "Memory Alpha : après la destruction des Borgs, Crusher trouve un moyen de détecter les infiltrés de Vadic, « they were all rounded up and arrested », et les officiers remplacés (dont Tuvok) sont retrouvés vivants (PIC «The Last Generation»)."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-205",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3",
+     "justification": "Résumé de «Dominion» : Vadic a été l'un des dix Changelings sur lesquels des médecins de Starfleet ont mené des expériences. Après son évasion, « she swore revenge and formed the rogue Changeling faction », la faction qui infiltre ensuite Starfleet."
+    }
+   ]
   },
   "rang_diegetique": 275,
   "bande": "XXVe siècle",
@@ -13740,13 +14539,26 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-208",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3",
+     "justification": "Résumé de «The Last Generation» : la destruction du cube tue la reine et rend leur état normal aux personnels assimilés ; Crusher modifie les transporteurs de Starfleet pour en retirer la technologie borg."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-098",
      "type": "cause",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3",
      "justification": "Résumé de « Võx » : « Picard's supposed Irumodic Syndrome was actually undetected, organic Borg technology from his time as Locutus ». Les Changelings l'ont copiée « into Starfleet's transporter systems » pour « infect officers under the age of 25 ». La Reine borg s'en sert ensuite le jour de Frontier Day. L'assimilation de Picard en 2366 est donc la condition de l'assimilation de masse."
+    },
+    {
+     "id": "STP-206",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Vadic",
+     "justification": "Memory Alpha : Vadic et ses partisans ont prélevé sur le corps de Picard les altérations borgs et les ont diffusées dans les transporteurs de Starfleet, « giving the Borg the opening that they needed to assimilate Starfleet ». C'est l'assimilation du Frontier Day."
     }
    ]
   },
@@ -13817,7 +14629,20 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-207",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3",
+     "justification": "Résumé de «The Last Generation» : la destruction du cube tue la reine et rend leur état normal aux personnels assimilés ; Crusher modifie les transporteurs de Starfleet pour en retirer la technologie borg."
+    },
+    {
+     "id": "STP-206",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Vadic",
+     "justification": "Memory Alpha : après la destruction des Borgs, Crusher trouve un moyen de détecter les infiltrés de Vadic, « they were all rounded up and arrested », et les officiers remplacés (dont Tuvok) sont retrouvés vivants (PIC «The Last Generation»)."
+    }
+   ]
   },
   "rang_diegetique": 277,
   "bande": "XXVe siècle",
@@ -14055,7 +14880,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-289",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
+     "justification": "Résumé de «wej Duj» : le capitaine Dorg arme en secret les Pakleds, « supplying the Pakleds with weapons including Veruvian bombs for use against Earth ». Ma'ah « challenges Dorg's dishonorable use of the Pakleds and his insubordination of the Klingon High Council's wishes », le tue et prend le commandement du Che'Ta."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 246,
@@ -14122,7 +14954,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-218",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4",
+     "justification": "Saison 4 : « Starfleet pressures D'Vana into attending her sister D'Erika's wedding to demonstrate interstellar goodwill », et le final de la saison 4 voit Tendi retourner sur Orion. La saison 5 (page de saison 5) prolonge l'intrigue : Tendi y commande des pirates orioniens pour sa sœur avant de vouloir revenir dans Starfleet."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 247,
@@ -14184,7 +15023,20 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-160",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Parth_Ferengi%27s_Heart_Place_(episode)",
+     "justification": "Lien entre séries (DS9 vers Lower Decks) : dans « Parth Ferengi's Heart Place », c'est le Grand Nagus Rom, avec la First Clerk Leeta, qui négocie l'adhésion de Ferenginar à la Fédération. L'amiral Vassery invoque « many progressive changes brought about by Rom and Leeta »."
+    },
+    {
+     "id": "STP-159",
+     "type": "suite",
+     "url": "https://blog.trekcore.com/2023/10/star-trek-lower-decks-review-parth-ferengis-heart-place/",
+     "justification": "TrekCore : l'orientation de Ferenginar vers une économie légale « is a direct continuation of the reforms put into place by Grand Nagus Zek and continued by Grand Nagus Rom ». Membre de la Fédération, Ferenginar serait « law-abiding and progressive (thanks to Rom's reforms) »."
+    }
+   ]
   },
   "rang_diegetique": 248,
   "bande": "XXIVe siècle",
@@ -14387,7 +15239,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-213",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4",
+     "justification": "Saison 4 : « Starfleet pressures D'Vana into attending her sister D'Erika's wedding to demonstrate interstellar goodwill », et le final de la saison 4 voit Tendi retourner sur Orion. La saison 5 (page de saison 5) prolonge l'intrigue : Tendi y commande des pirates orioniens pour sa sœur avant de vouloir revenir dans Starfleet."
+    }
+   ]
   },
   "rang_diegetique": 254,
   "bande": "XXIVe siècle",
@@ -14448,7 +15307,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-220",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
+     "justification": "Résumé de «Lost and Found» : à la colonie pénitentiaire de Tars Lamora, un éboulement dans les mines révèle l'USS Protostar ; les jeunes captifs « take Gwyn hostage and escape from Tars Lamora in the Protostar »."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 255,
@@ -14510,7 +15376,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-219",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
+     "justification": "Résumé de «Lost and Found» : à la colonie pénitentiaire de Tars Lamora, un éboulement dans les mines révèle l'USS Protostar ; les jeunes captifs « take Gwyn hostage and escape from Tars Lamora in the Protostar »."
+    }
+   ]
   },
   "rang_diegetique": 256,
   "bande": "XXIVe siècle",
@@ -14586,6 +15459,12 @@
      "type": "suite",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
      "justification": "Le Diviner a été envoyé du futur parce que « first contact with Starfleet caused a civil war » ; à la fin de la saison, Gwyn « chooses to go to her homeworld and attempt to prevent the civil war », ce qui ouvre la saison 2."
+    },
+    {
+     "id": "STP-222",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
+     "justification": "Venu du futur pour empêcher la guerre civile de son peuple, déclenchée par un premier contact avec Starfleet, le Diviner « plans to destroy Starfleet with a computer virus onboard the Protostar » ; le Vindicator active cette arme dans «Supernova, Part 1»."
     }
    ],
    "entrantes": []
@@ -14661,8 +15540,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-223",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
+     "justification": "Résumé de «Supernova, Part 2» : une fois l'attaque déjouée, l'amirale Janeway défend le jeune équipage lors de son procès, et ses membres deviennent sous ses ordres « warrant officers in training »."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-221",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
+     "justification": "Venu du futur pour empêcher la guerre civile de son peuple, déclenchée par un premier contact avec Starfleet, le Diviner « plans to destroy Starfleet with a computer virus onboard the Protostar » ; le Vindicator active cette arme dans «Supernova, Part 1»."
+    }
+   ]
   },
   "rang_diegetique": 258,
   "bande": "XXIVe siècle",
@@ -14737,7 +15630,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-222",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
+     "justification": "Résumé de «Supernova, Part 2» : une fois l'attaque déjouée, l'amirale Janeway défend le jeune équipage lors de son procès, et ses membres deviennent sous ses ordres « warrant officers in training »."
+    }
+   ]
   },
   "rang_diegetique": 259,
   "bande": "XXIVe siècle",
@@ -14809,7 +15709,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-227",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2",
+     "justification": "La page de saison fait de la décision de Gwyn d'empêcher la future guerre civile de Solum le moteur de la saison, et montre Janeway accepter d'aider Solum « despite intervening in the civil war violating the Prime Directive ». Le conflit commun, la guerre civile de Solum, est nommé."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-221",
@@ -15028,7 +15935,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-224",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2",
+     "justification": "La page de saison fait de la décision de Gwyn d'empêcher la future guerre civile de Solum le moteur de la saison, et montre Janeway accepter d'aider Solum « despite intervening in the civil war violating the Prime Directive ». Le conflit commun, la guerre civile de Solum, est nommé."
+    }
+   ]
   },
   "rang_diegetique": 263,
   "bande": "XXIVe siècle",
@@ -15209,8 +16123,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-295",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+     "justification": "Page de saison (résumé de «Vox in Excelso») : les Klingons étant menacés d'extinction, Vance et Ake proposent Faan Alpha comme nouveau monde natal ; parce que les Klingons exigent de le conquérir, ils mettent en scène une bataille avec le général Wochak."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-178",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Vox_in_Excelso",
+     "justification": "Résumé de «Vox in Excelso» : à cause du Burn, « the Klingon homeworld of Qo'noS was rendered uninhabitable », et l'écrasement d'un vaisseau de survivants met « the species on the brink of extinction »."
+    }
+   ]
   },
   "rang_diegetique": 281,
   "bande": "XXXIIe siècle",
@@ -15277,7 +16205,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-297",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+     "justification": "Dans «Come, Let's Away», Braka met en scène l'attaque contre les cadets pour éloigner le Sargasso de la Starbase J-19 Alpha, qui est pillée ; dans «300th Night», il a fait de la molécule Omega une arme et enferme la Fédération. C'est la même campagne de Braka, poursuivie d'un épisode à l'autre."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 282,
@@ -15405,7 +16340,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-234",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)",
+     "justification": "Face à l'ordre impérial de détruire les Halkans, Kirk plaide auprès de Spock pour le renversement de l'Empire et l'exhorte à prendre le commandement pour sauver les Halkans."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 49,
@@ -15480,7 +16422,14 @@
      "justification": "L'Intendante raconte la visite de Kirk dans l'univers Miroir un siècle plus tôt : « that incident led to the formation of a powerful alliance between the Klingons, Cardassians and Bajorans » et à « the eventual conquest of the Terrans »."
     }
    ],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-233",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)",
+     "justification": "Face à l'ordre impérial de détruire les Halkans, Kirk plaide auprès de Spock pour le renversement de l'Empire et l'exhorte à prendre le commandement pour sauver les Halkans."
+    }
+   ]
   },
   "rang_diegetique": 50,
   "bande": "XXIIIe siècle",
@@ -15619,7 +16568,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-237",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Through_the_Looking_Glass_(episode)",
+     "justification": "Continuité Miroir de part et d'autre. Depuis « Crossover », « the Terrans have started a rebellion against the Klingon-Cardassian Alliance », l'Alliance qui les asservissait."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-234",
@@ -15715,7 +16671,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-236",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Through_the_Looking_Glass_(episode)",
+     "justification": "Continuité Miroir de part et d'autre. Depuis « Crossover », « the Terrans have started a rebellion against the Klingon-Cardassian Alliance », l'Alliance qui les asservissait."
+    }
+   ]
   },
   "rang_diegetique": 117,
   "bande": "XXIVe siècle",
@@ -15777,7 +16740,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-288",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)",
+     "justification": "« Terra Firma » est situé « a few days before the first season's Mirror Universe storyline begins » ; Georgiou y fait éliminer « her former co-conspirators and Gabriel Lorca's spies » : même complot que le coup d'État de Lorca."
+    }
+   ]
   },
   "rang_diegetique": 52,
   "bande": "XXIIIe siècle",
@@ -15843,7 +16813,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-194",
+     "type": "cause",
+     "url": "https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras",
+     "justification": "La plaque de l'ISS Enterprise : « The Terran High Chancellor was killed for trying to make reforms » ; « some Terrans who believed in peace escaped on the I.S.S. Enterprise » jusqu'à l'univers principal."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 284,
@@ -17441,7 +18418,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-288",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31",
+     "justification": "Section « Background » : le diptyque « Terra Firma » « ends with her being transported to an unknown place and time where the spin-off is set ». Le film reprend donc Georgiou là où la quitte DIS."
+    }
+   ]
   },
   "rang_diegetique": 118,
   "bande": "XXIVe siècle",
@@ -17507,7 +18491,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-177",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31",
+     "justification": "Le film revient sur la prise du trône terrien par Georgiou : elle a empoisonné sa famille et réduit en esclavage son ancien allié San. Ce dernier revient l'affronter ; ce sont les crimes de son règne qui fondent la confrontation."
+    }
+   ]
   },
   "rang_diegetique": 119,
   "bande": "XXIVe siècle",
@@ -17583,7 +18574,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-161",
+     "type": "suite",
+     "url": "https://memory-alpha.fandom.com/wiki/Caretaker_(episode)",
+     "justification": "Janeway révèle que Tuvok est un agent infiltré dans la cellule maquisarde de Chakotay. Après la destruction du vaisseau maquisard, elle intègre les Maquisards à l'équipage et nomme Chakotay premier officier."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 173,
@@ -17851,7 +18849,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-145",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Call_to_Arms_(episode)",
+     "justification": "Note de Memory Alpha sur « Call to Arms » : l'insistance de Sisko pour que Bajor n'adhère pas à la Fédération (« Rapture ») « is finally explained in this episode ». Si Bajor avait signé, il n'aurait pas pu conclure de pacte de non-agression avec le Dominion, et Bajor aurait sans doute été le premier monde à tomber."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-272",
@@ -18020,7 +19025,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-120",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Ensign_Ro_(Star_Trek:_The_Next_Generation)",
+     "justification": "« Their homeworld Bajor was annexed by the Cardassians decades ago, and the Bajorans have been refugees ever since. » Orta, défiguré par la torture cardassienne, est le chef bajoran au centre de l'affaire."
+    }
+   ]
   },
   "rang_diegetique": 148,
   "bande": "XXIVe siècle",
@@ -18703,7 +19715,20 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-267",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31",
+     "justification": "Section « Background » : le diptyque « Terra Firma » « ends with her being transported to an unknown place and time where the spin-off is set ». Le film reprend donc Georgiou là où la quitte DIS."
+    },
+    {
+     "id": "STP-238",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)",
+     "justification": "« Terra Firma » est situé « a few days before the first season's Mirror Universe storyline begins » ; Georgiou y fait éliminer « her former co-conspirators and Gabriel Lorca's spies » : même complot que le coup d'État de Lorca."
+    }
+   ],
    "entrantes": []
   },
   "rang_diegetique": 60,
@@ -18757,7 +19782,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-212",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
+     "justification": "Résumé de «wej Duj» : le capitaine Dorg arme en secret les Pakleds, « supplying the Pakleds with weapons including Veruvian bombs for use against Earth ». Ma'ah « challenges Dorg's dishonorable use of the Pakleds and his insubordination of the Klingon High Council's wishes », le tue et prend le commandement du Che'Ta."
+    }
+   ]
   },
   "rang_diegetique": 251,
   "bande": "XXIVe siècle",
@@ -18817,8 +19849,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-029",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Damage_(Star_Trek:_Enterprise)",
+     "justification": "Après le vol, « Enterprise heads for the covert rendezvous » fixé par Degra ; dans le même épisode un conseil xindi partiel se divise, Degra insistant pour examiner les preuves d'Archer sur le lien Gardiens–Constructeurs de sphères."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-027",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Damage_(Star_Trek:_Enterprise)",
+     "justification": "Privé de distorsion après Azati Prime, Archer vole le module des Illyriens et le justifie comme nécessité de guerre : « saving billions of lives » face à la menace xindie."
+    }
+   ]
   },
   "rang_diegetique": 44,
   "bande": "XXIIe siècle",
@@ -18925,7 +19971,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-293",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+     "justification": "Résumé de «Beta Test» : Betazed a quitté la Fédération après le Burn ; un groupe de jeunes milite pour y revenir, et Ake propose d'installer le centre du gouvernement fédéral sur Betazed si elle réintègre la Fédération, ce que les Bétazoïdes acceptent."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-178",
@@ -19002,7 +20055,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-292",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+     "justification": "Résumé de «Beta Test» : Betazed a quitté la Fédération après le Burn ; un groupe de jeunes milite pour y revenir, et Ake propose d'installer le centre du gouvernement fédéral sur Betazed si elle réintègre la Fédération, ce que les Bétazoïdes acceptent."
+    }
+   ]
   },
   "rang_diegetique": 300,
   "bande": "XXXIIe siècle",
@@ -19069,7 +20129,14 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-295",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Vox_in_Excelso",
+     "justification": "Les Klingons réfugiés refusent l'aide fédérale (« Klingon tradition will not permit them to accept charity ») ; Vance « surrenders to Wochak, who claims Faan Alpha as a spoil of war », au terme d'une bataille mise en scène sans victimes."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-178",
@@ -19146,7 +20213,20 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-294",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Vox_in_Excelso",
+     "justification": "Les Klingons réfugiés refusent l'aide fédérale (« Klingon tradition will not permit them to accept charity ») ; Vance « surrenders to Wochak, who claims Faan Alpha as a spoil of war », au terme d'une bataille mise en scène sans victimes."
+    },
+    {
+     "id": "STP-230",
+     "type": "cause",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+     "justification": "Page de saison (résumé de «Vox in Excelso») : les Klingons étant menacés d'extinction, Vance et Ake proposent Faan Alpha comme nouveau monde natal ; parce que les Klingons exigent de le conquérir, ils mettent en scène une bataille avec le général Wochak."
+    }
+   ]
   },
   "rang_diegetique": 302,
   "bande": "XXXIIe siècle",
@@ -19216,7 +20296,14 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": []
+   "entrantes": [
+    {
+     "id": "STP-297",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+     "justification": "Dans «300th Night», Braka a enfermé la Fédération derrière des mines Omega ; dans «Rubincon», il organise un procès contre la Fédération, et l'épisode se conclut par la désactivation des mines par SAM et l'arrestation de Braka."
+    }
+   ]
   },
   "rang_diegetique": 303,
   "bande": "XXXIIe siècle",
@@ -19292,8 +20379,22 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
-   "entrantes": []
+   "sortantes": [
+    {
+     "id": "STP-296",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+     "justification": "Dans «300th Night», Braka a enfermé la Fédération derrière des mines Omega ; dans «Rubincon», il organise un procès contre la Fédération, et l'épisode se conclut par la désactivation des mines par SAM et l'arrestation de Braka."
+    }
+   ],
+   "entrantes": [
+    {
+     "id": "STP-231",
+     "type": "suite",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+     "justification": "Dans «Come, Let's Away», Braka met en scène l'attaque contre les cadets pour éloigner le Sargasso de la Starbase J-19 Alpha, qui est pillée ; dans «300th Night», il a fait de la molécule Omega une arme et enferme la Fédération. C'est la même campagne de Braka, poursuivie d'un épisode à l'autre."
+    }
+   ]
   },
   "rang_diegetique": 304,
   "bande": "XXXIIe siècle",

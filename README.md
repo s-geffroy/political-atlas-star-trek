@@ -19,7 +19,7 @@ Projet independant, non affilie a Paramount / CBS Studios.
 | Atlas thematique (10 domaines) | `/atlas/`, `/atlas/<domaine>/` | `_data/atlas.json` |
 | Fiction et histoire reelle | `/analyses/`, `/analyses/emeutes-de-bell/`, `/analyses/STP-NNN/` (une par fiche) | `_data/fiches.json`, `_data/periodes.json` |
 | Graphiques comparatifs | `/graphiques/` | `_data/graphiques.json` |
-| Reseau des relations | `/reseau/` | `_data/reseau.json` (calcule depuis `data/relations.json`) |
+| Reseau des relations | `/reseau/` (vue d'ensemble), `/reseau/STP-NNN/` (un graphe par groupe, genere) | `_data/reseau.json` (calcule depuis `data/relations.json`) |
 | Methodologie, limites, rapport de qualite | `/methodologie/` | `_data/editorial.json`, `_data/qualite.json` |
 | Contribuer | `/contribuer/` | -- |
 

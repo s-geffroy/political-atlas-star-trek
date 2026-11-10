@@ -1,0 +1,54 @@
+{
+  "skill": "seo-audit",
+  "version": "1.0.0",
+  "reviewed_at": "2026-11-10",
+  "policy": "Aucun code tiers n'est execute. Les methodes sont reprises et reecrites dans references/ et agents/, avec attribution ; les textes de licence sont dans LICENSES/.",
+  "sources": [
+    {
+      "name": "claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "commit": "6be93f45064ffbadced572b5d5c95f55fd263af0",
+      "license": "MIT",
+      "license_file": "LICENSES/claude-seo.MIT.txt",
+      "read": ["skills/seo-audit", "skills/seo-technical", "skills/seo-hreflang", "skills/seo-schema",
+               "skills/seo-sitemap", "skills/seo-content", "skills/seo-sxo", "skills/seo-geo",
+               "skills/seo-agentic", "skills/seo-local", "skills/seo-ecommerce", "skills/seo-images",
+               "skills/seo-page"],
+      "taken": "listes de controle (technique, sitemap, hreflang, donnees structurees, contenu/SXO, images, IA, local, e-commerce), reecrites ; affirmations datees marquees a reverifier",
+      "rejected": ["score SEO Health 0-100 et toutes les ponderations", "crawl jusqu'a 500 pages, 5 requetes concurrentes",
+                   "scripts ${CLAUDE_PLUGIN_ROOT}/scripts/claude-seo (non vendores, non executes)",
+                   "DataForSEO, Moz, Bing, Matomo, GA4 implicites", "sudo apt install exiftool/webp, npx lighthouse@latest",
+                   "CLAUDE_SEO_LOCAL_TARGETS (derogation SSRF vers localhost et 100.x)",
+                   "UA d'agents IA usurpes, sondes /wp-login.php et /xmlrpc.php", "chiffres de gain non sources",
+                   "alerte CVE PHP non verifiable"],
+      "catalogue_effect": "claude-seo:seo-audit retiree du catalogue (EXCLUS de claude-skills.sh) : cette skill la remplace"
+    },
+    {
+      "name": "web-quality-skills",
+      "url": "https://github.com/addyosmani/web-quality-skills",
+      "commit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+      "license": "MIT",
+      "license_file": "LICENSES/web-quality-skills.MIT.txt",
+      "read": ["README.md", "skills/web-quality-audit/SKILL.md", "skills/web-quality-audit/scripts/analyze.sh",
+               "skills/performance/references/MEASUREMENT.md", "skills/seo/SKILL.md"],
+      "taken": "methode de mesure terrain/labo (references/performance.md)",
+      "rejected": ["installation par npx skills add / npx add-skill", "npx lighthouse, npm install -g @axe-core/cli",
+                   "Chrome DevTools MCP suppose present"],
+      "notes": "analyze.sh lu : lecture seule, depend de jq ; non repris"
+    },
+    {
+      "name": "seo-agent-skills",
+      "url": "https://github.com/gaguero/seo-agent-skills",
+      "commit": "43a9e14a6c7257af3996e158a238ac5968ab7ca5",
+      "license": "MIT",
+      "license_file": "LICENSES/seo-agent-skills.MIT.txt",
+      "read": ["seo-orchestrator/references/principles.md", "shared/schemas/audit_finding.schema.json",
+               "seo-quality-gates/SKILL.md", "seo-quality-gates/references/google-policies.md",
+               "seo-technical-audit/references/checklist.md"],
+      "taken": "principe preuve -> constat -> gate -> action, quality gates, niveaux de risque des editions techniques, faux positifs, arbre d'indexabilite",
+      "rejected": ["commandes curl sur URL arbitraire (remplacees par seo_fetch.py garde)", "scripts Python (lint.py, validate.py...) : non necessaires"]
+    }
+  ],
+  "lighthouse_image": null,
+  "lighthouse_note": "Aucune image Lighthouse epinglee : Lighthouse n'est pas disponible tant qu'une image n'est pas choisie, telechargee avec l'accord de l'utilisateur, et son digest note ici."
+}

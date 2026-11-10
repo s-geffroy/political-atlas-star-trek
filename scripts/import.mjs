@@ -288,7 +288,13 @@ export function reseau(r) {
     return { titre: cycle, taille: ids.length, noeuds, aretes: chemins,
       largeur: PADX + PAD + nCouches * NW + (nCouches - 1) * GX, hauteur: PAD * 2 + maxL * NH + (maxL - 1) * GY };
   }).sort((a, b) => b.taille - a.taille);
-  sortie.forEach((c, i) => { c.numero = i + 1; });
+  sortie.forEach((c, i) => {
+    c.numero = i + 1;
+    c.cle = [...c.noeuds.map((n) => n.id)].sort()[0]; // cle stable : plus petit identifiant du groupe
+    c.ids = c.noeuds.map((n) => n.id);
+    c.series = [...new Set(c.noeuds.flatMap((n) => parId.get(n.id).series))];
+    c.nb_relations = c.aretes.filter((a) => a.type !== 'episode_commun').length;
+  });
   return { composantes: sortie, noeuds: sortie.reduce((s, c) => s + c.taille, 0), relations: relsDoc.length, liens_episode: communs.length };
 }
 
@@ -411,7 +417,21 @@ export function ecrireSorties(r) {
 
   // Graphiques comparatifs (calcules, jamais saisis), sur les evenements distincts.
   ecrire(D('graphiques.json'), JSON.stringify(graphiques(r), null, 1) + '\n');
-  ecrire(D('reseau.json'), JSON.stringify(reseau(r), null, 1) + '\n');
+  const res = reseau(r);
+  ecrire(D('reseau.json'), JSON.stringify(res, null, 1) + '\n');
+  // Une page par groupe du reseau (/reseau/STP-NNN/), regeneree a chaque import.
+  const dirR = path.join(ROOT, 'reseau');
+  fs.mkdirSync(dirR, { recursive: true });
+  for (const f of fs.readdirSync(dirR)) {
+    const p = path.join(dirR, f);
+    if (/^STP-\d{3}\.md$/.test(f) && fs.readFileSync(p, 'utf8').includes('GENERE par scripts/import.mjs')) fs.unlinkSync(p);
+  }
+  for (const c of res.composantes) {
+    ecrire(path.join(dirR, `${c.cle}.md`), ['---', '# Fichier GENERE par scripts/import.mjs.', 'layout: reseau-groupe', `groupe: ${c.cle}`,
+      `title: ${yamlStr(`Réseau — ${c.titre} (${c.taille} événements)`)}`,
+      `description: ${yamlStr(`Graphe des relations documentées entre ${c.taille} événements politiques de Star Trek (${c.series.join(', ')}) : causes, suites et arcs narratifs.`)}`,
+      `permalink: /reseau/${c.cle}/`, 'nav: graphiques', '---', ''].join('\n'));
+  }
 
   // Analyses fiction / histoire : une page par fiche approfondie (sauf STP-006,
   // qui a sa page editoriale propre). Contenu = volets de la fiche + paragraphe

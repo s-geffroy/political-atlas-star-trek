@@ -5,28 +5,12 @@ permalink: /reseau/
 description: Graphe des relations documentées entre événements politiques de Star Trek — causes, suites et arcs narratifs, regroupés par ensembles connectés.
 ---
 {%- assign R = site.data.reseau -%}
-<p class="chapo">Les {{ R.relations }} relations documentées entre {{ R.noeuds }} événements, dessinées par ensembles connectés ({{ R.composantes.size }} groupes). Chaque événement mène à sa fiche ; la lecture va de gauche à droite : un fait est placé après ceux dont il est la conséquence ou la suite.</p>
-<div class="encadre"><p><strong>Ce que montre ce réseau.</strong> Seules les relations établies explicitement par une source sont dessinées (<a href="{{ '/methodologie/' | relative_url }}#relations">méthode</a>). Les liens « épisode commun », en gris, reprennent les associations déjà affichées sur les fiches, uniquement entre événements du réseau, pour relier les arcs. Un graphe ne montre que ce qui a été documenté : l’absence de lien n’est pas une absence de relation.</p></div>
-
-<svg width="0" height="0" class="visuellement-cache" aria-hidden="true" focusable="false"><defs>
-  <marker id="fl-cause" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b9fd8"/></marker>
-  <marker id="fl-suite" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9563c"/></marker>
-</defs></svg>
-
-<ul class="legende legende--reseau" aria-label="Légende des liens">
-  <li><svg width="44" height="10" aria-hidden="true"><line x1="2" y1="5" x2="34" y2="5" class="lien lien--cause"/></svg>cause (trait plein, flèche)</li>
-  <li><svg width="44" height="10" aria-hidden="true"><line x1="2" y1="5" x2="34" y2="5" class="lien lien--suite"/></svg>suite (tirets, flèche)</li>
-  <li><svg width="44" height="10" aria-hidden="true"><line x1="2" y1="5" x2="40" y2="5" class="lien lien--meme_arc"/></svg>même arc (pointillés)</li>
-  <li><svg width="44" height="10" aria-hidden="true"><line x1="2" y1="5" x2="40" y2="5" class="lien lien--episode_commun"/></svg>épisode commun (gris)</li>
-</ul>
-
-{%- for c in R.composantes %}
-<h2 class="piste-titre" id="groupe-{{ c.numero }}">Groupe {{ c.numero }} — {{ c.titre }} ({{ c.taille }} événements)</h2>
-<div class="defile" tabindex="0" role="region" aria-label="Graphe du groupe {{ c.numero }}">
-<svg class="reseau" width="{{ c.largeur }}" height="{{ c.hauteur }}" viewBox="0 0 {{ c.largeur }} {{ c.hauteur }}" role="group" aria-labelledby="groupe-{{ c.numero }}">
-  {%- for a in c.aretes %}<path d="{{ a.d }}" class="lien lien--{{ a.type }}"{% if a.type == "cause" %} marker-end="url(#fl-cause)"{% elsif a.type == "suite" %} marker-end="url(#fl-suite)"{% endif %} aria-hidden="true"/>{% endfor %}
-  {%- for n in c.noeuds %}<a href="{{ '/evenements/' | append: n.id | append: '/' | relative_url }}" aria-label="{{ n.id }} — {{ n.titre_complet | escape }}"><rect x="{{ n.x }}" y="{{ n.y }}" width="{{ n.w }}" height="{{ n.h }}" rx="6"/><text x="{{ n.x | plus: 10 }}" y="{{ n.y | plus: 28 }}">{{ n.id }} · {{ n.titre | escape }}</text></a>{% endfor %}
-</svg>
-</div>
-<p class="carte__meta">{% for a in c.aretes %}{% unless a.type == "episode_commun" %}<a href="{{ '/evenements/' | append: a.de | append: '/' | relative_url }}">{{ a.de }}</a> {% if a.type == "cause" %}→ cause →{% elsif a.type == "suite" %}→ suite →{% else %}↔ même arc ↔{% endif %} <a href="{{ '/evenements/' | append: a.vers | append: '/' | relative_url }}">{{ a.vers }}</a> ; {% endunless %}{% endfor %}</p>
-{%- endfor %}
+<p class="chapo">Les {{ R.relations }} relations documentées entre {{ R.noeuds }} événements forment {{ R.composantes.size }} groupes connectés. Chaque groupe a son graphe : la lecture va de gauche à droite, un fait étant placé après ceux dont il est la conséquence ou la suite.</p>
+<div class="encadre"><p><strong>Ce que montre ce réseau.</strong> Seules les relations établies explicitement par une source sont dessinées (<a href="{{ '/methodologie/' | relative_url }}#relations">méthode</a>). Les liens « épisode commun », en gris, reprennent les associations déjà affichées sur les fiches, uniquement entre événements du réseau, pour relier les arcs. L’absence de lien n’est pas une absence de relation : elle signifie qu’aucune source lue ne l’établit.</p></div>
+{% include reseau-legende.html %}
+<h2>Groupes</h2>
+<ol class="cartes groupes">
+  {%- for c in R.composantes %}
+  <li class="carte"><div class="carte__id"><span>{{ c.taille }} év.</span></div><div><h3 class="carte__titre"><a href="{{ '/reseau/' | append: c.cle | append: '/' | relative_url }}">{{ c.titre }}</a></h3><p class="carte__meta">{{ c.nb_relations }} relation{% if c.nb_relations > 1 %}s{% endif %} · {{ c.series | join: ", " }}</p></div></li>
+  {%- endfor %}
+</ol>

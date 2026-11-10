@@ -158,6 +158,18 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .carte__etiquettes { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.25rem; }
 
 /* --- Explorateur ------------------------------------------------------- */
+/* Ligne legere : <li> + <a> seulement ; pastilles generees en CSS. */
+.lignes { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: 0.45rem; }
+.ligne { max-width: none; background: var(--surface); border-left: 0.4rem solid var(--niv-c); border-radius: 0 1rem 1rem 0; padding: 0.55rem 1rem 0.6rem 3.4rem; position: relative; color: var(--doux); font-size: 0.9rem; }
+.ligne[data-niv="A"] { border-left-color: var(--niv-a); }
+.ligne[data-niv="B"] { border-left-color: var(--niv-b); }
+.ligne::before { content: attr(data-niv); content: attr(data-niv) / "Niveau " attr(data-niv); position: absolute; left: 0.8rem; top: 0.6rem; min-width: 1.9rem; height: 1.6rem; line-height: 1.6rem; text-align: center; border-radius: 999px; font: 700 0.85rem/1.6rem var(--police-titre); color: #04060b; background: var(--niv-c); }
+.ligne[data-niv="A"]::before { background: var(--niv-a); }
+.ligne[data-niv="B"]::before { background: var(--niv-b); }
+.ligne[data-fiche="true"]::after { content: "fiche"; content: "fiche" / "Fiche approfondie disponible"; margin-left: 0.5rem; padding: 0 0.55rem; border: 1px solid var(--magenta); border-radius: 999px; color: var(--magenta); font-size: 0.78rem; white-space: nowrap; }
+.ligne > a { display: block; color: var(--texte); font-weight: 600; font-size: 1.02rem; text-decoration-color: var(--ligne); margin-bottom: 0.1rem; }
+.ligne > a:hover { color: var(--cyan); }
+
 .filtres { background: var(--surface); border-radius: 0 1.2rem 1.2rem 0; border-left: 0.6rem solid var(--cyan); padding: 1rem 1.2rem; display: grid; gap: 0.8rem 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); align-items: end; }
 .filtres .large { grid-column: 1 / -1; }
 .filtres label { display: block; font-family: var(--police-titre); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.8rem; color: var(--ambre); margin-bottom: 0.25rem; }

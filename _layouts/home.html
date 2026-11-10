@@ -19,7 +19,7 @@ layout: default
 </div>
 
 <div class="encadre encadre--ambre">
-  <p><strong>État du corpus.</strong> {{ ed.etat | escape }} Le registre est un inventaire de travail, pas une démonstration d’exhaustivité : {{ S.niveaux[2].n }} entrées sur {{ S.total }} restent au niveau C. <a href="{{ '/methodologie/' | relative_url }}">Lire la méthodologie</a>.</p>
+  <p><strong>Corpus.</strong> {{ ed.etat | markdownify | remove: "<p>" | remove: "</p>" | strip }} Le registre est un inventaire de travail, pas une démonstration d’exhaustivité : {{ S.niveaux[2].n }} entrées sur {{ S.total }} restent au niveau C. <a href="{{ '/methodologie/' | relative_url }}">Lire la méthodologie</a>.</p>
 </div>
 
 <h2>À la une</h2>

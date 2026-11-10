@@ -7,7 +7,8 @@ description: Protocole de recherche, niveaux de vérification A/B/C, corrections
 {%- assign ed = site.data.editorial -%}
 {%- assign Q = site.data.qualite -%}
 {%- assign R = site.data.referentiels -%}
-<p class="chapo">Ce que l’atlas sait, comment il le sait, et ce qu’il ne sait pas encore. Source : <em>{{ ed.titre_document }}</em> ({{ ed.etat }}).</p>
+<p class="chapo">Ce que l’atlas sait, comment il le sait, et ce qu’il ne sait pas encore. Source : <em>{{ ed.titre_document }}</em>.</p>
+<div class="encadre">{{ ed.etat | markdownify }}</div>
 
 <nav aria-label="Sommaire de la page"><ul>
   <li><a href="#synthese">Synthèse vérifiable</a></li>

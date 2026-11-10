@@ -30,7 +30,7 @@ scripts: [explorateur.js]
   <div>
     <label for="f-epoque">Période (époque fictive)</label>
     <select id="f-epoque" name="epoque"><option value="">Toutes</option>
-      {%- for b in bandes %}<option value="{{ b | slugify }}">{{ b }}</option>{% endfor %}
+      {%- for b in bandes %}{% assign nb = evs | where: "bande", b | size %}<option value="{{ b | slugify }}">{{ b }} ({{ nb }})</option>{% endfor %}
     </select>
   </div>
   <div>

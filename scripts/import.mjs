@@ -212,6 +212,85 @@ function ecrire(p, contenu) {
   fs.writeFileSync(p, contenu);
 }
 
+// Reseau des relations : composantes connexes, mise en couches (une relation
+// cause/suite va de gauche a droite ; « meme arc » ne contraint pas l'ordre),
+// coordonnees SVG calculees ici pour un rendu statique sans JavaScript.
+export function reseau(r) {
+  const NW = 210, NH = 46, GX = 70, GY = 18, PAD = 12;
+  const parId = new Map(r.evenements.map((e) => [e.id, e]));
+  const relsDoc = r.relations.filter((x) => parId.has(x.de) && parId.has(x.vers));
+  // Liens « episode commun » (associations deja affichees sur les fiches),
+  // ajoutes seulement entre evenements qui ont des relations documentees,
+  // pour recoudre les arcs sans gonfler le graphe.
+  const dansReseau = new Set(relsDoc.flatMap((x) => [x.de, x.vers]));
+  const dejaLies = new Set(relsDoc.flatMap((x) => [`${x.de}|${x.vers}`, `${x.vers}|${x.de}`]));
+  const communs = [];
+  for (const id of [...dansReseau].sort()) for (const a of parId.get(id).associes) {
+    if (!dansReseau.has(a.id) || id >= a.id || dejaLies.has(`${id}|${a.id}`)) continue;
+    if (!a.motifs.some((m) => m.startsWith('épisode commun'))) continue;
+    if (parId.get(a.id).doublon_de || parId.get(id).doublon_de) continue;
+    communs.push({ de: id, vers: a.id, type: 'episode_commun', url: null });
+  }
+  const rels = [...relsDoc, ...communs];
+  const voisins = new Map();
+  for (const x of rels) for (const [a, b] of [[x.de, x.vers], [x.vers, x.de]]) {
+    if (!voisins.has(a)) voisins.set(a, new Set());
+    voisins.get(a).add(b);
+  }
+  const vus = new Set(); const comps = [];
+  for (const id of [...voisins.keys()].sort()) {
+    if (vus.has(id)) continue;
+    const pile = [id]; const c = [];
+    vus.add(id);
+    while (pile.length) { const n = pile.pop(); c.push(n); for (const v of voisins.get(n)) if (!vus.has(v)) { vus.add(v); pile.push(v); } }
+    comps.push(c);
+  }
+  const tronque = (t, n) => (t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : t);
+  const sortie = comps.map((ids) => {
+    const set = new Set(ids);
+    const aretes = rels.filter((x) => set.has(x.de));
+    // Couche = plus long chemin depuis une source (cause/suite) ; meme_arc : meme couche minimale.
+    const couche = new Map(ids.map((i) => [i, 0]));
+    for (let k = 0; k < ids.length; k++) for (const x of aretes) {
+      if (x.type === 'meme_arc' || x.type === 'episode_commun') continue;
+      if (couche.get(x.vers) < couche.get(x.de) + 1) couche.set(x.vers, couche.get(x.de) + 1);
+    }
+    const nCouches = Math.max(...couche.values()) + 1;
+    const parCouche = [...Array(nCouches)].map((_, c) => ids.filter((i) => couche.get(i) === c)
+      .sort((a, b) => parId.get(a).rang_diegetique - parId.get(b).rang_diegetique));
+    const maxL = Math.max(...parCouche.map((l) => l.length));
+    const pos = new Map();
+    parCouche.forEach((l, c) => l.forEach((id, j) => {
+      const off = ((maxL - l.length) * (NH + GY)) / 2;
+      pos.set(id, { x: PAD + c * (NW + GX), y: PAD + off + j * (NH + GY) });
+    }));
+    const noeuds = ids.map((id) => {
+      const e = parId.get(id); const p = pos.get(id);
+      return { id, x: p.x, y: p.y, w: NW, h: NH, titre: tronque(e.event, 30), titre_complet: e.event, niv: e.niveau_recoupement, cycle: e.cycle };
+    }).sort((a, b) => parId.get(a.id).rang_diegetique - parId.get(b.id).rang_diegetique);
+    const chemins = aretes.map((x) => {
+      const a = pos.get(x.de), b = pos.get(x.vers);
+      let d;
+      if (Math.abs(a.x - b.x) < 1) { // meme couche : arc sur la droite
+        const x0 = a.x + NW, y0 = a.y + NH / 2, y1 = b.y + NH / 2;
+        d = `M${x0},${y0} C${x0 + 45},${y0} ${x0 + 45},${y1} ${x0},${y1}`;
+      } else {
+        const [g, dr] = a.x < b.x ? [a, b] : [b, a];
+        const x0 = g.x + NW, y0 = g.y + NH / 2, x1 = dr.x, y1 = dr.y + NH / 2, m = (x0 + x1) / 2;
+        d = a.x < b.x ? `M${x0},${y0} C${m},${y0} ${m},${y1} ${x1 - 4},${y1}` : `M${x1},${y1} C${m},${y1} ${m},${y0} ${x0 + 4},${y0}`;
+      }
+      return { de: x.de, vers: x.vers, type: x.type, d, url: x.url };
+    });
+    const cycles = {};
+    for (const id of ids) cycles[parId.get(id).cycle] = (cycles[parId.get(id).cycle] || 0) + 1;
+    const cycle = Object.entries(cycles).sort((a, b) => b[1] - a[1])[0][0];
+    return { titre: cycle, taille: ids.length, noeuds, aretes: chemins,
+      largeur: PAD * 2 + nCouches * NW + (nCouches - 1) * GX + 50, hauteur: PAD * 2 + maxL * NH + (maxL - 1) * GY };
+  }).sort((a, b) => b.taille - a.taille);
+  sortie.forEach((c, i) => { c.numero = i + 1; });
+  return { composantes: sortie, noeuds: sortie.reduce((s, c) => s + c.taille, 0), relations: relsDoc.length, liens_episode: communs.length };
+}
+
 // Donnees des graphiques : matrices et repartitions, quantifiees en 5 classes
 // pour le codage couleur (une seule teinte ; 0 = case vide).
 export function graphiques(r) {
@@ -331,6 +410,7 @@ export function ecrireSorties(r) {
 
   // Graphiques comparatifs (calcules, jamais saisis), sur les evenements distincts.
   ecrire(D('graphiques.json'), JSON.stringify(graphiques(r), null, 1) + '\n');
+  ecrire(D('reseau.json'), JSON.stringify(reseau(r), null, 1) + '\n');
 
   // Analyses fiction / histoire : une page par fiche approfondie (sauf STP-006,
   // qui a sa page editoriale propre). Contenu = volets de la fiche + paragraphe

@@ -253,6 +253,22 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .empile__val { color: var(--doux); font-variant-numeric: tabular-nums; }
 @media (max-width: 40rem) { .empile li { grid-template-columns: 1fr auto; } .empile__barre { grid-column: 1 / -1; grid-row: 2; } }
 
+/* --- Reseau des relations ------------------------------------------------
+   Couleurs des liens : trio valide (validateur dataviz, fond sombre) ; second
+   codage par le trait (plein, tirets, pointilles) et la fleche. */
+.reseau { display: block; }
+.reseau rect { fill: var(--surface-2); stroke: var(--ligne); stroke-width: 1.5; }
+.reseau text { fill: var(--texte); font: 12px var(--police); }
+.reseau a:hover rect, .reseau a:focus rect { stroke: var(--ambre); stroke-width: 2; }
+.reseau a:focus { outline: none; }
+.reseau a:focus-visible rect { stroke: var(--ambre); stroke-width: 3; }
+.lien { fill: none; stroke-width: 2; }
+.lien--cause { stroke: #3b9fd8; }
+.lien--suite { stroke: #c9563c; stroke-dasharray: 7 4; }
+.lien--meme_arc { stroke: #a99535; stroke-dasharray: 2 4; stroke-linecap: round; }
+.lien--episode_commun { stroke: #6b7a90; stroke-width: 1; }
+.legende--reseau svg { flex: none; }
+
 /* --- Relations documentees ----------------------------------------------- */
 .relations { padding-left: 1.2rem; }
 .relations li { margin: 0.45rem 0; }

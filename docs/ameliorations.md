@@ -1,9 +1,9 @@
 # Ameliorations futures, par priorite
 
-## P0 -- a faire tout de suite
+## Fait (2026-11-10)
 
-1. **Activer GitHub Pages** : Settings > Pages > Deploy from a branch, `main`, `/ (root)`.
-2. Verifier en ligne, au navigateur, l'explorateur (filtres, URL partageable) et la chronologie, sur mobile et sur ordinateur.
+1. GitHub Pages active ; verification en ligne sur mobile et ordinateur : explorateur (tous les filtres), chronologie, fiches.
+2. Audit d'accessibilite axe-core (24 analyses, WCAG 2.2 AA + bonnes pratiques) : 0 violation apres corrections ; contrastes de la palette tous >= 7:1.
 
 ## P1 -- qualite documentaire
 
@@ -13,7 +13,7 @@
 6. Rattacher les references sans sigle (« First Contact » dans STP-009, STP-011, STP-013) en corrigeant le champ `source`.
 7. Etendre `data/diffusion.json` aux episodes de toutes les entrees (68 sur 305 sont datees). Lever les divergences de dates de DS9 (syndication) a l'aide d'une source primaire.
 8. Ajouter une source de controle a la fiche STP-077.
-9. Lancer un audit Lighthouse sur le site en ligne. Il n'a pas ete mesure : le site n'etait pas encore servi.
+9. Score Lighthouse officiel non mesure : quota anonyme PageSpeed Insights epuise, conteneur Lighthouse refuse par le controle de securite de la session. A lancer depuis https://pagespeed.web.dev/ ou Chrome DevTools > Lighthouse. Point a surveiller : la taille du DOM de l'explorateur (environ 3 700 noeuds).
 
 ## P2 -- evolutions
 

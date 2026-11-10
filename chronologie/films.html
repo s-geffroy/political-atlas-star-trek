@@ -1,0 +1,14 @@
+---
+title: Dates de sortie des films
+nav: chronologie
+permalink: /chronologie/films/
+description: Dates de sortie en salle aux États-Unis des films Star Trek, de 1979 à 2025, chacune avec la page qui la source.
+---
+{%- assign D = site.data.diffusion -%}
+<p class="fil"><a href="{{ '/chronologie/diffusion/' | relative_url }}">Chronologie de diffusion</a> › Films</p>
+<p class="chapo">Sorties en salle aux États-Unis des {{ D.films.size }} films, dans l’ordre chronologique. Pour les entrées de l’atlas liées à chaque film, voir la <a href="{{ '/chronologie/diffusion/' | relative_url }}#bloc-film">chronologie de diffusion</a>.</p>
+<div class="encadre encadre--alerte"><p><strong>Enrichissement hors corpus.</strong> Ces dates ne figurent pas dans le corpus de l’atlas ; elles ont été relevées (dernier relevé : {{ D.releve_le }}) sur les pages citées.</p></div>
+<div class="defile" tabindex="0" role="region" aria-label="Dates de sortie des films"><table>
+  <thead><tr><th scope="col">Film</th><th scope="col">Sortie (États-Unis)</th><th scope="col">Source</th></tr></thead>
+  <tbody>{% for f in D.films %}<tr><td>{{ f.titre }}</td><td>{{ f.date }}</td><td><a href="{{ f.source_url }}" rel="noopener">page consultée</a></td></tr>{% endfor %}</tbody>
+</table></div>

@@ -25,9 +25,5 @@ description: Les événements politiques de Star Trek classés selon les dates r
 </ol>
 {%- endfor %}
 {%- if D.films.size > 0 %}
-<h2 class="piste-titre" id="films">Films : dates de sortie relevées</h2>
-<div class="defile" tabindex="0" role="region" aria-label="Dates de sortie des films"><table>
-  <thead><tr><th scope="col">Film</th><th scope="col">Sortie (États-Unis)</th><th scope="col">Source</th></tr></thead>
-  <tbody>{% for f in D.films %}<tr><td>{{ f.titre }}</td><td>{{ f.date }}</td><td><a href="{{ f.source_url }}" rel="noopener">page consultée</a></td></tr>{% endfor %}</tbody>
-</table></div>
+<p>Les dates de sortie des {{ D.films.size }} films, y compris ceux qui ne sont rattachés à aucune entrée, sont réunies sur une page à part : <a href="{{ '/chronologie/films/' | relative_url }}">dates de sortie des films</a>.</p>
 {%- endif %}

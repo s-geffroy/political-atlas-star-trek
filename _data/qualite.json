@@ -1,9 +1,9 @@
 {
  "genere_le": "2026-11-10",
  "source": {
-  "csv": "data/source/Star_Trek_Atlas_Politique_V0_5_2026-11-10.csv",
-  "md": "data/source/Star_Trek_Atlas_Politique_V0_5_2026-11-10.md",
-  "version": "0.5",
+  "csv": "data/source/Star_Trek_Atlas_Politique_V0_6_2026-11-10.csv",
+  "md": "data/source/Star_Trek_Atlas_Politique_V0_6_2026-11-10.md",
+  "version": "0.6",
   "etat": "État : 10 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
   "colonnes": [
    "id",
@@ -45,7 +45,7 @@
    "statut": "ok",
    "erreurs": [],
    "avertissements": [],
-   "info": "A : 207, B : 52, C : 46."
+   "info": "A : 213, B : 88, C : 4."
   },
   {
    "num": 4,
@@ -53,7 +53,7 @@
    "statut": "ok",
    "erreurs": [],
    "avertissements": [],
-   "info": "662 URL contrôlées (syntaxe seulement, pas de requête réseau)."
+   "info": "704 URL contrôlées (syntaxe seulement, pas de requête réseau)."
   },
   {
    "num": 5,
@@ -108,11 +108,11 @@
   }
  ],
  "limites": {
-  "sans_url": 46,
-  "niveau_c": 46,
+  "sans_url": 4,
+  "niveau_c": 4,
   "autre_a_qualifier": 0,
   "non_rattachees": [],
   "fiches_sans_source": [],
-  "avec_diffusion": 292
+  "avec_diffusion": 291
  }
 }

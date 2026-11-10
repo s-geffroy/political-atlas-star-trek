@@ -68,6 +68,8 @@ export function appliquer(journal) {
       for (const c of cs) {
         if (c.champs.source) b = b.replace(`*Épisodes :* ${c.champs.source.avant}.`, `*Épisodes :* ${c.champs.source.apres}.`);
         if (c.champs.event) b = b.replace(`**${id} — ${c.champs.event.avant}**`, `**${id} — ${c.champs.event.apres}**`);
+        if (c.champs.politics) b = b.replace(`*Problématique :* ${c.champs.politics.avant}`, `*Problématique :* ${c.champs.politics.apres}`);
+        if (c.champs.period) b = b.replace(`*Temps fictionnel :* ${c.champs.period.avant}.`, `*Temps fictionnel :* ${c.champs.period.apres}.`);
       }
       b = b.replace(/\*Recoupement :\* \*\*[ABC]\*\*\.( \[Contrôle\]\([^)]*\))?/, () =>
         `*Recoupement :* **${d.niveau_recoupement}**.` + (d.url_source ? ` [Contrôle](${d.url_source})` : ''));

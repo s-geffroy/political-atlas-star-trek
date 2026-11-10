@@ -29,8 +29,8 @@ dependance npm** -- transforme les sources en donnees Jekyll, qui sont
 commitees :
 
 ```
-data/source/              CSV + Markdown du corpus (V0.3 a V0.5), jamais modifies
-data/corrections/         journaux de corrections (V0.4.json : 406 corrections, V0.5.json : 113)
+data/source/              CSV + Markdown du corpus (V0.3 a V0.6), jamais modifies
+data/corrections/         journaux de corrections (V0.4 : 406 corrections, V0.5 : 113, V0.6 : 46)
 data/diffusion.json       dates de diffusion relevees, chacune avec sa source
 data/ids-publies.json     identifiants deja publies (ne fait que grandir)
 scripts/lib/csv.mjs       parseur CSV (BOM, guillemets, « ; »)

@@ -154,6 +154,7 @@ main { padding-block: 1.5rem 3rem; min-height: 60vh; }
 .carte__titre a { color: var(--texte); text-decoration-color: var(--ligne); }
 .carte__titre a:hover { color: var(--cyan); }
 .carte__meta { color: var(--doux); font-size: 0.9rem; margin: 0; }
+p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-height: 1.5rem; line-height: 1.5rem; padding-block: 0.15rem; }
 .carte__etiquettes { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.25rem; }
 
 /* --- Explorateur ------------------------------------------------------- */

@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { parseCsv, readRecords, serializeCsv } from '../scripts/lib/csv.mjs';
-import { parseFiches, paragraphesApresPoint } from '../scripts/lib/fiches.mjs';
+import { parseFiches, paragraphesApresPoint, liensCliquables } from '../scripts/lib/fiches.mjs';
 import { episodesDe, continuite, ordreDiegetique } from '../scripts/lib/derive.mjs';
 import { importer, dernieresSources } from '../scripts/import.mjs';
 import { valider } from '../scripts/validate.mjs';
@@ -106,4 +106,9 @@ test('mise en page : paragraphe apres un point, listes et tableaux intacts, text
   const out = paragraphesApresPoint(md);
   assert.equal(out, '**Point 1 :** a. Fin.\n\n**Point 2 :** b\nsuite.\n- x.\n- y.\n| a |\n| b |');
   assert.equal(out.replace(/\n+/g, ' '), md.replace(/\n+/g, ' '));
+});
+
+test('mise en page : URL nues rendues cliquables, ponctuation finale preservee', () => {
+  assert.equal(liensCliquables('- Site : https://a.org/x et https://b.org.'), '- Site : <https://a.org/x> et <https://b.org>.');
+  assert.equal(liensCliquables('[deja](https://c.org)'), '[deja](https://c.org)');
 });

@@ -90,6 +90,12 @@ export function paragraphesApresPoint(md) {
   return out.join('\n');
 }
 
+// Mise en page uniquement : une URL nue devient un lien Markdown <url>
+// (kramdown ne cree pas de lien automatiquement). Le texte affiche est le meme.
+export function liensCliquables(md) {
+  return md.replace(/(^|\s|(?<!\])\()(https?:\/\/[^\s<>)]+?)([.,;:]?)(?=\s|$|\))/gm, '$1<$2>$3');
+}
+
 // Sections de niveau 2 utiles aux pages editoriales (methodologie, analyses).
 export function sectionsEditoriales(md) {
   const secs = sections(md);
@@ -98,7 +104,7 @@ export function sectionsEditoriales(md) {
     if (i < 0) return null;
     let body = secs[i].body;
     for (let j = i + 1; j < secs.length && secs[j].level > 2; j++) body += `\n\n### ${secs[j].title}\n\n${secs[j].body}`;
-    return { titre: secs[i].title, markdown: paragraphesApresPoint(body.trim()) };
+    return { titre: secs[i].title, markdown: liensCliquables(paragraphesApresPoint(body.trim())) };
   };
   const intro = /^> (.+)$/m.exec(md);
   return {

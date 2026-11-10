@@ -66,6 +66,7 @@ scripts: [explorateur.js]
 
 <p class="etat" id="etat" role="status" aria-live="polite"><strong>{{ S.total }}</strong> entrées.</p>
 
+<h2 class="visuellement-cache">Liste des entrées</h2>
 <ol class="cartes" id="liste">
   {%- for e in evs %}
   {%- include carte.html e=e -%}

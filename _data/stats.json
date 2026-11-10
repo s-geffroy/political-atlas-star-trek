@@ -221,39 +221,39 @@
   },
   {
    "cle": "justice/droits",
-   "n": 89
+   "n": 87
   },
   {
    "cle": "diplomatie/traité",
-   "n": 66
+   "n": 69
   },
   {
    "cle": "renseignement/sécurité",
-   "n": 58
+   "n": 60
   },
   {
    "cle": "insurrection/pouvoir",
-   "n": 54
+   "n": 58
   },
   {
    "cle": "institutions/fédéralisme",
-   "n": 39
-  },
-  {
-   "cle": "économie/social",
-   "n": 33
+   "n": 40
   },
   {
    "cle": "technologie/bioéthique",
-   "n": 30
+   "n": 31
+  },
+  {
+   "cle": "économie/social",
+   "n": 28
   },
   {
    "cle": "colonialisme/occupation",
-   "n": 26
+   "n": 27
   },
   {
    "cle": "religion/légitimité",
-   "n": 9
+   "n": 10
   }
  ],
  "continuites": [
@@ -288,8 +288,12 @@
    "n": 113
   },
   {
+   "cle": "V0.7 révisé",
+   "n": 30
+  },
+  {
    "cle": "V0.6 révisé",
-   "n": 46
+   "n": 16
   },
   {
    "cle": "V0.3 ajout",

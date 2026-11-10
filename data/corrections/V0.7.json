@@ -1,0 +1,346 @@
+{
+ "version": "V0.7",
+ "date": "2026-11-10",
+ "date_longue": "10 novembre 2026",
+ "base": "V0_6_2026-11-10",
+ "titre": "Atlas politique de Star Trek — V0.7 : catégories des entrées réécrites",
+ "resume": "Les catégories des 43 entrées dont l’intitulé a été corrigé en V0.6 ont été revues à partir du seul texte corrigé : 30 entrées voient leurs catégories ajustées (catégories devenues sans objet retirées, catégories justifiées par le nouveau texte ajoutées), les autres sont maintenues.",
+ "methode": {
+  "categories": "docs/proposition-categories-v07.md, validée le 2026-11-10."
+ },
+ "comptes": {
+  "categories": 30
+ },
+ "corrections": [
+  {
+   "id": "STP-004",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "colonialisme/occupation",
+     "apres": "guerre/bataille ; colonialisme/occupation"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de guerre/bataille : « extermination dans une guerre » ; colonialisme/occupation maintenu : « Domination de la galaxie »"
+  },
+  {
+   "id": "STP-009",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "guerre/bataille",
+     "apres": "guerre/bataille ; technologie/bioéthique"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de technologie/bioéthique : « guerres eugéniques »"
+  },
+  {
+   "id": "STP-019",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "justice/droits ; renseignement/sécurité",
+     "apres": "justice/droits"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de renseignement/sécurité : la dissidence n’est plus « clandestine » (V’tosh ka’tur partis ouvertement) ; justice/droits maintenu : « fusion mentale imposée », « Liberté de pensée »"
+  },
+  {
+   "id": "STP-051",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "diplomatie/traité ; colonialisme/occupation",
+     "apres": "diplomatie/traité ; colonialisme/occupation ; guerre/bataille"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de guerre/bataille : « confrontation au bord de leur espace » ; diplomatie/traité maintenu pour la « ligne de démarcation imposée »"
+  },
+  {
+   "id": "STP-065",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "guerre/bataille ; diplomatie/traité ; économie/social",
+     "apres": "insurrection/pouvoir ; diplomatie/traité ; économie/social"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de guerre/bataille : aucune guerre, une « Lutte de succession » (→ insurrection/pouvoir) ; « accord minier » maintient diplomatie et économie"
+  },
+  {
+   "id": "STP-068",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "justice/droits ; renseignement/sécurité",
+     "apres": "économie/social ; renseignement/sécurité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de justice/droits : plus de « discriminations » ; ajout d’économie/social : « planète surpeuplée », « contrôle démographique » ; renseignement/sécurité maintenu : « secret d’État »"
+  },
+  {
+   "id": "STP-070",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "insurrection/pouvoir ; religion/légitimité ; technologie/bioéthique",
+     "apres": "religion/légitimité ; technologie/bioéthique"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait d’insurrection/pouvoir : pas de rébellion des habitants, « Destruction de l’ordinateur Vaal par l’équipage » ; religion et technologie maintenues : « Théocratie technologique »"
+  },
+  {
+   "id": "STP-071",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "renseignement/sécurité",
+     "apres": "religion/légitimité ; renseignement/sécurité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de religion/légitimité : « Âme des Skorr », « guerre sainte galactique » ; renseignement/sécurité maintenu : « Vol », « politique de sécurité »"
+  },
+  {
+   "id": "STP-072",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "guerre/bataille ; justice/droits",
+     "apres": "guerre/bataille"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de justice/droits : plus de « justice locale » ; guerre/bataille maintenu : « nouvelle guerre contre la Fédération »"
+  },
+  {
+   "id": "STP-076",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "diplomatie/traité",
+     "apres": "diplomatie/traité ; renseignement/sécurité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de renseignement/sécurité : « Prise d’otages » ; diplomatie/traité maintenu : « planète de la paix galactique »"
+  },
+  {
+   "id": "STP-090",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "renseignement/sécurité",
+     "apres": "diplomatie/traité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — remplacement de renseignement/sécurité par diplomatie/traité : « Premier contact avec les Ferengis »"
+  },
+  {
+   "id": "STP-091",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "guerre/bataille",
+     "apres": "diplomatie/traité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de guerre/bataille : aucune guerre civile ; diplomatie/traité : « confrontation diplomatique autour d’un vaccin »"
+  },
+  {
+   "id": "STP-096",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "économie/social",
+     "apres": "diplomatie/traité ; renseignement/sécurité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — remplacement d’économie/social : « Confrontation entre Romuliens et Fédération » (diplomatie), « dilemme de sécurité »"
+  },
+  {
+   "id": "STP-133",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "guerre/bataille",
+     "apres": "renseignement/sécurité ; justice/droits"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de guerre/bataille ; renseignement/sécurité : « Enlèvement de Kira par l’Ordre obsidien » ; justice/droits : « sort des orphelins cardassiens »"
+  },
+  {
+   "id": "STP-140",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "renseignement/sécurité",
+     "apres": "renseignement/sécurité ; diplomatie/traité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de diplomatie/traité : « cessez-le-feu Fédération–Klingons »"
+  },
+  {
+   "id": "STP-142",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "diplomatie/traité",
+     "apres": "justice/droits ; colonialisme/occupation"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de diplomatie/traité (sans objet) ; justice/droits : « exécutions d’innocents », « chantage » ; colonialisme/occupation : « collaboration » sous l’Occupation, « Épuration »"
+  },
+  {
+   "id": "STP-162",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "diplomatie/traité",
+     "apres": "diplomatie/traité ; insurrection/pouvoir"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout d’insurrection/pouvoir : « Promotion par le combat », projet de Culluh « d’unir les sectes »"
+  },
+  {
+   "id": "STP-164",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "justice/droits ; insurrection/pouvoir ; économie/social ; renseignement/sécurité",
+     "apres": "justice/droits ; insurrection/pouvoir ; renseignement/sécurité ; colonialisme/occupation"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de colonialisme/occupation : « occupation mokra » ; retrait d’économie/social, sans appui dans le texte"
+  },
+  {
+   "id": "STP-167",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "justice/droits ; économie/social",
+     "apres": "justice/droits"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait d’économie/social : plus de « travail forcé » ; justice/droits : « condamnés sans recours », « Politique pénitentiaire »"
+  },
+  {
+   "id": "STP-173",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "guerre/bataille ; diplomatie/traité ; renseignement/sécurité",
+     "apres": "guerre/bataille ; renseignement/sécurité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de diplomatie/traité : aucun « pacte de paix » ; guerre et renseignement maintenus : « Propagande de guerre », « endoctrinement »"
+  },
+  {
+   "id": "STP-175",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "justice/droits ; économie/social",
+     "apres": "justice/droits"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait d’économie/social : plus de « régime de travail » ; justice/droits : « peine de mort », « discrimination des Benkarans »"
+  },
+  {
+   "id": "STP-204",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "diplomatie/traité ; renseignement/sécurité",
+     "apres": "diplomatie/traité ; institutions/fédéralisme"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de renseignement/sécurité : plus de « terrorisme » ; ajout d’institutions/fédéralisme : « Demande d’adhésion provisoire à la Fédération »"
+  },
+  {
+   "id": "STP-210",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "justice/droits ; économie/social",
+     "apres": "insurrection/pouvoir ; justice/droits"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — remplacement d’économie/social par insurrection/pouvoir : « trône d’Hysperia », « Monarchie héréditaire, tradition dynastique » ; justice/droits maintenu : « liberté de choix »"
+  },
+  {
+   "id": "STP-212",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "guerre/bataille",
+     "apres": "guerre/bataille ; renseignement/sécurité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de renseignement/sécurité : « accusation de Freeman », « Désinformation »"
+  },
+  {
+   "id": "STP-213",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "justice/droits",
+     "apres": "justice/droits ; diplomatie/traité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de diplomatie/traité : « Mission de bonne volonté de Starfleet sur Orion »"
+  },
+  {
+   "id": "STP-227",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "diplomatie/traité",
+     "apres": "diplomatie/traité ; guerre/bataille"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de guerre/bataille : « guerre civile de Solum »"
+  },
+  {
+   "id": "STP-247",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "justice/droits",
+     "apres": "insurrection/pouvoir"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — remplacement de justice/droits (plus de « procès ») par insurrection/pouvoir : « Prise de l’asile », « ambition de conquête », « abus de pouvoir »"
+  },
+  {
+   "id": "STP-250",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "technologie/bioéthique ; colonialisme/occupation",
+     "apres": "technologie/bioéthique ; insurrection/pouvoir"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de colonialisme/occupation : plus de « colonisation expérimentale » ; ajout d’insurrection/pouvoir : « imposer la paix à la galaxie », « Paix imposée par la force » ; technologie maintenue : « clone géant », « guerres eugéniques »"
+  },
+  {
+   "id": "STP-251",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "guerre/bataille ; justice/droits ; économie/social ; renseignement/sécurité",
+     "apres": "guerre/bataille ; renseignement/sécurité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de justice/droits et économie/social : plus de « discrimination contre des réfugiés » ; renseignement et guerre maintenus : « complot de désinformation », « prévention de la guerre »"
+  },
+  {
+   "id": "STP-269",
+   "type": "categorie",
+   "champs": {
+    "categories_politiques": {
+     "avant": "institutions/fédéralisme",
+     "apres": "institutions/fédéralisme ; renseignement/sécurité"
+    }
+   },
+   "motif": "catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de renseignement/sécurité : « infiltration de cellules maquisardes »"
+  }
+ ]
+}

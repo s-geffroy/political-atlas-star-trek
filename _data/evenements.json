@@ -236,13 +236,14 @@
   "event": "Domination de la galaxie par l'ancienne civilisation des Slavers et son extermination dans une guerre",
   "source": "TAS «The Slaver Weapon»",
   "politics": "Esclavage et effondrement d'un ordre politique galactique.",
-  "categories_politiques": "colonialisme/occupation",
+  "categories_politiques": "guerre/bataille ; colonialisme/occupation",
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Mise en servitude des espèces », « Esclavage » ; vérification non concluante (niveau C maintenu) — La « mise en servitude des espèces » n'est pas décrite dans le corps de l'article (seul un commentaire de lecteur l'évoque). Source consultée : https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Le corps du rewatch dit que les Slavers « conquered the entire galaxy billions of years earlier » et qu'après leur anéantissement la vie a dû réapparaître. La transcription de l'épisode (chakoteya.net) précise : maîtres de tous les êtres intelligents de la galaxie, une race s'est révoltée, et les Slavers et tous leurs sujets ont été exterminés dans la guerre. La mise en servitude des Tnuctipun n'apparaît que dans la nouvelle de Niven, pas dans l'épisode (Wikipedia).",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Mise en servitude des espèces », « Esclavage » ; vérification non concluante (niveau C maintenu) — La « mise en servitude des espèces » n'est pas décrite dans le corps de l'article (seul un commentaire de lecteur l'évoque). Source consultée : https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Le corps du rewatch dit que les Slavers « conquered the entire galaxy billions of years earlier » et qu'après leur anéantissement la vie a dû réapparaître. La transcription de l'épisode (chakoteya.net) précise : maîtres de tous les êtres intelligents de la galaxie, une race s'est révoltée, et les Slavers et tous leurs sujets ont été exterminés dans la guerre. La mise en servitude des Tnuctipun n'apparaît que dans la nouvelle de Niven, pas dans l'épisode (Wikipedia). V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de guerre/bataille : « extermination dans une guerre » ; colonialisme/occupation maintenu : « Domination de la galaxie ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
+   "guerre/bataille",
    "colonialisme/occupation"
   ],
   "series": [
@@ -519,14 +520,15 @@
   "event": "Seconde guerre civile américaine et guerres eugéniques menant à la Troisième Guerre mondiale",
   "source": "SNW «Strange New Worlds»",
   "politics": "Fragmentation des États et violence systémique; détails et datations lacunaires.",
-  "categories_politiques": "guerre/bataille",
+  "categories_politiques": "guerre/bataille ; technologie/bioéthique",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-strange-new-worlds",
-  "note_audit": "V0.4 (2026-11-10) : champ source : « First Contact » sans sigle rattaché explicitement au film (Film «First Contact»), seule œuvre canonique de ce titre. V0.6 (2026-11-10) : intitulé, épisode cité corrigé(s) d’après la source, recoupement A — Le récapitulatif officiel indique que Pike montre aux dirigeants de Kiley 3 que les États-Unis ont connu une seconde guerre civile et les guerres eugéniques, « conflicts that led to Earth's catastrophic World War III ». Aucune des sources lues ne rattache une montée des tensions d'avant-guerre à « Encounter at Farpoint » ou à « First Contact » (qui se passe en 2063, après la guerre) ; PIC saison 2 n'a pas été vérifiée.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : champ source : « First Contact » sans sigle rattaché explicitement au film (Film «First Contact»), seule œuvre canonique de ce titre. V0.6 (2026-11-10) : intitulé, épisode cité corrigé(s) d’après la source, recoupement A — Le récapitulatif officiel indique que Pike montre aux dirigeants de Kiley 3 que les États-Unis ont connu une seconde guerre civile et les guerres eugéniques, « conflicts that led to Earth's catastrophic World War III ». Aucune des sources lues ne rattache une montée des tensions d'avant-guerre à « Encounter at Farpoint » ou à « First Contact » (qui se passe en 2063, après la guerre) ; PIC saison 2 n'a pas été vérifiée. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de technologie/bioéthique : « guerres eugéniques ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "guerre/bataille"
+   "guerre/bataille",
+   "technologie/bioéthique"
   ],
   "series": [
    "SNW"
@@ -1218,15 +1220,14 @@
   "event": "Dissidence des V'tosh ka'tur à bord d'un navire vulcain et fusion mentale imposée à T'Pol",
   "source": "ENT «Fusion»",
   "politics": "Liberté de pensée et orthodoxie culturelle.",
-  "categories_politiques": "justice/droits ; renseignement/sécurité",
+  "categories_politiques": "justice/droits",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Fusion_(Star_Trek:_Enterprise)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Le résumé ne qualifie pas l'équipage de « dissidence clandestine » : il s'agit de Vulcains ayant quitté Vulcain ouvertement pour explorer leurs émotions. Source consultée : https://en.wikipedia.org/wiki/Fusion_(Star_Trek:_Enterprise). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Le Vahklas transporte des Vulcains partis ouvertement de Vulcain depuis huit ans, des V'tosh ka'tur (« Vulcans without logic ») qui gardent l'effigie de Surak mais rejettent ses enseignements ; Tolaris initie T'Pol à la fusion mentale, technique abandonnée, et persiste quand elle veut y mettre fin. Rien de clandestin.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Le résumé ne qualifie pas l'équipage de « dissidence clandestine » : il s'agit de Vulcains ayant quitté Vulcain ouvertement pour explorer leurs émotions. Source consultée : https://en.wikipedia.org/wiki/Fusion_(Star_Trek:_Enterprise). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Le Vahklas transporte des Vulcains partis ouvertement de Vulcain depuis huit ans, des V'tosh ka'tur (« Vulcans without logic ») qui gardent l'effigie de Surak mais rejettent ses enseignements ; Tolaris initie T'Pol à la fusion mentale, technique abandonnée, et persiste quand elle veut y mettre fin. Rien de clandestin. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de renseignement/sécurité : la dissidence n’est plus « clandestine » (V’tosh ka’tur partis ouvertement) ; justice/droits maintenu : « fusion mentale imposée », « Liberté de pensée ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "justice/droits",
-   "renseignement/sécurité"
+   "justice/droits"
   ],
   "series": [
    "ENT"
@@ -3063,15 +3064,16 @@
   "event": "Ligne de démarcation imposée par les Gorns et confrontation au bord de leur espace",
   "source": "SNW «Memento Mori»; «Hegemony»; saison 3",
   "politics": "Expansion prédatrice, protection des colonies et souveraineté territoriale.",
-  "categories_politiques": "diplomatie/traité ; colonialisme/occupation",
+  "categories_politiques": "diplomatie/traité ; colonialisme/occupation ; guerre/bataille",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/en-un/news/recap-210-hegemony-strange-new-worlds",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — colonialisme/occupation ajoutée : « protection des colonies et souveraineté territoriale » ; vérification non concluante (niveau C maintenu) — Aucun traité n'est mentionné : la frontière décrite est une ligne de démarcation unilatérale imposée par les Gorns. La partie « traité » de l'entrée n'est pas confirmée ; la saison 3 n'a pas été vérifiée. Source consultée : https://www.startrek.com/news/recap-210-hegemony-strange-new-worlds. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement A — Le récapitulatif officiel décrit une carte de démarcation envoyée par les Gorns, l'ordre de Starfleet de rester de son côté de cette « impromptu border », et l'attaque gorn contre Parnassus Beta, colonie juste hors de l'espace fédéral ; aucun traité n'est mentionné. La saison 3 n'a pas été vérifiée.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — colonialisme/occupation ajoutée : « protection des colonies et souveraineté territoriale » ; vérification non concluante (niveau C maintenu) — Aucun traité n'est mentionné : la frontière décrite est une ligne de démarcation unilatérale imposée par les Gorns. La partie « traité » de l'entrée n'est pas confirmée ; la saison 3 n'a pas été vérifiée. Source consultée : https://www.startrek.com/news/recap-210-hegemony-strange-new-worlds. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement A — Le récapitulatif officiel décrit une carte de démarcation envoyée par les Gorns, l'ordre de Starfleet de rester de son côté de cette « impromptu border », et l'attaque gorn contre Parnassus Beta, colonie juste hors de l'espace fédéral ; aucun traité n'est mentionné. La saison 3 n'a pas été vérifiée. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de guerre/bataille : « confrontation au bord de leur espace » ; diplomatie/traité maintenu pour la « ligne de démarcation imposée ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
    "diplomatie/traité",
-   "colonialisme/occupation"
+   "colonialisme/occupation",
+   "guerre/bataille"
   ],
   "series": [
    "SNW"
@@ -3809,14 +3811,14 @@
   "event": "Lutte de succession sur Capella IV et accord minier disputé entre Fédération et Klingons",
   "source": "TOS «Friday's Child»",
   "politics": "Diplomatie des ressources et ingérence klingonne.",
-  "categories_politiques": "guerre/bataille ; diplomatie/traité ; économie/social",
+  "categories_politiques": "insurrection/pouvoir ; diplomatie/traité ; économie/social",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Friday's_Child_(Star_Trek:_The_Original_Series)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page décrit une lutte interne de succession chez les Capellans plutôt qu'une « guerre locale contre une force tribale ». Source consultée : https://en.wikipedia.org/wiki/Friday's_Child_(Star_Trek:_The_Original_Series). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Kirk négocie un contrat minier sur Capella IV face à l'émissaire klingon Kras ; Maab défie et tue le chef Akaar et se proclame Teer ; Eleen, veuve d'Akaar et régente de son fils, autorise finalement l'accord minier avec la Fédération. Aucune guerre contre une force tribale.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page décrit une lutte interne de succession chez les Capellans plutôt qu'une « guerre locale contre une force tribale ». Source consultée : https://en.wikipedia.org/wiki/Friday's_Child_(Star_Trek:_The_Original_Series). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Kirk négocie un contrat minier sur Capella IV face à l'émissaire klingon Kras ; Maab défie et tue le chef Akaar et se proclame Teer ; Eleen, veuve d'Akaar et régente de son fils, autorise finalement l'accord minier avec la Fédération. Aucune guerre contre une force tribale. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de guerre/bataille : aucune guerre, une « Lutte de succession » (→ insurrection/pouvoir) ; « accord minier » maintient diplomatie et économie.",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "guerre/bataille",
+   "insurrection/pouvoir",
    "diplomatie/traité",
    "économie/social"
   ],
@@ -3958,14 +3960,14 @@
   "event": "Enlèvement de Kirk sur Gideon, planète surpeuplée, pour y propager une maladie mortelle",
   "source": "TOS «The Mark of Gideon»",
   "politics": "Surpopulation, contrôle démographique et secret d'État.",
-  "categories_politiques": "justice/droits ; renseignement/sécurité",
+  "categories_politiques": "économie/social ; renseignement/sécurité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/The_Mark_of_Gideon",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Wikipedia présente Gideon comme une planète avec laquelle la Fédération discute de relations diplomatiques, pas comme une colonie : https://en.wikipedia.org/wiki/The_Mark_of_Gideon. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — L'Enterprise vient discuter de relations diplomatiques avec Gideon, planète gravement surpeuplée ; Kirk, seul autorisé à descendre, est piégé dans une réplique de son vaisseau ; l'ambassadeur Hodin refuse toute recherche et veut répandre la choriomeningite végienne portée par Kirk pour réduire la population. Ni colonie, ni discriminations, ni conflit de droit.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Wikipedia présente Gideon comme une planète avec laquelle la Fédération discute de relations diplomatiques, pas comme une colonie : https://en.wikipedia.org/wiki/The_Mark_of_Gideon. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — L'Enterprise vient discuter de relations diplomatiques avec Gideon, planète gravement surpeuplée ; Kirk, seul autorisé à descendre, est piégé dans une réplique de son vaisseau ; l'ambassadeur Hodin refuse toute recherche et veut répandre la choriomeningite végienne portée par Kirk pour réduire la population. Ni colonie, ni discriminations, ni conflit de droit. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de justice/droits : plus de « discriminations » ; ajout d’économie/social : « planète surpeuplée », « contrôle démographique » ; renseignement/sécurité maintenu : « secret d’État ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "justice/droits",
+   "économie/social",
    "renseignement/sécurité"
   ],
   "series": [
@@ -4058,14 +4060,13 @@
   "event": "Destruction de l'ordinateur Vaal par l'équipage de l'Enterprise sur Gamma Trianguli VI",
   "source": "TOS «The Apple»",
   "politics": "Théocratie technologique et conséquences d'une libération imposée.",
-  "categories_politiques": "insurrection/pouvoir ; religion/légitimité ; technologie/bioéthique",
+  "categories_politiques": "religion/légitimité ; technologie/bioéthique",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/The_Apple_(Star_Trek:_The_Original_Series)",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — religion/légitimité ajoutée : « Théocratie technologique » ; technologie/bioéthique ajoutée : « ordinateur Vaal », « Théocratie technologique » ; vérification non concluante (niveau C maintenu) — C'est l'équipage de l'Enterprise, et non les habitants, qui met fin au pouvoir de Vaal. Source consultée : https://en.wikipedia.org/wiki/The_Apple_(Star_Trek:_The_Original_Series). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Kirk empêche les « Feeders of Vaal » de nourrir la machine et fait tirer les phaseurs du vaisseau jusqu'à la surcharger ; il annonce ensuite à Akuta que son peuple connaîtra une vie normale. Les habitants ne se révoltent pas.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — religion/légitimité ajoutée : « Théocratie technologique » ; technologie/bioéthique ajoutée : « ordinateur Vaal », « Théocratie technologique » ; vérification non concluante (niveau C maintenu) — C'est l'équipage de l'Enterprise, et non les habitants, qui met fin au pouvoir de Vaal. Source consultée : https://en.wikipedia.org/wiki/The_Apple_(Star_Trek:_The_Original_Series). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Kirk empêche les « Feeders of Vaal » de nourrir la machine et fait tirer les phaseurs du vaisseau jusqu'à la surcharger ; il annonce ensuite à Akuta que son peuple connaîtra une vie normale. Les habitants ne se révoltent pas. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait d’insurrection/pouvoir : pas de rébellion des habitants, « Destruction de l’ordinateur Vaal par l’équipage » ; religion et technologie maintenues : « Théocratie technologique ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "insurrection/pouvoir",
    "religion/légitimité",
    "technologie/bioéthique"
   ],
@@ -4112,13 +4113,14 @@
   "event": "Vol de l'« Âme des Skorr » par le prince Tchar et menace d'une guerre sainte galactique",
   "source": "TAS «The Jihad»",
   "politics": "Coopération ponctuelle entre peuples ennemis et politique de sécurité.",
-  "categories_politiques": "renseignement/sécurité",
+  "categories_politiques": "religion/légitimité ; renseignement/sécurité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/The_Jihad",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « politique de sécurité » ; vérification non concluante (niveau C maintenu) — Wikipedia (https://en.wikipedia.org/wiki/The_Jihad) et le rewatch Reactor (https://reactormag.com/star-trek-the-original-series-rewatch-the-jihad/) indiquent que Kirk et Spock sont convoqués par les Vedala pour retrouver la relique volée des Skorr ; le saboteur est le prince Tchar, qui veut ramener son peuple à ses mœurs guerrières. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Les Vedala convoquent Kirk et Spock dans une équipe chargée de retrouver l'« Âme des Skorr », relique dont le vol pourrait déclencher une guerre sainte galactique ; le voleur est Tchar, prince héréditaire des Skorr, qui veut ramener son peuple à ses mœurs guerrières. Kirk et Spock ne sont pas capturés.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « politique de sécurité » ; vérification non concluante (niveau C maintenu) — Wikipedia (https://en.wikipedia.org/wiki/The_Jihad) et le rewatch Reactor (https://reactormag.com/star-trek-the-original-series-rewatch-the-jihad/) indiquent que Kirk et Spock sont convoqués par les Vedala pour retrouver la relique volée des Skorr ; le saboteur est le prince Tchar, qui veut ramener son peuple à ses mœurs guerrières. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Les Vedala convoquent Kirk et Spock dans une équipe chargée de retrouver l'« Âme des Skorr », relique dont le vol pourrait déclencher une guerre sainte galactique ; le voleur est Tchar, prince héréditaire des Skorr, qui veut ramener son peuple à ses mœurs guerrières. Kirk et Spock ne sont pas capturés. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de religion/légitimité : « Âme des Skorr », « guerre sainte galactique » ; renseignement/sécurité maintenu : « Vol », « politique de sécurité ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
+   "religion/légitimité",
    "renseignement/sécurité"
   ],
   "series": [
@@ -4164,15 +4166,14 @@
   "event": "Tentative des Kzinti de s'emparer d'une arme slaver pour une nouvelle guerre contre la Fédération",
   "source": "TAS «The Slaver Weapon»",
   "politics": "Mémoire de l'esclavage et contrôle des armes antiques.",
-  "categories_politiques": "guerre/bataille ; justice/droits",
+  "categories_politiques": "guerre/bataille",
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/",
-  "note_audit": "V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Le rewatch décrit des Kzinti à bord d'un vaisseau de police volé, le Traitor's Claw, qui cherchent des armes « to fight another war against the Federation » ; l'arme slaver, se jugeant aux mains d'ennemis, se met en autodestruction et tue les Kzinti. Aucune « justice locale ».",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Le rewatch décrit des Kzinti à bord d'un vaisseau de police volé, le Traitor's Claw, qui cherchent des armes « to fight another war against the Federation » ; l'arme slaver, se jugeant aux mains d'ennemis, se met en autodestruction et tue les Kzinti. Aucune « justice locale ». V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de justice/droits : plus de « justice locale » ; guerre/bataille maintenu : « nouvelle guerre contre la Fédération ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "guerre/bataille",
-   "justice/droits"
+   "guerre/bataille"
   ],
   "series": [
    "TAS"
@@ -4374,14 +4375,15 @@
   "event": "Prise d'otages sur Nimbus III, « planète de la paix galactique », pour s'emparer d'un vaisseau",
   "source": "Film «The Final Frontier»",
   "politics": "Faiblesse d'une colonie diplomatique et crise des otages.",
-  "categories_politiques": "diplomatie/traité",
+  "categories_politiques": "diplomatie/traité ; renseignement/sécurité",
   "niveau_recoupement": "A",
   "nature_source": "Editorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/the-final-frontier-25-years-later",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Le mobile décrit n'est pas de saboter le processus de paix : la prise d'otages est un leurre pour s'emparer d'un vaisseau et chercher « Dieu » (même lecture dans https://en.wikipedia.org/wiki/Star_Trek_V:_The_Final_Frontier). La qualification « sabotage » de l'entrée n'est pas confirmée. Source consultée : https://www.startrek.com/en-un/news/the-final-frontier-25-years-later. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement A — L'article officiel indique que Sybok et ses partisans prennent des otages sur Nimbus III, « so-called Planet of Galactic Peace », pour attirer un vaisseau et partir à la recherche de Dieu. Aucun sabotage du processus de paix.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Le mobile décrit n'est pas de saboter le processus de paix : la prise d'otages est un leurre pour s'emparer d'un vaisseau et chercher « Dieu » (même lecture dans https://en.wikipedia.org/wiki/Star_Trek_V:_The_Final_Frontier). La qualification « sabotage » de l'entrée n'est pas confirmée. Source consultée : https://www.startrek.com/en-un/news/the-final-frontier-25-years-later. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement A — L'article officiel indique que Sybok et ses partisans prennent des otages sur Nimbus III, « so-called Planet of Galactic Peace », pour attirer un vaisseau et partir à la recherche de Dieu. Aucun sabotage du processus de paix. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de renseignement/sécurité : « Prise d’otages » ; diplomatie/traité maintenu : « planète de la paix galactique ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "diplomatie/traité"
+   "diplomatie/traité",
+   "renseignement/sécurité"
   ],
   "series": [
    "Film"
@@ -5143,14 +5145,14 @@
   "event": "Premier contact avec les Ferengis et épreuve imposée par un gardien de l'ancien empire Tkon",
   "source": "TNG «The Last Outpost»",
   "politics": "Effondrement impérial, manipulation des représentations de l'ennemi.",
-  "categories_politiques": "renseignement/sécurité",
+  "categories_politiques": "diplomatie/traité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/The_Last_Outpost_(Star_Trek:_The_Next_Generation)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page décrit les vestiges et leur gardien, pas une « crise » de l'empire Tkon. Source consultée : https://en.wikipedia.org/wiki/The_Last_Outpost_(Star_Trek:_The_Next_Generation). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — L'épisode marque le premier contact avec les Ferengis, poursuivis pour le vol d'un convertisseur d'énergie ; sur un ancien avant-poste de l'empire Tkon, éteint depuis 600 000 ans, le gardien Portal 63 met l'humanité à l'épreuve et Riker refuse de détruire le vaisseau ferengi. Aucune « crise » de l'empire Tkon.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page décrit les vestiges et leur gardien, pas une « crise » de l'empire Tkon. Source consultée : https://en.wikipedia.org/wiki/The_Last_Outpost_(Star_Trek:_The_Next_Generation). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — L'épisode marque le premier contact avec les Ferengis, poursuivis pour le vol d'un convertisseur d'énergie ; sur un ancien avant-poste de l'empire Tkon, éteint depuis 600 000 ans, le gardien Portal 63 met l'humanité à l'épreuve et Riker refuse de détruire le vaisseau ferengi. Aucune « crise » de l'empire Tkon. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — remplacement de renseignement/sécurité par diplomatie/traité : « Premier contact avec les Ferengis ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "renseignement/sécurité"
+   "diplomatie/traité"
   ],
   "series": [
    "TNG"
@@ -5195,14 +5197,14 @@
   "event": "Enlèvement de Tasha Yar sur Ligon II et confrontation diplomatique autour d'un vaccin",
   "source": "TNG «Code of Honor»",
   "politics": "Souveraineté coutumière et représentations problématiques.",
-  "categories_politiques": "guerre/bataille",
+  "categories_politiques": "diplomatie/traité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Code_of_Honor_(Star_Trek:_The_Next_Generation)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Wikipedia (https://en.wikipedia.org/wiki/Code_of_Honor_(Star_Trek:_The_Next_Generation)) ne mentionne aucune guerre civile sur Ligon II : le conflit est un duel rituel pour le statut de « first one ». V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Venu chercher un vaccin, l'Enterprise voit Lutan enlever Yar ; Picard y voit d'abord un acte de guerre, Lutan retient le vaccin tant que Yar n'affronte pas Yareena dans un duel à mort ; Yareena choisit Hagon et Lutan perd le pouvoir. Aucune guerre civile (la catégorie « guerre/bataille » est donc discutable).",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Wikipedia (https://en.wikipedia.org/wiki/Code_of_Honor_(Star_Trek:_The_Next_Generation)) ne mentionne aucune guerre civile sur Ligon II : le conflit est un duel rituel pour le statut de « first one ». V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Venu chercher un vaccin, l'Enterprise voit Lutan enlever Yar ; Picard y voit d'abord un acte de guerre, Lutan retient le vaccin tant que Yar n'affronte pas Yareena dans un duel à mort ; Yareena choisit Hagon et Lutan perd le pouvoir. Aucune guerre civile (la catégorie « guerre/bataille » est donc discutable). V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de guerre/bataille : aucune guerre civile ; diplomatie/traité : « confrontation diplomatique autour d’un vaccin ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "guerre/bataille"
+   "diplomatie/traité"
   ],
   "series": [
    "TNG"
@@ -5443,14 +5445,15 @@
   "event": "Confrontation entre Romuliens et Fédération à propos de naufragés romuliens sur Galorndon Core",
   "source": "TNG «The Enemy»",
   "politics": "Humanitaire et dilemme de sécurité.",
-  "categories_politiques": "économie/social",
+  "categories_politiques": "diplomatie/traité ; renseignement/sécurité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/The_Enemy_(Star_Trek:_The_Next_Generation)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Wikipedia (https://en.wikipedia.org/wiki/The_Enemy_(Star_Trek:_The_Next_Generation)) ne mentionne ni réfugiés romuliens ni confrontation entre Klingons et Fédération : la tension oppose la Fédération aux Romuliens, et Worf agit à titre personnel. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — L'Enterprise recueille des survivants d'un crash romulien sur Galorndon Core ; Worf refuse de donner son sang et le blessé meurt ; Tomalak viole le traité et menace l'Enterprise, puis se retire quand Bochra témoigne que La Forge l'a sauvé. La tension oppose Romuliens et Fédération, pas Klingons et Fédération.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Wikipedia (https://en.wikipedia.org/wiki/The_Enemy_(Star_Trek:_The_Next_Generation)) ne mentionne ni réfugiés romuliens ni confrontation entre Klingons et Fédération : la tension oppose la Fédération aux Romuliens, et Worf agit à titre personnel. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — L'Enterprise recueille des survivants d'un crash romulien sur Galorndon Core ; Worf refuse de donner son sang et le blessé meurt ; Tomalak viole le traité et menace l'Enterprise, puis se retire quand Bochra témoigne que La Forge l'a sauvé. La tension oppose Romuliens et Fédération, pas Klingons et Fédération. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — remplacement d’économie/social : « Confrontation entre Romuliens et Fédération » (diplomatie), « dilemme de sécurité ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "économie/social"
+   "diplomatie/traité",
+   "renseignement/sécurité"
   ],
   "series": [
    "TNG"
@@ -7621,14 +7624,15 @@
   "event": "Enlèvement de Kira par l'Ordre obsidien et sort des orphelins cardassiens élevés par des Bajorans",
   "source": "DS9 «Second Skin»; «Cardassians»",
   "politics": "Identité, enlèvements et enfance en contexte de guerre.",
-  "categories_politiques": "guerre/bataille",
+  "categories_politiques": "renseignement/sécurité ; justice/droits",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Second_Skin_(Star_Trek:_Deep_Space_Nine)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Les résumés Wikipedia lus décrivent d'autres intrigues : « Second Skin » = enlèvement de Kira par l'Ordre obsidien pour démasquer le dissident Ghemor (https://en.wikipedia.org/wiki/Second_Skin_(Star_Trek:_Deep_Space_Nine)) ; « Cardassians » = garde d'un orphelin cardassien élevé par des Bajorans et complot de Dukat contre Pa'Dar (https://en.wikipedia.org/wiki/Cardassians_(Star_Trek:_Deep_Space_Nine_episode)). Le thème correspond plutôt à « Duet », non cité par l'entrée. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — « Second Skin » : Kira, enlevée par l'Ordre obsidien et grimée en Cardassienne, sert à démasquer le dissident Ghemor. « Cardassians » (https://en.wikipedia.org/wiki/Cardassians_(Star_Trek:_Deep_Space_Nine_episode)) : Rugal, orphelin cardassien élevé par des Bajorans, au cœur d'une manœuvre de Dukat contre Pa'Dar. Cette lecture colle à la problématique actuelle (identité, enlèvements, enfance) ; si l'on tient à la poursuite des criminels cardassiens, c'est « Duet », déjà couvert par STP-125.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Les résumés Wikipedia lus décrivent d'autres intrigues : « Second Skin » = enlèvement de Kira par l'Ordre obsidien pour démasquer le dissident Ghemor (https://en.wikipedia.org/wiki/Second_Skin_(Star_Trek:_Deep_Space_Nine)) ; « Cardassians » = garde d'un orphelin cardassien élevé par des Bajorans et complot de Dukat contre Pa'Dar (https://en.wikipedia.org/wiki/Cardassians_(Star_Trek:_Deep_Space_Nine_episode)). Le thème correspond plutôt à « Duet », non cité par l'entrée. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — « Second Skin » : Kira, enlevée par l'Ordre obsidien et grimée en Cardassienne, sert à démasquer le dissident Ghemor. « Cardassians » (https://en.wikipedia.org/wiki/Cardassians_(Star_Trek:_Deep_Space_Nine_episode)) : Rugal, orphelin cardassien élevé par des Bajorans, au cœur d'une manœuvre de Dukat contre Pa'Dar. Cette lecture colle à la problématique actuelle (identité, enlèvements, enfance) ; si l'on tient à la poursuite des criminels cardassiens, c'est « Duet », déjà couvert par STP-125. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de guerre/bataille ; renseignement/sécurité : « Enlèvement de Kira par l’Ordre obsidien » ; justice/droits : « sort des orphelins cardassiens ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "guerre/bataille"
+   "renseignement/sécurité",
+   "justice/droits"
   ],
   "series": [
    "DS9"
@@ -8065,14 +8069,15 @@
   "event": "Démasquage à Ty'Gokor du changeling se faisant passer pour Martok et cessez-le-feu Fédération–Klingons",
   "source": "DS9 «Apocalypse Rising»",
   "politics": "Manipulation politique par imitation d'identité.",
-  "categories_politiques": "renseignement/sécurité",
+  "categories_politiques": "renseignement/sécurité ; diplomatie/traité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Apocalypse_Rising",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Le résumé Wikipedia (https://en.wikipedia.org/wiki/Apocalypse_Rising) situe l'action à Ty'Gokor, quartier général militaire klingon, lors d'une cérémonie de l'Ordre du Bat'leth, et non à une conférence de Khitomer. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : Starfleet charge Sisko de démasquer un changeling qu'il croit sous les traits de Gowron ; l'équipe infiltre Ty'Gokor lors de la cérémonie de l'Ordre du Bat'leth, Odo démasque Martok, l'imposteur qui aurait permis au Dominion de contrôler l'Empire ; Gowron refuse de cesser la guerre mais accepte un cessez-le-feu. Aucune conférence de Khitomer.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Le résumé Wikipedia (https://en.wikipedia.org/wiki/Apocalypse_Rising) situe l'action à Ty'Gokor, quartier général militaire klingon, lors d'une cérémonie de l'Ordre du Bat'leth, et non à une conférence de Khitomer. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : Starfleet charge Sisko de démasquer un changeling qu'il croit sous les traits de Gowron ; l'équipe infiltre Ty'Gokor lors de la cérémonie de l'Ordre du Bat'leth, Odo démasque Martok, l'imposteur qui aurait permis au Dominion de contrôler l'Empire ; Gowron refuse de cesser la guerre mais accepte un cessez-le-feu. Aucune conférence de Khitomer. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de diplomatie/traité : « cessez-le-feu Fédération–Klingons ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "renseignement/sécurité"
+   "renseignement/sécurité",
+   "diplomatie/traité"
   ],
   "series": [
    "DS9"
@@ -8173,14 +8178,15 @@
   "event": "Mémoire de la collaboration bajorane : chantage sur une liste de collaborateurs et exécutions d'innocents sous l'autorité d'Odo",
   "source": "DS9 «Things Past»; «Necessary Evil»",
   "politics": "Épuration, témoignage et mémoire des régimes violents.",
-  "categories_politiques": "diplomatie/traité",
+  "categories_politiques": "justice/droits ; colonialisme/occupation",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Necessary_Evil_(Star_Trek:_Deep_Space_Nine)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Résumés Wikipedia : « Necessary Evil » (https://en.wikipedia.org/wiki/Necessary_Evil_(Star_Trek:_Deep_Space_Nine)) = liste de collaborateurs servant au chantage et meurtre d'un collaborateur par Kira ; « Things Past » (https://en.wikipedia.org/wiki/Things_Past_(Star_Trek:_Deep_Space_Nine)) = exécution de Bajorans innocents sous l'autorité d'Odo pendant l'Occupation. Aucun ne montre un débat sur la réintégration. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia « Necessary Evil » : la liste recense des Bajorans ayant collaboré avec les Cardassiens, que Pallra fait chanter ; « Things Past » (Wikipedia) : Odo admet avoir fait exécuter des Bajorans innocents, préférant la loi à la justice. Aucun débat sur la réintégration n'est décrit ; catégorie « diplomatie/traité » à revoir (justice/droits).",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Résumés Wikipedia : « Necessary Evil » (https://en.wikipedia.org/wiki/Necessary_Evil_(Star_Trek:_Deep_Space_Nine)) = liste de collaborateurs servant au chantage et meurtre d'un collaborateur par Kira ; « Things Past » (https://en.wikipedia.org/wiki/Things_Past_(Star_Trek:_Deep_Space_Nine)) = exécution de Bajorans innocents sous l'autorité d'Odo pendant l'Occupation. Aucun ne montre un débat sur la réintégration. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia « Necessary Evil » : la liste recense des Bajorans ayant collaboré avec les Cardassiens, que Pallra fait chanter ; « Things Past » (Wikipedia) : Odo admet avoir fait exécuter des Bajorans innocents, préférant la loi à la justice. Aucun débat sur la réintégration n'est décrit ; catégorie « diplomatie/traité » à revoir (justice/droits). V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de diplomatie/traité (sans objet) ; justice/droits : « exécutions d’innocents », « chantage » ; colonialisme/occupation : « collaboration » sous l’Occupation, « Épuration ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "diplomatie/traité"
+   "justice/droits",
+   "colonialisme/occupation"
   ],
   "series": [
    "DS9"
@@ -9374,14 +9380,15 @@
   "event": "Promotion par le combat chez les Kazon-Ogla et projet de Culluh d'unir les sectes kazones grâce à la technologie de Voyager",
   "source": "VOY «Initiations»; «Maneuvers»",
   "politics": "Fragmentation tribale et négociation inter-factions.",
-  "categories_politiques": "diplomatie/traité",
+  "categories_politiques": "diplomatie/traité ; insurrection/pouvoir",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Pas de « conflit de succession » de secte au sens strict : seule une promotion interne (Razik/Haliz) est décrite dans «Initiations». Source consultée : https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia « Maneuvers » : Culluh vole un module de téléportation en croyant que la technologie fédérale lui permettra d'unir et de diriger les autres sectes kazones, dont il réunit les chefs ; « Initiations » (Wikipedia) : les Kazon gagnent leur nom par la conquête ou la mort, Kar tue Razik et Haliz est promu. Aucun conflit de succession de secte.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Pas de « conflit de succession » de secte au sens strict : seule une promotion interne (Razik/Haliz) est décrite dans «Initiations». Source consultée : https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia « Maneuvers » : Culluh vole un module de téléportation en croyant que la technologie fédérale lui permettra d'unir et de diriger les autres sectes kazones, dont il réunit les chefs ; « Initiations » (Wikipedia) : les Kazon gagnent leur nom par la conquête ou la mort, Kar tue Razik et Haliz est promu. Aucun conflit de succession de secte. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout d’insurrection/pouvoir : « Promotion par le combat », projet de Culluh « d’unir les sectes ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "diplomatie/traité"
+   "diplomatie/traité",
+   "insurrection/pouvoir"
   ],
   "series": [
    "VOY"
@@ -9487,17 +9494,17 @@
   "event": "Répression des Alsauriens sous l'occupation mokra et emprisonnement de membres de Voyager",
   "source": "VOY «Resistance»",
   "politics": "Police secrète et résistance clandestine sous régime autoritaire.",
-  "categories_politiques": "justice/droits ; insurrection/pouvoir ; économie/social ; renseignement/sécurité",
+  "categories_politiques": "justice/droits ; insurrection/pouvoir ; renseignement/sécurité ; colonialisme/occupation",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Resistance_(Star_Trek:_Voyager)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page ne mentionne ni « réfugiés » ni « station 40 » : il s'agit d'Alsauriens sous occupation mokra. Source consultée : https://en.wikipedia.org/wiki/Resistance_(Star_Trek:_Voyager). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : l'action se déroule chez des Alsauriens dont la planète est occupée par les Mokra, agressifs ; Tuvok et Torres sont détenus dans les grottes des Mokra, Caylem cherchait à libérer sa femme de prison et meurt en attaquant le commandant mokra. Ni réfugiés ni « station 40 ».",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page ne mentionne ni « réfugiés » ni « station 40 » : il s'agit d'Alsauriens sous occupation mokra. Source consultée : https://en.wikipedia.org/wiki/Resistance_(Star_Trek:_Voyager). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : l'action se déroule chez des Alsauriens dont la planète est occupée par les Mokra, agressifs ; Tuvok et Torres sont détenus dans les grottes des Mokra, Caylem cherchait à libérer sa femme de prison et meurt en attaquant le commandant mokra. Ni réfugiés ni « station 40 ». V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de colonialisme/occupation : « occupation mokra » ; retrait d’économie/social, sans appui dans le texte.",
+  "version_entree": "V0.7 révisé",
   "categories": [
    "justice/droits",
    "insurrection/pouvoir",
-   "économie/social",
-   "renseignement/sécurité"
+   "renseignement/sécurité",
+   "colonialisme/occupation"
   ],
   "series": [
    "VOY"
@@ -9638,15 +9645,14 @@
   "event": "Société de survie violente dans une prison où de faux accusés de terrorisme sont condamnés sans recours",
   "source": "VOY «The Chute»",
   "politics": "Politique pénitentiaire et droits fondamentaux.",
-  "categories_politiques": "justice/droits ; économie/social",
+  "categories_politiques": "justice/droits",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/The_Chute",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page ne mentionne pas de travail forcé : les détenus survivent seuls avec une nourriture livrée par la chute. Source consultée : https://en.wikipedia.org/wiki/The_Chute. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : Paris et Kim, faussement accusés d'un attentat au trilithium, sont envoyés dans une prison brutale où les détenus doivent survivre seuls, avec un implant poussant à l'agressivité ; l'ambassadeur akritirien affirme qu'ils ont avoué et que leurs condamnations ne peuvent être annulées. Pas de travail forcé.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page ne mentionne pas de travail forcé : les détenus survivent seuls avec une nourriture livrée par la chute. Source consultée : https://en.wikipedia.org/wiki/The_Chute. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : Paris et Kim, faussement accusés d'un attentat au trilithium, sont envoyés dans une prison brutale où les détenus doivent survivre seuls, avec un implant poussant à l'agressivité ; l'ambassadeur akritirien affirme qu'ils ont avoué et que leurs condamnations ne peuvent être annulées. Pas de travail forcé. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait d’économie/social : plus de « travail forcé » ; justice/droits : « condamnés sans recours », « Politique pénitentiaire ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "justice/droits",
-   "économie/social"
+   "justice/droits"
   ],
   "series": [
    "VOY"
@@ -9955,15 +9961,14 @@
   "event": "Propagande de guerre vori et endoctrinement de Chakotay dans le conflit contre les Kradin",
   "source": "VOY «Nemesis»",
   "politics": "Propagande, guerre des mémoires et manipulation psychologique.",
-  "categories_politiques": "guerre/bataille ; diplomatie/traité ; renseignement/sécurité",
+  "categories_politiques": "guerre/bataille ; renseignement/sécurité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Nemesis_(Star_Trek:_Voyager)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Wikipedia (https://en.wikipedia.org/wiki/Nemesis_(Star_Trek:_Voyager)) décrit la guerre entre Vori et Kradin et l'endoctrinement de Chakotay par les Vori, sans aucun pacte de paix. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : capturé par les Vori, Chakotay subit un programme d'entraînement et de lavage de cerveau qui le convainc que les Kradin sont des monstres ; Janeway avoue ensuite son incertitude sur le bien et le mal du conflit. Aucun pacte de paix.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Wikipedia (https://en.wikipedia.org/wiki/Nemesis_(Star_Trek:_Voyager)) décrit la guerre entre Vori et Kradin et l'endoctrinement de Chakotay par les Vori, sans aucun pacte de paix. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : capturé par les Vori, Chakotay subit un programme d'entraînement et de lavage de cerveau qui le convainc que les Kradin sont des monstres ; Janeway avoue ensuite son incertitude sur le bien et le mal du conflit. Aucun pacte de paix. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de diplomatie/traité : aucun « pacte de paix » ; guerre et renseignement maintenus : « Propagande de guerre », « endoctrinement ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
    "guerre/bataille",
-   "diplomatie/traité",
    "renseignement/sécurité"
   ],
   "series": [
@@ -10061,15 +10066,14 @@
   "event": "Débat sur la peine de mort et la discrimination des Benkarans dans la justice nygéenne",
   "source": "VOY «Repentance»",
   "politics": "Justice pénale, discrimination et possibilité de réhabilitation.",
-  "categories_politiques": "justice/droits ; économie/social",
+  "categories_politiques": "justice/droits",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Repentance_(Star_Trek:_Voyager)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page ne mentionne aucun régime de « travail » : les prisonniers sont conduits vers une exécution. Source consultée : https://en.wikipedia.org/wiki/Repentance_(Star_Trek:_Voyager). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : les prisonniers du vaisseau nygéen sont conduits vers une exécution, à laquelle l'équipage s'oppose sans pouvoir intervenir (Directive première) ; la famille de la victime fixe la peine ; Joleg dénonce le profilage racial des Benkarans minoritaires. Aucun régime de « travail ».",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page ne mentionne aucun régime de « travail » : les prisonniers sont conduits vers une exécution. Source consultée : https://en.wikipedia.org/wiki/Repentance_(Star_Trek:_Voyager). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : les prisonniers du vaisseau nygéen sont conduits vers une exécution, à laquelle l'équipage s'oppose sans pouvoir intervenir (Directive première) ; la famille de la victime fixe la peine ; Joleg dénonce le profilage racial des Benkarans minoritaires. Aucun régime de « travail ». V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait d’économie/social : plus de « régime de travail » ; justice/droits : « peine de mort », « discrimination des Benkarans ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "justice/droits",
-   "économie/social"
+   "justice/droits"
   ],
   "series": [
    "VOY"
@@ -11640,15 +11644,15 @@
   "event": "Demande d'adhésion provisoire à la Fédération d'un collectif borg alternatif mené par la reine Agnes Jurati",
   "source": "PIC «Farewell»",
   "politics": "Transformation de l'ennemi stratégique en partenariat limité.",
-  "categories_politiques": "diplomatie/traité ; renseignement/sécurité",
+  "categories_politiques": "diplomatie/traité ; institutions/fédéralisme",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/en-un/news/recap-star-trek-picard-farewell",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page ne décrit pas de « terrorisme » borg : l'incursion borg initiale est dans « The Star Gazer » (2x01), où, selon Wikipedia, le vaisseau borg demande à négocier son entrée dans la Fédération. Source consultée : https://www.startrek.com/news/recap-star-trek-picard-farewell. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement A — Le récapitulatif officiel indique que la Reine borg/Agnes (« Borgati ») demande pour son peuple une adhésion provisoire à la Fédération et promet de surveiller le conduit transwarp ; Seven lui confie le contrôle des vaisseaux. Rien sur un « terrorisme » borg.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page ne décrit pas de « terrorisme » borg : l'incursion borg initiale est dans « The Star Gazer » (2x01), où, selon Wikipedia, le vaisseau borg demande à négocier son entrée dans la Fédération. Source consultée : https://www.startrek.com/news/recap-star-trek-picard-farewell. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement A — Le récapitulatif officiel indique que la Reine borg/Agnes (« Borgati ») demande pour son peuple une adhésion provisoire à la Fédération et promet de surveiller le conduit transwarp ; Seven lui confie le contrôle des vaisseaux. Rien sur un « terrorisme » borg. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de renseignement/sécurité : plus de « terrorisme » ; ajout d’institutions/fédéralisme : « Demande d’adhésion provisoire à la Fédération ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
    "diplomatie/traité",
-   "renseignement/sécurité"
+   "institutions/fédéralisme"
   ],
   "series": [
    "PIC"
@@ -11992,15 +11996,15 @@
   "event": "Manœuvres de la reine Paolana pour faire monter Billups sur le trône d'Hysperia",
   "source": "LD «Where Pleasant Fountains Lie»",
   "politics": "Monarchie héréditaire, tradition dynastique et liberté de choix.",
-  "categories_politiques": "justice/droits ; économie/social",
+  "categories_politiques": "insurrection/pouvoir ; justice/droits",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page ne décrit pas concrètement l'exploitation des habitants. La guerre de cent ans provoquée par AGIMUS n'y figure que dans un commentaire de lecteur, et d'après un résumé de recherche que je n'ai pas lu sur la page. Wikipedia (saison 2) ne le dit pas non plus. Source consultée : https://reactormag.com/huzzah-star-trek-lower-decks-where-pleasant-fountains-lie/. V0.6 (2026-11-10) : intitulé, problématique corrigé(s) d’après la source, recoupement B — Wikipedia saison 2 : la reine Paolana, souveraine d'Hysperia, multiplie les ruses (dont une fausse mort) pour ramener son fils Billups, qui deviendrait roi selon la tradition hysperienne ; AGIMUS n'y est qu'une IA dangereuse escortée vers la Terre, sans exploitation d'habitants. La problématique actuelle (« après l'intervention fédérale ») n'est pas attestée.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — La page ne décrit pas concrètement l'exploitation des habitants. La guerre de cent ans provoquée par AGIMUS n'y figure que dans un commentaire de lecteur, et d'après un résumé de recherche que je n'ai pas lu sur la page. Wikipedia (saison 2) ne le dit pas non plus. Source consultée : https://reactormag.com/huzzah-star-trek-lower-decks-where-pleasant-fountains-lie/. V0.6 (2026-11-10) : intitulé, problématique corrigé(s) d’après la source, recoupement B — Wikipedia saison 2 : la reine Paolana, souveraine d'Hysperia, multiplie les ruses (dont une fausse mort) pour ramener son fils Billups, qui deviendrait roi selon la tradition hysperienne ; AGIMUS n'y est qu'une IA dangereuse escortée vers la Terre, sans exploitation d'habitants. La problématique actuelle (« après l'intervention fédérale ») n'est pas attestée. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — remplacement d’économie/social par insurrection/pouvoir : « trône d’Hysperia », « Monarchie héréditaire, tradition dynastique » ; justice/droits maintenu : « liberté de choix ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "justice/droits",
-   "économie/social"
+   "insurrection/pouvoir",
+   "justice/droits"
   ],
   "series": [
    "LD"
@@ -12092,14 +12096,15 @@
   "event": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour le bombardement de la planète Pakled",
   "source": "LD saisons 1–2; «wej Duj»",
   "politics": "Désinformation, agression opportuniste et gouvernance dysfonctionnelle.",
-  "categories_politiques": "guerre/bataille",
+  "categories_politiques": "guerre/bataille ; renseignement/sécurité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Pour le « sabotage de la planète Pakled », Wikipedia saison 3 (« Grounded », https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_3) indique que les Pakleds ont fait accuser Freeman du bombardement : il n'y a pas de sabotage fédéral. Le fait relève de la saison 3, hors du périmètre « saisons 1–2 » de l'entrée. Source consultée : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia saison 2 : « wej Duj », le capitaine klingon Dorg fournit aux Pakleds des armes, dont des bombes vérubiennes, pour les utiliser contre la Terre ; « The Spy Humongous », les Pakleds projettent d'attaquer la Terre ; « First First Contact » (fin de saison 2), Freeman est arrêtée pour avoir prétendument fait exploser une bombe sur la planète Pakled. Pas de sabotage fédéral avéré.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Pour le « sabotage de la planète Pakled », Wikipedia saison 3 (« Grounded », https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_3) indique que les Pakleds ont fait accuser Freeman du bombardement : il n'y a pas de sabotage fédéral. Le fait relève de la saison 3, hors du périmètre « saisons 1–2 » de l'entrée. Source consultée : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia saison 2 : « wej Duj », le capitaine klingon Dorg fournit aux Pakleds des armes, dont des bombes vérubiennes, pour les utiliser contre la Terre ; « The Spy Humongous », les Pakleds projettent d'attaquer la Terre ; « First First Contact » (fin de saison 2), Freeman est arrêtée pour avoir prétendument fait exploser une bombe sur la planète Pakled. Pas de sabotage fédéral avéré. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de renseignement/sécurité : « accusation de Freeman », « Désinformation ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "guerre/bataille"
+   "guerre/bataille",
+   "renseignement/sécurité"
   ],
   "series": [
    "LD"
@@ -12152,14 +12157,15 @@
   "event": "Mission de bonne volonté de Starfleet sur Orion et libre choix de Tendi face à son puissant clan familial",
   "source": "LD «Something Borrowed, Something Green»",
   "politics": "Hiérarchie familiale, identité politique et émancipation.",
-  "categories_politiques": "justice/droits",
+  "categories_politiques": "justice/droits ; diplomatie/traité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Hiérarchie familiale », « émancipation » ; vérification non concluante (niveau C maintenu) — Wikipedia saison 4 (https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4) et The Spool confirment le choix de Tendi (fuite vers Starfleet, ancienne « Prime » de sa famille puissante, enlèvement de sa sœur D'Erika). Aucun « conflit d'influence entre lignages orioniens » n'est décrit pour cet épisode. La rivalité avec un clan orion « bleu » apparaît dans « Dos Cerritos » (saison 5). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia saison 4 : Starfleet, voulant montrer la bonne volonté entre les deux mondes, pousse Tendi à assister au mariage de sa sœur sur Orion ; sa famille est un clan riche, influent et redouté ; elle révèle avoir été formée comme assassin avant de fuir vers Starfleet et se réconcilie avec D'Erika. Aucun conflit entre lignages. Recoupement partiel avec STP-218.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Hiérarchie familiale », « émancipation » ; vérification non concluante (niveau C maintenu) — Wikipedia saison 4 (https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4) et The Spool confirment le choix de Tendi (fuite vers Starfleet, ancienne « Prime » de sa famille puissante, enlèvement de sa sœur D'Erika). Aucun « conflit d'influence entre lignages orioniens » n'est décrit pour cet épisode. La rivalité avec un clan orion « bleu » apparaît dans « Dos Cerritos » (saison 5). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia saison 4 : Starfleet, voulant montrer la bonne volonté entre les deux mondes, pousse Tendi à assister au mariage de sa sœur sur Orion ; sa famille est un clan riche, influent et redouté ; elle révèle avoir été formée comme assassin avant de fuir vers Starfleet et se réconcilie avec D'Erika. Aucun conflit entre lignages. Recoupement partiel avec STP-218. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de diplomatie/traité : « Mission de bonne volonté de Starfleet sur Orion ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "justice/droits"
+   "justice/droits",
+   "diplomatie/traité"
   ],
   "series": [
    "LD"
@@ -12953,14 +12959,15 @@
   "event": "Intervention de Janeway dans la guerre civile de Solum en violation de la Directive première",
   "source": "PRO saison 2",
   "politics": "Directive première, ingérence et souveraineté.",
-  "categories_politiques": "diplomatie/traité",
+  "categories_politiques": "diplomatie/traité ; guerre/bataille",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Premier contact, ingérence involontaire et souveraineté » ; vérification non concluante (niveau C maintenu) — Les sources lues ne mentionnent qu'une intervention de Janeway contraire à la Directive première dans la guerre civile de Solum (Wikipedia, saison 2) ; aucun débat explicite sur l'effet de l'arrivée de la Fédération n'y est décrit. V0.6 (2026-11-10) : intitulé, problématique corrigé(s) d’après la source, recoupement B — Wikipedia saison 2, « Touch of Grey » : Ilthuran appelle son peuple à se soulever contre la tyrannie d'Asencia, Solum sombre dans la guerre civile, et Janeway accepte d'aider malgré la violation de la Directive première que constitue l'intervention. Aucun débat général sur les sociétés isolées. Proche de STP-224 (prévention de la guerre civile), mais fait distinct : l'intervention elle-même.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Premier contact, ingérence involontaire et souveraineté » ; vérification non concluante (niveau C maintenu) — Les sources lues ne mentionnent qu'une intervention de Janeway contraire à la Directive première dans la guerre civile de Solum (Wikipedia, saison 2) ; aucun débat explicite sur l'effet de l'arrivée de la Fédération n'y est décrit. V0.6 (2026-11-10) : intitulé, problématique corrigé(s) d’après la source, recoupement B — Wikipedia saison 2, « Touch of Grey » : Ilthuran appelle son peuple à se soulever contre la tyrannie d'Asencia, Solum sombre dans la guerre civile, et Janeway accepte d'aider malgré la violation de la Directive première que constitue l'intervention. Aucun débat général sur les sociétés isolées. Proche de STP-224 (prévention de la guerre civile), mais fait distinct : l'intervention elle-même. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de guerre/bataille : « guerre civile de Solum ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "diplomatie/traité"
+   "diplomatie/traité",
+   "guerre/bataille"
   ],
   "series": [
    "PRO"
@@ -14056,14 +14063,14 @@
   "event": "Prise de l'asile d'Elba II et ambition de conquête galactique de l'ancien capitaine Garth d'Izar",
   "source": "TOS «Whom Gods Destroy»",
   "politics": "Déchéance d'autorité militaire et abus de pouvoir.",
-  "categories_politiques": "justice/droits",
+  "categories_politiques": "insurrection/pouvoir",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Whom_Gods_Destroy_(Star_Trek:_The_Original_Series)",
-  "note_audit": "V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : Garth, ancien capitaine de vaisseau mentalement instable après une blessure, s'empare avec les détenus de l'établissement fédéral pour aliénés criminels d'Elba II, se fait couronner « Maître de l'Univers », tue une détenue et veut utiliser l'Enterprise pour conquérir la galaxie ; il est guéri par traitement. Aucun procès ni disgrâce décrits.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : Garth, ancien capitaine de vaisseau mentalement instable après une blessure, s'empare avec les détenus de l'établissement fédéral pour aliénés criminels d'Elba II, se fait couronner « Maître de l'Univers », tue une détenue et veut utiliser l'Enterprise pour conquérir la galaxie ; il est guéri par traitement. Aucun procès ni disgrâce décrits. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — remplacement de justice/droits (plus de « procès ») par insurrection/pouvoir : « Prise de l’asile », « ambition de conquête », « abus de pouvoir ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "justice/droits"
+   "insurrection/pouvoir"
   ],
   "series": [
    "TOS"
@@ -14207,15 +14214,15 @@
   "event": "Projet de Keniclius d'imposer la paix à la galaxie avec une flotte phylosienne et un clone géant de Spock",
   "source": "TAS «The Infinite Vulcan»",
   "politics": "Paix imposée par la force et héritage des guerres eugéniques.",
-  "categories_politiques": "technologie/bioéthique ; colonialisme/occupation",
+  "categories_politiques": "technologie/bioéthique ; insurrection/pouvoir",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/The_Infinite_Vulcan",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « colonisation expérimentale », « Eugénisme politique ». V0.6 (2026-11-10) : intitulé, problématique corrigé(s) d’après la source, recoupement B — Wikipedia : Stavos Keniclius, survivant des guerres eugéniques, a apporté une maladie terrienne qui a failli anéantir les Phylosiens ; il crée un clone géant de Spock et prévoit d'imposer la paix à la galaxie avec une flotte de vaisseaux phylosiens. Pas de « colonisation expérimentale » ni de projet de remodeler une espèce.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « colonisation expérimentale », « Eugénisme politique ». V0.6 (2026-11-10) : intitulé, problématique corrigé(s) d’après la source, recoupement B — Wikipedia : Stavos Keniclius, survivant des guerres eugéniques, a apporté une maladie terrienne qui a failli anéantir les Phylosiens ; il crée un clone géant de Spock et prévoit d'imposer la paix à la galaxie avec une flotte de vaisseaux phylosiens. Pas de « colonisation expérimentale » ni de projet de remodeler une espèce. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de colonialisme/occupation : plus de « colonisation expérimentale » ; ajout d’insurrection/pouvoir : « imposer la paix à la galaxie », « Paix imposée par la force » ; technologie maintenue : « clone géant », « guerres eugéniques ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
    "technologie/bioéthique",
-   "colonialisme/occupation"
+   "insurrection/pouvoir"
   ],
   "series": [
    "TAS"
@@ -14260,16 +14267,14 @@
   "event": "Défection de l'amiral romulien Jarok et complot de désinformation romulien",
   "source": "TNG «The Defector»",
   "politics": "Espionnage, désinformation et prévention de la guerre.",
-  "categories_politiques": "guerre/bataille ; justice/droits ; économie/social ; renseignement/sécurité",
+  "categories_politiques": "guerre/bataille ; renseignement/sécurité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/The_Defector_(Star_Trek:_The_Next_Generation)",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Le volet « discrimination contre des réfugiés » n'est confirmé par aucune source lue (ni l'article officiel ni le résumé Wikipedia de « The Defector »). Source consultée : https://www.startrek.com/en-un/news/best-star-trek-romulans-ranked. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : Jarok, se présentant d'abord comme un simple employé, demande l'asile et révèle une base secrète sur Nelvana III ; les Romulains l'ont nourri de désinformation pour attirer la Fédération dans la Zone neutre ; des oiseaux de proie klingons créent l'impasse face à Tomalak. Ni réfugiés ni discrimination.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Le volet « discrimination contre des réfugiés » n'est confirmé par aucune source lue (ni l'article officiel ni le résumé Wikipedia de « The Defector »). Source consultée : https://www.startrek.com/en-un/news/best-star-trek-romulans-ranked. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia : Jarok, se présentant d'abord comme un simple employé, demande l'asile et révèle une base secrète sur Nelvana III ; les Romulains l'ont nourri de désinformation pour attirer la Fédération dans la Zone neutre ; des oiseaux de proie klingons créent l'impasse face à Tomalak. Ni réfugiés ni discrimination. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de justice/droits et économie/social : plus de « discrimination contre des réfugiés » ; renseignement et guerre maintenus : « complot de désinformation », « prévention de la guerre ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
    "guerre/bataille",
-   "justice/droits",
-   "économie/social",
    "renseignement/sécurité"
   ],
   "series": [
@@ -15175,14 +15180,15 @@
   "event": "Maquis et cadres de Starfleet en conflit : infiltration de cellules maquisardes par Ro Laren et Tuvok",
   "source": "VOY «Caretaker»; TNG «Preemptive Strike»",
   "politics": "Dissidence institutionnelle et loyauté partagée.",
-  "categories_politiques": "institutions/fédéralisme",
+  "categories_politiques": "institutions/fédéralisme ; renseignement/sécurité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Dissidence institutionnelle », « Directive première » ; vérification non concluante (niveau C maintenu) — Wikipedia «Caretaker» : Janeway détruit le réseau par respect du vœu du Gardien, sans désaccord maquisard rapporté ; «Preemptive Strike» (https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)) traite de l'infiltration du Maquis par Ro Laren, pas de la Directive première. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia « Preemptive Strike » : Nechayev et Picard font infiltrer une cellule maquisarde par Ro, qui se retourne ; « Caretaker » (Wikipedia) : Tuvok était un espion à bord du vaisseau maquisard, et Janeway intègre ensuite les Maquis à l'équipage. Aucune des deux pages ne parle de la Directive première. Recoupement partiel avec STP-115 et STP-161.",
-  "version_entree": "V0.6 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Dissidence institutionnelle », « Directive première » ; vérification non concluante (niveau C maintenu) — Wikipedia «Caretaker» : Janeway détruit le réseau par respect du vœu du Gardien, sans désaccord maquisard rapporté ; «Preemptive Strike» (https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)) traite de l'infiltration du Maquis par Ro Laren, pas de la Directive première. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia « Preemptive Strike » : Nechayev et Picard font infiltrer une cellule maquisarde par Ro, qui se retourne ; « Caretaker » (Wikipedia) : Tuvok était un espion à bord du vaisseau maquisard, et Janeway intègre ensuite les Maquis à l'équipage. Aucune des deux pages ne parle de la Directive première. Recoupement partiel avec STP-115 et STP-161. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de renseignement/sécurité : « infiltration de cellules maquisardes ».",
+  "version_entree": "V0.7 révisé",
   "categories": [
-   "institutions/fédéralisme"
+   "institutions/fédéralisme",
+   "renseignement/sécurité"
   ],
   "series": [
    "VOY",

@@ -1,0 +1,170 @@
+{
+ "statut": "VALIDÉE le 2026-11-10 — intégrée au corpus V0.7",
+ "modifications": {
+  "STP-004": {
+   "avant": "colonialisme/occupation",
+   "apres": "guerre/bataille ; colonialisme/occupation",
+   "justification": "ajout de guerre/bataille : « extermination dans une guerre » ; colonialisme/occupation maintenu : « Domination de la galaxie »"
+  },
+  "STP-009": {
+   "avant": "guerre/bataille",
+   "apres": "guerre/bataille ; technologie/bioéthique",
+   "justification": "ajout de technologie/bioéthique : « guerres eugéniques »"
+  },
+  "STP-019": {
+   "avant": "justice/droits ; renseignement/sécurité",
+   "apres": "justice/droits",
+   "justification": "retrait de renseignement/sécurité : la dissidence n’est plus « clandestine » (V’tosh ka’tur partis ouvertement) ; justice/droits maintenu : « fusion mentale imposée », « Liberté de pensée »"
+  },
+  "STP-051": {
+   "avant": "diplomatie/traité ; colonialisme/occupation",
+   "apres": "diplomatie/traité ; colonialisme/occupation ; guerre/bataille",
+   "justification": "ajout de guerre/bataille : « confrontation au bord de leur espace » ; diplomatie/traité maintenu pour la « ligne de démarcation imposée »"
+  },
+  "STP-065": {
+   "avant": "guerre/bataille ; diplomatie/traité ; économie/social",
+   "apres": "insurrection/pouvoir ; diplomatie/traité ; économie/social",
+   "justification": "retrait de guerre/bataille : aucune guerre, une « Lutte de succession » (→ insurrection/pouvoir) ; « accord minier » maintient diplomatie et économie"
+  },
+  "STP-068": {
+   "avant": "justice/droits ; renseignement/sécurité",
+   "apres": "économie/social ; renseignement/sécurité",
+   "justification": "retrait de justice/droits : plus de « discriminations » ; ajout d’économie/social : « planète surpeuplée », « contrôle démographique » ; renseignement/sécurité maintenu : « secret d’État »"
+  },
+  "STP-070": {
+   "avant": "insurrection/pouvoir ; religion/légitimité ; technologie/bioéthique",
+   "apres": "religion/légitimité ; technologie/bioéthique",
+   "justification": "retrait d’insurrection/pouvoir : pas de rébellion des habitants, « Destruction de l’ordinateur Vaal par l’équipage » ; religion et technologie maintenues : « Théocratie technologique »"
+  },
+  "STP-071": {
+   "avant": "renseignement/sécurité",
+   "apres": "religion/légitimité ; renseignement/sécurité",
+   "justification": "ajout de religion/légitimité : « Âme des Skorr », « guerre sainte galactique » ; renseignement/sécurité maintenu : « Vol », « politique de sécurité »"
+  },
+  "STP-072": {
+   "avant": "guerre/bataille ; justice/droits",
+   "apres": "guerre/bataille",
+   "justification": "retrait de justice/droits : plus de « justice locale » ; guerre/bataille maintenu : « nouvelle guerre contre la Fédération »"
+  },
+  "STP-076": {
+   "avant": "diplomatie/traité",
+   "apres": "diplomatie/traité ; renseignement/sécurité",
+   "justification": "ajout de renseignement/sécurité : « Prise d’otages » ; diplomatie/traité maintenu : « planète de la paix galactique »"
+  },
+  "STP-090": {
+   "avant": "renseignement/sécurité",
+   "apres": "diplomatie/traité",
+   "justification": "remplacement de renseignement/sécurité par diplomatie/traité : « Premier contact avec les Ferengis »"
+  },
+  "STP-091": {
+   "avant": "guerre/bataille",
+   "apres": "diplomatie/traité",
+   "justification": "retrait de guerre/bataille : aucune guerre civile ; diplomatie/traité : « confrontation diplomatique autour d’un vaccin »"
+  },
+  "STP-096": {
+   "avant": "économie/social",
+   "apres": "diplomatie/traité ; renseignement/sécurité",
+   "justification": "remplacement d’économie/social : « Confrontation entre Romuliens et Fédération » (diplomatie), « dilemme de sécurité »"
+  },
+  "STP-133": {
+   "avant": "guerre/bataille",
+   "apres": "renseignement/sécurité ; justice/droits",
+   "justification": "retrait de guerre/bataille ; renseignement/sécurité : « Enlèvement de Kira par l’Ordre obsidien » ; justice/droits : « sort des orphelins cardassiens »"
+  },
+  "STP-140": {
+   "avant": "renseignement/sécurité",
+   "apres": "renseignement/sécurité ; diplomatie/traité",
+   "justification": "ajout de diplomatie/traité : « cessez-le-feu Fédération–Klingons »"
+  },
+  "STP-142": {
+   "avant": "diplomatie/traité",
+   "apres": "justice/droits ; colonialisme/occupation",
+   "justification": "retrait de diplomatie/traité (sans objet) ; justice/droits : « exécutions d’innocents », « chantage » ; colonialisme/occupation : « collaboration » sous l’Occupation, « Épuration »"
+  },
+  "STP-162": {
+   "avant": "diplomatie/traité",
+   "apres": "diplomatie/traité ; insurrection/pouvoir",
+   "justification": "ajout d’insurrection/pouvoir : « Promotion par le combat », projet de Culluh « d’unir les sectes »"
+  },
+  "STP-164": {
+   "avant": "justice/droits ; insurrection/pouvoir ; économie/social ; renseignement/sécurité",
+   "apres": "justice/droits ; insurrection/pouvoir ; renseignement/sécurité ; colonialisme/occupation",
+   "justification": "ajout de colonialisme/occupation : « occupation mokra » ; retrait d’économie/social, sans appui dans le texte"
+  },
+  "STP-167": {
+   "avant": "justice/droits ; économie/social",
+   "apres": "justice/droits",
+   "justification": "retrait d’économie/social : plus de « travail forcé » ; justice/droits : « condamnés sans recours », « Politique pénitentiaire »"
+  },
+  "STP-173": {
+   "avant": "guerre/bataille ; diplomatie/traité ; renseignement/sécurité",
+   "apres": "guerre/bataille ; renseignement/sécurité",
+   "justification": "retrait de diplomatie/traité : aucun « pacte de paix » ; guerre et renseignement maintenus : « Propagande de guerre », « endoctrinement »"
+  },
+  "STP-175": {
+   "avant": "justice/droits ; économie/social",
+   "apres": "justice/droits",
+   "justification": "retrait d’économie/social : plus de « régime de travail » ; justice/droits : « peine de mort », « discrimination des Benkarans »"
+  },
+  "STP-204": {
+   "avant": "diplomatie/traité ; renseignement/sécurité",
+   "apres": "diplomatie/traité ; institutions/fédéralisme",
+   "justification": "retrait de renseignement/sécurité : plus de « terrorisme » ; ajout d’institutions/fédéralisme : « Demande d’adhésion provisoire à la Fédération »"
+  },
+  "STP-210": {
+   "avant": "justice/droits ; économie/social",
+   "apres": "insurrection/pouvoir ; justice/droits",
+   "justification": "remplacement d’économie/social par insurrection/pouvoir : « trône d’Hysperia », « Monarchie héréditaire, tradition dynastique » ; justice/droits maintenu : « liberté de choix »"
+  },
+  "STP-212": {
+   "avant": "guerre/bataille",
+   "apres": "guerre/bataille ; renseignement/sécurité",
+   "justification": "ajout de renseignement/sécurité : « accusation de Freeman », « Désinformation »"
+  },
+  "STP-213": {
+   "avant": "justice/droits",
+   "apres": "justice/droits ; diplomatie/traité",
+   "justification": "ajout de diplomatie/traité : « Mission de bonne volonté de Starfleet sur Orion »"
+  },
+  "STP-227": {
+   "avant": "diplomatie/traité",
+   "apres": "diplomatie/traité ; guerre/bataille",
+   "justification": "ajout de guerre/bataille : « guerre civile de Solum »"
+  },
+  "STP-247": {
+   "avant": "justice/droits",
+   "apres": "insurrection/pouvoir",
+   "justification": "remplacement de justice/droits (plus de « procès ») par insurrection/pouvoir : « Prise de l’asile », « ambition de conquête », « abus de pouvoir »"
+  },
+  "STP-250": {
+   "avant": "technologie/bioéthique ; colonialisme/occupation",
+   "apres": "technologie/bioéthique ; insurrection/pouvoir",
+   "justification": "retrait de colonialisme/occupation : plus de « colonisation expérimentale » ; ajout d’insurrection/pouvoir : « imposer la paix à la galaxie », « Paix imposée par la force » ; technologie maintenue : « clone géant », « guerres eugéniques »"
+  },
+  "STP-251": {
+   "avant": "guerre/bataille ; justice/droits ; économie/social ; renseignement/sécurité",
+   "apres": "guerre/bataille ; renseignement/sécurité",
+   "justification": "retrait de justice/droits et économie/social : plus de « discrimination contre des réfugiés » ; renseignement et guerre maintenus : « complot de désinformation », « prévention de la guerre »"
+  },
+  "STP-269": {
+   "avant": "institutions/fédéralisme",
+   "apres": "institutions/fédéralisme ; renseignement/sécurité",
+   "justification": "ajout de renseignement/sécurité : « infiltration de cellules maquisardes »"
+  }
+ },
+ "maintenues": [
+  "STP-003",
+  "STP-011",
+  "STP-054",
+  "STP-119",
+  "STP-128",
+  "STP-131",
+  "STP-135",
+  "STP-151",
+  "STP-171",
+  "STP-221",
+  "STP-225",
+  "STP-248",
+  "STP-258"
+ ]
+}

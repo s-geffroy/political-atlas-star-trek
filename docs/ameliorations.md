@@ -25,9 +25,12 @@ Chronologie de diffusion exhaustive : 15 series, 57 saisons, 15 films (pages /ch
 
 Journal : `data/corrections/V0.6.json` ; proposition validee : `docs/proposition-entrees-c.md`. Les 46 entrees C reprises une a une : 43 intitules corriges (dont 14 reecritures substantielles), 3 episodes cites corriges, 4 problematiques ajustees ; 6 passees en A, 36 en B ; 2 doublons marques (STP-054 -> STP-298, STP-254 -> STP-111) ; 2 non attestees (STP-013, STP-014). Repartition V0.6 : A 213, B 88, C 4.
 
+## Fait en V0.7 (2026-11-10)
+
+Journal : `data/corrections/V0.7.json` ; proposition validee : `docs/proposition-categories-v07.md`. Categories des 43 entrees reecrites en V0.6 revues a partir du seul texte corrige : 30 ajustees, 13 maintenues.
+
 ## P1 -- reste a faire
 
-- Categories a revoir apres reecriture : STP-091 (« guerre/bataille » sans guerre), STP-142 (« diplomatie/traite »), et plus generalement les 14 entrees reecrites.
 - Doublons signales a trancher (fusion editoriale ou maintien) : STP-054/298, STP-254/111, STP-216/270.
 - STP-013 et STP-014 : trouver une source A ou B, ou reformuler.
 - 52 entrees B sans source officielle exploitable : pages Paramount+ d'episode non verifiables, saison 4 de SNW et Starfleet Academy sans recapitulatif officiel a ce jour.

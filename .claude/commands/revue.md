@@ -51,6 +51,7 @@ Domaines :
 - Exploitation : build, image Docker, configuration, journaux, reprise après incident.
 - Documentation : README, specs, CLAUDE.md à jour avec le code.
 - Visibilité (si l'application est publique) : référencement, contenus.
+- Robustesse (si l'application a un backend, un worker ou des tâches de fond) : référentiel inspiré de NASA/JPL, contrôles GEN-01 à GEN-06 -- travaux et reprises bornés, entrées validées à la frontière, ressources avec propriétaire et annulation réelle, lint et typage, preuves. Classe d'abord les modules par conséquence d'une défaillance et ne creuse que les modules critiques. Chaque constat porte son statut de preuve : CONFORME, ÉCART ou NON EXÉCUTÉ. La skill `referentiel` porte la grille ; si elle n'est pas installée, traite le domaine plus brièvement et signale-la à l'étape 6.7.
 
 ## 4. Déléguer
 

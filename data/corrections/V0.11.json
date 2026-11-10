@@ -1,0 +1,28 @@
+{
+ "version": "V0.11",
+ "date": "2026-11-10",
+ "date_longue": "10 novembre 2026",
+ "base": "V0_10_2026-11-10",
+ "titre": "Atlas politique de Star Trek — V0.11 : doublon de l’arc Miroir de Discovery",
+ "resume": "Doublon tranché : STP-238 (coup d’État de Lorca contre l’impératrice Georgiou) rattachée à STP-176 (tentative de renversement de l’Empire terrien de Georgiou), même fait et même épisode.",
+ "methode": {
+  "doublons": "data/doublons.json"
+ },
+ "comptes": {
+  "doublons": 1
+ },
+ "corrections": [
+  {
+   "id": "STP-238",
+   "type": "correction",
+   "champs": {},
+   "motif": "doublon tranché : entrée secondaire de STP-176 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (DIS «What’s Past Is Prologue») et même fait : le renversement de l’impératrice Georgiou par Lorca dans l’univers Miroir (2257). STP-176 est retenue comme principale : période précise (2257) et couverture de tout l’arc, de «Despite Yourself» à «What’s Past Is Prologue»."
+  },
+  {
+   "id": "STP-176",
+   "type": "signalement",
+   "champs": {},
+   "motif": "doublon tranché : entrée principale ; STP-238 lui est rattachée comme doublon."
+  }
+ ]
+}

@@ -1,12 +1,12 @@
 {
  "total": 305,
- "distincts": 300,
- "doublons": 5,
+ "distincts": 299,
+ "doublons": 6,
  "fiches": 31,
  "niveaux": [
   {
    "cle": "A",
-   "n": 212
+   "n": 211
   },
   {
    "cle": "B",
@@ -85,7 +85,7 @@
   },
   {
    "cle": "Univers Miroir et réalités parallèles",
-   "n": 8,
+   "n": 7,
    "slug": "univers-miroir-et-realites-paralleles"
   },
   {
@@ -182,7 +182,7 @@
   },
   {
    "cle": "DIS",
-   "n": 32,
+   "n": 31,
    "nom": "Discovery"
   },
   {
@@ -223,7 +223,7 @@
   },
   {
    "cle": "justice/droits",
-   "n": 85
+   "n": 84
   },
   {
    "cle": "diplomatie/traité",
@@ -235,7 +235,7 @@
   },
   {
    "cle": "insurrection/pouvoir",
-   "n": 57
+   "n": 56
   },
   {
    "cle": "institutions/fédéralisme",
@@ -266,7 +266,7 @@
   },
   {
    "cle": "miroir",
-   "n": 9,
+   "n": 8,
    "nom": "Univers Miroir"
   },
   {
@@ -283,7 +283,7 @@
  "versions": [
   {
    "cle": "V0.4 révisé",
-   "n": 122
+   "n": 120
   },
   {
    "cle": "V0.5 révisé",
@@ -320,6 +320,10 @@
   {
    "cle": "V0.9 révisé",
    "n": 2
+  },
+  {
+   "cle": "V0.11 révisé",
+   "n": 1
   }
  ],
  "precisions": [
@@ -345,7 +349,7 @@
   },
   {
    "cle": "siecle",
-   "n": 20,
+   "n": 19,
    "nom": "Siècle seulement"
   },
   {

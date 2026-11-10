@@ -12614,8 +12614,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/en-un/news/discovery-episode-12-primer",
-  "note_audit": "V0.4 (2026-11-10) : recoupement A — Le rappel officiel de « The Wolf Inside » décrit la rébellion contre l'Empire terrien, union de Klingons, Vulcains, Andoriens et Tellarites menée par le Voq miroir ; le rappel de « What's Past Is Prologue » (primer de l'épisode 14) décrit le coup de Lorca contre l'impératrice Georgiou.",
-  "version_entree": "V0.4 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement A — Le rappel officiel de « The Wolf Inside » décrit la rébellion contre l'Empire terrien, union de Klingons, Vulcains, Andoriens et Tellarites menée par le Voq miroir ; le rappel de « What's Past Is Prologue » (primer de l'épisode 14) décrit le coup de Lorca contre l'impératrice Georgiou. V0.11 (2026-11-10) : doublon tranché : entrée principale ; STP-238 lui est rattachée comme doublon.",
+  "version_entree": "V0.11 révisé",
   "categories": [
    "guerre/bataille",
    "insurrection/pouvoir"
@@ -12657,17 +12657,19 @@
    }
   ],
   "doublon_de": null,
-  "doublons": [],
+  "doublons": [
+   "STP-238"
+  ],
   "relations": {
-   "sortantes": [
+   "sortantes": [],
+   "entrantes": [
     {
-     "id": "STP-238",
+     "id": "STP-288",
      "type": "meme_arc",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
-     "justification": "Arc Miroir de la saison 1 : dans « Vaulting Ambition » Lorca et ses alliés complotent pour renverser Georgiou ; dans « What's Past Is Prologue » ils « kill those loyal to Georgiou and usurp her throne ». Même tentative de renversement, vue sous deux angles (continuité Miroir des deux côtés)."
+     "url": "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)",
+     "justification": "« Terra Firma » est situé « a few days before the first season's Mirror Universe storyline begins » ; Georgiou y fait éliminer « her former co-conspirators and Gabriel Lorca's spies » : même complot que le coup d'État de Lorca. (Relation reportée de STP-238, doublon tranché de STP-176.)"
     }
    ],
-   "entrantes": [],
    "examinee_le": null
   },
   "rang_diegetique": 67,
@@ -12676,6 +12678,7 @@
    {
     "id": "STP-238",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : what's past is prologue"
     ],
     "autre_continuite": false
@@ -17175,8 +17178,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/en-un/news/discovery-episode-14-primer",
-  "note_audit": "V0.4 (2026-11-10) : recoupement A — Le rappel officiel de « What's Past Is Prologue » : Lorca proclame « the day we reclaim our empire », ses forces combattent celles de l'impératrice, les seigneurs de Georgiou sont tués et les autres lui prêtent allégeance, avant que Georgiou ne le tue.",
-  "version_entree": "V0.4 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement A — Le rappel officiel de « What's Past Is Prologue » : Lorca proclame « the day we reclaim our empire », ses forces combattent celles de l'impératrice, les seigneurs de Georgiou sont tués et les autres lui prêtent allégeance, avant que Georgiou ne le tue. V0.11 (2026-11-10) : doublon tranché : entrée secondaire de STP-176 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (DIS «What’s Past Is Prologue») et même fait : le renversement de l’impératrice Georgiou par Lorca dans l’univers Miroir (2257). STP-176 est retenue comme principale : période précise (2257) et couverture de tout l’arc, de «Despite Yourself» à «What’s Past Is Prologue».",
+  "version_entree": "V0.11 révisé",
   "categories": [
    "justice/droits",
    "insurrection/pouvoir"
@@ -17199,7 +17202,12 @@
   },
   "cycle_slug": "univers-miroir-et-realites-paralleles",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Coup d'État de Lorca contre l'impératrice Georgiou.",
+    "motif": "doublon tranché : entrée secondaire de STP-176 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (DIS «What’s Past Is Prologue») et même fait : le renversement de l’impératrice Georgiou par Lorca dans l’univers Miroir (2257). STP-176 est retenue comme principale : période précise (2257) et couverture de tout l’arc, de «Despite Yourself» à «What’s Past Is Prologue»."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -17208,24 +17216,14 @@
     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1"
    }
   ],
-  "doublon_de": null,
+  "doublon_de": {
+   "id": "STP-176",
+   "motif": "Même épisode (DIS «What’s Past Is Prologue») et même fait : le renversement de l’impératrice Georgiou par Lorca dans l’univers Miroir (2257). STP-176 est retenue comme principale : période précise (2257) et couverture de tout l’arc, de «Despite Yourself» à «What’s Past Is Prologue»."
+  },
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": [
-    {
-     "id": "STP-288",
-     "type": "meme_arc",
-     "url": "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)",
-     "justification": "« Terra Firma » est situé « a few days before the first season's Mirror Universe storyline begins » ; Georgiou y fait éliminer « her former co-conspirators and Gabriel Lorca's spies » : même complot que le coup d'État de Lorca."
-    },
-    {
-     "id": "STP-176",
-     "type": "meme_arc",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
-     "justification": "Arc Miroir de la saison 1 : dans « Vaulting Ambition » Lorca et ses alliés complotent pour renverser Georgiou ; dans « What's Past Is Prologue » ils « kill those loyal to Georgiou and usurp her throne ». Même tentative de renversement, vue sous deux angles (continuité Miroir des deux côtés)."
-    }
-   ],
+   "entrantes": [],
    "examinee_le": null
   },
   "rang_diegetique": 52,
@@ -17234,6 +17232,7 @@
    {
     "id": "STP-176",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : what's past is prologue"
     ],
     "autre_continuite": false
@@ -20283,10 +20282,10 @@
      "justification": "Section « Background » : le diptyque « Terra Firma » « ends with her being transported to an unknown place and time where the spin-off is set ». Le film reprend donc Georgiou là où la quitte DIS."
     },
     {
-     "id": "STP-238",
+     "id": "STP-176",
      "type": "meme_arc",
      "url": "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)",
-     "justification": "« Terra Firma » est situé « a few days before the first season's Mirror Universe storyline begins » ; Georgiou y fait éliminer « her former co-conspirators and Gabriel Lorca's spies » : même complot que le coup d'État de Lorca."
+     "justification": "« Terra Firma » est situé « a few days before the first season's Mirror Universe storyline begins » ; Georgiou y fait éliminer « her former co-conspirators and Gabriel Lorca's spies » : même complot que le coup d'État de Lorca. (Relation reportée de STP-238, doublon tranché de STP-176.)"
     }
    ],
    "entrantes": [],

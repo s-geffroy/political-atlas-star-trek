@@ -41,6 +41,10 @@ STP-013 rattachee a TNG « Up the Long Ladder » et « Attached » (formation du
 
 Doublons tranches : STP-294 -> STP-230, STP-296 -> STP-232 (relations reportees ou retirees). Periodes de STP-239 et STP-194 corrigees : « Entre 2267 et la fin du XXIVe siecle » d'apres startrek.com et Memory Alpha (la date de 3191 est celle de la decouverte, non des faits). 300 evenements distincts pour 305 entrees.
 
+## Fait en V0.11 (2026-11-10)
+
+Doublon tranche : STP-238 -> STP-176 (renversement de Georgiou par Lorca, univers Miroir) ; relation STP-288 reportee, STP-176 -> STP-238 retiree. 299 evenements distincts pour 305 entrees.
+
 ## P1 -- reste a faire
 
 - 52 entrees B sans source officielle exploitable : pages Paramount+ d'episode non verifiables, saison 4 de SNW et Starfleet Academy sans recapitulatif officiel a ce jour.
@@ -68,6 +72,6 @@ Doublons tranches : STP-294 -> STP-230, STP-296 -> STP-232 (relations reportees 
 10. Ecrire d'autres analyses fiction / histoire a partir des 31 fiches (Terra Prime, Leyton, Section 31, Data).
 11. Graphiques comparatifs : repartition des categories par serie et par decennie de diffusion.
 12. Visualisations geopolitiques : acteurs (Federation, Klingons, Romuliens, Cardassiens, Dominion...). Cela suppose d'ajouter au corpus un champ « acteurs », qui n'existe pas aujourd'hui.
-13. Relations : 161 relations apres trois passes (docs/proposition-relations-2.md, -3.md) ; 107 evenements examines sans relation etablie (resultat enregistre dans data/relations.json et affiche sur les fiches). Doublon possible signale : STP-176 / STP-238 (arc Miroir de DIS saison 1).
+13. Relations : 161 relations apres trois passes (docs/proposition-relations-2.md, -3.md) ; 107 evenements examines sans relation etablie (resultat enregistre dans data/relations.json et affiche sur les fiches).
 14. Le cas echeant, migrer vers Astro avec le template `github-pages-ci`, par exemple pour une recherche plein texte indexee ou des pages par acteur.
 15. Domaine personnalise : saisir le domaine dans Settings > Pages, puis vider `baseurl`.

@@ -145,7 +145,7 @@
    },
    {
     "cle": "justice/droits",
-    "total": 86,
+    "total": 85,
     "cellules": [
      {
       "n": 5,
@@ -176,8 +176,8 @@
       "q": 3
      },
      {
-      "n": 9,
-      "q": 3
+      "n": 8,
+      "q": 2
      },
      {
       "n": 1,
@@ -331,7 +331,7 @@
    },
    {
     "cle": "insurrection/pouvoir",
-    "total": 60,
+    "total": 59,
     "cellules": [
      {
       "n": 6,
@@ -362,7 +362,7 @@
       "q": 1
      },
      {
-      "n": 10,
+      "n": 9,
       "q": 3
      },
      {
@@ -742,7 +742,7 @@
    },
    {
     "cle": "justice/droits",
-    "total": 80,
+    "total": 79,
     "cellules": [
      {
       "n": 5,
@@ -765,7 +765,7 @@
       "q": 2
      },
      {
-      "n": 2,
+      "n": 1,
       "q": 1
      },
      {
@@ -844,7 +844,7 @@
    },
    {
     "cle": "insurrection/pouvoir",
-    "total": 55,
+    "total": 54,
     "cellules": [
      {
       "n": 6,
@@ -867,7 +867,7 @@
       "q": 1
      },
      {
-      "n": 6,
+      "n": 5,
       "q": 1
      },
      {
@@ -1130,11 +1130,11 @@
   {
    "code": "DIS",
    "nom": "Discovery",
-   "total": 32,
-   "A": 31,
+   "total": 31,
+   "A": 30,
    "B": 1,
    "C": 0,
-   "pct_A": 52.54,
+   "pct_A": 50.85,
    "pct_B": 1.69,
    "pct_C": 0
   },

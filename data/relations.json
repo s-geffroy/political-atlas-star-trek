@@ -723,10 +723,10 @@
   },
   {
    "de": "STP-288",
-   "vers": "STP-238",
+   "vers": "STP-176",
    "type": "meme_arc",
    "url": "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)",
-   "justification": "« Terra Firma » est situé « a few days before the first season's Mirror Universe storyline begins » ; Georgiou y fait éliminer « her former co-conspirators and Gabriel Lorca's spies » : même complot que le coup d'État de Lorca."
+   "justification": "« Terra Firma » est situé « a few days before the first season's Mirror Universe storyline begins » ; Georgiou y fait éliminer « her former co-conspirators and Gabriel Lorca's spies » : même complot que le coup d'État de Lorca. (Relation reportée de STP-238, doublon tranché de STP-176.)"
   },
   {
    "de": "STP-239",
@@ -1119,13 +1119,6 @@
    "type": "meme_arc",
    "url": "https://en.wikipedia.org/wiki/New_Eden_(Star_Trek:_Discovery)",
    "justification": "Arc de l'Ange rouge de la saison 2 : les colons de Terralysium y ont été amenés par l'Ange rouge, dont « Perpetual Infinity » révèle qu'il s'agit de Gabrielle Burnham cherchant à empêcher le futur où Control détruit toute vie ; Control infiltre ensuite Section 31."
-  },
-  {
-   "de": "STP-176",
-   "vers": "STP-238",
-   "type": "meme_arc",
-   "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
-   "justification": "Arc Miroir de la saison 1 : dans « Vaulting Ambition » Lorca et ses alliés complotent pour renverser Georgiou ; dans « What's Past Is Prologue » ils « kill those loyal to Georgiou and usurp her throne ». Même tentative de renversement, vue sous deux angles (continuité Miroir des deux côtés)."
   },
   {
    "de": "STP-191",

@@ -452,7 +452,9 @@ export function ecrireSorties(r) {
   const clesAvant = fs.existsSync(clesP) ? JSON.parse(fs.readFileSync(clesP, 'utf8')) : [];
   const clesMaintenant = res.composantes.map((c) => c.cle);
   for (const k of clesAvant.filter((k) => !clesMaintenant.includes(k))) {
-    const g = res.composantes.find((c) => c.ids.includes(k));
+    // Evenement devenu doublon secondaire : renvoyer a l'arc de sa principale.
+    const k2 = r.evenements.find((e) => e.id === k)?.doublon_de?.id || k;
+    const g = res.composantes.find((c) => c.ids.includes(k)) || res.composantes.find((c) => c.ids.includes(k2));
     ecrire(path.join(dirR, `${k}.md`), ['---', '# Fichier GENERE par scripts/import.mjs (renvoi d\'une adresse deja publiee).', 'layout: reseau-renvoi',
       `cible: ${g ? g.cle : 'null'}`, `stp: ${k}`, `title: ${yamlStr(`Réseau — arc déplacé (${k})`)}`, 'sitemap: false',
       `permalink: /reseau/${k}/`, 'nav: graphiques', '---', ''].join('\n'));

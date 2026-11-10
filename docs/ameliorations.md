@@ -15,10 +15,16 @@ Journal complet : `data/corrections/V0.4.json`.
 - 7. Dates de diffusion : 292 entrees sur 305 datees (contre 68).
 - 8. Fiche STP-077 : source officielle ajoutee (synopsis startrek.com), niveau A.
 
+## Fait en V0.5 (2026-11-10)
+
+Journal : `data/corrections/V0.5.json`. Passe « B -> A » : les 165 entrees B confrontees aux sources officielles (startrek.com, Paramount+) ; 113 passees en A, 52 restees B (source officielle partielle, absente ou non verifiable). Repartition V0.5 : A 207, B 52, C 46.
+
+Chronologie de diffusion exhaustive : 15 series, 57 saisons, 15 films (pages /chronologie/series/ et /chronologie/films/).
+
 ## P1 -- reste a faire
 
 - Les 46 entrees encore en C : la plupart ont un fait central non confirme ou contredit par la source consultee (voir leur note d'audit). A reprendre une par une : corriger l'intitule, changer d'episode, ou fusionner (doublon probable STP-216 / STP-270).
-- Entrees B sans source officielle : une passe pplx sur startrek.com pourrait en faire monter une partie en A.
+- 52 entrees B sans source officielle exploitable : pages Paramount+ d'episode non verifiables, saison 4 de SNW et Starfleet Academy sans recapitulatif officiel a ce jour.
 - Score Lighthouse officiel a mesurer (https://pagespeed.web.dev/).
 
 ## P1 -- historique (avant V0.4)

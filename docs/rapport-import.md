@@ -1,6 +1,6 @@
 # Rapport d'import
 
-> Généré par `scripts/import.mjs`. Sources : `data/source/Star_Trek_Atlas_Politique_V0_4_2026-11-10.csv`, `data/source/Star_Trek_Atlas_Politique_V0_4_2026-11-10.md`.
+> Généré par `scripts/import.mjs`. Sources : `data/source/Star_Trek_Atlas_Politique_V0_5_2026-11-10.csv`, `data/source/Star_Trek_Atlas_Politique_V0_5_2026-11-10.md`.
 
 ## Comptages
 
@@ -17,8 +17,8 @@
 
 ## Répartition par niveau
 
-- A : 94
-- B : 165
+- A : 207
+- B : 52
 - C : 46
 
 ## Références de source non rattachées à une série

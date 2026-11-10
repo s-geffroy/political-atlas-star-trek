@@ -189,7 +189,7 @@
   "entetes": {
    "periode": "2369",
    "source_audiovisuelle": "DS9 «Duet»",
-   "recoupement": "B — Résumé secondaire indexé"
+   "recoupement": "A — Editorial officiel"
   },
   "volets": {
    "faits": "Kira arrête un Cardassien qui semble avoir participé au camp de travail de Gallitep. L’accusé est en réalité Marritza, un ancien employé du camp qui se fait passer pour le bourreau pour forcer Cardassia à regarder ses crimes.",
@@ -202,6 +202,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/episodes/duet"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
+    "url": "https://www.startrek.com/en-un/news/space-time-travelers-guide-to-star-trek"
    }
   ]
  },
@@ -211,7 +215,7 @@
   "entetes": {
    "periode": "2369–2370 selon jalons diégétiques",
    "source_audiovisuelle": "DS9 «The Homecoming»; «The Circle»; «The Siege»",
-   "recoupement": "B — Résumé secondaire indexé"
+   "recoupement": "A — Editorial officiel"
   },
   "volets": {
    "faits": "Le Cercle, mouvement nationaliste bajoran, exploite la transition fragile après le retrait cardassien. Il arme une faction, chasse les étrangers et menace la station; l’enquête découvre un soutien secret cardassien.",
@@ -224,6 +228,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/episodes/the-circle"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
+    "url": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-winn-adami"
    }
   ]
  },
@@ -321,7 +329,7 @@
   "entetes": {
    "periode": "2375",
    "source_audiovisuelle": "DS9 «What You Leave Behind»",
-   "recoupement": "B — Résumé secondaire indexé"
+   "recoupement": "A — Editorial officiel"
   },
   "volets": {
    "faits": "Lorsque les forces cardassiennes se retournent contre le Dominion, la dirigeante des Fondateurs ordonne une répression de masse contre les civils de Cardassia. La résistance et la coalition remportent finalement le conflit.",
@@ -334,6 +342,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/episodes/what-you-leave-behind"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
+    "url": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles"
    }
   ]
  },
@@ -343,7 +355,7 @@
   "entetes": {
    "periode": "2377",
    "source_audiovisuelle": "VOY «Author, Author»",
-   "recoupement": "B — Base des événements"
+   "recoupement": "A — Editorial officiel"
   },
   "volets": {
    "faits": "Le Docteur poursuit son éditeur pour reprendre le contrôle d’un holoroman diffusé sans son accord. L’arbitre lui reconnaît un droit d’auteur sans décider qu’il est pleinement une personne.",
@@ -356,6 +368,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/events/holographic-rights-ruling"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
+    "url": "https://www.startrek.com/en-un/news/author-author-can-teach-us-a-lot-about-ai-and-copyright"
    }
   ]
  },
@@ -387,7 +403,7 @@
   "entetes": {
    "periode": "2385",
    "source_audiovisuelle": "PIC saison 1",
-   "recoupement": "B — Base des événements"
+   "recoupement": "A — Récapitulatif officiel"
   },
   "volets": {
    "faits": "Après l’attaque des chantiers martiens en 2385, le Conseil de la Fédération interdit la création et l’usage de synthétiques. L’effort de secours massif des Romuliens est également abandonné.",
@@ -400,6 +416,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/events/synthetic-ban"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
+    "url": "https://www.startrek.com/en-un/news/recap-star-trek-picard-remembrance"
    }
   ]
  },
@@ -409,7 +429,7 @@
   "entetes": {
    "periode": "XXXIIe siècle",
    "source_audiovisuelle": "SFA «Vox in Excelso»",
-   "recoupement": "B — Compte rendu indépendant détaillé"
+   "recoupement": "A — Synopsis officiel"
   },
   "volets": {
    "faits": "Après le Burn, Qo’noS est inhabitable et plusieurs maisons klingonnes vivent en diaspora. La Fédération propose une planète de repli, mais leur représentativité et leur conception de l’honneur rendent l’aide politiquement délicate.",
@@ -422,6 +442,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
+    "url": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/"
    }
   ]
  },
@@ -523,7 +547,7 @@
   "entetes": {
    "periode": "2377",
    "source_audiovisuelle": "VOY «Flesh and Blood»",
-   "recoupement": "B — Résumé secondaire indexé"
+   "recoupement": "A — Synopsis officiel"
   },
   "volets": {
    "faits": "Des hologrammes créés comme proies pour les chasses hirogenes développent une autonomie et se révoltent. Le Docteur soutient leur revendication, avant de devoir s’opposer aux violences du meneur Iden.",
@@ -536,6 +560,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/episodes/flesh-and-blood"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
+    "url": "https://www.paramountplus.com/shows/star_trek_voyager/episodes/7/"
    }
   ]
  },
@@ -567,7 +595,7 @@
   "entetes": {
    "periode": "2257",
    "source_audiovisuelle": "DIS «The Sound of Thunder»",
-   "recoupement": "B — Résumé secondaire indexé"
+   "recoupement": "A — Editorial officiel"
   },
   "volets": {
    "faits": "Sur Kaminar, le gouvernement ba’ul contrôle les Kelpiens en leur présentant le vahar’ai comme une mort inéluctable. La découverte d’un passé où les rôles étaient inversés provoque une rupture, puis une tentative d’extermination.",
@@ -580,6 +608,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/episodes/the-sound-of-thunder"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
+    "url": "https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide"
    }
   ]
  },

@@ -54,9 +54,9 @@ export function appliquer(journal) {
 
   // --- Markdown : registre, fiches, corrections, synthese -------------------
   const remplacer = (re, f, quoi) => {
-    const avant = md;
+    // Erreur si le motif est absent (et non si le remplacement est identique).
+    if (!new RegExp(re.source, re.flags.replace('g', '')).test(md)) { erreurs.push(`Markdown : ${quoi} introuvable`); return; }
     md = md.replace(re, f);
-    if (md === avant) erreurs.push(`Markdown : ${quoi} introuvable`);
   };
   const echap = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   for (const [id, cs] of touches) {

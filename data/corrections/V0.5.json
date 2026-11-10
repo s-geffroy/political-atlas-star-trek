@@ -1,0 +1,2163 @@
+{
+ "version": "V0.5",
+ "date": "2026-11-10",
+ "date_longue": "10 novembre 2026",
+ "base": "V0_4_2026-11-10",
+ "titre": "Atlas politique de Star Trek — V0.5 : recoupement officiel des entrées B",
+ "resume": "Les 165 entrées de niveau B ont été confrontées aux sources officielles (pages éditoriales et récapitulatifs de startrek.com, synopsis Paramount+) ; une entrée passe en A seulement si la page officielle, lue et accessible, confirme son fait central. Les entrées dont la source officielle ne confirmait qu’une partie du fait, ou dont la page n’était pas vérifiable, restent en B.",
+ "methode": {
+  "recoupement": "Sous-agents de recherche (Perplexity et recherche web), arbitrage manuel de chaque proposition avec divergence ; URL officielles vérifiées (HTTP 200) avant intégration."
+ },
+ "comptes": {
+  "recoupements": 113
+ },
+ "corrections": [
+  {
+   "id": "STP-120",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Duet_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/starbases-of-the-federation-from-k-7-to-yorktown"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit Terok Nor comme « une usine cardassienne de traitement de minerai et un symbole de l'occupation », devenue Deep Space 9 après la reprise conjointe Fédération–Bajor. Source B précédente : https://en.wikipedia.org/wiki/Duet_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-121",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Darkness_and_the_Light_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/star-treks-best-revolutions-rebellions"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article (rubrique « The Bajoran Resistance », citant « Shakaar ») décrit la Résistance bajorane, « combattants de la liberté ou terroristes impitoyables » selon le point de vue, menant une guerre asymétrique sanglante contre l'occupant cardassien, et Kira confrontée à ce passé. Source B précédente : https://en.wikipedia.org/wiki/The_Darkness_and_the_Light_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-122",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Emissary_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/one-trek-mind-benjamin-sisko-son-of-a-god"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article situe l'arrivée de Sisko (pilote, janvier 1993) comme officier de liaison de la Fédération auprès du gouvernement provisoire bajoran, à la fin de l'occupation cardassienne, Terok Nor devenant Deep Space Nine. Source B précédente : https://en.wikipedia.org/wiki/Emissary_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-123",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Emissary_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/starbases-of-the-federation-from-k-7-to-yorktown"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article confirme la découverte par Sisko et Dax du trou de ver stable vers le quadrant Gamma, le déplacement de la station à son embouchure et l'importance stratégique qui en résulte (commerce, exploration, garde du passage). Source B précédente : https://en.wikipedia.org/wiki/Emissary_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-124",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/In_the_Hands_of_the_Prophets",
+     "apres": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-winn-adami"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit, dans le final de la saison 1, l'offensive de Winn contre l'école de Keiko qui n'enseigne pas la doctrine des Prophètes, l'explosion de l'école et le stratagème visant à faire assassiner Vedek Bareil. Source B précédente : https://en.wikipedia.org/wiki/In_the_Hands_of_the_Prophets"
+  },
+  {
+   "id": "STP-125",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://startrekarchive.com/episodes/duet",
+     "apres": "https://www.startrek.com/en-un/news/space-time-travelers-guide-to-star-trek"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article présente « Duet » : Kira interroge un patient cardassien qu'elle croit être le criminel de guerre surnommé le « Boucher de Gallitep », sur fond de justice et de traumatisme. Source B précédente : https://startrekarchive.com/episodes/duet"
+  },
+  {
+   "id": "STP-126",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://startrekarchive.com/episodes/the-circle",
+     "apres": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-winn-adami"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique qu'au début de la saison 2 l'Alliance for Global Unity (le Cercle) tente de renverser le gouvernement provisoire bajoran, armée en sous-main par les Cardassiens, Winn changeant de camp une fois ce lien révélé. Source B précédente : https://startrekarchive.com/episodes/the-circle"
+  },
+  {
+   "id": "STP-127",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Maquis",
+     "apres": "https://www.startrek.com/en-un/news/star-treks-best-revolutions-rebellions"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article (« The Maquis, Part I » et « Part II ») décrit les colons dépossédés par le traité Fédération–Cardassie créant la zone démilitarisée, et Cal Hudson, officier passé au Maquis, opposé à Sisko. Source B précédente : https://en.wikipedia.org/wiki/The_Maquis"
+  },
+  {
+   "id": "STP-130",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Dax_(Star_Trek:_Deep_Space_Nine_episode)",
+     "apres": "https://www.startrek.com/en-un/news/the-people-vs-star-trek-9-best-courtroom-drama-episodes-ranked"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit « Dax » comme une audience d'extradition décidant si Jadzia Dax doit être livrée pour être jugée d'un meurtre attribué à Curzon, son hôte précédent. Source B précédente : https://en.wikipedia.org/wiki/Dax_(Star_Trek:_Deep_Space_Nine_episode)"
+  },
+  {
+   "id": "STP-134",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Shakaar",
+     "apres": "https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article (« Shakaar ») confirme que la Première ministre Winn envoie la milice arrêter Shakaar Edon, qui refuse de rendre des reclamateurs agricoles, puis que Shakaar se présente au poste de Premier ministre. Source B précédente : https://en.wikipedia.org/wiki/Shakaar"
+  },
+  {
+   "id": "STP-137",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/ds9s-two-part-turning-point"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article confirme l'invasion klingonne du territoire cardassien affaibli et précise que la guerre klingo-cardassienne découle de la crainte de Gowron que les dirigeants cardassiens soient des imposteurs changelins. Source B précédente : https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-138",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que la Fédération condamne l'attaque klingonne contre l'Union cardassienne, que Gowron se retire alors des accords de Khitomer et que s'ouvre une période de guerre Empire–Fédération. Source B précédente : https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-141",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/For_the_Uniform",
+     "apres": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-gul-dukat"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article présente Eddington comme un ancien officier de Starfleet passé au Maquis, qui voyait en Sisko le Javert de son Valjean, ce qui confirme la traque et l'affrontement entre les deux hommes. Source B précédente : https://en.wikipedia.org/wiki/For_the_Uniform"
+  },
+  {
+   "id": "STP-143",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/By_Inferno's_Light",
+     "apres": "https://www.startrek.com/en-un/news/ds9s-two-part-turning-point"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que l'élimination de l'Ordre obsidien a rendu Cardassia assez vulnérable pour accepter la direction de Gul Dukat et l'adhésion au Dominion dans « By Inferno's Light ». Source B précédente : https://en.wikipedia.org/wiki/By_Inferno's_Light"
+  },
+  {
+   "id": "STP-144",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/By_Inferno's_Light",
+     "apres": "https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que le projet de nation indépendante du Maquis s'est achevé tragiquement : les derniers maquisards ont été « pratiquement anéantis » après le ralliement de Cardassia au Dominion. Source B précédente : https://en.wikipedia.org/wiki/By_Inferno's_Light"
+  },
+  {
+   "id": "STP-145",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Call_to_Arms_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/federation-foes-dominion-and-emerald-chain"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que le Dominion a pris pied dans le quadrant Alpha en s'alliant à l'Union cardassienne et en signant des pactes de non-agression, notamment avec les Bajorans. Source B précédente : https://en.wikipedia.org/wiki/Call_to_Arms_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-146",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Call_to_Arms_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article présente la deuxième bataille de Deep Space 9, le premier engagement majeur de la guerre du Dominion : la pose d'un champ de mines occulté qui empêche les renforts du quadrant Gamma. Source B précédente : https://en.wikipedia.org/wiki/Call_to_Arms_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-147",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Call_to_Arms_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article confirme la perte de Deep Space 9 au profit des forces d'occupation de Weyoun et de Gul Dukat à l'issue de cette bataille. Source B précédente : https://en.wikipedia.org/wiki/Call_to_Arms_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-148",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Sacrifice_of_Angels",
+     "apres": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit l'opération Return : la flotte reprend Deep Space 9 avec l'aide des Klingons, et Sisko entre dans le trou de ver, où les Prophètes font disparaître la flotte du Dominion. Source B précédente : https://en.wikipedia.org/wiki/Sacrifice_of_Angels"
+  },
+  {
+   "id": "STP-152",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Quickening_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/your-star-trek-pandemic-themed-watch-list"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article (« The Quickening ») indique que le Dominion a infligé la maladie dite « Blight » à la planète pour la punir de sa résistance, et que Bashir obtient un vaccin transmis à l'enfant à naître. Source B précédente : https://en.wikipedia.org/wiki/The_Quickening_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-156",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/When_It_Rains...",
+     "apres": "https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article (« When It Rains... ») confirme que le légat Damar fonde le Front de libération cardassien pour résister au Dominion, avec Kira envoyée par la Fédération pour former ses membres. Source B précédente : https://en.wikipedia.org/wiki/When_It_Rains..."
+  },
+  {
+   "id": "STP-157",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://startrekarchive.com/episodes/what-you-leave-behind",
+     "apres": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article (bataille de Cardassia) indique que les Cardassiens se retournent contre leurs maîtres et que le Dominion entreprend alors d'éliminer la population locale. Source B précédente : https://startrekarchive.com/episodes/what-you-leave-behind"
+  },
+  {
+   "id": "STP-158",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/What_You_Leave_Behind",
+     "apres": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique qu'Odo guérit la Fondatrice, ce qui la convainc de capituler et met fin à la guerre du Dominion. Réserve : Nuance : la signature d'un traité n'est pas décrite, seule la capitulation l'est. Source B précédente : https://en.wikipedia.org/wiki/What_You_Leave_Behind"
+  },
+  {
+   "id": "STP-159",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Profit_and_Lace",
+     "apres": "https://www.startrek.com/en-un/news/ishka-of-ferenginar-mother-of-a-movement"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que, dans « Profit and Lace », Zek modifie la charte ferengie pour autoriser les femmes à porter des vêtements, premier pas vers leurs droits, et que d'autres réformes suivent jusqu'à « The Dogs of War ». Source B précédente : https://en.wikipedia.org/wiki/Profit_and_Lace"
+  },
+  {
+   "id": "STP-160",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Dogs_of_War_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/ishka-of-ferenginar-mother-of-a-movement"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article confirme que, dans « The Dogs of War », Rom est choisi comme nouveau Grand Nagus pour superviser une démocratie constitutionnelle naissante. Source B précédente : https://en.wikipedia.org/wiki/The_Dogs_of_War_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-237",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Through_the_Looking_Glass_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/star-treks-best-revolutions-rebellions"
+    }
+   },
+   "motif": "recoupement A (source officielle) — La section « The Terran Rebellion » (DS9 « Through the Looking Glass » et « Shattered Mirror ») décrit les forces de la résistance terrienne combattant l'Alliance klingonne-cardassienne dans l'univers miroir. Réserve : « The Emperor's New Cloak » n'est pas cité par cet article. Source B précédente : https://en.wikipedia.org/wiki/Through_the_Looking_Glass_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-257",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Badda-Bing_Badda-Bang",
+     "apres": "https://www.startrek.com/en-un/news/how-ben-sisko-wrestled-with-american-history"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que « Badda-Bing, Badda-Bang » repose sur la connaissance qu'a Sisko du racisme dans le Las Vegas des années 1960 ; Sisko y rejette une vision fausse et rassurante du passé (« We cannot ignore the truth about the past »). Source B précédente : https://en.wikipedia.org/wiki/Badda-Bing_Badda-Bang"
+  },
+  {
+   "id": "STP-259",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Siege_of_AR-558",
+     "apres": "https://www.startrek.com/en-un/news/nog-post-traumatic-progress-of-star-trek-characters"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit « The Siege of AR-558 » : plus de 150 officiers de Starfleet engagés contre les Jem'Hadar, Nog qui y perd sa jambe, puis le stress post-traumatique qui le renvoie au siège. Source B précédente : https://en.wikipedia.org/wiki/The_Siege_of_AR-558"
+  },
+  {
+   "id": "STP-305",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Inter_Arma_Enim_Silent_Leges_(Star_Trek:_Deep_Space_Nine)",
+     "apres": "https://www.startrek.com/en-un/news/the-most-influential-tal-shiar-moments-ranked"
+    }
+   },
+   "motif": "recoupement A (source officielle) — La section consacrée à « Inter Arma Enim Silent Leges » décrit l'opération de Sloan (Section 31) contre Koval, président du Tal Shiar, le recours de Bashir à la sénatrice romulienne Cretak, et révèle que tout était un stratagème pour élever la position de Koval dans l'Empire romulien ; le synopsis Paramount+ parle d'un jeu mortel entre le renseignement romulien et une organisation secrète de Starfleet. Réserve : La page ne dit pas explicitement que la sénatrice Cretak est arrêtée ni qu'elle perd son siège : elle confirme l'ingérence de la Section 31 dans la politique romulienne, pas le sort précis de la sénatrice. Source B précédente : https://en.wikipedia.org/wiki/Inter_Arma_Enim_Silent_Leges_(Star_Trek:_Deep_Space_Nine)"
+  },
+  {
+   "id": "STP-089",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Encounter_at_Farpoint",
+     "apres": "https://www.startrek.com/en-un/news/piqard-qs-influence-on-the-captain"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit, dans « Encounter at Farpoint », Q qui met l'équipage en procès pour le passé violent de l'humanité, puis pousse Picard à attaquer la forme de vie géante qui menace Old Bandi City ; Picard refuse et aide l'être. Source B précédente : https://en.wikipedia.org/wiki/Encounter_at_Farpoint"
+  },
+  {
+   "id": "STP-093",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Symbiosis_(Star_Trek:_The_Next_Generation)",
+     "apres": "https://www.startrek.com/en-un/news/below-deck-with-lower-decks-ornara-and-brekka"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit l'épisode de première saison de TNG : les Ornarans, dont la peste a disparu, sont devenus dépendants à la felicium que les Brekkiens continuent de leur fournir pour leur profit, et la Directive première laisse peu de marge à Picard. Réserve : L'article ne nomme pas l'épisode « Symbiosis » dans son texte, mais il le désigne sans ambiguïté (première saison, Ornara et Brekka). Source B précédente : https://en.wikipedia.org/wiki/Symbiosis_(Star_Trek:_The_Next_Generation)"
+  },
+  {
+   "id": "STP-095",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Hunted_(Star_Trek:_The_Next_Generation)",
+     "apres": "https://www.startrek.com/en-un/news/10-star-trek-stories-crying-out-for-a-follow-up"
+    }
+   },
+   "motif": "recoupement A (source officielle) — La section sur « The Hunted » décrit des supersoldats créés par les Angosiens pour leurs guerres, puis abandonnés et emprisonnés parce que jugés trop violents ; l'épisode se termine sur une confrontation entre les soldats et les autorités angosiennes. Source B précédente : https://en.wikipedia.org/wiki/The_Hunted_(Star_Trek:_The_Next_Generation)"
+  },
+  {
+   "id": "STP-097",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Sins_of_the_Father_(Star_Trek:_The_Next_Generation)",
+     "apres": "https://www.startrek.com/en-un/news/needs-of-the-many-personal-sacrifice"
+    }
+   },
+   "motif": "recoupement A (source officielle) — La section sur « Sins of the Father » indique que c'est le père de Duras qui a trahi les Klingons au profit des Romuliens à Khitomer, que le chancelier a protégé la famille Duras pour éviter une guerre civile, et que Worf accepte le déshonneur (discommendation). Source B précédente : https://en.wikipedia.org/wiki/Sins_of_the_Father_(Star_Trek:_The_Next_Generation)"
+  },
+  {
+   "id": "STP-098",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Best_of_Both_Worlds_(Star_Trek:_The_Next_Generation)",
+     "apres": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles"
+    }
+   },
+   "motif": "recoupement A (source officielle) — La section « Battle of Wolf 359 » (TNG et DS9) décrit l'échec de Starfleet face aux Borgs à Wolf 359, Picard enrôlé de force pour aider les Borgs, et les lourdes pertes en vies et en vaisseaux ; le synopsis Paramount+ de « The Best of Both Worlds, Part 1 » confirme la capture de Picard par les Borgs. Source B précédente : https://en.wikipedia.org/wiki/The_Best_of_Both_Worlds_(Star_Trek:_The_Next_Generation)"
+  },
+  {
+   "id": "STP-100",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Reunion_(Star_Trek:_The_Next_Generation)",
+     "apres": "https://www.startrek.com/en-un/news/starfleets-detective-tales"
+    }
+   },
+   "motif": "recoupement A (source officielle) — La section « Reunion » décrit le chancelier K'mpec demandant à Picard de déterminer qui, de Gowron ou de Duras, l'empoisonne, puis le rituel de succession à sa mort, perturbé par une bombe d'origine romulienne liée à la famille Duras. Source B précédente : https://en.wikipedia.org/wiki/Reunion_(Star_Trek:_The_Next_Generation)"
+  },
+  {
+   "id": "STP-102",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)",
+     "apres": "https://www.startrek.com/en-un/news/best-star-trek-romulans-ranked"
+    }
+   },
+   "motif": "recoupement A (source officielle) — La section sur Sela indique qu'elle a provoqué la guerre civile klingonne et offert en secret le soutien romulien aux forces des sœurs Duras dans le diptyque « Redemption », plan déjoué par Picard. Source B précédente : https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)"
+  },
+  {
+   "id": "STP-103",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Journey's_End_(Star_Trek:_The_Next_Generation)",
+     "apres": "https://www.startrek.com/en-un/news/star-trek-next-generation-journeys-end-native-american-representation"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que dans « Journey's End » la Fédération a accepté de céder Dorvan V à Cardassia par un accord diplomatique, alors qu'une tribu amérindienne y vit, et que Picard est chargé de déplacer cette population. Source B précédente : https://en.wikipedia.org/wiki/Journey's_End_(Star_Trek:_The_Next_Generation)"
+  },
+  {
+   "id": "STP-104",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Who_Watches_the_Watchers",
+     "apres": "https://www.startrek.com/en-un/news/10-first-contacts-that-went-really-really-wrong"
+    }
+   },
+   "motif": "recoupement A (source officielle) — La section « The Mintakans » décrit, dans « Who Watches the Watchers », un poste d'observation de Starfleet exposé à une civilisation de l'âge du bronze, l'échec à rattraper la situation sans violer la Directive première, et des Mintakans qui finissent par vénérer Picard comme un dieu. Source B précédente : https://en.wikipedia.org/wiki/Who_Watches_the_Watchers"
+  },
+  {
+   "id": "STP-105",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Unification_(Star_Trek:_The_Next_Generation)",
+     "apres": "https://www.startrek.com/en-un/news/vulcans-and-romulans-a-primer-on-unification"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le primer indique que Spock rejoint un mouvement clandestin de réunification et que le gouvernement romulien veut en réalité envahir et conquérir Vulcain (trois vaisseaux, 2 000 soldats) ; l'article startrek.com sur les Romuliens les plus influents précise que Sela voulait envoyer une force d'invasion déguisée en mission de paix. Source B précédente : https://en.wikipedia.org/wiki/Unification_(Star_Trek:_The_Next_Generation)"
+  },
+  {
+   "id": "STP-106",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Face_of_the_Enemy_(Star_Trek:_The_Next_Generation)",
+     "apres": "https://www.startrek.com/en-un/news/the-most-influential-tal-shiar-moments-ranked"
+    }
+   },
+   "motif": "recoupement A (source officielle) — La section sur « Face of the Enemy » décrit Troi déguisée en major Rakal du Tal Shiar, participante involontaire d'une opération visant à transférer des transfuges romuliens de haut rang vers la Fédération ; le synopsis Paramount+ parle d'un « elaborate defection scheme ». Source B précédente : https://en.wikipedia.org/wiki/Face_of_the_Enemy_(Star_Trek:_The_Next_Generation)"
+  },
+  {
+   "id": "STP-253",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Masterpiece_Society",
+     "apres": "https://www.startrek.com/en-un/news/five-times-geordi-la-forge-embodied-star-treks-hopeful-future"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article sur « The Masterpiece Society » décrit une colonie qui recourt à l'ingénierie génétique pour que chaque personne née soit « parfaite », sans handicap ni maladie génétique, et dotée d'un ensemble de compétences assigné. Source B précédente : https://en.wikipedia.org/wiki/The_Masterpiece_Society"
+  },
+  {
+   "id": "STP-277",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Rightful_Heir",
+     "apres": "https://www.startrek.com/en-un/news/remain-klingon-federation-relationship-with-klingons"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que Gowron, méfiant, voyait le clone de Kahless comme une menace pour sa position, et que le clone devint empereur de façade tandis que Gowron gardait le pouvoir réel du gouvernement. Source B précédente : https://en.wikipedia.org/wiki/Rightful_Heir"
+  },
+  {
+   "id": "STP-278",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Yesterday's_Enterprise",
+     "apres": "https://www.startrek.com/en-un/news/who-is-rachel-garrett"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article explique que la réapparition de l'Enterprise-C en 2366 a créé une chronologie alternative dans laquelle l'Empire klingon était en guerre contre la Fédération, et que Picard doit renvoyer le vaisseau pour la réparer. Source B précédente : https://en.wikipedia.org/wiki/Yesterday's_Enterprise"
+  },
+  {
+   "id": "STP-001",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Forge_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/15-years-ago-one-enterprise-epic-set-the-stage-for-discovery"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article sur l'arc « The Forge »–« Kir'Shara » évoque le passé violent des Vulcains et affirme que Surak a mis fin à une guerre totale des milliers d'années avant Enterprise, détournant les Vulcains de la voie militariste des Romuliens ; le Kir'Shara ramène ensuite ses écrits originaux. Réserve : La page ne précise pas le caractère civil ou nucléaire des guerres anciennes. Source B précédente : https://en.wikipedia.org/wiki/The_Forge_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-005",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Space_Seed",
+     "apres": "https://www.startrek.com/en-un/news/strange-new-worlds-101-genetic-engineering"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit Khan comme un tyran génétiquement modifié et les humains « augmentés » prenant le contrôle de parties de la planète en dictateurs régnant d'une main de fer, l'ingénierie génétique étant interdite après les guerres eugéniques. Réserve : La page ne traite ni de « Borderland » ni de « Tomorrow and Tomorrow and Tomorrow ». Source B précédente : https://en.wikipedia.org/wiki/Space_Seed"
+  },
+  {
+   "id": "STP-036",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Compte rendu indépendant détaillé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://reactormag.com/star-trek-the-original-series-rewatch-balance-of-terror/",
+     "apres": "https://www.startrek.com/en-un/news/in-the-year-2255"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que la guerre Terre–Romulus a commencé quatre ans après le premier contact de 2152 et s'est achevée avec la bataille de Cheron en 2160. Source B précédente : https://reactormag.com/star-trek-the-original-series-rewatch-balance-of-terror/"
+  },
+  {
+   "id": "STP-056",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Let_That_Be_Your_Last_Battlefield",
+     "apres": "https://www.startrek.com/en-un/news/let-that-be-your-last-battlefield-47-years-later"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit Bele et Lokai, deux habitants de Cheron qui se haïssent selon le côté de leur corps qui est noir ou blanc, et leur planète déchirée et décimée par cette haine et cette intolérance. Source B précédente : https://en.wikipedia.org/wiki/Let_That_Be_Your_Last_Battlefield"
+  },
+  {
+   "id": "STP-057",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/A_Taste_of_Armageddon",
+     "apres": "https://www.startrek.com/en-un/news/the-lower-decks-connection-the-most-dangerous-games"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit dans « A Taste of Armageddon » une civilisation en conflit avec une planète voisine, où quiconque est touché par les tirs virtuels est envoyé dans une cabine d'élimination. Source B précédente : https://en.wikipedia.org/wiki/A_Taste_of_Armageddon"
+  },
+  {
+   "id": "STP-058",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Return_of_the_Archons",
+     "apres": "https://www.startrek.com/en-un/news/star-trek-megalomaniacal-ai-guide"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit Landru comme un ordinateur omniscient de Beta III exerçant une emprise quasi tyrannique sur les habitants et ne leur permettant aucune pensée indépendante. Source B précédente : https://en.wikipedia.org/wiki/The_Return_of_the_Archons"
+  },
+  {
+   "id": "STP-062",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Errand_of_Mercy",
+     "apres": "https://www.startrek.com/en-un/news/remarkable-revelations"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit l'occupation klingonne d'Organia, l'exécution de 200 Organiens par Kor, puis les Organiens neutralisant les flottes klingonne et fédérale pour leur imposer l'arrêt des hostilités. Source B précédente : https://en.wikipedia.org/wiki/Errand_of_Mercy"
+  },
+  {
+   "id": "STP-064",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Journey_to_Babel",
+     "apres": "https://www.startrek.com/en-un/news/the-dual-paths-of-the-orions-and-the-andorians"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que l'Orion Thelev, déguisé chirurgicalement en Andorien, a infiltré la conférence de Babel et que ses meurtres visaient à empêcher l'admission de Coridan dans la Fédération. Source B précédente : https://en.wikipedia.org/wiki/Journey_to_Babel"
+  },
+  {
+   "id": "STP-066",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Omega_Glory",
+     "apres": "https://www.startrek.com/en-un/news/6-things-to-know-about-the-omega-glory"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que le capitaine Tracey viole la Directive première en utilisant la technologie de la Fédération pour aider les Kohms contre les Yangs, présentés comme un groupe brutal. Réserve : La page ne nomme pas la planète Omega IV. Source B précédente : https://en.wikipedia.org/wiki/The_Omega_Glory"
+  },
+  {
+   "id": "STP-067",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Gamesters_of_Triskelion",
+     "apres": "https://www.startrek.com/en-un/news/10-star-trek-stories-crying-out-for-a-follow-up"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit trois cerveaux pariant des quatloos sur des combats entre individus d'espèces arrachées à toute la galaxie, et s'interroge sur le sort des esclaves libérés. Source B précédente : https://en.wikipedia.org/wiki/The_Gamesters_of_Triskelion"
+  },
+  {
+   "id": "STP-069",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Way_to_Eden",
+     "apres": "https://www.startrek.com/en-un/news/lessons-learned-on-the-way-to-eden"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit les adeptes du Dr Sevrin, qui choisissent de vivre autrement que les porteurs de l'uniforme de Starfleet, cherchent sans fin Eden et, poussés par Sevrin, s'emparent de l'Enterprise en menaçant l'équipage. Source B précédente : https://en.wikipedia.org/wiki/The_Way_to_Eden"
+  },
+  {
+   "id": "STP-233",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)",
+     "apres": "https://www.startrek.com/en-un/news/cadet-training-mirror-universe-episodes-mirror-mirror"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit l'univers miroir comme dominé par un Empire brutal fondé sur la terreur et la conquête, qui cherchait à imposer sa volonté et à détruire quiconque s'y opposait. Réserve : La page ne mentionne pas l'esclavage et ne traite pas de Discovery saison 1. Source B précédente : https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)"
+  },
+  {
+   "id": "STP-234",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)",
+     "apres": "https://www.startrek.com/en-un/news/cadet-training-mirror-universe-episodes-mirror-mirror"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que Kirk encourage Spock Miroir à utiliser le champ Tantalus pour changer l'Empire, et que Spock Miroir réfléchit ensuite aux conseils de réforme de Kirk. Source B précédente : https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)"
+  },
+  {
+   "id": "STP-245",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Plato's_Stepchildren",
+     "apres": "https://www.startrek.com/en-un/news/50-years-later-plato-s-stepchildren"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit Parmen gouvernant par des pouvoirs télékinésiques et psioniques, contraignant et torturant l'équipage, tandis qu'Alexander, seul Platonien sans pouvoirs, est réduit au rôle de bouffon. Source B précédente : https://en.wikipedia.org/wiki/Plato's_Stepchildren"
+  },
+  {
+   "id": "STP-246",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Ultimate_Computer",
+     "apres": "https://www.startrek.com/en-un/news/star-trek-megalomaniacal-ai-guide"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que l'ordinateur M-5, porteur d'un défaut fatal, utilise tout l'arsenal de l'Enterprise pour attaquer quatre autres vaisseaux de la Fédération. Source B précédente : https://en.wikipedia.org/wiki/The_Ultimate_Computer"
+  },
+  {
+   "id": "STP-015",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Broken_Bow_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/why-archer-hated-the-vulcans"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article explique que les Vulcains n'ont pas partagé leur technologie avancée en jugeant les humains pas prêts, et qu'Archer leur en veut d'avoir, par ces manœuvres dilatoires, empêché son père de voir voler ses moteurs à distorsion. Réserve : La page ne traite pas de « First Flight ». Source B précédente : https://en.wikipedia.org/wiki/Broken_Bow_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-016",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Broken_Bow_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/10-first-contacts-that-went-really-really-wrong"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit dans « Broken Bow » le coursier klingon Klaang s'écrasant dans un champ de l'Oklahoma, où un fermier lui tire dessus, les Klingons qualifiant ensuite ce premier contact de désastreux. Source B précédente : https://en.wikipedia.org/wiki/Broken_Bow_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-018",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Broken_Bow_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/starfleet-encounters-with-qonos"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article indique que les agents suliban de la Cabale poursuivaient l'Enterprise pour capturer Klaang, sur ordres venus du futur visant à plonger l'Empire klingon dans le chaos, ce complot étant un front de la guerre froide temporelle. Réserve : La page porte sur « Broken Bow » ; « Shockwave » et « Storm Front » ne sont pas décrits. Source B précédente : https://en.wikipedia.org/wiki/Broken_Bow_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-020",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Civilization_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/pre-warp-impersonations-prime-directive"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Dans « Civilization », Archer découvre chez les Akaali pré-industriels un Malurien déguisé dont le réacteur à antimatière clandestin empoisonne la population, et le force à retirer son équipement de la planète. Réserve : La page parle d'un réacteur clandestin qui empoisonne la population, sans mentionner explicitement l'exploitation minière ; le terme « répression » n'y figure pas. Source B précédente : https://en.wikipedia.org/wiki/Civilization_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-021",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Andorian_Incident",
+     "apres": "https://www.startrek.com/en-un/news/dual-paths-orions-and-the-andorians"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Dans « The Andorian Incident », les Andoriens soupçonnent le monastère vulcain de P'Jem d'être une station d'espionnage ; Archer désamorce la crise en prouvant qu'ils ont raison, et l'article évoque la « guerre froide » andoro-vulcaine. Réserve : « Shadows of P'Jem » n'est pas cité par la page. Source B précédente : https://en.wikipedia.org/wiki/The_Andorian_Incident"
+  },
+  {
+   "id": "STP-022",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Minefield_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/in-the-year-2255"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le premier contact entre la Terre et les Romuliens a lieu en 2152, quand l'Enterprise d'Archer se retrouve pris dans un champ de mines romulien. Réserve : La page ne nomme pas l'épisode « Minefield » (elle décrit le fait) ; « Enterprise's Legacy » (startrek.com) le nomme explicitement. Source B précédente : https://en.wikipedia.org/wiki/Minefield_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-024",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Detained_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/lower-decks-connection-unjustly-accused-characters"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Dans « Detained », Archer et Mayweather découvrent des Suliban internés à tort par les Tandariens, qui ne sont ni membres de la Cabale ni génétiquement modifiés, détenus « pour leur propre protection » par paranoïa, en écho à l'internement des Américains d'origine japonaise. Source B précédente : https://en.wikipedia.org/wiki/Detained_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-025",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Marauders_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/tpol-tactics-and-protocols"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Dans « Marauders », des maraudeurs klingons exercent une pression régulière sur une colonie isolée productrice de deutérium ; Archer et l'équipage forment les colons à se défendre. Réserve : La puissance dominatrice est klingonne et non « locale » ; la colonie produit du deutérium. Source B précédente : https://en.wikipedia.org/wiki/Marauders_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-026",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Expanse_(Star_Trek:_Enterprise_episode)",
+     "apres": "https://www.startrek.com/en-un/news/things-to-know-about-the-xindi"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Dans « The Expanse », une sonde frappe la Terre en traçant un sillon de la Floride au Venezuela et tue 7 millions de personnes ; l'article attribue l'attaque aux Xindis, tout comme « Star Trek 101: The Xindi ». Source B précédente : https://en.wikipedia.org/wiki/The_Expanse_(Star_Trek:_Enterprise_episode)"
+  },
+  {
+   "id": "STP-027",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Expanse_(Star_Trek:_Enterprise_episode)",
+     "apres": "https://www.startrek.com/en-un/news/things-to-know-about-the-xindi"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Archer part explorer l'Étendue delphique pour trouver les responsables de l'attaque, alors que les Xindis construisent une arme bien plus puissante, capable de détruire la Terre. Source B précédente : https://en.wikipedia.org/wiki/The_Expanse_(Star_Trek:_Enterprise_episode)"
+  },
+  {
+   "id": "STP-028",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Council_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/star-trek-101-the-xindi"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Les Xindis ont attaqué la Terre sur le conseil des Constructeurs de sphères, qui leur avaient fait croire que les humains détruiraient leur région ; Archer doit les convaincre que les Constructeurs sont le véritable ennemi (épisodes cités : « The Council », « Countdown »). Source B précédente : https://en.wikipedia.org/wiki/The_Council_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-029",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Council_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le Conseil xindi vote le report de l'arme ; Reptiliens et Insectoïdes trahissent, tuent le représentant primate, s'emparent de l'arme et quittent le Conseil, ce qui pousse Primates, Arboréens et Aquatiques à s'allier avec l'Enterprise. Source B précédente : https://en.wikipedia.org/wiki/The_Council_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-030",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Forge_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/enterprises-ambitious-arcs"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Les Syrrannites sont accusés de l'attentat meurtrier contre l'ambassade terrienne sur Vulcain (« The Forge ») ; l'article « Nearly 20 Years Ago… » ajoute que V'Las cherche à leur faire porter la responsabilité. Source B précédente : https://en.wikipedia.org/wiki/The_Forge_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-031",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Awakening_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/enterprises-ambitious-arcs"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'administrateur V'Las ouvre le feu sur l'Enterprise et accuse les Andoriens de préparer une invasion ; Archer met fin aux hostilités en retrouvant le Kir'Shara. Réserve : La page présente un prétexte d'invasion andorienne plutôt qu'une « guerre préventive » explicitement nommée. Source B précédente : https://en.wikipedia.org/wiki/Awakening_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-033",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Babel_One",
+     "apres": "https://www.startrek.com/en-un/news/enterprises-ambitious-arcs"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Un vaisseau camouflé par holographie, commandé à distance par l'amiral romulien Valdore, déstabilise les relations entre humains, Andoriens, Tellarites, Vulcains et Rigeliens ; sous la direction d'Archer, Andoriens, Tellarites et Vulcains se joignent à l'Enterprise pour le traquer. Source B précédente : https://en.wikipedia.org/wiki/Babel_One"
+  },
+  {
+   "id": "STP-035",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Demons_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/enterprises-ambitious-arcs"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Une conférence se tient sur la création d'une Coalition des planètes ; Paxton tente de la saboter, Archer le met en échec, et la conférence pose les bases de la Coalition puis de la Fédération. Source B précédente : https://en.wikipedia.org/wiki/Demons_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-038",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Chronologie indépendante",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://startrekarchive.com/timeline",
+     "apres": "https://www.startrek.com/en-un/news/how-the-united-nations-helped-shape-the-federation"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le dernier épisode d'Enterprise montre Archer signant la Charte de la Fédération à San Francisco en 2161, la Coalition des planètes étant devenue la Fédération unie des planètes. Source B précédente : https://startrekarchive.com/timeline"
+  },
+  {
+   "id": "STP-241",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Dear_Doctor",
+     "apres": "https://www.startrek.com/en-un/news/your-star-trek-pandemic-themed-watch-list"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Dans « Dear Doctor », Phlox constate que les Valakiens sont dans une impasse génétique tandis que les Menk, qu'ils jugent inférieurs, évoluent ; Phlox et Archer refusent de les guérir pour ne pas entraver l'évolution des Menk. Source B précédente : https://en.wikipedia.org/wiki/Dear_Doctor"
+  },
+  {
+   "id": "STP-242",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Cogenitor",
+     "apres": "https://www.startrek.com/en-un/news/best-of-charles-trip-tucker"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Dans « Cogenitor », les cogéniteurs vissiens, troisième sexe, sont privés de nom et d'instruction et servent uniquement à la reproduction ; Archer refuse l'asile demandé par le cogéniteur, qui se suicide. Source B précédente : https://en.wikipedia.org/wiki/Cogenitor"
+  },
+  {
+   "id": "STP-243",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Stigma_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/tpol-tactics-and-protocols"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Dans « Stigma », le Haut Commandement vulcain ostracise les adeptes de la fusion mentale ; T'Pol, atteinte du syndrome de Pa'nar, choisit d'affronter ce préjugé et cette persécution. L'article « When Enterprise Took on the AIDS Crisis » précise que le Conseil médical vulcain refuse de chercher un remède. Source B précédente : https://en.wikipedia.org/wiki/Stigma_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-244",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Communicator_(Star_Trek:_Enterprise)",
+     "apres": "https://www.startrek.com/en-un/news/pre-warp-impersonations-prime-directive"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Dans « The Communicator », Archer et Reed, revenus chercher un communicateur oublié sur une planète politiquement instable, sont capturés par l'une des deux factions, pris pour des espions et menacés d'exécution par l'armée. Source B précédente : https://en.wikipedia.org/wiki/The_Communicator_(Star_Trek:_Enterprise)"
+  },
+  {
+   "id": "STP-161",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Learning_Curve_(Star_Trek:_Voyager)",
+     "apres": "https://www.startrek.com/en-un/news/why-voyager-is-the-only-thing-im-streaming-during-a-pandemic"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Au début de Voyager, les différences entre Maquisards et équipage de la Fédération apparaissent, et Janeway confie à Tuvok la tâche de mettre les Maquisards au pas (« Learning Curve »). Source B précédente : https://en.wikipedia.org/wiki/Learning_Curve_(Star_Trek:_Voyager)"
+  },
+  {
+   "id": "STP-163",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Basics_(Star_Trek:_Voyager)",
+     "apres": "https://www.startrek.com/en-un/news/intruder-alert-ship-invaders"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Dans « Basics », Seska et ses alliés kazons envahissent Voyager, en prennent le contrôle et abandonnent l'équipage sur une planète désolée. Réserve : La page ne nomme pas la faction Nistrim. Source B précédente : https://en.wikipedia.org/wiki/Basics_(Star_Trek:_Voyager)"
+  },
+  {
+   "id": "STP-165",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Death_Wish_(Star_Trek:_Voyager)",
+     "apres": "https://www.startrek.com/en-un/news/voyagers-death-wish-19-years-later"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le Q Quinn demande l'asile à bord de Voyager pour pouvoir se suicider, tandis que Q défend le Continuum. Source B précédente : https://en.wikipedia.org/wiki/Death_Wish_(Star_Trek:_Voyager)"
+  },
+  {
+   "id": "STP-168",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Scorpion_(Star_Trek:_Voyager)",
+     "apres": "https://www.startrek.com/en-un/news/star-trek-101-seven-of-nine"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le Collectif borg forme une alliance temporaire avec Janeway contre leur ennemi commun, l'espèce 8472 ; Seven of Nine sert d'agent de liaison (« Scorpion »). Source B précédente : https://en.wikipedia.org/wiki/Scorpion_(Star_Trek:_Voyager)"
+  },
+  {
+   "id": "STP-169",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/The_Killing_Game_(Star_Trek:_Voyager)",
+     "apres": "https://www.startrek.com/en-un/news/intruder-alert-ship-invaders"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Dans « The Killing Game », des Hirogens abordent Voyager, s'en emparent et organisent des simulations de chasse sur les holodecks en prenant l'équipage pour proie. Source B précédente : https://en.wikipedia.org/wiki/The_Killing_Game_(Star_Trek:_Voyager)"
+  },
+  {
+   "id": "STP-170",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Counterpoint_(Star_Trek:_Voyager)",
+     "apres": "https://www.startrek.com/en-un/news/delta-quadrant-regimes-ranked"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article officiel décrit le préjugé du Devore Imperium envers les télépathes, ses inspections de vaisseaux et les « relocation centers » où sont emprisonnés les réfugiés télépathes ; le synopsis Paramount+ de « Counterpoint » (S5E10) confirme que Janeway doit cacher ses officiers télépathes et douze réfugiés télépathes. Source B précédente : https://en.wikipedia.org/wiki/Counterpoint_(Star_Trek:_Voyager)"
+  },
+  {
+   "id": "STP-172",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Base des événements",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://startrekarchive.com/events/holographic-rights-ruling",
+     "apres": "https://www.startrek.com/en-un/news/author-author-can-teach-us-a-lot-about-ai-and-copyright"
+    }
+   },
+   "motif": "recoupement A (source officielle) — La page officielle indique que Starfleet refuse de déclarer le Docteur « personne », mais que l'arbitre étend la définition légale d'« artiste » pour l'inclure et ordonne le rappel de toutes les copies de l'holoroman (« Author, Author »). Source B précédente : https://startrekarchive.com/events/holographic-rights-ruling"
+  },
+  {
+   "id": "STP-174",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Unimatrix_Zero",
+     "apres": "https://www.startrek.com/en-un/news/star-treks-best-revolutions-rebellions"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article décrit le plan de Janeway dans « Unimatrix Zero » : amener les Borgs libérés à saper le Collectif, Seven parlant de « guerre civile » et Janeway de « mouvement de résistance » ; l'article « Resistance is Fruitful » (startrek.com) confirme la formation d'une résistance de drones ayant conservé leur individualité. Source B précédente : https://en.wikipedia.org/wiki/Unimatrix_Zero"
+  },
+  {
+   "id": "STP-261",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Living_Witness",
+     "apres": "https://www.startrek.com/en-un/news/voyager-the-doctor-watchlist"
+    }
+   },
+   "motif": "recoupement A (source officielle) — La page officielle décrit, dans « Living Witness », le musée kyrien qui présente l'équipage de Voyager comme violent dans des reconstitutions inexactes et l'accuse d'une guerre civile avec les Vaskans, en soulignant comment les récits historiques peuvent être instrumentalisés ; le Docteur rétablit les faits. Source B précédente : https://en.wikipedia.org/wiki/Living_Witness"
+  },
+  {
+   "id": "STP-262",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Synopsis officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Random_Thoughts_(Star_Trek:_Voyager)",
+     "apres": "https://www.paramountplus.com/shows/star_trek_voyager/episodes/4/"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le synopsis Paramount+ de « Random Thoughts » (S4E10) indique que, sur une planète de télépathes, B'Elanna est arrêtée pour un meurtre imputé à ses pensées violentes. Source B précédente : https://en.wikipedia.org/wiki/Random_Thoughts_(Star_Trek:_Voyager)"
+  },
+  {
+   "id": "STP-264",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Synopsis officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Workforce_(Star_Trek:_Voyager)",
+     "apres": "https://www.paramountplus.com/shows/star_trek_voyager/episodes/7/"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Les synopsis Paramount+ de « Workforce » parties 1 et 2 (S7E16-17) indiquent que Janeway, Tuvok, Seven, Tom et B'Elanna travaillent sur une planète extraterrestre sans aucun souvenir de leur vie sur Voyager, et que Chakotay doit convaincre Janeway que sa vie d'ouvrière sur Quarra n'est pas réelle. Source B précédente : https://en.wikipedia.org/wiki/Workforce_(Star_Trek:_Voyager)"
+  },
+  {
+   "id": "STP-281",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Synopsis officiel"
+    },
+    "url_source": {
+     "avant": "https://startrekarchive.com/episodes/flesh-and-blood",
+     "apres": "https://www.paramountplus.com/shows/star_trek_voyager/episodes/7/"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le synopsis Paramount+ de « Flesh & Blood » partie 1 (S7E9) indique que des hologrammes guerriers se rebellent contre leurs créateurs hirogens ; la partie 2 évoque le Docteur rejoignant les hologrammes rebelles. Source B précédente : https://startrekarchive.com/episodes/flesh-and-blood"
+  },
+  {
+   "id": "STP-285",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Thirty_Days_(Star_Trek:_Voyager)",
+     "apres": "https://www.startrek.com/en-un/news/starfleet-manual-for-going-rogue"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article officiel indique que Paris, malgré la Prime Directive, tente sans autorisation de détruire les raffineries d'oxygène des Monéens qui menacent l'océan, puis que Janeway le rétrograde et le condamne à trente jours de cellule. Source B précédente : https://en.wikipedia.org/wiki/Thirty_Days_(Star_Trek:_Voyager)"
+  },
+  {
+   "id": "STP-042",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+     "apres": "https://www.startrek.com/en-un/news/starfleet-encounters-with-qonos"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article officiel indique que Starfleet avait secrètement autorisé Georgiou à larguer une hydrobombe dans le système volcanique de Qo'noS pour le rendre inhabitable, et que Burnham a contesté ce plan et convaincu ses supérieurs d'y renoncer. Réserve : La page parle d'une contestation de Burnham, pas expressément d'une « mutinerie ». Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1"
+  },
+  {
+   "id": "STP-043",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+     "apres": "https://www.startrek.com/en-un/news/captain-georgious-fate-discoverys-future"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article officiel indique que Burnham remet à L'Rell le détonateur de la bombe placée au cœur de Qo'noS pour plier les Klingons à sa volonté, et que L'Rell accède à la chancellerie et met fin aux hostilités ouvertes. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1"
+  },
+  {
+   "id": "STP-044",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Récapitulatif officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+     "apres": "https://www.startrek.com/en-un/news/through-the-valley-of-shadows-spock-klingons"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le récapitulatif officiel de « Perpetual Infinity » décrit Control prenant possession de Leland, chef de Section 31, en s'appuyant sur le fait que personne ne remettra en cause la chaîne de commandement de Starfleet. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2"
+  },
+  {
+   "id": "STP-178",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Chronologie indépendante",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://startrekarchive.com/timeline",
+     "apres": "https://www.startrek.com/en-un/news/the-science-behind-discoverys-burn"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article des conseillers scientifiques indique que vers 3069 tout le dilithium actif devient inerte, que les moteurs de distorsion actifs entrent en surcharge, ce qui restreint la distorsion pendant plus d'un siècle et fracture la Fédération ; la cause est rattachée à Su'Kal. Source B précédente : https://startrekarchive.com/timeline"
+  },
+  {
+   "id": "STP-286",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://startrekarchive.com/episodes/the-sound-of-thunder",
+     "apres": "https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le guide officiel décrit, pour « The Sound of Thunder », les abattages imposés aux Kelpiens par les Ba'ul (« Great Balance ») et révèle que ce système était une invention des Ba'ul ; le récapitulatif officiel de « The Sanctuary » rappelle que Discovery a déclenché le vahar'ai de tous les Kelpiens dans cet épisode. Source B précédente : https://startrekarchive.com/episodes/the-sound-of-thunder"
+  },
+  {
+   "id": "STP-265",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
+     "apres": "https://www.startrek.com/en-un/news/i-was-a-child-of-mars"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article officiel décrit Kima et Lil, dont un parent travaille aux chantiers d'Utopia Planitia, apprenant à l'école l'attaque aérienne contre le complexe martien ; le récapitulatif officiel de « Remembrance » attribue l'attaque de Mars à des synthétiques et renvoie à « Children of Mars ». Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks"
+  },
+  {
+   "id": "STP-266",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
+     "apres": "https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le guide officiel indique, pour « The Brightest Star », que les Kelpiens vivaient dans l'attente de l'abattage par les Ba'ul, principe central de leur société, et que Georgiou emmena Saru à bord de l'Archimedes comme réfugié. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks"
+  },
+  {
+   "id": "STP-197",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Base des événements",
+     "apres": "Récapitulatif officiel"
+    },
+    "url_source": {
+     "avant": "https://startrekarchive.com/events/synthetic-ban",
+     "apres": "https://www.startrek.com/en-un/news/recap-star-trek-picard-remembrance"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le récapitulatif officiel indique que l'attaque de Mars par des synthétiques renégats a entraîné une interdiction de la vie artificielle et l'arrêt du sauvetage, ce qui a poussé Picard à démissionner. Source B précédente : https://startrekarchive.com/events/synthetic-ban"
+  },
+  {
+   "id": "STP-202",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Récapitulatif officiel"
+    },
+    "url_source": {
+     "avant": "https://startrekarchive.com/episodes/et-in-arcadia-ego-part-ii",
+     "apres": "https://www.startrek.com/en-un/news/recap-star-trek-picard-306-the-bounty"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le récapitulatif officiel de « The Bounty » (S3) mentionne la levée de l'interdiction des synthétiques par Starfleet ; l'article startrek.com sur les ex-Borgs indique que Picard a contribué de façon décisive à cette levée. Réserve : Les pages ne relient pas explicitement la levée à la crise de Coppelius. Source B précédente : https://startrekarchive.com/episodes/et-in-arcadia-ego-part-ii"
+  },
+  {
+   "id": "STP-211",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
+     "apres": "https://www.startrek.com/en-un/news/how-lower-decks-captain-freeman-rose-to-the-occasion-in-season-two"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article officiel décrit, dans « First First Contact », la promotion proposée à Freeman, qui l'obligerait à quitter son équipage, son refus, puis son arrestation par la Sécurité de Starfleet (commandant Mandel), accusée d'un attentat sur la planète Pakled. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2"
+  },
+  {
+   "id": "STP-214",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4",
+     "apres": "https://www.startrek.com/en-un/news/below-deck-lower-decks-406-slug-fest"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article officiel indique que le Grand Nagus Rom demande l'adhésion de Ferenginar à la Fédération et que le Cerritos s'y rend pour que Freeman assiste l'amiral Vassery dans les négociations. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4"
+  },
+  {
+   "id": "STP-215",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_3",
+     "apres": "https://www.startrek.com/en-un/news/below-deck-lower-decks-race-against-the-machine"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article officiel décrit l'amiral Buenamigo défendant la flotte automatisée de classe Texas (USS Aledo) pour les missions de second contact, puis le défi de Freeman qui oppose le Cerritos à l'Aledo. Réserve : Le nom « Project Swing By » n'apparaît pas dans la page lue. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_3"
+  },
+  {
+   "id": "STP-216",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Compte rendu indépendant détaillé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://reactormag.com/the-last-duty-star-trek-lower-decks-old-friends-new-planets/",
+     "apres": "https://www.startrek.com/en-un/news/below-deck-lower-decks-410-genesis-device"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article « Below Deck with Lower Decks » sur « Old Friends, New Planets » (Dayton Ward) décrit Nick Locarno derrière les attaques de vaisseaux à travers le quadrant, qu'il s'approprie pour bâtir une flotte indépendante, dans un système stellaire dont il s'est emparé et qu'il protège d'un bouclier. Source B précédente : https://reactormag.com/the-last-duty-star-trek-lower-decks-old-friends-new-planets/"
+  },
+  {
+   "id": "STP-217",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_5",
+     "apres": "https://www.startrek.com/en-un/news/warp-five-lowers-decks-series-finale-cerritos-future"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'entretien officiel sur le final de la série confirme que la faille reste ouverte comme portail vers d'autres réalités quantiques, et que Starfleet confie à la Starbase 80 la supervision des missions dans la faille ; l'article officiel de la bande-annonce de la saison 5 précise que le Cerritos doit refermer des failles subspatiales. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_5"
+  },
+  {
+   "id": "STP-218",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_5",
+     "apres": "https://www.startrek.com/en-un/news/below-deck-with-lower-decks-501-idol-fancies"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article sur « Dos Cerritos » confirme que Tendi quitte Starfleet pour commander un vaisseau pirate orion, en exécution de l'accord passé avec sa sœur D'Erika ; l'article sur l'épisode 502 (« Shades of Green ») décrit la guerre entre maisons orionnes Tendi et Azure qu'elle a involontairement déclenchée. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_5"
+  },
+  {
+   "id": "STP-270",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Compte rendu indépendant détaillé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://reactormag.com/the-last-duty-star-trek-lower-decks-old-friends-new-planets/",
+     "apres": "https://www.startrek.com/en-un/news/below-deck-lower-decks-410-genesis-device"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Même article : Locarno réunit les vaisseaux attaqués en une flotte indépendante hors de Starfleet ; la page vidéo officielle « Lower Decks - Nick Locarno » ajoute qu'il lance un appel sur tous les canaux à ceux que sa flotte indépendante intéresserait, et l'article sur l'épisode 501 parle de « Nick Locarno and his Nova Fleet » vaincus par le Cerritos. Source B précédente : https://reactormag.com/the-last-duty-star-trek-lower-decks-old-friends-new-planets/"
+  },
+  {
+   "id": "STP-224",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Editorial officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2",
+     "apres": "https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements"
+    }
+   },
+   "motif": "recoupement A (source officielle) — L'article « Resistance is Fruitful » indique que la résistance organisée de la jeune Asencia contre son double âgé déclenche un soulèvement sur Solum dans « Ouroboros, Part I », et que les Vau N'Akat évitent la guerre civile de plusieurs décennies qui aurait suivi leur premier contact avec Starfleet. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2"
+  },
+  {
+   "id": "STP-047",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Récapitulatif officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1",
+     "apres": "https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-quality-of-mercy"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le récapitulatif officiel de « A Quality of Mercy » se termine sur la capitaine Batel montant à bord de l'Enterprise avec l'ordre d'arrêter Number One pour avoir dissimulé ses modifications génétiques illyriennes. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1"
+  },
+  {
+   "id": "STP-240",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Récapitulatif officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1",
+     "apres": "https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-quality-of-mercy"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le récapitulatif officiel indique que, dans l'avenir alternatif, la confiance de Pike dans la clémence et la diplomatie est perçue comme une faiblesse par les Romulans, qui déclarent la guerre à la Fédération, conflit qui transforme profondément l'avenir ; le classement officiel des moments de la saison 1 parle de « la guerre de plusieurs décennies avec les Romulans ». Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1"
+  },
+  {
+   "id": "STP-230",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Compte rendu indépendant détaillé",
+     "apres": "Synopsis officiel"
+    },
+    "url_source": {
+     "avant": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/",
+     "apres": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le synopsis officiel Paramount+ de l'épisode 1×04 « Vox in Excelso » : Jay-Den fait face à une crise existentielle qui menace son espèce (les Klingons) tout en affrontant son passé. Source B précédente : https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/"
+  },
+  {
+   "id": "STP-232",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "B",
+     "apres": "A"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Synopsis officiel"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Rubincon",
+     "apres": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/"
+    }
+   },
+   "motif": "recoupement A (source officielle) — Le synopsis officiel Paramount+ de « Rubincon » : le retour d'un vieil ennemi oblige Nahla à affronter ses erreurs dans une mission pour sauver la Fédération ; la page officielle Paramount+ « Season 2 – Everything to Know » nomme cet ennemi : les cadets déjouent le plan de Nus Braka visant à piller la Fédération. Source B précédente : https://en.wikipedia.org/wiki/Rubincon"
+  }
+ ]
+}

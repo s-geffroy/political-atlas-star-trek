@@ -1,0 +1,65 @@
+# Configuration Jekyll, lue par le constructeur de GitHub Pages a chaque push.
+# Ce fichier n'est PAS relu a chaud : toute modification demande un nouveau
+# push pour prendre effet.
+#
+# Le titre, la description et le nom d'auteur s'ecrivent en francais normal,
+# avec leurs accents : ils seront lus par des visiteurs. La regle « sans
+# accents » de ce depot vise les fichiers d'infrastructure, pas le contenu.
+title: political-atlas-star-trek
+description: Une ligne pour dire de quoi parle ce site.
+author: Auteur
+
+# L'adresse publique du site, sans barre oblique finale.
+#   site de projet    : https://<utilisateur>.github.io
+#   site d'utilisateur: https://<utilisateur>.github.io
+#   domaine personnel : https://www.exemple.fr
+url: "https://CHANGEME.github.io"
+
+# LE PIEGE A CONNAITRE. baseurl est le chemin sous lequel le site est servi :
+#
+#   depot 'monsite'                 -> baseurl: "/monsite"
+#   depot '<utilisateur>.github.io' -> baseurl: ""
+#   des qu'un domaine personnalise est en place -> baseurl: ""
+#
+# Se tromper ne casse pas la construction : le site sort avec toutes ses URLs
+# doublement prefixees (/monsite/monsite/...), images et feuilles de style
+# comprises. La page s'affiche nue et l'erreur n'apparait nulle part dans les
+# journaux.
+baseurl: "/political-atlas-star-trek"
+
+theme: minima
+
+# Greffons. Le constructeur de GitHub Pages tourne en SAFE MODE : il ne charge
+# que les greffons de sa liste blanche, quoi qu'on ecrive ici, et ignore
+# purement et simplement tout fichier depose dans _plugins/. La liste a jour
+# est publiee sur https://pages.github.com/versions.json -- va la lire plutot
+# que de te fier a une recette trouvee ailleurs.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# CE QUI NE DOIT PAS ETRE PUBLIE. Sans cette liste, Jekyll copie tout ce qu'il
+# trouve a la racine dans le site final : CLAUDE.md, app.yaml et compose.yaml
+# seraient servis en ligne, lisibles par n'importe qui.
+exclude:
+  - CLAUDE.md
+  - README.md
+  - app.yaml
+  - compose.yaml
+  - specs/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+
+# Domaine personnalise : ce n'est PAS un reglage de ce fichier. C'est un fichier
+# CNAME a la racine du depot, plus des enregistrements chez le registrar :
+#
+#   apex (exemple.fr)     : quatre enregistrements A vers
+#                           185.199.108.153, 185.199.109.153,
+#                           185.199.110.153, 185.199.111.153
+#   sous-domaine (www)    : un CNAME vers <utilisateur>.github.io
+#
+# Le plus simple est de saisir le domaine dans Settings > Pages : GitHub cree
+# lui-meme le commit du fichier CNAME. Poser ce fichier AVANT que le DNS
+# resolve fait servir une erreur a la place du site.

@@ -1,0 +1,17 @@
+# Aucun conteneur : le site est construit et heberge par GitHub Pages.
+#
+# Ce fichier existe quand meme parce qu'appctl exige un compose.yaml pour toute
+# application. Docker Compose, lui, repond « no service selected » ET sort en 1
+# sur un fichier sans service : c'est appctl qui reconnait le cas, le dit, et
+# sort en 0 -- sans quoi `workon new` echouerait au premier demarrage.
+#
+# Ne mets rien ici pour « construire le site en local ». Le constructeur de
+# GitHub Pages est un Jekyll 3.10 en safe mode, avec une liste blanche de
+# greffons : un build local avec une autre version, ou avec des greffons libres,
+# donnerait un resultat different de ce qui sera publie. On aurait deux verites
+# au lieu d'une.
+#
+# Si un jour ce projet a besoin d'un outil qui tourne (un optimiseur d'images,
+# un convertisseur), c'est ici qu'il se declare, avec son exposition dans
+# app.yaml.
+services: {}

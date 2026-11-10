@@ -1,0 +1,19 @@
+.env
+*.log
+
+# Sortie du constructeur Jekyll. GitHub la refabrique a chaque push : elle n'a
+# rien a faire dans Git, et commitee elle finirait par diverger du contenu.
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Chaine Ruby, au cas ou quelqu'un construirait le site sur sa machine. Le site
+# publie, lui, ne s'appuie pas dessus : GitHub Pages impose ses versions.
+.bundle/
+vendor/
+Gemfile.lock
+
+# Marqueur local du VPS, lu par scripts/infra-reconcile.sh : il dit que cette
+# application redemarre au boot de CETTE machine. Rien a faire dans un depot.
+.autostart

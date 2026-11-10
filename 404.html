@@ -1,0 +1,21 @@
+---
+layout: default
+title: Page introuvable
+permalink: /404.html
+---
+
+<h1>Page introuvable</h1>
+
+<p>Cette adresse ne correspond a aucune page de ce site.</p>
+
+<p><a href="{{ '/' | relative_url }}">Revenir a l'accueil</a></p>
+
+<!--
+  GitHub Pages sert automatiquement ce fichier sur toute adresse inconnue, a
+  condition qu'il soit a la racine du site. Sans lui, le visiteur tombe sur la
+  page 404 generique de GitHub, qui ne ressemble pas au site.
+
+  'relative_url' plutot qu'un '/' en dur : il applique le baseurl de
+  _config.yml, seule facon que le lien marche aussi sur un site de projet servi
+  sous /<depot>/.
+-->

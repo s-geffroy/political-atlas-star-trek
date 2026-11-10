@@ -6,7 +6,7 @@
    "noeuds": [
     {
      "id": "STP-103",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -17,7 +17,7 @@
     },
     {
      "id": "STP-115",
-     "x": 12,
+     "x": 56,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -28,7 +28,7 @@
     },
     {
      "id": "STP-127",
-     "x": 292,
+     "x": 336,
      "y": 140,
      "w": 210,
      "h": 46,
@@ -39,7 +39,7 @@
     },
     {
      "id": "STP-161",
-     "x": 12,
+     "x": 56,
      "y": 140,
      "w": 210,
      "h": 46,
@@ -50,7 +50,7 @@
     },
     {
      "id": "STP-137",
-     "x": 12,
+     "x": 56,
      "y": 204,
      "w": 210,
      "h": 46,
@@ -61,7 +61,7 @@
     },
     {
      "id": "STP-138",
-     "x": 12,
+     "x": 56,
      "y": 268,
      "w": 210,
      "h": 46,
@@ -72,7 +72,7 @@
     },
     {
      "id": "STP-141",
-     "x": 12,
+     "x": 56,
      "y": 332,
      "w": 210,
      "h": 46,
@@ -83,7 +83,7 @@
     },
     {
      "id": "STP-140",
-     "x": 292,
+     "x": 336,
      "y": 204,
      "w": 210,
      "h": 46,
@@ -94,7 +94,7 @@
     },
     {
      "id": "STP-143",
-     "x": 292,
+     "x": 336,
      "y": 268,
      "w": 210,
      "h": 46,
@@ -105,7 +105,7 @@
     },
     {
      "id": "STP-144",
-     "x": 12,
+     "x": 56,
      "y": 396,
      "w": 210,
      "h": 46,
@@ -116,7 +116,7 @@
     },
     {
      "id": "STP-146",
-     "x": 572,
+     "x": 616,
      "y": 204,
      "w": 210,
      "h": 46,
@@ -127,7 +127,7 @@
     },
     {
      "id": "STP-147",
-     "x": 12,
+     "x": 56,
      "y": 460,
      "w": 210,
      "h": 46,
@@ -138,7 +138,7 @@
     },
     {
      "id": "STP-148",
-     "x": 572,
+     "x": 616,
      "y": 268,
      "w": 210,
      "h": 46,
@@ -149,7 +149,7 @@
     },
     {
      "id": "STP-150",
-     "x": 292,
+     "x": 336,
      "y": 332,
      "w": 210,
      "h": 46,
@@ -164,109 +164,109 @@
      "de": "STP-103",
      "vers": "STP-127",
      "type": "cause",
-     "d": "M222,35 C257,35 257,163 288,163",
+     "d": "M266,35 C301,35 301,163 332,163",
      "url": "https://memory-alpha.fandom.com/wiki/Maquis"
     },
     {
      "de": "STP-137",
      "vers": "STP-143",
      "type": "cause",
-     "d": "M222,227 C257,227 257,291 288,291",
+     "d": "M266,227 C301,227 301,291 332,291",
      "url": "https://memory-alpha.fandom.com/wiki/Dominion_War"
     },
     {
      "de": "STP-143",
      "vers": "STP-146",
      "type": "cause",
-     "d": "M502,291 C537,291 537,227 568,227",
+     "d": "M546,291 C581,291 581,227 612,227",
      "url": "https://memory-alpha.fandom.com/wiki/Dominion_War"
     },
     {
      "de": "STP-138",
      "vers": "STP-140",
      "type": "suite",
-     "d": "M222,291 C257,291 257,227 288,227",
+     "d": "M266,291 C301,291 301,227 332,227",
      "url": "https://memory-alpha.fandom.com/wiki/Apocalypse_Rising_(episode)"
     },
     {
      "de": "STP-147",
      "vers": "STP-148",
      "type": "suite",
-     "d": "M222,483 C397,483 397,291 568,291",
+     "d": "M266,483 C441,483 441,291 612,291",
      "url": "https://en.wikipedia.org/wiki/Sacrifice_of_Angels"
     },
     {
      "de": "STP-147",
      "vers": "STP-150",
      "type": "suite",
-     "d": "M222,483 C257,483 257,355 288,355",
+     "d": "M266,483 C301,483 301,355 332,355",
      "url": "https://en.wikipedia.org/wiki/Sacrifice_of_Angels"
     },
     {
      "de": "STP-150",
      "vers": "STP-148",
      "type": "suite",
-     "d": "M502,355 C537,355 537,291 568,291",
+     "d": "M546,355 C581,355 581,291 612,291",
      "url": "https://en.wikipedia.org/wiki/Sacrifice_of_Angels"
     },
     {
      "de": "STP-127",
      "vers": "STP-141",
      "type": "meme_arc",
-     "d": "M292,163 C257,163 257,355 226,355",
+     "d": "M336,163 C301,163 301,355 270,355",
      "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)"
     },
     {
      "de": "STP-127",
      "vers": "STP-161",
      "type": "meme_arc",
-     "d": "M292,163 C257,163 257,163 226,163",
+     "d": "M336,163 C301,163 301,163 270,163",
      "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)"
     },
     {
      "de": "STP-127",
      "vers": "STP-115",
      "type": "meme_arc",
-     "d": "M292,163 C257,163 257,99 226,99",
+     "d": "M336,163 C301,163 301,99 270,99",
      "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)"
     },
     {
      "de": "STP-141",
      "vers": "STP-144",
      "type": "meme_arc",
-     "d": "M222,355 C267,355 267,419 222,419",
+     "d": "M56,355 C27.333333333333336,355 27.333333333333336,419 56,419",
      "url": "https://memory-alpha.fandom.com/wiki/Maquis"
     },
     {
      "de": "STP-103",
      "vers": "STP-115",
      "type": "meme_arc",
-     "d": "M222,35 C267,35 267,99 222,99",
+     "d": "M56,35 C27.333333333333336,35 27.333333333333336,99 56,99",
      "url": "https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)"
     },
     {
      "de": "STP-137",
      "vers": "STP-138",
      "type": "episode_commun",
-     "d": "M222,227 C267,227 267,291 222,291",
+     "d": "M56,227 C27.333333333333336,227 27.333333333333336,291 56,291",
      "url": null
     },
     {
      "de": "STP-143",
      "vers": "STP-144",
      "type": "episode_commun",
-     "d": "M292,291 C257,291 257,419 226,419",
+     "d": "M336,291 C301,291 301,419 270,419",
      "url": null
     },
     {
      "de": "STP-146",
      "vers": "STP-147",
      "type": "episode_commun",
-     "d": "M572,227 C397,227 397,483 226,483",
+     "d": "M616,227 C441,227 441,483 270,483",
      "url": null
     }
    ],
-   "largeur": 844,
+   "largeur": 838,
    "hauteur": 518,
    "numero": 1
   },
@@ -276,7 +276,7 @@
    "noeuds": [
     {
      "id": "STP-105",
-     "x": 12,
+     "x": 56,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -287,7 +287,7 @@
     },
     {
      "id": "STP-178",
-     "x": 12,
+     "x": 56,
      "y": 108,
      "w": 210,
      "h": 46,
@@ -298,7 +298,7 @@
     },
     {
      "id": "STP-180",
-     "x": 12,
+     "x": 56,
      "y": 172,
      "w": 210,
      "h": 46,
@@ -309,7 +309,7 @@
     },
     {
      "id": "STP-182",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -320,7 +320,7 @@
     },
     {
      "id": "STP-187",
-     "x": 572,
+     "x": 616,
      "y": 108,
      "w": 210,
      "h": 46,
@@ -331,7 +331,7 @@
     },
     {
      "id": "STP-292",
-     "x": 292,
+     "x": 336,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -342,7 +342,7 @@
     },
     {
      "id": "STP-294",
-     "x": 292,
+     "x": 336,
      "y": 140,
      "w": 210,
      "h": 46,
@@ -353,7 +353,7 @@
     },
     {
      "id": "STP-179",
-     "x": 292,
+     "x": 336,
      "y": 204,
      "w": 210,
      "h": 46,
@@ -368,60 +368,60 @@
      "de": "STP-105",
      "vers": "STP-182",
      "type": "suite",
-     "d": "M222,67 C257,67 257,35 288,35",
+     "d": "M266,67 C301,67 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Unification_III"
     },
     {
      "de": "STP-178",
      "vers": "STP-179",
      "type": "cause",
-     "d": "M222,131 C257,131 257,227 288,227",
+     "d": "M266,131 C301,131 301,227 332,227",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3"
     },
     {
      "de": "STP-180",
      "vers": "STP-187",
      "type": "suite",
-     "d": "M222,195 C397,195 397,131 568,131",
+     "d": "M266,195 C441,195 441,131 612,131",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4"
     },
     {
      "de": "STP-182",
      "vers": "STP-187",
      "type": "suite",
-     "d": "M502,35 C537,35 537,131 568,131",
+     "d": "M546,35 C581,35 581,131 612,131",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4"
     },
     {
      "de": "STP-178",
      "vers": "STP-292",
      "type": "cause",
-     "d": "M222,131 C257,131 257,99 288,99",
+     "d": "M266,131 C301,131 301,99 332,99",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy"
     },
     {
      "de": "STP-178",
      "vers": "STP-294",
      "type": "cause",
-     "d": "M222,131 C257,131 257,163 288,163",
+     "d": "M266,131 C301,131 301,163 332,163",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy"
     },
     {
      "de": "STP-179",
      "vers": "STP-180",
      "type": "episode_commun",
-     "d": "M292,227 C257,227 257,195 226,195",
+     "d": "M336,227 C301,227 301,195 270,195",
      "url": null
     },
     {
      "de": "STP-179",
      "vers": "STP-182",
      "type": "episode_commun",
-     "d": "M502,227 C547,227 547,35 502,35",
+     "d": "M336,227 C288,227 288,35 336,35",
      "url": null
     }
    ],
-   "largeur": 844,
+   "largeur": 838,
    "hauteur": 262,
    "numero": 2
   },
@@ -431,7 +431,7 @@
    "noeuds": [
     {
      "id": "STP-039",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -442,7 +442,7 @@
     },
     {
      "id": "STP-041",
-     "x": 292,
+     "x": 336,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -453,7 +453,7 @@
     },
     {
      "id": "STP-047",
-     "x": 292,
+     "x": 336,
      "y": 108,
      "w": 210,
      "h": 46,
@@ -464,7 +464,7 @@
     },
     {
      "id": "STP-048",
-     "x": 572,
+     "x": 616,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -475,7 +475,7 @@
     },
     {
      "id": "STP-050",
-     "x": 12,
+     "x": 56,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -486,7 +486,7 @@
     },
     {
      "id": "STP-052",
-     "x": 12,
+     "x": 56,
      "y": 140,
      "w": 210,
      "h": 46,
@@ -501,46 +501,46 @@
      "de": "STP-039",
      "vers": "STP-041",
      "type": "cause",
-     "d": "M222,35 C257,35 257,67 288,67",
+     "d": "M266,35 C301,35 301,67 332,67",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1"
     },
     {
      "de": "STP-050",
      "vers": "STP-047",
      "type": "cause",
-     "d": "M222,99 C257,99 257,131 288,131",
+     "d": "M266,99 C301,99 301,131 332,131",
      "url": "https://en.wikipedia.org/wiki/A_Quality_of_Mercy_(Star_Trek:_Strange_New_Worlds)"
     },
     {
      "de": "STP-047",
      "vers": "STP-048",
      "type": "suite",
-     "d": "M502,131 C537,131 537,99 568,99",
+     "d": "M546,131 C581,131 581,99 612,99",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2"
     },
     {
      "de": "STP-041",
      "vers": "STP-052",
      "type": "meme_arc",
-     "d": "M292,67 C257,67 257,163 226,163",
+     "d": "M336,67 C301,67 301,163 270,163",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2"
     },
     {
      "de": "STP-047",
      "vers": "STP-052",
      "type": "episode_commun",
-     "d": "M292,131 C257,131 257,163 226,163",
+     "d": "M336,131 C301,131 301,163 270,163",
      "url": null
     },
     {
      "de": "STP-048",
      "vers": "STP-050",
      "type": "episode_commun",
-     "d": "M572,99 C397,99 397,99 226,99",
+     "d": "M616,99 C441,99 441,99 270,99",
      "url": null
     }
    ],
-   "largeur": 844,
+   "largeur": 838,
    "hauteur": 198,
    "numero": 3
   },
@@ -550,7 +550,7 @@
    "noeuds": [
     {
      "id": "STP-018",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -561,7 +561,7 @@
     },
     {
      "id": "STP-024",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -572,7 +572,7 @@
     },
     {
      "id": "STP-026",
-     "x": 292,
+     "x": 336,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -583,7 +583,7 @@
     },
     {
      "id": "STP-027",
-     "x": 572,
+     "x": 616,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -594,7 +594,7 @@
     },
     {
      "id": "STP-028",
-     "x": 12,
+     "x": 56,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -609,32 +609,32 @@
      "de": "STP-028",
      "vers": "STP-026",
      "type": "cause",
-     "d": "M222,99 C257,99 257,99 288,99",
+     "d": "M266,99 C301,99 301,99 332,99",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise"
     },
     {
      "de": "STP-026",
      "vers": "STP-027",
      "type": "cause",
-     "d": "M502,99 C537,99 537,67 568,67",
+     "d": "M546,99 C581,99 581,67 612,67",
      "url": "https://en.wikipedia.org/wiki/The_Expanse_(Star_Trek:_Enterprise_episode)"
     },
     {
      "de": "STP-018",
      "vers": "STP-026",
      "type": "meme_arc",
-     "d": "M222,35 C257,35 257,99 288,99",
+     "d": "M266,35 C301,35 301,99 332,99",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise"
     },
     {
      "de": "STP-018",
      "vers": "STP-024",
      "type": "cause",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Detained_(Star_Trek:_Enterprise)"
     }
    ],
-   "largeur": 844,
+   "largeur": 838,
    "hauteur": 134,
    "numero": 4
   },
@@ -644,7 +644,7 @@
    "noeuds": [
     {
      "id": "STP-153",
-     "x": 12,
+     "x": 56,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -655,7 +655,7 @@
     },
     {
      "id": "STP-156",
-     "x": 12,
+     "x": 56,
      "y": 108,
      "w": 210,
      "h": 46,
@@ -666,7 +666,7 @@
     },
     {
      "id": "STP-157",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -677,7 +677,7 @@
     },
     {
      "id": "STP-158",
-     "x": 292,
+     "x": 336,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -688,7 +688,7 @@
     },
     {
      "id": "STP-305",
-     "x": 292,
+     "x": 336,
      "y": 140,
      "w": 210,
      "h": 46,
@@ -703,32 +703,32 @@
      "de": "STP-153",
      "vers": "STP-158",
      "type": "cause",
-     "d": "M222,67 C257,67 257,99 288,99",
+     "d": "M266,67 C301,67 301,99 332,99",
      "url": "https://memory-alpha.fandom.com/wiki/Morphogenic_virus"
     },
     {
      "de": "STP-156",
      "vers": "STP-157",
      "type": "cause",
-     "d": "M222,131 C257,131 257,35 288,35",
+     "d": "M266,131 C301,131 301,35 332,35",
      "url": "https://memory-alpha.fandom.com/wiki/Dominion_War"
     },
     {
      "de": "STP-153",
      "vers": "STP-305",
      "type": "suite",
-     "d": "M222,67 C257,67 257,163 288,163",
+     "d": "M266,67 C301,67 301,163 332,163",
      "url": "https://memory-alpha.fandom.com/wiki/Inter_Arma_Enim_Silent_Leges_(episode)"
     },
     {
      "de": "STP-157",
      "vers": "STP-158",
      "type": "episode_commun",
-     "d": "M502,35 C547,35 547,99 502,99",
+     "d": "M336,35 C307.3333333333333,35 307.3333333333333,99 336,99",
      "url": null
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 198,
    "numero": 5
   },
@@ -738,7 +738,7 @@
    "noeuds": [
     {
      "id": "STP-196",
-     "x": 292,
+     "x": 336,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -749,7 +749,7 @@
     },
     {
      "id": "STP-197",
-     "x": 572,
+     "x": 616,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -760,7 +760,7 @@
     },
     {
      "id": "STP-265",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -771,7 +771,7 @@
     },
     {
      "id": "STP-200",
-     "x": 12,
+     "x": 56,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -782,7 +782,7 @@
     },
     {
      "id": "STP-202",
-     "x": 852,
+     "x": 896,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -797,32 +797,32 @@
      "de": "STP-265",
      "vers": "STP-196",
      "type": "meme_arc",
-     "d": "M222,35 C257,35 257,67 288,67",
+     "d": "M266,35 C301,35 301,67 332,67",
      "url": "https://en.wikipedia.org/wiki/Children_of_Mars_(Star_Trek:_Short_Treks)"
     },
     {
      "de": "STP-200",
      "vers": "STP-196",
      "type": "cause",
-     "d": "M222,99 C257,99 257,67 288,67",
+     "d": "M266,99 C301,99 301,67 332,67",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1"
     },
     {
      "de": "STP-196",
      "vers": "STP-197",
      "type": "cause",
-     "d": "M502,67 C537,67 537,67 568,67",
+     "d": "M546,67 C581,67 581,67 612,67",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1"
     },
     {
      "de": "STP-197",
      "vers": "STP-202",
      "type": "suite",
-     "d": "M782,67 C817,67 817,67 848,67",
+     "d": "M826,67 C861,67 861,67 892,67",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1"
     }
    ],
-   "largeur": 1124,
+   "largeur": 1118,
    "hauteur": 134,
    "numero": 6
   },
@@ -832,7 +832,7 @@
    "noeuds": [
     {
      "id": "STP-097",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -843,7 +843,7 @@
     },
     {
      "id": "STP-278",
-     "x": 12,
+     "x": 56,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -854,7 +854,7 @@
     },
     {
      "id": "STP-100",
-     "x": 292,
+     "x": 336,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -865,7 +865,7 @@
     },
     {
      "id": "STP-102",
-     "x": 572,
+     "x": 616,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -880,25 +880,25 @@
      "de": "STP-097",
      "vers": "STP-100",
      "type": "suite",
-     "d": "M222,35 C257,35 257,67 288,67",
+     "d": "M266,35 C301,35 301,67 332,67",
      "url": "https://memory-alpha.fandom.com/wiki/Reunion_(episode)"
     },
     {
      "de": "STP-100",
      "vers": "STP-102",
      "type": "suite",
-     "d": "M502,67 C537,67 537,67 568,67",
+     "d": "M546,67 C581,67 581,67 612,67",
      "url": "https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)"
     },
     {
      "de": "STP-278",
      "vers": "STP-102",
      "type": "suite",
-     "d": "M222,99 C397,99 397,67 568,67",
+     "d": "M266,99 C441,99 441,67 612,67",
      "url": "https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)"
     }
    ],
-   "largeur": 844,
+   "largeur": 838,
    "hauteur": 134,
    "numero": 7
   },
@@ -908,7 +908,7 @@
    "noeuds": [
     {
      "id": "STP-221",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -919,7 +919,7 @@
     },
     {
      "id": "STP-224",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -930,7 +930,7 @@
     },
     {
      "id": "STP-225",
-     "x": 12,
+     "x": 56,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -941,7 +941,7 @@
     },
     {
      "id": "STP-226",
-     "x": 292,
+     "x": 336,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -956,25 +956,25 @@
      "de": "STP-221",
      "vers": "STP-224",
      "type": "suite",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1"
     },
     {
      "de": "STP-225",
      "vers": "STP-226",
      "type": "suite",
-     "d": "M222,99 C257,99 257,99 288,99",
+     "d": "M266,99 C301,99 301,99 332,99",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2"
     },
     {
      "de": "STP-224",
      "vers": "STP-226",
      "type": "episode_commun",
-     "d": "M502,35 C547,35 547,99 502,99",
+     "d": "M336,35 C307.3333333333333,35 307.3333333333333,99 336,99",
      "url": null
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 134,
    "numero": 8
   },
@@ -984,7 +984,7 @@
    "noeuds": [
     {
      "id": "STP-030",
-     "x": 12,
+     "x": 56,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -995,7 +995,7 @@
     },
     {
      "id": "STP-031",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1006,7 +1006,7 @@
     },
     {
      "id": "STP-032",
-     "x": 292,
+     "x": 336,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -1021,25 +1021,25 @@
      "de": "STP-030",
      "vers": "STP-031",
      "type": "suite",
-     "d": "M222,67 C257,67 257,35 288,35",
+     "d": "M266,67 C301,67 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Kir%27Shara"
     },
     {
      "de": "STP-030",
      "vers": "STP-032",
      "type": "suite",
-     "d": "M222,67 C257,67 257,99 288,99",
+     "d": "M266,67 C301,67 301,99 332,99",
      "url": "https://en.wikipedia.org/wiki/Kir%27Shara"
     },
     {
      "de": "STP-031",
      "vers": "STP-032",
      "type": "episode_commun",
-     "d": "M502,35 C547,35 547,99 502,99",
+     "d": "M336,35 C307.3333333333333,35 307.3333333333333,99 336,99",
      "url": null
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 134,
    "numero": 9
   },
@@ -1049,7 +1049,7 @@
    "noeuds": [
     {
      "id": "STP-098",
-     "x": 12,
+     "x": 56,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -1060,7 +1060,7 @@
     },
     {
      "id": "STP-081",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1071,7 +1071,7 @@
     },
     {
      "id": "STP-207",
-     "x": 292,
+     "x": 336,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -1086,18 +1086,18 @@
      "de": "STP-098",
      "vers": "STP-081",
      "type": "suite",
-     "d": "M222,67 C257,67 257,35 288,35",
+     "d": "M266,67 C301,67 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_First_Contact"
     },
     {
      "de": "STP-098",
      "vers": "STP-207",
      "type": "cause",
-     "d": "M222,67 C257,67 257,99 288,99",
+     "d": "M266,67 C301,67 301,99 332,99",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3"
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 134,
    "numero": 10
   },
@@ -1107,7 +1107,7 @@
    "noeuds": [
     {
      "id": "STP-162",
-     "x": 12,
+     "x": 56,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -1118,7 +1118,7 @@
     },
     {
      "id": "STP-163",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1129,7 +1129,7 @@
     },
     {
      "id": "STP-284",
-     "x": 292,
+     "x": 336,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -1144,25 +1144,25 @@
      "de": "STP-162",
      "vers": "STP-284",
      "type": "suite",
-     "d": "M222,67 C257,67 257,99 288,99",
+     "d": "M266,67 C301,67 301,99 332,99",
      "url": "https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)"
     },
     {
      "de": "STP-162",
      "vers": "STP-163",
      "type": "suite",
-     "d": "M222,67 C257,67 257,35 288,35",
+     "d": "M266,67 C301,67 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)"
     },
     {
      "de": "STP-284",
      "vers": "STP-163",
      "type": "meme_arc",
-     "d": "M502,99 C547,99 547,35 502,35",
+     "d": "M336,99 C307.3333333333333,99 307.3333333333333,35 336,35",
      "url": "https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)"
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 134,
    "numero": 11
   },
@@ -1172,7 +1172,7 @@
    "noeuds": [
     {
      "id": "STP-184",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1183,7 +1183,7 @@
     },
     {
      "id": "STP-185",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1194,7 +1194,7 @@
     },
     {
      "id": "STP-186",
-     "x": 572,
+     "x": 616,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1209,18 +1209,18 @@
      "de": "STP-184",
      "vers": "STP-185",
      "type": "suite",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3"
     },
     {
      "de": "STP-185",
      "vers": "STP-186",
      "type": "suite",
-     "d": "M502,35 C537,35 537,35 568,35",
+     "d": "M546,35 C581,35 581,35 612,35",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3"
     }
    ],
-   "largeur": 844,
+   "largeur": 838,
    "hauteur": 70,
    "numero": 12
   },
@@ -1230,7 +1230,7 @@
    "noeuds": [
     {
      "id": "STP-188",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1241,7 +1241,7 @@
     },
     {
      "id": "STP-189",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1252,7 +1252,7 @@
     },
     {
      "id": "STP-190",
-     "x": 572,
+     "x": 616,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1267,18 +1267,18 @@
      "de": "STP-188",
      "vers": "STP-189",
      "type": "cause",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4"
     },
     {
      "de": "STP-189",
      "vers": "STP-190",
      "type": "suite",
-     "d": "M502,35 C537,35 537,35 568,35",
+     "d": "M546,35 C581,35 581,35 612,35",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4"
     }
    ],
-   "largeur": 844,
+   "largeur": 838,
    "hauteur": 70,
    "numero": 13
   },
@@ -1288,7 +1288,7 @@
    "noeuds": [
     {
      "id": "STP-234",
-     "x": 12,
+     "x": 56,
      "y": 44,
      "w": 210,
      "h": 46,
@@ -1299,7 +1299,7 @@
     },
     {
      "id": "STP-235",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1310,7 +1310,7 @@
     },
     {
      "id": "STP-236",
-     "x": 292,
+     "x": 336,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -1325,25 +1325,25 @@
      "de": "STP-234",
      "vers": "STP-235",
      "type": "cause",
-     "d": "M222,67 C257,67 257,35 288,35",
+     "d": "M266,67 C301,67 301,35 332,35",
      "url": "https://memory-alpha.fandom.com/wiki/Crossover_(episode)"
     },
     {
      "de": "STP-234",
      "vers": "STP-236",
      "type": "cause",
-     "d": "M222,67 C257,67 257,99 288,99",
+     "d": "M266,67 C301,67 301,99 332,99",
      "url": "https://en.wikipedia.org/wiki/Crossover_(Star_Trek:_Deep_Space_Nine)"
     },
     {
      "de": "STP-235",
      "vers": "STP-236",
      "type": "episode_commun",
-     "d": "M502,35 C547,35 547,99 502,99",
+     "d": "M336,35 C307.3333333333333,35 307.3333333333333,99 336,99",
      "url": null
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 134,
    "numero": 14
   },
@@ -1353,7 +1353,7 @@
    "noeuds": [
     {
      "id": "STP-005",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1364,7 +1364,7 @@
     },
     {
      "id": "STP-074",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1379,11 +1379,11 @@
      "de": "STP-005",
      "vers": "STP-074",
      "type": "suite",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Space_Seed"
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 70,
    "numero": 15
   },
@@ -1393,7 +1393,7 @@
    "noeuds": [
     {
      "id": "STP-019",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1404,7 +1404,7 @@
     },
     {
      "id": "STP-243",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1419,11 +1419,11 @@
      "de": "STP-019",
      "vers": "STP-243",
      "type": "cause",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Stigma_(Star_Trek:_Enterprise)"
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 70,
    "numero": 16
   },
@@ -1433,7 +1433,7 @@
    "noeuds": [
     {
      "id": "STP-021",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1444,7 +1444,7 @@
     },
     {
      "id": "STP-023",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1459,11 +1459,11 @@
      "de": "STP-021",
      "vers": "STP-023",
      "type": "suite",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Cease_Fire_(Star_Trek:_Enterprise)"
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 70,
    "numero": 17
   },
@@ -1473,7 +1473,7 @@
    "noeuds": [
     {
      "id": "STP-044",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1484,7 +1484,7 @@
     },
     {
      "id": "STP-045",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1499,11 +1499,11 @@
      "de": "STP-044",
      "vers": "STP-045",
      "type": "cause",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2"
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 70,
    "numero": 18
   },
@@ -1513,7 +1513,7 @@
    "noeuds": [
     {
      "id": "STP-133",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1524,7 +1524,7 @@
     },
     {
      "id": "STP-258",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1539,11 +1539,11 @@
      "de": "STP-133",
      "vers": "STP-258",
      "type": "suite",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Ties_of_Blood_and_Water"
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 70,
    "numero": 19
   },
@@ -1553,7 +1553,7 @@
    "noeuds": [
     {
      "id": "STP-165",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1564,7 +1564,7 @@
     },
     {
      "id": "STP-166",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1579,11 +1579,11 @@
      "de": "STP-165",
      "vers": "STP-166",
      "type": "cause",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/The_Q_and_the_Grey"
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 70,
    "numero": 20
   },
@@ -1593,7 +1593,7 @@
    "noeuds": [
     {
      "id": "STP-169",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1604,7 +1604,7 @@
     },
     {
      "id": "STP-281",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1619,11 +1619,11 @@
      "de": "STP-169",
      "vers": "STP-281",
      "type": "suite",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Flesh_and_Blood_(Star_Trek:_Voyager)"
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 70,
    "numero": 21
   },
@@ -1633,7 +1633,7 @@
    "noeuds": [
     {
      "id": "STP-266",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1644,7 +1644,7 @@
     },
     {
      "id": "STP-286",
-     "x": 292,
+     "x": 336,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1659,11 +1659,11 @@
      "de": "STP-266",
      "vers": "STP-286",
      "type": "suite",
-     "d": "M222,35 C257,35 257,35 288,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/The_Sound_of_Thunder_(Star_Trek:_Discovery)"
     }
    ],
-   "largeur": 564,
+   "largeur": 558,
    "hauteur": 70,
    "numero": 22
   },
@@ -1673,7 +1673,7 @@
    "noeuds": [
     {
      "id": "STP-272",
-     "x": 12,
+     "x": 56,
      "y": 12,
      "w": 210,
      "h": 46,
@@ -1684,7 +1684,7 @@
     },
     {
      "id": "STP-273",
-     "x": 12,
+     "x": 56,
      "y": 76,
      "w": 210,
      "h": 46,
@@ -1699,11 +1699,11 @@
      "de": "STP-272",
      "vers": "STP-273",
      "type": "meme_arc",
-     "d": "M222,35 C267,35 267,99 222,99",
+     "d": "M56,35 C27.333333333333336,35 27.333333333333336,99 56,99",
      "url": "https://memory-alpha.fandom.com/wiki/Rapture_(episode)"
     }
    ],
-   "largeur": 284,
+   "largeur": 278,
    "hauteur": 134,
    "numero": 23
   }

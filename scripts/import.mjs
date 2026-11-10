@@ -216,7 +216,7 @@ function ecrire(p, contenu) {
 // cause/suite va de gauche a droite ; « meme arc » ne contraint pas l'ordre),
 // coordonnees SVG calculees ici pour un rendu statique sans JavaScript.
 export function reseau(r) {
-  const NW = 210, NH = 46, GX = 70, GY = 18, PAD = 12;
+  const NW = 210, NH = 46, GX = 70, GY = 18, PAD = 12, PADX = 56;
   const parId = new Map(r.evenements.map((e) => [e.id, e]));
   const relsDoc = r.relations.filter((x) => parId.has(x.de) && parId.has(x.vers));
   // Liens « episode commun » (associations deja affichees sur les fiches),
@@ -262,7 +262,7 @@ export function reseau(r) {
     const pos = new Map();
     parCouche.forEach((l, c) => l.forEach((id, j) => {
       const off = ((maxL - l.length) * (NH + GY)) / 2;
-      pos.set(id, { x: PAD + c * (NW + GX), y: PAD + off + j * (NH + GY) });
+      pos.set(id, { x: PADX + c * (NW + GX), y: PAD + off + j * (NH + GY) });
     }));
     const noeuds = ids.map((id) => {
       const e = parId.get(id); const p = pos.get(id);
@@ -271,9 +271,10 @@ export function reseau(r) {
     const chemins = aretes.map((x) => {
       const a = pos.get(x.de), b = pos.get(x.vers);
       let d;
-      if (Math.abs(a.x - b.x) < 1) { // meme couche : arc sur la droite
-        const x0 = a.x + NW, y0 = a.y + NH / 2, y1 = b.y + NH / 2;
-        d = `M${x0},${y0} C${x0 + 45},${y0} ${x0 + 45},${y1} ${x0},${y1}`;
+      if (Math.abs(a.x - b.x) < 1) { // meme couche : arc dans la marge de gauche (hors des etiquettes)
+        const x0 = a.x, y0 = a.y + NH / 2, y1 = b.y + NH / 2;
+        const ecart = Math.min(48, 18 + Math.abs(y1 - y0) / 6);
+        d = `M${x0},${y0} C${x0 - ecart},${y0} ${x0 - ecart},${y1} ${x0},${y1}`;
       } else {
         const [g, dr] = a.x < b.x ? [a, b] : [b, a];
         const x0 = g.x + NW, y0 = g.y + NH / 2, x1 = dr.x, y1 = dr.y + NH / 2, m = (x0 + x1) / 2;
@@ -285,7 +286,7 @@ export function reseau(r) {
     for (const id of ids) cycles[parId.get(id).cycle] = (cycles[parId.get(id).cycle] || 0) + 1;
     const cycle = Object.entries(cycles).sort((a, b) => b[1] - a[1])[0][0];
     return { titre: cycle, taille: ids.length, noeuds, aretes: chemins,
-      largeur: PAD * 2 + nCouches * NW + (nCouches - 1) * GX + 50, hauteur: PAD * 2 + maxL * NH + (maxL - 1) * GY };
+      largeur: PADX + PAD + nCouches * NW + (nCouches - 1) * GX, hauteur: PAD * 2 + maxL * NH + (maxL - 1) * GY };
   }).sort((a, b) => b.taille - a.taille);
   sortie.forEach((c, i) => { c.numero = i + 1; });
   return { composantes: sortie, noeuds: sortie.reduce((s, c) => s + c.taille, 0), relations: relsDoc.length, liens_episode: communs.length };

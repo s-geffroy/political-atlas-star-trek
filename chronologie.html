@@ -53,7 +53,7 @@ scripts: [chronologie.js]
   {%- endfor %}
   {%- if D.films.size > 0 %}
   <h3>Films : dates de sortie relevées</h3>
-  <div class="defile" tabindex="0" role="region" aria-label="Tableau, défilement horizontal"><table>
+  <div class="defile" tabindex="0" role="region" aria-label="Dates de sortie des films"><table>
     <thead><tr><th scope="col">Film</th><th scope="col">Sortie (États-Unis)</th><th scope="col">Source</th></tr></thead>
     <tbody>{% for f in D.films %}<tr><td>{{ f.titre }}</td><td><time datetime="{{ f.date }}">{{ f.date }}</time></td><td><a href="{{ f.source_url }}" rel="noopener">page consultée</a></td></tr>{% endfor %}</tbody>
   </table></div>

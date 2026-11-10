@@ -45,7 +45,7 @@ description: Protocole de recherche, niveaux de vérification A/B/C, corrections
 <p>L’atlas n’ajoute aucune donnée au corpus. Quelques champs sont <strong>dérivés</strong> des champs existants, selon des règles fixes ; ils sont signalés « dérivé » sur les fiches.</p>
 <h3>Série</h3>
 <p>Lue dans le sigle placé en tête de chaque segment du champ <code>source</code> ; un segment sans sigle hérite du précédent. Aucun titre n’est rattaché à une série par connaissance extérieure. Sigles reconnus :</p>
-<div class="defile" tabindex="0" role="region" aria-label="Tableau, défilement horizontal"><table><thead><tr><th scope="col">Sigle</th><th scope="col">Série</th></tr></thead><tbody>
+<div class="defile" tabindex="0" role="region" aria-label="Sigles de séries reconnus"><table><thead><tr><th scope="col">Sigle</th><th scope="col">Série</th></tr></thead><tbody>
 {%- for s in R.series %}<tr><td><code>{{ s.code }}</code></td><td>{{ s.nom }}</td></tr>{% endfor %}
 </tbody></table></div>
 <h3>Continuité</h3>
@@ -57,7 +57,7 @@ description: Protocole de recherche, niveaux de vérification A/B/C, corrections
 </ul>
 <h3>Ordre diégétique</h3>
 <p>Pour trier, une clé est lue dans la période : année explicite, décennie, borne (« vers », « avant », « après ») ou siècle. Cette clé n’est jamais affichée comme une date ; la période reste montrée telle qu’écrite dans le corpus.</p>
-<div class="defile" tabindex="0" role="region" aria-label="Tableau, défilement horizontal"><table><thead><tr><th scope="col">Précision</th><th scope="col">Entrées</th></tr></thead><tbody>
+<div class="defile" tabindex="0" role="region" aria-label="Précision des périodes"><table><thead><tr><th scope="col">Précision</th><th scope="col">Entrées</th></tr></thead><tbody>
 {%- for p in site.data.stats.precisions %}<tr><td>{{ p.nom }}</td><td>{{ p.n }}</td></tr>{% endfor %}
 </tbody></table></div>
 <h3>Événements associés</h3>
@@ -72,7 +72,7 @@ description: Protocole de recherche, niveaux de vérification A/B/C, corrections
 
 <h2 id="qualite">Rapport de qualité documentaire</h2>
 <p>Produit par le validateur automatique à chaque import ({{ Q.genere_le }}) : <strong>{{ Q.erreurs }} erreur(s), {{ Q.avertissements }} avertissement(s)</strong>.</p>
-<div class="defile" tabindex="0" role="region" aria-label="Tableau, défilement horizontal"><table>
+<div class="defile" tabindex="0" role="region" aria-label="Contrôles du rapport de qualité"><table>
   <thead><tr><th scope="col">#</th><th scope="col">Contrôle</th><th scope="col">Statut</th><th scope="col">Détail</th></tr></thead>
   <tbody>{% for c in Q.controles %}<tr><td>{{ c.num }}</td><td>{{ c.titre }}</td><td>{{ c.statut }}</td><td>{{ c.info | escape }}{% for x in c.erreurs %}<br><strong>Erreur :</strong> {{ x | escape }}{% endfor %}{% for x in c.avertissements %}<br>Avertissement : {{ x | escape }}{% endfor %}</td></tr>{% endfor %}</tbody>
 </table></div>

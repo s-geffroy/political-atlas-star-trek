@@ -198,6 +198,35 @@ function ecrire(p, contenu) {
   fs.writeFileSync(p, contenu);
 }
 
+// Donnees des graphiques : matrices et repartitions, quantifiees en 5 classes
+// pour le codage couleur (une seule teinte ; 0 = case vide).
+export function graphiques(r) {
+  const ev = r.distincts;
+  const q = (n, max) => (n === 0 ? 0 : Math.max(1, Math.ceil((5 * n) / max)));
+  const cats = r.stats.categories.map((c) => c.cle);
+  const series = r.stats.series.map((s) => ({ code: s.cle, nom: s.nom }));
+  const matrice = (lignes, colonnes, test) => {
+    const m = lignes.map((l) => colonnes.map((c) => ev.filter((e) => e.categories.includes(l) && test(e, c)).length));
+    const max = Math.max(1, ...m.flat());
+    return { max, lignes: lignes.map((l, i) => ({ cle: l, total: m[i].reduce((a, b) => a + b, 0), cellules: m[i].map((n) => ({ n, q: q(n, max) })) })) };
+  };
+  const decennie = (e) => (e.diffusion[0]?.date ? e.diffusion[0].date.slice(0, 3) + '0' : null);
+  const decennies = [...new Set(ev.map(decennie).filter(Boolean))].sort();
+  const parSerie = matrice(cats, series.map((s) => s.code), (e, c) => e.series.includes(c));
+  const parDecennie = matrice(cats, decennies, (e, d) => decennie(e) === d);
+  const niveaux = series.map((s) => {
+    const sel = ev.filter((e) => e.series.includes(s.code));
+    return { ...s, total: sel.length, A: sel.filter((e) => e.niveau_recoupement === 'A').length, B: sel.filter((e) => e.niveau_recoupement === 'B').length, C: sel.filter((e) => e.niveau_recoupement === 'C').length };
+  });
+  const maxNiv = Math.max(...niveaux.map((n) => n.total));
+  for (const n of niveaux) for (const k of ['A', 'B', 'C']) n['pct_' + k] = +(100 * n[k] / maxNiv).toFixed(2);
+  return {
+    categories: cats, series, decennies: decennies.map((d) => `${d}s`),
+    par_serie: parSerie, par_decennie: { ...parDecennie, sans_date: ev.filter((e) => !decennie(e)).length },
+    niveaux_par_serie: niveaux, max_niveaux: maxNiv,
+  };
+}
+
 function pageEvenement(e) {
   const resume = e.politics.length > 155 ? e.politics.slice(0, 154).replace(/\s+\S*$/, '') + '…' : e.politics;
   return [
@@ -285,6 +314,26 @@ export function ecrireSorties(r) {
   const dir = path.join(ROOT, '_evenements');
   fs.mkdirSync(dir, { recursive: true });
   for (const e of r.evenements) ecrire(path.join(dir, `${e.id}.md`), pageEvenement(e));
+
+  // Graphiques comparatifs (calcules, jamais saisis), sur les evenements distincts.
+  ecrire(D('graphiques.json'), JSON.stringify(graphiques(r), null, 1) + '\n');
+
+  // Analyses fiction / histoire : une page par fiche approfondie (sauf STP-006,
+  // qui a sa page editoriale propre). Contenu = volets de la fiche + paragraphe
+  // « Lignes de force » de la periode de diffusion de la serie ; rien de redige.
+  const periodes = [...(r.editorial.lignes_de_force?.markdown || '').matchAll(/^\*\*(\d{4}–\d{4}) \(([^)]+)\)\.\*\* (.+)$/gm)]
+    .map((m) => ({ bornes: m[1], codes: m[2].split(/[\/,]\s*|\s+/).filter(Boolean), texte: m[3].trim() }));
+  ecrire(D('periodes.json'), JSON.stringify(periodes, null, 1) + '\n');
+  for (const f of r.fiches) {
+    if (f.id === 'STP-006') continue;
+    const e = r.evenements.find((x) => x.id === f.id);
+    const per = periodes.find((p) => e.series.some((s) => p.codes.includes(s)));
+    ecrire(path.join(ROOT, 'analyses', `${f.id}.md`), ['---', '# Fichier GENERE par scripts/import.mjs.', 'layout: analyse', `stp: ${f.id}`,
+      `periode_diffusion: ${per ? yamlStr(per.bornes) : 'null'}`,
+      `title: ${yamlStr(`${e.event} : fiction, contexte et limites`)}`,
+      `description: ${yamlStr(`Analyse de ${f.id} (${e.source}) : faits de la fiction, contexte de diffusion, parallèle réel et limites de l’analogie.`)}`,
+      `permalink: /analyses/${f.id}/`, 'nav: analyses', '---', ''].join('\n'));
+  }
 
   // Une page par domaine de l'atlas.
   for (const d of r.atlas.domaines) {

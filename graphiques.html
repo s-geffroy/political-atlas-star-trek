@@ -1,0 +1,44 @@
+---
+title: Graphiques comparatifs
+nav: graphiques
+permalink: /graphiques/
+description: Répartition des catégories politiques de l’atlas Star Trek par série et par décennie de diffusion, et niveaux de recoupement par série.
+---
+{%- assign G = site.data.graphiques -%}
+<p class="chapo">Trois lectures croisées des {{ site.data.stats.distincts }} événements distincts de l’atlas. Les valeurs sont calculées à partir des données à chaque mise à jour du corpus ; chaque graphique est aussi un tableau lisible tel quel.</p>
+<div class="encadre"><p><strong>Lecture.</strong> Un événement peut porter plusieurs catégories et citer plusieurs séries : il est alors compté dans chaque case concernée. Les totaux sont donc des occurrences, pas des événements.</p></div>
+
+<figure class="graphique" aria-labelledby="g1-titre">
+  <figcaption id="g1-titre"><h2>Catégories politiques par série</h2><p>Nombre d’événements de chaque catégorie, par série citée. Plus la case est intense, plus le nombre est élevé (maximum : {{ G.par_serie.max }}).</p></figcaption>
+  <div class="defile" tabindex="0" role="region" aria-label="Catégories par série">
+  <table class="carte-chaleur">
+    <thead><tr><th scope="col">Catégorie</th>{% for s in G.series %}<th scope="col" title="{{ s.nom }}">{{ s.code | replace: "Short Treks", "ST" }}</th>{% endfor %}</tr></thead>
+    <tbody>{% for l in G.par_serie.lignes %}<tr><th scope="row">{{ l.cle }}</th>{% for c in l.cellules %}<td class="q{{ c.q }}" title="{{ l.cle }} — {{ G.series[forloop.index0].nom }} : {{ c.n }}">{% if c.n > 0 %}{{ c.n }}{% else %}<span aria-label="0">·</span>{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
+  </table>
+  </div>
+</figure>
+
+<figure class="graphique" aria-labelledby="g2-titre">
+  <figcaption id="g2-titre"><h2>Catégories politiques par décennie de diffusion</h2><p>Décennie de première diffusion de l’épisode ou du film où apparaît l’événement (dates relevées hors corpus, sourcées). {{ G.par_decennie.sans_date }} événements sans date de diffusion relevée ne sont pas comptés. Maximum : {{ G.par_decennie.max }}.</p></figcaption>
+  <div class="defile" tabindex="0" role="region" aria-label="Catégories par décennie de diffusion">
+  <table class="carte-chaleur">
+    <thead><tr><th scope="col">Catégorie</th>{% for d in G.decennies %}<th scope="col">{{ d }}</th>{% endfor %}</tr></thead>
+    <tbody>{% for l in G.par_decennie.lignes %}<tr><th scope="row">{{ l.cle }}</th>{% for c in l.cellules %}<td class="q{{ c.q }}" title="{{ l.cle }} — {{ G.decennies[forloop.index0] }} : {{ c.n }}">{% if c.n > 0 %}{{ c.n }}{% else %}<span aria-label="0">·</span>{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
+  </table>
+  </div>
+  <p class="carte__meta">Une décennie de diffusion n’explique pas à elle seule le contenu politique d’un épisode : voir les <a href="{{ '/analyses/' | relative_url }}">analyses fiction / histoire</a> et leurs limites.</p>
+</figure>
+
+<figure class="graphique" aria-labelledby="g3-titre">
+  <figcaption id="g3-titre"><h2>Niveaux de recoupement par série</h2><p>Nombre d’événements de chaque série selon leur niveau de vérification.</p></figcaption>
+  <ul class="legende" aria-label="Légende">
+    <li><span class="pastille-leg niv-A" aria-hidden="true"></span>A — source officielle</li>
+    <li><span class="pastille-leg niv-B" aria-hidden="true"></span>B — source indépendante</li>
+    <li><span class="pastille-leg niv-C" aria-hidden="true"></span>C — non recoupé</li>
+  </ul>
+  <ol class="empile" aria-label="Niveaux par série">
+    {%- for n in G.niveaux_par_serie %}
+    <li title="{{ n.nom }} : A {{ n.A }}, B {{ n.B }}, C {{ n.C }}"><span class="empile__nom">{{ n.nom }}</span><span class="empile__barre" aria-hidden="true">{% if n.A > 0 %}<i class="niv-A" style="width:{{ n.pct_A }}%"></i>{% endif %}{% if n.B > 0 %}<i class="niv-B" style="width:{{ n.pct_B }}%"></i>{% endif %}{% if n.C > 0 %}<i class="niv-C" style="width:{{ n.pct_C }}%"></i>{% endif %}</span><span class="empile__val">A {{ n.A }} · B {{ n.B }}{% if n.C > 0 %} · C {{ n.C }}{% endif %}</span></li>
+    {%- endfor %}
+  </ol>
+</figure>

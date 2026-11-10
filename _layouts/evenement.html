@@ -51,7 +51,7 @@ layout: default
 
   {%- if f %}
   <h2>Fiche approfondie</h2>
-  <p class="chapo">Analyse en cinq volets reprise du document analytique V{{ site.data.editorial.meta.version }}. Recoupement : {{ f.entetes.recoupement | escape }}.</p>
+  <p class="chapo">Analyse en cinq volets reprise du document analytique V{{ site.data.editorial.meta.version }}. Recoupement : {{ f.entetes.recoupement | escape }}. <a href="{% if e.id == 'STP-006' %}{{ '/analyses/emeutes-de-bell/' | relative_url }}{% else %}{{ '/analyses/' | append: e.id | append: '/' | relative_url }}{% endif %}">Lire l’analyse fiction / histoire</a>.</p>
   <section class="volet"><h3>Faits canoniques et acteurs</h3>{{ f.volets.faits | markdownify }}</section>
   <section class="volet"><h3>Mécanisme politique</h3>{{ f.volets.mecanisme | markdownify }}</section>
   <section class="volet volet--parallele"><h3>Parallèle réel à étudier</h3>{{ f.volets.parallele | markdownify }}</section>

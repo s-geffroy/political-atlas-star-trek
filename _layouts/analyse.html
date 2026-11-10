@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{%- assign e = site.data.evenements | where: "id", page.stp | first -%}
+{%- assign f = site.data.fiches[page.stp] -%}
+{%- assign per = site.data.periodes | where: "bornes", page.periode_diffusion | first -%}
+<article>
+  <p class="fil"><a href="{{ '/analyses/' | relative_url }}">Analyses</a> › {{ e.id }}</p>
+  <h1>{{ e.event | escape }}</h1>
+  <p class="chapo">Fiction, contexte et limites. Fiche source : <a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{{ e.id }}</a> — niveau de recoupement {{ e.niveau_recoupement }} ({{ e.nature_source | escape }}). Les textes ci-dessous sont ceux du document analytique, sans réécriture ; l’atlas n’ajoute aucune analyse.</p>
+
+  <h2>1. L’événement fictif</h2>
+  <dl class="donnees">
+    <dt>Période fictive</dt><dd>{{ e.period | escape }}</dd>
+    <dt>Source audiovisuelle</dt><dd>{{ e.source | escape }}</dd>
+    <dt>Problématique</dt><dd>{{ e.politics | escape }}</dd>
+  </dl>
+  <section class="volet"><h3>Faits canoniques et acteurs</h3>{{ f.volets.faits | markdownify }}</section>
+  <section class="volet"><h3>Mécanisme politique</h3>{{ f.volets.mecanisme | markdownify }}</section>
+
+  <h2>2. Contexte de production et de diffusion</h2>
+  <section class="volet"><h3>Ce que dit la fiche</h3>{{ f.volets.contexte | markdownify }}</section>
+  {%- if e.diffusion.size > 0 %}
+  <p>Repères de diffusion relevés pour l’atlas (enrichissement hors corpus, voir la <a href="{{ '/chronologie/diffusion/' | relative_url }}">chronologie de diffusion</a>) :</p>
+  <ul>{% for d in e.diffusion %}<li>« {{ d.titre | escape }} » : <time datetime="{{ d.date }}">{{ d.date }}</time> (<a href="{{ d.source_url }}" rel="noopener">source</a>)</li>{% endfor %}</ul>
+  {%- endif %}
+
+  <h2>3. Le temps de la diffusion</h2>
+  {%- if per %}
+  <p>Le document analytique situe ainsi la période {{ per.bornes }} de la franchise :</p>
+  <blockquote class="encadre">{{ per.texte | markdownify }}</blockquote>
+  {%- else %}
+  <p>Le document analytique ne consacre pas de paragraphe de synthèse à la période de diffusion de cette œuvre.</p>
+  {%- endif %}
+  <p>Le contexte de diffusion est un cadre de lecture, non une explication causale : le corpus ne contient ni entretiens ni documents de production établissant l’intention des scénaristes.</p>
+
+  <h2>4. Résonances politiques</h2>
+  <section class="volet volet--parallele"><h3>Parallèle réel à étudier</h3>{{ f.volets.parallele | markdownify }}</section>
+  {%- if f.sources.size > 0 %}
+  <p>Sources citées par la fiche :</p>
+  <ul>{% for s in f.sources %}<li>{{ s.libelle | escape }} : <a href="{{ s.url }}" rel="noopener">{{ s.url | escape }}</a></li>{% endfor %}</ul>
+  {%- endif %}
+
+  <h2>5. Différences et limites de la comparaison</h2>
+  <section class="volet volet--objections"><h3>Objections et limites de l’analogie</h3>{{ f.volets.objections | markdownify }}</section>
+  <div class="encadre encadre--alerte"><p><strong>Ce que cette page n’affirme pas.</strong> Une ressemblance n’est pas une identité, et une résonance ultérieure n’est pas une prédiction : l’épisode ne « prédit » aucun événement réel.</p></div>
+
+  <p><a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">Retour à la fiche {{ e.id }}</a> · <a href="{{ '/contribuer/' | relative_url }}">Proposer une correction</a></p>
+</article>

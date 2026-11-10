@@ -15,9 +15,10 @@
   --magenta: #ea7ae0;
   --lavande: #a9a3ff;
   --rouge: #ff7a6b;
-  --niv-a: #7fe0a6;
-  --niv-b: #62d8f2;
-  --niv-c: #ffb454;
+  /* Niveaux A/B/C : trio valide (luminosite, daltonisme, contraste) sur fond sombre. */
+  --niv-a: #1f9e66;
+  --niv-b: #7a74f0;
+  --niv-c: #c47a22;
   --rayon: 1.6rem;
   --mesure: 72ch;
   --police: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
@@ -222,6 +223,35 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 /* Catalogue des saisons : une ligne par saison, sans decor (DOM leger). */
 .saisons { margin: 0.4rem 0 0; padding-left: 1.4rem; color: var(--doux); }
 .saisons li { margin: 0.15rem 0; }
+
+/* --- Graphiques ---------------------------------------------------------- */
+.graphique { margin: 2rem 0 2.5rem; }
+.graphique figcaption h2 { margin-bottom: 0.3rem; }
+.graphique figcaption p { color: var(--doux); margin: 0 0 0.8rem; }
+.carte-chaleur { border-collapse: separate; border-spacing: 2px; width: auto; font-variant-numeric: tabular-nums; }
+.carte-chaleur th, .carte-chaleur td { border: 0; padding: 0.35rem 0.5rem; }
+.carte-chaleur thead th { font-size: 0.78rem; text-align: center; color: var(--doux); }
+.carte-chaleur tbody th { font-family: var(--police); text-transform: none; letter-spacing: 0; font-size: 0.88rem; color: var(--texte); white-space: nowrap; font-weight: 500; }
+.carte-chaleur td { min-width: 2.4rem; text-align: center; border-radius: 4px; font-size: 0.88rem; }
+.q0 { background: var(--surface); color: var(--doux); }
+.q1 { background: #152b3d; color: var(--texte); }
+.q2 { background: #234a5e; color: var(--texte); }
+.q3 { background: #316a7f; color: var(--texte); }
+.q4 { background: #418da4; color: #04060b; }
+.q5 { background: #52b5cd; color: #04060b; font-weight: 700; }
+.legende { list-style: none; display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; padding: 0; margin: 0 0 0.8rem; font-size: 0.9rem; color: var(--doux); }
+.legende li { display: flex; align-items: center; gap: 0.4rem; }
+.pastille-leg { display: inline-block; width: 0.9rem; height: 0.9rem; border-radius: 3px; }
+.niv-A { background: var(--niv-a); } .niv-B { background: var(--niv-b); } .niv-C { background: var(--niv-c); }
+.empile { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.45rem; }
+.empile li { display: grid; grid-template-columns: minmax(8rem, 13rem) 1fr minmax(7.5rem, auto); gap: 0.6rem; align-items: center; font-size: 0.9rem; }
+.empile__barre { display: flex; gap: 2px; height: 0.95rem; }
+.empile__barre i { display: block; height: 100%; }
+.empile__barre i:first-child { border-radius: 4px 0 0 4px; }
+.empile__barre i:last-child { border-radius: 0 4px 4px 0; }
+.empile__barre i:only-child { border-radius: 4px; }
+.empile__val { color: var(--doux); font-variant-numeric: tabular-nums; }
+@media (max-width: 40rem) { .empile li { grid-template-columns: 1fr auto; } .empile__barre { grid-column: 1 / -1; grid-row: 2; } }
 
 /* --- Divers ------------------------------------------------------------- */
 .sommaire { display: grid; gap: 0.6rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); list-style: none; padding: 0; }

@@ -17,7 +17,8 @@ Projet independant, non affilie a Paramount / CBS Studios.
 | 305 fiches d'evenement | `/evenements/STP-001/` ... `/evenements/STP-305/` | `_data/evenements.json`, `_data/fiches.json` |
 | Chronologie diegetique / de diffusion / series / films | `/chronologie/`, `/chronologie/diffusion/`, `/chronologie/series/`, `/chronologie/films/` | `_data/evenements.json`, `_data/diffusion.json` |
 | Atlas thematique (10 domaines) | `/atlas/`, `/atlas/<domaine>/` | `_data/atlas.json` |
-| Fiction et histoire reelle | `/analyses/`, `/analyses/emeutes-de-bell/` | fiche STP-006, `_data/editorial.json` |
+| Fiction et histoire reelle | `/analyses/`, `/analyses/emeutes-de-bell/`, `/analyses/STP-NNN/` (une par fiche) | `_data/fiches.json`, `_data/periodes.json` |
+| Graphiques comparatifs | `/graphiques/` | `_data/graphiques.json` |
 | Methodologie, limites, rapport de qualite | `/methodologie/` | `_data/editorial.json`, `_data/qualite.json` |
 | Contribuer | `/contribuer/` | -- |
 

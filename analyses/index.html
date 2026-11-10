@@ -11,15 +11,18 @@ description: Comparer un événement politique de Star Trek, son contexte de pro
 </div>
 
 <h2>Analyses publiées</h2>
-<ul class="sommaire">
-  <li><a href="{{ '/analyses/emeutes-de-bell/' | relative_url }}"><b>Les émeutes de Bell</b><span>STP-006 · DS9 « Past Tense » · Zones de Sanctuaire, relégation sociale et visibilité de la répression.</span></a></li>
-</ul>
-
-<h2>Matière disponible pour d’autres analyses</h2>
-<p>Les {{ site.data.stats.fiches }} fiches approfondies contiennent chacune un volet « Parallèle réel à étudier » et un volet « Objections et limites ». Elles constituent le point de départ des analyses à venir :</p>
+<p>Une analyse par fiche approfondie ({{ site.data.stats.fiches }}). Chacune suit les cinq temps ci-dessus et se compose uniquement des textes du document analytique et des dates de diffusion sourcées. L’analyse des émeutes de Bell est la plus développée.</p>
 <ul class="cartes">
   {%- assign fiches = site.data.evenements | where: "fiche", true -%}
-  {%- for e in fiches %}{% include carte.html e=e court=true %}{% endfor %}
+  {%- for e in fiches %}
+  <li class="carte" data-niv="{{ e.niveau_recoupement }}">
+    <div class="carte__id"><span>{{ e.id }}</span><span class="niveau niveau--{{ e.niveau_recoupement }}">{{ e.niveau_recoupement }}</span></div>
+    <div>
+      <h3 class="carte__titre"><a href="{% if e.id == 'STP-006' %}{{ '/analyses/emeutes-de-bell/' | relative_url }}{% else %}{{ '/analyses/' | append: e.id | append: '/' | relative_url }}{% endif %}">{{ e.event | escape }}</a></h3>
+      <p class="carte__meta">{{ e.period | escape }} · {{ e.source | escape }}</p>
+    </div>
+  </li>
+  {%- endfor %}
 </ul>
 
 <h2>Lignes de force du document analytique</h2>

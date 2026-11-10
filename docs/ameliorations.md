@@ -52,6 +52,11 @@ STP-013 rattachee a TNG « Up the Long Ladder » et « Attached » (formation du
 8. Ajouter une source de controle a la fiche STP-077.
 9. Score Lighthouse officiel non mesure : quota anonyme PageSpeed Insights epuise, conteneur Lighthouse refuse par le controle de securite de la session. A lancer depuis https://pagespeed.web.dev/ ou Chrome DevTools > Lighthouse. DOM de l'explorateur allege depuis (environ 790 elements).
 
+## P2 -- fait (2026-11-10)
+
+- 10. Analyses fiction / histoire : une page par fiche approfondie (/analyses/STP-NNN/), composee des volets de la fiche, des dates de diffusion sourcees et du paragraphe « Lignes de force » de la periode ; aucune analyse redigee.
+- 11. Graphiques comparatifs (/graphiques/) : categories x series, categories x decennie de diffusion (cartes de chaleur lisibles comme tableaux), niveaux par serie (barres empilees). Palette des niveaux A/B/C revalidee (luminosite, daltonisme, contraste) et appliquee a tout le site.
+
 ## P2 -- evolutions
 
 10. Ecrire d'autres analyses fiction / histoire a partir des 31 fiches (Terra Prime, Leyton, Section 31, Data).

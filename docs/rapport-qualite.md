@@ -1,6 +1,6 @@
 # Rapport de qualité documentaire
 
-> Généré par `scripts/validate.mjs` le 2026-11-10. Source : `data/source/Star_Trek_Atlas_Politique_V0_8_2026-11-10.csv`, `data/source/Star_Trek_Atlas_Politique_V0_8_2026-11-10.md`.
+> Généré par `scripts/validate.mjs` le 2026-11-10. Source : `data/source/Star_Trek_Atlas_Politique_V0_9_2026-11-10.csv`, `data/source/Star_Trek_Atlas_Politique_V0_9_2026-11-10.md`.
 
 **Bilan : 0 erreur(s), 2 avertissement(s).**
 
@@ -8,8 +8,8 @@
 |---|---|---|---|
 | 1 | Identifiants uniques et non vides | ok | 305 identifiants distincts, 305 déjà publiés suivis. |
 | 2 | Lignes importées et rejets | ok | 305 entrées importées, 0 rejet(s), 305 annoncées par le Markdown. |
-| 3 | Niveaux de recoupement A / B / C | ok | A : 212, B : 88, C : 2. |
-| 4 | Liens syntaxiquement valides | ok | 704 URL contrôlées (syntaxe seulement, pas de requête réseau). |
+| 3 | Niveaux de recoupement A / B / C | ok | A : 212, B : 90, C : 0. |
+| 4 | Liens syntaxiquement valides | ok | 706 URL contrôlées (syntaxe seulement, pas de requête réseau). |
 | 5 | Présence des fiches approfondies | ok | 31 fiches : STP-006, STP-034, STP-048, STP-061, STP-077, STP-094, STP-101, STP-107, STP-125, STP-126, STP-129, STP-139, STP-149, STP-153, STP-157, STP-172, STP-194, STP-197, STP-230, STP-239, STP-267, STP-271, STP-274, STP-281, STP-282, STP-286, STP-293, STP-295, STP-297, STP-298, STP-300. |
 | 6 | Cohérence fiches ↔ événements | ok | 305 notices de registre comparées au CSV ; 3 doublons tranchés vérifiés. |
 | 7 | Dates ambiguës conservées en texte | ok | 94 périodes non réductibles à une année, conservées telles quelles ; la clé d'ordre ne sert qu'au tri et n'est jamais affichée. |
@@ -24,9 +24,9 @@
 
 ## Limites du corpus mesurées
 
-- 4 entrées de niveau C (référence candidate non recoupée individuellement).
-- 4 entrées sans URL de contrôle.
+- 2 entrées de niveau C (référence candidate non recoupée individuellement).
+- 2 entrées sans URL de contrôle.
 - 0 entrées classées « autre / à qualifier ».
-- 291 entrées reliées à une date de diffusion vérifiée.
+- 290 entrées reliées à une date de diffusion vérifiée.
 - Fiches approfondies sans source de contrôle : aucune.
 - Références de source non rattachées à une série : aucune.

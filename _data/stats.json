@@ -10,11 +10,11 @@
   },
   {
    "cle": "B",
-   "n": 88
+   "n": 90
   },
   {
    "cle": "C",
-   "n": 2
+   "n": 0
   }
  ],
  "cycles": [
@@ -157,12 +157,12 @@
   },
   {
    "cle": "Film",
-   "n": 21,
+   "n": 20,
    "nom": "Films"
   },
   {
    "cle": "TNG",
-   "n": 43,
+   "n": 44,
    "nom": "The Next Generation"
   },
   {
@@ -177,7 +177,7 @@
   },
   {
    "cle": "ENT",
-   "n": 34,
+   "n": 33,
    "nom": "Enterprise"
   },
   {
@@ -295,7 +295,7 @@
   },
   {
    "cle": "V0.6 révisé",
-   "n": 14
+   "n": 12
   },
   {
    "cle": "V0.3 ajout",
@@ -312,6 +312,10 @@
   {
    "cle": "V0.8 révisé",
    "n": 3
+  },
+  {
+   "cle": "V0.9 révisé",
+   "n": 2
   }
  ],
  "precisions": [
@@ -332,12 +336,12 @@
   },
   {
    "cle": "borne",
-   "n": 5,
+   "n": 4,
    "nom": "Borne (« vers », « avant », « après »)"
   },
   {
    "cle": "siecle",
-   "n": 21,
+   "n": 22,
    "nom": "Siècle seulement"
   },
   {

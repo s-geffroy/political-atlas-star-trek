@@ -33,9 +33,12 @@ Journal : `data/corrections/V0.7.json` ; proposition validee : `docs/proposition
 
 Doublons tranches (`data/doublons.json`, journal `data/corrections/V0.8.json`) : STP-054 -> STP-298, STP-254 -> STP-111, STP-270 -> STP-216. Aucune suppression ; les secondaires renvoient a la principale et ne sont plus comptees (302 evenements distincts pour 305 entrees).
 
+## Fait en V0.9 (2026-11-10)
+
+STP-013 rattachee a TNG « Up the Long Ladder » et « Attached » (formation du gouvernement mondial terrien), STP-014 recoupee (guerres Kzinti) : niveau B. Plus aucun evenement distinct en C (A 212, B 90).
+
 ## P1 -- reste a faire
 
-- STP-013 et STP-014 : trouver une source A ou B, ou reformuler.
 - 52 entrees B sans source officielle exploitable : pages Paramount+ d'episode non verifiables, saison 4 de SNW et Starfleet Academy sans recapitulatif officiel a ce jour.
 - Score Lighthouse officiel a mesurer (https://pagespeed.web.dev/).
 

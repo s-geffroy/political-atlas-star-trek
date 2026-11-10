@@ -163,7 +163,7 @@ export function importer(csvPath, mdPath) {
     distincts: distincts.length,
     doublons: evenements.length - distincts.length,
     fiches: distincts.filter((e) => e.fiche).length,
-    niveaux: compte(distincts.map((e) => e.niveau_recoupement), ['A', 'B', 'C']),
+    niveaux: ['A', 'B', 'C'].map((cle) => ({ cle, n: distincts.filter((e) => e.niveau_recoupement === cle).length })),
     cycles: compte(distincts.map((e) => e.cycle), cyclesOrdre).map((c) => ({ ...c, slug: slug(c.cle) })),
     series: compte(distincts.flatMap((e) => e.series), seriesCodes).map((c) => ({ ...c, nom: SERIES.find((s) => s.code === c.cle).nom })),
     categories: compte(distincts.flatMap((e) => e.categories)),

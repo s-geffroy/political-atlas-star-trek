@@ -1,0 +1,67 @@
+{
+ "version": "V0.9",
+ "date": "2026-11-10",
+ "date_longue": "10 novembre 2026",
+ "base": "V0_8_2026-11-10",
+ "titre": "Atlas politique de Star Trek — V0.9 : dernières entrées non recoupées",
+ "resume": "Les deux dernières entrées de niveau C ont été recoupées : STP-013 (rattachée aux épisodes qui évoquent la formation du gouvernement mondial terrien) et STP-014 (guerres Kzinti, intitulé inchangé). Plus aucun événement distinct n’est au niveau C.",
+ "methode": {
+  "recoupement": "Recherche ciblée (Perplexity, Memory Alpha, transcriptions de dialogues en appui)."
+ },
+ "comptes": {
+  "corrections": 1,
+  "recoupements": 1
+ },
+ "corrections": [
+  {
+   "id": "STP-013",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Reconstruction politique de la Terre et établissement d'institutions planétaires",
+     "apres": "Formation d’un gouvernement mondial terrien, de l’Hégémonie européenne au ralliement des dernières nations en 2150"
+    },
+    "source": {
+     "avant": "ENT; Film «First Contact»",
+     "apres": "TNG «Up the Long Ladder»; «Attached»"
+    },
+    "period": {
+     "avant": "Après 2063",
+     "apres": "Début XXIIe siècle–2150"
+    },
+    "niveau_recoupement": {
+     "avant": "C",
+     "apres": "B"
+    },
+    "nature_source": {
+     "avant": "Référence candidate de la V0.2/V0.3, non recoupée dans cet audit",
+     "apres": "Résumé secondaire indexé"
+    },
+    "url_source": {
+     "avant": "",
+     "apres": "https://memory-alpha.fandom.com/wiki/United_Earth"
+    }
+   },
+   "motif": "intitulé, épisodes cités et période corrigés d’après la source, recoupement B — Memory Alpha (United Earth) : « The activities of the European Hegemony, which existed in the 2120s, led to the formation of United Earth (TNG: Up The Long Ladder) » ; « In 2150, the last of Earth’s nations joined the World Government (TNG: Attached) ». Répliques : Picard, « A loose alliance formed in the early part of the twenty second century. It was the first stirrings of world government » ; Crusher évoque le gouvernement mondial de 2150. Les références précédentes (ENT ; First Contact) ne montraient pas cette formation ; la date exacte de fondation de United Earth n’est pas donnée à l’écran"
+  },
+  {
+   "id": "STP-014",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "C",
+     "apres": "B"
+    },
+    "nature_source": {
+     "avant": "Référence candidate de la V0.2/V0.3, non recoupée dans cet audit",
+     "apres": "Résumé secondaire indexé"
+    },
+    "url_source": {
+     "avant": "",
+     "apres": "https://memory-alpha.fandom.com/wiki/Kzinti"
+    }
+   },
+   "motif": "recoupement B — Memory Alpha (Kzinti) : « the Kzinti fought four wars against Humankind, and lost all of them (TAS: The Slaver Weapon) » ; réplique de Sulu dans l’épisode : « The Kzinti fought four wars with humankind and lost all of them. The last one was two hundred years ago ». Intitulé inchangé, exact. La datation (fin XXIe–début XXIIe siècle) reste approximative : l’épisode dit seulement « two hundred years ago »"
+  }
+ ]
+}

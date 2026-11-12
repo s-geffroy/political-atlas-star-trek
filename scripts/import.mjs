@@ -611,14 +611,14 @@ export function ecrireSorties(r) {
       `cible: ${g ? g.cle : 'null'}`, `stp: ${k}`, `title: ${yamlStr(`Réseau — arc déplacé (${k})`)}`, 'sitemap: false',
       // jekyll-redirect-from (liste blanche) produit la page de renvoi : canonique unique, refresh dans <head>, noindex.
       `redirect_to: /reseau/${g ? g.cle + '/' : ''}`,
-      `permalink: /reseau/${k}/`, 'nav: graphiques', '---', ''].join('\n'));
+      `permalink: /reseau/${k}/`, 'nav: reseau', '---', ''].join('\n'));
   }
   ecrire(clesP, JSON.stringify([...new Set([...clesAvant, ...clesMaintenant])].sort(), null, 1) + '\n');
   for (const c of res.composantes) {
     ecrire(path.join(dirR, `${c.cle}.md`), ['---', '# Fichier GENERE par scripts/import.mjs.', 'layout: reseau-groupe', `groupe: ${c.cle}`,
       `title: ${yamlStr(`Arc « ${c.titre} » (${c.series_noms.join(', ')}) — réseau des relations`)}`,
       `description: ${yamlStr(`Graphe des relations documentées entre ${c.taille} événements politiques de Star Trek (${c.series.join(', ')}) : causes, suites et arcs narratifs.`)}`,
-      `permalink: /reseau/${c.cle}/`, 'nav: graphiques', '---', ''].join('\n'));
+      `permalink: /reseau/${c.cle}/`, 'nav: reseau', '---', ''].join('\n'));
   }
 
   // Analyses fiction / histoire : une page par fiche approfondie (sauf STP-006,

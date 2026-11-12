@@ -94,17 +94,19 @@ description: Protocole de recherche, niveaux de vérification A/B/C, corrections
 {{ ed.corrections.markdown | markdownify }}
 
 <h2 id="qualite">Rapport de qualité documentaire</h2>
-<p>Produit par le validateur automatique à chaque import ({{ Q.genere_le }}) : <strong>{{ Q.erreurs }} erreur(s), {{ Q.avertissements }} avertissement(s)</strong>.</p>
+<p>Produit par le validateur automatique à chaque import ({{ Q.genere_le }}) : <strong>{% if Q.erreurs == 0 %}aucune erreur{% elsif Q.erreurs == 1 %}1 erreur{% else %}{{ Q.erreurs }} erreurs{% endif %}, {% if Q.avertissements == 0 %}aucun avertissement{% elsif Q.avertissements == 1 %}1 avertissement{% else %}{{ Q.avertissements }} avertissements{% endif %}</strong>.</p>
 <div class="defile" tabindex="0" role="region" aria-label="Contrôles du rapport de qualité"><table>
   <thead><tr><th scope="col">#</th><th scope="col">Contrôle</th><th scope="col">Statut</th><th scope="col">Détail</th></tr></thead>
-  <tbody>{% for c in Q.controles %}<tr><td>{{ c.num }}</td><td>{{ c.titre }}</td><td>{{ c.statut }}</td><td>{{ c.info | escape }}{% for x in c.erreurs %}<br><strong>Erreur :</strong> {{ x | escape }}{% endfor %}{% for x in c.avertissements %}<br>Avertissement : {{ x | escape }}{% endfor %}</td></tr>{% endfor %}</tbody>
+  <tbody>{% for c in Q.controles %}<tr><td>{{ c.num }}</td><td>{{ c.titre }}</td><td>{% if c.statut == "ok" %}conforme{% elsif c.statut == "avertissement" %}avertissement{% else %}{{ c.statut }}{% endif %}</td><td>{{ c.info | escape }}{% for x in c.erreurs %}<br><strong>Erreur :</strong> {{ x | escape }}{% endfor %}{% for x in c.avertissements %}<br>Avertissement : {{ x | escape }}{% endfor %}</td></tr>{% endfor %}</tbody>
 </table></div>
 
 <h2 id="limites">Limites et programme de vérification</h2>
 <ul>
-  <li>{{ Q.limites.niveau_c }} entrées sur {{ site.data.stats.total }} sont de niveau C ; {{ Q.limites.sans_url }} n’ont pas d’URL de contrôle.</li>
-  <li>{{ Q.limites.autre_a_qualifier }} entrées portent la catégorie « autre / à qualifier ».</li>
-  <li>{{ Q.limites.avec_diffusion }} entrées seulement sont reliées à une date de diffusion vérifiée.</li>
+  <li>{% case Q.limites.niveau_c %}{% when 0 %}Aucune entrée n’est de niveau C{% when 1 %}Une entrée sur {{ site.data.stats.total }} est de niveau C{% else %}{{ Q.limites.niveau_c }} entrées sur {{ site.data.stats.total }} sont de niveau C{% endcase %} ; {% case Q.limites.sans_url %}{% when 0 %}toutes ont une URL de contrôle{% when 1 %}une n’a pas d’URL de contrôle{% else %}{{ Q.limites.sans_url }} n’ont pas d’URL de contrôle{% endcase %}.</li>
+  {%- if Q.limites.autre_a_qualifier > 0 %}
+  <li>{{ Q.limites.autre_a_qualifier }} entrée{% if Q.limites.autre_a_qualifier > 1 %}s portent{% else %} porte{% endif %} encore la catégorie « autre / à qualifier ».</li>
+  {%- endif %}
+  <li>{{ Q.limites.avec_diffusion }} entrées sur {{ site.data.stats.total }} sont reliées à une date de diffusion vérifiée ; les autres citent un épisode dont la date n’a pas été relevée.</li>
   {%- if Q.limites.non_rattachees.size > 0 %}<li>Références sans sigle de série, non rattachées : {% for x in Q.limites.non_rattachees %}{{ x.id }} (« {{ x.refs | join: "», «" }} »){% unless forloop.last %}, {% endunless %}{% endfor %}.</li>{% endif %}
 </ul>
 {{ ed.reserves.markdown | markdownify }}

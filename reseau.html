@@ -1,6 +1,6 @@
 ---
 title: Réseau des relations
-nav: graphiques
+nav: reseau
 permalink: /reseau/
 description: Graphe des relations documentées entre événements politiques de Star Trek — causes, suites et arcs narratifs, regroupés par ensembles connectés.
 ---
@@ -11,6 +11,6 @@ description: Graphe des relations documentées entre événements politiques de 
 <h2>Arcs</h2>
 <ol class="cartes groupes">
   {%- for c in R.composantes %}
-  <li class="carte"><div class="carte__id"><span><span aria-hidden="true">{{ c.taille }} év.</span><span class="visuellement-cache">{{ c.taille }} événement{% if c.taille > 1 %}s{% endif %}</span></span></div><div><h3 class="carte__titre"><a href="{{ '/reseau/' | append: c.cle | append: '/' | relative_url }}">{{ c.titre | escape }}</a> <span class="carte__meta">({{ c.series_noms | join: ", " }})</span></h3><p class="carte__meta">{{ c.nb_relations }} relation{% if c.nb_relations > 1 %}s{% endif %} interne{% if c.nb_relations > 1 %}s{% endif %}{% if c.externes.size > 0 %} · {{ c.externes.size }} lien{% if c.externes.size > 1 %}s{% endif %} vers d’autres arcs{% endif %}</p></div></li>
+  <li class="carte"><div class="carte__id"><span><span aria-hidden="true">{{ c.taille }} év.</span><span class="visuellement-cache">{{ c.taille }} événement{% if c.taille > 1 %}s{% endif %}</span></span></div><div><h3 class="carte__titre"><a href="{{ '/reseau/' | append: c.cle | append: '/' | relative_url }}">{{ c.titre | escape }}</a> <span class="carte__meta">({{ c.series_noms | join: ", " }})</span></h3><p class="carte__meta">{{ c.nb_relations }} relation{% if c.nb_relations > 1 %}s{% endif %} interne{% if c.nb_relations > 1 %}s{% endif %}{% if c.externes.size == 1 %} · 1 lien vers un autre arc{% elsif c.externes.size > 1 %} · {{ c.externes.size }} liens vers d’autres arcs{% endif %}</p></div></li>
   {%- endfor %}
 </ol>

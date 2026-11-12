@@ -735,7 +735,7 @@
      "vers": "STP-141",
      "type": "meme_arc",
      "d": "M636,198 C841,198 841,188 1042,188",
-     "url": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine)"
+     "url": "https://en.wikipedia.org/wiki/The_Maquis"
     },
     {
      "de": "STP-141",
@@ -770,7 +770,7 @@
      "vers": "STP-128",
      "type": "cause",
      "d": "M306,330 C346,330 346,354 382,354",
-     "url": "https://en.wikipedia.org/wiki/The_Jem%27Hadar_(Star_Trek:_Deep_Space_Nine)"
+     "url": "https://en.wikipedia.org/wiki/The_Jem%27Hadar"
     },
     {
      "de": "STP-128",
@@ -996,14 +996,6 @@
      "autre": "STP-276",
      "sortant": true,
      "groupe": "STP-276"
-    },
-    {
-     "de": "STP-146",
-     "vers": "STP-205",
-     "type": "meme_arc",
-     "autre": "STP-205",
-     "sortant": true,
-     "groupe": "STP-205"
     },
     {
      "de": "STP-277",
@@ -1446,7 +1438,7 @@
      "vers": "STP-182",
      "type": "suite",
      "d": "M306,291 C346,291 346,354 382,354",
-     "url": "https://en.wikipedia.org/wiki/Unification_III"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3#ep36"
     },
     {
      "de": "STP-030",
@@ -1502,14 +1494,14 @@
      "vers": "STP-183",
      "type": "cause",
      "d": "M306,414 C511,414 511,198 712,198",
-     "url": "https://en.wikipedia.org/wiki/Unification_III"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3#ep36"
     },
     {
      "de": "STP-182",
      "vers": "STP-183",
      "type": "cause",
      "d": "M636,344 C676,344 676,183 712,183",
-     "url": "https://en.wikipedia.org/wiki/Unification_III"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3#ep36"
     },
     {
      "de": "STP-178",
@@ -1523,14 +1515,14 @@
      "vers": "STP-295",
      "type": "cause",
      "d": "M636,510 C676,510 676,432 712,432",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy#Episodes"
     },
     {
      "de": "STP-292",
      "vers": "STP-293",
      "type": "suite",
      "d": "M636,276 C676,276 676,354 712,354",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy#Episodes"
     },
     {
      "de": "STP-031",
@@ -1888,7 +1880,7 @@
      "vers": "STP-047",
      "type": "cause",
      "d": "M306,169 C346,169 346,208 382,208",
-     "url": "https://en.wikipedia.org/wiki/A_Quality_of_Mercy_(Star_Trek:_Strange_New_Worlds)"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1#ep10"
     },
     {
      "de": "STP-047",
@@ -1916,21 +1908,21 @@
      "vers": "STP-042",
      "type": "suite",
      "d": "M966,42 C1006,42 1006,120 1042,120",
-     "url": "https://en.wikipedia.org/wiki/Will_You_Take_My_Hand%3F"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1#ep15"
     },
     {
      "de": "STP-042",
      "vers": "STP-043",
      "type": "cause",
      "d": "M1296,120 C1336,120 1336,120 1372,120",
-     "url": "https://en.wikipedia.org/wiki/Will_You_Take_My_Hand%3F"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1#ep15"
     },
     {
      "de": "STP-041",
      "vers": "STP-053",
      "type": "meme_arc",
      "d": "M716,60 C675,60 675,198 716,198",
-     "url": "https://en.wikipedia.org/wiki/Under_the_Cloak_of_War"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2#ep18"
     },
     {
      "de": "STP-040",
@@ -2435,15 +2427,15 @@
      "id_y": 106,
      "lignes": [
       {
-       "t": "Débat sur l'existence et les",
+       "t": "Flotte romulienne envoyée",
        "y": 124
       },
       {
-       "t": "droits des synthétiques sur…",
+       "t": "détruire les synthétiques de…",
        "y": 140
       }
      ],
-     "titre_complet": "Débat sur l'existence et les droits des synthétiques sur Coppelius",
+     "titre_complet": "Flotte romulienne envoyée détruire les synthétiques de Coppelius et levée des restrictions fédérales visant les synthétiques",
      "niv": "B",
      "cycle": "Picard : gouvernance, synthétiques, Romuliens"
     },
@@ -2626,19 +2618,19 @@
     {
      "id": "STP-157",
      "x": 386,
-     "y": 51,
+     "y": 129,
      "w": 250,
      "h": 60,
      "tx": 396,
-     "id_y": 67,
+     "id_y": 145,
      "lignes": [
       {
        "t": "Répression de masse de",
-       "y": 85
+       "y": 163
       },
       {
        "t": "Cardassia par le Dominion et…",
-       "y": 101
+       "y": 179
       }
      ],
      "titre_complet": "Répression de masse de Cardassia par le Dominion et soulèvement populaire",
@@ -2648,19 +2640,19 @@
     {
      "id": "STP-158",
      "x": 716,
-     "y": 129,
+     "y": 168,
      "w": 250,
      "h": 60,
      "tx": 726,
-     "id_y": 145,
+     "id_y": 184,
      "lignes": [
       {
        "t": "Capitulation du Dominion et",
-       "y": 163
+       "y": 202
       },
       {
        "t": "traité mettant fin à la…",
-       "y": 179
+       "y": 218
       }
      ],
      "titre_complet": "Capitulation du Dominion et traité mettant fin à la guerre du quadrant Alpha",
@@ -2713,20 +2705,20 @@
     },
     {
      "id": "STP-305",
-     "x": 386,
-     "y": 129,
+     "x": 56,
+     "y": 324,
      "w": 250,
      "h": 60,
-     "tx": 396,
-     "id_y": 145,
+     "tx": 66,
+     "id_y": 340,
      "lignes": [
       {
        "t": "Interférence de Section 31",
-       "y": 163
+       "y": 358
       },
       {
        "t": "dans la politique romulienne…",
-       "y": 179
+       "y": 374
       }
      ],
      "titre_complet": "Interférence de Section 31 dans la politique romulienne via une opération contre une sénatrice",
@@ -2761,21 +2753,21 @@
      "de": "STP-153",
      "vers": "STP-158",
      "type": "cause",
-     "d": "M306,32 C511,32 511,149 712,149",
+     "d": "M306,42 C511,42 511,188 712,188",
      "url": "https://memory-alpha.fandom.com/wiki/Morphogenic_virus"
     },
     {
      "de": "STP-156",
      "vers": "STP-157",
      "type": "cause",
-     "d": "M306,120 C346,120 346,81 382,81",
+     "d": "M306,120 C346,120 346,159 382,159",
      "url": "https://memory-alpha.fandom.com/wiki/Dominion_War"
     },
     {
      "de": "STP-153",
      "vers": "STP-305",
-     "type": "suite",
-     "d": "M306,52 C346,52 346,159 382,159",
+     "type": "meme_arc",
+     "d": "M56,52 C8,52 8,354 56,354",
      "url": "https://memory-alpha.fandom.com/wiki/Inter_Arma_Enim_Silent_Leges_(episode)"
     },
     {
@@ -2803,14 +2795,14 @@
      "de": "STP-157",
      "vers": "STP-158",
      "type": "cause",
-     "d": "M636,81 C676,81 676,169 712,169",
+     "d": "M636,159 C676,159 676,208 712,208",
      "url": "https://en.wikipedia.org/wiki/What_You_Leave_Behind"
     },
     {
      "de": "STP-153",
      "vers": "STP-156",
      "type": "episode_commun",
-     "d": "M56,42 C27.5,42 27.5,105 56,105",
+     "d": "M56,32 C25.833333333333336,32 25.833333333333336,105 56,105",
      "url": null
     },
     {
@@ -2830,7 +2822,7 @@
    ],
    "externes": [],
    "largeur": 978,
-   "hauteur": 318,
+   "hauteur": 396,
    "numero": 6,
    "cle": "STP-153",
    "ids": [
@@ -3003,11 +2995,11 @@
        "y": 280
       },
       {
-       "t": "la guerre civile de Solum en…",
+       "t": "la guerre civile de Solum",
        "y": 296
       }
      ],
-     "titre_complet": "Intervention de Janeway dans la guerre civile de Solum en violation de la Directive première",
+     "titre_complet": "Intervention de Janeway dans la guerre civile de Solum",
      "niv": "B",
      "cycle": "Prodigy : esclavage, contact et guerre civile"
     }
@@ -3559,14 +3551,6 @@
      "autre": "STP-098",
      "sortant": false,
      "groupe": "STP-098"
-    },
-    {
-     "de": "STP-146",
-     "vers": "STP-205",
-     "type": "meme_arc",
-     "autre": "STP-146",
-     "sortant": false,
-     "groupe": "STP-120"
     }
    ],
    "largeur": 1308,
@@ -4037,7 +4021,7 @@
        "y": 101
       }
      ],
-     "titre_complet": "Effacement institutionnel d'informations sur Discovery et l'ange rouge",
+     "titre_complet": "Effacement institutionnel d'informations sur Discovery et son équipage",
      "niv": "B",
      "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle"
     }
@@ -4055,7 +4039,7 @@
      "vers": "STP-044",
      "type": "meme_arc",
      "d": "M56,120 C25,120 25,42 56,42",
-     "url": "https://en.wikipedia.org/wiki/New_Eden_(Star_Trek:_Discovery)"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2#ep17"
     }
    ],
    "externes": [
@@ -5091,7 +5075,7 @@
      "vers": "STP-192",
      "type": "meme_arc",
      "d": "M56,42 C25,42 25,120 56,120",
-     "url": "https://en.wikipedia.org/wiki/Erigah"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_5#ep62"
     }
    ],
    "externes": [],
@@ -5170,15 +5154,15 @@
      "id_y": 67,
      "lignes": [
       {
-       "t": "Mutinerie et contestation de",
+       "t": "Défi en duel et prise du",
        "y": 85
       },
       {
-       "t": "la chaîne de commandement…",
+       "t": "commandement d'un vaisseau…",
        "y": 101
       }
      ],
-     "titre_complet": "Mutinerie et contestation de la chaîne de commandement sur un vaisseau klingon",
+     "titre_complet": "Défi en duel et prise du commandement d'un vaisseau klingon par un officier contestant son capitaine",
      "niv": "B",
      "cycle": "Lower Decks : événements omis"
     }
@@ -5196,7 +5180,7 @@
      "vers": "STP-212",
      "type": "meme_arc",
      "d": "M56,42 C25,42 25,120 56,120",
-     "url": "https://en.wikipedia.org/wiki/First_First_Contact"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2#ep20"
     }
    ],
    "externes": [],
@@ -5231,15 +5215,15 @@
      "id_y": 28,
      "lignes": [
       {
-       "t": "Mission de bonne volonté de",
+       "t": "Envoi de Tendi sur Orion à la",
        "y": 46
       },
       {
-       "t": "Starfleet sur Orion et libre…",
+       "t": "demande de Starfleet et…",
        "y": 62
       }
      ],
-     "titre_complet": "Mission de bonne volonté de Starfleet sur Orion et libre choix de Tendi face à son puissant clan familial",
+     "titre_complet": "Envoi de Tendi sur Orion à la demande de Starfleet et libre choix de Tendi face à son puissant clan familial",
      "niv": "B",
      "cycle": "Lower Decks : politique des marges et adhésions"
     },
@@ -5389,7 +5373,7 @@
       }
      ],
      "titre_complet": "Nus Braka confronte Nahla Ake à une crise mettant en jeu la Fédération",
-     "niv": "A",
+     "niv": "B",
      "cycle": "Starfleet Academy (saison 1, 2026)"
     }
    ],
@@ -5399,14 +5383,14 @@
      "vers": "STP-232",
      "type": "suite",
      "d": "M636,42 C676,42 676,42 712,42",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy#Episodes"
     },
     {
      "de": "STP-231",
      "vers": "STP-297",
      "type": "suite",
      "d": "M306,42 C346,42 346,42 382,42",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy#Episodes"
     }
    ],
    "externes": [],
@@ -6570,7 +6554,7 @@
      "vers": "STP-286",
      "type": "suite",
      "d": "M306,42 C346,42 346,42 382,42",
-     "url": "https://en.wikipedia.org/wiki/The_Sound_of_Thunder_(Star_Trek:_Discovery)"
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2#ep21"
     }
    ],
    "externes": [],
@@ -7070,7 +7054,7 @@
   }
  ],
  "noeuds": 192,
- "relations": 160,
+ "relations": 159,
  "liens_episode": 40,
  "seuil_decoupe": 25
 }

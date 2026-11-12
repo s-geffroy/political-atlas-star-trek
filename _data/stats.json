@@ -6,11 +6,11 @@
  "niveaux": [
   {
    "cle": "A",
-   "n": 211
+   "n": 209
   },
   {
    "cle": "B",
-   "n": 87
+   "n": 89
   },
   {
    "cle": "C",
@@ -283,7 +283,11 @@
  "versions": [
   {
    "cle": "V0.14 révisé",
-   "n": 292
+   "n": 277
+  },
+  {
+   "cle": "V0.15 révisé",
+   "n": 16
   },
   {
    "cle": "V0.4 révisé",
@@ -291,10 +295,6 @@
   },
   {
    "cle": "V0.5 révisé",
-   "n": 1
-  },
-  {
-   "cle": "V0.7 révisé",
    "n": 1
   }
  ],
@@ -338,6 +338,6 @@
  "max_serie": 59,
  "max_categorie": 88,
  "max_cycle": 41,
- "relations": 160,
+ "relations": 159,
  "sans_relation": 107
 }

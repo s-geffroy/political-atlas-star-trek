@@ -1,9 +1,9 @@
 {
  "genere_le": "2026-11-12",
  "source": {
-  "csv": "data/source/Star_Trek_Atlas_Politique_V0_14_2026-11-12.csv",
-  "md": "data/source/Star_Trek_Atlas_Politique_V0_14_2026-11-12.md",
-  "version": "0.14",
+  "csv": "data/source/Star_Trek_Atlas_Politique_V0_15_2026-11-12.csv",
+  "md": "data/source/Star_Trek_Atlas_Politique_V0_15_2026-11-12.md",
+  "version": "0.15",
   "etat": "État : 12 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
   "colonnes": [
    "id",
@@ -45,7 +45,7 @@
    "statut": "ok",
    "erreurs": [],
    "avertissements": [],
-   "info": "A : 211, B : 87, C : 1."
+   "info": "A : 209, B : 89, C : 1."
   },
   {
    "num": 4,
@@ -53,7 +53,7 @@
    "statut": "ok",
    "erreurs": [],
    "avertissements": [],
-   "info": "721 URL contrôlées (syntaxe seulement, pas de requête réseau)."
+   "info": "722 URL contrôlées (syntaxe seulement, pas de requête réseau)."
   },
   {
    "num": 5,
@@ -69,7 +69,7 @@
    "statut": "ok",
    "erreurs": [],
    "avertissements": [],
-   "info": "305 notices de registre comparées au CSV ; 6 doublons tranchés et 160 relations documentées vérifiés."
+   "info": "305 notices de registre comparées au CSV ; 6 doublons tranchés et 159 relations documentées vérifiés."
   },
   {
    "num": 7,

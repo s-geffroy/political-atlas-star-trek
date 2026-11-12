@@ -1,0 +1,254 @@
+{
+ "version": "V0.15",
+ "date": "2026-11-12",
+ "date_longue": "12 novembre 2026",
+ "base": "V0_14_2026-11-12",
+ "titre": "Atlas politique de Star Trek — V0.15 : sources d’épisode à la place des pages de saison",
+ "resume": "Seize entrées appuyées sur une page de saison ou de liste ont été reprises sur une page propre à l’épisode. Trois entrées de Voyager gardent le niveau A sur la page d’épisode officielle de startrek.com, lue dans sa copie archivée. Pour Starfleet Academy, aucune page officielle d’épisode n’est lisible : STP-228 et STP-232 passent au niveau B sur l’article Wikipedia de l’épisode, STP-229 est réduite et STP-230 et STP-231 restent en A sur la liste d’épisodes Paramount+, signalée. Sept entrées de niveau B passent sur une critique d’épisode (TrekCore, Reactor, Den of Geek) ; cinq intitulés sont réduits à ce que ces pages confirment (STP-045 : l’ange rouge ; STP-201 : le « débat » ; STP-213 : la « bonne volonté » ; STP-227 : la violation de la Directive première, contestée ; STP-289 : la « mutinerie »). STP-212, fait réparti sur plusieurs épisodes, reste sur la page de saison.",
+ "methode": {
+  "reverification": "revérification de novembre 2026 (sources de saison ou de liste), proposition validée le 2026-11-12 ; citations contrôlées sur les pages : copies archivées de startrek.com, articles Wikipedia, critiques TrekCore, Reactor et Den of Geek."
+ },
+ "comptes": {
+  "corrections": 8,
+  "signalements": 8
+ },
+ "corrections": [
+  {
+   "id": "STP-228",
+   "type": "correction",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "A",
+     "apres": "B"
+    },
+    "nature_source": {
+     "avant": "Synopsis officiel",
+     "apres": "Résumé d’épisode (Wikipedia)"
+    },
+    "url_source": {
+     "avant": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/",
+     "apres": "https://en.wikipedia.org/wiki/Kids_These_Days_(Star_Trek:_Starfleet_Academy)"
+    }
+   },
+   "motif": "revérification de novembre 2026 — Aucune page officielle propre à l'épisode n'a pu être lue : les pages d'épisode Paramount+ (/shows/video/…) renvoient une erreur 404 ou 500 et ne sont pas archivées, et startrek.com ne publie pas de récapitulatif d'épisode pour Starfleet Academy. Le synopsis de la liste d'épisodes Paramount+ (« Caleb Mir, a brilliant street kid, is offered admission to the new Starfleet Academy class. ») ne dit pas la réouverture de l'Académie : confirmation officielle partielle. L'article Wikipedia de l'épisode confirme tout le fait central : Vance invite Ake « to be the first Chancellor of the recommissioned Starfleet Academy » ; Caleb y « meets some of his classmates ». Niveau A ramené à B."
+  },
+  {
+   "id": "STP-229",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Conflit d'appartenance d'un étudiant issu de la rue avec les institutions fédérales",
+     "apres": "Doute d'appartenance d'un étudiant issu de la rue à l'Académie de Starfleet"
+    }
+   },
+   "motif": "revérification de novembre 2026 — Aucune page officielle propre à l'épisode n'a pu être lue : les pages d'épisode Paramount+ (/shows/video/…) renvoient une erreur 404 ou 500 et ne sont pas archivées, et startrek.com ne publie pas de récapitulatif d'épisode pour Starfleet Academy. La liste d'épisodes Paramount+ reste la seule source officielle : « Caleb Mir, a brilliant street kid » (« Kids These Days ») et « Caleb questions whether he belongs at Starfleet Academy as the new academic year begins. » (« Beta Test »). Aucune page lue ne parle d'un conflit avec les « institutions fédérales » : l'intitulé est réduit à ce que confirme le synopsis, et l'entrée reste en A sur une page de liste (signalé). L'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Beta_Test_(Star_Trek:_Starfleet_Academy)) concorde : « Caleb attempts to flee the academy »."
+  },
+  {
+   "id": "STP-230",
+   "type": "signalement",
+   "champs": {},
+   "motif": "revérification de novembre 2026 — Aucune page officielle propre à l'épisode n'a pu être lue : les pages d'épisode Paramount+ (/shows/video/…) renvoient une erreur 404 ou 500 et ne sont pas archivées, et startrek.com ne publie pas de récapitulatif d'épisode pour Starfleet Academy. Le niveau A repose toujours sur la liste d'épisodes Paramount+ : « Jay-Den faces an existential crisis that threatens his species while confronting his past. » La liste ne nomme pas les Klingons ; l'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Vox_in_Excelso) le fait : un vaisseau klingon s'est écrasé, « putting the species on the brink of extinction ». Niveau maintenu, source de liste signalée."
+  },
+  {
+   "id": "STP-231",
+   "type": "signalement",
+   "champs": {},
+   "motif": "revérification de novembre 2026 — Aucune page officielle propre à l'épisode n'a pu être lue : les pages d'épisode Paramount+ (/shows/video/…) renvoient une erreur 404 ou 500 et ne sont pas archivées, et startrek.com ne publie pas de récapitulatif d'épisode pour Starfleet Academy. Le niveau A repose toujours sur la liste d'épisodes Paramount+, dont l'intitulé reprend le synopsis : « During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » L'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Come,_Let%27s_Away) concorde : cadets « sent to the derelict USS Miyazaki », abordé par « a group of furies ». Niveau maintenu, source de liste signalée."
+  },
+  {
+   "id": "STP-232",
+   "type": "correction",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "A",
+     "apres": "B"
+    },
+    "nature_source": {
+     "avant": "Synopsis officiel",
+     "apres": "Résumé d’épisode (Wikipedia)"
+    },
+    "url_source": {
+     "avant": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/",
+     "apres": "https://en.wikipedia.org/wiki/Rubincon"
+    }
+   },
+   "motif": "revérification de novembre 2026 — Aucune page officielle propre à l'épisode n'a pu être lue : les pages d'épisode Paramount+ (/shows/video/…) renvoient une erreur 404 ou 500 et ne sont pas archivées, et startrek.com ne publie pas de récapitulatif d'épisode pour Starfleet Academy. Le synopsis de la liste Paramount+ (« An old enemy's return forces Nahla to confront her mistakes in a mission to save the Federation. ») ne nomme pas Nus Braka, et la page Paramount+ qui le nommait n'était pas citée. L'article Wikipedia de l'épisode confirme tout le fait central : « Braka is forming a cartel of non-Federation worlds to take over the galaxy » ; « Federation on Trial! » « wherein Ake represents the Federation ». Niveau A ramené à B, intitulé conservé."
+  },
+  {
+   "id": "STP-262",
+   "type": "signalement",
+   "champs": {
+    "nature_source": {
+     "avant": "Synopsis officiel",
+     "apres": "Récapitulatif officiel"
+    },
+    "url_source": {
+     "avant": "https://www.paramountplus.com/shows/star_trek_voyager/episodes/4/",
+     "apres": "https://web.archive.org/web/20230322224332/https://www.startrek.com/database_article/random-thoughts"
+    }
+   },
+   "motif": "revérification de novembre 2026 — La page d'épisode officielle de startrek.com (base de données) affiche aujourd'hui « Coming Soon » ; elle est lue dans sa copie archivée (Wayback Machine, 22 mars 2023) : https://web.archive.org/web/20230322224332/https://www.startrek.com/database_article/random-thoughts. Elle confirme tout le fait central : « the world of the Mari, a telepathic race » ; « Torres is arrested for \"aggravated violent thought resulting in grave bodily harm.\" » Niveau A maintenu, désormais sur une page d'épisode."
+  },
+  {
+   "id": "STP-264",
+   "type": "signalement",
+   "champs": {
+    "nature_source": {
+     "avant": "Synopsis officiel",
+     "apres": "Récapitulatif officiel"
+    },
+    "url_source": {
+     "avant": "https://www.paramountplus.com/shows/star_trek_voyager/episodes/7/",
+     "apres": "https://web.archive.org/web/20230328093253/https://www.startrek.com/database_article/workforce-part-ii"
+    }
+   },
+   "motif": "revérification de novembre 2026 — La page d'épisode officielle de startrek.com (base de données) affiche aujourd'hui « Coming Soon » ; elle est lue dans sa copie archivée (Wayback Machine, 28 mars 2023) : https://web.archive.org/web/20230328093253/https://www.startrek.com/database_article/workforce-part-ii. La page de la partie II confirme tout le fait central : le médecin Kadan « altered their memories and sent them to work at the power plant » et « claims it was to cure the labor shortage » ; Chakotay parle de « his abducted crewmates ». Niveau A maintenu, désormais sur une page d'épisode."
+  },
+  {
+   "id": "STP-281",
+   "type": "signalement",
+   "champs": {
+    "nature_source": {
+     "avant": "Synopsis officiel",
+     "apres": "Récapitulatif officiel"
+    },
+    "url_source": {
+     "avant": "https://www.paramountplus.com/shows/star_trek_voyager/episodes/7/",
+     "apres": "https://web.archive.org/web/20230322223853/https://www.startrek.com/database_article/flesh-and-blood-part-i"
+    }
+   },
+   "motif": "revérification de novembre 2026 — La page d'épisode officielle de startrek.com (base de données) affiche aujourd'hui « Coming Soon » ; elle est lue dans sa copie archivée (Wayback Machine, 22 mars 2023) : https://web.archive.org/web/20230322223853/https://www.startrek.com/database_article/flesh-and-blood-part-i. La page de la partie I confirme tout le fait central : « the Holograms malfunctioned, took control and deactivated the safety protocols » ; « Donik confesses that he modified the Holograms under his Alpha's orders to make them formidable prey » ; Iden « joined other photonic beings who were being oppressed […] and who had chosen to fight back » ; « a highly intelligent Cardassian hologram ». La partie II n'a pas de copie archivée. Niveau A maintenu, désormais sur une page d'épisode."
+  },
+  {
+   "id": "STP-045",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Effacement institutionnel d'informations sur Discovery et l'ange rouge",
+     "apres": "Effacement institutionnel d'informations sur Discovery et son équipage"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Compte rendu indépendant détaillé"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+     "apres": "https://blog.trekcore.com/2019/04/star-trek-discovery-season-finale-review-such-sweet-sorrow-part-2/"
+    }
+   },
+   "motif": "revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). La critique TrekCore de « Such Sweet Sorrow, Part 2 » confirme l'effacement : « they each tell the same coordinated lie: Discovery and its crew were lost in battle against Control's forces » ; « For reasons of galactic security, Spock suggests that details about Control, the sphere data » [… deviennent] « highly classified information, never to be spoken of again ». Aucune page lue (TrekCore, Den of Geek) ne range l'ange rouge dans ce secret : il est retiré de l'intitulé. Niveau B maintenu sur une page d'épisode."
+  },
+  {
+   "id": "STP-201",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Débat sur l'existence et les droits des synthétiques sur Coppelius",
+     "apres": "Flotte romulienne envoyée détruire les synthétiques de Coppelius et levée des restrictions fédérales visant les synthétiques"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Compte rendu indépendant détaillé"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+     "apres": "https://www.denofgeek.com/tv/star-trek-picard-episode-10-review-et-in-arcadia-ego-part-2/"
+    }
+   },
+   "motif": "revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). Aucune page d'épisode lue ne décrit un « débat » sur l'existence et les droits des synthétiques : ni les récapitulatifs officiels des parties 1 et 2 (startrek.com), ni Den of Geek, ni Reactor. La critique Den of Geek de la partie 2 confirme l'intitulé réduit : « a Romulan fleet of warbirds is set to arrive at the planet to destroy all synthetic life they find there » ; « The synth travel restrictions have been lifted ». Reactor concorde : « the synth ban has been lifted » (https://reactormag.com/the-picard-maneuver-star-trek-picards-et-in-arcadia-ego-part-2/). Niveau B maintenu sur une page d'épisode."
+  },
+  {
+   "id": "STP-210",
+   "type": "signalement",
+   "champs": {
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Compte rendu indépendant détaillé"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
+     "apres": "https://blog.trekcore.com/2021/09/star-trek-lower-decks-review-where-pleasant-fountains-lie/"
+    }
+   },
+   "motif": "revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). La critique TrekCore de l'épisode confirme le fait central : « his mother’s attempts to trick him » ; Billups veut « keep his place in Starfleet and avoid having to take the Hysperian throne » ; « another one of her schemes ». Niveau B maintenu sur une page d'épisode."
+  },
+  {
+   "id": "STP-212",
+   "type": "signalement",
+   "champs": {},
+   "motif": "revérification de novembre 2026 — Fait réparti sur plusieurs épisodes (saisons 1–2, « wej Duj », « First First Contact ») : aucune page d'épisode ne peut le confirmer en entier, et la page de saison Wikipedia reste la source. La critique TrekCore de « wej Duj » (https://blog.trekcore.com/2021/10/star-trek-lower-decks-review-wej-duj-three-ships/) confirme la partie klingonne : Dorg « supplying the dimwitted aliens with not just information and weaponry, but the deadly Veruvian explosives » pour « target Earth ». L'accusation de Freeman (« First First Contact ») n'a pas été revérifiée sur une page d'épisode. Niveau B maintenu, source de saison signalée."
+  },
+  {
+   "id": "STP-213",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Mission de bonne volonté de Starfleet sur Orion et libre choix de Tendi face à son puissant clan familial",
+     "apres": "Envoi de Tendi sur Orion à la demande de Starfleet et libre choix de Tendi face à son puissant clan familial"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Compte rendu indépendant détaillé"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4",
+     "apres": "https://reactormag.com/the-secret-origin-of-the-mistress-of-the-winter-constellations-star-trek-lower-decks-something-borrowed-something-green/"
+    }
+   },
+   "motif": "revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode. Aucune page d'épisode lue (Reactor, TrekCore, startrek.com « Below Deck with Lower Decks ») ne parle d'une mission de « bonne volonté » : seule la page de saison Wikipedia le disait. La critique Reactor confirme l'intitulé réduit : « Freeman makes it clear that Starfleet wants her to go » ; « children of important Orion families, of which the Tendis very much are one » ; « Tendi left for Starfleet Academy without discussing it with anyone ». TrekCore (https://blog.trekcore.com/2023/09/star-trek-lower-decks-review-something-borrowed-something-green/) concorde : « Rebelling against her upbringing, Tendi ultimately decided to leave Orion for Starfleet. » Niveau B maintenu sur une page d'épisode ; la catégorie diplomatie/traité, attribuée en V0.7 d'après « Mission de bonne volonté », est à revoir."
+  },
+  {
+   "id": "STP-225",
+   "type": "signalement",
+   "champs": {
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Compte rendu indépendant détaillé"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2",
+     "apres": "https://blog.trekcore.com/2024/11/star-trek-prodigy-reviews-brink-touch-of-grey/"
+    }
+   },
+   "motif": "revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). La critique TrekCore de « Brink » et « Touch of Grey » confirme le fait central : « it's Asencia — not the Vindicator, but rather young Asencia from this time period » ; « Seeing the absolute worst version of yourself has got to make you pretty introspective, so it makes perfect sense that she would be a leader in the resistance. » Niveau B maintenu sur une page d'épisode ; TrekCore dit « leader », là où Wikipedia (saison) disait seulement qu'elle s'est rangée du côté de la rébellion : l'intitulé « Ralliement » reste prudent."
+  },
+  {
+   "id": "STP-227",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Intervention de Janeway dans la guerre civile de Solum en violation de la Directive première",
+     "apres": "Intervention de Janeway dans la guerre civile de Solum"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Compte rendu indépendant détaillé"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2",
+     "apres": "https://blog.trekcore.com/2024/11/star-trek-prodigy-reviews-brink-touch-of-grey/"
+    }
+   },
+   "motif": "revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). La critique TrekCore de « Brink » et « Touch of Grey » confirme le soulèvement et l'intervention : « Ilthuran makes a broadcast opposing her as she receives reports of people rising up » ; « Stopping a civil war » ; « Janeway boldly goes to confront Asencia ». Elle ne confirme pas la violation de la Directive première ; elle présente au contraire la mission comme « a nice way to go around Admiral Jellico's orders without technically breaking them (or the Primer Directive) ». La violation, affirmée par la seule page de saison Wikipedia, est contestée : elle est retirée de l'intitulé (la problématique garde la question de la Directive première). Niveau B maintenu sur une page d'épisode."
+  },
+  {
+   "id": "STP-289",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Mutinerie et contestation de la chaîne de commandement sur un vaisseau klingon",
+     "apres": "Défi en duel et prise du commandement d'un vaisseau klingon par un officier contestant son capitaine"
+    },
+    "nature_source": {
+     "avant": "Résumé secondaire indexé",
+     "apres": "Compte rendu indépendant détaillé"
+    },
+    "url_source": {
+     "avant": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
+     "apres": "https://reactormag.com/tv-review-star-trek-lower-decks-wej-duj/"
+    }
+   },
+   "motif": "revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). Aucune page lue ne parle de « mutinerie ». La critique Reactor de « wej Duj » confirme l'intitulé réduit : « Mach thinks this is dishonorable behavior, and so he challenges Dorg to a duel. » ; « This is enough to give Mach victory—and the captaincy! » (Reactor écrit « Mach » pour Ma'ah). TrekCore (https://blog.trekcore.com/2021/10/star-trek-lower-decks-review-wej-duj-three-ships/) concorde : « Ma’ah seems to have earned his way to the Che’ta captain’s chair ». Niveau B maintenu sur une page d'épisode."
+  }
+ ]
+}

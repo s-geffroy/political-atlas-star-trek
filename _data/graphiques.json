@@ -1451,13 +1451,13 @@
    "code": "SFA",
    "nom": "Starfleet Academy",
    "total": 9,
-   "A": 5,
-   "B": 4,
+   "A": 3,
+   "B": 6,
    "C": 0,
-   "pct_A": 8.47,
-   "pct_B": 6.78,
+   "pct_A": 5.08,
+   "pct_B": 10.17,
    "pct_C": 0,
-   "part_A": 56
+   "part_A": 33
   }
  ],
  "max_niveaux": 59

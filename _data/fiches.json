@@ -587,7 +587,7 @@
   "entetes": {
    "periode": "2377",
    "source_audiovisuelle": "VOY « Flesh and Blood »",
-   "recoupement": "A — Synopsis officiel"
+   "recoupement": "A — Récapitulatif officiel"
   },
   "volets": {
    "faits": "Des hologrammes créés comme proies pour les chasses hirogenes développent une autonomie et se révoltent. Le Docteur soutient leur revendication, avant de devoir s’opposer aux violences du meneur Iden.",
@@ -604,6 +604,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
     "url": "https://www.paramountplus.com/shows/star_trek_voyager/episodes/7/"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.15)",
+    "url": "https://web.archive.org/web/20230322223853/https://www.startrek.com/database_article/flesh-and-blood-part-i"
    }
   ]
  },

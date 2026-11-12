@@ -89,6 +89,7 @@ export function appliquer(journal) {
         // Titre de la fiche : suit l'intitule corrige.
         for (const c of cs) if (c.champs.event) g = g.replace(`### ${id} — ${c.champs.event.avant}\n`, `### ${id} — ${c.champs.event.apres}\n`);
         for (const c of cs) if (c.champs.period) g = g.replace(`**Période diégétique :** ${c.champs.period.avant}`, `**Période diégétique :** ${c.champs.period.apres}`);
+        for (const c of cs) if (c.champs.source) g = g.replace(`**Source audiovisuelle :** ${c.champs.source.avant}`, `**Source audiovisuelle :** ${c.champs.source.apres}`);
         // Volets de fiche corriges : texte « avant » exact, present une seule fois.
         for (const c of cs) for (const [k, { avant, apres }] of Object.entries(c.volets || {})) {
           const label = VOLETS[k];

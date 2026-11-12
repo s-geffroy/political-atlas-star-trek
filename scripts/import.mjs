@@ -148,8 +148,9 @@ export function importer(csvPath, mdPath) {
   for (const e of evenements) e.relations = { sortantes: [], entrantes: [], examinee_le: sansRel.ids.includes(e.id) ? sansRel.date : null };
   for (const x of relations) {
     if (!parId.has(x.de) || !parId.has(x.vers)) continue;
-    parId.get(x.de).relations.sortantes.push({ id: x.vers, type: x.type, url: x.url, justification: x.justification });
-    parId.get(x.vers).relations.entrantes.push({ id: x.de, type: x.type, url: x.url, justification: x.justification });
+    const commun = { type: x.type, url: x.url, url_complementaire: x.url_complementaire || null, justification: x.justification };
+    parId.get(x.de).relations.sortantes.push({ id: x.vers, ...commun });
+    parId.get(x.vers).relations.entrantes.push({ id: x.de, ...commun });
   }
 
   // Rang diegetique (tri seulement) et bande d'affichage (siecle de la cle).

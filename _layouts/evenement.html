@@ -75,10 +75,10 @@ layout: default
   <h2>Relations documentées</h2>
   <ul class="relations">
     {%- for x in RE %}{% assign y = site.data.evenements | where: "id", x.id | first %}
-    <li><span class="rel">{% if x.type == "cause" %}Causé en partie par{% elsif x.type == "suite" %}Fait suite à{% else %}Même arc que{% endif %}</span> <a href="{{ '/evenements/' | append: y.id | append: '/' | relative_url }}">{{ y.id }} — {{ y.event | escape }}</a>. <span class="carte__meta">{{ x.justification | escape }} <a href="{{ x.url }}" rel="noopener">Source</a>.</span></li>
+    <li><span class="rel">{% if x.type == "cause" %}Causé en partie par{% elsif x.type == "suite" %}Fait suite à{% else %}Même arc que{% endif %}</span> <a href="{{ '/evenements/' | append: y.id | append: '/' | relative_url }}">{{ y.id }} — {{ y.event | escape }}</a>. <span class="carte__meta">{{ x.justification | escape }} <a href="{{ x.url }}" rel="noopener">Source</a>{% if x.url_complementaire %}, <a href="{{ x.url_complementaire }}" rel="noopener">source complémentaire</a>{% endif %}.</span></li>
     {%- endfor %}
     {%- for x in RS %}{% assign y = site.data.evenements | where: "id", x.id | first %}
-    <li><span class="rel">{% if x.type == "cause" %}Contribue à causer{% elsif x.type == "suite" %}A pour suite{% else %}Même arc que{% endif %}</span> <a href="{{ '/evenements/' | append: y.id | append: '/' | relative_url }}">{{ y.id }} — {{ y.event | escape }}</a>. <span class="carte__meta">{{ x.justification | escape }} <a href="{{ x.url }}" rel="noopener">Source</a>.</span></li>
+    <li><span class="rel">{% if x.type == "cause" %}Contribue à causer{% elsif x.type == "suite" %}A pour suite{% else %}Même arc que{% endif %}</span> <a href="{{ '/evenements/' | append: y.id | append: '/' | relative_url }}">{{ y.id }} — {{ y.event | escape }}</a>. <span class="carte__meta">{{ x.justification | escape }} <a href="{{ x.url }}" rel="noopener">Source</a>{% if x.url_complementaire %}, <a href="{{ x.url_complementaire }}" rel="noopener">source complémentaire</a>{% endif %}.</span></li>
     {%- endfor %}
   </ul>
   <p class="carte__meta">Relations établies explicitement par la source citée (enrichissement hors corpus, <a href="{{ '/methodologie/' | relative_url }}#relations">méthode</a>) {% assign grp = site.data.reseau.composantes | where_exp: "c", "c.ids contains e.id" | first %}· <a href="{% if grp %}{{ '/reseau/' | append: grp.cle | append: '/' | relative_url }}{% else %}{{ '/reseau/' | relative_url }}{% endif %}">voir le réseau</a>.</p>

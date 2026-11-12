@@ -134,6 +134,9 @@ export function valider({ csv, md } = dernieresSources()) {
       if (x.de === x.vers) err.push(`relation ${k} : boucle`);
       if (!['cause', 'suite', 'meme_arc'].includes(x.type)) err.push(`relation ${k} : type « ${x.type} » inconnu`);
       if (!/^https?:\/\//.test(x.url || '')) err.push(`relation ${k} : source manquante`);
+      if (x.url_complementaire != null && !/^https?:\/\//.test(x.url_complementaire)) err.push(`relation ${k} : source complémentaire invalide`);
+      const champsInconnus = Object.keys(x).filter((c) => !['de', 'vers', 'type', 'url', 'url_complementaire', 'justification'].includes(c));
+      if (champsInconnus.length) err.push(`relation ${k} : champ(s) inconnu(s) ${champsInconnus.join(', ')}`);
       if (secondaires.has(x.de) || secondaires.has(x.vers)) err.push(`relation ${k} : vise un doublon secondaire`);
       if (vusRel.has(k)) err.push(`relation ${k} : en double`);
       vusRel.add(k);

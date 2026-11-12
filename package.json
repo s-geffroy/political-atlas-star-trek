@@ -10,6 +10,7 @@
     "validate": "node scripts/validate.mjs",
     "test": "node --test tests/",
     "check": "node scripts/import.mjs && node scripts/validate.mjs && node --test tests/",
+    "verify": "node scripts/verify.mjs",
     "links": "node scripts/check-links.mjs"
   }
 }

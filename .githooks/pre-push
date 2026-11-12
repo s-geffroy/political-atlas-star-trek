@@ -1,0 +1,5 @@
+#!/bin/sh
+# Hook versionne (activation : git config core.hooksPath .githooks).
+# Un push publie le site : on verifie d'abord que les fichiers generes sont a
+# jour et que validation et tests passent. Contournement explicite : --no-verify.
+cd "$(git rev-parse --show-toplevel)" && exec node scripts/verify.mjs

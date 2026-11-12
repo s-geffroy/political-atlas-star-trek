@@ -64,6 +64,7 @@ npm run import     # sources -> donnees Jekyll et pages
 npm run validate   # 10 controles ; sort en erreur si un controle echoue
 npm test           # tests automatises
 npm run check      # les trois, dans l'ordre
+npm run verify     # avant publication : fichiers generes a jour, validation, tests
 ```
 
 Verification optionnelle avec le constructeur officiel de GitHub Pages
@@ -83,8 +84,41 @@ npm run check
 git add -A && git commit -m "..." && git push
 ```
 
-**Le push est la publication.** La construction prend une a deux minutes ;
+**Le push est la publication.** La construction prend de une a cinq minutes ;
 son deroulement et ses echecs sont visibles dans l'onglet **Actions** du depot.
+
+### Garde-fou avant push
+
+`npm run verify` relance l'import et echoue si un fichier genere (`_data/`,
+`_evenements/`, `atlas/`, `analyses/`, `reseau/`, registres de `data/`,
+`docs/rapport-import.md`) differe de ce que donnent les sources : donnee
+modifiee sans import, ou import non commite. Il enchaine validation et tests.
+
+Le hook versionne `.githooks/pre-push` lance cette verification a chaque push.
+Activation, une fois par clone :
+
+```bash
+git config core.hooksPath .githooks
+```
+
+Contournement explicite et exceptionnel : `git push --no-verify`.
+
+### Versions du corpus et retour arriere
+
+Chaque version du corpus publiee porte un tag annote `corpus-vX.Y` sur son
+commit (`git tag -l 'corpus-*'`). Apres une nouvelle version :
+
+```bash
+git tag -a corpus-v0.12 -m "Corpus V0.12 : ..." && git push origin corpus-v0.12
+```
+
+Separer, autant que possible, les commits de donnees (corpus, relations,
+doublons) des commits de code ou de gabarits : un retour arriere reste alors
+cible.
+
+Retour arriere apres une publication fautive : `git revert <commit>` (jamais
+de `push --force` sur `main`), `npm run verify`, puis push. Pour revenir a une
+version du corpus, comparer avec son tag (`git diff corpus-v0.10 -- data/`).
 
 Reglage a faire une fois : depot > **Settings** > **Pages** > *Deploy from a
 branch*, branche `main`, dossier `/ (root)`.

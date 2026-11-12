@@ -40,7 +40,7 @@ scripts: [explorateur.js]
     </select>
   </div>
   <div>
-    <label for="f-niv">Niveau documentaire</label>
+    <label for="f-niv">Niveau de vérification</label>
     <select id="f-niv" name="niv"><option value="">Tous</option>
       {%- for n in S.niveaux %}<option value="{{ n.cle }}">{{ n.cle }} ({{ n.n }})</option>{% endfor %}
     </select>
@@ -65,10 +65,11 @@ scripts: [explorateur.js]
 </form>
 
 <p class="etat" id="etat" role="status" aria-live="polite"><strong>{{ S.distincts }}</strong> entrées.</p>
+<p class="vide" id="vide" hidden>Aucune entrée : <button class="bouton" type="button">réinitialiser les filtres</button></p>
 
 <h2 class="visuellement-cache">Liste des entrées</h2>
 <ol class="lignes" id="liste">
   {%- for e in evs %}{% unless e.doublon_de %}{% include ligne.html e=e %}{% endunless %}{% endfor %}
 </ol>
-<p class="carte__meta">Pastille : niveau de recoupement (A, B, C). Mention « fiche » : fiche approfondie disponible.</p>
+<p class="carte__meta">Pastille : niveau de vérification (A, B, C). Mention « fiche » : fiche approfondie disponible.</p>
 <noscript><p>La recherche et les filtres demandent JavaScript ; sans lui, la liste complète reste consultable ci-dessus.</p></noscript>

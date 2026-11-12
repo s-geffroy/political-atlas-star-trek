@@ -8,9 +8,10 @@
   if (!form || !liste) return;
   form.hidden = false;
 
+  var vide = document.getElementById('vide');
   var cartes = Array.prototype.slice.call(liste.children);
   var norm = function (s) {
-    return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    return (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   };
   cartes.forEach(function (c) { c._texte = norm(c.textContent + ' ' + c.dataset.cat); });
 
@@ -59,27 +60,65 @@
       if (ok) n++;
     });
     var tri = champ('tri').value;
-    var cmp = {
-      id: function (a, b) { return a.dataset.id < b.dataset.id ? -1 : 1; },
-      periode: function (a, b) { return a.dataset.rang - b.dataset.rang; },
-      titre: function (a, b) { return a.dataset.titre.localeCompare(b.dataset.titre, 'fr', { sensitivity: 'base' }); }
-    }[tri] || null;
-    if (cmp) {
-      var frag = document.createDocumentFragment();
-      cartes.slice().sort(cmp).forEach(function (c) { frag.appendChild(c); });
-      liste.appendChild(frag);
+    if (tri !== triCourant) {
+      var cmp = {
+        id: function (a, b) { return a.dataset.id < b.dataset.id ? -1 : 1; },
+        periode: function (a, b) { return a.dataset.rang - b.dataset.rang; },
+        titre: function (a, b) { return collateur.compare(a.dataset.titre, b.dataset.titre); }
+      }[tri] || null;
+      if (cmp) {
+        var frag = document.createDocumentFragment();
+        cartes.slice().sort(cmp).forEach(function (c) { frag.appendChild(c); });
+        liste.appendChild(frag);
+      }
+      triCourant = tri;
     }
-    etat.innerHTML = '<strong>' + n + '</strong> entrée' + (n > 1 ? 's' : '') + ' sur ' + cartes.length + '.';
+    if (vide) vide.hidden = n > 0;
+    compte = n;
     ecrireUrl();
+    return n;
   }
 
-  var minuteur;
+  // Region d'etat (role="status") : ecrite seulement quand le compte change,
+  // et apres une pause de saisie, pour ne pas interrompre le lecteur d'ecran.
+  var compteAnnonce = null;
+  function annoncer(n) {
+    if (n === compteAnnonce) return;
+    compteAnnonce = n;
+    etat.innerHTML = n === 0
+      ? '<strong>Aucune</strong> entrée sur ' + cartes.length + '.'
+      : '<strong>' + n + '</strong> entrée' + (n > 1 ? 's' : '') + ' sur ' + cartes.length + '.';
+  }
+
+  var PAUSE_ANNONCE = 500;
+  var collateur = new Intl.Collator('fr', { sensitivity: 'base' });
+  var triCourant = null;
+  var compte = 0;
+  var minuteurFiltre, minuteurAnnonce;
+  // Filtrage visuel rapide ; annonce apres PAUSE_ANNONCE sans nouvelle saisie.
+  function planifier(delaiFiltre) {
+    clearTimeout(minuteurFiltre);
+    clearTimeout(minuteurAnnonce);
+    minuteurFiltre = setTimeout(appliquer, delaiFiltre);
+    minuteurAnnonce = setTimeout(function () { annoncer(compte); }, Math.max(delaiFiltre, PAUSE_ANNONCE));
+  }
   form.addEventListener('input', function (ev) {
-    clearTimeout(minuteur);
-    minuteur = setTimeout(appliquer, ev.target.name === 'q' ? 150 : 0);
+    planifier(ev.target.name === 'q' ? 150 : 0);
   });
-  form.addEventListener('submit', function (ev) { ev.preventDefault(); appliquer(); });
-  form.addEventListener('reset', function () { setTimeout(appliquer, 0); });
+  form.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    clearTimeout(minuteurFiltre);
+    clearTimeout(minuteurAnnonce);
+    annoncer(appliquer());
+  });
+  form.addEventListener('reset', function () { planifier(0); });
+  if (vide) {
+    var raz = vide.querySelector('button');
+    if (raz) raz.addEventListener('click', function () {
+      form.reset();
+      champ('q').focus();
+    });
+  }
   lireUrl();
-  appliquer();
+  annoncer(appliquer());
 })();

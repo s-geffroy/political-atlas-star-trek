@@ -15,13 +15,16 @@
   --magenta: #ea7ae0;
   --lavande: #a9a3ff;
   --rouge: #ff7a6b;
-  /* Niveaux A/B/C : trio valide (luminosite, daltonisme, contraste) sur fond sombre. */
+  /* Niveaux A/B/C : B volontairement plus clair (Y relatif 1,55:1 face a A et C)
+     pour rester distinct en niveaux de gris ; texte #04060b dessus : A 5,93,
+     B 9,20, C 5,94:1. */
   --niv-a: #1f9e66;
-  --niv-b: #7a74f0;
+  --niv-b: #aaa5ff;
   --niv-c: #c47a22;
   --rayon: 1.6rem;
   --police: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
   --police-titre: "Arial Narrow", "Roboto Condensed", "Helvetica Neue Condensed", "Nimbus Sans Narrow", var(--police);
+  --bord-champ: #4f6c98; /* 3,47:1 sur --surface, 3,79:1 sur --fond */
   --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
   color-scheme: dark;
 }
@@ -140,6 +143,8 @@ main { padding-block: 1.5rem 3rem; min-height: 60vh; }
 .niveau--A { background: var(--niv-a); }
 .niveau--B { background: var(--niv-b); }
 .niveau--C { background: var(--niv-c); }
+/* Nom accessible « Niveau X » quand le gabarit n'a pas de texte masque. */
+.niveau:not(:has(.visuellement-cache))::before { content: ""; content: "" / "Niveau "; }
 .etiquette { display: inline-block; padding: 0.05rem 0.6rem; border-radius: 999px; border: 1px solid var(--ligne); background: var(--surface-2); font-size: 0.82rem; color: var(--doux); white-space: nowrap; }
 .etiquette--fiche { border-color: var(--magenta); color: var(--magenta); }
 .etiquette--cont { border-color: var(--lavande); color: var(--lavande); }
@@ -166,7 +171,7 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .ligne::before { content: attr(data-niv); content: attr(data-niv) / "Niveau " attr(data-niv); position: absolute; left: 0.8rem; top: 0.6rem; min-width: 1.9rem; height: 1.6rem; line-height: 1.6rem; text-align: center; border-radius: 999px; font: 700 0.85rem/1.6rem var(--police-titre); color: #04060b; background: var(--niv-c); }
 .ligne[data-niv="A"]::before { background: var(--niv-a); }
 .ligne[data-niv="B"]::before { background: var(--niv-b); }
-.ligne[data-fiche="true"]::after { content: "fiche"; content: "fiche" / "Fiche approfondie disponible"; margin-left: 0.5rem; padding: 0 0.55rem; border: 1px solid var(--magenta); border-radius: 999px; color: var(--magenta); font-size: 0.78rem; white-space: nowrap; }
+.ligne[data-fiche="true"]::after { content: "fiche"; content: "fiche" / " Fiche approfondie disponible"; margin-left: 0.5rem; padding: 0 0.55rem; border: 1px solid var(--magenta); border-radius: 999px; color: var(--magenta); font-size: 0.78rem; white-space: nowrap; }
 .ligne > a { display: block; color: var(--texte); font-weight: 600; font-size: 1.02rem; text-decoration-color: var(--ligne); margin-bottom: 0.1rem; }
 .ligne > a:hover { color: var(--cyan); }
 
@@ -175,7 +180,7 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .filtres label { display: block; font-family: var(--police-titre); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.8rem; color: var(--ambre); margin-bottom: 0.25rem; }
 .filtres input, .filtres select {
   width: 100%; min-height: 2.75rem; padding: 0.45rem 0.7rem; font: inherit; color: var(--texte);
-  background: var(--fond); border: 1px solid #36507a; border-radius: 0.6rem;
+  background: var(--fond); border: 1px solid var(--bord-champ); border-radius: 0.6rem;
 }
 .filtres input:focus-visible, .filtres select:focus-visible { border-color: var(--ambre); }
 .bouton { min-height: 2.75rem; padding: 0.45rem 1.2rem; font: 600 0.9rem var(--police-titre); text-transform: uppercase; letter-spacing: 0.08em; background: var(--lavande); color: #07051a; border: 0; border-radius: 0 999px 999px 0; cursor: pointer; }
@@ -183,6 +188,8 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .bouton--ambre { background: var(--ambre); color: #120a00; }
 .etat { margin: 1rem 0 0.4rem; color: var(--doux); }
 .etat strong { color: var(--texte); }
+.vide[hidden] { display: none; }
+.vide { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.8rem; margin: 0.4rem 0 1rem; color: var(--texte); }
 
 /* --- Fiche evenement --------------------------------------------------- */
 .entete-fiche { display: grid; gap: 0.3rem; border-left: 0.6rem solid var(--ambre); padding-left: 1rem; }
@@ -218,6 +225,7 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .frise > li[data-niv="B"]::after { background: var(--niv-b); }
 .frise .bande { font-family: var(--police-titre); text-transform: uppercase; letter-spacing: 0.08em; color: var(--ambre); margin: 1.2rem 0 0.5rem; }
 .frise .bande::before { border-color: var(--ambre); background: var(--ambre); }
+.frise .bande__titre { font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit; margin: 0; }
 
 /* Catalogue des saisons : une ligne par saison, sans decor (DOM leger). */
 .saisons { margin: 0.4rem 0 0; padding-left: 1.4rem; color: var(--doux); }
@@ -231,6 +239,8 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .carte-chaleur th, .carte-chaleur td { border: 0; padding: 0.35rem 0.5rem; }
 .carte-chaleur thead th { font-size: 0.78rem; text-align: center; color: var(--doux); }
 .carte-chaleur tbody th { font-family: var(--police); text-transform: none; letter-spacing: 0; font-size: 0.88rem; color: var(--texte); white-space: nowrap; font-weight: 500; }
+.carte-chaleur tbody th, .carte-chaleur thead th:first-child { position: sticky; left: 0; z-index: 1; background: var(--fond); box-shadow: -2px 0 0 var(--fond), 2px 0 0 var(--fond); }
+.sigles abbr { text-decoration: none; font-weight: 600; color: var(--texte); }
 .carte-chaleur td { min-width: 2.4rem; text-align: center; border-radius: 4px; font-size: 0.88rem; }
 .q0 { background: var(--surface); color: var(--doux); }
 .q1 { background: #152b3d; color: var(--texte); }
@@ -308,8 +318,30 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 }
 
 @media print {
-  .bandeau, .nav, .pied, .filtres, .onglets { display: none; }
-  body { background: #fff; color: #000; }
+  :root {
+    --fond: #fff; --surface: #fff; --surface-2: #f2f2f2; --ligne: #888;
+    --texte: #000; --doux: #333; --ambre: #000; --cyan: #003a70;
+    --magenta: #5a1050; --lavande: #333; --rouge: #7a1200;
+    color-scheme: light;
+  }
+  .bandeau, .nav, .pied, .filtres, .onglets, .evitement, .vide, .balayage::after, noscript { display: none !important; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  h1, h2, h3, h4, th, dt, .rel, .filtres label, .frise .bande, .frise .bande--sous { color: #000 !important; }
+  h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+  a { color: #000; text-decoration: underline; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; overflow-wrap: anywhere; }
+  .defile { overflow: visible; }
+  tr, .carte, .ligne, .frise > li, .donnees dt, .donnees dd { break-inside: avoid; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  .carte-chaleur tbody th, .carte-chaleur thead th:first-child { position: static; box-shadow: none; }
+  .encadre, .compteur, .panneau, .carte, .ligne, .donnees, .historique, .sommaire a { background: #fff !important; border-color: #000 !important; }
+  /* Pastilles de niveau : lettre noire sur blanc, cernee, lisible sans couleur. */
+  .niveau, .ligne::before, .frise > li[data-niv]::after { background: #fff !important; color: #000 !important; border: 1.5px solid #000; }
+  .niveau--B, .ligne[data-niv="B"]::before, .frise > li[data-niv="B"]::after { border-style: dashed; }
+  .niveau--C, .ligne[data-niv="C"]::before, .frise > li[data-niv="C"]::after { border-style: dotted; }
+  .q0, .q1, .q2, .q3, .q4, .q5 { color: #000 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .q1 { background: #f0f0f0; } .q2 { background: #d9d9d9; } .q3 { background: #bfbfbf; } .q4 { background: #a6a6a6; } .q5 { background: #8c8c8c; }
+  .reseau rect { fill: #fff; stroke: #000; } .reseau text { fill: #000; }
 }
 .historique { background: var(--surface); border-radius: 1rem; padding: 0.7rem 1.2rem; margin: 1.2rem 0; }
 .historique summary { cursor: pointer; font-weight: 600; color: var(--cyan, inherit); }
@@ -319,3 +351,8 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .audit__brut summary { cursor: pointer; color: var(--doux); font-size: 0.9rem; }
 .frise .bande--sous { font-size: 0.85rem; color: var(--cyan); margin-top: 0.8rem; }
 .frise .bande--sous::before { border-color: var(--cyan); background: var(--fond); }
+.carte-chaleur .effectifs td, .carte-chaleur .effectifs th { font-size: 0.78rem; color: var(--doux); background: none; }
+.carte-chaleur td.total { font-weight: 700; color: var(--texte); background: none; }
+.legende--classes .pastille-leg { border: 1px solid var(--ligne); }
+.reseau text.n-id { fill: var(--doux); font-size: 11px; }
+.amorce { font-size: 1.05rem; }

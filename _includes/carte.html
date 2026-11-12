@@ -6,7 +6,7 @@
     data-cont="{{ e.continuite }}" data-epoque="{{ e.bande | slugify }}" data-fiche="{{ e.fiche }}" data-titre="{{ e.event | escape }}">
   <div class="carte__id">
     <span>{{ e.id }}</span>
-    <span class="niveau niveau--{{ e.niveau_recoupement }}" title="Niveau de recoupement {{ e.niveau_recoupement }}"><span class="visuellement-cache">Niveau </span>{{ e.niveau_recoupement }}</span>
+    <span class="niveau niveau--{{ e.niveau_recoupement }}" title="Niveau de vérification {{ e.niveau_recoupement }}"><span class="visuellement-cache">Niveau </span>{{ e.niveau_recoupement }}</span>
   </div>
   <div>
     <h3 class="carte__titre"><a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{{ e.event | escape }}</a></h3>

@@ -9,7 +9,7 @@ description: Chronologie de l’histoire fictive de Star Trek, événement par �
 <p class="chapo">Deux lectures du même corpus : l’ordre de l’histoire fictive (cette page) et l’ordre de diffusion réel des œuvres. Une période floue (« XXIVe siècle », « Passé lointain ») n’est jamais convertie en année : elle reste affichée telle quelle, et sert seulement à ranger l’entrée. Dans chaque siècle, les entrées datées viennent d’abord (« Avant 2369 » juste avant 2369), puis celles qui ne donnent que le siècle (« Milieu XXIe siècle »), regroupées sous « Datation imprécise dans le siècle ». Une période à cheval sur deux siècles forme un groupe propre, placé entre eux.</p>
 {% include chrono-onglets.html vue="diegetique" %}
 
-<p>Les continuités alternatives forment des pistes séparées : leurs événements ne s’intercalent pas dans l’histoire principale. Pastille : niveau de recoupement.</p>
+<p>Les continuités alternatives forment des pistes séparées : leurs événements ne s’intercalent pas dans l’histoire principale. Pastille : niveau de vérification.</p>
 <p>
   {%- for c in site.data.stats.continuites %}<a href="#piste-{{ c.cle }}">{{ c.nom }} ({{ c.n }})</a>{% unless forloop.last %} · {% endunless %}{% endfor -%}
 </p>
@@ -18,8 +18,8 @@ description: Chronologie de l’histoire fictive de Star Trek, événement par �
 <ol class="frise">
   {%- assign bande = "" %}{% assign sb = "" -%}
   {%- for e in tri %}{% if e.continuite == c.cle and e.doublon_de == nil %}
-  {%- if e.bande != bande %}{% assign bande = e.bande %}{% assign sb = "" %}<li class="bande">{{ bande }}</li>{% endif %}
-  {%- if e.sous_bande and e.sous_bande != sb %}{% assign sb = e.sous_bande %}<li class="bande bande--sous">{{ sb }}</li>{% endif %}
+  {%- if e.bande != bande %}{% assign bande = e.bande %}{% assign sb = "" %}<li class="bande"><h3 class="bande__titre">{{ bande }}</h3></li>{% endif %}
+  {%- if e.sous_bande and e.sous_bande != sb %}{% assign sb = e.sous_bande %}<li class="bande bande--sous"><h4 class="bande__titre">{{ sb }}</h4></li>{% endif %}
   <li data-niv="{{ e.niveau_recoupement }}"><a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{{ e.period | escape }} · {{ e.id }} — {{ e.event | escape }}</a></li>
   {%- endif %}{% endfor %}
 </ol>

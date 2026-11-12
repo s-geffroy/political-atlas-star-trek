@@ -27,12 +27,16 @@ layout: default
 
   <h2>3. Le temps de la diffusion</h2>
   {%- if per %}
+  {%- if page.periode_par_annee %}
+  <p>Le document analytique ne consacre pas de paragraphe propre à cette œuvre ({{ e.series | join: ", " }}). Rattachement par l’année de première diffusion ({{ e.diffusion.first.date | slice: 0, 4 }}) : voici comment il situe la période {{ per.bornes }}, dont les séries ne sont pas celles de l’œuvre.</p>
+  {%- else %}
   <p>Le document analytique situe ainsi la période {{ per.bornes }} de la franchise :</p>
+  {%- endif %}
   <blockquote class="encadre">{{ per.texte | markdownify }}</blockquote>
   {%- else %}
-  <p>Le document analytique ne consacre pas de paragraphe de synthèse à la période de diffusion de cette œuvre.</p>
+  <p>Le document analytique ne consacre pas de paragraphe de synthèse à la période de diffusion de cette œuvre : ses « Lignes de force » ne couvrent ni la série animée (1973–1974), ni les films de 1979 à 1986, ni les films de la chronologie Kelvin.</p>
   {%- endif %}
-  <p>Le contexte de diffusion est un cadre de lecture, non une explication causale : le corpus ne contient ni entretiens ni documents de production établissant l’intention des scénaristes.</p>
+  <p>Le contexte de diffusion est un cadre de lecture, non une explication causale : sauf source de production citée par la fiche, le corpus ne contient ni entretiens ni documents de production établissant l’intention des scénaristes.</p>
 
   <h2>4. Résonances politiques</h2>
   <section class="volet volet--parallele"><h3>Parallèle réel à étudier</h3>{{ f.volets.parallele | markdownify }}</section>

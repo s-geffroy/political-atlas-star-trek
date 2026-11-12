@@ -164,3 +164,25 @@ test('ordre diegetique : imprecis apres les dates du siecle, « Avant N » avant
   assert.ok(min(parPeriode(/^Fin XXIe/)) > max(parPeriode(/^20\d\d/)) && max(parPeriode(/^Fin XXIe/)) < min(parPeriode(/^21\d\d/)));
   for (const e of gen) assert.ok(rang(e.id) >= 1);
 });
+
+test('nouvelle-version : volets de fiche et textes corriges seulement si le texte « avant » est exact', async () => {
+  const { appliquer } = await import('../scripts/nouvelle-version.mjs');
+  const fs = await import('node:fs');
+  const base = fs.readdirSync(new URL('../data/source/', import.meta.url)).filter((f) => f.endsWith('.csv'))
+    .map((f) => f.replace(/^Star_Trek_Atlas_Politique_|\.csv$/g, ''))
+    .sort((a, b) => { const [a1, a2] = a.split('_').map(Number), [b1, b2] = b.split('_').map(Number); return a1 - b1 || a2 - b2; })
+    .pop(); // version la plus recente, ex. « 0_12_2026-11-12 »
+  const md = fs.readFileSync(new URL(`../data/source/Star_Trek_Atlas_Politique_${base}.md`, import.meta.url), 'utf8');
+  const avant = /^\*\*Contexte de création et diffusion\.\*\* (.+)$/m.exec(md.slice(md.indexOf('### STP-077')))[1];
+  const lf = /^\*\*1966–1969 \(TOS\)\.\*\* (.{20})/m.exec(md)[1];
+  const j = (av, t) => ({ version: 'V9.9', date: '2026-01-01', date_longue: '1er janvier 2026', base, titre: 'Atlas politique de Star Trek — V9.9 : test', resume: 'Test.',
+    textes: [{ avant: t, apres: 'TEXTE-LF' }],
+    corrections: [{ id: 'STP-077', type: 'correction', champs: {}, volets: { contexte: { avant: av, apres: 'NOUVEAU CONTEXTE.' } },
+      sources_fiche: [{ libelle: 'Source de production', url: 'https://example.org/p' }], motif: 'test' }] });
+  const r = appliquer(j(avant, lf));
+  assert.ok(r.md.includes('**Contexte de création et diffusion.** NOUVEAU CONTEXTE.'));
+  assert.ok(r.md.includes('**Source de production (V9.9) :** https://example.org/p'));
+  assert.ok(r.md.includes('TEXTE-LF'));
+  assert.throws(() => appliquer(j('texte inexistant', lf)), /introuvable/);
+  assert.throws(() => appliquer(j(avant, 'texte absent du document')), /introuvable/);
+});

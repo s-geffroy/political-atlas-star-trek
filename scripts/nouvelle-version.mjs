@@ -14,6 +14,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { readRecords, serializeCsv } from './lib/csv.mjs';
 
+// Cles des volets de fiche (journal) -> intitules du Markdown.
+const VOLETS = {
+  faits: 'Faits canoniques et acteurs', mecanisme: 'Mécanisme politique', parallele: 'Parallèle réel à étudier',
+  objections: 'Objection et limites de l’analogie', contexte: 'Contexte de création et diffusion',
+};
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const SRC = path.join(ROOT, 'data/source');
 
@@ -84,10 +89,29 @@ export function appliquer(journal) {
         // Titre de la fiche : suit l'intitule corrige.
         for (const c of cs) if (c.champs.event) g = g.replace(`### ${id} — ${c.champs.event.avant}\n`, `### ${id} — ${c.champs.event.apres}\n`);
         for (const c of cs) if (c.champs.period) g = g.replace(`**Période diégétique :** ${c.champs.period.avant}`, `**Période diégétique :** ${c.champs.period.apres}`);
+        // Volets de fiche corriges : texte « avant » exact, present une seule fois.
+        for (const c of cs) for (const [k, { avant, apres }] of Object.entries(c.volets || {})) {
+          const label = VOLETS[k];
+          if (!label) { erreurs.push(`${id} : volet ${k} inconnu`); continue; }
+          const ancien = `**${label}.** ${avant}\n`;
+          if (g.split(ancien).length !== 2) { erreurs.push(`${id} : volet « ${label} », texte « avant » introuvable ou multiple`); continue; }
+          g = g.replace(ancien, () => `**${label}.** ${apres}\n`);
+        }
         if (d.url_source && !g.includes(d.url_source)) g = g.replace(/\s+$/, '') + `\n\n**Source secondaire/éditoriale de contrôle (${v}) :** ${d.url_source}  \n`;
+        // Sources ajoutees a la fiche (libelle commencant par « Source »).
+        for (const c of cs) for (const src of c.sources_fiche || []) {
+          if (!/^Source/.test(src.libelle) || !/^https?:\/\//.test(src.url)) { erreurs.push(`${id} : source de fiche mal formee`); continue; }
+          if (!g.includes(src.url)) g = g.replace(/\s+$/, '') + `\n\n**${src.libelle} (${v}) :** ${src.url}  \n`;
+        }
         return g;
       });
     }
+  }
+
+  // Textes editoriaux hors fiches (ex. « Lignes de force ») : remplacement exact, unique.
+  for (const t of journal.textes || []) {
+    if (md.split(t.avant).length !== 2) { erreurs.push(`Markdown : texte « ${t.avant.slice(0, 50)}… » introuvable ou multiple`); continue; }
+    md = md.replace(t.avant, () => t.apres);
   }
 
   // Corrections factuelles (hors recoupement) : section dediee, sous-titre de version.

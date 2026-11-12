@@ -514,9 +514,19 @@ export function ecrireSorties(r) {
   for (const f of r.fiches) {
     if (f.id === 'STP-006') continue;
     const e = r.evenements.find((x) => x.id === f.id);
-    const per = periodes.find((p) => e.series.some((s) => p.codes.includes(s)));
+    // Periode : celle de la serie de l'episode principal (premier episode cite) ;
+    // a defaut (films, TAS, Short Treks), celle qui contient l'annee de premiere
+    // diffusion, signalee comme rattachement par l'annee.
+    const seriePrincipale = e.episodes[0]?.serie || e.series[0];
+    let per = periodes.find((p) => p.codes.includes(seriePrincipale)) || periodes.find((p) => e.series.some((s) => p.codes.includes(s)));
+    let parAnnee = false;
+    if (!per && e.diffusion?.length) {
+      const an = +e.diffusion[0].date.slice(0, 4);
+      per = periodes.find((p) => { const [a, b] = p.bornes.split('–').map(Number); return an >= a && an <= b; });
+      parAnnee = !!per;
+    }
     ecrire(path.join(ROOT, 'analyses', `${f.id}.md`), ['---', '# Fichier GENERE par scripts/import.mjs.', 'layout: analyse', `stp: ${f.id}`,
-      `periode_diffusion: ${per ? yamlStr(per.bornes) : 'null'}`,
+      `periode_diffusion: ${per ? yamlStr(per.bornes) : 'null'}`, `periode_par_annee: ${parAnnee}`,
       `title: ${yamlStr(`${e.event} : fiction, contexte et limites`)}`,
       `description: ${yamlStr(`Analyse de ${f.id} (${e.source}) : faits de la fiction, contexte de diffusion, parallèle réel et limites de l’analogie.`)}`,
       `permalink: /analyses/${f.id}/`, 'nav: analyses', '---', ''].join('\n'));

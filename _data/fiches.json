@@ -92,6 +92,10 @@
    {
     "libelle": "Source documentaire pour le parallèle",
     "url": "https://www.archives.gov/milestone-documents/civil-rights-act"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
+    "url": "https://www.startrek.com/news/resistance-planetary-uprisings-movements"
    }
   ]
  },
@@ -497,9 +501,9 @@
   "id": "STP-271",
   "titre": "Rejet par Bajor de l’installation des réfugiés skrreeans sur sa planète",
   "entetes": {
-   "periode": "2369",
+   "periode": "2370",
    "source_audiovisuelle": "DS9 «Sanctuary»",
-   "recoupement": "B — Résumé secondaire indexé"
+   "recoupement": "B — Résumé d’épisode (Wikipedia) ; date in-univers : Memory Alpha"
   },
   "volets": {
    "faits": "Les Skrreeans, chassés de leur monde et guidés par une croyance en un nouveau foyer, veulent s’établir sur Bajor. Le gouvernement provisoire refuse, invoquant sa propre reconstruction et les ressources disponibles.",
@@ -516,6 +520,10 @@
    {
     "libelle": "Source documentaire pour le parallèle",
     "url": "https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
+    "url": "https://en.wikipedia.org/wiki/Sanctuary_(Star_Trek:_Deep_Space_Nine)"
    }
   ]
  },
@@ -525,7 +533,7 @@
   "entetes": {
    "periode": "2374",
    "source_audiovisuelle": "DS9 «Statistical Probabilities»",
-   "recoupement": "B — Résumé secondaire indexé"
+   "recoupement": "B — Résumé d’épisode (Wikipedia)"
   },
   "volets": {
    "faits": "Bashir et des personnes génétiquement augmentées élaborent une prévision selon laquelle la Fédération perdra la guerre. Certains envisagent de communiquer au Dominion des informations militaires pour forcer la paix.",
@@ -538,6 +546,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/episodes/statistical-probabilities"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
+    "url": "https://en.wikipedia.org/wiki/Statistical_Probabilities"
    }
   ]
  },
@@ -573,7 +585,7 @@
   "entetes": {
    "periode": "2377",
    "source_audiovisuelle": "VOY «The Void»",
-   "recoupement": "B — Résumé secondaire indexé"
+   "recoupement": "B — Résumé d’épisode (Wikipedia)"
   },
   "volets": {
    "faits": "Bloquée dans le Void, Voyager refuse une économie de survie par pillage et agrège des navires acceptant des règles communes de non-agression et de redistribution.",
@@ -586,6 +598,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/episodes/the-void"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
+    "url": "https://en.wikipedia.org/wiki/The_Void_(Star_Trek:_Voyager)"
    }
   ]
  },
@@ -643,7 +659,7 @@
   "entetes": {
    "periode": "3191–3192",
    "source_audiovisuelle": "SFA «Vox in Excelso»",
-   "recoupement": "B — Compte rendu indépendant détaillé"
+   "recoupement": "B — Résumé de saison (Wikipedia)"
   },
   "volets": {
    "faits": "Une flotte klingonne reçoit l’occasion de présenter l’installation sur Faan Alpha comme une conquête plutôt qu’une concession humanitaire de la Fédération.",
@@ -656,6 +672,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
+    "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1"
    }
   ]
  },
@@ -665,7 +685,7 @@
   "entetes": {
    "periode": "3191–3192",
    "source_audiovisuelle": "SFA «300th Night»; «Rubincon»",
-   "recoupement": "B — Résumé secondaire de saison, détail à vérifier"
+   "recoupement": "B — Compte rendu indépendant détaillé"
   },
   "volets": {
    "faits": "Nus Braka détient des mines Omega-47 capables de détruire les conditions matérielles du voyage à distorsion et utilise cette menace contre la Fédération.",
@@ -678,6 +698,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/series/starfleet-academy"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
+    "url": "https://www.denofgeek.com/tv/star-trek-starfleet-academy-episode-9-review-300th-night/"
    }
   ]
  },
@@ -687,7 +711,7 @@
   "entetes": {
    "periode": "XXIIIe siècle",
    "source_audiovisuelle": "SNW «A Case of Chiaroscuro»",
-   "recoupement": "B — Résumé secondaire indexé"
+   "recoupement": "B — Compte rendu indépendant détaillé"
   },
   "volets": {
    "faits": "Sur Mat’aar XII, une autorité klingonne maintient une occupation et une surveillance de la population. Une résistance clandestine tente de frapper ses dispositifs militaires et de protéger des habitants.",
@@ -700,16 +724,20 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/episodes/a-case-of-chiaroscuro"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
+    "url": "https://blog.trekcore.com/2026/08/star-trek-strange-new-worlds-episode-404-review-a-case-of-chiaroscuro/"
    }
   ]
  },
  "STP-300": {
   "id": "STP-300",
-  "titre": "Ordre de l’amiral Reeger de détruire Argus II en prétendant viser des collaborateurs",
+  "titre": "Ordre de l’amiral Reeger de détruire Argus II",
   "entetes": {
    "periode": "XXIIIe siècle",
    "source_audiovisuelle": "SNW «Orders of Magnitude»",
-   "recoupement": "B — Résumé secondaire indexé"
+   "recoupement": "B — Compte rendu indépendant détaillé"
   },
   "volets": {
    "faits": "Vétéran traumatisé, l’amiral Reeger veut détruire Argus II, planète non fédérée de milliers d’habitants, qu’il considère collectivement comme complice. Kirk refuse et sa mise hors de fonction est organisée.",
@@ -722,6 +750,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://startrekarchive.com/episodes/orders-of-magnitude"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
+    "url": "https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-episode-408-review-orders-of-magnitude/"
    }
   ]
  }

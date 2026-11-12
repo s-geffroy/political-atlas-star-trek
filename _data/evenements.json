@@ -3,15 +3,15 @@
   "id": "STP-001",
   "cycle": "Terre : origines et histoire antérieure",
   "period": "Antiquité vulcaine",
-  "event": "Guerres civiles et nucléaires vulcaines puis doctrine de Surak",
+  "event": "Guerre totale de l'Antiquité vulcaine puis doctrine de Surak",
   "source": "TOS «Amok Time»; ENT «The Forge»–«Kir'Shara»",
   "politics": "Pacification philosophique, religion civique, réforme des institutions.",
   "categories_politiques": "guerre/bataille ; insurrection/pouvoir ; institutions/fédéralisme ; religion/légitimité",
   "niveau_recoupement": "A",
   "nature_source": "Editorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/15-years-ago-one-enterprise-epic-set-the-stage-for-discovery",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « réforme des institutions » ; religion/légitimité ajoutée : « religion civique » ; recoupement B — La page de « The Forge » mentionne une période de sauvagerie de l'histoire vulcaine, le « Time of Awakening », et Surak comme philosophe et père de la logique vulcaine ; la page « Kir'Shara » décrit la dissolution du Haut Commandement vulcain à l'issue de l'arc. Réserve : Le caractère « nucléaire » des guerres n'est pas confirmé. La page de « The Forge » cite comme mentions antérieures en TOS « Balance of Terror », « All Our Yesterdays » et « The Savage Curtain », non « Amok Time » (qui n'est cité que pour T'Pau) ; l'article Wikipedia de « Amok Time » ne mentionne ni Surak ni guerres vulcaines. V0.5 (2026-11-10) : recoupement A (source officielle) — L'article sur l'arc « The Forge »–« Kir'Shara » évoque le passé violent des Vulcains et affirme que Surak a mis fin à une guerre totale des milliers d'années avant Enterprise, détournant les Vulcains de la voie militariste des Romuliens ; le Kir'Shara ramène ensuite ses écrits originaux. Réserve : La page ne précise pas le caractère civil ou nucléaire des guerres anciennes. Source B précédente : https://en.wikipedia.org/wiki/The_Forge_(Star_Trek:_Enterprise).",
-  "version_entree": "V0.5 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « réforme des institutions » ; religion/légitimité ajoutée : « religion civique » ; recoupement B — La page de « The Forge » mentionne une période de sauvagerie de l'histoire vulcaine, le « Time of Awakening », et Surak comme philosophe et père de la logique vulcaine ; la page « Kir'Shara » décrit la dissolution du Haut Commandement vulcain à l'issue de l'arc. Réserve : Le caractère « nucléaire » des guerres n'est pas confirmé. La page de « The Forge » cite comme mentions antérieures en TOS « Balance of Terror », « All Our Yesterdays » et « The Savage Curtain », non « Amok Time » (qui n'est cité que pour T'Pau) ; l'article Wikipedia de « Amok Time » ne mentionne ni Surak ni guerres vulcaines. V0.5 (2026-11-10) : recoupement A (source officielle) — L'article sur l'arc « The Forge »–« Kir'Shara » évoque le passé violent des Vulcains et affirme que Surak a mis fin à une guerre totale des milliers d'années avant Enterprise, détournant les Vulcains de la voie militariste des Romuliens ; le Kir'Shara ramène ensuite ses écrits originaux. Réserve : La page ne précise pas le caractère civil ou nucléaire des guerres anciennes. Source B précédente : https://en.wikipedia.org/wiki/The_Forge_(Star_Trek:_Enterprise). V0.12 (2026-11-12) : revérification de novembre 2026 — La page citée a été relue ; elle contient, mot pour mot : « Surak was able to stop all-out war thousands of years before the events of Enterprise ». Elle dit aussi « their violent past » et « the Vulcan who prevented his people from turning into the Romulans ». La note V0.5 (« Surak a mis fin à une guerre totale des milliers d'années avant Enterprise ») est donc fidèle. En revanche, la page ne dit pas que cette guerre était civile ou nucléaire. Aucune page startrek.com lue ne mentionne d'arme atomique ou nucléaire. L'intitulé est réduit en conséquence et reste en A. Les écrits de Surak sont confirmés par la même page : « bringing the original Surak texts back to the Vulcan High Command ».",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "guerre/bataille",
    "insurrection/pouvoir",
@@ -67,11 +67,25 @@
       "texte": "."
      }
     ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — La page citée a été relue ; elle contient, mot pour mot : « Surak was able to stop all-out war thousands of years before the events of Enterprise ». Elle dit aussi « their violent past » et « the Vulcan who prevented his people from turning into the Romulans ». La note V0.5 (« Surak a mis fin à une guerre totale des milliers d'années avant Enterprise ») est donc fidèle. En revanche, la page ne dit pas que cette guerre était civile ou nucléaire. Aucune page startrek.com lue ne mentionne d'arme atomique ou nucléaire. L'intitulé est réduit en conséquence et reste en A. Les écrits de Surak sont confirmés par la même page : « bringing the original Surak texts back to the Vulcan High Command »."
+     }
+    ]
    }
   ],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Guerre totale de l'Antiquité vulcaine puis doctrine de Surak.",
+    "motif": "revérification de novembre 2026 — La page citée a été relue ; elle contient, mot pour mot : « Surak was able to stop all-out war thousands of years before the events of Enterprise ». Elle dit aussi « their violent past » et « the Vulcan who prevented his people from turning into the Romulans ». La note V0.5 (« Surak a mis fin à une guerre totale des milliers d'années avant Enterprise ») est donc fidèle. En revanche, la page ne dit pas que cette guerre était civile ou nucléaire. Aucune page startrek.com lue ne mentionne d'arme atomique ou nucléaire. L'intitulé est réduit en conséquence et reste en A. Les écrits de Surak sont confirmés par la même page : « bringing the original Surak texts back to the Vulcan High Command »."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -3955,15 +3969,15 @@
   "id": "STP-041",
   "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle",
   "period": "2256–2257",
-  "event": "Guerre Fédération–Empire klingon et bombardements de territoires",
+  "event": "Guerre Fédération–Empire klingon et atrocités contre des civils",
   "source": "DIS saison 1; SNW «Under the Cloak of War»",
   "politics": "Guerre totale, criminalité de guerre et traumatismes civils.",
   "categories_politiques": "guerre/bataille",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
-  "url_source": "https://www.startrek.com/en-un/news/discovery-episode-15-primer",
-  "note_audit": "V0.4 (2026-11-10) : recoupement A — Le rappel officiel de « The War Without, The War Within » décrit la guerre contre les Klingons : flotte décimée après neuf mois, Starbase One (80 000 habitants) tombée aux mains des Klingons, plan offensif contre Qo'noS ; il ne détaille pas de bombardements de territoires civils, et la partie SNW « Under the Cloak of War » n'a pas été vérifiée.",
-  "version_entree": "V0.4 révisé",
+  "url_source": "https://www.startrek.com/news/recap-208-under-the-cloak-of-war-strange-new-worlds",
+  "note_audit": "V0.4 (2026-11-10) : recoupement A — Le rappel officiel de « The War Without, The War Within » décrit la guerre contre les Klingons : flotte décimée après neuf mois, Starbase One (80 000 habitants) tombée aux mains des Klingons, plan offensif contre Qo'noS ; il ne détaille pas de bombardements de territoires civils, et la partie SNW « Under the Cloak of War » n'a pas été vérifiée. V0.12 (2026-11-12) : revérification de novembre 2026 — Aucune des deux pages officielles lues ne parle de « bombardements » : le terme est retiré. Le récapitulatif officiel de SNW « Under the Cloak of War » (startrek.com) couvre la guerre et sa dimension civile : « As veterans of the Klingon War, M'Benga and Christine Chapel cannot shake the atrocities and lives lost that they witnessed » ; « Rah's troops are killing civilians — both human and Klingon » ; « the Massacre of Colony Athos ». Il appuie aussi le champ politics (« war criminal »). Le rappel DIS d'origine (« the war waged on for nine months… the fleet has been decimated ») reste concordant, mais il ne dit rien des civils.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -3993,11 +4007,25 @@
       "texte": "niveau A — Le rappel officiel de « The War Without, The War Within » décrit la guerre contre les Klingons : flotte décimée après neuf mois, Starbase One (80 000 habitants) tombée aux mains des Klingons, plan offensif contre Qo'noS ; il ne détaille pas de bombardements de territoires civils, et la partie SNW « Under the Cloak of War » n'a pas été vérifiée."
      }
     ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — Aucune des deux pages officielles lues ne parle de « bombardements » : le terme est retiré. Le récapitulatif officiel de SNW « Under the Cloak of War » (startrek.com) couvre la guerre et sa dimension civile : « As veterans of the Klingon War, M'Benga and Christine Chapel cannot shake the atrocities and lives lost that they witnessed » ; « Rah's troops are killing civilians — both human and Klingon » ; « the Massacre of Colony Athos ». Il appuie aussi le champ politics (« war criminal »). Le rappel DIS d'origine (« the war waged on for nine months… the fleet has been decimated ») reste concordant, mais il ne dit rien des civils."
+     }
+    ]
    }
   ],
   "cycle_slug": "discovery-et-strange-new-worlds-crises-du-xxiiie-siecle",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Guerre Fédération–Empire klingon et atrocités contre des civils.",
+    "motif": "revérification de novembre 2026 — Aucune des deux pages officielles lues ne parle de « bombardements » : le terme est retiré. Le récapitulatif officiel de SNW « Under the Cloak of War » (startrek.com) couvre la guerre et sa dimension civile : « As veterans of the Klingon War, M'Benga and Christine Chapel cannot shake the atrocities and lives lost that they witnessed » ; « Rah's troops are killing civilians — both human and Klingon » ; « the Massacre of Colony Athos ». Il appuie aussi le champ politics (« war criminal »). Le rappel DIS d'origine (« the war waged on for nine months… the fleet has been decimated ») reste concordant, mais il ne dit rien des civils."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -5736,9 +5764,9 @@
   "categories_politiques": "économie/social",
   "niveau_recoupement": "A",
   "nature_source": "Editorial officiel",
-  "url_source": "https://www.startrek.com/news/lost-trek-history-the-cloud-minders",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Structure de caste, lutte sociale et inégalités ».",
-  "version_entree": "V0.4 révisé",
+  "url_source": "https://www.startrek.com/news/resistance-planetary-uprisings-movements",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Structure de caste, lutte sociale et inégalités ». V0.12 (2026-11-12) : revérification de novembre 2026 — L'éditorial officiel « Resistance is Fruitful: Planetary Uprisings and Political Movements » (startrek.com, 14 août 2024) confirme tout le fait central. Citations : « Troglyte workers toiled away in the zenite mines while the intellectuals enjoyed life in the ornate city floating in the clouds above the planet Ardana » ; « the Disrupters … devoted to obtaining equal access to a leisurely life in the city ». Il ne nomme pas la cité. Le nom de Stratos vient de la page « Lost Trek History » déjà citée (« eventually, Stratos »).",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "économie/social"
   ],
@@ -5765,6 +5793,15 @@
     "segments": [
      {
       "texte": "catégories attribuées en V0.4 (proposition validée le 2026-11-10) — « autre / à qualifier » requalifiée : « Structure de caste, lutte sociale et inégalités »."
+     }
+    ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — L'éditorial officiel « Resistance is Fruitful: Planetary Uprisings and Political Movements » (startrek.com, 14 août 2024) confirme tout le fait central. Citations : « Troglyte workers toiled away in the zenite mines while the intellectuals enjoyed life in the ornate city floating in the clouds above the planet Ardana » ; « the Disrupters … devoted to obtaining equal access to a leisurely life in the city ». Il ne nomme pas la cité. Le nom de Stratos vient de la page « Lost Trek History » déjà citée (« eventually, Stratos »)."
      }
     ]
    }
@@ -7467,10 +7504,10 @@
   "politics": "Menace totalitaire, coercition temporelle.",
   "categories_politiques": "guerre/bataille",
   "niveau_recoupement": "A",
-  "nature_source": "Synopsis officiel",
-  "url_source": "https://www.startrek.com/en-un/movies/star-trek-viii-first-contact",
-  "note_audit": "V0.4 (2026-11-10) : recoupement A — Le synopsis officiel indique que Picard poursuit les Borgs dans le passé pour les empêcher de détruire le Phoenix, premier vaisseau terrien à distorsion ; Wikipedia (https://en.wikipedia.org/wiki/Star_Trek:_First_Contact) décrit l'attaque du cube borg contre la Terre et la volonté d'empêcher le premier contact. Réserve : L'attaque contre la Terre au XXIVe siècle n'apparaît pas dans le synopsis officiel.",
-  "version_entree": "V0.4 révisé",
+  "nature_source": "Editorial officiel",
+  "url_source": "https://www.startrek.com/news/star-treks-most-breathtaking-and-consequential-battles",
+  "note_audit": "V0.4 (2026-11-10) : recoupement A — Le synopsis officiel indique que Picard poursuit les Borgs dans le passé pour les empêcher de détruire le Phoenix, premier vaisseau terrien à distorsion ; Wikipedia (https://en.wikipedia.org/wiki/Star_Trek:_First_Contact) décrit l'attaque du cube borg contre la Terre et la volonté d'empêcher le premier contact. Réserve : L'attaque contre la Terre au XXIVe siècle n'apparaît pas dans le synopsis officiel. V0.12 (2026-11-12) : revérification de novembre 2026 — L'éditorial officiel « Star Trek's Most Breathtaking and Consequential Battles » (startrek.com, 25 novembre 2020) couvre les deux volets du fait, dans la section « Battle of Sector 001, Star Trek: First Contact ». Citations : « The Borg's return to the Alpha Quadrant endangered 24th-century Earth, as well as the pivotal planet's 21st-century past » ; « repelling the Borg Cube's advance » ; « foiled the Borg Queen's plot to eradicate the Federation before it even existed ». Le synopsis d'origine (« follow the Borg back in time to stop them from destroying the Phoenix ») reste concordant, mais il est muet sur l'attaque contre la Terre.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -7503,6 +7540,15 @@
      },
      {
       "texte": ") décrit l'attaque du cube borg contre la Terre et la volonté d'empêcher le premier contact. Réserve : L'attaque contre la Terre au XXIVe siècle n'apparaît pas dans le synopsis officiel."
+     }
+    ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — L'éditorial officiel « Star Trek's Most Breathtaking and Consequential Battles » (startrek.com, 25 novembre 2020) couvre les deux volets du fait, dans la section « Battle of Sector 001, Star Trek: First Contact ». Citations : « The Borg's return to the Alpha Quadrant endangered 24th-century Earth, as well as the pivotal planet's 21st-century past » ; « repelling the Borg Cube's advance » ; « foiled the Borg Queen's plot to eradicate the Federation before it even existed ». Le synopsis d'origine (« follow the Borg back in time to stop them from destroying the Phoenix ») reste concordant, mais il est muet sur l'attaque contre la Terre."
      }
     ]
    }
@@ -9413,7 +9459,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 166,
+  "rang_diegetique": 165,
   "bande": "XXIVe siècle",
   "associes": [
    {
@@ -10326,7 +10372,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 167,
+  "rang_diegetique": 166,
   "bande": "XXIVe siècle",
   "associes": [
    {
@@ -10445,7 +10491,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 168,
+  "rang_diegetique": 167,
   "bande": "XXIVe siècle",
   "associes": [
    {
@@ -10527,7 +10573,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 169,
+  "rang_diegetique": 168,
   "bande": "XXIVe siècle",
   "associes": []
  },
@@ -10665,7 +10711,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 170,
+  "rang_diegetique": 169,
   "bande": "XXIVe siècle",
   "associes": []
  },
@@ -11719,7 +11765,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 171,
+  "rang_diegetique": 170,
   "bande": "XXIVe siècle",
   "associes": [
    {
@@ -11827,7 +11873,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 172,
+  "rang_diegetique": 171,
   "bande": "XXIVe siècle",
   "associes": []
  },
@@ -12991,15 +13037,15 @@
   "id": "STP-141",
   "cycle": "Deep Space Nine : occupations, démocratie, guerre",
   "period": "2372",
-  "event": "Poursuite de dissidents maquisards et affrontement Sisko–Eddington",
+  "event": "Traque par Sisko d'Eddington, ancien membre d'équipage passé au Maquis",
   "source": "DS9 «For the Cause»; «For the Uniform»",
   "politics": "Légitimité de la désobéissance et moyens contre-insurrectionnels.",
   "categories_politiques": "insurrection/pouvoir",
   "niveau_recoupement": "A",
-  "nature_source": "Editorial officiel",
-  "url_source": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-gul-dukat",
-  "note_audit": "V0.4 (2026-11-10) : recoupement B — Le résumé décrit la poursuite par Sisko de Michael Eddington, passé au Maquis, ses attaques contre des colonies cardassiennes et la riposte de Sisko contre une colonie maquisarde jusqu'à la reddition d'Eddington ; le résumé de « For the Cause » décrit la défection d'Eddington. V0.5 (2026-11-10) : recoupement A (source officielle) — L'article présente Eddington comme un ancien officier de Starfleet passé au Maquis, qui voyait en Sisko le Javert de son Valjean, ce qui confirme la traque et l'affrontement entre les deux hommes. Source B précédente : https://en.wikipedia.org/wiki/For_the_Uniform.",
-  "version_entree": "V0.5 révisé",
+  "nature_source": "Synopsis officiel",
+  "url_source": "https://www.paramountplus.com/shows/star_trek_deep_space_nine/episodes/5/",
+  "note_audit": "V0.4 (2026-11-10) : recoupement B — Le résumé décrit la poursuite par Sisko de Michael Eddington, passé au Maquis, ses attaques contre des colonies cardassiennes et la riposte de Sisko contre une colonie maquisarde jusqu'à la reddition d'Eddington ; le résumé de « For the Cause » décrit la défection d'Eddington. V0.5 (2026-11-10) : recoupement A (source officielle) — L'article présente Eddington comme un ancien officier de Starfleet passé au Maquis, qui voyait en Sisko le Javert de son Valjean, ce qui confirme la traque et l'affrontement entre les deux hommes. Source B précédente : https://en.wikipedia.org/wiki/For_the_Uniform. V0.12 (2026-11-12) : revérification de novembre 2026 — Le synopsis officiel Paramount+ de « For the Uniform » (DS9 S5E13) dit : « Sisko risks everything to capture a former crewmember who deceived him and joined the Maquis. » L'article startrek.com sur Gul Dukat, déjà cité, nomme cet homme : « Eddington, a former Starfleet officer who defected to the Maquis and who viewed Sisko as the Javert to his Valjean ». Aucune page officielle lue ne décrit une poursuite de « dissidents » au pluriel : l'intitulé est recentré sur la traque d'Eddington.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "insurrection/pouvoir"
   ],
@@ -13047,11 +13093,25 @@
       "texte": "."
      }
     ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — Le synopsis officiel Paramount+ de « For the Uniform » (DS9 S5E13) dit : « Sisko risks everything to capture a former crewmember who deceived him and joined the Maquis. » L'article startrek.com sur Gul Dukat, déjà cité, nomme cet homme : « Eddington, a former Starfleet officer who defected to the Maquis and who viewed Sisko as the Javert to his Valjean ». Aucune page officielle lue ne décrit une poursuite de « dissidents » au pluriel : l'intitulé est recentré sur la traque d'Eddington."
+     }
+    ]
    }
   ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Traque par Sisko d'Eddington, ancien membre d'équipage passé au Maquis.",
+    "motif": "revérification de novembre 2026 — Le synopsis officiel Paramount+ de « For the Uniform » (DS9 S5E13) dit : « Sisko risks everything to capture a former crewmember who deceived him and joined the Maquis. » L'article startrek.com sur Gul Dukat, déjà cité, nomme cet homme : « Eddington, a former Starfleet officer who defected to the Maquis and who viewed Sisko as the Javert to his Valjean ». Aucune page officielle lue ne décrit une poursuite de « dissidents » au pluriel : l'intitulé est recentré sur la traque d'Eddington."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -21484,15 +21544,15 @@
   "id": "STP-231",
   "cycle": "Starfleet Academy (saison 1, 2026)",
   "period": "XXXIIe siècle",
-  "event": "Mission de cadets perturbée par une menace hostile contre l'Académie",
+  "event": "Mission d'entraînement de cadets sur un vaisseau abandonné perturbée par un ennemi dangereux",
   "source": "SFA «Come, Let's Away»",
   "politics": "Sécurité collective et formation des élites de défense.",
   "categories_politiques": "guerre/bataille",
   "niveau_recoupement": "A",
   "nature_source": "Synopsis officiel",
   "url_source": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « menace hostile », « Sécurité collective » ; recoupement A — Le synopsis officiel de « Come, Let's Away » indique que, lors de leur première mission d'entraînement sur un vaisseau abandonné, les cadets rencontrent un ennemi dangereux ; Wikipedia précise que les Furies prennent les cadets en otage à bord de l'USS Miyazaki. Réserve : La menace vise les cadets en mission ; selon Wikipedia, Nus Braka a monté l'attaque pour éloigner le Sargasso de sa base stellaire, et non pour attaquer l'Académie elle-même.",
-  "version_entree": "V0.4 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « menace hostile », « Sécurité collective » ; recoupement A — Le synopsis officiel de « Come, Let's Away » indique que, lors de leur première mission d'entraînement sur un vaisseau abandonné, les cadets rencontrent un ennemi dangereux ; Wikipedia précise que les Furies prennent les cadets en otage à bord de l'USS Miyazaki. Réserve : La menace vise les cadets en mission ; selon Wikipedia, Nus Braka a monté l'attaque pour éloigner le Sargasso de sa base stellaire, et non pour attaquer l'Académie elle-même. V0.12 (2026-11-12) : revérification de novembre 2026 — Le synopsis officiel Paramount+ de « Come, Let's Away » (S1E6) dit seulement : « During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » Rien n'y vise l'Académie. Wikipedia (Star_Trek:_Starfleet_Academy) précise que Braka « staged the attack upon the Miyazaki in order to lure the Sargasso away from the starbase so that he could have the starbase ransacked ». L'intitulé est donc réduit à ce que confirme le synopsis, et l'entrée reste en A. Aucune page startrek.com consacrée à l'épisode n'a été trouvée.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -21521,11 +21581,25 @@
       "texte": "catégories attribuées en V0.4 (proposition validée le 2026-11-10) — « autre / à qualifier » requalifiée : « menace hostile », « Sécurité collective » ; niveau A — Le synopsis officiel de « Come, Let's Away » indique que, lors de leur première mission d'entraînement sur un vaisseau abandonné, les cadets rencontrent un ennemi dangereux ; Wikipedia précise que les Furies prennent les cadets en otage à bord de l'USS Miyazaki. Réserve : La menace vise les cadets en mission ; selon Wikipedia, Nus Braka a monté l'attaque pour éloigner le Sargasso de sa base stellaire, et non pour attaquer l'Académie elle-même."
      }
     ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — Le synopsis officiel Paramount+ de « Come, Let's Away » (S1E6) dit seulement : « During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » Rien n'y vise l'Académie. Wikipedia (Star_Trek:_Starfleet_Academy) précise que Braka « staged the attack upon the Miyazaki in order to lure the Sargasso away from the starbase so that he could have the starbase ransacked ». L'intitulé est donc réduit à ce que confirme le synopsis, et l'entrée reste en A. Aucune page startrek.com consacrée à l'épisode n'a été trouvée."
+     }
+    ]
    }
   ],
   "cycle_slug": "starfleet-academy-saison-1-2026",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Mission d'entraînement de cadets sur un vaisseau abandonné perturbée par un ennemi dangereux.",
+    "motif": "revérification de novembre 2026 — Le synopsis officiel Paramount+ de « Come, Let's Away » (S1E6) dit seulement : « During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » Rien n'y vise l'Académie. Wikipedia (Star_Trek:_Starfleet_Academy) précise que Braka « staged the attack upon the Miyazaki in order to lure the Sargasso away from the starbase so that he could have the starbase ransacked ». L'intitulé est donc réduit à ce que confirme le synopsis, et l'entrée reste en A. Aucune page startrek.com consacrée à l'épisode n'a été trouvée."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -23685,7 +23759,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 173,
+  "rang_diegetique": 172,
   "bande": "XXIVe siècle",
   "associes": []
  },
@@ -24861,7 +24935,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 174,
+  "rang_diegetique": 173,
   "bande": "XXIVe siècle",
   "associes": [
    {
@@ -25011,16 +25085,16 @@
  {
   "id": "STP-271",
   "cycle": "La politique des réfugiés",
-  "period": "2369",
+  "period": "2370",
   "event": "Rejet par Bajor de l’installation des réfugiés skrreeans sur sa planète",
   "source": "DS9 «Sanctuary»",
   "politics": "Asile, capacité d’accueil, traumatismes d’une société post-occupation.",
   "categories_politiques": "justice/droits ; économie/social",
   "niveau_recoupement": "B",
-  "nature_source": "Résumé secondaire indexé",
-  "url_source": "https://startrekarchive.com/episodes/sanctuary",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
-  "version_entree": "V0.3 ajout",
+  "nature_source": "Résumé d’épisode (Wikipedia) ; date in-univers : Memory Alpha",
+  "url_source": "https://en.wikipedia.org/wiki/Sanctuary_(Star_Trek:_Deep_Space_Nine)",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (article de l’épisode) : les Skrreeans rencontrent des représentants du gouvernement bajoran « who refuse to allow them to relocate there ». Fait central concordant. Période : Memory Alpha (lu via pplx fetch-url --facts, extraction et non citation littérale ; WebFetch direct refusé, HTTP 402) indique une entrée de journal datée « Deep Space 9, 2370 » et que les Skrreeans partent pour Draylon II ; l’historien a raison, 2369 → 2370. Pas de confirmation officielle : la recherche startrek.com ne renvoie qu’une interview (Deborah May) qui ne mentionne pas le refus.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "justice/droits",
    "économie/social"
@@ -25038,7 +25112,7 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2369,
+   "cle": 2370,
    "precision": "annee"
   },
   "audit": [
@@ -25059,11 +25133,25 @@
       "texte": "vérifier l’épisode cité avant qualification en fait canonique définitivement audité."
      }
     ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — Wikipedia (article de l’épisode) : les Skrreeans rencontrent des représentants du gouvernement bajoran « who refuse to allow them to relocate there ». Fait central concordant. Période : Memory Alpha (lu via pplx fetch-url --facts, extraction et non citation littérale ; WebFetch direct refusé, HTTP 402) indique une entrée de journal datée « Deep Space 9, 2370 » et que les Skrreeans partent pour Draylon II ; l’historien a raison, 2369 → 2370. Pas de confirmation officielle : la recherche startrek.com ne renvoie qu’une interview (Deborah May) qui ne mentionne pas le refus."
+     }
+    ]
    }
   ],
   "cycle_slug": "la-politique-des-refugies",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Rejet par Bajor de l’installation des réfugiés skrreeans sur sa planète.",
+    "motif": "revérification de novembre 2026 — Wikipedia (article de l’épisode) : les Skrreeans rencontrent des représentants du gouvernement bajoran « who refuse to allow them to relocate there ». Fait central concordant. Période : Memory Alpha (lu via pplx fetch-url --facts, extraction et non citation littérale ; WebFetch direct refusé, HTTP 402) indique une entrée de journal datée « Deep Space 9, 2370 » et que les Skrreeans partent pour Draylon II ; l’historien a raison, 2369 → 2370. Pas de confirmation officielle : la recherche startrek.com ne renvoie qu’une interview (Deborah May) qui ne mentionne pas le refus."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {
@@ -25079,7 +25167,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 162,
+  "rang_diegetique": 174,
   "bande": "XXIVe siècle",
   "associes": []
  },
@@ -25282,10 +25370,10 @@
   "politics": "Gouvernance des modèles, technocratie et incertitude politique.",
   "categories_politiques": "renseignement/sécurité",
   "niveau_recoupement": "B",
-  "nature_source": "Résumé secondaire indexé",
-  "url_source": "https://startrekarchive.com/episodes/statistical-probabilities",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
-  "version_entree": "V0.3 ajout",
+  "nature_source": "Résumé d’épisode (Wikipedia)",
+  "url_source": "https://en.wikipedia.org/wiki/Statistical_Probabilities",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (article de l’épisode) : les augmentés « conclude that the Federation is doomed to lose the war » puis « decide to leak Starfleet's strategic plans to the Dominion ». Les deux volets du fait central concordent. La page ne donne ni année ni date stellaire : la période 2374 n’a pas été recoupée (inchangée).",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "renseignement/sécurité"
   ],
@@ -25321,6 +25409,15 @@
     "segments": [
      {
       "texte": "vérifier l’épisode cité avant qualification en fait canonique définitivement audité."
+     }
+    ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — Wikipedia (article de l’épisode) : les augmentés « conclude that the Federation is doomed to lose the war » puis « decide to leak Starfleet's strategic plans to the Dominion ». Les deux volets du fait central concordent. La page ne donne ni année ni date stellaire : la période 2374 n’a pas été recoupée (inchangée)."
      }
     ]
    }
@@ -25434,7 +25531,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 163,
+  "rang_diegetique": 162,
   "bande": "XXIVe siècle",
   "associes": []
  },
@@ -25631,7 +25728,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 164,
+  "rang_diegetique": 163,
   "bande": "XXIVe siècle",
   "associes": []
  },
@@ -26025,10 +26122,10 @@
   "politics": "Biens communs, coopération sans autorité centrale, institutions endogènes.",
   "categories_politiques": "diplomatie/traité ; institutions/fédéralisme",
   "niveau_recoupement": "B",
-  "nature_source": "Résumé secondaire indexé",
-  "url_source": "https://startrekarchive.com/episodes/the-void",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « institutions endogènes ».",
-  "version_entree": "V0.4 révisé",
+  "nature_source": "Résumé d’épisode (Wikipedia)",
+  "url_source": "https://en.wikipedia.org/wiki/The_Void_(Star_Trek:_Voyager)",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « institutions endogènes ». V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (article de l’épisode) : Voyager est piégé dans une zone où d’autres vaisseaux lui prennent ses ressources (« transports away its deuterium stock and other supplies ») ; Janeway « offers the idea of creating an alliance with the other ships to pool their resources ». Fait central concordant. Période 2377 non recoupée sur cette page (inchangée).",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "diplomatie/traité",
    "institutions/fédéralisme"
@@ -26074,6 +26171,15 @@
     "segments": [
      {
       "texte": "catégories attribuées en V0.4 (proposition validée le 2026-11-10) — institutions/fédéralisme ajoutée : « institutions endogènes »."
+     }
+    ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — Wikipedia (article de l’épisode) : Voyager est piégé dans une zone où d’autres vaisseaux lui prennent ses ressources (« transports away its deuterium stock and other supplies ») ; Janeway « offers the idea of creating an alliance with the other ships to pool their resources ». Fait central concordant. Période 2377 non recoupée sur cette page (inchangée)."
      }
     ]
    }
@@ -26947,8 +27053,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Isolement de Betazed », « Sécurité, frontières, souveraineté ».",
-  "version_entree": "V0.4 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Isolement de Betazed », « Sécurité, frontières, souveraineté ». V0.12 (2026-11-12) : revérification de novembre 2026 — La source déjà citée (TrekCore, compte rendu détaillé) a été lue et concorde : « a psionic barrier put in place following the Burn to protect and cut-off the Betazoid System from all outsiders ». B maintenu, aucun champ changé ; il reste à retirer la mention « vérifier l’épisode cité » de note_audit (hors champs de ce lot). La page startrek.com de la saison ne dit rien de la barrière (pas de A).",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "institutions/fédéralisme",
    "renseignement/sécurité"
@@ -26994,6 +27100,15 @@
     "segments": [
      {
       "texte": "catégories attribuées en V0.4 (proposition validée le 2026-11-10) — « autre / à qualifier » requalifiée : « Isolement de Betazed », « Sécurité, frontières, souveraineté »."
+     }
+    ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — La source déjà citée (TrekCore, compte rendu détaillé) a été lue et concorde : « a psionic barrier put in place following the Burn to protect and cut-off the Betazoid System from all outsiders ». B maintenu, aucun champ changé ; il reste à retirer la mention « vérifier l’épisode cité » de note_audit (hors champs de ce lot). La page startrek.com de la saison ne dit rien de la barrière (pas de A)."
      }
     ]
    }
@@ -27060,8 +27175,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « Fédéralisme asymétrique ».",
-  "version_entree": "V0.4 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « Fédéralisme asymétrique ». V0.12 (2026-11-12) : revérification de novembre 2026 — TrekCore (source déjà citée) concorde sur les deux volets : négociations avec Betazed (« one final pitch... to salvage the negotiations ») et siège fédéral : le nouveau siège du gouvernement ne sera pas à Paris mais sur Betazed (extraction WebFetch). Wikipedia (saison 1) confirme indépendamment : « Ake proposes moving the Federation's government center to Betazed if it rejoins » (résumé). Aucun champ changé. Pas de résumé officiel trouvé (startrek.com : titre de l’épisode seulement).",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "diplomatie/traité",
    "institutions/fédéralisme"
@@ -27107,6 +27222,15 @@
     "segments": [
      {
       "texte": "catégories attribuées en V0.4 (proposition validée le 2026-11-10) — institutions/fédéralisme ajoutée : « Fédéralisme asymétrique »."
+     }
+    ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — TrekCore (source déjà citée) concorde sur les deux volets : négociations avec Betazed (« one final pitch... to salvage the negotiations ») et siège fédéral : le nouveau siège du gouvernement ne sera pas à Paris mais sur Betazed (extraction WebFetch). Wikipedia (saison 1) confirme indépendamment : « Ake proposes moving the Federation's government center to Betazed if it rejoins » (résumé). Aucun champ changé. Pas de résumé officiel trouvé (startrek.com : titre de l’épisode seulement)."
      }
     ]
    }
@@ -27271,10 +27395,10 @@
   "politics": "Diplomatie interculturelle et négociation symbolique.",
   "categories_politiques": "diplomatie/traité ; économie/social",
   "niveau_recoupement": "B",
-  "nature_source": "Compte rendu indépendant détaillé",
-  "url_source": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
-  "version_entree": "V0.3 ajout",
+  "nature_source": "Résumé de saison (Wikipedia)",
+  "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — La source actuelle (TrekCore) ne confirme que partiellement : les Klingons refusent « the Federation’s charity offer of a new homeworld » puis prennent Faan Alpha, mais la critique ne présente pas cette prise comme un arrangement mis en scène. Wikipedia (saison 1, résumé de « Vox in Excelso ») confirme le fait central : les Klingons « will only accept the planet via conquest » et « Vance and Ake stage a battle with Obel, allowing the Klingons to claim their new home by conquest ». D’où le changement d’URL.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "diplomatie/traité",
    "économie/social"
@@ -27311,6 +27435,15 @@
     "segments": [
      {
       "texte": "vérifier l’épisode cité avant qualification en fait canonique définitivement audité."
+     }
+    ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — La source actuelle (TrekCore) ne confirme que partiellement : les Klingons refusent « the Federation’s charity offer of a new homeworld » puis prennent Faan Alpha, mais la critique ne présente pas cette prise comme un arrangement mis en scène. Wikipedia (saison 1, résumé de « Vox in Excelso ») confirme le fait central : les Klingons « will only accept the planet via conquest » et « Vance and Ake stage a battle with Obel, allowing the Klingons to claim their new home by conquest ». D’où le changement d’URL."
      }
     ]
    }
@@ -27477,10 +27610,10 @@
   "politics": "Coercition stratégique, armes de destruction systémique et déni de mobilité.",
   "categories_politiques": "guerre/bataille",
   "niveau_recoupement": "B",
-  "nature_source": "Résumé secondaire de saison, détail à vérifier",
-  "url_source": "https://startrekarchive.com/series/starfleet-academy",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
-  "version_entree": "V0.3 ajout",
+  "nature_source": "Compte rendu indépendant détaillé",
+  "url_source": "https://www.denofgeek.com/tv/star-trek-starfleet-academy-episode-9-review-300th-night/",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Den of Geek (critique de « 300th Night ») : « a very dangerous substance called Omega-47 » ; une seule particule « is capable of shredding space and subspace » au point de rendre la distorsion impossible ; « With Federation space ringed with destructive omega mines ». Wikipedia (saison 1) concorde sur les mines Omega qui « boxed the Federation in » et indique leur désactivation dans « Rubincon », ce qui justifie la double référence d’épisode. La page startrek.com de la saison ne contient que les titres.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -27520,6 +27653,15 @@
     "segments": [
      {
       "texte": "vérifier l’épisode cité avant qualification en fait canonique définitivement audité."
+     }
+    ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — Den of Geek (critique de « 300th Night ») : « a very dangerous substance called Omega-47 » ; une seule particule « is capable of shredding space and subspace » au point de rendre la distorsion impossible ; « With Federation space ringed with destructive omega mines ». Wikipedia (saison 1) concorde sur les mines Omega qui « boxed the Federation in » et indique leur désactivation dans « Rubincon », ce qui justifie la double référence d’épisode. La page startrek.com de la saison ne contient que les titres."
      }
     ]
    }
@@ -27589,10 +27731,10 @@
   "politics": "Occupation, collaboration, contrôle de l’information et résistance.",
   "categories_politiques": "insurrection/pouvoir ; colonialisme/occupation",
   "niveau_recoupement": "B",
-  "nature_source": "Résumé secondaire indexé",
-  "url_source": "https://startrekarchive.com/episodes/a-case-of-chiaroscuro",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — colonialisme/occupation ajoutée : « Occupation militaire », « résistance locale ». V0.8 (2026-11-10) : doublon tranché : entrée principale ; STP-054 lui est rattachée comme doublon.",
-  "version_entree": "V0.8 révisé",
+  "nature_source": "Compte rendu indépendant détaillé",
+  "url_source": "https://blog.trekcore.com/2026/08/star-trek-strange-new-worlds-episode-404-review-a-case-of-chiaroscuro/",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — colonialisme/occupation ajoutée : « Occupation militaire », « résistance locale ». V0.8 (2026-11-10) : doublon tranché : entrée principale ; STP-054 lui est rattachée comme doublon. V0.12 (2026-11-12) : revérification de novembre 2026 — TrekCore (critique de l’épisode 404) : l’équipe se cache « on Mat’aar XII », planète « fully under Klingon control, with patrols, checkpoints, loyalty tests, random arrests », et se retrouve mêlée à « the planet’s fight for freedom against Klingon occupation ». Wikipedia (saison 4) concorde sur une organisation de résistance mat’aarane. Fait central concordant.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "insurrection/pouvoir",
    "colonialisme/occupation"
@@ -27649,6 +27791,15 @@
       "texte": "doublon tranché : entrée principale ; STP-054 lui est rattachée comme doublon."
      }
     ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — TrekCore (critique de l’épisode 404) : l’équipe se cache « on Mat’aar XII », planète « fully under Klingon control, with patrols, checkpoints, loyalty tests, random arrests », et se retrouve mêlée à « the planet’s fight for freedom against Klingon occupation ». Wikipedia (saison 4) concorde sur une organisation de résistance mat’aarane. Fait central concordant."
+     }
+    ]
    }
   ],
   "cycle_slug": "strange-new-worlds-saison-4-2026",
@@ -27699,11 +27850,11 @@
   "source": "SNW «A Case of Chiaroscuro»",
   "politics": "Purges internes, rivalité entre résistants et guerre de l’information.",
   "categories_politiques": "guerre/bataille ; insurrection/pouvoir ; colonialisme/occupation",
-  "niveau_recoupement": "B",
+  "niveau_recoupement": "C",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://startrekarchive.com/episodes/a-case-of-chiaroscuro",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — colonialisme/occupation ajoutée : « résistance de Mat'aar XII ».",
-  "version_entree": "V0.4 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — colonialisme/occupation ajoutée : « résistance de Mat'aar XII ». V0.12 (2026-11-12) : revérification de novembre 2026 — Fait central non confirmé. Wikipedia EN (saison 4) décrit Nevette comme « a prominent collaborator and the leader of a sophisticated Mat'aaran resistance organization » et précise que Number One reprend son plan, sans dire ce qu’il advient d’elle. Wikipedia IT parle d’une collaboratrice « sparita nel nulla », donc disparue. TrekCore ne décrit ni la mort de Nevette ni une crise de légitimité : le traître qui meurt n’est pas identifié comme Nevette. Aucun assassinat ni aucune crise interne n’est attesté.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "guerre/bataille",
    "insurrection/pouvoir",
@@ -27752,11 +27903,25 @@
       "texte": "catégories attribuées en V0.4 (proposition validée le 2026-11-10) — colonialisme/occupation ajoutée : « résistance de Mat'aar XII »."
      }
     ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — Fait central non confirmé. Wikipedia EN (saison 4) décrit Nevette comme « a prominent collaborator and the leader of a sophisticated Mat'aaran resistance organization » et précise que Number One reprend son plan, sans dire ce qu’il advient d’elle. Wikipedia IT parle d’une collaboratrice « sparita nel nulla », donc disparue. TrekCore ne décrit ni la mort de Nevette ni une crise de légitimité : le traître qui meurt n’est pas identifié comme Nevette. Aucun assassinat ni aucune crise interne n’est attesté."
+     }
+    ]
    }
   ],
   "cycle_slug": "strange-new-worlds-saison-4-2026",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Assassinat de Nevette et crise de légitimité au sein de la résistance de Mat’aar XII.",
+    "motif": "revérification de novembre 2026 — Fait central non confirmé. Wikipedia EN (saison 4) décrit Nevette comme « a prominent collaborator and the leader of a sophisticated Mat'aaran resistance organization » et précise que Number One reprend son plan, sans dire ce qu’il advient d’elle. Wikipedia IT parle d’une collaboratrice « sparita nel nulla », donc disparue. TrekCore ne décrit ni la mort de Nevette ni une crise de légitimité : le traître qui meurt n’est pas identifié comme Nevette. Aucun assassinat ni aucune crise interne n’est attesté."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {
@@ -27795,15 +27960,15 @@
   "id": "STP-300",
   "cycle": "Strange New Worlds : saison 4 2026",
   "period": "XXIIIe siècle",
-  "event": "Ordre de l’amiral Reeger de détruire Argus II en prétendant viser des collaborateurs",
+  "event": "Ordre de l’amiral Reeger de détruire Argus II",
   "source": "SNW «Orders of Magnitude»",
   "politics": "Criminalité de guerre, punition collective, pouvoir de commandement.",
   "categories_politiques": "guerre/bataille",
   "niveau_recoupement": "B",
-  "nature_source": "Résumé secondaire indexé",
-  "url_source": "https://startrekarchive.com/episodes/orders-of-magnitude",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
-  "version_entree": "V0.3 ajout",
+  "nature_source": "Compte rendu indépendant détaillé",
+  "url_source": "https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-episode-408-review-orders-of-magnitude/",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — TrekCore (critique de l’épisode 408) nomme la planète : « the impending destruction of 5,000 people on Argus II ». Selon la critique, Reeger veut venger sa famille. Wikipedia (saison 4) : « Reeger orders the Enterprise to eliminate all life there ». Le prétexte des « collaborateurs » n’apparaît dans aucune des trois sources lues (TrekCore, Wikipedia EN/IT, TL;DR) : l’intitulé est donc réduit à ce qui est confirmé.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -27841,11 +28006,25 @@
       "texte": "vérifier l’épisode cité avant qualification en fait canonique définitivement audité."
      }
     ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — TrekCore (critique de l’épisode 408) nomme la planète : « the impending destruction of 5,000 people on Argus II ». Selon la critique, Reeger veut venger sa famille. Wikipedia (saison 4) : « Reeger orders the Enterprise to eliminate all life there ». Le prétexte des « collaborateurs » n’apparaît dans aucune des trois sources lues (TrekCore, Wikipedia EN/IT, TL;DR) : l’intitulé est donc réduit à ce qui est confirmé."
+     }
+    ]
    }
   ],
   "cycle_slug": "strange-new-worlds-saison-4-2026",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Ordre de l’amiral Reeger de détruire Argus II.",
+    "motif": "revérification de novembre 2026 — TrekCore (critique de l’épisode 408) nomme la planète : « the impending destruction of 5,000 people on Argus II ». Selon la critique, Reeger veut venger sa famille. Wikipedia (saison 4) : « Reeger orders the Enterprise to eliminate all life there ». Le prétexte des « collaborateurs » n’apparaît dans aucune des trois sources lues (TrekCore, Wikipedia EN/IT, TL;DR) : l’intitulé est donc réduit à ce qui est confirmé."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {
@@ -27889,10 +28068,10 @@
   "politics": "Désobéissance à un ordre manifestement illégal, contrôle médico-militaire.",
   "categories_politiques": "guerre/bataille",
   "niveau_recoupement": "B",
-  "nature_source": "Résumé secondaire indexé",
-  "url_source": "https://startrekarchive.com/episodes/orders-of-magnitude",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
-  "version_entree": "V0.3 ajout",
+  "nature_source": "Résumé de saison (Wikipedia)",
+  "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_4",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia EN (saison 4) : Kirk conteste l’ordre, tente de prévenir Starfleet en secret, est mis aux arrêts (« Reeger sends him to the brig ») ; Wikipedia IT : « Kirk contesta invano l'ordine », « tenta di sabotare la nave per evitare il genocidio ». C’est TrekCore qui nomme la planète Argus II et évoque la drogue administrée à Reeger (« M'Benga takes the fall for Kirk drugging Reeger with cordrazine »). Fait central concordant.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -27928,6 +28107,15 @@
     "segments": [
      {
       "texte": "vérifier l’épisode cité avant qualification en fait canonique définitivement audité."
+     }
+    ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — Wikipedia EN (saison 4) : Kirk conteste l’ordre, tente de prévenir Starfleet en secret, est mis aux arrêts (« Reeger sends him to the brig ») ; Wikipedia IT : « Kirk contesta invano l'ordine », « tenta di sabotare la nave per evitare il genocidio ». C’est TrekCore qui nomme la planète Argus II et évoque la drogue administrée à Reeger (« M'Benga takes the fall for Kirk drugging Reeger with cordrazine »). Fait central concordant."
      }
     ]
    }
@@ -27978,10 +28166,10 @@
   "politics": "Destruction de civilisation et effacement historique.",
   "categories_politiques": "guerre/bataille",
   "niveau_recoupement": "B",
-  "nature_source": "Résumé secondaire indexé",
-  "url_source": "https://startrekarchive.com/episodes/valles-marineris",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
-  "version_entree": "V0.3 ajout",
+  "nature_source": "Résumé de saison (Wikipedia)",
+  "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_4",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (saison 4, « Valles Marineris ») : les Martiens sont « at war with the Dol'drm, an insect-like species from a planet between Mars and Jupiter » ; l’Enterprise remonte « 65 million years to the Cretaceous period ». Fait central et période concordants.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -28017,6 +28205,15 @@
     "segments": [
      {
       "texte": "vérifier l’épisode cité avant qualification en fait canonique définitivement audité."
+     }
+    ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — Wikipedia (saison 4, « Valles Marineris ») : les Martiens sont « at war with the Dol'drm, an insect-like species from a planet between Mars and Jupiter » ; l’Enterprise remonte « 65 million years to the Cretaceous period ». Fait central et période concordants."
      }
     ]
    }
@@ -28067,10 +28264,10 @@
   "politics": "Non-interférence temporelle et responsabilité par abstention.",
   "categories_politiques": "guerre/bataille",
   "niveau_recoupement": "B",
-  "nature_source": "Résumé secondaire indexé",
-  "url_source": "https://startrekarchive.com/episodes/valles-marineris",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
-  "version_entree": "V0.3 ajout",
+  "nature_source": "Résumé de saison (Wikipedia)",
+  "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_4",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (saison 4, « Valles Marineris ») : « Pike makes a last minute decision not to interfere » ; la planète des Dol'drm est alors détruite, ce qui forme la ceinture d’astéroïdes. Fait central concordant.",
+  "version_entree": "V0.12 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -28106,6 +28303,15 @@
     "segments": [
      {
       "texte": "vérifier l’épisode cité avant qualification en fait canonique définitivement audité."
+     }
+    ]
+   },
+   {
+    "version": "V0.12",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — Wikipedia (saison 4, « Valles Marineris ») : « Pike makes a last minute decision not to interfere » ; la planète des Dol'drm est alors détruite, ce qui forme la ceinture d’astéroïdes. Fait central concordant."
      }
     ]
    }
@@ -28235,7 +28441,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 165,
+  "rang_diegetique": 164,
   "bande": "XXIVe siècle",
   "associes": []
  },

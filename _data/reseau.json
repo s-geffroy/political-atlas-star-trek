@@ -175,8 +175,8 @@
      "y": 524,
      "w": 210,
      "h": 46,
-     "titre": "Poursuite de dissidents…",
-     "titre_complet": "Poursuite de dissidents maquisards et affrontement Sisko–Eddington",
+     "titre": "Traque par Sisko…",
+     "titre_complet": "Traque par Sisko d'Eddington, ancien membre d'équipage passé au Maquis",
      "niv": "A",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
@@ -1619,7 +1619,7 @@
    "nb_relations": 5
   },
   {
-   "titre": "Discovery — Guerre Fédération–Empire klingon et bombardements de territoires",
+   "titre": "Discovery — Guerre Fédération–Empire klingon et atrocités contre des civils",
    "taille": 5,
    "noeuds": [
     {
@@ -1651,7 +1651,7 @@
      "w": 210,
      "h": 46,
      "titre": "Guerre Fédération–Empire…",
-     "titre_complet": "Guerre Fédération–Empire klingon et bombardements de territoires",
+     "titre_complet": "Guerre Fédération–Empire klingon et atrocités contre des civils",
      "niv": "A",
      "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle"
     },
@@ -3330,8 +3330,8 @@
      "y": 12,
      "w": 210,
      "h": 46,
-     "titre": "Mission de cadets perturbée…",
-     "titre_complet": "Mission de cadets perturbée par une menace hostile contre l'Académie",
+     "titre": "Mission d'entraînement de…",
+     "titre_complet": "Mission d'entraînement de cadets sur un vaisseau abandonné perturbée par un ennemi dangereux",
      "niv": "A",
      "cycle": "Starfleet Academy (saison 1, 2026)"
     },
@@ -4574,7 +4574,7 @@
    "nb_relations": 1
   },
   {
-   "titre": "The Original Series — Guerres civiles et nucléaires vulcaines puis doctrine de Surak",
+   "titre": "The Original Series — Guerre totale de l'Antiquité vulcaine puis doctrine de Surak",
    "taille": 1,
    "noeuds": [
     {
@@ -4583,8 +4583,8 @@
      "y": 12,
      "w": 210,
      "h": 46,
-     "titre": "Guerres civiles et…",
-     "titre_complet": "Guerres civiles et nucléaires vulcaines puis doctrine de Surak",
+     "titre": "Guerre totale de l'Antiquité…",
+     "titre_complet": "Guerre totale de l'Antiquité vulcaine puis doctrine de Surak",
      "niv": "A",
      "cycle": "Terre : origines et histoire antérieure"
     }

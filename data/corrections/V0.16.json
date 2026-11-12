@@ -1,0 +1,27 @@
+{
+ "version": "V0.16",
+ "date": "2026-11-12",
+ "date_longue": "12 novembre 2026",
+ "base": "V0_15_2026-11-12",
+ "titre": "Atlas politique de Star Trek — V0.16 : catégorie de STP-213",
+ "resume": "Catégorie « diplomatie/traité » retirée de STP-213 : elle reposait sur une « mission de bonne volonté » que la V0.15 a retirée de l’intitulé, faute de source ; la critique d’épisode citée ne décrit aucune relation diplomatique entre Starfleet et Orion.",
+ "methode": {
+  "categories": "revue de la catégorie à partir du seul texte corrigé de l’entrée et de sa source, comme en V0.7 ; proposition validée le 2026-11-12."
+ },
+ "comptes": {
+  "corrections": 1
+ },
+ "corrections": [
+  {
+   "id": "STP-213",
+   "type": "correction",
+   "champs": {
+    "categories_politiques": {
+     "avant": "justice/droits ; diplomatie/traité",
+     "apres": "justice/droits"
+    }
+   },
+   "motif": "catégories revues après réduction de l’intitulé en V0.15 — retrait de diplomatie/traité : la « mission de bonne volonté » a été retirée de l’intitulé, et la critique Reactor citée ne parle d’aucune relation diplomatique entre Starfleet et Orion (Freeman dit seulement que « Starfleet wants her to go ») ; justice/droits maintenue : « libre choix », « émancipation »."
+  }
+ ]
+}

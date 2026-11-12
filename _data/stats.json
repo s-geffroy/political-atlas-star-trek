@@ -227,7 +227,7 @@
   },
   {
    "cle": "diplomatie/traité",
-   "n": 68
+   "n": 67
   },
   {
    "cle": "renseignement/sécurité",
@@ -287,11 +287,15 @@
   },
   {
    "cle": "V0.15 révisé",
-   "n": 16
+   "n": 15
   },
   {
    "cle": "V0.4 révisé",
    "n": 5
+  },
+  {
+   "cle": "V0.16 révisé",
+   "n": 1
   },
   {
    "cle": "V0.5 révisé",

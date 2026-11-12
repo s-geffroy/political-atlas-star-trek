@@ -22737,15 +22737,14 @@
   "event": "Envoi de Tendi sur Orion à la demande de Starfleet et libre choix de Tendi face à son puissant clan familial",
   "source": "LD « Something Borrowed, Something Green »",
   "politics": "Hiérarchie familiale, identité politique et émancipation.",
-  "categories_politiques": "justice/droits ; diplomatie/traité",
+  "categories_politiques": "justice/droits",
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://reactormag.com/the-secret-origin-of-the-mistress-of-the-winter-constellations-star-trek-lower-decks-something-borrowed-something-green/",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Hiérarchie familiale », « émancipation » ; vérification non concluante (niveau C maintenu) — Wikipedia saison 4 (https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4) et The Spool confirment le choix de Tendi (fuite vers Starfleet, ancienne « Prime » de sa famille puissante, enlèvement de sa sœur D'Erika). Aucun « conflit d'influence entre lignages orioniens » n'est décrit pour cet épisode. La rivalité avec un clan orion « bleu » apparaît dans « Dos Cerritos » (saison 5). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia saison 4 : Starfleet, voulant montrer la bonne volonté entre les deux mondes, pousse Tendi à assister au mariage de sa sœur sur Orion ; sa famille est un clan riche, influent et redouté ; elle révèle avoir été formée comme assassin avant de fuir vers Starfleet et se réconcilie avec D'Erika. Aucun conflit entre lignages. Recoupement partiel avec STP-218. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de diplomatie/traité : « Mission de bonne volonté de Starfleet sur Orion ». V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode. Aucune page d'épisode lue (Reactor, TrekCore, startrek.com « Below Deck with Lower Decks ») ne parle d'une mission de « bonne volonté » : seule la page de saison Wikipedia le disait. La critique Reactor confirme l'intitulé réduit : « Freeman makes it clear that Starfleet wants her to go » ; « children of important Orion families, of which the Tendis very much are one » ; « Tendi left for Starfleet Academy without discussing it with anyone ». TrekCore (https://blog.trekcore.com/2023/09/star-trek-lower-decks-review-something-borrowed-something-green/) concorde : « Rebelling against her upbringing, Tendi ultimately decided to leave Orion for Starfleet. » Niveau B maintenu sur une page d'épisode ; la catégorie diplomatie/traité, attribuée en V0.7 d'après « Mission de bonne volonté », est à revoir.",
-  "version_entree": "V0.15 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Hiérarchie familiale », « émancipation » ; vérification non concluante (niveau C maintenu) — Wikipedia saison 4 (https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4) et The Spool confirment le choix de Tendi (fuite vers Starfleet, ancienne « Prime » de sa famille puissante, enlèvement de sa sœur D'Erika). Aucun « conflit d'influence entre lignages orioniens » n'est décrit pour cet épisode. La rivalité avec un clan orion « bleu » apparaît dans « Dos Cerritos » (saison 5). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia saison 4 : Starfleet, voulant montrer la bonne volonté entre les deux mondes, pousse Tendi à assister au mariage de sa sœur sur Orion ; sa famille est un clan riche, influent et redouté ; elle révèle avoir été formée comme assassin avant de fuir vers Starfleet et se réconcilie avec D'Erika. Aucun conflit entre lignages. Recoupement partiel avec STP-218. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de diplomatie/traité : « Mission de bonne volonté de Starfleet sur Orion ». V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode. Aucune page d'épisode lue (Reactor, TrekCore, startrek.com « Below Deck with Lower Decks ») ne parle d'une mission de « bonne volonté » : seule la page de saison Wikipedia le disait. La critique Reactor confirme l'intitulé réduit : « Freeman makes it clear that Starfleet wants her to go » ; « children of important Orion families, of which the Tendis very much are one » ; « Tendi left for Starfleet Academy without discussing it with anyone ». TrekCore (https://blog.trekcore.com/2023/09/star-trek-lower-decks-review-something-borrowed-something-green/) concorde : « Rebelling against her upbringing, Tendi ultimately decided to leave Orion for Starfleet. » Niveau B maintenu sur une page d'épisode ; la catégorie diplomatie/traité, attribuée en V0.7 d'après « Mission de bonne volonté », est à revoir. V0.16 (2026-11-12) : catégories revues après réduction de l’intitulé en V0.15 — retrait de diplomatie/traité : la « mission de bonne volonté » a été retirée de l’intitulé, et la critique Reactor citée ne parle d’aucune relation diplomatique entre Starfleet et Orion (Freeman dit seulement que « Starfleet wants her to go ») ; justice/droits maintenue : « libre choix », « émancipation ».",
+  "version_entree": "V0.16 révisé",
   "categories": [
-   "justice/droits",
-   "diplomatie/traité"
+   "justice/droits"
   ],
   "series": [
    "LD"
@@ -22821,6 +22820,15 @@
       "texte": ") concorde : « Rebelling against her upbringing, Tendi ultimately decided to leave Orion for Starfleet. » Niveau B maintenu sur une page d'épisode ; la catégorie diplomatie/traité, attribuée en V0.7 d'après « Mission de bonne volonté », est à revoir."
      }
     ]
+   },
+   {
+    "version": "V0.16",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "catégories revues après réduction de l’intitulé en V0.15 — retrait de diplomatie/traité : la « mission de bonne volonté » a été retirée de l’intitulé, et la critique Reactor citée ne parle d’aucune relation diplomatique entre Starfleet et Orion (Freeman dit seulement que « Starfleet wants her to go ») ; justice/droits maintenue : « libre choix », « émancipation »."
+     }
+    ]
    }
   ],
   "cycle_slug": "lower-decks-politique-des-marges-et-adhesions",
@@ -22833,6 +22841,10 @@
    {
     "libelle": "Envoi de Tendi sur Orion à la demande de Starfleet et libre choix de Tendi face à son puissant clan familial.",
     "motif": "revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode. Aucune page d'épisode lue (Reactor, TrekCore, startrek.com « Below Deck with Lower Decks ») ne parle d'une mission de « bonne volonté » : seule la page de saison Wikipedia le disait. La critique Reactor confirme l'intitulé réduit : « Freeman makes it clear that Starfleet wants her to go » ; « children of important Orion families, of which the Tendis very much are one » ; « Tendi left for Starfleet Academy without discussing it with anyone ». TrekCore (<https://blog.trekcore.com/2023/09/star-trek-lower-decks-review-something-borrowed-something-green/>) concorde : « Rebelling against her upbringing, Tendi ultimately decided to leave Orion for Starfleet. » Niveau B maintenu sur une page d'épisode ; la catégorie diplomatie/traité, attribuée en V0.7 d'après « Mission de bonne volonté », est à revoir."
+   },
+   {
+    "libelle": "Envoi de Tendi sur Orion à la demande de Starfleet et libre choix de Tendi face à son puissant clan familial.",
+    "motif": "catégories revues après réduction de l’intitulé en V0.15 — retrait de diplomatie/traité : la « mission de bonne volonté » a été retirée de l’intitulé, et la critique Reactor citée ne parle d’aucune relation diplomatique entre Starfleet et Orion (Freeman dit seulement que « Starfleet wants her to go ») ; justice/droits maintenue : « libre choix », « émancipation »."
    }
   ],
   "note_editoriale": null,

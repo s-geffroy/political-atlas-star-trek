@@ -418,7 +418,7 @@
        "y": 569
       }
      ],
-     "titre_complet": "Mémoire de la collaboration bajorane : chantage sur une liste de collaborateurs et exécutions d'innocents sous l'autorité d'Odo",
+     "titre_complet": "Mémoire de la collaboration bajorane : chantage sur une liste de collaborateurs et exécutions d'innocents sous l'autorité d'Odo",
      "niv": "B",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
@@ -1229,15 +1229,15 @@
      "id_y": 418,
      "lignes": [
       {
-       "t": "Le «Burn» détruit massivement",
+       "t": "Le « Burn » détruit",
        "y": 436
       },
       {
-       "t": "les moteurs à dilithium et…",
+       "t": "massivement les moteurs à…",
        "y": 452
       }
      ],
-     "titre_complet": "Le «Burn» détruit massivement les moteurs à dilithium et brise les liaisons galactiques",
+     "titre_complet": "Le « Burn » détruit massivement les moteurs à dilithium et brise les liaisons galactiques",
      "niv": "A",
      "cycle": "Discovery : futur et reconstruction post-Burn"
     },
@@ -1391,7 +1391,7 @@
        "y": 452
       }
      ],
-     "titre_complet": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
+     "titre_complet": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
      "niv": "B",
      "cycle": "Starfleet Academy : actualisation 2026"
     },
@@ -1982,7 +1982,7 @@
    "nb_relations": 10
   },
   {
-   "titre": "Guerre froide temporelle : factions du futur exploitant les Sulibans",
+   "titre": "Guerre froide temporelle : factions du futur exploitant les Sulibans",
    "taille": 9,
    "noeuds": [
     {
@@ -2025,7 +2025,7 @@
        "y": 140
       }
      ],
-     "titre_complet": "Guerre froide temporelle : factions du futur exploitant les Sulibans",
+     "titre_complet": "Guerre froide temporelle : factions du futur exploitant les Sulibans",
      "niv": "A",
      "cycle": "Enterprise : diplomatie et fondation de la Fédération"
     },
@@ -2685,7 +2685,7 @@
        "y": 218
       }
      ],
-     "titre_complet": "Réformes ferengies : émancipation économique des femmes et droits sociaux",
+     "titre_complet": "Réformes ferengies : émancipation économique des femmes et droits sociaux",
      "niv": "A",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
@@ -2893,11 +2893,11 @@
        "y": 46
       },
       {
-       "t": "Starfleet par le «Living…",
+       "t": "Starfleet par le « Living…",
        "y": 62
       }
      ],
-     "titre_complet": "Attaque informatique du réseau Starfleet par le «Living Construct»",
+     "titre_complet": "Attaque informatique du réseau Starfleet par le « Living Construct »",
      "niv": "A",
      "cycle": "Prodigy : esclavage, contact et guerre civile"
     },
@@ -3086,7 +3086,7 @@
    "nb_relations": 5
   },
   {
-   "titre": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
+   "titre": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
    "taille": 5,
    "noeuds": [
     {
@@ -3129,7 +3129,7 @@
        "y": 140
       }
      ],
-     "titre_complet": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
+     "titre_complet": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
      "niv": "A",
      "cycle": "Discovery : événements omis"
     },
@@ -5261,7 +5261,7 @@
        "y": 140
       }
      ],
-     "titre_complet": "Complot de Nick Locarno fédérant des vaisseaux non alignés («Nova Fleet»)",
+     "titre_complet": "Complot de Nick Locarno fédérant des vaisseaux non alignés (« Nova Fleet »)",
      "niv": "A",
      "cycle": "Lower Decks : politique des marges et adhésions"
     },
@@ -5549,7 +5549,7 @@
        "y": 62
       }
      ],
-     "titre_complet": "Maquis et cadres de Starfleet en conflit : infiltration de cellules maquisardes par Ro Laren et Tuvok",
+     "titre_complet": "Maquis et cadres de Starfleet en conflit : infiltration de cellules maquisardes par Ro Laren et Tuvok",
      "niv": "B",
      "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts"
     },
@@ -6668,7 +6668,7 @@
    "nb_relations": 1
   },
   {
-   "titre": "Guerres eugéniques et domination de Khan et des «Augments»",
+   "titre": "Guerres eugéniques et domination de Khan et des « Augments »",
    "taille": 1,
    "noeuds": [
     {
@@ -6685,11 +6685,11 @@
        "y": 46
       },
       {
-       "t": "domination de Khan et des…",
+       "t": "domination de Khan et des «…",
        "y": 62
       }
      ],
-     "titre_complet": "Guerres eugéniques et domination de Khan et des «Augments»",
+     "titre_complet": "Guerres eugéniques et domination de Khan et des « Augments »",
      "niv": "A",
      "cycle": "Terre : origines et histoire antérieure"
     }

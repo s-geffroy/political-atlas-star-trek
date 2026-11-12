@@ -1,0 +1,4139 @@
+{
+ "version": "V0.14",
+ "date": "2026-11-12",
+ "date_longue": "12 novembre 2026",
+ "base": "V0_13_2026-11-12",
+ "titre": "Atlas politique de Star Trek — V0.14 : harmonisation typographique",
+ "resume": "Harmonisation typographique, sans aucun changement de mots : espaces insécables à l’intérieur des guillemets français (champ « source » et intitulés), espace insécable avant « ; » et « : » dans les champs descriptifs, les volets de fiches et quelques notes éditoriales, majuscule accentuée « Éditorial officiel » dans la nature des sources. Les titres d’épisodes, identifiants, URL, catégories et notes d’audit antérieures sont inchangés ; les séries, épisodes, ordre diégétique et continuités dérivés restent identiques. Les liens « Contrôle » du registre dont l’URL contient des parenthèses (pages Wikipedia d’épisodes) sont réparés : une parenthèse fermante en trop les rendait inexacts.",
+ "methode": {
+  "typographie": "harmonisation typographique automatique, sans changement de mots : espaces insécables à l’intérieur des guillemets français et avant « ; » et « : » (hors titres anglais et URL), majuscule accentuée (« Éditorial officiel »), apostrophe droite, forme majoritaire du corpus, hors titres d’épisodes ; dérivations (séries, épisodes, ordre diégétique, continuité) contrôlées identiques avant et après. Proposition validée le 2026-11-12."
+ },
+ "textes": [
+  {
+   "avant": "ces primaires; formuler au",
+   "apres": "ces primaires ; formuler au"
+  },
+  {
+   "avant": "ables les IDs; marquer dou",
+   "apres": "ables les IDs ; marquer dou"
+  },
+  {
+   "avant": "la Fédération; leurs prati",
+   "apres": "la Fédération ; leurs prati"
+  },
+  {
+   "avant": "t un asservissement organique; le procès porte sur Data.  ",
+   "apres": "t un asservissement organique ; le procès porte sur Data.  "
+  },
+  {
+   "avant": "RRECTION : le débat religieux et scolaire est au premier plan; ne pas confondre avec l’élection ultérieure de Kai Winn.  ",
+   "apres": "RRECTION : le débat religieux et scolaire est au premier plan ; ne pas confondre avec l’élection ultérieure de Kai Winn.  "
+  },
+  {
+   "avant": "le :* Attesté par une plaque dans DIS « Mirrors »; l’identité du chancelier n’est pas explicitemen",
+   "apres": "le :* Attesté par une plaque dans DIS « Mirrors » ; l’identité du chancelier n’est pas explicitemen"
+  },
+  {
+   "avant": "UBLON : rapprochement conceptuel avec STP-216; ne pas compter deux événements distincts.  ",
+   "apres": "UBLON : rapprochement conceptuel avec STP-216 ; ne pas compter deux événements distincts.  "
+  },
+  {
+   "avant": "ité politique; priorité 2 ",
+   "apres": "ité politique ; priorité 2 "
+  },
+  {
+   "avant": ", **TOS/TAS**; priorité 3 ",
+   "apres": ", **TOS/TAS** ; priorité 3 "
+  },
+  {
+   "avant": "LD**, **PRO**; puis films,",
+   "apres": "LD**, **PRO** ; puis films,"
+  }
+ ],
+ "comptes": {
+  "signalements": 298
+ },
+ "corrections": [
+  {
+   "id": "STP-001",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Amok Time»; ENT «The Forge»–«Kir'Shara»",
+     "apres": "TOS « Amok Time » ; ENT « The Forge »–« Kir'Shara »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-002",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Unification»; ENT «Awakening»",
+     "apres": "TNG « Unification » ; ENT « Awakening »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-003",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Contagion»; DS9 «To the Death»",
+     "apres": "TNG « Contagion » ; DS9 « To the Death »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-004",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TAS «The Slaver Weapon»",
+     "apres": "TAS « The Slaver Weapon »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-005",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Guerres eugéniques et domination de Khan et des «Augments»",
+     "apres": "Guerres eugéniques et domination de Khan et des « Augments »"
+    },
+    "source": {
+     "avant": "TOS «Space Seed»; ENT «Borderland»; SNW «Tomorrow and Tomorrow and Tomorrow»",
+     "apres": "TOS « Space Seed » ; ENT « Borderland » ; SNW « Tomorrow and Tomorrow and Tomorrow »"
+    },
+    "politics": {
+     "avant": "Autoritarisme biotechnologique et héritage juridique de l'eugénisme; datation diégétique retouchée.",
+     "apres": "Autoritarisme biotechnologique et héritage juridique de l'eugénisme ; datation diégétique retouchée."
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-006",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Past Tense», parties I–II",
+     "apres": "DS9 « Past Tense », parties I–II"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel : faits de la fiction",
+     "apres": "Éditorial officiel : faits de la fiction"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)",
+   "volets": {
+    "objections": {
+     "avant": "Le droit de sanctionner certains campements n’équivaut pas à des districts clos et obligatoires; l’épisode ne prédit pas juridiquement 2024. Il ne montre pas non plus une causalité suffisante pour faire des émeutes la cause unique de la Fédération.",
+     "apres": "Le droit de sanctionner certains campements n’équivaut pas à des districts clos et obligatoires ; l’épisode ne prédit pas juridiquement 2024. Il ne montre pas non plus une causalité suffisante pour faire des émeutes la cause unique de la Fédération."
+    },
+    "contexte": {
+     "avant": "Diffusion originale 1995 : débats américains sur la pauvreté urbaine, la criminalité et la réforme de l’aide sociale; ne pas projeter rétrospectivement un scénario écrit trente ans plus tôt.",
+     "apres": "Diffusion originale 1995 : débats américains sur la pauvreté urbaine, la criminalité et la réforme de l’aide sociale ; ne pas projeter rétrospectivement un scénario écrit trente ans plus tôt."
+    }
+   }
+  },
+  {
+   "id": "STP-007",
+   "type": "signalement",
+   "champs": {
+    "politics": {
+     "avant": "Xénophobie d'État, empire terrestre et politique de purification; réalité alternative.",
+     "apres": "Xénophobie d'État, empire terrestre et politique de purification ; réalité alternative."
+    }
+   },
+   "motif": "harmonisation typographique (ponctuation)"
+  },
+  {
+   "id": "STP-008",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PIC «Assimilation»–«Farewell»",
+     "apres": "PIC « Assimilation »–« Farewell »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-009",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «Strange New Worlds»",
+     "apres": "SNW « Strange New Worlds »"
+    },
+    "politics": {
+     "avant": "Fragmentation des États et violence systémique; détails et datations lacunaires.",
+     "apres": "Fragmentation des États et violence systémique ; détails et datations lacunaires."
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-010",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Demons»; TOS «The Savage Curtain»",
+     "apres": "ENT « Demons » ; TOS « The Savage Curtain »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-011",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «First Contact»",
+     "apres": "Film « First Contact »"
+    },
+    "politics": {
+     "avant": "Catastrophe politico-militaire et effondrement institutionnel; bilan humain variable selon les sources diégétiques.",
+     "apres": "Catastrophe politico-militaire et effondrement institutionnel ; bilan humain variable selon les sources diégétiques."
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-012",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «First Contact»",
+     "apres": "Film « First Contact »"
+    },
+    "politics": {
+     "avant": "Début de la diplomatie interstellaire terrestre; point de bifurcation civilisationnel.",
+     "apres": "Début de la diplomatie interstellaire terrestre ; point de bifurcation civilisationnel."
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-013",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Up the Long Ladder»; «Attached»",
+     "apres": "TNG « Up the Long Ladder » ; « Attached »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-014",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TAS «The Slaver Weapon»",
+     "apres": "TAS « The Slaver Weapon »"
+    },
+    "politics": {
+     "avant": "Guerres régionales de la pré-Fédération; présence limitée à des mentions.",
+     "apres": "Guerres régionales de la pré-Fédération ; présence limitée à des mentions."
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-015",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Broken Bow»; «First Flight»",
+     "apres": "ENT « Broken Bow » ; « First Flight »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-016",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Broken Bow»",
+     "apres": "ENT « Broken Bow »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-017",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Terra Nova»",
+     "apres": "ENT « Terra Nova »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-018",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Guerre froide temporelle : factions du futur exploitant les Sulibans",
+     "apres": "Guerre froide temporelle : factions du futur exploitant les Sulibans"
+    },
+    "source": {
+     "avant": "ENT «Broken Bow»; «Shockwave»; «Storm Front»",
+     "apres": "ENT « Broken Bow » ; « Shockwave » ; « Storm Front »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-019",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Fusion»",
+     "apres": "ENT « Fusion »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-020",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Civilization»",
+     "apres": "ENT « Civilization »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-021",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «The Andorian Incident»; «Shadows of P'Jem»",
+     "apres": "ENT « The Andorian Incident » ; « Shadows of P'Jem »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-022",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Minefield»",
+     "apres": "ENT « Minefield »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-023",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Cease Fire»",
+     "apres": "ENT « Cease Fire »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-024",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Detained»",
+     "apres": "ENT « Detained »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-025",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Marauders»",
+     "apres": "ENT « Marauders »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-026",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «The Expanse»",
+     "apres": "ENT « The Expanse »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-027",
+   "type": "signalement",
+   "champs": {
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (majuscule accentuée)"
+  },
+  {
+   "id": "STP-028",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «The Council»; «Countdown»; «Zero Hour»",
+     "apres": "ENT « The Council » ; « Countdown » ; « Zero Hour »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-029",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «The Council»–«Zero Hour»",
+     "apres": "ENT « The Council »–« Zero Hour »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-030",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «The Forge»",
+     "apres": "ENT « The Forge »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-031",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Awakening»; «Kir'Shara»",
+     "apres": "ENT « Awakening » ; « Kir'Shara »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-032",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Kir'Shara»",
+     "apres": "ENT « Kir'Shara »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-033",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Babel One»; «United»; «The Aenar»",
+     "apres": "ENT « Babel One » ; « United » ; « The Aenar »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-034",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Demons»; «Terra Prime»",
+     "apres": "ENT « Demons » ; « Terra Prime »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel : Terra Prime",
+     "apres": "Éditorial officiel : Terra Prime"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)",
+   "volets": {
+    "objections": {
+     "avant": "Les mouvements anti-immigration réels sont hétérogènes; assimilation directe de tout souverainisme au terrorisme de Terra Prime serait fausse.",
+     "apres": "Les mouvements anti-immigration réels sont hétérogènes ; assimilation directe de tout souverainisme au terrorisme de Terra Prime serait fausse."
+    }
+   }
+  },
+  {
+   "id": "STP-035",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Demons»; «Terra Prime»",
+     "apres": "ENT « Demons » ; « Terra Prime »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-036",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Balance of Terror»; ENT (contexte)",
+     "apres": "TOS « Balance of Terror » ; ENT (contexte)"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-037",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Balance of Terror»",
+     "apres": "TOS « Balance of Terror »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-038",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «These Are the Voyages…»",
+     "apres": "ENT « These Are the Voyages… »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-039",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «The Vulcan Hello»; «Battle at the Binary Stars»",
+     "apres": "DIS « The Vulcan Hello » ; « Battle at the Binary Stars »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-040",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Battle at the Binary Stars»",
+     "apres": "DIS « Battle at the Binary Stars »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-041",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS saison 1; SNW «Under the Cloak of War»",
+     "apres": "DIS saison 1 ; SNW « Under the Cloak of War »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-042",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Will You Take My Hand?»",
+     "apres": "DIS « Will You Take My Hand? »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-043",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Will You Take My Hand?»; «Point of Light»",
+     "apres": "DIS « Will You Take My Hand? » ; « Point of Light »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-045",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Such Sweet Sorrow»",
+     "apres": "DIS « Such Sweet Sorrow »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-046",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «Strange New Worlds»",
+     "apres": "SNW « Strange New Worlds »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-047",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «A Quality of Mercy» (fin); «The Broken Circle»",
+     "apres": "SNW « A Quality of Mercy » (fin) ; « The Broken Circle »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-048",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «Ad Astra per Aspera»",
+     "apres": "SNW « Ad Astra per Aspera »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-049",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Crise de la cité flottante Majalan qui sacrifie un enfant au «Premier Serviteur»",
+     "apres": "Crise de la cité flottante Majalan qui sacrifie un enfant au « Premier Serviteur »"
+    },
+    "source": {
+     "avant": "SNW «Lift Us Where Suffering Cannot Reach»",
+     "apres": "SNW « Lift Us Where Suffering Cannot Reach »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-050",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «Ghosts of Illyria»; «Ad Astra per Aspera»",
+     "apres": "SNW « Ghosts of Illyria » ; « Ad Astra per Aspera »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-051",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «Memento Mori»; «Hegemony»; saison 3",
+     "apres": "SNW « Memento Mori » ; « Hegemony » ; saison 3"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-052",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «The Broken Circle»",
+     "apres": "SNW « The Broken Circle »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-053",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «Under the Cloak of War»",
+     "apres": "SNW « Under the Cloak of War »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-054",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW S4 «A Case of Chiaroscuro»",
+     "apres": "SNW S4 « A Case of Chiaroscuro »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-055",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW S4 «Orders of Magnitude»",
+     "apres": "SNW S4 « Orders of Magnitude »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-056",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Let That Be Your Last Battlefield»",
+     "apres": "TOS « Let That Be Your Last Battlefield »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-057",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «A Taste of Armageddon»",
+     "apres": "TOS « A Taste of Armageddon »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-058",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «The Return of the Archons»",
+     "apres": "TOS « The Return of the Archons »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-059",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Patterns of Force»",
+     "apres": "TOS « Patterns of Force »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-060",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «A Private Little War»",
+     "apres": "TOS « A Private Little War »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-061",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «The Cloud Minders»",
+     "apres": "TOS « The Cloud Minders »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-062",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Errand of Mercy»",
+     "apres": "TOS « Errand of Mercy »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-063",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Balance of Terror»",
+     "apres": "TOS « Balance of Terror »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-064",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Journey to Babel»",
+     "apres": "TOS « Journey to Babel »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-065",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Friday's Child»",
+     "apres": "TOS « Friday's Child »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-066",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «The Omega Glory»",
+     "apres": "TOS « The Omega Glory »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-067",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «The Gamesters of Triskelion»",
+     "apres": "TOS « The Gamesters of Triskelion »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-068",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «The Mark of Gideon»",
+     "apres": "TOS « The Mark of Gideon »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-069",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «The Way to Eden»",
+     "apres": "TOS « The Way to Eden »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-070",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «The Apple»",
+     "apres": "TOS « The Apple »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-071",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Vol de l'« Âme des Skorr » par le prince Tchar et menace d'une guerre sainte galactique",
+     "apres": "Vol de l'« Âme des Skorr » par le prince Tchar et menace d'une guerre sainte galactique"
+    },
+    "source": {
+     "avant": "TAS «The Jihad»",
+     "apres": "TAS « The Jihad »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-072",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TAS «The Slaver Weapon»",
+     "apres": "TAS « The Slaver Weapon »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-073",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «The Motion Picture»",
+     "apres": "Film « The Motion Picture »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-074",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «The Wrath of Khan»",
+     "apres": "Film « The Wrath of Khan »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-075",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «The Voyage Home»",
+     "apres": "Film « The Voyage Home »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-076",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Prise d'otages sur Nimbus III, « planète de la paix galactique », pour s'emparer d'un vaisseau",
+     "apres": "Prise d'otages sur Nimbus III, « planète de la paix galactique », pour s'emparer d'un vaisseau"
+    },
+    "source": {
+     "avant": "Film «The Final Frontier»",
+     "apres": "Film « The Final Frontier »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-077",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «The Undiscovered Country»",
+     "apres": "Film « The Undiscovered Country »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "mecanisme": {
+     "avant": "Un choc écologique et industriel agit comme accélérateur de changement diplomatique; la crise rend l’ordre militaire coûteux et expose les intérêts des appareils hostiles à la détente.",
+     "apres": "Un choc écologique et industriel agit comme accélérateur de changement diplomatique ; la crise rend l’ordre militaire coûteux et expose les intérêts des appareils hostiles à la détente."
+    }
+   }
+  },
+  {
+   "id": "STP-078",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «The Undiscovered Country»",
+     "apres": "Film « The Undiscovered Country »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-079",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «The Undiscovered Country»",
+     "apres": "Film « The Undiscovered Country »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-080",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «Generations»",
+     "apres": "Film « Generations »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-081",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «First Contact»",
+     "apres": "Film « First Contact »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-082",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «Insurrection»",
+     "apres": "Film « Insurrection »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-083",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «Nemesis»",
+     "apres": "Film « Nemesis »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-084",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «Nemesis»",
+     "apres": "Film « Nemesis »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-085",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «Star Trek» (2009)",
+     "apres": "Film « Star Trek » (2009)"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-086",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «Star Trek» (2009)",
+     "apres": "Film « Star Trek » (2009)"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-087",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «Star Trek Into Darkness»",
+     "apres": "Film « Star Trek Into Darkness »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-088",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film «Star Trek Beyond»",
+     "apres": "Film « Star Trek Beyond »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-089",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Encounter at Farpoint»",
+     "apres": "TNG « Encounter at Farpoint »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-090",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Last Outpost»",
+     "apres": "TNG « The Last Outpost »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-091",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Code of Honor»",
+     "apres": "TNG « Code of Honor »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-092",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Justice»",
+     "apres": "TNG « Justice »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-093",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Symbiosis»",
+     "apres": "TNG « Symbiosis »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-094",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Measure of a Man»",
+     "apres": "TNG « The Measure of a Man »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)",
+   "volets": {
+    "parallele": {
+     "avant": "Comparaison contemporaine utile avec la gouvernance des systèmes d’intelligence artificielle avancés : quel critère matériel ou comportemental justifierait un droit opposable? La discussion reste philosophique.",
+     "apres": "Comparaison contemporaine utile avec la gouvernance des systèmes d’intelligence artificielle avancés : quel critère matériel ou comportemental justifierait un droit opposable ? La discussion reste philosophique."
+    }
+   }
+  },
+  {
+   "id": "STP-095",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Hunted»",
+     "apres": "TNG « The Hunted »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-096",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Enemy»",
+     "apres": "TNG « The Enemy »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-097",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Sins of the Father»",
+     "apres": "TNG « Sins of the Father »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-098",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Best of Both Worlds»; DS9 «Emissary»",
+     "apres": "TNG « The Best of Both Worlds » ; DS9 « Emissary »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-099",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Ensigns of Command»",
+     "apres": "TNG « The Ensigns of Command »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-100",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Reunion»",
+     "apres": "TNG « Reunion »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-101",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Drumhead»",
+     "apres": "TNG « The Drumhead »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)",
+   "volets": {
+    "parallele": {
+     "avant": "Rapprochement historique avec le maccarthysme américain; rapprochement contemporain plus général avec les abus de pouvoirs de contrôle en situation d’alerte.",
+     "apres": "Rapprochement historique avec le maccarthysme américain ; rapprochement contemporain plus général avec les abus de pouvoirs de contrôle en situation d’alerte."
+    },
+    "contexte": {
+     "avant": "Diffusé en 1991; la référence au maccarthysme est plus directe que tout parallèle exclusif aux technologies numériques du XXIe siècle.",
+     "apres": "Diffusé en 1991 ; la référence au maccarthysme est plus directe que tout parallèle exclusif aux technologies numériques du XXIe siècle."
+    }
+   }
+  },
+  {
+   "id": "STP-102",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Redemption», parties I–II",
+     "apres": "TNG « Redemption », parties I–II"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-103",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Journey's End»",
+     "apres": "TNG « Journey's End »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-104",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Who Watches the Watchers»",
+     "apres": "TNG « Who Watches the Watchers »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-105",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Unification», parties I–II",
+     "apres": "TNG « Unification », parties I–II"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-106",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Face of the Enemy»",
+     "apres": "TNG « Face of the Enemy »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-107",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Outcast»",
+     "apres": "TNG « The Outcast »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)",
+   "volets": {
+    "objections": {
+     "avant": "Sa métaphore n’est pas un modèle exact de la diversité des expériences LGBTQ+; le choix d’un couple visuellement hétérosexuel a aussi été débattu.",
+     "apres": "Sa métaphore n’est pas un modèle exact de la diversité des expériences LGBTQ+ ; le choix d’un couple visuellement hétérosexuel a aussi été débattu."
+    }
+   }
+  },
+  {
+   "id": "STP-108",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Half a Life»",
+     "apres": "TNG « Half a Life »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-109",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Angel One»",
+     "apres": "TNG « Angel One »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-110",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Chain of Command», parties I–II",
+     "apres": "TNG « Chain of Command », parties I–II"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-111",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Quality of Life»",
+     "apres": "TNG « The Quality of Life »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-112",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The High Ground»",
+     "apres": "TNG « The High Ground »"
+    },
+    "politics": {
+     "avant": "Terrorisme et statut politique de la violence; conflit de Rutia.",
+     "apres": "Terrorisme et statut politique de la violence ; conflit de Rutia."
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-113",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Wounded»",
+     "apres": "TNG « The Wounded »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-114",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Journey's End»; «Preemptive Strike»; DS9 «The Maquis»",
+     "apres": "TNG « Journey's End » ; « Preemptive Strike » ; DS9 « The Maquis »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-115",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Preemptive Strike»",
+     "apres": "TNG « Preemptive Strike »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-116",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Pegasus»",
+     "apres": "TNG « The Pegasus »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-117",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Offspring»",
+     "apres": "TNG « The Offspring »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-118",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Homeward»",
+     "apres": "TNG « Homeward »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-119",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «First Contact» (épisode TNG)",
+     "apres": "TNG « First Contact » (épisode TNG)"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-120",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Emissary»; «Duet»; «Necessary Evil»",
+     "apres": "DS9 « Emissary » ; « Duet » ; « Necessary Evil »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-121",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Emissary»; «Shakaar»; «The Darkness and the Light»",
+     "apres": "DS9 « Emissary » ; « Shakaar » ; « The Darkness and the Light »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-122",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Emissary»",
+     "apres": "DS9 « Emissary »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-123",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Emissary»",
+     "apres": "DS9 « Emissary »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-124",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «In the Hands of the Prophets»",
+     "apres": "DS9 « In the Hands of the Prophets »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-125",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Duet»",
+     "apres": "DS9 « Duet »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)",
+   "volets": {
+    "objections": {
+     "avant": "Il ne présente pas un tribunal pénal formel comparable à Nuremberg; Marritza cherche volontairement à endosser une culpabilité qui ne lui appartient pas.",
+     "apres": "Il ne présente pas un tribunal pénal formel comparable à Nuremberg ; Marritza cherche volontairement à endosser une culpabilité qui ne lui appartient pas."
+    }
+   }
+  },
+  {
+   "id": "STP-126",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «The Homecoming»; «The Circle»; «The Siege»",
+     "apres": "DS9 « The Homecoming » ; « The Circle » ; « The Siege »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)",
+   "volets": {
+    "faits": {
+     "avant": "Le Cercle, mouvement nationaliste bajoran, exploite la transition fragile après le retrait cardassien. Il arme une faction, chasse les étrangers et menace la station; l’enquête découvre un soutien secret cardassien.",
+     "apres": "Le Cercle, mouvement nationaliste bajoran, exploite la transition fragile après le retrait cardassien. Il arme une faction, chasse les étrangers et menace la station ; l’enquête découvre un soutien secret cardassien."
+    },
+    "objections": {
+     "avant": "Nationalisme, résistance à l’occupation et extrémisme xénophobe ne sont pas synonymes; le Cercle est une faction particulière du paysage bajoran.",
+     "apres": "Nationalisme, résistance à l’occupation et extrémisme xénophobe ne sont pas synonymes ; le Cercle est une faction particulière du paysage bajoran."
+    }
+   }
+  },
+  {
+   "id": "STP-127",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «The Maquis», parties I–II",
+     "apres": "DS9 « The Maquis », parties I–II"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-128",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «The Jem'Hadar»",
+     "apres": "DS9 « The Jem'Hadar »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-129",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Bar Association»",
+     "apres": "DS9 « Bar Association »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)",
+   "volets": {
+    "objections": {
+     "avant": "La Fédération n’est pas dépeinte comme un modèle économique institutionnel documenté dans tous ses détails; comparer Quark à une entreprise américaine précise serait abusif.",
+     "apres": "La Fédération n’est pas dépeinte comme un modèle économique institutionnel documenté dans tous ses détails ; comparer Quark à une entreprise américaine précise serait abusif."
+    }
+   }
+  },
+  {
+   "id": "STP-130",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Dax»",
+     "apres": "DS9 « Dax »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-131",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Mensonge officiel à Trill sur le nombre d'hôtes « éligibles » et effacement d'un hôte indigne",
+     "apres": "Mensonge officiel à Trill sur le nombre d'hôtes « éligibles » et effacement d'un hôte indigne"
+    },
+    "source": {
+     "avant": "DS9 «Equilibrium»",
+     "apres": "DS9 « Equilibrium »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-132",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «The Adversary»",
+     "apres": "DS9 « The Adversary »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-133",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Second Skin»; «Cardassians»",
+     "apres": "DS9 « Second Skin » ; « Cardassians »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-134",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Shakaar»",
+     "apres": "DS9 « Shakaar »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-135",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Shakaar»",
+     "apres": "DS9 « Shakaar »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-136",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «The Way of the Warrior» (contexte)",
+     "apres": "DS9 « The Way of the Warrior » (contexte)"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-137",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «The Way of the Warrior»",
+     "apres": "DS9 « The Way of the Warrior »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-138",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «The Way of the Warrior»",
+     "apres": "DS9 « The Way of the Warrior »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-139",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Homefront»; «Paradise Lost»",
+     "apres": "DS9 « Homefront » ; « Paradise Lost »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-140",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Apocalypse Rising»",
+     "apres": "DS9 « Apocalypse Rising »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-141",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «For the Cause»; «For the Uniform»",
+     "apres": "DS9 « For the Cause » ; « For the Uniform »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-142",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Mémoire de la collaboration bajorane : chantage sur une liste de collaborateurs et exécutions d'innocents sous l'autorité d'Odo",
+     "apres": "Mémoire de la collaboration bajorane : chantage sur une liste de collaborateurs et exécutions d'innocents sous l'autorité d'Odo"
+    },
+    "source": {
+     "avant": "DS9 «Things Past»; «Necessary Evil»",
+     "apres": "DS9 « Things Past » ; « Necessary Evil »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-143",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «By Inferno's Light»",
+     "apres": "DS9 « By Inferno's Light »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-144",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «By Inferno's Light»; VOY «Hunters»",
+     "apres": "DS9 « By Inferno's Light » ; VOY « Hunters »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-145",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Call to Arms»",
+     "apres": "DS9 « Call to Arms »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-146",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Call to Arms»",
+     "apres": "DS9 « Call to Arms »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-147",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Call to Arms»; «A Time to Stand»",
+     "apres": "DS9 « Call to Arms » ; « A Time to Stand »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-148",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Sacrifice of Angels»",
+     "apres": "DS9 « Sacrifice of Angels »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-149",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «In the Pale Moonlight»",
+     "apres": "DS9 « In the Pale Moonlight »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)",
+   "volets": {
+    "contexte": {
+     "avant": "Diffusion 1998; éviter les lectures qui prétendent qu’il a été écrit en réponse à une guerre survenue après 1998.",
+     "apres": "Diffusion 1998 ; éviter les lectures qui prétendent qu’il a été écrit en réponse à une guerre survenue après 1998."
+    }
+   }
+  },
+  {
+   "id": "STP-150",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Behind the Lines»; «Favor the Bold»",
+     "apres": "DS9 « Behind the Lines » ; « Favor the Bold »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-151",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Hippocratic Oath»; «Rocks and Shoals»",
+     "apres": "DS9 « Hippocratic Oath » ; « Rocks and Shoals »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-152",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «The Quickening»",
+     "apres": "DS9 « The Quickening »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-153",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «When It Rains…»; «Extreme Measures»",
+     "apres": "DS9 « When It Rains… » ; « Extreme Measures »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "objections": {
+     "avant": "Le concept de génocide doit être manié précisément : la finalité d’extermination de l’espèce est exposée par le récit; les catégories de droit international contemporaines ne se transposent pas automatiquement à des espèces fictives.",
+     "apres": "Le concept de génocide doit être manié précisément : la finalité d’extermination de l’espèce est exposée par le récit ; les catégories de droit international contemporaines ne se transposent pas automatiquement à des espèces fictives."
+    }
+   }
+  },
+  {
+   "id": "STP-154",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Tacking Into the Wind»",
+     "apres": "DS9 « Tacking Into the Wind »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-155",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Tacking Into the Wind»",
+     "apres": "DS9 « Tacking Into the Wind »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-156",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «When It Rains…»; «The Dogs of War»",
+     "apres": "DS9 « When It Rains… » ; « The Dogs of War »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-157",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «What You Leave Behind»",
+     "apres": "DS9 « What You Leave Behind »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)",
+   "volets": {
+    "objections": {
+     "avant": "Il est impossible de faire correspondre précisément Cardassia à un seul pays réel; la série recycle plusieurs traditions historiques d’occupation et de guerre totale.",
+     "apres": "Il est impossible de faire correspondre précisément Cardassia à un seul pays réel ; la série recycle plusieurs traditions historiques d’occupation et de guerre totale."
+    }
+   }
+  },
+  {
+   "id": "STP-158",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «What You Leave Behind»",
+     "apres": "DS9 « What You Leave Behind »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-159",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Réformes ferengies : émancipation économique des femmes et droits sociaux",
+     "apres": "Réformes ferengies : émancipation économique des femmes et droits sociaux"
+    },
+    "source": {
+     "avant": "DS9 «Profit and Lace»; «The Dogs of War»",
+     "apres": "DS9 « Profit and Lace » ; « The Dogs of War »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-160",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «The Dogs of War»",
+     "apres": "DS9 « The Dogs of War »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-161",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Caretaker»; «Learning Curve»",
+     "apres": "VOY « Caretaker » ; « Learning Curve »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-162",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Initiations»; «Maneuvers»",
+     "apres": "VOY « Initiations » ; « Maneuvers »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-163",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Basics», parties I–II",
+     "apres": "VOY « Basics », parties I–II"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-164",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Resistance»",
+     "apres": "VOY « Resistance »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-165",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Death Wish»",
+     "apres": "VOY « Death Wish »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-166",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «The Q and the Grey»",
+     "apres": "VOY « The Q and the Grey »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-167",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «The Chute»",
+     "apres": "VOY « The Chute »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-168",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Scorpion»",
+     "apres": "VOY « Scorpion »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-169",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «The Killing Game»",
+     "apres": "VOY « The Killing Game »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-170",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Counterpoint»",
+     "apres": "VOY « Counterpoint »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-171",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Critical Care»",
+     "apres": "VOY « Critical Care »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-172",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Author, Author»",
+     "apres": "VOY « Author, Author »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-173",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Nemesis»",
+     "apres": "VOY « Nemesis »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-174",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Unimatrix Zero»",
+     "apres": "VOY « Unimatrix Zero »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-175",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Repentance»",
+     "apres": "VOY « Repentance »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-176",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Despite Yourself»–«What's Past Is Prologue»",
+     "apres": "DIS « Despite Yourself »–« What's Past Is Prologue »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-178",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Le «Burn» détruit massivement les moteurs à dilithium et brise les liaisons galactiques",
+     "apres": "Le « Burn » détruit massivement les moteurs à dilithium et brise les liaisons galactiques"
+    },
+    "source": {
+     "avant": "DIS saison 3 «That Hope Is You»; «Su'Kal»",
+     "apres": "DIS saison 3 « That Hope Is You » ; « Su'Kal »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-179",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «People of Earth»; «Unification III»",
+     "apres": "DIS « People of Earth » ; « Unification III »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-180",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «People of Earth»",
+     "apres": "DIS « People of Earth »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-181",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Forget Me Not»",
+     "apres": "DIS « Forget Me Not »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-182",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Unification III»",
+     "apres": "DIS « Unification III »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-183",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Unification III»",
+     "apres": "DIS « Unification III »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-184",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Scavengers»; «The Sanctuary»",
+     "apres": "DIS « Scavengers » ; « The Sanctuary »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-185",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «There Is a Tide…»",
+     "apres": "DIS « There Is a Tide… »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-186",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «That Hope Is You, Part 2»",
+     "apres": "DIS « That Hope Is You, Part 2 »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-188",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Kobayashi Maru»; «Anomaly»",
+     "apres": "DIS « Kobayashi Maru » ; « Anomaly »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-189",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «...But to Connect»; «All In»",
+     "apres": "DIS « ...But to Connect » ; « All In »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-190",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Species Ten-C»; «Coming Home»",
+     "apres": "DIS « Species Ten-C » ; « Coming Home »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-191",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS saison 5 «Erigah»",
+     "apres": "DIS saison 5 « Erigah »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-192",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Erigah»–«Life, Itself»",
+     "apres": "DIS « Erigah »–« Life, Itself »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-193",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Life, Itself»",
+     "apres": "DIS « Life, Itself »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-194",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Mirrors»",
+     "apres": "DIS « Mirrors »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-195",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PIC «Remembrance»; «The End Is the Beginning»",
+     "apres": "PIC « Remembrance » ; « The End Is the Beginning »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-196",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PIC «Remembrance»; «Maps and Legends»",
+     "apres": "PIC « Remembrance » ; « Maps and Legends »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-197",
+   "type": "signalement",
+   "champs": {},
+   "motif": "harmonisation typographique (ponctuation)",
+   "volets": {
+    "objections": {
+     "avant": "La réalité des dangers d’une technologie doit être établie empiriquement; la série révèle ensuite une manipulation derrière l’attaque de Mars.",
+     "apres": "La réalité des dangers d’une technologie doit être établie empiriquement ; la série révèle ensuite une manipulation derrière l’attaque de Mars."
+    }
+   }
+  },
+  {
+   "id": "STP-198",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PIC «Remembrance»",
+     "apres": "PIC « Remembrance »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-201",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PIC «Et in Arcadia Ego»",
+     "apres": "PIC « Et in Arcadia Ego »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-202",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PIC fin de saison 1; S3",
+     "apres": "PIC fin de saison 1 ; S3"
+    }
+   },
+   "motif": "harmonisation typographique (ponctuation)"
+  },
+  {
+   "id": "STP-203",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PIC «Penance»",
+     "apres": "PIC « Penance »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-204",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PIC «Farewell»",
+     "apres": "PIC « Farewell »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-206",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PIC «Imposters»–«The Last Generation»",
+     "apres": "PIC « Imposters »–« The Last Generation »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-207",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PIC «Võx»; «The Last Generation»",
+     "apres": "PIC « Võx » ; « The Last Generation »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-208",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PIC «The Last Generation»",
+     "apres": "PIC « The Last Generation »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-209",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "LD «Second Contact»",
+     "apres": "LD « Second Contact »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-210",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "LD «Where Pleasant Fountains Lie»",
+     "apres": "LD « Where Pleasant Fountains Lie »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-211",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "LD «First First Contact»",
+     "apres": "LD « First First Contact »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-212",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "LD saisons 1–2; «wej Duj»",
+     "apres": "LD saisons 1–2 ; « wej Duj »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-213",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "LD «Something Borrowed, Something Green»",
+     "apres": "LD « Something Borrowed, Something Green »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-214",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "LD «Parth Ferengi's Heart Place»",
+     "apres": "LD « Parth Ferengi's Heart Place »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-215",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "LD «The Stars at Night»",
+     "apres": "LD « The Stars at Night »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-216",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Complot de Nick Locarno fédérant des vaisseaux non alignés («Nova Fleet»)",
+     "apres": "Complot de Nick Locarno fédérant des vaisseaux non alignés (« Nova Fleet »)"
+    },
+    "source": {
+     "avant": "LD «Old Friends, New Planets»",
+     "apres": "LD « Old Friends, New Planets »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-217",
+   "type": "signalement",
+   "champs": {
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (majuscule accentuée)"
+  },
+  {
+   "id": "STP-218",
+   "type": "signalement",
+   "champs": {
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (majuscule accentuée)"
+  },
+  {
+   "id": "STP-219",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PRO «Lost and Found»",
+     "apres": "PRO « Lost and Found »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-220",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PRO «Lost and Found»",
+     "apres": "PRO « Lost and Found »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-221",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PRO saison 1; «Supernova»",
+     "apres": "PRO saison 1 ; « Supernova »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-222",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Attaque informatique du réseau Starfleet par le «Living Construct»",
+     "apres": "Attaque informatique du réseau Starfleet par le « Living Construct »"
+    },
+    "source": {
+     "avant": "PRO «Supernova», parties I–II",
+     "apres": "PRO « Supernova », parties I–II"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-223",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PRO «Supernova», partie II",
+     "apres": "PRO « Supernova », partie II"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-224",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PRO saison 2; «Ouroboros»",
+     "apres": "PRO saison 2 ; « Ouroboros »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-225",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PRO «Brink»",
+     "apres": "PRO « Brink »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-226",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "PRO «Ouroboros», partie II",
+     "apres": "PRO « Ouroboros », partie II"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-228",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SFA «Kids These Days»",
+     "apres": "SFA « Kids These Days »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-229",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SFA «Beta Test»",
+     "apres": "SFA « Beta Test »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-230",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SFA «Vox in Excelso»",
+     "apres": "SFA « Vox in Excelso »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-231",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SFA «Come, Let's Away»",
+     "apres": "SFA « Come, Let's Away »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-232",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SFA «Rubincon»",
+     "apres": "SFA « Rubincon »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-233",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Mirror, Mirror»; DIS saison 1",
+     "apres": "TOS « Mirror, Mirror » ; DIS saison 1"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-234",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Mirror, Mirror»",
+     "apres": "TOS « Mirror, Mirror »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-235",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Crossover» (passé raconté)",
+     "apres": "DS9 « Crossover » (passé raconté)"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-236",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Crossover»; «Through the Looking Glass»",
+     "apres": "DS9 « Crossover » ; « Through the Looking Glass »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-237",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Through the Looking Glass»; «Shattered Mirror»; «The Emperor's New Cloak»",
+     "apres": "DS9 « Through the Looking Glass » ; « Shattered Mirror » ; « The Emperor's New Cloak »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)"
+  },
+  {
+   "id": "STP-238",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «What's Past Is Prologue»",
+     "apres": "DIS « What's Past Is Prologue »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-239",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «Mirrors»",
+     "apres": "DIS « Mirrors »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "mecanisme": {
+     "avant": "Le pouvoir autoritaire peut connaître des réformes internes que des factions radicales répriment; l’exil conserve une continuité de la réforme avortée.",
+     "apres": "Le pouvoir autoritaire peut connaître des réformes internes que des factions radicales répriment ; l’exil conserve une continuité de la réforme avortée."
+    }
+   }
+  },
+  {
+   "id": "STP-240",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «A Quality of Mercy»",
+     "apres": "SNW « A Quality of Mercy »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-241",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Dear Doctor»",
+     "apres": "ENT « Dear Doctor »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-242",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Cogenitor»",
+     "apres": "ENT « Cogenitor »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-243",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Stigma»",
+     "apres": "ENT « Stigma »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-244",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «The Communicator»",
+     "apres": "ENT « The Communicator »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-245",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Plato's Stepchildren»",
+     "apres": "TOS « Plato's Stepchildren »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-246",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «The Ultimate Computer»",
+     "apres": "TOS « The Ultimate Computer »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-247",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TOS «Whom Gods Destroy»",
+     "apres": "TOS « Whom Gods Destroy »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-248",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TAS «Albatross»",
+     "apres": "TAS « Albatross »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-249",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TAS «Bem»",
+     "apres": "TAS « Bem »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-250",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TAS «The Infinite Vulcan»",
+     "apres": "TAS « The Infinite Vulcan »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-251",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Defector»",
+     "apres": "TNG « The Defector »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-252",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Perfect Mate»",
+     "apres": "TNG « The Perfect Mate »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-253",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Masterpiece Society»",
+     "apres": "TNG « The Masterpiece Society »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-254",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «The Quality of Life»",
+     "apres": "TNG « The Quality of Life »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-255",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Force of Nature»",
+     "apres": "TNG « Force of Nature »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-256",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Far Beyond the Stars»",
+     "apres": "DS9 « Far Beyond the Stars »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-257",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Badda-Bing, Badda-Bang»",
+     "apres": "DS9 « Badda-Bing, Badda-Bang »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-258",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Ties of Blood and Water»",
+     "apres": "DS9 « Ties of Blood and Water »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-259",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «The Siege of AR-558»",
+     "apres": "DS9 « The Siege of AR-558 »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-260",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Distant Origin»",
+     "apres": "VOY « Distant Origin »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-261",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Living Witness»",
+     "apres": "VOY « Living Witness »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-262",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Random Thoughts»",
+     "apres": "VOY « Random Thoughts »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-263",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Memorial»",
+     "apres": "VOY « Memorial »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-264",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Workforce», parties I–II",
+     "apres": "VOY « Workforce », parties I–II"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-265",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Short Treks «Children of Mars»",
+     "apres": "Short Treks « Children of Mars »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-266",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Short Treks «The Brightest Star»",
+     "apres": "Short Treks « The Brightest Star »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-267",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film « Star Trek: Section 31 » (2025)",
+     "apres": "Film « Star Trek: Section 31 » (2025)"
+    },
+    "nature_source": {
+     "avant": "Synopsis officiel; année diégétique secondaire seulement",
+     "apres": "Synopsis officiel ; année diégétique secondaire seulement"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-268",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "Film « Star Trek: Section 31 » (2025)",
+     "apres": "Film « Star Trek: Section 31 » (2025)"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-269",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Maquis et cadres de Starfleet en conflit : infiltration de cellules maquisardes par Ro Laren et Tuvok",
+     "apres": "Maquis et cadres de Starfleet en conflit : infiltration de cellules maquisardes par Ro Laren et Tuvok"
+    },
+    "source": {
+     "avant": "VOY «Caretaker»; TNG «Preemptive Strike»",
+     "apres": "VOY « Caretaker » ; TNG « Preemptive Strike »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)"
+  },
+  {
+   "id": "STP-270",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Projet de coalition de vaisseaux indépendants de Nick Locarno (« Nova Fleet ») contre les structures de Starfleet",
+     "apres": "Projet de coalition de vaisseaux indépendants de Nick Locarno (« Nova Fleet ») contre les structures de Starfleet"
+    },
+    "source": {
+     "avant": "LD «Old Friends, New Planets»",
+     "apres": "LD « Old Friends, New Planets »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-271",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Sanctuary»",
+     "apres": "DS9 « Sanctuary »"
+    },
+    "nature_source": {
+     "avant": "Résumé d’épisode (Wikipedia) ; date in-univers : Memory Alpha",
+     "apres": "Résumé d’épisode (Wikipedia) ; date in-univers : Memory Alpha"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "objections": {
+     "avant": "L’épisode ne démontre pas une violation automatique d’une convention réelle; Bajor offre une autre planète, mais la relation aux Skrreeans est marquée par la violence et le refus.",
+     "apres": "L’épisode ne démontre pas une violation automatique d’une convention réelle ; Bajor offre une autre planète, mais la relation aux Skrreeans est marquée par la violence et le refus."
+    }
+   }
+  },
+  {
+   "id": "STP-272",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Accession»",
+     "apres": "DS9 « Accession »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-273",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Rapture»",
+     "apres": "DS9 « Rapture »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-274",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Statistical Probabilities»",
+     "apres": "DS9 « Statistical Probabilities »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "objections": {
+     "avant": "Un modèle fictionnel erroné ne prouve pas que la modélisation quantitative est inutile; il illustre le coût de l’hubris prédictive et de l’absence de contre-expertise.",
+     "apres": "Un modèle fictionnel erroné ne prouve pas que la modélisation quantitative est inutile ; il illustre le coût de l’hubris prédictive et de l’absence de contre-expertise."
+    }
+   }
+  },
+  {
+   "id": "STP-275",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Paradise»",
+     "apres": "DS9 « Paradise »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-276",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Ensign Ro»",
+     "apres": "TNG « Ensign Ro »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-277",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Rightful Heir»",
+     "apres": "TNG « Rightful Heir »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-278",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Yesterday’s Enterprise»",
+     "apres": "TNG « Yesterday’s Enterprise »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-279",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «Conspiracy»",
+     "apres": "TNG « Conspiracy »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-280",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "TNG «I, Borg»",
+     "apres": "TNG « I, Borg »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-281",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Flesh and Blood»",
+     "apres": "VOY « Flesh and Blood »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "objections": {
+     "avant": "Les hologrammes de l’épisode sont explicitement dotés de propriétés fictives; leur traitement ne constitue pas une preuve concernant les IA réelles.",
+     "apres": "Les hologrammes de l’épisode sont explicitement dotés de propriétés fictives ; leur traitement ne constitue pas une preuve concernant les IA réelles."
+    }
+   }
+  },
+  {
+   "id": "STP-282",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «The Void»",
+     "apres": "VOY « The Void »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "objections": {
+     "avant": "L’épisode valorise une coalition qui tient grâce à la confiance et à l’autorité personnelle de Janeway; il ne prouve pas que la coopération est toujours dominante.",
+     "apres": "L’épisode valorise une coalition qui tient grâce à la confiance et à l’autorité personnelle de Janeway ; il ne prouve pas que la coopération est toujours dominante."
+    }
+   }
+  },
+  {
+   "id": "STP-283",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Warhead»",
+     "apres": "VOY « Warhead »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-284",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Alliances»",
+     "apres": "VOY « Alliances »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-285",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "VOY «Thirty Days»",
+     "apres": "VOY « Thirty Days »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  },
+  {
+   "id": "STP-286",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «The Sound of Thunder»",
+     "apres": "DIS « The Sound of Thunder »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)",
+   "volets": {
+    "objections": {
+     "avant": "L’histoire d’une inversion ancienne du rapport prédateur/proie interdit une lecture manichéenne pure; elle ne justifie pas davantage les mises à mort institutionnelles.",
+     "apres": "L’histoire d’une inversion ancienne du rapport prédateur/proie interdit une lecture manichéenne pure ; elle ne justifie pas davantage les mises à mort institutionnelles."
+    }
+   }
+  },
+  {
+   "id": "STP-287",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DIS «New Eden»",
+     "apres": "DIS « New Eden »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-288",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
+     "apres": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »"
+    },
+    "source": {
+     "avant": "DIS «Terra Firma », parties I–II",
+     "apres": "DIS « Terra Firma », parties I–II"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-289",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "LD «wej Duj»",
+     "apres": "LD « wej Duj »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-290",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «Damage»",
+     "apres": "ENT « Damage »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-291",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "ENT «North Star»",
+     "apres": "ENT « North Star »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-292",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SFA «Beta Test»",
+     "apres": "SFA « Beta Test »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-293",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SFA «Beta Test»",
+     "apres": "SFA « Beta Test »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "mecanisme": {
+     "avant": "L’offre déplace le centre institutionnel pour rendre une réintégration plus symétrique; la négociation concerne la crédibilité des garanties, pas seulement l’appartenance formelle.",
+     "apres": "L’offre déplace le centre institutionnel pour rendre une réintégration plus symétrique ; la négociation concerne la crédibilité des garanties, pas seulement l’appartenance formelle."
+    }
+   }
+  },
+  {
+   "id": "STP-294",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SFA «Vox in Excelso»",
+     "apres": "SFA « Vox in Excelso »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-295",
+   "type": "signalement",
+   "champs": {
+    "event": {
+     "avant": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
+     "apres": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés"
+    },
+    "source": {
+     "avant": "SFA «Vox in Excelso»",
+     "apres": "SFA « Vox in Excelso »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "objections": {
+     "avant": "La mise en scène pourrait être jugée paternaliste ou manipulatrice; son efficacité locale ne valide pas toutes les politiques fondées sur l’honneur.",
+     "apres": "La mise en scène pourrait être jugée paternaliste ou manipulatrice ; son efficacité locale ne valide pas toutes les politiques fondées sur l’honneur."
+    }
+   }
+  },
+  {
+   "id": "STP-296",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SFA «Rubincon»",
+     "apres": "SFA « Rubincon »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-297",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SFA «300th Night»; «Rubincon»",
+     "apres": "SFA « 300th Night » ; « Rubincon »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "objections": {
+     "avant": "Les propriétés de l’Omega-47 sont imaginaires; ne pas les assimiler scientifiquement à une arme réelle précise.",
+     "apres": "Les propriétés de l’Omega-47 sont imaginaires ; ne pas les assimiler scientifiquement à une arme réelle précise."
+    }
+   }
+  },
+  {
+   "id": "STP-298",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «A Case of Chiaroscuro»",
+     "apres": "SNW « A Case of Chiaroscuro »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "objections": {
+     "avant": "Éviter d’identifier d’office les Klingons à une armée ou un pays existant; les enjeux légaux dépendent de faits contextuels propres à chaque conflit.",
+     "apres": "Éviter d’identifier d’office les Klingons à une armée ou un pays existant ; les enjeux légaux dépendent de faits contextuels propres à chaque conflit."
+    }
+   }
+  },
+  {
+   "id": "STP-299",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «A Case of Chiaroscuro»",
+     "apres": "SNW « A Case of Chiaroscuro »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-300",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «Orders of Magnitude»",
+     "apres": "SNW « Orders of Magnitude »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, ponctuation)",
+   "volets": {
+    "objections": {
+     "avant": "Un épisode dramatique condense la procédure de contrôle du commandement; la qualification d’un crime réel exige une analyse précise de l’intention, du contexte et des faits.",
+     "apres": "Un épisode dramatique condense la procédure de contrôle du commandement ; la qualification d’un crime réel exige une analyse précise de l’intention, du contexte et des faits."
+    }
+   }
+  },
+  {
+   "id": "STP-301",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «Orders of Magnitude»",
+     "apres": "SNW « Orders of Magnitude »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-302",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «Valles Marineris»",
+     "apres": "SNW « Valles Marineris »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-303",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "SNW «Valles Marineris»",
+     "apres": "SNW « Valles Marineris »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-304",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Past Prologue»",
+     "apres": "DS9 « Past Prologue »"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets)"
+  },
+  {
+   "id": "STP-305",
+   "type": "signalement",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Inter Arma Enim Silent Leges»",
+     "apres": "DS9 « Inter Arma Enim Silent Leges »"
+    },
+    "nature_source": {
+     "avant": "Editorial officiel",
+     "apres": "Éditorial officiel"
+    }
+   },
+   "motif": "harmonisation typographique (guillemets, majuscule accentuée)"
+  }
+ ]
+}

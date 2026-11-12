@@ -1,6 +1,6 @@
 # Rapport d'import
 
-> Généré par `scripts/import.mjs`. Sources : `data/source/Star_Trek_Atlas_Politique_V0_13_2026-11-12.csv`, `data/source/Star_Trek_Atlas_Politique_V0_13_2026-11-12.md`.
+> Généré par `scripts/import.mjs`. Sources : `data/source/Star_Trek_Atlas_Politique_V0_14_2026-11-12.csv`, `data/source/Star_Trek_Atlas_Politique_V0_14_2026-11-12.md`.
 
 ## Comptages
 

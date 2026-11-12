@@ -39,8 +39,13 @@ function romain(n) { return 'X'.repeat(Math.floor(n / 10)) + ROM[n % 10]; }
 export function bande(o) {
   if (o.precision === 'passe_lointain') return 'Passé lointain';
   if (o.cle == null) return 'Non ordonnable sans interprétation';
-  const siecle = Math.floor((o.cle - 1) / 100) + 1;
-  return `${romain(siecle)}e siècle`;
+  if (o.siecle_fin) return `Entre le ${romain(o.siecle)}e et le ${romain(o.siecle_fin)}e siècle`;
+  return `${romain(o.siecle)}e siècle`;
+}
+// Cle de tri complete : groupe, siecle, intervalle apres le siecle, imprecis en fin de siecle.
+export function cleTri(o) {
+  const groupe = o.precision === 'passe_lointain' ? 0 : o.cle == null ? 2 : 1;
+  return [groupe, o.siecle ?? 0, o.siecle_fin ? 1 : 0, o.imprecis ? 1 : 0, o.imprecis ? o.qualif : (o.cle ?? 0) - (o.avant ? 0.5 : 0)];
 }
 
 export function lireDoublons() {
@@ -144,11 +149,16 @@ export function importer(csvPath, mdPath) {
   }
 
   // Rang diegetique (tri seulement) et bande d'affichage (siecle de la cle).
-  const groupe = (o) => (o.precision === 'passe_lointain' ? 0 : o.cle == null ? 2 : 1);
-  [...evenements]
-    .sort((a, b) => groupe(a.ordre) - groupe(b.ordre) || (a.ordre.cle ?? 0) - (b.ordre.cle ?? 0) || a.id.localeCompare(b.id))
-    .forEach((e, i) => { e.rang_diegetique = i + 1; });
-  for (const e of evenements) e.bande = bande(e.ordre);
+  const compare = (a, b) => {
+    const x = cleTri(a.ordre), y = cleTri(b.ordre);
+    for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return x[i] - y[i];
+    return a.id.localeCompare(b.id);
+  };
+  [...evenements].sort(compare).forEach((e, i) => { e.rang_diegetique = i + 1; });
+  for (const e of evenements) {
+    e.bande = bande(e.ordre);
+    e.sous_bande = e.ordre.imprecis ? 'Datation imprécise dans le siècle' : null;
+  }
 
   // Evenements associes : (1) episode commun ; (2) identifiant cite dans les
   // textes de l'entree (note d'audit, fiche, correction, note editoriale).

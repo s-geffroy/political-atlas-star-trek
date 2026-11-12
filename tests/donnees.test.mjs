@@ -73,7 +73,13 @@ test('continuites : Miroir, Kelvin et temporalites modifiees separees', () => {
 });
 
 test('periodes floues : jamais converties, cle de tri seulement', () => {
-  assert.deepEqual(ordreDiegetique('XXIVe siècle'), { cle: 2301, precision: 'siecle' });
+  assert.deepEqual(ordreDiegetique('XXIVe siècle'), { cle: 2301, precision: 'siecle', siecle: 24, imprecis: true, qualif: 4 });
+  assert.equal(ordreDiegetique('Milieu XXIe siècle').qualif, 2);
+  assert.equal(ordreDiegetique('Fin XXIe–début XXIIe').siecle_fin, 22);
+  assert.equal(ordreDiegetique('Entre 2267 et la fin du XXIVe siècle, Miroir').siecle_fin, 24);
+  assert.equal(ordreDiegetique('Début XXIIe siècle–2150').siecle_fin, undefined);
+  assert.equal(ordreDiegetique('Entre 2267 et la fin du XXIVe siècle (événement relaté en 3191)').siecle_fin, 24);
+  assert.equal(ordreDiegetique('Avant 2369').avant, true);
   assert.deepEqual(ordreDiegetique('Passé lointain'), { cle: null, precision: 'passe_lointain' });
   assert.equal(ordreDiegetique('2260s').precision, 'decennie');
   for (const e of gen) assert.equal(e.period, r.records.find((x) => x.data.id === e.id).data.period);
@@ -144,4 +150,17 @@ test('note d\'audit lisible : aucun texte perdu (hors chemins internes)', async 
     const affiche = e.audit.flatMap((x) => [x.version || '', ...x.segments.map((s) => s.texte || s.url)]).join(' ');
     for (const w of mots(e.note_audit)) assert.ok(affiche.includes(w) || /^\d{4}$/.test(w) || /^V\d/.test(w), `${e.id} : « ${w} » perdu`);
   }
+});
+
+test('ordre diegetique : imprecis apres les dates du siecle, « Avant N » avant N, intervalles entre siecles', () => {
+  const rang = (id) => gen.find((e) => e.id === id).rang_diegetique;
+  const parPeriode = (re) => gen.filter((e) => re.test(e.period) && e.continuite === 'principale');
+  const max = (l) => Math.max(...l.map((e) => e.rang_diegetique)), min = (l) => Math.min(...l.map((e) => e.rang_diegetique));
+  // « Milieu XXIe siecle » apres toutes les annees 20xx datees.
+  assert.ok(min(parPeriode(/^Milieu XXIe/)) > max(parPeriode(/^20\d\d/)));
+  // « Avant 2369 » avant les entrees de 2369.
+  assert.ok(max(parPeriode(/^Avant 2369/)) < min(parPeriode(/^2369/)));
+  // « Fin XXIe–debut XXIIe » apres le XXIe siecle, avant les dates du XXIIe.
+  assert.ok(min(parPeriode(/^Fin XXIe/)) > max(parPeriode(/^20\d\d/)) && max(parPeriode(/^Fin XXIe/)) < min(parPeriode(/^21\d\d/)));
+  for (const e of gen) assert.ok(rang(e.id) >= 1);
 });

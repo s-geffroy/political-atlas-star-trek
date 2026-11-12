@@ -120,6 +120,7 @@
   },
   "rang_diegetique": 1,
   "bande": "Passé lointain",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-030",
@@ -229,6 +230,7 @@
   },
   "rang_diegetique": 2,
   "bande": "Passé lointain",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-031",
@@ -324,6 +326,7 @@
   },
   "rang_diegetique": 3,
   "bande": "Passé lointain",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -426,6 +429,7 @@
   },
   "rang_diegetique": 4,
   "bande": "Passé lointain",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-014",
@@ -484,7 +488,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 1990,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 20
   },
   "audit": [
    {
@@ -561,6 +566,7 @@
   },
   "rang_diegetique": 9,
   "bande": "XXe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -593,7 +599,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2001,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 21,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
@@ -614,8 +623,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 10,
+  "rang_diegetique": 16,
   "bande": "XXIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": []
  },
  {
@@ -644,7 +654,8 @@
   "continuite_regle": "`period` signale une temporalité ou réalité modifiée",
   "ordre": {
    "cle": 2024,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 21
   },
   "audit": [
    {
@@ -676,8 +687,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 13,
+  "rang_diegetique": 10,
   "bande": "XXIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -714,7 +726,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2024,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 21
   },
   "audit": [
    {
@@ -757,8 +770,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 14,
+  "rang_diegetique": 11,
   "bande": "XXIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-204",
@@ -800,7 +814,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2026,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 21
   },
   "audit": [
    {
@@ -872,8 +887,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 15,
+  "rang_diegetique": 12,
   "bande": "XXIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-046",
@@ -920,7 +936,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2001,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 21,
+   "imprecis": true,
+   "qualif": 2
   },
   "audit": [
    {
@@ -962,8 +981,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 11,
+  "rang_diegetique": 15,
   "bande": "XXIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-034",
@@ -1012,7 +1032,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2053,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 21
   },
   "audit": [
    {
@@ -1087,8 +1108,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 16,
+  "rang_diegetique": 13,
   "bande": "XXIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-012",
@@ -1143,7 +1165,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2063,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 21
   },
   "audit": [
    {
@@ -1181,8 +1204,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 17,
+  "rang_diegetique": 14,
   "bande": "XXIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-011",
@@ -1234,7 +1258,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2101,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 22,
+   "imprecis": true,
+   "qualif": 1
   },
   "audit": [
    {
@@ -1292,8 +1319,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 18,
+  "rang_diegetique": 47,
   "bande": "XXIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-011",
@@ -1334,7 +1362,9 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2001,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 21,
+   "siecle_fin": 22
   },
   "audit": [
    {
@@ -1381,8 +1411,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 12,
-  "bande": "XXIe siècle",
+  "rang_diegetique": 17,
+  "bande": "Entre le XXIe et le XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-004",
@@ -1434,7 +1465,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2101,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 22,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -1498,8 +1532,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 19,
+  "rang_diegetique": 48,
   "bande": "XXIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-016",
@@ -1547,7 +1582,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2151,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -1600,8 +1636,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 20,
+  "rang_diegetique": 18,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-015",
@@ -1649,7 +1686,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2151,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -1680,8 +1718,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 21,
+  "rang_diegetique": 19,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -1723,7 +1762,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2151,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -1808,8 +1848,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 22,
+  "rang_diegetique": 20,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-015",
@@ -1857,7 +1898,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2151,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -1924,8 +1966,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 23,
+  "rang_diegetique": 21,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -1960,7 +2003,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2151,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -2006,8 +2050,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 24,
+  "rang_diegetique": 22,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -2045,7 +2090,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2152,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -2109,8 +2155,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 26,
+  "rang_diegetique": 24,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -2143,7 +2190,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2152,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -2189,8 +2237,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 27,
+  "rang_diegetique": 25,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -2223,7 +2272,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2152,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -2261,8 +2311,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 28,
+  "rang_diegetique": 26,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -2295,7 +2346,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2152,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -2348,8 +2400,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 29,
+  "rang_diegetique": 27,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -2383,7 +2436,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2152,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -2429,8 +2483,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 30,
+  "rang_diegetique": 28,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -2464,7 +2519,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2153,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -2530,8 +2586,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 34,
+  "rang_diegetique": 32,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -2559,7 +2616,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2153,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -2619,8 +2677,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 35,
+  "rang_diegetique": 33,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -2662,7 +2721,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2154,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -2731,8 +2791,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 37,
+  "rang_diegetique": 35,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-029",
@@ -2780,7 +2841,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2154,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -2850,8 +2912,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 38,
+  "rang_diegetique": 36,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-028",
@@ -2893,7 +2956,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2154,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -2952,8 +3016,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 39,
+  "rang_diegetique": 37,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-001",
@@ -2998,7 +3063,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2154,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -3069,8 +3135,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 40,
+  "rang_diegetique": 38,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-001",
@@ -3126,7 +3193,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2154,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -3170,8 +3238,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 41,
+  "rang_diegetique": 39,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-001",
@@ -3228,7 +3297,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2154,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -3284,8 +3354,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 42,
+  "rang_diegetique": 40,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -3322,7 +3393,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2154,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [],
   "cycle_slug": "enterprise-diplomatie-et-fondation-de-la-federation",
@@ -3355,8 +3427,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 43,
+  "rang_diegetique": 41,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-010",
@@ -3409,7 +3482,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2155,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -3480,8 +3554,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 45,
+  "rang_diegetique": 43,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-010",
@@ -3531,7 +3606,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2156,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -3584,8 +3660,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 46,
+  "rang_diegetique": 44,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-037",
@@ -3634,7 +3711,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2160,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -3672,8 +3750,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 47,
+  "rang_diegetique": 45,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-036",
@@ -3721,7 +3800,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2161,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -3779,8 +3859,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 48,
+  "rang_diegetique": 46,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -3817,7 +3898,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2256,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -3867,8 +3949,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 61,
+  "rang_diegetique": 53,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-040",
@@ -3909,7 +3992,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2256,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -3953,8 +4037,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 62,
+  "rang_diegetique": 54,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-039",
@@ -3996,7 +4081,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2256,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -4073,8 +4159,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 63,
+  "rang_diegetique": 55,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-053",
@@ -4116,7 +4203,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2257,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -4176,8 +4264,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 64,
+  "rang_diegetique": 56,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-043",
@@ -4222,7 +4311,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2257,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -4280,8 +4370,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 65,
+  "rang_diegetique": 57,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-042",
@@ -4319,7 +4410,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2257,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -4379,8 +4471,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 66,
+  "rang_diegetique": 58,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -4413,7 +4506,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2258,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -4456,8 +4550,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 70,
+  "rang_diegetique": 62,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -4491,7 +4586,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2259,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -4529,8 +4625,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 72,
+  "rang_diegetique": 64,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-009",
@@ -4576,7 +4673,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2259,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -4655,8 +4753,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 73,
+  "rang_diegetique": 65,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-052",
@@ -4705,7 +4804,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2259,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [],
   "cycle_slug": "discovery-et-strange-new-worlds-crises-du-xxiiie-siecle",
@@ -4739,8 +4839,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 74,
+  "rang_diegetique": 66,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-050",
@@ -4781,7 +4882,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2259,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -4812,8 +4914,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 75,
+  "rang_diegetique": 67,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -4852,7 +4955,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2259,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -4907,8 +5011,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 76,
+  "rang_diegetique": 68,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-048",
@@ -4955,7 +5060,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2259,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5020,8 +5126,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 77,
+  "rang_diegetique": 69,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -5055,7 +5162,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2259,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5093,8 +5201,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 78,
+  "rang_diegetique": 70,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-047",
@@ -5135,7 +5244,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2259,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5173,8 +5283,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 79,
+  "rang_diegetique": 71,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-041",
@@ -5216,7 +5327,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5283,8 +5395,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 81,
+  "rang_diegetique": 73,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-298",
@@ -5333,7 +5446,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5364,8 +5478,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 82,
+  "rang_diegetique": 74,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-300",
@@ -5414,7 +5529,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5460,8 +5576,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 83,
+  "rang_diegetique": 75,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -5494,7 +5611,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5540,8 +5658,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 84,
+  "rang_diegetique": 76,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -5574,7 +5693,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5620,8 +5740,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 85,
+  "rang_diegetique": 77,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -5654,7 +5775,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5685,8 +5807,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 86,
+  "rang_diegetique": 78,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -5719,7 +5842,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5750,8 +5874,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 87,
+  "rang_diegetique": 79,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -5784,7 +5909,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5824,8 +5950,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 88,
+  "rang_diegetique": 80,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -5859,7 +5986,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5912,8 +6040,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 89,
+  "rang_diegetique": 81,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -5946,7 +6075,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -5977,8 +6107,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 90,
+  "rang_diegetique": 82,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-036",
@@ -6028,7 +6159,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -6074,8 +6206,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 91,
+  "rang_diegetique": 83,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -6110,7 +6243,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -6170,8 +6304,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 92,
+  "rang_diegetique": 84,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -6205,7 +6340,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -6251,8 +6387,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 93,
+  "rang_diegetique": 85,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -6285,7 +6422,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -6331,8 +6469,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 94,
+  "rang_diegetique": 86,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -6366,7 +6505,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -6426,8 +6566,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 95,
+  "rang_diegetique": 87,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -6460,7 +6601,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -6506,8 +6648,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 96,
+  "rang_diegetique": 88,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -6541,7 +6684,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -6601,8 +6745,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 97,
+  "rang_diegetique": 89,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -6636,7 +6781,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -6702,8 +6848,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 98,
+  "rang_diegetique": 90,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -6736,7 +6883,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -6794,8 +6942,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 99,
+  "rang_diegetique": 91,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-004",
@@ -6843,7 +6992,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2270,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -6880,8 +7030,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 110,
+  "rang_diegetique": 100,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -6915,7 +7066,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2280,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -6953,8 +7105,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 111,
+  "rang_diegetique": 101,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -6987,7 +7140,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2280,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -7024,8 +7178,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 112,
+  "rang_diegetique": 102,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -7059,7 +7214,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2280,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -7125,8 +7281,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 113,
+  "rang_diegetique": 103,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -7160,7 +7317,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2293,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -7204,8 +7362,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 114,
+  "rang_diegetique": 104,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-078",
@@ -7254,7 +7413,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2293,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -7292,8 +7452,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 115,
+  "rang_diegetique": 105,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-077",
@@ -7342,7 +7503,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2293,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -7405,8 +7567,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 116,
+  "rang_diegetique": 106,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-077",
@@ -7454,7 +7617,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2371,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -7491,8 +7655,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 175,
+  "rang_diegetique": 173,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -7525,7 +7690,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -7578,8 +7744,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 195,
+  "rang_diegetique": 193,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-011",
@@ -7627,7 +7794,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -7658,8 +7826,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 219,
+  "rang_diegetique": 217,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -7693,7 +7862,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2379,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -7731,8 +7901,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 241,
+  "rang_diegetique": 239,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-084",
@@ -7774,7 +7945,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2379,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -7812,8 +7984,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 242,
+  "rang_diegetique": 240,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-083",
@@ -7854,7 +8027,8 @@
   "continuite_regle": "`period` contient « Kelvin »",
   "ordre": {
    "cle": 2233,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -7899,8 +8073,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 58,
+  "rang_diegetique": 50,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-086",
@@ -7941,7 +8116,8 @@
   "continuite_regle": "`period` contient « Kelvin »",
   "ordre": {
    "cle": 2258,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -7986,8 +8162,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 71,
+  "rang_diegetique": 63,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-085",
@@ -8028,7 +8205,8 @@
   "continuite_regle": "`period` contient « Kelvin »",
   "ordre": {
    "cle": 2259,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -8072,8 +8250,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 80,
+  "rang_diegetique": 72,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -8107,7 +8286,8 @@
   "continuite_regle": "`period` contient « Kelvin »",
   "ordre": {
    "cle": 2263,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -8138,8 +8318,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 106,
+  "rang_diegetique": 98,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -8173,7 +8354,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2364,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -8219,8 +8401,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 121,
+  "rang_diegetique": 119,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -8253,7 +8436,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2364,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -8313,8 +8497,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 122,
+  "rang_diegetique": 120,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -8347,7 +8532,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2364,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -8407,8 +8593,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 123,
+  "rang_diegetique": 121,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -8441,7 +8628,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2364,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -8472,8 +8660,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 124,
+  "rang_diegetique": 122,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -8507,7 +8696,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2364,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -8553,8 +8743,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 125,
+  "rang_diegetique": 123,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -8588,7 +8779,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2365,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -8640,8 +8832,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 128,
+  "rang_diegetique": 126,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -8675,7 +8868,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2366,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -8721,8 +8915,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 129,
+  "rang_diegetique": 127,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -8756,7 +8951,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2366,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -8816,8 +9012,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 130,
+  "rang_diegetique": 128,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -8852,7 +9049,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2366,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -8905,8 +9103,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 131,
+  "rang_diegetique": 129,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -8944,7 +9143,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2366,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -9013,8 +9213,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 132,
+  "rang_diegetique": 130,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-120",
@@ -9078,7 +9279,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2366,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -9109,8 +9311,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 133,
+  "rang_diegetique": 131,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -9144,7 +9347,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2367,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -9204,8 +9408,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 138,
+  "rang_diegetique": 136,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -9238,7 +9443,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2367,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [],
   "cycle_slug": "the-next-generation-institutions-guerre-droits",
@@ -9259,8 +9465,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 139,
+  "rang_diegetique": 137,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -9294,7 +9501,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2367,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -9358,8 +9566,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 140,
+  "rang_diegetique": 138,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -9393,7 +9602,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2370,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -9459,8 +9669,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 165,
+  "rang_diegetique": 163,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-114",
@@ -9502,7 +9713,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2367,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -9548,8 +9760,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 141,
+  "rang_diegetique": 139,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -9583,7 +9796,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2368,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -9647,8 +9861,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 144,
+  "rang_diegetique": 142,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-002",
@@ -9690,7 +9905,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2368,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -9750,8 +9966,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 145,
+  "rang_diegetique": 143,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -9784,7 +10001,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2368,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -9815,8 +10033,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 146,
+  "rang_diegetique": 144,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -9849,7 +10068,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2367,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -9880,8 +10100,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 142,
+  "rang_diegetique": 140,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -9914,7 +10135,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2364,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -9945,8 +10167,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 126,
+  "rang_diegetique": 124,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -9979,7 +10202,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -10017,6 +10241,7 @@
   },
   "rang_diegetique": 151,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -10050,7 +10275,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -10094,6 +10320,7 @@
   },
   "rang_diegetique": 152,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-254",
@@ -10138,7 +10365,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2366,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -10183,8 +10411,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 134,
+  "rang_diegetique": 132,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -10218,7 +10447,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -10265,6 +10495,7 @@
   },
   "rang_diegetique": 153,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -10307,7 +10538,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2370,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -10372,8 +10604,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 166,
+  "rang_diegetique": 164,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-103",
@@ -10435,7 +10668,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2370,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -10491,8 +10725,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 167,
+  "rang_diegetique": 165,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-114",
@@ -10542,7 +10777,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2370,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -10573,8 +10809,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 168,
+  "rang_diegetique": 166,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -10608,7 +10845,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2366,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -10646,8 +10884,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 135,
+  "rang_diegetique": 133,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -10680,7 +10919,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2370,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -10711,8 +10951,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 169,
+  "rang_diegetique": 167,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -10745,7 +10986,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2367,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -10796,8 +11038,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 143,
+  "rang_diegetique": 141,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -10839,7 +11082,9 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "borne"
+   "precision": "borne",
+   "siecle": 24,
+   "avant": true
   },
   "audit": [
    {
@@ -10920,8 +11165,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 154,
+  "rang_diegetique": 149,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-098",
@@ -11006,7 +11252,9 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "borne"
+   "precision": "borne",
+   "siecle": 24,
+   "avant": true
   },
   "audit": [
    {
@@ -11069,8 +11317,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 155,
+  "rang_diegetique": 150,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-098",
@@ -11147,7 +11396,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -11206,8 +11456,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 156,
+  "rang_diegetique": 154,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-098",
@@ -11269,7 +11520,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -11328,8 +11580,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 157,
+  "rang_diegetique": 155,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-098",
@@ -11391,7 +11644,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -11458,8 +11712,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 158,
+  "rang_diegetique": 156,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -11492,7 +11747,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -11536,8 +11792,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 159,
+  "rang_diegetique": 157,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-120",
@@ -11593,7 +11850,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -11647,8 +11905,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 160,
+  "rang_diegetique": 158,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -11682,7 +11941,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2370,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -11765,8 +12025,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 170,
+  "rang_diegetique": 168,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-114",
@@ -11808,7 +12069,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2370,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -11873,8 +12135,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 171,
+  "rang_diegetique": 169,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -11908,7 +12171,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2372,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
@@ -11929,8 +12193,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 184,
+  "rang_diegetique": 182,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -11963,7 +12228,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2371,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -12009,8 +12275,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 176,
+  "rang_diegetique": 174,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -12044,7 +12311,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2371,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -12095,8 +12363,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 177,
+  "rang_diegetique": 175,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -12129,7 +12398,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2371,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -12173,8 +12443,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 178,
+  "rang_diegetique": 176,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -12212,7 +12483,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2371,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -12296,8 +12568,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 179,
+  "rang_diegetique": 177,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-125",
@@ -12339,7 +12612,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2371,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -12392,8 +12666,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 180,
+  "rang_diegetique": 178,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-121",
@@ -12442,7 +12717,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2371,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -12500,8 +12776,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 181,
+  "rang_diegetique": 179,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-121",
@@ -12549,7 +12826,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2372,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -12587,8 +12865,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 185,
+  "rang_diegetique": 183,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-137",
@@ -12637,7 +12916,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2372,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -12715,8 +12995,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 186,
+  "rang_diegetique": 184,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-136",
@@ -12764,7 +13045,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2372,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -12830,8 +13112,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 187,
+  "rang_diegetique": 185,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-136",
@@ -12884,7 +13167,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2372,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -12927,8 +13211,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 188,
+  "rang_diegetique": 186,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -12962,7 +13247,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -13029,8 +13315,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 196,
+  "rang_diegetique": 194,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -13067,7 +13354,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2372,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -13146,8 +13434,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 189,
+  "rang_diegetique": 187,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -13185,7 +13474,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -13263,8 +13553,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 197,
+  "rang_diegetique": 195,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-120",
@@ -13305,7 +13596,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -13371,8 +13663,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 198,
+  "rang_diegetique": 196,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-144",
@@ -13418,7 +13711,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -13488,8 +13782,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 199,
+  "rang_diegetique": 197,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-143",
@@ -13531,7 +13826,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -13584,8 +13880,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 200,
+  "rang_diegetique": 198,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-146",
@@ -13634,7 +13931,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -13724,8 +14022,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 201,
+  "rang_diegetique": 199,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-145",
@@ -13777,7 +14076,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -13860,8 +14160,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 202,
+  "rang_diegetique": 200,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-145",
@@ -13909,7 +14210,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -13968,8 +14270,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 207,
+  "rang_diegetique": 205,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -14003,7 +14306,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
@@ -14031,8 +14335,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 208,
+  "rang_diegetique": 206,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -14071,7 +14376,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -14127,8 +14433,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 209,
+  "rang_diegetique": 207,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -14166,7 +14473,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -14229,8 +14537,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 210,
+  "rang_diegetique": 208,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -14263,7 +14572,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2372,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -14309,8 +14619,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 190,
+  "rang_diegetique": 188,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -14348,7 +14659,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
@@ -14387,8 +14699,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 220,
+  "rang_diegetique": 218,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -14422,7 +14735,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -14466,8 +14780,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 221,
+  "rang_diegetique": 219,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-155",
@@ -14508,7 +14823,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -14552,8 +14868,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 222,
+  "rang_diegetique": 220,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-154",
@@ -14599,7 +14916,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -14663,8 +14981,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 223,
+  "rang_diegetique": 221,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-159",
@@ -14714,7 +15033,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -14774,8 +15094,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 224,
+  "rang_diegetique": 222,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-158",
@@ -14817,7 +15138,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -14876,8 +15198,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 225,
+  "rang_diegetique": 223,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-157",
@@ -14924,7 +15247,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -14994,8 +15318,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 226,
+  "rang_diegetique": 224,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-156",
@@ -15043,7 +15368,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -15103,8 +15429,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 227,
+  "rang_diegetique": 225,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-156",
@@ -15156,7 +15483,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2371,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -15220,8 +15548,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 182,
+  "rang_diegetique": 180,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-269",
@@ -15268,7 +15597,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2371,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -15346,8 +15676,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 183,
+  "rang_diegetique": 181,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -15380,7 +15711,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2372,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -15444,8 +15776,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 191,
+  "rang_diegetique": 189,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -15481,7 +15814,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2372,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -15541,8 +15875,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 192,
+  "rang_diegetique": 190,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -15575,7 +15910,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -15628,8 +15964,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 203,
+  "rang_diegetique": 201,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -15664,7 +16001,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -15702,8 +16040,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 204,
+  "rang_diegetique": 202,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -15736,7 +16075,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -15796,8 +16136,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 205,
+  "rang_diegetique": 203,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -15830,7 +16171,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -15881,8 +16223,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 211,
+  "rang_diegetique": 209,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -15915,7 +16258,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -15987,8 +16331,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 212,
+  "rang_diegetique": 210,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -16022,7 +16367,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -16068,8 +16414,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 228,
+  "rang_diegetique": 226,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -16103,7 +16450,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2377,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -16154,8 +16502,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 235,
+  "rang_diegetique": 233,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -16190,7 +16539,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2377,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -16250,8 +16600,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 236,
+  "rang_diegetique": 234,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -16285,7 +16636,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -16345,8 +16697,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 213,
+  "rang_diegetique": 211,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -16379,7 +16732,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2376,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -16430,8 +16784,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 234,
+  "rang_diegetique": 232,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -16464,7 +16819,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2377,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -16524,8 +16880,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 237,
+  "rang_diegetique": 235,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -16563,7 +16920,8 @@
   "continuite_regle": "`period` contient « Miroir »",
   "ordre": {
    "cle": 2257,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -16617,8 +16975,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 67,
+  "rang_diegetique": 59,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-238",
@@ -16655,7 +17014,8 @@
   "continuite_regle": "`period` contient « Miroir »",
   "ordre": {
    "cle": 2250,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -16687,8 +17047,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 59,
+  "rang_diegetique": 51,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -16725,7 +17086,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3069,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 31
   },
   "audit": [
    {
@@ -16803,6 +17165,7 @@
   },
   "rang_diegetique": 279,
   "bande": "XXXIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -16884,6 +17247,7 @@
   },
   "rang_diegetique": 305,
   "bande": "Non ordonnable sans interprétation",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-180",
@@ -16939,7 +17303,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3188,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -16977,8 +17342,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 285,
+  "rang_diegetique": 280,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-179",
@@ -17019,7 +17385,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3188,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17050,8 +17417,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 286,
+  "rang_diegetique": 281,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -17085,7 +17453,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3188,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17142,8 +17511,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 287,
+  "rang_diegetique": 282,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-179",
@@ -17191,7 +17561,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3188,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17235,8 +17606,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 288,
+  "rang_diegetique": 283,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-179",
@@ -17289,7 +17661,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3188,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17332,8 +17705,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 289,
+  "rang_diegetique": 284,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -17368,7 +17742,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3188,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17413,8 +17788,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 290,
+  "rang_diegetique": 285,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -17447,7 +17823,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3189,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17485,8 +17862,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 291,
+  "rang_diegetique": 286,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -17515,7 +17893,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3189,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17553,8 +17932,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 292,
+  "rang_diegetique": 287,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -17591,7 +17971,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3189,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17645,8 +18026,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 293,
+  "rang_diegetique": 288,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -17684,7 +18066,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3190,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17734,8 +18117,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 294,
+  "rang_diegetique": 289,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -17772,7 +18156,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3190,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17815,8 +18200,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 295,
+  "rang_diegetique": 290,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -17849,7 +18235,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3191,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17887,8 +18274,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 296,
+  "rang_diegetique": 291,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-192",
@@ -17933,7 +18321,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3191,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -17983,8 +18372,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 297,
+  "rang_diegetique": 292,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-191",
@@ -18033,7 +18423,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3191,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -18071,8 +18462,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 298,
+  "rang_diegetique": 293,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-192",
@@ -18113,7 +18505,9 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2267,
-   "precision": "borne"
+   "precision": "borne",
+   "siecle": 23,
+   "siecle_fin": 24
   },
   "audit": [
    {
@@ -18175,8 +18569,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 108,
-  "bande": "XXIIIe siècle",
+  "rang_diegetique": 115,
+  "bande": "Entre le XXIIIe et le XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-239",
@@ -18221,7 +18616,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2380,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 24
   },
   "audit": [
    {
@@ -18270,8 +18666,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 243,
+  "rang_diegetique": 241,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-196",
@@ -18325,7 +18722,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2385,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -18387,8 +18785,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 265,
+  "rang_diegetique": 263,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-195",
@@ -18432,7 +18831,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2385,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -18486,8 +18886,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 266,
+  "rang_diegetique": 264,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -18521,7 +18922,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2385,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -18572,8 +18974,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 267,
+  "rang_diegetique": 265,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-195",
@@ -18618,7 +19021,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2390,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 24
   },
   "audit": [
    {
@@ -18656,8 +19060,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 269,
+  "rang_diegetique": 267,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -18686,7 +19091,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2399,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -18724,8 +19130,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 270,
+  "rang_diegetique": 268,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -18759,7 +19166,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2399,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -18815,8 +19223,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 271,
+  "rang_diegetique": 269,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -18845,7 +19254,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2399,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -18898,8 +19308,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 272,
+  "rang_diegetique": 270,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -18933,7 +19344,8 @@
   "continuite_regle": "`period` signale une temporalité ou réalité modifiée",
   "ordre": {
    "cle": 2401,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 25
   },
   "audit": [
    {
@@ -18980,6 +19392,7 @@
   },
   "rang_diegetique": 273,
   "bande": "XXVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -19013,7 +19426,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2401,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 25
   },
   "audit": [
    {
@@ -19075,6 +19489,7 @@
   },
   "rang_diegetique": 274,
   "bande": "XXVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-008",
@@ -19110,7 +19525,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2401,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 25
   },
   "audit": [
    {
@@ -19151,6 +19567,7 @@
   },
   "rang_diegetique": 275,
   "bande": "XXVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -19189,7 +19606,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2401,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 25
   },
   "audit": [
    {
@@ -19253,6 +19671,7 @@
   },
   "rang_diegetique": 276,
   "bande": "XXVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-207",
@@ -19305,7 +19724,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2401,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 25
   },
   "audit": [
    {
@@ -19363,6 +19783,7 @@
   },
   "rang_diegetique": 277,
   "bande": "XXVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-206",
@@ -19411,7 +19832,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2401,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 25
   },
   "audit": [
    {
@@ -19457,6 +19879,7 @@
   },
   "rang_diegetique": 278,
   "bande": "XXVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-206",
@@ -19504,7 +19927,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2380,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -19535,8 +19959,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 244,
+  "rang_diegetique": 242,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -19570,7 +19995,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2380,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -19630,8 +20056,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 245,
+  "rang_diegetique": 243,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -19664,7 +20091,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2381,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -19717,8 +20145,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 246,
+  "rang_diegetique": 244,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -19752,7 +20181,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2381,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -19832,8 +20262,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 247,
+  "rang_diegetique": 245,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-289",
@@ -19875,7 +20306,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2381,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -19942,8 +20374,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 248,
+  "rang_diegetique": 246,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-218",
@@ -19984,7 +20417,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2381,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -20043,8 +20477,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 249,
+  "rang_diegetique": 247,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -20078,7 +20513,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2381,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -20124,8 +20560,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 250,
+  "rang_diegetique": 248,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -20159,7 +20596,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2382,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -20223,8 +20661,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 253,
+  "rang_diegetique": 251,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-270",
@@ -20261,7 +20700,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2382,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -20301,8 +20741,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 254,
+  "rang_diegetique": 252,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -20330,7 +20771,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2382,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -20383,8 +20825,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 255,
+  "rang_diegetique": 253,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-213",
@@ -20426,7 +20869,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2383,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -20464,8 +20908,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 256,
+  "rang_diegetique": 254,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-220",
@@ -20506,7 +20951,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2383,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -20544,8 +20990,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 257,
+  "rang_diegetique": 255,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-219",
@@ -20586,7 +21033,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2383,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -20655,8 +21103,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 258,
+  "rang_diegetique": 256,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-222",
@@ -20705,7 +21154,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2384,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -20761,8 +21211,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 259,
+  "rang_diegetique": 257,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-221",
@@ -20812,7 +21263,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2384,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -20855,8 +21307,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 260,
+  "rang_diegetique": 258,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-221",
@@ -20904,7 +21357,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2384,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -20975,8 +21429,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 261,
+  "rang_diegetique": 259,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-226",
@@ -21024,7 +21479,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2384,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -21076,8 +21532,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 262,
+  "rang_diegetique": 260,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-226",
@@ -21119,7 +21576,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2384,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -21162,8 +21620,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 263,
+  "rang_diegetique": 261,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-224",
@@ -21207,7 +21666,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2384,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -21262,8 +21722,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 264,
+  "rang_diegetique": 262,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-224",
@@ -21304,7 +21765,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3101,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 32,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -21335,8 +21799,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 280,
+  "rang_diegetique": 300,
   "bande": "XXXIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": []
  },
  {
@@ -21369,7 +21834,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3101,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 32,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -21400,8 +21868,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 281,
+  "rang_diegetique": 301,
   "bande": "XXXIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-292",
@@ -21449,7 +21918,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3101,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 32,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -21520,8 +21992,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 282,
+  "rang_diegetique": 302,
   "bande": "XXXIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-294",
@@ -21570,7 +22043,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3101,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 32,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -21622,8 +22098,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 283,
+  "rang_diegetique": 303,
   "bande": "XXXIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": []
  },
  {
@@ -21656,7 +22133,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3101,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 32,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -21725,8 +22205,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 284,
+  "rang_diegetique": 304,
   "bande": "XXXIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-296",
@@ -21777,7 +22258,10 @@
   "continuite_regle": "`period` contient « Miroir »",
   "ordre": {
    "cle": 2201,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 23,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -21830,8 +22314,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 49,
+  "rang_diegetique": 107,
   "bande": "XXIIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-234",
@@ -21872,7 +22357,10 @@
   "continuite_regle": "`period` contient « Miroir »",
   "ordre": {
    "cle": 2201,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 23,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -21938,8 +22426,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 50,
+  "rang_diegetique": 108,
   "bande": "XXIIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-233",
@@ -21981,7 +22470,10 @@
   "continuite_regle": "`period` contient « Miroir »",
   "ordre": {
    "cle": 2201,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 23,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -22019,8 +22511,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 51,
+  "rang_diegetique": 109,
   "bande": "XXIIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-236",
@@ -22066,7 +22559,10 @@
   "continuite_regle": "`period` contient « Miroir »",
   "ordre": {
    "cle": 2301,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 24,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -22122,8 +22618,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 117,
+  "rang_diegetique": 271,
   "bande": "XXIVe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-235",
@@ -22181,7 +22678,10 @@
   "continuite_regle": "`period` contient « Miroir »",
   "ordre": {
    "cle": 2301,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 24,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -22256,8 +22756,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 118,
+  "rang_diegetique": 272,
   "bande": "XXIVe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-236",
@@ -22299,7 +22800,10 @@
   "continuite_regle": "`period` contient « Miroir »",
   "ordre": {
    "cle": 2201,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 23,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -22347,8 +22851,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 52,
+  "rang_diegetique": 110,
   "bande": "XXIIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-176",
@@ -22391,7 +22896,9 @@
   "continuite_regle": "`period` contient « Miroir »",
   "ordre": {
    "cle": 2267,
-   "precision": "borne"
+   "precision": "borne",
+   "siecle": 23,
+   "siecle_fin": 24
   },
   "audit": [
    {
@@ -22453,8 +22960,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 109,
-  "bande": "XXIIIe siècle",
+  "rang_diegetique": 116,
+  "bande": "Entre le XXIIIe et le XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-194",
@@ -22495,7 +23003,8 @@
   "continuite_regle": "`period` signale une temporalité ou réalité modifiée",
   "ordre": {
    "cle": 2266,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -22541,8 +23050,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 107,
+  "rang_diegetique": 99,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-047",
@@ -22583,7 +23093,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2151,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -22629,8 +23140,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 25,
+  "rang_diegetique": 23,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -22663,7 +23175,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2152,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -22709,8 +23222,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 31,
+  "rang_diegetique": 29,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -22743,7 +23257,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2152,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -22796,8 +23311,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 32,
+  "rang_diegetique": 30,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -22830,7 +23346,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2152,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -22876,8 +23393,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 33,
+  "rang_diegetique": 31,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -22910,7 +23428,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -22956,8 +23475,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 100,
+  "rang_diegetique": 92,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -22990,7 +23510,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -23036,8 +23557,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 101,
+  "rang_diegetique": 93,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -23070,7 +23592,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -23115,8 +23638,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 102,
+  "rang_diegetique": 94,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -23149,7 +23673,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -23185,8 +23710,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 103,
+  "rang_diegetique": 95,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -23219,7 +23745,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -23250,8 +23777,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 104,
+  "rang_diegetique": 96,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -23285,7 +23813,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2260,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -23339,8 +23868,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 105,
+  "rang_diegetique": 97,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -23374,7 +23904,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2366,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -23434,8 +23965,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 136,
+  "rang_diegetique": 134,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -23468,7 +24000,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2368,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -23499,8 +24032,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 147,
+  "rang_diegetique": 145,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -23535,7 +24069,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2368,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -23581,8 +24116,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 148,
+  "rang_diegetique": 146,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -23617,7 +24153,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -23684,8 +24221,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 161,
+  "rang_diegetique": 159,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-111",
@@ -23728,7 +24266,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2370,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -23759,8 +24298,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 172,
+  "rang_diegetique": 170,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -23793,7 +24333,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 1950,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 20
   },
   "audit": [
    {
@@ -23832,6 +24373,7 @@
   },
   "rang_diegetique": 7,
   "bande": "XXe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -23864,7 +24406,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 1960,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 20
   },
   "audit": [
    {
@@ -23912,6 +24455,7 @@
   },
   "rang_diegetique": 8,
   "bande": "XXe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -23944,7 +24488,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -24002,8 +24547,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 214,
+  "rang_diegetique": 212,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -24036,7 +24582,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -24089,8 +24636,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 229,
+  "rang_diegetique": 227,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -24123,7 +24671,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -24154,8 +24703,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 215,
+  "rang_diegetique": 213,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -24188,7 +24738,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -24234,8 +24785,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 216,
+  "rang_diegetique": 214,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -24268,7 +24820,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -24314,8 +24867,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 217,
+  "rang_diegetique": 215,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -24348,7 +24902,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -24379,8 +24934,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 230,
+  "rang_diegetique": 228,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -24414,7 +24970,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2377,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -24465,8 +25022,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 238,
+  "rang_diegetique": 236,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -24502,7 +25060,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2385,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -24555,8 +25114,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 268,
+  "rang_diegetique": 266,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -24590,7 +25150,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2230,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -24643,8 +25204,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 57,
+  "rang_diegetique": 49,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -24678,7 +25240,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2324,
-   "precision": "borne"
+   "precision": "borne",
+   "siecle": 24
   },
   "audit": [
    {
@@ -24721,8 +25284,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 119,
+  "rang_diegetique": 117,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-268",
@@ -24763,7 +25327,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2324,
-   "precision": "borne"
+   "precision": "borne",
+   "siecle": 24
   },
   "audit": [
    {
@@ -24815,8 +25380,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 120,
+  "rang_diegetique": 118,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-267",
@@ -24863,7 +25429,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2370,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 24
   },
   "audit": [
    {
@@ -24935,8 +25502,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 173,
+  "rang_diegetique": 171,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-114",
@@ -24993,7 +25561,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2381,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -25069,8 +25638,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 251,
+  "rang_diegetique": 249,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-216",
@@ -25113,7 +25683,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2370,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -25167,8 +25738,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 174,
+  "rang_diegetique": 172,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -25202,7 +25774,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2372,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -25258,8 +25831,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 193,
+  "rang_diegetique": 191,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -25294,7 +25868,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2373,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -25357,8 +25932,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 206,
+  "rang_diegetique": 204,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -25391,7 +25967,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2374,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -25447,8 +26024,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 218,
+  "rang_diegetique": 216,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -25482,7 +26060,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -25531,8 +26110,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 162,
+  "rang_diegetique": 160,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -25566,7 +26146,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2368,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -25622,8 +26203,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 149,
+  "rang_diegetique": 147,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -25657,7 +26239,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -25728,8 +26311,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 163,
+  "rang_diegetique": 161,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -25763,7 +26347,8 @@
   "continuite_regle": "`period` signale une temporalité ou réalité modifiée",
   "ordre": {
    "cle": 2366,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -25834,8 +26419,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 137,
+  "rang_diegetique": 135,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -25869,7 +26455,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2364,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -25918,8 +26505,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 127,
+  "rang_diegetique": 125,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -25953,7 +26541,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2368,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -26002,8 +26591,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 150,
+  "rang_diegetique": 148,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -26038,7 +26628,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2377,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -26109,8 +26700,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 239,
+  "rang_diegetique": 237,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -26144,7 +26736,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2377,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -26202,8 +26795,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 240,
+  "rang_diegetique": 238,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -26236,7 +26830,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -26285,8 +26880,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 231,
+  "rang_diegetique": 229,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -26319,7 +26915,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2372,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -26382,8 +26979,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 194,
+  "rang_diegetique": 192,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -26416,7 +27014,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -26480,8 +27079,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 232,
+  "rang_diegetique": 230,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -26514,7 +27114,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2257,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -26576,8 +27177,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 68,
+  "rang_diegetique": 60,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -26611,7 +27213,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2257,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 23
   },
   "audit": [
    {
@@ -26667,8 +27270,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 69,
+  "rang_diegetique": 61,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -26701,7 +27305,8 @@
   "continuite_regle": "`period` signale une temporalité ou réalité modifiée",
   "ordre": {
    "cle": 2250,
-   "precision": "decennie"
+   "precision": "decennie",
+   "siecle": 23
   },
   "audit": [
    {
@@ -26759,8 +27364,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 60,
+  "rang_diegetique": 52,
   "bande": "XXIIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -26793,7 +27399,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2381,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -26849,8 +27456,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 252,
+  "rang_diegetique": 250,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-212",
@@ -26891,7 +27499,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2154,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -26954,8 +27563,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 44,
+  "rang_diegetique": 42,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -26989,7 +27599,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2153,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 22
   },
   "audit": [
    {
@@ -27038,8 +27649,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 36,
+  "rang_diegetique": 34,
   "bande": "XXIIe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -27073,7 +27685,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3191,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -27145,8 +27758,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 299,
+  "rang_diegetique": 294,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-229",
@@ -27195,7 +27809,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3191,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -27260,8 +27875,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 300,
+  "rang_diegetique": 295,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-229",
@@ -27309,7 +27925,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3191,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -27366,8 +27983,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 301,
+  "rang_diegetique": 296,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-230",
@@ -27417,7 +28035,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3191,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -27473,8 +28092,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 302,
+  "rang_diegetique": 297,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-230",
@@ -27524,7 +28144,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3191,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -27581,8 +28202,9 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 303,
+  "rang_diegetique": 298,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-232",
@@ -27635,7 +28257,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 3191,
-   "precision": "annee_qualifiee"
+   "precision": "annee_qualifiee",
+   "siecle": 32
   },
   "audit": [
    {
@@ -27703,8 +28326,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 304,
+  "rang_diegetique": 299,
   "bande": "XXXIIe siècle",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-232",
@@ -27753,7 +28377,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2201,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 23,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -27822,8 +28449,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 53,
+  "rang_diegetique": 111,
   "bande": "XXIIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-054",
@@ -27874,7 +28502,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2201,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 23,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -27937,8 +28568,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 54,
+  "rang_diegetique": 112,
   "bande": "XXIIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-054",
@@ -27986,7 +28618,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2201,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 23,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -28040,8 +28675,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 55,
+  "rang_diegetique": 113,
   "bande": "XXIIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-055",
@@ -28089,7 +28725,10 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2201,
-   "precision": "siecle"
+   "precision": "siecle",
+   "siecle": 23,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -28138,8 +28777,9 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 56,
+  "rang_diegetique": 114,
   "bande": "XXIIIe siècle",
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
     "id": "STP-055",
@@ -28245,6 +28885,7 @@
   },
   "rang_diegetique": 5,
   "bande": "Passé lointain",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-303",
@@ -28343,6 +28984,7 @@
   },
   "rang_diegetique": 6,
   "bande": "Passé lointain",
+  "sous_bande": null,
   "associes": [
    {
     "id": "STP-302",
@@ -28385,7 +29027,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2369,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -28441,8 +29084,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 164,
+  "rang_diegetique": 162,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -28476,7 +29120,8 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2375,
-   "precision": "annee"
+   "precision": "annee",
+   "siecle": 24
   },
   "audit": [
    {
@@ -28547,8 +29192,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 233,
+  "rang_diegetique": 231,
   "bande": "XXIVe siècle",
+  "sous_bande": null,
   "associes": []
  }
 ]

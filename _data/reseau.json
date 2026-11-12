@@ -721,17 +721,6 @@
    "taille": 9,
    "noeuds": [
     {
-     "id": "STP-015",
-     "x": 56,
-     "y": 12,
-     "w": 210,
-     "h": 46,
-     "titre": "Contrôle vulcain indirect de…",
-     "titre_complet": "Contrôle vulcain indirect de l'expansion spatiale humaine et tensions diplomatiques",
-     "niv": "A",
-     "cycle": "Terre : origines et histoire antérieure"
-    },
-    {
      "id": "STP-016",
      "x": 336,
      "y": 12,
@@ -745,7 +734,7 @@
     {
      "id": "STP-018",
      "x": 56,
-     "y": 76,
+     "y": 12,
      "w": 210,
      "h": 46,
      "titre": "Guerre froide temporelle :…",
@@ -789,7 +778,7 @@
     {
      "id": "STP-028",
      "x": 56,
-     "y": 140,
+     "y": 76,
      "w": 210,
      "h": 46,
      "titre": "Manipulation des Xindis par…",
@@ -818,6 +807,17 @@
      "titre_complet": "Décision d’Archer de s’emparer d’un module de distorsion au détriment de son propriétaire",
      "niv": "B",
      "cycle": "Enterprise : événements omis"
+    },
+    {
+     "id": "STP-015",
+     "x": 56,
+     "y": 140,
+     "w": 210,
+     "h": 46,
+     "titre": "Contrôle vulcain indirect de…",
+     "titre_complet": "Contrôle vulcain indirect de l'expansion spatiale humaine et tensions diplomatiques",
+     "niv": "A",
+     "cycle": "Terre : origines et histoire antérieure"
     }
    ],
    "aretes": [
@@ -825,7 +825,7 @@
      "de": "STP-028",
      "vers": "STP-026",
      "type": "cause",
-     "d": "M266,163 C301,163 301,163 332,163",
+     "d": "M266,99 C301,99 301,163 332,163",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise"
     },
     {
@@ -839,21 +839,21 @@
      "de": "STP-018",
      "vers": "STP-026",
      "type": "meme_arc",
-     "d": "M266,99 C301,99 301,163 332,163",
+     "d": "M266,35 C301,35 301,163 332,163",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise"
     },
     {
      "de": "STP-018",
      "vers": "STP-024",
      "type": "cause",
-     "d": "M266,99 C301,99 301,99 332,99",
+     "d": "M266,35 C301,35 301,99 332,99",
      "url": "https://en.wikipedia.org/wiki/Detained_(Star_Trek:_Enterprise)"
     },
     {
      "de": "STP-018",
      "vers": "STP-016",
      "type": "cause",
-     "d": "M266,99 C301,99 301,35 332,35",
+     "d": "M266,35 C301,35 301,35 332,35",
      "url": "https://en.wikipedia.org/wiki/Broken_Bow_(Star_Trek:_Enterprise)"
     },
     {
@@ -874,21 +874,21 @@
      "de": "STP-028",
      "vers": "STP-029",
      "type": "cause",
-     "d": "M266,163 C721,163 721,99 1172,99",
+     "d": "M266,99 C721,99 721,99 1172,99",
      "url": "https://en.wikipedia.org/wiki/The_Council_(Star_Trek:_Enterprise)"
     },
     {
      "de": "STP-015",
      "vers": "STP-016",
      "type": "episode_commun",
-     "d": "M266,35 C301,35 301,35 332,35",
+     "d": "M266,163 C301,163 301,35 332,35",
      "url": null
     },
     {
      "de": "STP-015",
      "vers": "STP-018",
      "type": "episode_commun",
-     "d": "M56,35 C27.333333333333336,35 27.333333333333336,99 56,99",
+     "d": "M56,163 C16.66666666666667,163 16.66666666666667,35 56,35",
      "url": null
     }
    ],
@@ -907,7 +907,6 @@
    "numero": 2,
    "cle": "STP-015",
    "ids": [
-    "STP-015",
     "STP-016",
     "STP-018",
     "STP-024",
@@ -915,7 +914,8 @@
     "STP-027",
     "STP-028",
     "STP-029",
-    "STP-290"
+    "STP-290",
+    "STP-015"
    ],
    "series": [
     "ENT"
@@ -3325,6 +3325,17 @@
    "taille": 3,
    "noeuds": [
     {
+     "id": "STP-297",
+     "x": 336,
+     "y": 12,
+     "w": 210,
+     "h": 46,
+     "titre": "Menace d’une chaîne de mines…",
+     "titre_complet": "Menace d’une chaîne de mines Omega-47 perturbant les voyages à distorsion",
+     "niv": "B",
+     "cycle": "Starfleet Academy : actualisation 2026"
+    },
+    {
      "id": "STP-231",
      "x": 56,
      "y": 12,
@@ -3345,17 +3356,6 @@
      "titre_complet": "Nus Braka confronte Nahla Ake à une crise mettant en jeu la Fédération",
      "niv": "A",
      "cycle": "Starfleet Academy (saison 1, 2026)"
-    },
-    {
-     "id": "STP-297",
-     "x": 336,
-     "y": 12,
-     "w": 210,
-     "h": 46,
-     "titre": "Menace d’une chaîne de mines…",
-     "titre_complet": "Menace d’une chaîne de mines Omega-47 perturbant les voyages à distorsion",
-     "niv": "B",
-     "cycle": "Starfleet Academy : actualisation 2026"
     }
    ],
    "aretes": [
@@ -3380,9 +3380,9 @@
    "numero": 27,
    "cle": "STP-231",
    "ids": [
+    "STP-297",
     "STP-231",
-    "STP-232",
-    "STP-297"
+    "STP-232"
    ],
    "series": [
     "SFA"
@@ -4275,17 +4275,6 @@
    "taille": 2,
    "noeuds": [
     {
-     "id": "STP-230",
-     "x": 56,
-     "y": 12,
-     "w": 210,
-     "h": 46,
-     "titre": "Crise menaçant l'existence…",
-     "titre_complet": "Crise menaçant l'existence et l'avenir des Klingons",
-     "niv": "A",
-     "cycle": "Starfleet Academy (saison 1, 2026)"
-    },
-    {
      "id": "STP-295",
      "x": 336,
      "y": 12,
@@ -4295,6 +4284,17 @@
      "titre_complet": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
      "niv": "B",
      "cycle": "Starfleet Academy : actualisation 2026"
+    },
+    {
+     "id": "STP-230",
+     "x": 56,
+     "y": 12,
+     "w": 210,
+     "h": 46,
+     "titre": "Crise menaçant l'existence…",
+     "titre_complet": "Crise menaçant l'existence et l'avenir des Klingons",
+     "niv": "A",
+     "cycle": "Starfleet Academy (saison 1, 2026)"
     }
    ],
    "aretes": [
@@ -4321,8 +4321,8 @@
    "numero": 44,
    "cle": "STP-230",
    "ids": [
-    "STP-230",
-    "STP-295"
+    "STP-295",
+    "STP-230"
    ],
    "series": [
     "SFA"

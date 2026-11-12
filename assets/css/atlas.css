@@ -317,3 +317,5 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .audit { margin: 0; padding-left: 1.2rem; }
 .audit li { margin: 0 0 0.4rem; }
 .audit__brut summary { cursor: pointer; color: var(--doux); font-size: 0.9rem; }
+.frise .bande--sous { font-size: 0.85rem; color: var(--cyan); margin-top: 0.8rem; }
+.frise .bande--sous::before { border-color: var(--cyan); background: var(--fond); }

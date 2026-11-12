@@ -74,20 +74,46 @@ export function continuite(d) {
 // Regle « ordre diegetique » : sert UNIQUEMENT a trier. La periode affichee
 // reste le texte du CSV ; la cle n'est jamais presentee comme une date.
 const ROMAINS = { XX: 20, XXI: 21, XXII: 22, XXIII: 23, XXIV: 24, XXV: 25, XXXI: 31, XXXII: 32 };
+// Rangement (sans jamais convertir une periode floue en annee) :
+// - « Avant N » se range juste avant les evenements de l'annee N ;
+// - une periode qui ne donne que le siecle (« Milieu XXIe siecle ») se range a la
+//   fin de son siecle, dans un sous-groupe « datation imprecise » ;
+// - une periode a cheval sur deux siecles (« Fin XXIe–debut XXIIe », « Entre 2267
+//   et la fin du XXIVe siecle ») forme un groupe propre, entre ces siecles.
+const siecleDe = (an) => Math.floor((an - 1) / 100) + 1;
+const QUALIFS = [[/^Début/i, 1], [/^Milieu/i, 2], [/^Fin/i, 3]];
 export function ordreDiegetique(period) {
   const p = period.trim();
   let m;
-  if (/Antiquité|Passé lointain|Préhistoire/.test(p)) return { cle: null, precision: 'passe_lointain' };
-  if ((m = /^(\d{4})s\b/.exec(p))) return { cle: +m[1], precision: 'decennie' };
-  if ((m = /^(\d{4})\b/.exec(p))) {
-    const exacte = /^\d{4}$/.test(p);
-    return { cle: +m[1], precision: exacte ? 'annee' : 'annee_qualifiee' };
+  const base = (() => {
+    if (/Antiquité|Passé lointain|Préhistoire/.test(p)) return { cle: null, precision: 'passe_lointain' };
+    if ((m = /^(\d{4})s\b/.exec(p))) return { cle: +m[1], precision: 'decennie' };
+    if ((m = /^(\d{4})\b/.exec(p))) {
+      const exacte = /^\d{4}$/.test(p);
+      return { cle: +m[1], precision: exacte ? 'annee' : 'annee_qualifiee' };
+    }
+    if ((m = /^(?:vers|Avant|Après|Entre) (\d{4})/.exec(p))) return { cle: +m[1], precision: 'borne' };
+    if ((m = /^Années (\d{4})/.exec(p))) return { cle: +m[1], precision: 'decennie' };
+    if ((m = /\b(X{1,3}(?:IV|V|I{0,3}))e\b/.exec(p)) && ROMAINS[m[1]])
+      return { cle: (ROMAINS[m[1]] - 1) * 100 + 1, precision: 'siecle' };
+    return { cle: null, precision: 'indeterminee' };
+  })();
+  if (base.cle == null) return base;
+  // Siecles mentionnes (chiffres romains et annees) : borne de fin de l'intervalle.
+  const debut = siecleDe(base.cle);
+  // Les parentheses (« evenement relate en 3191 ») ne bornent pas la periode.
+  const sansParen = p.replace(/\([^)]*\)/g, '');
+  const mentions = [...sansParen.matchAll(/\b(X{1,3}(?:IV|V|I{0,3}))e\b/g)].map((x) => ROMAINS[x[1]]).filter(Boolean)
+    .concat([...sansParen.matchAll(/\b(\d{4})\b/g)].map((x) => siecleDe(+x[1])));
+  const fin = Math.max(debut, ...mentions);
+  const o = { ...base, siecle: debut };
+  if (fin > debut) o.siecle_fin = fin;
+  if (/^Avant \d{4}/.test(p)) o.avant = true;
+  if (base.precision === 'siecle' && !o.siecle_fin) {
+    o.imprecis = true;
+    o.qualif = (QUALIFS.find(([re]) => re.test(p)) || [null, 4])[1];
   }
-  if ((m = /^(?:vers|Avant|Après|Entre) (\d{4})/.exec(p))) return { cle: +m[1], precision: 'borne' };
-  if ((m = /^Années (\d{4})/.exec(p))) return { cle: +m[1], precision: 'decennie' };
-  if ((m = /\b(X{1,3}(?:IV|V|I{0,3}))e\b/.exec(p)) && ROMAINS[m[1]])
-    return { cle: (ROMAINS[m[1]] - 1) * 100 + 1, precision: 'siecle' };
-  return { cle: null, precision: 'indeterminee' };
+  return o;
 }
 
 export const PRECISIONS = {

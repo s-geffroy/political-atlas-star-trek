@@ -2,8 +2,8 @@
 layout: default
 ---
 {%- assign cible = page.cible -%}
-{%- if cible %}{% assign url = '/reseau/' | append: cible | append: '/' | relative_url %}{% else %}{% assign url = '/reseau/' | relative_url %}{% endif -%}
-<meta http-equiv="refresh" content="0; url={{ url }}">
-<link rel="canonical" href="{{ url | absolute_url }}">
+{%- comment -%}Gabarit de secours : en temps normal, jekyll-redirect-from (redirect_to) remplace cette page.{%- endcomment -%}
+{%- if cible %}{% assign chemin = '/reseau/' | append: cible | append: '/' %}{% else %}{% assign chemin = '/reseau/' %}{% endif -%}
+{%- assign url = chemin | relative_url -%}
 <h1>Arc déplacé</h1>
 <p>Cet arc du réseau des relations a été réorganisé : l’événement {{ page.stp }} fait désormais partie d’un autre arc. <a href="{{ url }}">Aller à l’arc qui le contient</a>.</p>

@@ -23,7 +23,20 @@ description: Protocole de recherche, niveaux de vérification A/B/C, corrections
 </ul></nav>
 
 <h2 id="synthese">Synthèse vérifiable</h2>
-{{ ed.synthese.markdown | markdownify }}
+{%- assign S = site.data.stats %}{% assign nA = S.niveaux | where: "cle", "A" | first %}{% assign nB = S.niveaux | where: "cle", "B" | first %}{% assign nC = S.niveaux | where: "cle", "C" | first %}
+<p>Corpus V{{ ed.meta.version }} : <strong>{{ S.distincts }} événements distincts</strong> pour {{ S.total }} entrées ({{ S.doublons }} doublons signalés, conservés mais non comptés), dont {{ S.fiches }} avec fiche approfondie. Niveaux de vérification des événements distincts : <strong>{{ nA.n }} en A</strong>, <strong>{{ nB.n }} en B</strong>, <strong>{{ nC.n }} en C</strong>. Ces chiffres sont recalculés à chaque import et sont les mêmes partout sur le site.</p>
+{%- if ed.synthese.historique.size > 0 %}
+<details class="historique">
+<summary>Historique des mises à jour du corpus ({{ ed.synthese.historique.last.version }} à {{ ed.synthese.historique.first.version }})</summary>
+<p class="carte__meta">Les répartitions citées dans ces paragraphes comptent toutes les entrées, doublons compris.</p>
+{%- for h in ed.synthese.historique %}
+{{ h.markdown | markdownify }}
+{%- endfor %}
+</details>
+{%- endif %}
+<h3>Socle de départ (V0.3)</h3>
+<p class="carte__meta">Chiffres de la version 0.3, avant les passes de recoupement.</p>
+{{ ed.synthese.socle | markdownify }}
 
 <h2 id="niveaux">Niveaux de vérification</h2>
 {% include niveaux.html %}
@@ -65,7 +78,7 @@ description: Protocole de recherche, niveaux de vérification A/B/C, corrections
 <h3>Événements associés</h3>
 <p>Deux entrées sont associées si elles citent le même épisode dans leur champ <code>source</code>, ou si l’une cite l’identifiant de l’autre dans sa note d’audit, sa fiche, sa correction ou sa note éditoriale. Une association entre continuités différentes est signalée comme telle.</p>
 <h3 id="relations">Relations documentées</h3>
-<p>Au-delà des associations calculées, {{ site.data.relations.relations.size }} relations orientées relient des événements : <strong>cause</strong> (le premier fait est présenté par la source comme une cause du second), <strong>suite</strong> (le second prolonge directement l’intrigue du premier), <strong>même arc</strong> (même arc narratif ou conflit nommé par la source). Chacune n’est retenue que si une page lue l’établit explicitement ; deux événements d’un même épisode ne sont reliés que si la source décrit un enchaînement entre eux. Chaque relation est affichée sur les deux fiches avec sa source, et l’ensemble est dessiné dans le <a href="{{ '/reseau/' | relative_url }}">réseau des relations</a>. Une relation entre continuités différentes n’est admise que si la source l’établit (franchissement de chronologie). Ces relations sont un enrichissement hors corpus (<code>data/relations.json</code>), validé avant intégration. Après trois passes de recherche, {{ site.data.relations.examinees_sans_relation.ids.size }} événements restent sans relation documentée ; leur fiche l’indique : l’absence de lien est un résultat de recherche, non un oubli.</p>
+<p>Au-delà des associations calculées, {{ site.data.stats.relations }} relations orientées relient des événements : <strong>cause</strong> (le premier fait est présenté par la source comme une cause du second), <strong>suite</strong> (le second prolonge directement l’intrigue du premier), <strong>même arc</strong> (même arc narratif ou conflit nommé par la source). Chacune n’est retenue que si une page lue l’établit explicitement ; deux événements d’un même épisode ne sont reliés que si la source décrit un enchaînement entre eux. Chaque relation est affichée sur les deux fiches avec sa source, et l’ensemble est dessiné dans le <a href="{{ '/reseau/' | relative_url }}">réseau des relations</a>. Une relation entre continuités différentes n’est admise que si la source l’établit (franchissement de chronologie). Ces relations sont un enrichissement hors corpus (<code>data/relations.json</code>), validé avant intégration. Après trois passes de recherche, {{ site.data.stats.sans_relation }} événements restent sans relation documentée ; leur fiche l’indique : l’absence de lien est un résultat de recherche, non un oubli.</p>
 <h3>Dates de diffusion</h3>
 <p>Absentes du corpus, elles proviennent d’un relevé séparé (<code>data/diffusion.json</code>, {{ site.data.diffusion.releve_le }}) où chaque date est accompagnée de la page consultée. Elles ne modifient aucun champ du corpus.</p>
 <h3>Atlas thématique</h3>

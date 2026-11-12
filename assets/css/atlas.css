@@ -20,7 +20,6 @@
   --niv-b: #7a74f0;
   --niv-c: #c47a22;
   --rayon: 1.6rem;
-  --mesure: 72ch;
   --police: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
   --police-titre: "Arial Narrow", "Roboto Condensed", "Helvetica Neue Condensed", "Nimbus Sans Narrow", var(--police);
   --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
@@ -256,7 +255,7 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 /* --- Reseau des relations ------------------------------------------------
    Couleurs des liens : trio valide (validateur dataviz, fond sombre) ; second
    codage par le trait (plein, tirets, pointilles) et la fleche. */
-.reseau { display: block; }
+.reseau { display: block; max-width: none; }
 .reseau rect { fill: var(--surface-2); stroke: var(--ligne); stroke-width: 1.5; }
 .reseau text { fill: var(--texte); font: 12px var(--police); }
 .reseau a:hover rect, .reseau a:focus rect { stroke: var(--ambre); stroke-width: 2; }
@@ -312,3 +311,6 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
   .bandeau, .nav, .pied, .filtres, .onglets { display: none; }
   body { background: #fff; color: #000; }
 }
+.historique { background: var(--surface); border-radius: 1rem; padding: 0.7rem 1.2rem; margin: 1.2rem 0; }
+.historique summary { cursor: pointer; font-weight: 600; color: var(--cyan, inherit); }
+.historique[open] summary { margin-bottom: 0.6rem; }

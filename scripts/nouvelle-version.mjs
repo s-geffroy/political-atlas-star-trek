@@ -97,10 +97,13 @@ export function appliquer(journal) {
   }
 
   // Titre, etat et synthese chiffree de la nouvelle version.
-  const n = (lettre) => records.filter((r) => r.data.niveau_recoupement === lettre).length;
+  // Repartition sur les evenements distincts (doublons secondaires exclus), comme les statistiques du site.
+  const pD = path.join(ROOT, 'data/doublons.json');
+  const secondaires = new Set(fs.existsSync(pD) ? JSON.parse(fs.readFileSync(pD, 'utf8')).doublons.map((d) => d.secondaire) : []);
+  const n = (lettre) => records.filter((r) => !secondaires.has(r.data.id) && r.data.niveau_recoupement === lettre).length;
   remplacer(/^# Atlas politique de Star Trek — V\d+\.\d+ : .*$/m, () => `# ${journal.titre}`, 'titre');
   remplacer(/^> État : [^.]*\./m, () => `> État : ${journal.date_longue}.`, 'ligne d’état');
-  const synth = `**Mise à jour ${v} (${journal.date_longue}).** ${journal.resume} Répartition ${v} : **${n('A')} entrées de niveau A**, **${n('B')} de niveau B**, **${n('C')} de niveau C** ; ${touches.size} entrées modifiées, chacune avec une note d’audit ${v}. Les chiffres ci-dessous sont ceux de la version précédente.`;
+  const synth = `**Mise à jour ${v} (${journal.date_longue}).** ${journal.resume} Répartition ${v} (événements distincts, doublons exclus) : **${n('A')} de niveau A**, **${n('B')} de niveau B**, **${n('C')} de niveau C** ; ${touches.size} entrées modifiées, chacune avec une note d’audit ${v}.`;
   remplacer(/(## Synthèse vérifiable\n\n)/, (m) => `${m}${synth}\n\n`, 'synthese');
 
   if (erreurs.length) throw new Error('Markdown :\n' + erreurs.join('\n'));

@@ -64,6 +64,18 @@ export function importer(csvPath, mdPath) {
   const { fiches, problems: problemesFiches } = parseFiches(md);
   const registre = parseRegistre(md);
   const editorial = sectionsEditoriales(md);
+  // Synthese : les paragraphes « Mise a jour V0.N » (un par version, empiles en
+  // tete par nouvelle-version.mjs) deviennent un historique ; le reste est le
+  // socle chiffre de la V0.3. La repartition courante est calculee (stats).
+  if (editorial.synthese) {
+    const blocs = editorial.synthese.markdown.split(/\n{2,}/);
+    const estMaj = (b) => /^\*\*Mise à jour V\d+\.\d+/.test(b);
+    editorial.synthese.historique = blocs.filter(estMaj).map((b) => ({
+      version: b.match(/V\d+\.\d+/)[0],
+      markdown: b.replace(/\s*Les chiffres ci-dessous sont ceux de la version précédente\.\s*$/, ''),
+    }));
+    editorial.synthese.socle = blocs.filter((b) => !estMaj(b)).join('\n\n');
+  }
   const diffusion = lireDiffusion();
   const ficheParId = new Map(fiches.map((f) => [f.id, f]));
 
@@ -192,6 +204,8 @@ export function importer(csvPath, mdPath) {
     max_serie: Math.max(...compte(distincts.flatMap((e) => e.series)).map((c) => c.n)),
     max_categorie: Math.max(...compte(distincts.flatMap((e) => e.categories)).map((c) => c.n)),
     max_cycle: Math.max(...compte(distincts.map((e) => e.cycle)).map((c) => c.n)),
+    relations: relations.filter((x) => parId.has(x.de) && parId.has(x.vers)).length,
+    sans_relation: sansRel.ids.length,
   };
 
   const atlas = construireAtlas(distincts, categoriesPresentes);
@@ -346,6 +360,15 @@ export function graphiques(r) {
   };
 }
 
+// Adresse publique du site (url + baseurl de _config.yml), pour les canoniques absolus.
+let SITE_URL;
+function siteUrl() {
+  if (SITE_URL) return SITE_URL;
+  const cfg = fs.readFileSync(path.join(ROOT, '_config.yml'), 'utf8');
+  const v = (k) => (cfg.match(new RegExp(`^${k}:\\s*"?([^"\\n]*)"?`, 'm')) || [])[1]?.trim() || '';
+  return (SITE_URL = v('url').replace(/\/$/, '') + v('baseurl'));
+}
+
 function pageEvenement(e) {
   const resume = e.politics.length > 155 ? e.politics.slice(0, 154).replace(/\s+\S*$/, '') + '…' : e.politics;
   return [
@@ -358,6 +381,8 @@ function pageEvenement(e) {
     `permalink: /evenements/${e.id}/`,
     `title: ${yamlStr(`${e.id} — ${e.event}`)}`,
     `description: ${yamlStr(`${e.period} · ${e.source}. ${resume}`)}`,
+    // Doublon secondaire : canonique vers la principale (jekyll-seo-tag) et hors du plan du site.
+    ...(e.doublon_de ? [`canonical_url: ${siteUrl()}/evenements/${e.doublon_de.id}/`, 'sitemap: false'] : []),
     '---',
     '',
   ].join('\n');
@@ -457,6 +482,8 @@ export function ecrireSorties(r) {
     const g = res.composantes.find((c) => c.ids.includes(k)) || res.composantes.find((c) => c.ids.includes(k2));
     ecrire(path.join(dirR, `${k}.md`), ['---', '# Fichier GENERE par scripts/import.mjs (renvoi d\'une adresse deja publiee).', 'layout: reseau-renvoi',
       `cible: ${g ? g.cle : 'null'}`, `stp: ${k}`, `title: ${yamlStr(`Réseau — arc déplacé (${k})`)}`, 'sitemap: false',
+      // jekyll-redirect-from (liste blanche) produit la page de renvoi : canonique unique, refresh dans <head>, noindex.
+      `redirect_to: /reseau/${g ? g.cle + '/' : ''}`,
       `permalink: /reseau/${k}/`, 'nav: graphiques', '---', ''].join('\n'));
   }
   ecrire(clesP, JSON.stringify([...new Set([...clesAvant, ...clesMaintenant])].sort(), null, 1) + '\n');

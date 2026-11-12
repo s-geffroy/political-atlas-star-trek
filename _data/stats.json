@@ -365,5 +365,7 @@
  ],
  "max_serie": 59,
  "max_categorie": 88,
- "max_cycle": 41
+ "max_cycle": 41,
+ "relations": 160,
+ "sans_relation": 107
 }

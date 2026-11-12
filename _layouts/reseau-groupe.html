@@ -14,7 +14,15 @@ layout: default
 </svg>
 </div>
 <h2>Relations de l’arc</h2>
-<p class="carte__meta">{% if c.nb_relations == 0 %}Aucune relation interne : cet événement n’est relié qu’à d’autres arcs.{% endif %}{% for a in c.aretes %}{% unless a.type == "episode_commun" %}<a href="{{ '/evenements/' | append: a.de | append: '/' | relative_url }}">{{ a.de }}</a> {% if a.type == "cause" %}→ cause →{% elsif a.type == "suite" %}→ suite →{% else %}↔ même arc ↔{% endif %} <a href="{{ '/evenements/' | append: a.vers | append: '/' | relative_url }}">{{ a.vers }}</a> ; {% endunless %}{% endfor %}</p>
+{%- if c.nb_relations == 0 %}
+<p>Aucune relation interne : cet événement n’est relié qu’à d’autres arcs.</p>
+{%- else %}
+<ul class="relations">
+  {%- for a in c.aretes %}{% unless a.type == "episode_commun" %}{% assign n1 = c.noeuds | where: "id", a.de | first %}{% assign n2 = c.noeuds | where: "id", a.vers | first %}
+  <li><a href="{{ '/evenements/' | append: a.de | append: '/' | relative_url }}">{{ a.de }}</a> {{ n1.titre_complet | escape }} <span class="rel">{% if a.type == "cause" %}est une cause de{% elsif a.type == "suite" %}a pour suite{% else %}même arc que{% endif %}</span> <a href="{{ '/evenements/' | append: a.vers | append: '/' | relative_url }}">{{ a.vers }}</a> {{ n2.titre_complet | escape }}</li>
+  {%- endunless %}{% endfor %}
+</ul>
+{%- endif %}
 {%- if c.externes.size > 0 %}
 <h2>Liens vers d’autres arcs</h2>
 <ul class="relations">

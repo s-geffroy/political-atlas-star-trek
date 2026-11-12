@@ -63,6 +63,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # CE QUI NE DOIT PAS ETRE PUBLIE. Sans cette liste, Jekyll copie tout ce qu'il
 # trouve a la racine dans le site final : CLAUDE.md, app.yaml et compose.yaml

@@ -92,8 +92,19 @@ export function paragraphesApresPoint(md) {
 
 // Mise en page uniquement : une URL nue devient un lien Markdown <url>
 // (kramdown ne cree pas de lien automatiquement). Le texte affiche est le meme.
+// Ponctuation finale et parenthese fermante non appariee restent hors du lien :
+// « (voir https://x.org/a_(b)). » -> « (voir <https://x.org/a_(b)>). »
 export function liensCliquables(md) {
-  return md.replace(/(^|\s|(?<!\])\()(https?:\/\/[^\s<>)]+?)([.,;:]?)(?=\s|$|\))/gm, '$1<$2>$3');
+  const compte = (s, c) => s.split(c).length - 1;
+  return md.replace(/(^|\s|(?<!\])\()(https?:\/\/[^\s<>]+)/gm, (_, avant, url) => {
+    let fin = '';
+    for (;;) {
+      if (/[.,;:!?»]$/.test(url)) { fin = url.slice(-1) + fin; url = url.slice(0, -1); }
+      else if (url.endsWith(')') && compte(url, '(') < compte(url, ')')) { fin = ')' + fin; url = url.slice(0, -1); }
+      else break;
+    }
+    return `${avant}<${url}>${fin}`;
+  });
 }
 
 // Sections de niveau 2 utiles aux pages editoriales (methodologie, analyses).

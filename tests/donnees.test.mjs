@@ -67,8 +67,9 @@ test('continuites : Miroir, Kelvin et temporalites modifiees separees', () => {
   assert.equal(c('XXIIIe siècle Miroir'), 'miroir');
   assert.equal(c('2266, branche temporelle', 'Univers Miroir et réalités parallèles'), 'modifiee');
   assert.equal(c('2373'), 'principale');
-  const parCode = Object.groupBy ? Object.groupBy(gen, (e) => e.continuite) : null;
-  if (parCode) assert.equal(Object.values(parCode).reduce((s, a) => s + a.length, 0), 305);
+  // Chaque entree recoit exactement une continuite connue (sans Object.groupBy, absent de Node 20).
+  for (const e of gen) assert.ok(['principale', 'miroir', 'kelvin', 'modifiee'].includes(e.continuite), e.id);
+  assert.equal(gen.length, 305);
 });
 
 test('periodes floues : jamais converties, cle de tri seulement', () => {
@@ -111,4 +112,7 @@ test('mise en page : paragraphe apres un point, listes et tableaux intacts, text
 test('mise en page : URL nues rendues cliquables, ponctuation finale preservee', () => {
   assert.equal(liensCliquables('- Site : https://a.org/x et https://b.org.'), '- Site : <https://a.org/x> et <https://b.org>.');
   assert.equal(liensCliquables('[deja](https://c.org)'), '[deja](https://c.org)');
+  assert.equal(liensCliquables('(voir https://en.wikipedia.org/wiki/Cardassians_(episode)).'), '(voir <https://en.wikipedia.org/wiki/Cardassians_(episode)>).');
+  assert.equal(liensCliquables('(https://a.org/x)'), '(<https://a.org/x>)');
+  assert.equal(liensCliquables('Source https://a.org/b_(c)_d, puis'), 'Source <https://a.org/b_(c)_d>, puis');
 });

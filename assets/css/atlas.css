@@ -26,6 +26,21 @@
   --police-titre: "Arial Narrow", "Roboto Condensed", "Helvetica Neue Condensed", "Nimbus Sans Narrow", var(--police);
   --bord-champ: #4f6c98; /* 3,47:1 sur --surface, 3,79:1 sur --fond */
   --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+  /* Couleurs derivees (survols, encres sur fonds clairs, rampe des cartes de
+     chaleur, liens du reseau) : toutes ici, aucune couleur en dur ailleurs
+     hors du bloc d'impression. */
+  --encre: #04060b;          /* texte sur fond clair (pastilles, cases foncees) */
+  --encre-ambre: #120a00;
+  --encre-cyan: #00151b;
+  --lien-survol: #9be8f8;
+  --survol: #17294a;
+  --bord-clair: #fff3;
+  --lavande-claire: #c5c1ff;
+  --q1: #152b3d; --q2: #234a5e; --q3: #316a7f; --q4: #418da4; --q5: #52b5cd;
+  --lien-cause: #3b9fd8;
+  --lien-suite: #c9563c;
+  --lien-arc: #a99535;
+  --lien-episode: #6b7a90;
   color-scheme: dark;
 }
 
@@ -42,7 +57,7 @@ img, svg { max-width: 100%; }
 a { color: var(--cyan); text-underline-offset: 0.18em; overflow-wrap: anywhere; }
 p, li, dd, td, blockquote { overflow-wrap: break-word; }
 code { overflow-wrap: anywhere; }
-a:hover { color: #9be8f8; }
+a:hover { color: var(--lien-survol); }
 :focus-visible { outline: 3px solid var(--ambre); outline-offset: 2px; border-radius: 4px; }
 h1, h2, h3, h4 { font-family: var(--police-titre); line-height: 1.2; letter-spacing: 0.02em; }
 h1 { font-size: clamp(1.8rem, 1.3rem + 2.2vw, 2.8rem); margin: 0.2em 0 0.4em; }
@@ -57,7 +72,7 @@ th { color: var(--ambre); font-family: var(--police-titre); text-transform: uppe
 .defile { overflow-x: auto; position: relative; }
 .visuellement-cache { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
-.evitement { position: absolute; left: 1rem; top: -4rem; background: var(--ambre); color: #000; padding: 0.6rem 1rem; border-radius: 0 0 0.6rem 0.6rem; z-index: 10; font-weight: 700; }
+.evitement { position: absolute; left: 1rem; top: -4rem; background: var(--ambre); color: var(--encre); padding: 0.6rem 1rem; border-radius: 0 0 0.6rem 0.6rem; z-index: 10; font-weight: 700; }
 .evitement:focus { top: 0; }
 
 /* --- Cadre : bandeau et barre laterale ----------------------------------- */
@@ -99,8 +114,8 @@ th { color: var(--ambre); font-family: var(--police-titre); text-transform: uppe
 }
 .nav li:nth-child(3n+2) a { border-left-color: var(--cyan); }
 .nav li:nth-child(3n) a { border-left-color: var(--magenta); }
-.nav a:hover { background: #17294a; }
-.nav a[aria-current="page"] { background: var(--ambre); color: #120a00; border-left-color: #fff3; }
+.nav a:hover { background: var(--survol); }
+.nav a[aria-current="page"] { background: var(--ambre); color: var(--encre-ambre); border-left-color: var(--bord-clair); }
 
 main { padding-block: 1.5rem 3rem; min-height: 60vh; }
 
@@ -139,7 +154,7 @@ main { padding-block: 1.5rem 3rem; min-height: 60vh; }
 .barres .n { text-align: right; font-variant-numeric: tabular-nums; color: var(--doux); }
 .barres a { color: var(--texte); }
 
-.niveau { display: inline-flex; align-items: center; justify-content: center; min-width: 1.9rem; height: 1.6rem; padding: 0 0.45rem; border-radius: 999px; font: 700 0.85rem/1 var(--police-titre); color: #04060b; }
+.niveau { display: inline-flex; align-items: center; justify-content: center; min-width: 1.9rem; height: 1.6rem; padding: 0 0.45rem; border-radius: 999px; font: 700 0.85rem/1 var(--police-titre); color: var(--encre); }
 .niveau--A { background: var(--niv-a); }
 .niveau--B { background: var(--niv-b); }
 .niveau--C { background: var(--niv-c); }
@@ -168,7 +183,7 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .ligne { max-width: none; background: var(--surface); border-left: 0.4rem solid var(--niv-c); border-radius: 0 1rem 1rem 0; padding: 0.55rem 1rem 0.6rem 3.4rem; position: relative; color: var(--doux); font-size: 0.9rem; }
 .ligne[data-niv="A"] { border-left-color: var(--niv-a); }
 .ligne[data-niv="B"] { border-left-color: var(--niv-b); }
-.ligne::before { content: attr(data-niv); content: attr(data-niv) / "Niveau " attr(data-niv); position: absolute; left: 0.8rem; top: 0.6rem; min-width: 1.9rem; height: 1.6rem; line-height: 1.6rem; text-align: center; border-radius: 999px; font: 700 0.85rem/1.6rem var(--police-titre); color: #04060b; background: var(--niv-c); }
+.ligne::before { content: attr(data-niv); content: attr(data-niv) / "Niveau " attr(data-niv); position: absolute; left: 0.8rem; top: 0.6rem; min-width: 1.9rem; height: 1.6rem; line-height: 1.6rem; text-align: center; border-radius: 999px; font: 700 0.85rem/1.6rem var(--police-titre); color: var(--encre); background: var(--niv-c); }
 .ligne[data-niv="A"]::before { background: var(--niv-a); }
 .ligne[data-niv="B"]::before { background: var(--niv-b); }
 .ligne[data-fiche="true"]::after { content: "fiche"; content: "fiche" / " Fiche approfondie disponible"; margin-left: 0.5rem; padding: 0 0.55rem; border: 1px solid var(--magenta); border-radius: 999px; color: var(--magenta); font-size: 0.78rem; white-space: nowrap; }
@@ -183,9 +198,9 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
   background: var(--fond); border: 1px solid var(--bord-champ); border-radius: 0.6rem;
 }
 .filtres input:focus-visible, .filtres select:focus-visible { border-color: var(--ambre); }
-.bouton { min-height: 2.75rem; padding: 0.45rem 1.2rem; font: 600 0.9rem var(--police-titre); text-transform: uppercase; letter-spacing: 0.08em; background: var(--lavande); color: #07051a; border: 0; border-radius: 0 999px 999px 0; cursor: pointer; }
-.bouton:hover { background: #c5c1ff; }
-.bouton--ambre { background: var(--ambre); color: #120a00; }
+.bouton { min-height: 2.75rem; padding: 0.45rem 1.2rem; font: 600 0.9rem var(--police-titre); text-transform: uppercase; letter-spacing: 0.08em; background: var(--lavande); color: var(--encre); border: 0; border-radius: 0 999px 999px 0; cursor: pointer; }
+.bouton:hover { background: var(--lavande-claire); }
+.bouton--ambre { background: var(--ambre); color: var(--encre-ambre); }
 .etat { margin: 1rem 0 0.4rem; color: var(--doux); }
 .etat strong { color: var(--texte); }
 .vide[hidden] { display: none; }
@@ -209,8 +224,8 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 /* Une entree = <li> + <a> ; pastille de niveau generee en CSS (data-niv). */
 .onglets { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 1rem 0 1.5rem; }
 .onglets a { display: inline-block; min-height: 2.75rem; line-height: 1.9rem; padding: 0.4rem 1.2rem; font: 600 0.9rem/1.9rem var(--police-titre); text-transform: uppercase; letter-spacing: 0.08em; background: var(--surface-2); color: var(--texte); text-decoration: none; border-left: 0.45rem solid var(--cyan); border-radius: 0 999px 999px 0; }
-.onglets a:hover { background: #17294a; }
-.onglets a[aria-current="page"] { background: var(--cyan); color: #00151b; }
+.onglets a:hover { background: var(--survol); }
+.onglets a[aria-current="page"] { background: var(--cyan); color: var(--encre-cyan); }
 .piste-titre { display: inline-block; font-size: 1.15rem; text-transform: none; letter-spacing: 0.02em; color: var(--texte); background: var(--surface-2); padding: 0.3rem 1rem; border-radius: 0 999px 999px 0; border-left: 0.45rem solid var(--lavande); margin-top: 2rem; }
 .piste--miroir { border-left-color: var(--magenta); }
 .piste--kelvin { border-left-color: var(--cyan); }
@@ -220,7 +235,7 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .frise > li::before { content: ""; position: absolute; left: calc(-1.4rem - 7px); top: 0.55rem; width: 11px; height: 11px; border-radius: 50%; background: var(--fond); border: 3px solid var(--niv-c); }
 .frise > li[data-niv="A"]::before { border-color: var(--niv-a); }
 .frise > li[data-niv="B"]::before { border-color: var(--niv-b); }
-.frise > li[data-niv]::after { content: attr(data-niv); content: attr(data-niv) / "Niveau " attr(data-niv); display: inline-block; margin-left: 0.5rem; min-width: 1.6rem; padding: 0 0.4rem; border-radius: 999px; text-align: center; font: 700 0.78rem/1.35rem var(--police-titre); color: #04060b; background: var(--niv-c); }
+.frise > li[data-niv]::after { content: attr(data-niv); content: attr(data-niv) / "Niveau " attr(data-niv); display: inline-block; margin-left: 0.5rem; min-width: 1.6rem; padding: 0 0.4rem; border-radius: 999px; text-align: center; font: 700 0.78rem/1.35rem var(--police-titre); color: var(--encre); background: var(--niv-c); }
 .frise > li[data-niv="A"]::after { background: var(--niv-a); }
 .frise > li[data-niv="B"]::after { background: var(--niv-b); }
 .frise .bande { font-family: var(--police-titre); text-transform: uppercase; letter-spacing: 0.08em; color: var(--ambre); margin: 1.2rem 0 0.5rem; }
@@ -243,11 +258,11 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .sigles abbr { text-decoration: none; font-weight: 600; color: var(--texte); }
 .carte-chaleur td { min-width: 2.4rem; text-align: center; border-radius: 4px; font-size: 0.88rem; }
 .q0 { background: var(--surface); color: var(--doux); }
-.q1 { background: #152b3d; color: var(--texte); }
-.q2 { background: #234a5e; color: var(--texte); }
-.q3 { background: #316a7f; color: var(--texte); }
-.q4 { background: #418da4; color: #04060b; }
-.q5 { background: #52b5cd; color: #04060b; font-weight: 700; }
+.q1 { background: var(--q1); color: var(--texte); }
+.q2 { background: var(--q2); color: var(--texte); }
+.q3 { background: var(--q3); color: var(--texte); }
+.q4 { background: var(--q4); color: var(--encre); }
+.q5 { background: var(--q5); color: var(--encre); font-weight: 700; }
 .legende { list-style: none; display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; padding: 0; margin: 0 0 0.8rem; font-size: 0.9rem; color: var(--doux); }
 .legende li { display: flex; align-items: center; gap: 0.4rem; }
 .pastille-leg { display: inline-block; width: 0.9rem; height: 0.9rem; border-radius: 3px; }
@@ -272,10 +287,12 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .reseau a:focus { outline: none; }
 .reseau a:focus-visible rect { stroke: var(--ambre); stroke-width: 3; }
 .lien { fill: none; stroke-width: 2; }
-.lien--cause { stroke: #3b9fd8; }
-.lien--suite { stroke: #c9563c; stroke-dasharray: 7 4; }
-.lien--meme_arc { stroke: #a99535; stroke-dasharray: 2 4; stroke-linecap: round; }
-.lien--episode_commun { stroke: #6b7a90; stroke-width: 1; }
+.lien--cause { stroke: var(--lien-cause); }
+.fleche--cause { fill: var(--lien-cause); }
+.fleche--suite { fill: var(--lien-suite); }
+.lien--suite { stroke: var(--lien-suite); stroke-dasharray: 7 4; }
+.lien--meme_arc { stroke: var(--lien-arc); stroke-dasharray: 2 4; stroke-linecap: round; }
+.lien--episode_commun { stroke: var(--lien-episode); stroke-width: 1; }
 .legende--reseau svg { flex: none; }
 
 /* --- Relations documentees ----------------------------------------------- */

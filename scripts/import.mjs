@@ -32,6 +32,10 @@ export function dernieresSources() {
   return { csv: path.join(SRC, csv), md: path.join(SRC, md) };
 }
 
+// Analyses redigees a la main (pages propres dans analyses/) : l'import ne
+// genere pas de page pour ces fiches et les gabarits lisent `analyse_url`.
+export const ANALYSES_REDIGEES = { 'STP-006': 'emeutes-de-bell' };
+
 export function lireDiffusion() {
   const p = path.join(ROOT, 'data/diffusion.json');
   if (!fs.existsSync(p)) return { series: [], films: [], episodes: [] };
@@ -163,6 +167,7 @@ export function importer(csvPath, mdPath) {
   for (const e of evenements) {
     e.bande = bande(e.ordre);
     e.amorce = amorce(e);
+    e.analyse_url = e.fiche ? `/analyses/${ANALYSES_REDIGEES[e.id] || e.id}/` : null;
     e.sous_bande = e.ordre.imprecis ? 'Datation imprécise dans le siècle' : null;
   }
 
@@ -629,7 +634,7 @@ export function ecrireSorties(r) {
     .map((m) => ({ bornes: m[1], codes: m[2].split(/[\/,]\s*|\s+/).filter(Boolean), texte: m[3].trim() }));
   ecrire(D('periodes.json'), JSON.stringify(periodes, null, 1) + '\n');
   for (const f of r.fiches) {
-    if (f.id === 'STP-006') continue;
+    if (ANALYSES_REDIGEES[f.id]) continue;
     const e = r.evenements.find((x) => x.id === f.id);
     // Periode : celle de la serie de l'episode principal (premier episode cite) ;
     // a defaut (films, TAS, Short Treks), celle qui contient l'annee de premiere

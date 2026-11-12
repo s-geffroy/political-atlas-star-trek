@@ -24,19 +24,19 @@ layout: default
 </div>
 
 <h2>À la une</h2>
-{%- assign une = evs | where: "id", "STP-006" -%}
+{%- assign une = evs | where: "id", site.a_la_une -%}
 {%- assign fichesA = evs | where: "fiche", true | where: "niveau_recoupement", "A" -%}
 <div class="grille-2">
   <div class="panneau">
     {%- assign bell = une | first %}
-    <h3><a href="{{ '/analyses/emeutes-de-bell/' | relative_url }}">Les émeutes de Bell : fiction, contexte et limites</a></h3>
+    <h3><a href="{{ bell.analyse_url | relative_url }}">Les émeutes de Bell : fiction, contexte et limites</a></h3>
     <p>{{ bell.event }} — {{ bell.period }}, {{ bell.source }}. Une analyse croisée de l’épisode, de son contexte de diffusion et des résonances ultérieures, sans lecture « prophétique ».</p>
-    <p><a href="{{ '/evenements/STP-006/' | relative_url }}">Fiche STP-006</a> · <a href="{{ '/analyses/' | relative_url }}">Toutes les analyses</a></p>
+    <p><a href="{{ '/evenements/' | append: bell.id | append: '/' | relative_url }}">Fiche {{ bell.id }}</a> · <a href="{{ '/analyses/' | relative_url }}">Toutes les analyses</a></p>
   </div>
   <div class="panneau">
     <h3>Fiches approfondies de niveau A</h3>
     <ul class="cartes">
-      {%- for e in fichesA limit: 6 %}{% unless e.id == "STP-006" %}{% include carte.html e=e court=true %}{% endunless %}{% endfor %}
+      {%- for e in fichesA limit: 6 %}{% unless e.id == bell.id %}{% include carte.html e=e court=true %}{% endunless %}{% endfor %}
     </ul>
     <p><a href="{{ '/evenements/' | relative_url }}?niv=A">Toutes les entrées de niveau A</a></p>
   </div>

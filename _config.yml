@@ -16,6 +16,9 @@ description: >-
 logo: /assets/icone.svg
 lang: fr
 locale: fr_FR
+# Evenement a la une de l'accueil (son analyse redigee : ANALYSES_REDIGEES
+# dans scripts/import.mjs).
+a_la_une: STP-006
 # Depot GitHub, pour les liens « contribuer » et « signaler ».
 repository: s-geffroy/political-atlas-star-trek
 

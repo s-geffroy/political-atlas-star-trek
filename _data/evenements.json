@@ -131,6 +131,7 @@
   "rang_diegetique": 1,
   "bande": "Passé lointain",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Amok Time » ; Star Trek: Enterprise, épisodes « The Forge », « Kir'Shara ») ; période fictive : Antiquité vulcaine.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -252,6 +253,7 @@
   "rang_diegetique": 2,
   "bande": "Passé lointain",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Unification » ; Star Trek: Enterprise, épisode « Awakening ») ; période fictive : Antiquité vulcaine.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -358,6 +360,7 @@
   "rang_diegetique": 3,
   "bande": "Passé lointain",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Contagion » ; Star Trek: Deep Space Nine, épisode « To the Death ») ; période fictive : Passé lointain.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -472,6 +475,7 @@
   "rang_diegetique": 4,
   "bande": "Passé lointain",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « The Slaver Weapon ») ; période fictive : Passé lointain.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -622,6 +626,7 @@
   "rang_diegetique": 9,
   "bande": "XXe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Space Seed » ; Star Trek: Enterprise, épisode « Borderland » ; Star Trek: Strange New Worlds, épisode « Tomorrow and Tomorrow and Tomorrow ») ; période fictive : 1990s / chronologie instable.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -692,6 +697,7 @@
   "rang_diegetique": 16,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Past Tense ») ; période fictive : XXIe siècle.",
+  "analyse_url": "/analyses/emeutes-de-bell/",
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": []
  },
@@ -767,6 +773,7 @@
   "rang_diegetique": 10,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard) ; période fictive : 2024, chronologie modifiée.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -861,6 +868,7 @@
   "rang_diegetique": 11,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisodes « Assimilation », « Farewell ») ; période fictive : 2024.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -990,6 +998,7 @@
   "rang_diegetique": 12,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Strange New Worlds ») ; période fictive : 2026–2050s env..",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -1094,6 +1103,7 @@
   "rang_diegetique": 15,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Demons » ; Star Trek: The Original Series, épisode « The Savage Curtain ») ; période fictive : Milieu XXIe siècle.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -1232,6 +1242,7 @@
   "rang_diegetique": 13,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « First Contact ») ; période fictive : 2053 (datation usuelle).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -1339,6 +1350,7 @@
   "rang_diegetique": 14,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « First Contact ») ; période fictive : 2063.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -1464,6 +1476,7 @@
   "rang_diegetique": 47,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisodes « Up the Long Ladder », « Attached ») ; période fictive : Début XXIIe siècle–2150.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -1567,6 +1580,7 @@
   "rang_diegetique": 17,
   "bande": "Entre le XXIe et le XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « The Slaver Weapon ») ; période fictive : Fin XXIe–début XXIIe.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -1699,6 +1713,7 @@
   "rang_diegetique": 48,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisodes « Broken Bow », « First Flight ») ; période fictive : XXIIe siècle.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -1814,6 +1829,7 @@
   "rang_diegetique": 18,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Broken Bow ») ; période fictive : 2151.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -1906,6 +1922,7 @@
   "rang_diegetique": 19,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Terra Nova ») ; période fictive : 2151.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -2049,6 +2066,7 @@
   "rang_diegetique": 20,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisodes « Broken Bow », « Shockwave », « Storm Front ») ; période fictive : 2151.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -2178,6 +2196,7 @@
   "rang_diegetique": 21,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Fusion ») ; période fictive : 2151.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -2272,6 +2291,7 @@
   "rang_diegetique": 22,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Civilization ») ; période fictive : 2151.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -2388,6 +2408,7 @@
   "rang_diegetique": 24,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisodes « The Andorian Incident », « Shadows of P'Jem ») ; période fictive : 2152.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -2480,6 +2501,7 @@
   "rang_diegetique": 25,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Minefield ») ; période fictive : 2152.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -2565,6 +2587,7 @@
   "rang_diegetique": 26,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Cease Fire ») ; période fictive : 2152.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -2665,6 +2688,7 @@
   "rang_diegetique": 27,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Detained ») ; période fictive : 2152.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -2758,6 +2782,7 @@
   "rang_diegetique": 28,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Marauders ») ; période fictive : 2152.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -2874,6 +2899,7 @@
   "rang_diegetique": 32,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « The Expanse ») ; période fictive : 2153.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -2977,6 +3003,7 @@
   "rang_diegetique": 33,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise) ; période fictive : 2153–2154.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -3103,6 +3130,7 @@
   "rang_diegetique": 35,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisodes « The Council », « Countdown », « Zero Hour ») ; période fictive : 2154.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -3236,6 +3264,7 @@
   "rang_diegetique": 36,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisodes « The Council », « Zero Hour ») ; période fictive : 2154.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -3352,6 +3381,7 @@
   "rang_diegetique": 37,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « The Forge ») ; période fictive : 2154.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -3483,6 +3513,7 @@
   "rang_diegetique": 38,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisodes « Awakening », « Kir'Shara ») ; période fictive : 2154.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -3598,6 +3629,7 @@
   "rang_diegetique": 39,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Kir'Shara ») ; période fictive : 2154.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -3724,6 +3756,7 @@
   "rang_diegetique": 40,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisodes « Babel One », « United », « The Aenar ») ; période fictive : 2154.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -3823,6 +3856,7 @@
   "rang_diegetique": 42,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisodes « Demons », « Terra Prime ») ; période fictive : 2155.",
+  "analyse_url": "/analyses/STP-034/",
   "sous_bande": null,
   "associes": [
    {
@@ -3962,6 +3996,7 @@
   "rang_diegetique": 43,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisodes « Demons », « Terra Prime ») ; période fictive : 2155.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -4079,6 +4114,7 @@
   "rang_diegetique": 44,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Balance of Terror ») ; période fictive : 2156–2160.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -4180,6 +4216,7 @@
   "rang_diegetique": 45,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Balance of Terror ») ; période fictive : 2160.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -4300,6 +4337,7 @@
   "rang_diegetique": 46,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « These Are the Voyages… ») ; période fictive : 2161.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -4402,6 +4440,7 @@
   "rang_diegetique": 53,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisodes « The Vulcan Hello », « Battle at the Binary Stars ») ; période fictive : 2256.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -4502,6 +4541,7 @@
   "rang_diegetique": 54,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Battle at the Binary Stars ») ; période fictive : 2256.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -4639,6 +4679,7 @@
   "rang_diegetique": 55,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Under the Cloak of War ») ; période fictive : 2256–2257.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -4756,6 +4797,7 @@
   "rang_diegetique": 56,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Will You Take My Hand? ») ; période fictive : 2257.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -4873,6 +4915,7 @@
   "rang_diegetique": 57,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisodes « Will You Take My Hand? », « Point of Light ») ; période fictive : 2257.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -4978,6 +5021,7 @@
   "rang_diegetique": 58,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery) ; période fictive : 2257.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -5082,6 +5126,7 @@
   "rang_diegetique": 62,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Such Sweet Sorrow ») ; période fictive : 2258.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -5168,6 +5213,7 @@
   "rang_diegetique": 64,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Strange New Worlds ») ; période fictive : 2259.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -5308,6 +5354,7 @@
   "rang_diegetique": 65,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisodes « A Quality of Mercy », « The Broken Circle ») ; période fictive : 2259.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -5407,6 +5454,7 @@
   "rang_diegetique": 66,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Ad Astra per Aspera ») ; période fictive : 2259.",
+  "analyse_url": "/analyses/STP-048/",
   "sous_bande": null,
   "associes": [
    {
@@ -5492,6 +5540,7 @@
   "rang_diegetique": 67,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Lift Us Where Suffering Cannot Reach ») ; période fictive : 2259.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -5601,6 +5650,7 @@
   "rang_diegetique": 68,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisodes « Ghosts of Illyria », « Ad Astra per Aspera ») ; période fictive : 2259.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -5726,6 +5776,7 @@
   "rang_diegetique": 69,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisodes « Memento Mori », « Hegemony ») ; période fictive : 2259.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -5812,6 +5863,7 @@
   "rang_diegetique": 70,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « The Broken Circle ») ; période fictive : 2259.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -5905,6 +5957,7 @@
   "rang_diegetique": 71,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Under the Cloak of War ») ; période fictive : 2259.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -6027,6 +6080,7 @@
   "rang_diegetique": 73,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « A Case of Chiaroscuro ») ; période fictive : 2260 env..",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -6120,6 +6174,7 @@
   "rang_diegetique": 74,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Orders of Magnitude ») ; période fictive : 2260 env..",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -6228,6 +6283,7 @@
   "rang_diegetique": 75,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Let That Be Your Last Battlefield ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -6320,6 +6376,7 @@
   "rang_diegetique": 76,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « A Taste of Armageddon ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -6412,6 +6469,7 @@
   "rang_diegetique": 77,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Return of the Archons ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -6489,6 +6547,7 @@
   "rang_diegetique": 78,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Patterns of Force ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -6566,6 +6625,7 @@
   "rang_diegetique": 79,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « A Private Little War ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -6652,6 +6712,7 @@
   "rang_diegetique": 80,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Cloud Minders ») ; période fictive : 2260s.",
+  "analyse_url": "/analyses/STP-061/",
   "sous_bande": null,
   "associes": []
  },
@@ -6753,6 +6814,7 @@
   "rang_diegetique": 81,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Errand of Mercy ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -6830,6 +6892,7 @@
   "rang_diegetique": 82,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Balance of Terror ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -6939,6 +7002,7 @@
   "rang_diegetique": 83,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Journey to Babel ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -7047,6 +7111,7 @@
   "rang_diegetique": 84,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Friday's Child ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -7140,6 +7205,7 @@
   "rang_diegetique": 85,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Omega Glory ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -7232,6 +7298,7 @@
   "rang_diegetique": 86,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Gamesters of Triskelion ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -7339,6 +7406,7 @@
   "rang_diegetique": 87,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Mark of Gideon ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -7431,6 +7499,7 @@
   "rang_diegetique": 88,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Way to Eden ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -7538,6 +7607,7 @@
   "rang_diegetique": 89,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Apple ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -7651,6 +7721,7 @@
   "rang_diegetique": 90,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « The Jihad ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -7757,6 +7828,7 @@
   "rang_diegetique": 91,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « The Slaver Weapon ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -7855,6 +7927,7 @@
   "rang_diegetique": 100,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Motion Picture ») ; période fictive : 2270s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -7941,6 +8014,7 @@
   "rang_diegetique": 101,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Wrath of Khan ») ; période fictive : 2280s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -8024,6 +8098,7 @@
   "rang_diegetique": 102,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Voyage Home ») ; période fictive : 2280s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -8137,6 +8212,7 @@
   "rang_diegetique": 103,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Final Frontier ») ; période fictive : 2280s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -8243,6 +8319,7 @@
   "rang_diegetique": 104,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Undiscovered Country ») ; période fictive : 2293.",
+  "analyse_url": "/analyses/STP-077/",
   "sous_bande": null,
   "associes": [
    {
@@ -8344,6 +8421,7 @@
   "rang_diegetique": 105,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Undiscovered Country ») ; période fictive : 2293.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -8473,6 +8551,7 @@
   "rang_diegetique": 106,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Undiscovered Country ») ; période fictive : 2293.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -8571,6 +8650,7 @@
   "rang_diegetique": 173,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Generations ») ; période fictive : 2371.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -8671,6 +8751,7 @@
   "rang_diegetique": 193,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « First Contact ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -8763,6 +8844,7 @@
   "rang_diegetique": 217,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Insurrection ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -8849,6 +8931,7 @@
   "rang_diegetique": 239,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Nemesis ») ; période fictive : 2379.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -8943,6 +9026,7 @@
   "rang_diegetique": 240,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Nemesis ») ; période fictive : 2379.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -9044,6 +9128,7 @@
   "rang_diegetique": 50,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Star Trek ») ; période fictive : 2233 (Kelvin).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -9145,6 +9230,7 @@
   "rang_diegetique": 63,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Star Trek ») ; période fictive : 2258 (Kelvin).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -9245,6 +9331,7 @@
   "rang_diegetique": 72,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Star Trek Into Darkness ») ; période fictive : 2259 (Kelvin).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -9323,6 +9410,7 @@
   "rang_diegetique": 98,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Star Trek Beyond ») ; période fictive : 2263 (Kelvin).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -9416,6 +9504,7 @@
   "rang_diegetique": 119,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Encounter at Farpoint ») ; période fictive : 2364.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -9522,6 +9611,7 @@
   "rang_diegetique": 120,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Last Outpost ») ; période fictive : 2364.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -9628,6 +9718,7 @@
   "rang_diegetique": 121,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Code of Honor ») ; période fictive : 2364.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -9705,6 +9796,7 @@
   "rang_diegetique": 122,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Justice ») ; période fictive : 2364.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -9798,6 +9890,7 @@
   "rang_diegetique": 123,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Symbiosis ») ; période fictive : 2364.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -9898,6 +9991,7 @@
   "rang_diegetique": 126,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Measure of a Man ») ; période fictive : 2365.",
+  "analyse_url": "/analyses/STP-094/",
   "sous_bande": null,
   "associes": []
  },
@@ -9991,6 +10085,7 @@
   "rang_diegetique": 127,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Hunted ») ; période fictive : 2366.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -10098,6 +10193,7 @@
   "rang_diegetique": 128,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Enemy ») ; période fictive : 2366.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -10200,6 +10296,7 @@
   "rang_diegetique": 129,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Sins of the Father ») ; période fictive : 2366.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -10322,6 +10419,7 @@
   "rang_diegetique": 130,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Best of Both Worlds » ; Star Trek: Deep Space Nine, épisode « Emissary ») ; période fictive : 2366.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -10430,6 +10528,7 @@
   "rang_diegetique": 131,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Ensigns of Command ») ; période fictive : 2366.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -10539,6 +10638,7 @@
   "rang_diegetique": 136,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Reunion ») ; période fictive : 2367.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -10607,6 +10707,7 @@
   "rang_diegetique": 137,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Drumhead ») ; période fictive : 2367.",
+  "analyse_url": "/analyses/STP-101/",
   "sous_bande": null,
   "associes": []
  },
@@ -10720,6 +10821,7 @@
   "rang_diegetique": 138,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Redemption ») ; période fictive : 2367.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -10836,6 +10938,7 @@
   "rang_diegetique": 162,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Journey's End ») ; période fictive : 2370.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -10937,6 +11040,7 @@
   "rang_diegetique": 139,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Who Watches the Watchers ») ; période fictive : 2367.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -11050,6 +11154,7 @@
   "rang_diegetique": 142,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Unification ») ; période fictive : 2368.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -11167,6 +11272,7 @@
   "rang_diegetique": 143,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Face of the Enemy ») ; période fictive : 2368.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -11258,6 +11364,7 @@
   "rang_diegetique": 144,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Outcast ») ; période fictive : 2368.",
+  "analyse_url": "/analyses/STP-107/",
   "sous_bande": null,
   "associes": []
  },
@@ -11335,6 +11442,7 @@
   "rang_diegetique": 140,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Half a Life ») ; période fictive : 2367.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -11412,6 +11520,7 @@
   "rang_diegetique": 124,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Angel One ») ; période fictive : 2364.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -11494,6 +11603,7 @@
   "rang_diegetique": 151,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Chain of Command ») ; période fictive : 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -11583,6 +11693,7 @@
   "rang_diegetique": 152,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Quality of Life ») ; période fictive : 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -11686,6 +11797,7 @@
   "rang_diegetique": 132,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The High Ground ») ; période fictive : 2366.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -11778,6 +11890,7 @@
   "rang_diegetique": 153,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Wounded ») ; période fictive : 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -11902,6 +12015,7 @@
   "rang_diegetique": 163,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisodes « Journey's End », « Preemptive Strike » ; Star Trek: Deep Space Nine, épisode « The Maquis ») ; période fictive : 2370.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -12036,6 +12150,7 @@
   "rang_diegetique": 164,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Preemptive Strike ») ; période fictive : 2370.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -12130,6 +12245,7 @@
   "rang_diegetique": 165,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Pegasus ») ; période fictive : 2370.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -12216,6 +12332,7 @@
   "rang_diegetique": 133,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Offspring ») ; période fictive : 2366.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -12293,6 +12410,7 @@
   "rang_diegetique": 166,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Homeward ») ; période fictive : 2370.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -12390,6 +12508,7 @@
   "rang_diegetique": 141,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « First Contact ») ; période fictive : 2367.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -12531,6 +12650,7 @@
   "rang_diegetique": 149,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Emissary », « Duet », « Necessary Evil ») ; période fictive : Avant 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -12694,6 +12814,7 @@
   "rang_diegetique": 150,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Emissary », « Shakaar », « The Darkness and the Light ») ; période fictive : Avant 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -12845,6 +12966,7 @@
   "rang_diegetique": 154,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Emissary ») ; période fictive : 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -12981,6 +13103,7 @@
   "rang_diegetique": 155,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Emissary ») ; période fictive : 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -13124,6 +13247,7 @@
   "rang_diegetique": 156,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « In the Hands of the Prophets ») ; période fictive : 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -13215,6 +13339,7 @@
   "rang_diegetique": 157,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Duet ») ; période fictive : 2369.",
+  "analyse_url": "/analyses/STP-125/",
   "sous_bande": null,
   "associes": [
    {
@@ -13353,6 +13478,7 @@
   "rang_diegetique": 167,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « The Homecoming », « The Circle », « The Siege ») ; période fictive : 2370.",
+  "analyse_url": "/analyses/STP-126/",
   "sous_bande": null,
   "associes": []
  },
@@ -13488,6 +13614,7 @@
   "rang_diegetique": 168,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Maquis ») ; période fictive : 2370.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -13610,6 +13737,7 @@
   "rang_diegetique": 169,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Jem'Hadar ») ; période fictive : 2370.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -13679,6 +13807,7 @@
   "rang_diegetique": 182,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Bar Association ») ; période fictive : 2372.",
+  "analyse_url": "/analyses/STP-129/",
   "sous_bande": null,
   "associes": []
  },
@@ -13771,6 +13900,7 @@
   "rang_diegetique": 174,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Dax ») ; période fictive : 2371.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -13869,6 +13999,7 @@
   "rang_diegetique": 175,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Equilibrium ») ; période fictive : 2371.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -13961,6 +14092,7 @@
   "rang_diegetique": 176,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Adversary ») ; période fictive : 2371.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -14097,6 +14229,7 @@
   "rang_diegetique": 177,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Second Skin », « Cardassians ») ; période fictive : 2371.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -14206,6 +14339,7 @@
   "rang_diegetique": 178,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Shakaar ») ; période fictive : 2371.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -14327,6 +14461,7 @@
   "rang_diegetique": 179,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Shakaar ») ; période fictive : 2371.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -14427,6 +14562,7 @@
   "rang_diegetique": 183,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Way of the Warrior ») ; période fictive : 2372.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -14572,6 +14708,7 @@
   "rang_diegetique": 184,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Way of the Warrior ») ; période fictive : 2372.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -14702,6 +14839,7 @@
   "rang_diegetique": 185,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Way of the Warrior ») ; période fictive : 2372.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -14812,6 +14950,7 @@
   "rang_diegetique": 186,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Homefront », « Paradise Lost ») ; période fictive : 2372.",
+  "analyse_url": "/analyses/STP-139/",
   "sous_bande": null,
   "associes": []
  },
@@ -14927,6 +15066,7 @@
   "rang_diegetique": 194,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Apocalypse Rising ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -15058,6 +15198,7 @@
   "rang_diegetique": 187,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « For the Cause », « For the Uniform ») ; période fictive : 2372.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -15188,6 +15329,7 @@
   "rang_diegetique": 195,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Things Past », « Necessary Evil ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -15311,6 +15453,7 @@
   "rang_diegetique": 196,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « By Inferno's Light ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -15442,6 +15585,7 @@
   "rang_diegetique": 197,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « By Inferno's Light » ; Star Trek: Voyager, épisode « Hunters ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -15551,6 +15695,7 @@
   "rang_diegetique": 198,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Call to Arms ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -15703,6 +15848,7 @@
   "rang_diegetique": 199,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Call to Arms ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -15855,6 +16001,7 @@
   "rang_diegetique": 200,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Call to Arms », « A Time to Stand ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -15977,6 +16124,7 @@
   "rang_diegetique": 205,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Sacrifice of Angels ») ; période fictive : 2374.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -16054,6 +16202,7 @@
   "rang_diegetique": 206,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « In the Pale Moonlight ») ; période fictive : 2374.",
+  "analyse_url": "/analyses/STP-149/",
   "sous_bande": null,
   "associes": []
  },
@@ -16164,6 +16313,7 @@
   "rang_diegetique": 207,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Behind the Lines », « Favor the Bold ») ; période fictive : 2374.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -16279,6 +16429,7 @@
   "rang_diegetique": 208,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Hippocratic Oath », « Rocks and Shoals ») ; période fictive : 2374.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -16371,6 +16522,7 @@
   "rang_diegetique": 188,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Quickening ») ; période fictive : 2372.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -16478,6 +16630,7 @@
   "rang_diegetique": 218,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « When It Rains… », « Extreme Measures ») ; période fictive : 2375.",
+  "analyse_url": "/analyses/STP-153/",
   "sous_bande": null,
   "associes": [
    {
@@ -16578,6 +16731,7 @@
   "rang_diegetique": 219,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Tacking Into the Wind ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -16677,6 +16831,7 @@
   "rang_diegetique": 220,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Tacking Into the Wind ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -16801,6 +16956,7 @@
   "rang_diegetique": 221,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « When It Rains… », « The Dogs of War ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -16933,6 +17089,7 @@
   "rang_diegetique": 222,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « What You Leave Behind ») ; période fictive : 2375.",
+  "analyse_url": "/analyses/STP-157/",
   "sous_bande": null,
   "associes": [
    {
@@ -17049,6 +17206,7 @@
   "rang_diegetique": 223,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « What You Leave Behind ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -17181,6 +17339,7 @@
   "rang_diegetique": 224,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Profit and Lace », « The Dogs of War ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -17304,6 +17463,7 @@
   "rang_diegetique": 225,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Dogs of War ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -17435,6 +17595,7 @@
   "rang_diegetique": 180,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisodes « Caretaker », « Learning Curve ») ; période fictive : 2371.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -17575,6 +17736,7 @@
   "rang_diegetique": 181,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisodes « Initiations », « Maneuvers ») ; période fictive : 2371.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -17687,6 +17849,7 @@
   "rang_diegetique": 189,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Basics ») ; période fictive : 2372.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -17796,6 +17959,7 @@
   "rang_diegetique": 190,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Resistance ») ; période fictive : 2372.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -17896,6 +18060,7 @@
   "rang_diegetique": 201,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Death Wish ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -17983,6 +18148,7 @@
   "rang_diegetique": 202,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « The Q and the Grey ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -18089,6 +18255,7 @@
   "rang_diegetique": 203,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « The Chute ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -18186,6 +18353,7 @@
   "rang_diegetique": 209,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Scorpion ») ; période fictive : 2374.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -18305,6 +18473,7 @@
   "rang_diegetique": 210,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « The Killing Game ») ; période fictive : 2374.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -18398,6 +18567,7 @@
   "rang_diegetique": 226,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Counterpoint ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -18496,6 +18666,7 @@
   "rang_diegetique": 233,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Critical Care ») ; période fictive : 2377.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -18604,6 +18775,7 @@
   "rang_diegetique": 234,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Author, Author ») ; période fictive : 2377.",
+  "analyse_url": "/analyses/STP-172/",
   "sous_bande": null,
   "associes": []
  },
@@ -18711,6 +18883,7 @@
   "rang_diegetique": 211,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Nemesis ») ; période fictive : 2374.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -18808,6 +18981,7 @@
   "rang_diegetique": 232,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Unimatrix Zero ») ; période fictive : 2376.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -18914,6 +19088,7 @@
   "rang_diegetique": 235,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Repentance ») ; période fictive : 2377.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -19020,6 +19195,7 @@
   "rang_diegetique": 59,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisodes « Despite Yourself », « What's Past Is Prologue ») ; période fictive : 2257 (univers Miroir).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -19094,6 +19270,7 @@
   "rang_diegetique": 51,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery) ; période fictive : 2250s (univers Miroir).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -19224,6 +19401,7 @@
   "rang_diegetique": 279,
   "bande": "XXXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisodes « That Hope Is You », « Su'Kal ») ; période fictive : 3069 env..",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -19317,6 +19495,7 @@
   "rang_diegetique": 305,
   "bande": "Non ordonnable sans interprétation",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisodes « People of Earth », « Unification III ») ; période fictive : Après le Burn.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -19425,6 +19604,7 @@
   "rang_diegetique": 280,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « People of Earth ») ; période fictive : 3188.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -19510,6 +19690,7 @@
   "rang_diegetique": 281,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Forget Me Not ») ; période fictive : 3188.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -19618,6 +19799,7 @@
   "rang_diegetique": 282,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Unification III ») ; période fictive : 3188.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -19725,6 +19907,7 @@
   "rang_diegetique": 283,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Unification III ») ; période fictive : 3188.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -19835,6 +20018,7 @@
   "rang_diegetique": 284,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisodes « Scavengers », « The Sanctuary ») ; période fictive : 3188.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -19930,6 +20114,7 @@
   "rang_diegetique": 285,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « There Is a Tide… ») ; période fictive : 3188–3189.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -20015,6 +20200,7 @@
   "rang_diegetique": 286,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « That Hope Is You, Part 2 ») ; période fictive : 3189.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -20088,6 +20274,7 @@
   "rang_diegetique": 287,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery) ; période fictive : 3189.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -20193,6 +20380,7 @@
   "rang_diegetique": 288,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisodes « Kobayashi Maru », « Anomaly ») ; période fictive : 3189.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -20296,6 +20484,7 @@
   "rang_diegetique": 289,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisodes « ...But to Connect », « All In ») ; période fictive : 3190.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -20390,6 +20579,7 @@
   "rang_diegetique": 290,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisodes « Species Ten-C », « Coming Home ») ; période fictive : 3190.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -20475,6 +20665,7 @@
   "rang_diegetique": 291,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Erigah ») ; période fictive : 3191.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -20585,6 +20776,7 @@
   "rang_diegetique": 292,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisodes « Erigah », « Life, Itself ») ; période fictive : 3191.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -20686,6 +20878,7 @@
   "rang_diegetique": 293,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Life, Itself ») ; période fictive : 3191.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -20804,6 +20997,7 @@
   "rang_diegetique": 115,
   "bande": "Entre le XXIIIe et le XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Mirrors ») ; période fictive : Entre 2267 et la fin du XXIVe siècle (événement relaté en 3191).",
+  "analyse_url": "/analyses/STP-194/",
   "sous_bande": null,
   "associes": [
    {
@@ -20913,6 +21107,7 @@
   "rang_diegetique": 241,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisodes « Remembrance », « The End Is the Beginning ») ; période fictive : 2380s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -21046,6 +21241,7 @@
   "rang_diegetique": 263,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisodes « Remembrance », « Maps and Legends ») ; période fictive : 2385.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -21159,6 +21355,7 @@
   "rang_diegetique": 264,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard) ; période fictive : 2385.",
+  "analyse_url": "/analyses/STP-197/",
   "sous_bande": null,
   "associes": []
  },
@@ -21260,6 +21457,7 @@
   "rang_diegetique": 265,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisode « Remembrance ») ; période fictive : 2385.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -21348,6 +21546,7 @@
   "rang_diegetique": 267,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard) ; période fictive : 2390s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -21421,6 +21620,7 @@
   "rang_diegetique": 268,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard) ; période fictive : 2399.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -21546,6 +21746,7 @@
   "rang_diegetique": 269,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisode « Et in Arcadia Ego ») ; période fictive : 2399.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -21643,6 +21844,7 @@
   "rang_diegetique": 270,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard) ; période fictive : 2399.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -21737,6 +21939,7 @@
   "rang_diegetique": 273,
   "bande": "XXVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisode « Penance ») ; période fictive : 2401 (alt.).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -21844,6 +22047,7 @@
   "rang_diegetique": 274,
   "bande": "XXVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisode « Farewell ») ; période fictive : 2401.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -21917,6 +22121,7 @@
   "rang_diegetique": 275,
   "bande": "XXVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard) ; période fictive : 2401.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -22034,6 +22239,7 @@
   "rang_diegetique": 276,
   "bande": "XXVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisodes « Imposters », « The Last Generation ») ; période fictive : 2401.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -22159,6 +22365,7 @@
   "rang_diegetique": 277,
   "bande": "XXVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisodes « Võx », « The Last Generation ») ; période fictive : 2401.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -22267,6 +22474,7 @@
   "rang_diegetique": 278,
   "bande": "XXVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisode « The Last Generation ») ; période fictive : 2401.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -22359,6 +22567,7 @@
   "rang_diegetique": 242,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « Second Contact ») ; période fictive : 2380.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -22475,6 +22684,7 @@
   "rang_diegetique": 243,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « Where Pleasant Fountains Lie ») ; période fictive : 2380.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -22575,6 +22785,7 @@
   "rang_diegetique": 244,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « First First Contact ») ; période fictive : 2381.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -22719,6 +22930,7 @@
   "rang_diegetique": 245,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « wej Duj ») ; période fictive : 2381.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -22873,6 +23085,7 @@
   "rang_diegetique": 246,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « Something Borrowed, Something Green ») ; période fictive : 2381.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -22988,6 +23201,7 @@
   "rang_diegetique": 247,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « Parth Ferengi's Heart Place ») ; période fictive : 2381.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -23081,6 +23295,7 @@
   "rang_diegetique": 248,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « The Stars at Night ») ; période fictive : 2381.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -23193,6 +23408,7 @@
   "rang_diegetique": 251,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « Old Friends, New Planets ») ; période fictive : 2382.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -23283,6 +23499,7 @@
   "rang_diegetique": 252,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks) ; période fictive : 2382.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -23379,6 +23596,7 @@
   "rang_diegetique": 253,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks) ; période fictive : 2382.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -23473,6 +23691,7 @@
   "rang_diegetique": 254,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Lost and Found ») ; période fictive : 2383.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -23566,6 +23785,7 @@
   "rang_diegetique": 255,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Lost and Found ») ; période fictive : 2383.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -23691,6 +23911,7 @@
   "rang_diegetique": 256,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Supernova ») ; période fictive : 2383.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -23811,6 +24032,7 @@
   "rang_diegetique": 257,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Supernova ») ; période fictive : 2384.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -23918,6 +24140,7 @@
   "rang_diegetique": 258,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Supernova ») ; période fictive : 2384.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -24052,6 +24275,7 @@
   "rang_diegetique": 259,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Ouroboros ») ; période fictive : 2384.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -24175,6 +24399,7 @@
   "rang_diegetique": 260,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Brink ») ; période fictive : 2384.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -24274,6 +24499,7 @@
   "rang_diegetique": 261,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Ouroboros ») ; période fictive : 2384.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -24391,6 +24617,7 @@
   "rang_diegetique": 262,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy) ; période fictive : 2384.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -24492,6 +24719,7 @@
   "rang_diegetique": 300,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Kids These Days ») ; période fictive : XXXIIe siècle.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": []
  },
@@ -24591,6 +24819,7 @@
   "rang_diegetique": 301,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Beta Test ») ; période fictive : XXXIIe siècle.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -24742,6 +24971,7 @@
   "rang_diegetique": 302,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Vox in Excelso ») ; période fictive : XXXIIe siècle.",
+  "analyse_url": "/analyses/STP-230/",
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -24874,6 +25104,7 @@
   "rang_diegetique": 303,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Come, Let's Away ») ; période fictive : XXXIIe siècle.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": []
  },
@@ -25005,6 +25236,7 @@
   "rang_diegetique": 304,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Rubincon ») ; période fictive : XXXIIe siècle.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -25125,6 +25357,7 @@
   "rang_diegetique": 107,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Mirror, Mirror ») ; période fictive : XXIIIe siècle Miroir.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -25250,6 +25483,7 @@
   "rang_diegetique": 108,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Mirror, Mirror ») ; période fictive : XXIIIe siècle Miroir.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -25346,6 +25580,7 @@
   "rang_diegetique": 109,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Crossover ») ; période fictive : XXIIIe siècle Miroir.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -25465,6 +25700,7 @@
   "rang_diegetique": 271,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Crossover », « Through the Looking Glass ») ; période fictive : XXIVe siècle Miroir.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -25614,6 +25850,7 @@
   "rang_diegetique": 272,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Through the Looking Glass », « Shattered Mirror », « The Emperor's New Cloak ») ; période fictive : XXIVe siècle Miroir.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -25719,6 +25956,7 @@
   "rang_diegetique": 110,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « What's Past Is Prologue ») ; période fictive : XXIIIe siècle Miroir.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -25839,6 +26077,7 @@
   "rang_diegetique": 116,
   "bande": "Entre le XXIIIe et le XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Mirrors ») ; période fictive : Entre 2267 et la fin du XXIVe siècle, Miroir.",
+  "analyse_url": "/analyses/STP-239/",
   "sous_bande": null,
   "associes": [
    {
@@ -25939,6 +26178,7 @@
   "rang_diegetique": 99,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « A Quality of Mercy ») ; période fictive : 2266, branche temporelle.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -26039,6 +26279,7 @@
   "rang_diegetique": 23,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Dear Doctor ») ; période fictive : 2151.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -26131,6 +26372,7 @@
   "rang_diegetique": 29,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Cogenitor ») ; période fictive : 2152.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -26231,6 +26473,7 @@
   "rang_diegetique": 30,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Stigma ») ; période fictive : 2152.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -26323,6 +26566,7 @@
   "rang_diegetique": 31,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « The Communicator ») ; période fictive : 2152.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -26415,6 +26659,7 @@
   "rang_diegetique": 92,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Plato's Stepchildren ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -26507,6 +26752,7 @@
   "rang_diegetique": 93,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Ultimate Computer ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -26598,6 +26844,7 @@
   "rang_diegetique": 94,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Whom Gods Destroy ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -26680,6 +26927,7 @@
   "rang_diegetique": 95,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « Albatross ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -26757,6 +27005,7 @@
   "rang_diegetique": 96,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « Bem ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -26858,6 +27107,7 @@
   "rang_diegetique": 97,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « The Infinite Vulcan ») ; période fictive : 2260s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -26965,6 +27215,7 @@
   "rang_diegetique": 134,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Defector ») ; période fictive : 2366.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -27042,6 +27293,7 @@
   "rang_diegetique": 145,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Perfect Mate ») ; période fictive : 2368.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -27136,6 +27388,7 @@
   "rang_diegetique": 146,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Masterpiece Society ») ; période fictive : 2368.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -27251,6 +27504,7 @@
   "rang_diegetique": 158,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Quality of Life ») ; période fictive : 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -27338,6 +27592,7 @@
   "rang_diegetique": 170,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Force of Nature ») ; période fictive : 2370.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -27421,6 +27676,7 @@
   "rang_diegetique": 7,
   "bande": "XXe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Far Beyond the Stars ») ; période fictive : Années 1950, vision.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -27513,6 +27769,7 @@
   "rang_diegetique": 8,
   "bande": "XXe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Badda-Bing, Badda-Bang ») ; période fictive : Années 1960, reconstitution.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -27618,6 +27875,7 @@
   "rang_diegetique": 212,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Ties of Blood and Water ») ; période fictive : 2374.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -27718,6 +27976,7 @@
   "rang_diegetique": 227,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Siege of AR-558 ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -27795,6 +28054,7 @@
   "rang_diegetique": 213,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Distant Origin ») ; période fictive : 2374.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -27887,6 +28147,7 @@
   "rang_diegetique": 214,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Living Witness ») ; période fictive : 2374.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -27994,6 +28255,7 @@
   "rang_diegetique": 215,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Random Thoughts ») ; période fictive : 2374.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -28071,6 +28333,7 @@
   "rang_diegetique": 228,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Memorial ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -28184,6 +28447,7 @@
   "rang_diegetique": 236,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Workforce ») ; période fictive : 2377.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -28287,6 +28551,7 @@
   "rang_diegetique": 266,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Short Treks, épisode « Children of Mars ») ; période fictive : 2385.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -28388,6 +28653,7 @@
   "rang_diegetique": 49,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Short Treks, épisode « The Brightest Star ») ; période fictive : 2230s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -28479,6 +28745,7 @@
   "rang_diegetique": 117,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Star Trek: Section 31 ») ; période fictive : vers 2324 (chronologie secondaire).",
+  "analyse_url": "/analyses/STP-267/",
   "sous_bande": null,
   "associes": [
    {
@@ -28586,6 +28853,7 @@
   "rang_diegetique": 118,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Star Trek: Section 31 ») ; période fictive : vers 2324 (chronologie secondaire).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -28719,6 +28987,7 @@
   "rang_diegetique": 171,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Caretaker » ; Star Trek: The Next Generation, épisode « Preemptive Strike ») ; période fictive : 2370s.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -28865,6 +29134,7 @@
   "rang_diegetique": 249,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « Old Friends, New Planets ») ; période fictive : 2381.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -28975,6 +29245,7 @@
   "rang_diegetique": 172,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Sanctuary ») ; période fictive : 2370.",
+  "analyse_url": "/analyses/STP-271/",
   "sous_bande": null,
   "associes": []
  },
@@ -29079,6 +29350,7 @@
   "rang_diegetique": 191,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Accession ») ; période fictive : 2372.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -29192,6 +29464,7 @@
   "rang_diegetique": 204,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Rapture ») ; période fictive : 2373.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -29295,6 +29568,7 @@
   "rang_diegetique": 216,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Statistical Probabilities ») ; période fictive : 2374.",
+  "analyse_url": "/analyses/STP-274/",
   "sous_bande": null,
   "associes": []
  },
@@ -29391,6 +29665,7 @@
   "rang_diegetique": 159,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Paradise ») ; période fictive : 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -29495,6 +29770,7 @@
   "rang_diegetique": 147,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Ensign Ro ») ; période fictive : 2368.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -29614,6 +29890,7 @@
   "rang_diegetique": 160,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Rightful Heir ») ; période fictive : 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -29733,6 +30010,7 @@
   "rang_diegetique": 135,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Yesterday’s Enterprise ») ; période fictive : 2366 (timeline alternative).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -29829,6 +30107,7 @@
   "rang_diegetique": 125,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Conspiracy ») ; période fictive : 2364.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -29925,6 +30204,7 @@
   "rang_diegetique": 148,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « I, Borg ») ; période fictive : 2368.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -30060,6 +30340,7 @@
   "rang_diegetique": 237,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Flesh and Blood ») ; période fictive : 2377.",
+  "analyse_url": "/analyses/STP-281/",
   "sous_bande": null,
   "associes": []
  },
@@ -30165,6 +30446,7 @@
   "rang_diegetique": 238,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « The Void ») ; période fictive : 2377.",
+  "analyse_url": "/analyses/STP-282/",
   "sous_bande": null,
   "associes": []
  },
@@ -30260,6 +30542,7 @@
   "rang_diegetique": 229,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Warhead ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -30371,6 +30654,7 @@
   "rang_diegetique": 192,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Alliances ») ; période fictive : 2372.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -30481,6 +30765,7 @@
   "rang_diegetique": 230,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Thirty Days ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -30590,6 +30875,7 @@
   "rang_diegetique": 60,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « The Sound of Thunder ») ; période fictive : 2257.",
+  "analyse_url": "/analyses/STP-286/",
   "sous_bande": null,
   "associes": []
  },
@@ -30694,6 +30980,7 @@
   "rang_diegetique": 61,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « New Eden ») ; période fictive : 2257.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -30800,6 +31087,7 @@
   "rang_diegetique": 52,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Terra Firma ») ; période fictive : 2250s (expérience de réalité alternative).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -30923,6 +31211,7 @@
   "rang_diegetique": 250,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « wej Duj ») ; période fictive : 2381.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -31042,6 +31331,7 @@
   "rang_diegetique": 41,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Damage ») ; période fictive : 2154.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -31138,6 +31428,7 @@
   "rang_diegetique": 34,
   "bande": "XXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « North Star ») ; période fictive : 2153.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -31259,6 +31550,7 @@
   "rang_diegetique": 294,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Beta Test ») ; période fictive : 3191–3192.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -31387,6 +31679,7 @@
   "rang_diegetique": 295,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Beta Test ») ; période fictive : 3191–3192.",
+  "analyse_url": "/analyses/STP-293/",
   "sous_bande": null,
   "associes": [
    {
@@ -31505,6 +31798,7 @@
   "rang_diegetique": 296,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Vox in Excelso ») ; période fictive : 3191–3192.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -31625,6 +31919,7 @@
   "rang_diegetique": 297,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Vox in Excelso ») ; période fictive : 3191–3192.",
+  "analyse_url": "/analyses/STP-295/",
   "sous_bande": null,
   "associes": [
    {
@@ -31745,6 +32040,7 @@
   "rang_diegetique": 298,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Rubincon ») ; période fictive : 3191–3192.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -31881,6 +32177,7 @@
   "rang_diegetique": 299,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisodes « 300th Night », « Rubincon ») ; période fictive : 3191–3192.",
+  "analyse_url": "/analyses/STP-297/",
   "sous_bande": null,
   "associes": [
    {
@@ -32014,6 +32311,7 @@
   "rang_diegetique": 111,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « A Case of Chiaroscuro ») ; période fictive : XXIIIe siècle.",
+  "analyse_url": "/analyses/STP-298/",
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -32143,6 +32441,7 @@
   "rang_diegetique": 112,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « A Case of Chiaroscuro ») ; période fictive : XXIIIe siècle.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -32260,6 +32559,7 @@
   "rang_diegetique": 113,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Orders of Magnitude ») ; période fictive : XXIIIe siècle.",
+  "analyse_url": "/analyses/STP-300/",
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -32372,6 +32672,7 @@
   "rang_diegetique": 114,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Orders of Magnitude ») ; période fictive : XXIIIe siècle.",
+  "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
    {
@@ -32489,6 +32790,7 @@
   "rang_diegetique": 5,
   "bande": "Passé lointain",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Valles Marineris ») ; période fictive : Préhistoire de Sol (65 millions d’années avant notre ère).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -32599,6 +32901,7 @@
   "rang_diegetique": 6,
   "bande": "Passé lointain",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Valles Marineris ») ; période fictive : Préhistoire de Sol (ligne temporelle observée).",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": [
    {
@@ -32712,6 +33015,7 @@
   "rang_diegetique": 161,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Past Prologue ») ; période fictive : 2369.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  },
@@ -32831,6 +33135,7 @@
   "rang_diegetique": 231,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Inter Arma Enim Silent Leges ») ; période fictive : 2375.",
+  "analyse_url": null,
   "sous_bande": null,
   "associes": []
  }

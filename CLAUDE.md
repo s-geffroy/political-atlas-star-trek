@@ -6,9 +6,10 @@ negociables de ce projet sur ce VPS.
 ## Ce projet n'heberge rien
 
 Le site est un **Jekyll construit par GitHub Pages**. Ici, il n'y a ni
-conteneur, ni base, ni URL a verifier. `sudo appctl validate` repondra
-« 0 service », et c'est normal : `app.yaml` et `compose.yaml` declarent
-explicitement qu'il n'y a rien a demarrer.
+conteneur permanent, ni base, ni URL a verifier. `sudo appctl validate`
+annonce « 1 service » : c'est `pages-build`, un outil de verification (profil
+`cli`, jamais lance par `up`) qui construit `_site/` avec l'image du
+constructeur de GitHub Pages. `app.yaml` ne declare aucune exposition.
 
 Ce que ce repertoire apporte : un espace de travail versionne, isole des autres
 applications du VPS, avec son propre Claude Code authentifie.
@@ -18,9 +19,13 @@ template : `static` est celui d'un site servi par ce VPS.
 
 ## Publier, c'est pousser
 
-Il n'y a pas d'autre geste. Pas de `appctl up`, pas de build a lancer, pas de
-workflow GitHub Actions a ecrire : le constructeur natif de GitHub Pages fait
-le travail au moment du `git push`.
+Le push reste le seul geste de *publication* : pas de `appctl up`, pas de
+workflow GitHub Actions a ecrire ; le constructeur natif de GitHub Pages fait
+le travail au moment du `git push`. Mais les donnees du site sont generees par
+des scripts Node que GitHub ne lance pas : avant de pousser, `npm run check`
+(import, validation, tests), commit des fichiers generes, puis
+`npm run verify`. Le hook `.githooks/pre-push` relance `verify` et bloque le
+push en cas d'ecart.
 
 **N'ecris pas de `.github/workflows/`.** Un workflow de deploiement *remplace*
 le constructeur natif : c'est un autre modele, avec ses versions a maintenir.
@@ -52,21 +57,32 @@ dans le depot.
 
 Chaque push est une publication immediate et publique.
 
-- **Travaille en brouillon dans `_drafts/`** : Jekyll ne les publie pas. Un
-  article n'entre dans `_posts/` que quand il est pret.
+- Le contenu vient du corpus versionne (`data/source/`, jamais modifie en
+  place, voir `docs/procedures.md`) et des enrichissements (`data/*.json`).
+  Le brouillon d'une modification de contenu est une proposition (non
+  publiee : `docs/` est exclu), validee avant d'etre integree.
+- Ne modifie jamais a la main un fichier genere : `_data/`, `_evenements/`,
+  `atlas/*.md`, `analyses/STP-*.md`, `reseau/STP-*.md`, rapports de `docs/`,
+  registres `data/ids-publies.json` et `data/reseau-cles-publiees.json`
+  (liste dans le README).
 - Aucune **suppression** de page existante, aucune **refonte de structure**
   -- permaliens, categories, arborescence -- sans demande explicite. Une URL
-  qui disparait laisse des liens morts partout ailleurs.
+  qui disparait laisse des liens morts partout ailleurs. Ici, deux registres
+  garantissent cette regle : `data/ids-publies.json` (la validation echoue si
+  un identifiant publie disparait) et `data/reseau-cles-publiees.json` (une
+  ancienne adresse d'arc devient une page de renvoi). On ne retire jamais une
+  cle de ces registres.
 - Avant toute modification en masse -- retag, recategorisation, reecriture de
   metadonnees, passage sur les images -- annonce le nombre d'elements touches
   et attends l'accord.
 
 ## Ecrire le contenu
 
-- Les articles vont dans `_posts/`, nommes `AAAA-MM-JJ-titre.md`. **Le nom du
-  fichier n'est pas decoratif** : Jekyll en tire la date et l'URL de l'article.
-- Front matter obligatoire : `layout`, `title`, `date`, et `categories` si le
-  site en utilise.
+- `_posts/` ne contient que le journal des versions du corpus : un billet par
+  version, `AAAA-MM-JJ-corpus-v0-N.md`, publie a `/journal/corpus-v0-N/` et
+  repris par le flux Atom. **Le nom du fichier n'est pas decoratif** : Jekyll
+  en tire la date et l'URL. Front matter : `layout: post`, `title`, `date`,
+  `categories: [corpus]`, `description`.
 - **Le contenu publie s'ecrit en francais normal, avec ses accents.** La regle
   « sans accents » de ce depot vise les fichiers d'infrastructure
   -- `CLAUDE.md`, `README.md`, les YAML -- pas ce que liront les visiteurs.
@@ -85,9 +101,11 @@ Chaque push est une publication immediate et publique.
 
 ## Interdictions
 
-- N'ajoute aucun service dans `compose.yaml` sans demande explicite. Construire
-  le site en local donnerait un resultat different de ce que GitHub publie :
-  deux verites au lieu d'une.
+- N'ajoute aucun service dans `compose.yaml` sans demande explicite. Le seul
+  build local admis est `sudo appctl run pages-build` (image du constructeur
+  de GitHub Pages, version epinglee : la comparer a
+  <https://pages.github.com/versions.json> en cas d'ecart). Un build avec un
+  autre Jekyll ou d'autres greffons donnerait deux verites au lieu d'une.
 - Ne commite pas `_site/` : c'est la sortie du constructeur, GitHub la
   refabrique.
 - **Ne cree pas le fichier `CNAME` avant que le DNS resolve.** GitHub sert
@@ -95,7 +113,9 @@ Chaque push est une publication immediate et publique.
   dans Settings > Pages : GitHub cree le commit lui-meme, une fois le DNS
   verifie.
 - Ne retire pas les entrees de `exclude:` dans `_config.yml` : sans elles,
-  `CLAUDE.md`, `app.yaml` et `compose.yaml` sont publies sur le site.
+  les fichiers d'infrastructure (`CLAUDE.md`, `app.yaml`, `compose.yaml`),
+  les scripts, les journaux de `data/` et les documents de travail de `docs/`
+  sont publies sur le site.
 - Le domaine du site ne passe **pas** par Traefik. Ne cherche ni `app.yaml`, ni
   `app-exposure.py`, ni la zone publique du VPS : ils ne servent a rien ici.
 
@@ -110,11 +130,19 @@ Chaque push est une publication immediate et publique.
 
 ## Fin de tache
 
-1. relire le front matter des fichiers touches -- une date ou un `layout`
-   errone fait disparaitre une page sans message d'erreur ;
-2. `git add` + `git commit` ;
-3. `git push` -- **c'est cela, la publication**, dis-le clairement ;
-4. donner l'URL des pages touchees ;
-5. rappeler que la construction prend une a deux minutes, et que son echec
-   eventuel est visible dans l'onglet **Actions** du depot, meme sans workflow ;
-6. signaler tout echec restant sans le masquer.
+1. si des donnees ont change : `npm run check`, puis lire
+   `docs/rapport-qualite.md` (avertissements compris) ;
+2. si une page ecrite a la main a change : relire son front matter -- une date
+   ou un `layout` errone fait disparaitre une page sans message d'erreur ;
+3. `git add` + `git commit` -- donnees et code dans des commits separes ;
+4. `npm run verify` (apres le commit : avant, il echoue des que l'import a
+   change un fichier) ;
+5. `git push` -- **c'est cela, la publication**, dis-le clairement ;
+6. nouvelle version du corpus : tag annote `corpus-vX.Y` sur le commit,
+   pousse avec `git push origin corpus-vX.Y`, et billet du journal des
+   versions dans `_posts/` ;
+7. donner l'URL des pages touchees ;
+8. rappeler que la construction prend de une a cinq minutes, et que son echec
+   eventuel est visible dans l'onglet **Actions** du depot, meme sans
+   workflow ;
+9. signaler tout echec restant sans le masquer.

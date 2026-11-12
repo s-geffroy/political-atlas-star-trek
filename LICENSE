@@ -1,7 +1,9 @@
 Star Trek Political Atlas — licences
 
-1. Code (scripts/, tests/, _layouts/, _includes/, assets/css/, assets/js/,
-   fichiers de configuration) : licence MIT.
+1. Code : licence MIT.
+   Sont du code : scripts/, tests/, .githooks/, _layouts/, _includes/,
+   assets/css/, assets/js/, la structure HTML et Liquid des pages (*.html),
+   _config.yml, package.json, app.yaml, compose.yaml, .github/.
 
    MIT License
 
@@ -25,12 +27,37 @@ Star Trek Political Atlas — licences
    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
    SOFTWARE.
 
-2. Contenus documentaires (data/source/, textes des pages, donnees generees
-   dans _data/ et _evenements/) : Creative Commons Attribution - Partage dans
-   les memes conditions 4.0 International (CC BY-SA 4.0).
+2. Contenus documentaires : Creative Commons Attribution - Partage dans les
+   memes conditions 4.0 International (CC BY-SA 4.0).
    https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr
 
-3. Star Trek et les noms associes sont des marques de leurs detenteurs
+   Sont des contenus documentaires, et par defaut tout ce qui n'est pas du
+   code au sens de la section 1 :
+   - le corpus et ses journaux : data/source/, data/corrections/ ;
+   - les enrichissements : data/relations.json, data/diffusion.json,
+     data/doublons.json, et les registres de data/ ;
+   - les donnees et pages generees : _data/, _evenements/, analyses/,
+     atlas/, reseau/ ;
+   - le journal des versions (_posts/) et les textes redactionnels des pages
+     (y compris la prose contenue dans les fichiers *.html et *.md publies) ;
+   - la documentation : docs/, README.md, CONTRIBUTING.md ;
+   - les images de assets/ (icone, image de partage).
+
+   Attribution demandee : « Star Trek Political Atlas », avec un lien vers
+   https://s-geffroy.github.io/political-atlas-star-trek/ ou vers le depot.
+
+3. Citations de tiers. Les passages cites entre guillemets dans les
+   justifications, motifs, notes et fiches (Wikipedia, Memory Alpha,
+   startrek.com et autres pages citees) restent sous la licence de leur
+   source. L'URL qui accompagne chaque citation en vaut attribution. Ces
+   citations sont courtes et faites a des fins documentaires et critiques.
+
+4. Fichiers tiers. Le repertoire .claude/ (agents, competences et commandes
+   de l'outil de travail) contient des fichiers d'autres auteurs, chacun sous
+   sa propre licence (fichiers LICENSE.txt ou LICENSES/ a cote). Ils ne sont
+   pas couverts par les sections 1 et 2.
+
+5. Star Trek et les noms associes sont des marques de leurs detenteurs
    (Paramount / CBS Studios). Ce projet independant n'est ni affilie ni approuve
    par eux ; les references aux oeuvres sont faites a des fins documentaires et
    critiques. Aucune image, logo ou extrait des oeuvres n'est inclus.

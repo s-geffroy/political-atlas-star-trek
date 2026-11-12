@@ -29,7 +29,7 @@
   "id": "STP-034",
   "titre": "Proclamation et développement d'une coalition anti-étrangers Terra Prime",
   "entetes": {
-   "periode": "2154",
+   "periode": "2155",
    "source_audiovisuelle": "ENT «Demons»; «Terra Prime»",
    "recoupement": "A — Editorial officiel : Terra Prime"
   },
@@ -110,14 +110,26 @@
   "volets": {
    "faits": "L’explosion de Praxis menace les conditions d’existence et la puissance stratégique klingonnes. Des responsables entament un rapprochement avec la Fédération tandis que des acteurs des deux camps cherchent à le saboter.",
    "mecanisme": "Un choc écologique et industriel agit comme accélérateur de changement diplomatique; la crise rend l’ordre militaire coûteux et expose les intérêts des appareils hostiles à la détente.",
-   "parallele": "Parallèle de conception particulièrement fort avec la fin de la guerre froide et les transformations soviétiques de la fin des années 1980 et du début des années 1990.",
-   "objections": "Praxis n’est ni Tchernobyl ni l’effondrement de l’URSS : le film condense des phénomènes distincts en un événement dramatique.",
-   "contexte": "Film sorti en 1991, année de dissolution de l’Union soviétique."
+   "parallele": "Parallèle revendiqué par les auteurs avec la fin de la guerre froide. Selon la section Production de l’article Wikipedia, Leonard Nimoy proposa l’intrigue en partant du fait que les Klingons avaient servi de figure de l’Union soviétique : « [What if] the wall comes down in outer space? » ; Nicholas Meyer répondit : « we start with an intergalactic Chernobyl! ». Le même article indique que Gorkon fut inspiré de Mikhaïl Gorbatchev.",
+   "objections": "Une référence revendiquée n’est pas une équivalence : Praxis n’est ni Tchernobyl ni l’effondrement de l’URSS, et Gorkon n’est pas Gorbatchev. Le film condense en un seul événement dramatique des phénomènes distincts (accident industriel, crise économique, fin d’un bloc rival).",
+   "contexte": "Scénario achevé en octobre 1990, tournage d’avril à septembre 1991. Le film sort en Amérique du Nord le 6 décembre 1991, trois semaines avant la dissolution formelle de l’Union soviétique, le 26 décembre 1991."
   },
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.4)",
     "url": "https://www.startrek.com/en-un/movies/star-trek-vi-the-undiscovered-country"
+   },
+   {
+    "libelle": "Source — Wikipedia — Star Trek VI: The Undiscovered Country (section Production) (V0.13)",
+    "url": "https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country"
+   },
+   {
+    "libelle": "Source — Reactor — A.C. Crispin, « The Wall Comes Down in Space » (2011) (V0.13)",
+    "url": "https://reactormag.com/the-wall-comes-down-in-space-star-trek-vi-the-undiscovered-country/"
+   },
+   {
+    "libelle": "Source — Wikipedia — Dissolution of the Soviet Union (V0.13)",
+    "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
    }
   ]
  },
@@ -178,12 +190,16 @@
    "mecanisme": "L’assimilation est présentée comme une violence institutionnelle se disant thérapeutique. La force politique de l’épisode provient du renversement du point de vue majoritaire.",
    "parallele": "Le récit fait écho aux discriminations liées à l’orientation sexuelle et à l’identité de genre, aux pratiques dites de conversion et au statut public du consentement.",
    "objections": "Sa métaphore n’est pas un modèle exact de la diversité des expériences LGBTQ+; le choix d’un couple visuellement hétérosexuel a aussi été débattu.",
-   "contexte": "Épisode de 1992, dont les auteurs mobilisent explicitement le langage du débat américain sur les minorités sexuelles."
+   "contexte": "Épisode diffusé le 16 mars 1992, écrit par Jeri Taylor. L’éditorial de startrek.com cite la scénariste : « a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues », et relève que Soren y est qualifiée de « sick » et de « deviant », deux insultes homophobes de notre monde. L’épisode peut ainsi se lire en regard du débat américain du début des années 1990 sur les droits des homosexuels."
   },
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://www.startrek.com/news/the-next-generations-call-for-equality"
+   },
+   {
+    "libelle": "Source — Wikipedia — The Outcast (Star Trek: The Next Generation) (V0.13)",
+    "url": "https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)"
    }
   ]
  },
@@ -217,7 +233,7 @@
   "id": "STP-126",
   "titre": "Tentative de coup d'État du Cercle contre le gouvernement provisoire bajoran",
   "entetes": {
-   "periode": "2369–2370 selon jalons diégétiques",
+   "periode": "2370",
    "source_audiovisuelle": "DS9 «The Homecoming»; «The Circle»; «The Siege»",
    "recoupement": "A — Editorial officiel"
   },
@@ -310,20 +326,32 @@
   "titre": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
   "entetes": {
    "periode": "2375",
-   "source_audiovisuelle": "DS9 «Inquisition»; «Extreme Measures»",
+   "source_audiovisuelle": "DS9 «When It Rains…»; «Extreme Measures»",
    "recoupement": "A — Récapitulatif officiel"
   },
   "volets": {
-   "faits": "Section 31 infecte secrètement les Fondateurs par un virus morphogénique, transmis via Odo. Bashir découvre un remède, rendant possible la guérison de la dirigeante du Dominion et la conclusion de la guerre.",
+   "faits": "Section 31 a secrètement infecté Odo d’un virus morphogénique, qu’il a transmis aux Fondateurs en rejoignant le Grand Lien. Bashir met au jour l’opération en 2375, puis obtient le remède, ce qui rend possible la guérison de la dirigeante du Dominion et la conclusion de la guerre.",
    "mecanisme": "Les services clandestins utilisent une arme biologique menaçant une espèce au nom de la survie de la Fédération. La frontière entre défense collective et politique d’extermination s’effondre.",
    "parallele": "Parallèle analytique avec l’interdiction des armes biologiques et les principes du droit des conflits armés.",
    "objections": "Le concept de génocide doit être manié précisément : la finalité d’extermination de l’espèce est exposée par le récit; les catégories de droit international contemporaines ne se transposent pas automatiquement à des espèces fictives.",
-   "contexte": "Épisodes diffusés en 1999, à une époque marquée par les controverses sur les limites des interventions et de la guerre."
+   "contexte": "Épisodes diffusés en mai 1999, dans la dernière saison de Deep Space Nine. Section 31 avait été introduite un an plus tôt, dans « Inquisition » (avril 1998), épisode où le virus n’apparaît pas."
   },
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty"
+   },
+   {
+    "libelle": "Source — Wikipedia — When It Rains… (DS9 7x21), diffusé le 3 mai 1999 (V0.13)",
+    "url": "https://en.wikipedia.org/wiki/When_It_Rains%E2%80%A6"
+   },
+   {
+    "libelle": "Source — Wikipedia — Extreme Measures (DS9 7x23), diffusé en mai 1999 (V0.13)",
+    "url": "https://en.wikipedia.org/wiki/Extreme_Measures_(Star_Trek:_Deep_Space_Nine)"
+   },
+   {
+    "libelle": "Source — Wikipedia — Inquisition (DS9 6x18), diffusé le 6 avril 1998 (V0.13)",
+    "url": "https://en.wikipedia.org/wiki/Inquisition_(Star_Trek:_Deep_Space_Nine)"
    }
   ]
  },

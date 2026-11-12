@@ -283,11 +283,11 @@
  "versions": [
   {
    "cle": "V0.4 révisé",
-   "n": 112
+   "n": 110
   },
   {
    "cle": "V0.5 révisé",
-   "n": 107
+   "n": 106
   },
   {
    "cle": "V0.7 révisé",
@@ -302,8 +302,12 @@
    "n": 12
   },
   {
+   "cle": "V0.13 révisé",
+   "n": 5
+  },
+  {
    "cle": "V0.2",
-   "n": 7
+   "n": 5
   },
   {
    "cle": "V0.10 révisé",
@@ -333,12 +337,12 @@
  "precisions": [
   {
    "cle": "annee",
-   "n": 209,
+   "n": 210,
    "nom": "Année explicite"
   },
   {
    "cle": "annee_qualifiee",
-   "n": 22,
+   "n": 21,
    "nom": "Année avec réserve (intervalle, « env. », alternative…)"
   },
   {

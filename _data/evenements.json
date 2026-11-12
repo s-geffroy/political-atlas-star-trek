@@ -3362,7 +3362,7 @@
  {
   "id": "STP-034",
   "cycle": "Enterprise : diplomatie et fondation de la Fédération",
-  "period": "2154",
+  "period": "2155",
   "event": "Proclamation et développement d'une coalition anti-étrangers Terra Prime",
   "source": "ENT «Demons»; «Terra Prime»",
   "politics": "Nativisme, pureté identitaire, violence contre le pluralisme.",
@@ -3370,8 +3370,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Editorial officiel : Terra Prime",
   "url_source": "https://www.startrek.com/news/best-of-charles-trip-tucker",
-  "note_audit": "",
-  "version_entree": "V0.2",
+  "note_audit": "V0.13 (2026-11-12) : période corrigée — « Demons » et « Terra Prime » se déroulent en janvier 2155 (Memory Alpha : « Captain's starlog, January 19, 2155 » ; « January 22, 2155 »).",
+  "version_entree": "V0.13 révisé",
   "categories": [
    "diplomatie/traité"
   ],
@@ -3392,14 +3392,29 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2154,
+   "cle": 2155,
    "precision": "annee",
    "siecle": 22
   },
-  "audit": [],
+  "audit": [
+   {
+    "version": "V0.13",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée — « Demons » et « Terra Prime » se déroulent en janvier 2155 (Memory Alpha : « Captain's starlog, January 19, 2155 » ; « January 22, 2155 »)."
+     }
+    ]
+   }
+  ],
   "cycle_slug": "enterprise-diplomatie-et-fondation-de-la-federation",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Proclamation et développement d'une coalition anti-étrangers Terra Prime.",
+    "motif": "période corrigée — « Demons » et « Terra Prime » se déroulent en janvier 2155 (Memory Alpha : « Captain's starlog, January 19, 2155 » ; « January 22, 2155 »)."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -3427,7 +3442,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 41,
+  "rang_diegetique": 42,
   "bande": "XXIIe siècle",
   "sous_bande": null,
   "associes": [
@@ -7297,8 +7312,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Synopsis officiel",
   "url_source": "https://www.startrek.com/en-un/movies/star-trek-vi-the-undiscovered-country",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crise économique-écologique », « ouverture diplomatique » ; recoupement A — Le synopsis officiel indique que la lune klingonne Praxis, site clé de production d'énergie, explose à la suite d'un accident, laissant l'Empire en grande difficulté et soudain disposé à une paix durable avec la Fédération. Réserve : La dimension écologique n'est pas dans le synopsis officiel ; Wikipedia (https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country) mentionne la « dévastation écologique » du monde natal klingon.",
-  "version_entree": "V0.4 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crise économique-écologique », « ouverture diplomatique » ; recoupement A — Le synopsis officiel indique que la lune klingonne Praxis, site clé de production d'énergie, explose à la suite d'un accident, laissant l'Empire en grande difficulté et soudain disposé à une paix durable avec la Fédération. Réserve : La dimension écologique n'est pas dans le synopsis officiel ; Wikipedia (https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country) mentionne la « dévastation écologique » du monde natal klingon. V0.13 (2026-11-12) : parallèle sourcé — la section Production de l’article Wikipedia rapporte la proposition de Leonard Nimoy (« [What if] the wall comes down in outer space? »), la réponse de Nicholas Meyer (« we start with an intergalactic Chernobyl! ») et que « the character of Gorkon was based on Mikhail Gorbachev ». Contexte daté : « The script was finished by October 1990 », tournage d’avril à septembre 1991, sortie le 6 décembre 1991, avant la dissolution de l’URSS (26 décembre 1991). L’objection précise qu’une référence revendiquée n’est pas une équivalence.",
+  "version_entree": "V0.13 révisé",
   "categories": [
    "économie/social",
    "diplomatie/traité"
@@ -7335,11 +7350,25 @@
       "texte": ") mentionne la « dévastation écologique » du monde natal klingon."
      }
     ]
+   },
+   {
+    "version": "V0.13",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "parallèle sourcé — la section Production de l’article Wikipedia rapporte la proposition de Leonard Nimoy (« [What if] the wall comes down in outer space? »), la réponse de Nicholas Meyer (« we start with an intergalactic Chernobyl! ») et que « the character of Gorkon was based on Mikhail Gorbachev ». Contexte daté : « The script was finished by October 1990 », tournage d’avril à septembre 1991, sortie le 6 décembre 1991, avant la dissolution de l’URSS (26 décembre 1991). L’objection précise qu’une référence revendiquée n’est pas une équivalence."
+     }
+    ]
    }
   ],
   "cycle_slug": "films-classiques-et-kelvin",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Explosion de Praxis et crise économique-écologique de l'Empire klingon.",
+    "motif": "parallèle sourcé — la section Production de l’article Wikipedia rapporte la proposition de Leonard Nimoy (« [What if] the wall comes down in outer space? »), la réponse de Nicholas Meyer (« we start with an intergalactic Chernobyl! ») et que « the character of Gorkon was based on Mikhail Gorbachev ». Contexte daté : « The script was finished by October 1990 », tournage d’avril à septembre 1991, sortie le 6 décembre 1991, avant la dissolution de l’URSS (26 décembre 1991). L’objection précise qu’une référence revendiquée n’est pas une équivalence."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -9669,7 +9698,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 163,
+  "rang_diegetique": 162,
   "bande": "XXIVe siècle",
   "sous_bande": null,
   "associes": [
@@ -9982,8 +10011,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Editorial officiel",
   "url_source": "https://www.startrek.com/news/the-next-generations-call-for-equality",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « correction forcée de l'identité de genre », « Persécution des minorités ».",
-  "version_entree": "V0.4 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « correction forcée de l'identité de genre », « Persécution des minorités ». V0.13 (2026-11-12) : intention d’auteur sourcée — l’affirmation « les auteurs mobilisent explicitement le langage du débat américain » n’était pas sourcée. L’éditorial officiel déjà cité rapporte une déclaration de la scénariste Jeri Taylor (« a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues ») et note que Soren est qualifiée de « sick » et « deviant ». Le volet « contexte » s’en tient à ces éléments ; épisode diffusé le 16 mars 1992 (Wikipedia).",
+  "version_entree": "V0.13 révisé",
   "categories": [
    "justice/droits"
   ],
@@ -10013,11 +10042,25 @@
       "texte": "catégories attribuées en V0.4 (proposition validée le 2026-11-10) — « autre / à qualifier » requalifiée : « correction forcée de l'identité de genre », « Persécution des minorités »."
      }
     ]
+   },
+   {
+    "version": "V0.13",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "intention d’auteur sourcée — l’affirmation « les auteurs mobilisent explicitement le langage du débat américain » n’était pas sourcée. L’éditorial officiel déjà cité rapporte une déclaration de la scénariste Jeri Taylor (« a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues ») et note que Soren est qualifiée de « sick » et « deviant ». Le volet « contexte » s’en tient à ces éléments ; épisode diffusé le 16 mars 1992 (Wikipedia)."
+     }
+    ]
    }
   ],
   "cycle_slug": "the-next-generation-institutions-guerre-droits",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Politique de correction forcée de l'identité de genre sur J'naii.",
+    "motif": "intention d’auteur sourcée — l’affirmation « les auteurs mobilisent explicitement le langage du débat américain » n’était pas sourcée. L’éditorial officiel déjà cité rapporte une déclaration de la scénariste Jeri Taylor (« a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues ») et note que Soren est qualifiée de « sick » et « deviant ». Le volet « contexte » s’en tient à ces éléments ; épisode diffusé le 16 mars 1992 (Wikipedia)."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -10604,7 +10647,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 164,
+  "rang_diegetique": 163,
   "bande": "XXIVe siècle",
   "sous_bande": null,
   "associes": [
@@ -10725,7 +10768,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 165,
+  "rang_diegetique": 164,
   "bande": "XXIVe siècle",
   "sous_bande": null,
   "associes": [
@@ -10809,7 +10852,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 166,
+  "rang_diegetique": 165,
   "bande": "XXIVe siècle",
   "sous_bande": null,
   "associes": []
@@ -10951,7 +10994,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 167,
+  "rang_diegetique": 166,
   "bande": "XXIVe siècle",
   "sous_bande": null,
   "associes": []
@@ -11815,7 +11858,7 @@
  {
   "id": "STP-126",
   "cycle": "Deep Space Nine : occupations, démocratie, guerre",
-  "period": "2369–2370 selon jalons diégétiques",
+  "period": "2370",
   "event": "Tentative de coup d'État du Cercle contre le gouvernement provisoire bajoran",
   "source": "DS9 «The Homecoming»; «The Circle»; «The Siege»",
   "politics": "Milice nationaliste, xénophobie, ingérence cardassienne.",
@@ -11823,8 +11866,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Editorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-winn-adami",
-  "note_audit": "V0.5 (2026-11-10) : recoupement A (source officielle) — L'article indique qu'au début de la saison 2 l'Alliance for Global Unity (le Cercle) tente de renverser le gouvernement provisoire bajoran, armée en sous-main par les Cardassiens, Winn changeant de camp une fois ce lien révélé. Source B précédente : https://startrekarchive.com/episodes/the-circle.",
-  "version_entree": "V0.5 révisé",
+  "note_audit": "V0.5 (2026-11-10) : recoupement A (source officielle) — L'article indique qu'au début de la saison 2 l'Alliance for Global Unity (le Cercle) tente de renverser le gouvernement provisoire bajoran, armée en sous-main par les Cardassiens, Winn changeant de camp une fois ce lien révélé. Source B précédente : https://startrekarchive.com/episodes/the-circle. V0.13 (2026-11-12) : période précisée — Memory Alpha situe « The Homecoming », « The Circle » et « The Siege » (DS9 saison 2) en 2370 ; aucune date stellaire n’est donnée à l’écran.",
+  "version_entree": "V0.13 révisé",
   "categories": [
    "insurrection/pouvoir"
   ],
@@ -11849,8 +11892,8 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2369,
-   "precision": "annee_qualifiee",
+   "cle": 2370,
+   "precision": "annee",
    "siecle": 24
   },
   "audit": [
@@ -11868,11 +11911,25 @@
       "texte": "."
      }
     ]
+   },
+   {
+    "version": "V0.13",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "période précisée — Memory Alpha situe « The Homecoming », « The Circle » et « The Siege » (DS9 saison 2) en 2370 ; aucune date stellaire n’est donnée à l’écran."
+     }
+    ]
    }
   ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Tentative de coup d'État du Cercle contre le gouvernement provisoire bajoran.",
+    "motif": "période précisée — Memory Alpha situe « The Homecoming », « The Circle » et « The Siege » (DS9 saison 2) en 2370 ; aucune date stellaire n’est donnée à l’écran."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -11905,7 +11962,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 158,
+  "rang_diegetique": 167,
   "bande": "XXIVe siècle",
   "sous_bande": null,
   "associes": []
@@ -14629,14 +14686,14 @@
   "cycle": "Deep Space Nine : occupations, démocratie, guerre",
   "period": "2375",
   "event": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
-  "source": "DS9 «Inquisition»; «Extreme Measures»",
+  "source": "DS9 «When It Rains…»; «Extreme Measures»",
   "politics": "Guerre clandestine, risque de génocide et responsabilité de l'État.",
   "categories_politiques": "guerre/bataille ; renseignement/sécurité",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty",
-  "note_audit": "",
-  "version_entree": "V0.2",
+  "note_audit": "V0.13 (2026-11-12) : épisode cité corrigé — « Inquisition » (DS9 6x18, diffusé le 6 avril 1998) présente Section 31 mais pas le virus ; l’infection d’Odo est révélée dans « When It Rains… » (3 mai 1999 : « deliberately infected Odo with the virus so that he would transmit it to the Founders ») et le remède obtenu dans « Extreme Measures » (Wikipedia). La source officielle déjà citée confirme le fait central : « Section 31 secretly injected Constable Odo with a morphogenic virus, intended for genocide » (récapitulatif de Picard 3x06). Volets « faits » et « contexte » corrigés ; la phrase sur les « controverses » de 1999, sans source, est retirée.",
+  "version_entree": "V0.13 révisé",
   "categories": [
    "guerre/bataille",
    "renseignement/sécurité"
@@ -14647,7 +14704,7 @@
   "episodes": [
    {
     "serie": "DS9",
-    "titre": "Inquisition"
+    "titre": "When It Rains…"
    },
    {
     "serie": "DS9",
@@ -14662,21 +14719,36 @@
    "precision": "annee",
    "siecle": 24
   },
-  "audit": [],
+  "audit": [
+   {
+    "version": "V0.13",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "épisode cité corrigé — « Inquisition » (DS9 6x18, diffusé le 6 avril 1998) présente Section 31 mais pas le virus ; l’infection d’Odo est révélée dans « When It Rains… » (3 mai 1999 : « deliberately infected Odo with the virus so that he would transmit it to the Founders ») et le remède obtenu dans « Extreme Measures » (Wikipedia). La source officielle déjà citée confirme le fait central : « Section 31 secretly injected Constable Odo with a morphogenic virus, intended for genocide » (récapitulatif de Picard 3x06). Volets « faits » et « contexte » corrigés ; la phrase sur les « controverses » de 1999, sans source, est retirée."
+     }
+    ]
+   }
+  ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire.",
+    "motif": "épisode cité corrigé — « Inquisition » (DS9 6x18, diffusé le 6 avril 1998) présente Section 31 mais pas le virus ; l’infection d’Odo est révélée dans « When It Rains… » (3 mai 1999 : « deliberately infected Odo with the virus so that he would transmit it to the Founders ») et le remède obtenu dans « Extreme Measures » (Wikipedia). La source officielle déjà citée confirme le fait central : « Section 31 secretly injected Constable Odo with a morphogenic virus, intended for genocide » (récapitulatif de Picard 3x06). Volets « faits » et « contexte » corrigés ; la phrase sur les « controverses » de 1999, sans source, est retirée."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
-   {
-    "date": "1998-04",
-    "titre": "Inquisition",
-    "source_url": "https://en.wikipedia.org/wiki/Inquisition_(Star_Trek:_Deep_Space_Nine)"
-   },
    {
     "date": "1999-05",
     "titre": "Extreme Measures",
     "source_url": "https://en.wikipedia.org/wiki/Extreme_Measures_(Star_Trek:_Deep_Space_Nine)"
+   },
+   {
+    "date": "1999-05-05",
+    "titre": "When It Rains...",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes"
    }
   ],
   "doublon_de": null,
@@ -14702,7 +14774,15 @@
   "rang_diegetique": 218,
   "bande": "XXIVe siècle",
   "sous_bande": null,
-  "associes": []
+  "associes": [
+   {
+    "id": "STP-156",
+    "motifs": [
+     "épisode commun : when it rains"
+    ],
+    "autre_continuite": false
+   }
+  ]
  },
  {
   "id": "STP-154",
@@ -14985,6 +15065,13 @@
   "bande": "XXIVe siècle",
   "sous_bande": null,
   "associes": [
+   {
+    "id": "STP-153",
+    "motifs": [
+     "épisode commun : when it rains"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-159",
     "motifs": [
@@ -24221,7 +24308,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 159,
+  "rang_diegetique": 158,
   "bande": "XXIVe siècle",
   "sous_bande": null,
   "associes": [
@@ -26110,7 +26197,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 160,
+  "rang_diegetique": 159,
   "bande": "XXIVe siècle",
   "sous_bande": null,
   "associes": []
@@ -26311,7 +26398,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 161,
+  "rang_diegetique": 160,
   "bande": "XXIVe siècle",
   "sous_bande": null,
   "associes": []
@@ -27563,7 +27650,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 42,
+  "rang_diegetique": 41,
   "bande": "XXIIe siècle",
   "sous_bande": null,
   "associes": []
@@ -29084,7 +29171,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 162,
+  "rang_diegetique": 161,
   "bande": "XXIVe siècle",
   "sous_bande": null,
   "associes": []

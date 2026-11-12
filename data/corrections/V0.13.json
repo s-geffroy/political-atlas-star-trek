@@ -1,0 +1,131 @@
+{
+ "version": "V0.13",
+ "date": "2026-11-12",
+ "date_longue": "12 novembre 2026",
+ "base": "V0_12_2026-11-12",
+ "titre": "Atlas politique de Star Trek — V0.13 : constats historiques (épisodes, intentions de production, dates)",
+ "resume": "Constats d’une relecture historienne : STP-153 cite désormais l’épisode qui révèle le virus de Section 31 (« When It Rains… », 1999) ; les parallèles de STP-077 et STP-107 sont sourcés (déclarations de Leonard Nimoy, Nicholas Meyer et Jeri Taylor) et leurs contextes datés ; périodes de STP-034 (2155) et STP-126 (2370) corrigées ; les « Lignes de force » de 1987–1994 ne mentionnent plus la détente, qui relève de la décennie 1970.",
+ "methode": {
+  "historien": "relecture historienne du 10 novembre 2026, proposition validée le 2026-11-12 ; citations contrôlées sur les pages."
+ },
+ "textes": [
+  {
+   "avant": "L’influence de la détente, de la fin de l’URSS",
+   "apres": "L’influence de la fin de la guerre froide, de la dissolution de l’URSS"
+  }
+ ],
+ "comptes": {
+  "corrections": 5
+ },
+ "corrections": [
+  {
+   "id": "STP-153",
+   "type": "correction",
+   "champs": {
+    "source": {
+     "avant": "DS9 «Inquisition»; «Extreme Measures»",
+     "apres": "DS9 «When It Rains…»; «Extreme Measures»"
+    }
+   },
+   "volets": {
+    "faits": {
+     "avant": "Section 31 infecte secrètement les Fondateurs par un virus morphogénique, transmis via Odo. Bashir découvre un remède, rendant possible la guérison de la dirigeante du Dominion et la conclusion de la guerre.",
+     "apres": "Section 31 a secrètement infecté Odo d’un virus morphogénique, qu’il a transmis aux Fondateurs en rejoignant le Grand Lien. Bashir met au jour l’opération en 2375, puis obtient le remède, ce qui rend possible la guérison de la dirigeante du Dominion et la conclusion de la guerre."
+    },
+    "contexte": {
+     "avant": "Épisodes diffusés en 1999, à une époque marquée par les controverses sur les limites des interventions et de la guerre.",
+     "apres": "Épisodes diffusés en mai 1999, dans la dernière saison de Deep Space Nine. Section 31 avait été introduite un an plus tôt, dans « Inquisition » (avril 1998), épisode où le virus n’apparaît pas."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Wikipedia — When It Rains… (DS9 7x21), diffusé le 3 mai 1999",
+     "url": "https://en.wikipedia.org/wiki/When_It_Rains%E2%80%A6"
+    },
+    {
+     "libelle": "Source — Wikipedia — Extreme Measures (DS9 7x23), diffusé en mai 1999",
+     "url": "https://en.wikipedia.org/wiki/Extreme_Measures_(Star_Trek:_Deep_Space_Nine)"
+    },
+    {
+     "libelle": "Source — Wikipedia — Inquisition (DS9 6x18), diffusé le 6 avril 1998",
+     "url": "https://en.wikipedia.org/wiki/Inquisition_(Star_Trek:_Deep_Space_Nine)"
+    }
+   ],
+   "motif": "épisode cité corrigé — « Inquisition » (DS9 6x18, diffusé le 6 avril 1998) présente Section 31 mais pas le virus ; l’infection d’Odo est révélée dans « When It Rains… » (3 mai 1999 : « deliberately infected Odo with the virus so that he would transmit it to the Founders ») et le remède obtenu dans « Extreme Measures » (Wikipedia). La source officielle déjà citée confirme le fait central : « Section 31 secretly injected Constable Odo with a morphogenic virus, intended for genocide » (récapitulatif de Picard 3x06). Volets « faits » et « contexte » corrigés ; la phrase sur les « controverses » de 1999, sans source, est retirée."
+  },
+  {
+   "id": "STP-077",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "parallele": {
+     "avant": "Parallèle de conception particulièrement fort avec la fin de la guerre froide et les transformations soviétiques de la fin des années 1980 et du début des années 1990.",
+     "apres": "Parallèle revendiqué par les auteurs avec la fin de la guerre froide. Selon la section Production de l’article Wikipedia, Leonard Nimoy proposa l’intrigue en partant du fait que les Klingons avaient servi de figure de l’Union soviétique : « [What if] the wall comes down in outer space? » ; Nicholas Meyer répondit : « we start with an intergalactic Chernobyl! ». Le même article indique que Gorkon fut inspiré de Mikhaïl Gorbatchev."
+    },
+    "objections": {
+     "avant": "Praxis n’est ni Tchernobyl ni l’effondrement de l’URSS : le film condense des phénomènes distincts en un événement dramatique.",
+     "apres": "Une référence revendiquée n’est pas une équivalence : Praxis n’est ni Tchernobyl ni l’effondrement de l’URSS, et Gorkon n’est pas Gorbatchev. Le film condense en un seul événement dramatique des phénomènes distincts (accident industriel, crise économique, fin d’un bloc rival)."
+    },
+    "contexte": {
+     "avant": "Film sorti en 1991, année de dissolution de l’Union soviétique.",
+     "apres": "Scénario achevé en octobre 1990, tournage d’avril à septembre 1991. Le film sort en Amérique du Nord le 6 décembre 1991, trois semaines avant la dissolution formelle de l’Union soviétique, le 26 décembre 1991."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Wikipedia — Star Trek VI: The Undiscovered Country (section Production)",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country"
+    },
+    {
+     "libelle": "Source — Reactor — A.C. Crispin, « The Wall Comes Down in Space » (2011)",
+     "url": "https://reactormag.com/the-wall-comes-down-in-space-star-trek-vi-the-undiscovered-country/"
+    },
+    {
+     "libelle": "Source — Wikipedia — Dissolution of the Soviet Union",
+     "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+    }
+   ],
+   "motif": "parallèle sourcé — la section Production de l’article Wikipedia rapporte la proposition de Leonard Nimoy (« [What if] the wall comes down in outer space? »), la réponse de Nicholas Meyer (« we start with an intergalactic Chernobyl! ») et que « the character of Gorkon was based on Mikhail Gorbachev ». Contexte daté : « The script was finished by October 1990 », tournage d’avril à septembre 1991, sortie le 6 décembre 1991, avant la dissolution de l’URSS (26 décembre 1991). L’objection précise qu’une référence revendiquée n’est pas une équivalence."
+  },
+  {
+   "id": "STP-107",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "contexte": {
+     "avant": "Épisode de 1992, dont les auteurs mobilisent explicitement le langage du débat américain sur les minorités sexuelles.",
+     "apres": "Épisode diffusé le 16 mars 1992, écrit par Jeri Taylor. L’éditorial de startrek.com cite la scénariste : « a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues », et relève que Soren y est qualifiée de « sick » et de « deviant », deux insultes homophobes de notre monde. L’épisode peut ainsi se lire en regard du débat américain du début des années 1990 sur les droits des homosexuels."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Wikipedia — The Outcast (Star Trek: The Next Generation)",
+     "url": "https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)"
+    }
+   ],
+   "motif": "intention d’auteur sourcée — l’affirmation « les auteurs mobilisent explicitement le langage du débat américain » n’était pas sourcée. L’éditorial officiel déjà cité rapporte une déclaration de la scénariste Jeri Taylor (« a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues ») et note que Soren est qualifiée de « sick » et « deviant ». Le volet « contexte » s’en tient à ces éléments ; épisode diffusé le 16 mars 1992 (Wikipedia)."
+  },
+  {
+   "id": "STP-034",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2154",
+     "apres": "2155"
+    }
+   },
+   "motif": "période corrigée — « Demons » et « Terra Prime » se déroulent en janvier 2155 (Memory Alpha : « Captain's starlog, January 19, 2155 » ; « January 22, 2155 »)."
+  },
+  {
+   "id": "STP-126",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2369–2370 selon jalons diégétiques",
+     "apres": "2370"
+    }
+   },
+   "motif": "période précisée — Memory Alpha situe « The Homecoming », « The Circle » et « The Siege » (DS9 saison 2) en 2370 ; aucune date stellaire n’est donnée à l’écran."
+  }
+ ]
+}

@@ -633,7 +633,7 @@
  {
   "id": "STP-006",
   "cycle": "Terre : origines et histoire antérieure",
-  "period": "XXIe siècle",
+  "period": "2024",
   "event": "Émeutes de Bell contre les Zones de Sanctuaire",
   "source": "DS9 « Past Tense », parties I–II",
   "politics": "Ségrégation socio-économique, insurrection et réforme de la politique sociale.",
@@ -641,8 +641,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel : faits de la fiction",
   "url_source": "https://www.startrek.com/news/star-treks-best-revolutions-rebellions",
-  "note_audit": "V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.17 (2026-11-12) : période précisée — la date est dite à l'écran : Sisko et Bashir arrivent à San Francisco le 30 août 2024 et la révolte culmine le 2 septembre 2024 (Wikipedia, « Past Tense » : « they materialize in San Francisco on August 30, 2024 » ; « Early in the morning of Monday, September 2, 2024 »). La fiche disait déjà « septembre 2024 ».",
+  "version_entree": "V0.17 révisé",
   "categories": [
    "insurrection/pouvoir"
   ],
@@ -659,11 +659,9 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2001,
-   "precision": "siecle",
-   "siecle": 21,
-   "imprecis": true,
-   "qualif": 4
+   "cle": 2024,
+   "precision": "annee",
+   "siecle": 21
   },
   "audit": [
    {
@@ -674,17 +672,36 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.17",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "période précisée — la date est dite à l'écran : Sisko et Bashir arrivent à San Francisco le 30 août 2024 et la révolte culmine le 2 septembre 2024 (Wikipedia, « Past Tense » : « they materialize in San Francisco on August 30, 2024 » ; « Early in the morning of Monday, September 2, 2024 »). La fiche disait déjà « septembre 2024 »."
+     }
+    ]
    }
   ],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Émeutes de Bell contre les Zones de Sanctuaire.",
+    "motif": "période précisée — la date est dite à l'écran : Sisko et Bashir arrivent à San Francisco le 30 août 2024 et la révolte culmine le 2 septembre 2024 (Wikipedia, « Past Tense » : « they materialize in San Francisco on August 30, 2024 » ; « Early in the morning of Monday, September 2, 2024 »). La fiche disait déjà « septembre 2024 »."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
     "date": "1995-01",
+    "titre": "Past Tense, Part I",
+    "source_url": "https://web.archive.org/web/20001003225525/http://treknation.com/nielsens/ds9/season3.shtml"
+   },
+   {
+    "date": "1995-01",
     "titre": "Past Tense, Part II",
-    "source_url": "https://en.wikipedia.org/wiki/Past_Tense_(Star_Trek:_Deep_Space_Nine)"
+    "source_url": "https://web.archive.org/web/20001003225525/http://treknation.com/nielsens/ds9/season3.shtml"
    }
   ],
   "doublon_de": null,
@@ -694,11 +711,11 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 16,
+  "rang_diegetique": 10,
   "bande": "XXIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Past Tense ») ; période fictive : XXIe siècle.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Past Tense ») ; période fictive : 2024.",
   "analyse_url": "/analyses/emeutes-de-bell/",
-  "sous_bande": "Datation imprécise dans le siècle",
+  "sous_bande": null,
   "associes": []
  },
  {
@@ -770,7 +787,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 10,
+  "rang_diegetique": 11,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard) ; période fictive : 2024, chronologie modifiée.",
   "analyse_url": null,
@@ -865,7 +882,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 11,
+  "rang_diegetique": 12,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisodes « Assimilation », « Farewell ») ; période fictive : 2024.",
   "analyse_url": null,
@@ -995,7 +1012,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 12,
+  "rang_diegetique": 13,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Strange New Worlds ») ; période fictive : 2026–2050s env..",
   "analyse_url": null,
@@ -1100,7 +1117,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 15,
+  "rang_diegetique": 16,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Demons » ; Star Trek: The Original Series, épisode « The Savage Curtain ») ; période fictive : Milieu XXIe siècle.",
   "analyse_url": null,
@@ -1239,7 +1256,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 13,
+  "rang_diegetique": 14,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « First Contact ») ; période fictive : 2053 (datation usuelle).",
   "analyse_url": null,
@@ -1347,7 +1364,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 14,
+  "rang_diegetique": 15,
   "bande": "XXIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « First Contact ») ; période fictive : 2063.",
   "analyse_url": null,
@@ -22787,21 +22804,29 @@
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « First First Contact ») ; période fictive : 2381.",
   "analyse_url": null,
   "sous_bande": null,
-  "associes": []
+  "associes": [
+   {
+    "id": "STP-212",
+    "motifs": [
+     "épisode commun : first first contact"
+    ],
+    "autre_continuite": false
+   }
+  ]
  },
  {
   "id": "STP-212",
   "cycle": "Lower Decks : politique des marges et adhésions",
   "period": "2381",
-  "event": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour le bombardement de la planète Pakled",
-  "source": "LD saisons 1–2 ; « wej Duj »",
+  "event": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour l'explosion d'une bombe sur la planète Pakled",
+  "source": "LD saisons 1–2 ; « wej Duj » ; « First First Contact »",
   "politics": "Désinformation, agression opportuniste et gouvernance dysfonctionnelle.",
   "categories_politiques": "guerre/bataille ; renseignement/sécurité",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Pour le « sabotage de la planète Pakled », Wikipedia saison 3 (« Grounded », https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_3) indique que les Pakleds ont fait accuser Freeman du bombardement : il n'y a pas de sabotage fédéral. Le fait relève de la saison 3, hors du périmètre « saisons 1–2 » de l'entrée. Source consultée : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia saison 2 : « wej Duj », le capitaine klingon Dorg fournit aux Pakleds des armes, dont des bombes vérubiennes, pour les utiliser contre la Terre ; « The Spy Humongous », les Pakleds projettent d'attaquer la Terre ; « First First Contact » (fin de saison 2), Freeman est arrêtée pour avoir prétendument fait exploser une bombe sur la planète Pakled. Pas de sabotage fédéral avéré. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de renseignement/sécurité : « accusation de Freeman », « Désinformation ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.15 (2026-11-12) : revérification de novembre 2026 — Fait réparti sur plusieurs épisodes (saisons 1–2, « wej Duj », « First First Contact ») : aucune page d'épisode ne peut le confirmer en entier, et la page de saison Wikipedia reste la source. La critique TrekCore de « wej Duj » (https://blog.trekcore.com/2021/10/star-trek-lower-decks-review-wej-duj-three-ships/) confirme la partie klingonne : Dorg « supplying the dimwitted aliens with not just information and weaponry, but the deadly Veruvian explosives » pour « target Earth ». L'accusation de Freeman (« First First Contact ») n'a pas été revérifiée sur une page d'épisode. Niveau B maintenu, source de saison signalée.",
-  "version_entree": "V0.15 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Pour le « sabotage de la planète Pakled », Wikipedia saison 3 (« Grounded », https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_3) indique que les Pakleds ont fait accuser Freeman du bombardement : il n'y a pas de sabotage fédéral. Le fait relève de la saison 3, hors du périmètre « saisons 1–2 » de l'entrée. Source consultée : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia saison 2 : « wej Duj », le capitaine klingon Dorg fournit aux Pakleds des armes, dont des bombes vérubiennes, pour les utiliser contre la Terre ; « The Spy Humongous », les Pakleds projettent d'attaquer la Terre ; « First First Contact » (fin de saison 2), Freeman est arrêtée pour avoir prétendument fait exploser une bombe sur la planète Pakled. Pas de sabotage fédéral avéré. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de renseignement/sécurité : « accusation de Freeman », « Désinformation ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.15 (2026-11-12) : revérification de novembre 2026 — Fait réparti sur plusieurs épisodes (saisons 1–2, « wej Duj », « First First Contact ») : aucune page d'épisode ne peut le confirmer en entier, et la page de saison Wikipedia reste la source. La critique TrekCore de « wej Duj » (https://blog.trekcore.com/2021/10/star-trek-lower-decks-review-wej-duj-three-ships/) confirme la partie klingonne : Dorg « supplying the dimwitted aliens with not just information and weaponry, but the deadly Veruvian explosives » pour « target Earth ». L'accusation de Freeman (« First First Contact ») n'a pas été revérifiée sur une page d'épisode. Niveau B maintenu, source de saison signalée. V0.17 (2026-11-12) : revérification de novembre 2026 — intitulé corrigé : aucune source ne parle d'un bombardement ; Wikipedia (saison 2) : « Freeman is arrested for allegedly detonating a Veruvian bomb on Pakled Planet ». Aucune page d'épisode ne couvre le fait entier (aucun article Wikipedia d'épisode ; les synopsis Paramount+ de « wej Duj » et « First First Contact » n'en parlent pas) : la page de saison reste la source. Recoupements par épisode : TrekCore, « wej Duj » (https://blog.trekcore.com/2021/10/star-trek-lower-decks-review-wej-duj-three-ships/) : Dorg « supplying the dimwitted aliens with not just information and weaponry, but the deadly Veruvian explosives they're using to target Earth » ; TrekNews, « First First Contact » (https://treknews.net/2021/10/14/review-star-trek-lower-decks-210-first-first-contact/) : « Freeman gets arrested for the destruction of the Pakled homeworld ». Période 2381 : dates stellaires 58105.1 (« The Spy Humongous ») et 58130.6 (« First First Contact ») selon Memory Alpha. Niveau B maintenu.",
+  "version_entree": "V0.17 révisé",
   "categories": [
    "guerre/bataille",
    "renseignement/sécurité"
@@ -22813,6 +22838,10 @@
    {
     "serie": "LD",
     "titre": "wej Duj"
+   },
+   {
+    "serie": "LD",
+    "titre": "First First Contact"
    }
   ],
   "references_non_rattachees": [],
@@ -22886,6 +22915,27 @@
       "texte": ") confirme la partie klingonne : Dorg « supplying the dimwitted aliens with not just information and weaponry, but the deadly Veruvian explosives » pour « target Earth ». L'accusation de Freeman (« First First Contact ») n'a pas été revérifiée sur une page d'épisode. Niveau B maintenu, source de saison signalée."
      }
     ]
+   },
+   {
+    "version": "V0.17",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — intitulé corrigé : aucune source ne parle d'un bombardement ; Wikipedia (saison 2) : « Freeman is arrested for allegedly detonating a Veruvian bomb on Pakled Planet ». Aucune page d'épisode ne couvre le fait entier (aucun article Wikipedia d'épisode ; les synopsis Paramount+ de « wej Duj » et « First First Contact » n'en parlent pas) : la page de saison reste la source. Recoupements par épisode : TrekCore, « wej Duj » ("
+     },
+     {
+      "url": "https://blog.trekcore.com/2021/10/star-trek-lower-decks-review-wej-duj-three-ships/"
+     },
+     {
+      "texte": ") : Dorg « supplying the dimwitted aliens with not just information and weaponry, but the deadly Veruvian explosives they're using to target Earth » ; TrekNews, « First First Contact » ("
+     },
+     {
+      "url": "https://treknews.net/2021/10/14/review-star-trek-lower-decks-210-first-first-contact/"
+     },
+     {
+      "texte": ") : « Freeman gets arrested for the destruction of the Pakled homeworld ». Période 2381 : dates stellaires 58105.1 (« The Spy Humongous ») et 58130.6 (« First First Contact ») selon Memory Alpha. Niveau B maintenu."
+     }
+    ]
    }
   ],
   "cycle_slug": "lower-decks-politique-des-marges-et-adhesions",
@@ -22894,6 +22944,10 @@
    {
     "libelle": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour le bombardement de la planète Pakled.",
     "motif": "intitulé corrigé(s) d’après la source, recoupement B — Wikipedia saison 2 : « wej Duj », le capitaine klingon Dorg fournit aux Pakleds des armes, dont des bombes vérubiennes, pour les utiliser contre la Terre ; « The Spy Humongous », les Pakleds projettent d'attaquer la Terre ; « First First Contact » (fin de saison 2), Freeman est arrêtée pour avoir prétendument fait exploser une bombe sur la planète Pakled. Pas de sabotage fédéral avéré"
+   },
+   {
+    "libelle": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour l'explosion d'une bombe sur la planète Pakled.",
+    "motif": "revérification de novembre 2026 — intitulé corrigé : aucune source ne parle d'un bombardement ; Wikipedia (saison 2) : « Freeman is arrested for allegedly detonating a Veruvian bomb on Pakled Planet ». Aucune page d'épisode ne couvre le fait entier (aucun article Wikipedia d'épisode ; les synopsis Paramount+ de « wej Duj » et « First First Contact » n'en parlent pas) : la page de saison reste la source. Recoupements par épisode : TrekCore, « wej Duj » (<https://blog.trekcore.com/2021/10/star-trek-lower-decks-review-wej-duj-three-ships/>) : Dorg « supplying the dimwitted aliens with not just information and weaponry, but the deadly Veruvian explosives they're using to target Earth » ; TrekNews, « First First Contact » (<https://treknews.net/2021/10/14/review-star-trek-lower-decks-210-first-first-contact/>) : « Freeman gets arrested for the destruction of the Pakled homeworld ». Période 2381 : dates stellaires 58105.1 (« The Spy Humongous ») et 58130.6 (« First First Contact ») selon Memory Alpha. Niveau B maintenu."
    }
   ],
   "note_editoriale": null,
@@ -22901,6 +22955,11 @@
    {
     "date": "2021-10-07",
     "titre": "wej Duj",
+    "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2"
+   },
+   {
+    "date": "2021-10-14",
+    "titre": "First First Contact",
     "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2"
    }
   ],
@@ -22929,10 +22988,17 @@
   },
   "rang_diegetique": 245,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisode « wej Duj ») ; période fictive : 2381.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Lower Decks, épisodes « wej Duj », « First First Contact ») ; période fictive : 2381.",
   "analyse_url": null,
   "sous_bande": null,
   "associes": [
+   {
+    "id": "STP-211",
+    "motifs": [
+     "épisode commun : first first contact"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-289",
     "motifs": [
@@ -24716,12 +24782,55 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 300,
+  "rang_diegetique": 294,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Kids These Days ») ; période fictive : XXXIIe siècle.",
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
-  "associes": []
+  "associes": [
+   {
+    "id": "STP-292",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-293",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-294",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-295",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-296",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-297",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   }
+  ]
  },
  {
   "id": "STP-229",
@@ -24816,7 +24925,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 301,
+  "rang_diegetique": 295,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Beta Test ») ; période fictive : XXXIIe siècle.",
   "analyse_url": null,
@@ -24848,9 +24957,9 @@
   "categories_politiques": "diplomatie/traité",
   "niveau_recoupement": "A",
   "nature_source": "Synopsis officiel",
-  "url_source": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Survie d'un peuple », « intervention fédérale ». V0.5 (2026-11-10) : recoupement A (source officielle) — Le synopsis officiel Paramount+ de l'épisode 1×04 « Vox in Excelso » : Jay-Den fait face à une crise existentielle qui menace son espèce (les Klingons) tout en affrontant son passé. Source B précédente : https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/. V0.10 (2026-11-10) : doublon tranché : entrée principale ; STP-294 lui est rattachée comme doublon. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Aucune page officielle propre à l'épisode n'a pu être lue : les pages d'épisode Paramount+ (/shows/video/…) renvoient une erreur 404 ou 500 et ne sont pas archivées, et startrek.com ne publie pas de récapitulatif d'épisode pour Starfleet Academy. Le niveau A repose toujours sur la liste d'épisodes Paramount+ : « Jay-Den faces an existential crisis that threatens his species while confronting his past. » La liste ne nomme pas les Klingons ; l'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Vox_in_Excelso) le fait : un vaisseau klingon s'est écrasé, « putting the species on the brink of extinction ». Niveau maintenu, source de liste signalée.",
-  "version_entree": "V0.15 révisé",
+  "url_source": "https://www.paramountplus.com/shows/video/TWM68Ce3TC9HdLIN2ulAh8YbyCkkRkzf/",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Survie d'un peuple », « intervention fédérale ». V0.5 (2026-11-10) : recoupement A (source officielle) — Le synopsis officiel Paramount+ de l'épisode 1×04 « Vox in Excelso » : Jay-Den fait face à une crise existentielle qui menace son espèce (les Klingons) tout en affrontant son passé. Source B précédente : https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/. V0.10 (2026-11-10) : doublon tranché : entrée principale ; STP-294 lui est rattachée comme doublon. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Aucune page officielle propre à l'épisode n'a pu être lue : les pages d'épisode Paramount+ (/shows/video/…) renvoient une erreur 404 ou 500 et ne sont pas archivées, et startrek.com ne publie pas de récapitulatif d'épisode pour Starfleet Academy. Le niveau A repose toujours sur la liste d'épisodes Paramount+ : « Jay-Den faces an existential crisis that threatens his species while confronting his past. » La liste ne nomme pas les Klingons ; l'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Vox_in_Excelso) le fait : un vaisseau klingon s'est écrasé, « putting the species on the brink of extinction ». Niveau maintenu, source de liste signalée. V0.17 (2026-11-12) : revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-12 (elle ne répond pas aux clients sans navigateur) : « S1 E4: Jay-Den faces an existential crisis that threatens his species while confronting his past. » ; description : « When an existential crisis threatens to wipe out his species […] Nahla races against time to save his species from extinction. » L'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Vox_in_Excelso) nomme l'espèce : « Klingon cadet Jay-Den Kraag […] when the future of his species is placed under threat ». Niveau A maintenu, sur la page propre à l'épisode.",
+  "version_entree": "V0.17 révisé",
   "categories": [
    "diplomatie/traité"
   ],
@@ -24930,11 +25039,31 @@
       "texte": ") le fait : un vaisseau klingon s'est écrasé, « putting the species on the brink of extinction ». Niveau maintenu, source de liste signalée."
      }
     ]
+   },
+   {
+    "version": "V0.17",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-12 (elle ne répond pas aux clients sans navigateur) : « S1 E4: Jay-Den faces an existential crisis that threatens his species while confronting his past. » ; description : « When an existential crisis threatens to wipe out his species […] Nahla races against time to save his species from extinction. » L'article Wikipedia de l'épisode ("
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Vox_in_Excelso"
+     },
+     {
+      "texte": ") nomme l'espèce : « Klingon cadet Jay-Den Kraag […] when the future of his species is placed under threat ». Niveau A maintenu, sur la page propre à l'épisode."
+     }
+    ]
    }
   ],
   "cycle_slug": "starfleet-academy-saison-1-2026",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Crise menaçant l'existence et l'avenir des Klingons.",
+    "motif": "revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-12 (elle ne répond pas aux clients sans navigateur) : « S1 E4: Jay-Den faces an existential crisis that threatens his species while confronting his past. » ; description : « When an existential crisis threatens to wipe out his species […] Nahla races against time to save his species from extinction. » L'article Wikipedia de l'épisode (<https://en.wikipedia.org/wiki/Vox_in_Excelso>) nomme l'espèce : « Klingon cadet Jay-Den Kraag […] when the future of his species is placed under threat ». Niveau A maintenu, sur la page propre à l'épisode."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -24968,7 +25097,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 302,
+  "rang_diegetique": 296,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Vox in Excelso ») ; période fictive : XXXIIe siècle.",
   "analyse_url": "/analyses/STP-230/",
@@ -25001,9 +25130,9 @@
   "categories_politiques": "guerre/bataille",
   "niveau_recoupement": "A",
   "nature_source": "Synopsis officiel",
-  "url_source": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « menace hostile », « Sécurité collective » ; recoupement A — Le synopsis officiel de « Come, Let's Away » indique que, lors de leur première mission d'entraînement sur un vaisseau abandonné, les cadets rencontrent un ennemi dangereux ; Wikipedia précise que les Furies prennent les cadets en otage à bord de l'USS Miyazaki. Réserve : La menace vise les cadets en mission ; selon Wikipedia, Nus Braka a monté l'attaque pour éloigner le Sargasso de sa base stellaire, et non pour attaquer l'Académie elle-même. V0.12 (2026-11-12) : revérification de novembre 2026 — Le synopsis officiel Paramount+ de « Come, Let's Away » (S1E6) dit seulement : « During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » Rien n'y vise l'Académie. Wikipedia (Star_Trek:_Starfleet_Academy) précise que Braka « staged the attack upon the Miyazaki in order to lure the Sargasso away from the starbase so that he could have the starbase ransacked ». L'intitulé est donc réduit à ce que confirme le synopsis, et l'entrée reste en A. Aucune page startrek.com consacrée à l'épisode n'a été trouvée. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Aucune page officielle propre à l'épisode n'a pu être lue : les pages d'épisode Paramount+ (/shows/video/…) renvoient une erreur 404 ou 500 et ne sont pas archivées, et startrek.com ne publie pas de récapitulatif d'épisode pour Starfleet Academy. Le niveau A repose toujours sur la liste d'épisodes Paramount+, dont l'intitulé reprend le synopsis : « During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » L'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Come,_Let%27s_Away) concorde : cadets « sent to the derelict USS Miyazaki », abordé par « a group of furies ». Niveau maintenu, source de liste signalée.",
-  "version_entree": "V0.15 révisé",
+  "url_source": "https://www.paramountplus.com/shows/video/iyevUDlexci3OxNZV62iqpbLSdA7DOJq/",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « menace hostile », « Sécurité collective » ; recoupement A — Le synopsis officiel de « Come, Let's Away » indique que, lors de leur première mission d'entraînement sur un vaisseau abandonné, les cadets rencontrent un ennemi dangereux ; Wikipedia précise que les Furies prennent les cadets en otage à bord de l'USS Miyazaki. Réserve : La menace vise les cadets en mission ; selon Wikipedia, Nus Braka a monté l'attaque pour éloigner le Sargasso de sa base stellaire, et non pour attaquer l'Académie elle-même. V0.12 (2026-11-12) : revérification de novembre 2026 — Le synopsis officiel Paramount+ de « Come, Let's Away » (S1E6) dit seulement : « During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » Rien n'y vise l'Académie. Wikipedia (Star_Trek:_Starfleet_Academy) précise que Braka « staged the attack upon the Miyazaki in order to lure the Sargasso away from the starbase so that he could have the starbase ransacked ». L'intitulé est donc réduit à ce que confirme le synopsis, et l'entrée reste en A. Aucune page startrek.com consacrée à l'épisode n'a été trouvée. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Aucune page officielle propre à l'épisode n'a pu être lue : les pages d'épisode Paramount+ (/shows/video/…) renvoient une erreur 404 ou 500 et ne sont pas archivées, et startrek.com ne publie pas de récapitulatif d'épisode pour Starfleet Academy. Le niveau A repose toujours sur la liste d'épisodes Paramount+, dont l'intitulé reprend le synopsis : « During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » L'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Come,_Let%27s_Away) concorde : cadets « sent to the derelict USS Miyazaki », abordé par « a group of furies ». Niveau maintenu, source de liste signalée. V0.17 (2026-11-12) : revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-12 (elle ne répond pas aux clients sans navigateur) : « S1 E6: During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » Niveau A maintenu, sur la page propre à l'épisode.",
+  "version_entree": "V0.17 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -25068,6 +25197,15 @@
       "texte": ") concorde : cadets « sent to the derelict USS Miyazaki », abordé par « a group of furies ». Niveau maintenu, source de liste signalée."
      }
     ]
+   },
+   {
+    "version": "V0.17",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-12 (elle ne répond pas aux clients sans navigateur) : « S1 E6: During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » Niveau A maintenu, sur la page propre à l'épisode."
+     }
+    ]
    }
   ],
   "cycle_slug": "starfleet-academy-saison-1-2026",
@@ -25076,6 +25214,10 @@
    {
     "libelle": "Mission d'entraînement de cadets sur un vaisseau abandonné perturbée par un ennemi dangereux.",
     "motif": "revérification de novembre 2026 — Le synopsis officiel Paramount+ de « Come, Let's Away » (S1E6) dit seulement : « During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » Rien n'y vise l'Académie. Wikipedia (Star_Trek:_Starfleet_Academy) précise que Braka « staged the attack upon the Miyazaki in order to lure the Sargasso away from the starbase so that he could have the starbase ransacked ». L'intitulé est donc réduit à ce que confirme le synopsis, et l'entrée reste en A. Aucune page startrek.com consacrée à l'épisode n'a été trouvée."
+   },
+   {
+    "libelle": "Mission d'entraînement de cadets sur un vaisseau abandonné perturbée par un ennemi dangereux.",
+    "motif": "revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-12 (elle ne répond pas aux clients sans navigateur) : « S1 E6: During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » Niveau A maintenu, sur la page propre à l'épisode."
    }
   ],
   "note_editoriale": null,
@@ -25101,7 +25243,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 303,
+  "rang_diegetique": 297,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Come, Let's Away ») ; période fictive : XXXIIe siècle.",
   "analyse_url": null,
@@ -25233,12 +25375,40 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 304,
+  "rang_diegetique": 298,
   "bande": "XXXIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Rubincon ») ; période fictive : XXXIIe siècle.",
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
+   {
+    "id": "STP-292",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-293",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-294",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-295",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-296",
     "motifs": [
@@ -25250,6 +25420,7 @@
    {
     "id": "STP-297",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : rubincon"
     ],
     "autre_continuite": false
@@ -31435,7 +31606,7 @@
  {
   "id": "STP-292",
   "cycle": "Starfleet Academy : actualisation 2026",
-  "period": "3191–3192",
+  "period": "XXXIIe siècle",
   "event": "Isolement de Betazed derrière une barrière psionique après le Burn",
   "source": "SFA « Beta Test »",
   "politics": "Sécurité, frontières, souveraineté et coûts du repli.",
@@ -31443,8 +31614,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Isolement de Betazed », « Sécurité, frontières, souveraineté ». V0.12 (2026-11-12) : revérification de novembre 2026 — La source déjà citée (TrekCore, compte rendu détaillé) a été lue et concorde : « a psionic barrier put in place following the Burn to protect and cut-off the Betazoid System from all outsiders ». B maintenu, aucun champ changé ; il reste à retirer la mention « vérifier l’épisode cité » de note_audit (hors champs de ce lot). La page startrek.com de la saison ne dit rien de la barrière (pas de A). V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Isolement de Betazed », « Sécurité, frontières, souveraineté ». V0.12 (2026-11-12) : revérification de novembre 2026 — La source déjà citée (TrekCore, compte rendu détaillé) a été lue et concorde : « a psionic barrier put in place following the Burn to protect and cut-off the Betazoid System from all outsiders ». B maintenu, aucun champ changé ; il reste à retirer la mention « vérifier l’épisode cité » de note_audit (hors champs de ce lot). La page startrek.com de la saison ne dit rien de la barrière (pas de A). V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.17 (2026-11-12) : période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232.",
+  "version_entree": "V0.17 révisé",
   "categories": [
    "institutions/fédéralisme",
    "renseignement/sécurité"
@@ -31462,9 +31633,11 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 3191,
-   "precision": "annee_qualifiee",
-   "siecle": 32
+   "cle": 3101,
+   "precision": "siecle",
+   "siecle": 32,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -31511,11 +31684,25 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.17",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+     }
+    ]
    }
   ],
   "cycle_slug": "starfleet-academy-actualisation-2026",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Isolement de Betazed derrière une barrière psionique après le Burn.",
+    "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {
@@ -31547,16 +31734,30 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 294,
+  "rang_diegetique": 299,
   "bande": "XXXIIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Beta Test ») ; période fictive : 3191–3192.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Beta Test ») ; période fictive : XXXIIe siècle.",
   "analyse_url": null,
-  "sous_bande": null,
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
+   {
+    "id": "STP-228",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-229",
     "motifs": [
      "épisode commun : beta test"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-232",
+    "motifs": [
+     "identifiant cité dans la notice"
     ],
     "autre_continuite": false
    },
@@ -31572,7 +31773,7 @@
  {
   "id": "STP-293",
   "cycle": "Starfleet Academy : actualisation 2026",
-  "period": "3191–3192",
+  "period": "XXXIIe siècle",
   "event": "Négociation de réintégration de Betazed et proposition d’y établir le siège fédéral",
   "source": "SFA « Beta Test »",
   "politics": "Fédéralisme asymétrique, garanties politiques et confiance diplomatique.",
@@ -31580,8 +31781,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « Fédéralisme asymétrique ». V0.12 (2026-11-12) : revérification de novembre 2026 — TrekCore (source déjà citée) concorde sur les deux volets : négociations avec Betazed (« one final pitch... to salvage the negotiations ») et siège fédéral : le nouveau siège du gouvernement ne sera pas à Paris mais sur Betazed (extraction WebFetch). Wikipedia (saison 1) confirme indépendamment : « Ake proposes moving the Federation's government center to Betazed if it rejoins » (résumé). Aucun champ changé. Pas de résumé officiel trouvé (startrek.com : titre de l’épisode seulement). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « Fédéralisme asymétrique ». V0.12 (2026-11-12) : revérification de novembre 2026 — TrekCore (source déjà citée) concorde sur les deux volets : négociations avec Betazed (« one final pitch... to salvage the negotiations ») et siège fédéral : le nouveau siège du gouvernement ne sera pas à Paris mais sur Betazed (extraction WebFetch). Wikipedia (saison 1) confirme indépendamment : « Ake proposes moving the Federation's government center to Betazed if it rejoins » (résumé). Aucun champ changé. Pas de résumé officiel trouvé (startrek.com : titre de l’épisode seulement). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.17 (2026-11-12) : période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232.",
+  "version_entree": "V0.17 révisé",
   "categories": [
    "diplomatie/traité",
    "institutions/fédéralisme"
@@ -31599,9 +31800,11 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 3191,
-   "precision": "annee_qualifiee",
-   "siecle": 32
+   "cle": 3101,
+   "precision": "siecle",
+   "siecle": 32,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -31648,11 +31851,25 @@
       "texte": "harmonisation typographique (guillemets, ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.17",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+     }
+    ]
    }
   ],
   "cycle_slug": "starfleet-academy-actualisation-2026",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Négociation de réintégration de Betazed et proposition d’y établir le siège fédéral.",
+    "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {
@@ -31676,16 +31893,30 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 295,
+  "rang_diegetique": 300,
   "bande": "XXXIIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Beta Test ») ; période fictive : 3191–3192.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Beta Test ») ; période fictive : XXXIIe siècle.",
   "analyse_url": "/analyses/STP-293/",
-  "sous_bande": null,
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
+   {
+    "id": "STP-228",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-229",
     "motifs": [
      "épisode commun : beta test"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-232",
+    "motifs": [
+     "identifiant cité dans la notice"
     ],
     "autre_continuite": false
    },
@@ -31701,7 +31932,7 @@
  {
   "id": "STP-294",
   "cycle": "Starfleet Academy : actualisation 2026",
-  "period": "3191–3192",
+  "period": "XXXIIe siècle",
   "event": "Exode des Klingons après la destruction d’habitabilité de Qo’noS liée au Burn",
   "source": "SFA « Vox in Excelso »",
   "politics": "Diaspora, survie culturelle et légitimité de la politique humanitaire.",
@@ -31709,8 +31940,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.10 (2026-11-10) : doublon tranché : entrée secondaire de STP-230 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SFA «Vox in Excelso») et même fait : la crise d’existence des Klingons après le Burn, dont l’exode consécutif à l’inhabitabilité de Qo’noS est un aspect. STP-230 est retenue comme principale : fiche approfondie et niveau de recoupement A. V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.10 (2026-11-10) : doublon tranché : entrée secondaire de STP-230 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SFA «Vox in Excelso») et même fait : la crise d’existence des Klingons après le Burn, dont l’exode consécutif à l’inhabitabilité de Qo’noS est un aspect. STP-230 est retenue comme principale : fiche approfondie et niveau de recoupement A. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.17 (2026-11-12) : période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232.",
+  "version_entree": "V0.17 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -31727,9 +31958,11 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 3191,
-   "precision": "annee_qualifiee",
-   "siecle": 32
+   "cle": 3101,
+   "precision": "siecle",
+   "siecle": 32,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -31767,6 +32000,15 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.17",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+     }
+    ]
    }
   ],
   "cycle_slug": "starfleet-academy-actualisation-2026",
@@ -31775,6 +32017,10 @@
    {
     "libelle": "Exode des Klingons après la destruction d’habitabilité de Qo’noS liée au Burn.",
     "motif": "doublon tranché : entrée secondaire de STP-230 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SFA «Vox in Excelso») et même fait : la crise d’existence des Klingons après le Burn, dont l’exode consécutif à l’inhabitabilité de Qo’noS est un aspect. STP-230 est retenue comme principale : fiche approfondie et niveau de recoupement A."
+   },
+   {
+    "libelle": "Exode des Klingons après la destruction d’habitabilité de Qo’noS liée au Burn.",
+    "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
    }
   ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
@@ -31795,17 +32041,31 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 296,
+  "rang_diegetique": 301,
   "bande": "XXXIIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Vox in Excelso ») ; période fictive : 3191–3192.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Vox in Excelso ») ; période fictive : XXXIIe siècle.",
   "analyse_url": null,
-  "sous_bande": null,
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
+   {
+    "id": "STP-228",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-230",
     "motifs": [
      "identifiant cité dans la notice",
      "épisode commun : vox in excelso"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-232",
+    "motifs": [
+     "identifiant cité dans la notice"
     ],
     "autre_continuite": false
    },
@@ -31821,7 +32081,7 @@
  {
   "id": "STP-295",
   "cycle": "Starfleet Academy : actualisation 2026",
-  "period": "3191–3192",
+  "period": "XXXIIe siècle",
   "event": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
   "source": "SFA « Vox in Excelso »",
   "politics": "Diplomatie interculturelle et négociation symbolique.",
@@ -31829,8 +32089,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Résumé de saison (Wikipedia)",
   "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — La source actuelle (TrekCore) ne confirme que partiellement : les Klingons refusent « the Federation’s charity offer of a new homeworld » puis prennent Faan Alpha, mais la critique ne présente pas cette prise comme un arrangement mis en scène. Wikipedia (saison 1, résumé de « Vox in Excelso ») confirme le fait central : les Klingons « will only accept the planet via conquest » et « Vance and Ake stage a battle with Obel, allowing the Klingons to claim their new home by conquest ». D’où le changement d’URL. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — La source actuelle (TrekCore) ne confirme que partiellement : les Klingons refusent « the Federation’s charity offer of a new homeworld » puis prennent Faan Alpha, mais la critique ne présente pas cette prise comme un arrangement mis en scène. Wikipedia (saison 1, résumé de « Vox in Excelso ») confirme le fait central : les Klingons « will only accept the planet via conquest » et « Vance and Ake stage a battle with Obel, allowing the Klingons to claim their new home by conquest ». D’où le changement d’URL. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.17 (2026-11-12) : période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232.",
+  "version_entree": "V0.17 révisé",
   "categories": [
    "diplomatie/traité",
    "économie/social"
@@ -31848,9 +32108,11 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 3191,
-   "precision": "annee_qualifiee",
-   "siecle": 32
+   "cle": 3101,
+   "precision": "siecle",
+   "siecle": 32,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -31888,11 +32150,25 @@
       "texte": "harmonisation typographique (guillemets, ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.17",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+     }
+    ]
    }
   ],
   "cycle_slug": "starfleet-academy-actualisation-2026",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés.",
+    "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {
@@ -31916,16 +32192,30 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 297,
+  "rang_diegetique": 302,
   "bande": "XXXIIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Vox in Excelso ») ; période fictive : 3191–3192.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Vox in Excelso ») ; période fictive : XXXIIe siècle.",
   "analyse_url": "/analyses/STP-295/",
-  "sous_bande": null,
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
+   {
+    "id": "STP-228",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-230",
     "motifs": [
      "épisode commun : vox in excelso"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-232",
+    "motifs": [
+     "identifiant cité dans la notice"
     ],
     "autre_continuite": false
    },
@@ -31941,7 +32231,7 @@
  {
   "id": "STP-296",
   "cycle": "Starfleet Academy : actualisation 2026",
-  "period": "3191–3192",
+  "period": "XXXIIe siècle",
   "event": "Procès-spectacle organisé par Nus Braka contre la Fédération",
   "source": "SFA « Rubincon »",
   "politics": "Justice instrumentalisée, mémoire des abus et guerre de propagande.",
@@ -31949,8 +32239,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire de saison, détail à vérifier",
   "url_source": "https://startrekarchive.com/series/starfleet-academy",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.10 (2026-11-10) : doublon tranché : entrée secondaire de STP-232 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SFA «Rubincon») et même fait : la crise que Nus Braka impose à la Fédération, dont le procès-spectacle est la forme. STP-232 est retenue comme principale : niveau de recoupement A. V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.10 (2026-11-10) : doublon tranché : entrée secondaire de STP-232 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SFA «Rubincon») et même fait : la crise que Nus Braka impose à la Fédération, dont le procès-spectacle est la forme. STP-232 est retenue comme principale : niveau de recoupement A. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.17 (2026-11-12) : période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232.",
+  "version_entree": "V0.17 révisé",
   "categories": [
    "guerre/bataille",
    "justice/droits",
@@ -31969,9 +32259,11 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 3191,
-   "precision": "annee_qualifiee",
-   "siecle": 32
+   "cle": 3101,
+   "precision": "siecle",
+   "siecle": 32,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -32009,6 +32301,15 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.17",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+     }
+    ]
    }
   ],
   "cycle_slug": "starfleet-academy-actualisation-2026",
@@ -32017,6 +32318,10 @@
    {
     "libelle": "Procès-spectacle organisé par Nus Braka contre la Fédération.",
     "motif": "doublon tranché : entrée secondaire de STP-232 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SFA «Rubincon») et même fait : la crise que Nus Braka impose à la Fédération, dont le procès-spectacle est la forme. STP-232 est retenue comme principale : niveau de recoupement A."
+   },
+   {
+    "libelle": "Procès-spectacle organisé par Nus Braka contre la Fédération.",
+    "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
    }
   ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
@@ -32037,12 +32342,19 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 298,
+  "rang_diegetique": 303,
   "bande": "XXXIIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Rubincon ») ; période fictive : 3191–3192.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisode « Rubincon ») ; période fictive : XXXIIe siècle.",
   "analyse_url": null,
-  "sous_bande": null,
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
+   {
+    "id": "STP-228",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-232",
     "motifs": [
@@ -32063,7 +32375,7 @@
  {
   "id": "STP-297",
   "cycle": "Starfleet Academy : actualisation 2026",
-  "period": "3191–3192",
+  "period": "XXXIIe siècle",
   "event": "Menace d’une chaîne de mines Omega-47 perturbant les voyages à distorsion",
   "source": "SFA « 300th Night » ; « Rubincon »",
   "politics": "Coercition stratégique, armes de destruction systémique et déni de mobilité.",
@@ -32071,8 +32383,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://www.denofgeek.com/tv/star-trek-starfleet-academy-episode-9-review-300th-night/",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Den of Geek (critique de « 300th Night ») : « a very dangerous substance called Omega-47 » ; une seule particule « is capable of shredding space and subspace » au point de rendre la distorsion impossible ; « With Federation space ringed with destructive omega mines ». Wikipedia (saison 1) concorde sur les mines Omega qui « boxed the Federation in » et indique leur désactivation dans « Rubincon », ce qui justifie la double référence d’épisode. La page startrek.com de la saison ne contient que les titres. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Den of Geek (critique de « 300th Night ») : « a very dangerous substance called Omega-47 » ; une seule particule « is capable of shredding space and subspace » au point de rendre la distorsion impossible ; « With Federation space ringed with destructive omega mines ». Wikipedia (saison 1) concorde sur les mines Omega qui « boxed the Federation in » et indique leur désactivation dans « Rubincon », ce qui justifie la double référence d’épisode. La page startrek.com de la saison ne contient que les titres. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.17 (2026-11-12) : période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232.",
+  "version_entree": "V0.17 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -32093,9 +32405,11 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 3191,
-   "precision": "annee_qualifiee",
-   "siecle": 32
+   "cle": 3101,
+   "precision": "siecle",
+   "siecle": 32,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -32133,11 +32447,25 @@
       "texte": "harmonisation typographique (guillemets, ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.17",
+    "date": "12 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+     }
+    ]
    }
   ],
   "cycle_slug": "starfleet-academy-actualisation-2026",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Menace d’une chaîne de mines Omega-47 perturbant les voyages à distorsion.",
+    "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {
@@ -32174,15 +32502,23 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 299,
+  "rang_diegetique": 304,
   "bande": "XXXIIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisodes « 300th Night », « Rubincon ») ; période fictive : 3191–3192.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Starfleet Academy, épisodes « 300th Night », « Rubincon ») ; période fictive : XXXIIe siècle.",
   "analyse_url": "/analyses/STP-297/",
-  "sous_bande": null,
+  "sous_bande": "Datation imprécise dans le siècle",
   "associes": [
+   {
+    "id": "STP-228",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-232",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : rubincon"
     ],
     "autre_continuite": false

@@ -789,17 +789,17 @@
    "serie": "DS9",
    "titre": "Past Tense, Part I",
    "titre_corpus": "Past Tense",
-   "date": null,
-   "source_url": "https://en.wikipedia.org/wiki/Past_Tense_(Star_Trek:_Deep_Space_Nine)",
-   "note": "Divergence (syndication) : article 1995-01-02 ; liste https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes 1994-12-31. Annee differente."
+   "date": "1995-01",
+   "source_url": "https://web.archive.org/web/20001003225525/http://treknation.com/nielsens/ds9/season3.shtml",
+   "note": "Syndication : semaine du 2 janvier 1995 (releve Nielsen TrekNation, « These are \"Week of\" dates »). Le 1994-12-31 de la liste Wikipedia (samedi precedant chaque semaine, sans source) et le 8 janvier de Memory Alpha (contredit par sa page 1995 (production)) ne sont pas retenus."
   },
   {
    "serie": "DS9",
    "titre": "Past Tense, Part II",
    "titre_corpus": "Past Tense",
    "date": "1995-01",
-   "source_url": "https://en.wikipedia.org/wiki/Past_Tense_(Star_Trek:_Deep_Space_Nine)",
-   "note": "Article 1995-01-09 ; liste 1995-01-07."
+   "source_url": "https://web.archive.org/web/20001003225525/http://treknation.com/nielsens/ds9/season3.shtml",
+   "note": "Syndication : semaine du 9 janvier 1995 (releve Nielsen TrekNation, « These are \"Week of\" dates »). Le 1995-01-07 de la liste Wikipedia et le 15 janvier de Memory Alpha ne sont pas retenus."
   },
   {
    "serie": "ENT",

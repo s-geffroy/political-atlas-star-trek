@@ -1,0 +1,130 @@
+{
+ "version": "V0.17",
+ "date": "2026-11-12",
+ "date_longue": "12 novembre 2026",
+ "base": "V0_16_2026-11-12",
+ "titre": "Atlas politique de Star Trek — V0.17 : années de Starfleet Academy, sources d’épisode, STP-006 en 2024",
+ "resume": "Six entrées de Starfleet Academy passent de « 3191–3192 » à « XXXIIe siècle » : aucune année n’est dite à l’écran ni par une source officielle. STP-230 et STP-231 gardent le niveau A sur leur page d’épisode officielle Paramount+, lue dans un navigateur. L’intitulé de STP-212 dit l’explosion d’une bombe, et non un bombardement. STP-006 est datée de 2024, année dite à l’écran.",
+ "methode": {
+  "reverification": "recherche du 12 novembre 2026, proposition validée le 2026-11-12 (docs/proposition-v017.md) ; citations contrôlées sur les pages : Paramount+, startrek.com, Wikipedia, Memory Alpha, TrekCore, TrekNews."
+ },
+ "comptes": {
+  "corrections": 10
+ },
+ "corrections": [
+  {
+   "id": "STP-292",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "3191–3192",
+     "apres": "XXXIIe siècle"
+    }
+   },
+   "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+  },
+  {
+   "id": "STP-293",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "3191–3192",
+     "apres": "XXXIIe siècle"
+    }
+   },
+   "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+  },
+  {
+   "id": "STP-294",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "3191–3192",
+     "apres": "XXXIIe siècle"
+    }
+   },
+   "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+  },
+  {
+   "id": "STP-295",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "3191–3192",
+     "apres": "XXXIIe siècle"
+    }
+   },
+   "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+  },
+  {
+   "id": "STP-296",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "3191–3192",
+     "apres": "XXXIIe siècle"
+    }
+   },
+   "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+  },
+  {
+   "id": "STP-297",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "3191–3192",
+     "apres": "XXXIIe siècle"
+    }
+   },
+   "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+  },
+  {
+   "id": "STP-006",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "XXIe siècle",
+     "apres": "2024"
+    }
+   },
+   "motif": "période précisée — la date est dite à l'écran : Sisko et Bashir arrivent à San Francisco le 30 août 2024 et la révolte culmine le 2 septembre 2024 (Wikipedia, « Past Tense » : « they materialize in San Francisco on August 30, 2024 » ; « Early in the morning of Monday, September 2, 2024 »). La fiche disait déjà « septembre 2024 »."
+  },
+  {
+   "id": "STP-212",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour le bombardement de la planète Pakled",
+     "apres": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour l'explosion d'une bombe sur la planète Pakled"
+    },
+    "source": {
+     "avant": "LD saisons 1–2 ; « wej Duj »",
+     "apres": "LD saisons 1–2 ; « wej Duj » ; « First First Contact »"
+    }
+   },
+   "motif": "revérification de novembre 2026 — intitulé corrigé : aucune source ne parle d'un bombardement ; Wikipedia (saison 2) : « Freeman is arrested for allegedly detonating a Veruvian bomb on Pakled Planet ». Aucune page d'épisode ne couvre le fait entier (aucun article Wikipedia d'épisode ; les synopsis Paramount+ de « wej Duj » et « First First Contact » n'en parlent pas) : la page de saison reste la source. Recoupements par épisode : TrekCore, « wej Duj » (https://blog.trekcore.com/2021/10/star-trek-lower-decks-review-wej-duj-three-ships/) : Dorg « supplying the dimwitted aliens with not just information and weaponry, but the deadly Veruvian explosives they're using to target Earth » ; TrekNews, « First First Contact » (https://treknews.net/2021/10/14/review-star-trek-lower-decks-210-first-first-contact/) : « Freeman gets arrested for the destruction of the Pakled homeworld ». Période 2381 : dates stellaires 58105.1 (« The Spy Humongous ») et 58130.6 (« First First Contact ») selon Memory Alpha. Niveau B maintenu."
+  },
+  {
+   "id": "STP-230",
+   "type": "correction",
+   "champs": {
+    "url_source": {
+     "avant": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/",
+     "apres": "https://www.paramountplus.com/shows/video/TWM68Ce3TC9HdLIN2ulAh8YbyCkkRkzf/"
+    }
+   },
+   "motif": "revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-12 (elle ne répond pas aux clients sans navigateur) : « S1 E4: Jay-Den faces an existential crisis that threatens his species while confronting his past. » ; description : « When an existential crisis threatens to wipe out his species […] Nahla races against time to save his species from extinction. » L'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Vox_in_Excelso) nomme l'espèce : « Klingon cadet Jay-Den Kraag […] when the future of his species is placed under threat ». Niveau A maintenu, sur la page propre à l'épisode."
+  },
+  {
+   "id": "STP-231",
+   "type": "correction",
+   "champs": {
+    "url_source": {
+     "avant": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/",
+     "apres": "https://www.paramountplus.com/shows/video/iyevUDlexci3OxNZV62iqpbLSdA7DOJq/"
+    }
+   },
+   "motif": "revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-12 (elle ne répond pas aux clients sans navigateur) : « S1 E6: During the cadets' first training mission on an abandoned ship, they encounter a dangerous enemy. » Niveau A maintenu, sur la page propre à l'épisode."
+  }
+ ]
+}

@@ -1322,7 +1322,7 @@
      "cycle": "Discovery : futur et reconstruction post-Burn"
     },
     {
-     "id": "STP-292",
+     "id": "STP-230",
      "x": 386,
      "y": 246,
      "w": 250,
@@ -1331,12 +1331,34 @@
      "id_y": 262,
      "lignes": [
       {
-       "t": "Isolement de Betazed derrière",
+       "t": "Crise menaçant l'existence et",
        "y": 280
       },
       {
-       "t": "une barrière psionique après…",
+       "t": "l'avenir des Klingons",
        "y": 296
+      }
+     ],
+     "titre_complet": "Crise menaçant l'existence et l'avenir des Klingons",
+     "niv": "A",
+     "cycle": "Starfleet Academy (saison 1, 2026)"
+    },
+    {
+     "id": "STP-292",
+     "x": 386,
+     "y": 480,
+     "w": 250,
+     "h": 60,
+     "tx": 396,
+     "id_y": 496,
+     "lignes": [
+      {
+       "t": "Isolement de Betazed derrière",
+       "y": 514
+      },
+      {
+       "t": "une barrière psionique après…",
+       "y": 530
       }
      ],
      "titre_complet": "Isolement de Betazed derrière une barrière psionique après le Burn",
@@ -1386,28 +1408,6 @@
      "titre_complet": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
      "niv": "B",
      "cycle": "Starfleet Academy : actualisation 2026"
-    },
-    {
-     "id": "STP-230",
-     "x": 386,
-     "y": 480,
-     "w": 250,
-     "h": 60,
-     "tx": 396,
-     "id_y": 496,
-     "lignes": [
-      {
-       "t": "Crise menaçant l'existence et",
-       "y": 514
-      },
-      {
-       "t": "l'avenir des Klingons",
-       "y": 530
-      }
-     ],
-     "titre_complet": "Crise menaçant l'existence et l'avenir des Klingons",
-     "niv": "A",
-     "cycle": "Starfleet Academy (saison 1, 2026)"
     },
     {
      "id": "STP-179",
@@ -1479,7 +1479,7 @@
      "de": "STP-178",
      "vers": "STP-292",
      "type": "cause",
-     "d": "M306,426 C346,426 346,276 382,276",
+     "d": "M306,450 C346,450 346,510 382,510",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy"
     },
     {
@@ -1507,21 +1507,21 @@
      "de": "STP-178",
      "vers": "STP-230",
      "type": "cause",
-     "d": "M306,450 C346,450 346,510 382,510",
+     "d": "M306,426 C346,426 346,276 382,276",
      "url": "https://en.wikipedia.org/wiki/Vox_in_Excelso"
     },
     {
      "de": "STP-230",
      "vers": "STP-295",
      "type": "cause",
-     "d": "M636,510 C676,510 676,432 712,432",
+     "d": "M636,276 C676,276 676,432 712,432",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy#Episodes"
     },
     {
      "de": "STP-292",
      "vers": "STP-293",
      "type": "suite",
-     "d": "M636,276 C676,276 676,354 712,354",
+     "d": "M636,510 C676,510 676,354 712,354",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy#Episodes"
     },
     {
@@ -1620,10 +1620,10 @@
     "STP-182",
     "STP-183",
     "STP-187",
+    "STP-230",
     "STP-292",
     "STP-293",
     "STP-295",
-    "STP-230",
     "STP-179"
    ],
    "series": [
@@ -5097,7 +5097,7 @@
    "nb_relations": 2
   },
   {
-   "titre": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour le bombardement de la planète Pakled",
+   "titre": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour l'explosion d'une bombe sur la planète Pakled",
    "taille": 3,
    "noeuds": [
     {
@@ -5140,7 +5140,7 @@
        "y": 140
       }
      ],
-     "titre_complet": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour le bombardement de la planète Pakled",
+     "titre_complet": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour l'explosion d'une bombe sur la planète Pakled",
      "niv": "B",
      "cycle": "Lower Decks : politique des marges et adhésions"
     },
@@ -5311,28 +5311,6 @@
    "taille": 3,
    "noeuds": [
     {
-     "id": "STP-297",
-     "x": 386,
-     "y": 12,
-     "w": 250,
-     "h": 60,
-     "tx": 396,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Menace d’une chaîne de mines",
-       "y": 46
-      },
-      {
-       "t": "Omega-47 perturbant les…",
-       "y": 62
-      }
-     ],
-     "titre_complet": "Menace d’une chaîne de mines Omega-47 perturbant les voyages à distorsion",
-     "niv": "B",
-     "cycle": "Starfleet Academy : actualisation 2026"
-    },
-    {
      "id": "STP-231",
      "x": 56,
      "y": 12,
@@ -5375,6 +5353,28 @@
      "titre_complet": "Nus Braka confronte Nahla Ake à une crise mettant en jeu la Fédération",
      "niv": "B",
      "cycle": "Starfleet Academy (saison 1, 2026)"
+    },
+    {
+     "id": "STP-297",
+     "x": 386,
+     "y": 12,
+     "w": 250,
+     "h": 60,
+     "tx": 396,
+     "id_y": 28,
+     "lignes": [
+      {
+       "t": "Menace d’une chaîne de mines",
+       "y": 46
+      },
+      {
+       "t": "Omega-47 perturbant les…",
+       "y": 62
+      }
+     ],
+     "titre_complet": "Menace d’une chaîne de mines Omega-47 perturbant les voyages à distorsion",
+     "niv": "B",
+     "cycle": "Starfleet Academy : actualisation 2026"
     }
    ],
    "aretes": [
@@ -5399,9 +5399,9 @@
    "numero": 26,
    "cle": "STP-231",
    "ids": [
-    "STP-297",
     "STP-231",
-    "STP-232"
+    "STP-232",
+    "STP-297"
    ],
    "series": [
     "SFA"

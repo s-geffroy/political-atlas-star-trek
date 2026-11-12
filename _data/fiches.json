@@ -3,7 +3,7 @@
   "id": "STP-006",
   "titre": "Émeutes de Bell contre les Zones de Sanctuaire",
   "entetes": {
-   "periode": "XXIe siècle",
+   "periode": "2024",
    "source_audiovisuelle": "DS9 « Past Tense », parties I–II",
    "recoupement": "A — Éditorial officiel : faits de la fiction"
   },
@@ -478,6 +478,10 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
     "url": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/"
+   },
+   {
+    "libelle": "Source secondaire/éditoriale de contrôle (V0.17)",
+    "url": "https://www.paramountplus.com/shows/video/TWM68Ce3TC9HdLIN2ulAh8YbyCkkRkzf/"
    }
   ]
  },
@@ -667,7 +671,7 @@
   "id": "STP-293",
   "titre": "Négociation de réintégration de Betazed et proposition d’y établir le siège fédéral",
   "entetes": {
-   "periode": "3191–3192",
+   "periode": "XXXIIe siècle",
    "source_audiovisuelle": "SFA « Beta Test »",
    "recoupement": "B — Compte rendu indépendant détaillé"
   },
@@ -689,7 +693,7 @@
   "id": "STP-295",
   "titre": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
   "entetes": {
-   "periode": "3191–3192",
+   "periode": "XXXIIe siècle",
    "source_audiovisuelle": "SFA « Vox in Excelso »",
    "recoupement": "B — Résumé de saison (Wikipedia)"
   },
@@ -715,7 +719,7 @@
   "id": "STP-297",
   "titre": "Menace d’une chaîne de mines Omega-47 perturbant les voyages à distorsion",
   "entetes": {
-   "periode": "3191–3192",
+   "periode": "XXXIIe siècle",
    "source_audiovisuelle": "SFA « 300th Night » ; « Rubincon »",
    "recoupement": "B — Compte rendu indépendant détaillé"
   },

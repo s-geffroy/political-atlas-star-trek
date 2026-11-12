@@ -3,6 +3,6 @@
 layout: domaine
 domaine: colonialisme-occupation-resistance
 title: "Colonialisme, occupation et résistance"
-description: "Atlas thématique — Colonialisme, occupation et résistance : événements de la base rattachés par catégorie, table de correspondance publiée."
+description: "Ce domaine regroupe les entrées classées « colonialisme/occupation » : occupations militaires et résistances qu’elles suscitent, de Bajor à Mat’aar XII,…"
 permalink: /atlas/colonialisme-occupation-resistance/
 ---

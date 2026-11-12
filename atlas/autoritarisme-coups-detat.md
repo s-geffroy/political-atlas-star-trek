@@ -3,6 +3,6 @@
 layout: domaine
 domaine: autoritarisme-coups-detat
 title: "Autoritarisme et coups d’État"
-description: "Atlas thématique — Autoritarisme et coups d’État : événements de la base rattachés par catégorie, table de correspondance publiée."
+description: "Ce domaine regroupe les entrées classées « insurrection/pouvoir » : coups d’État, régimes autoritaires, soulèvements, crises de succession et chutes de…"
 permalink: /atlas/autoritarisme-coups-detat/
 ---

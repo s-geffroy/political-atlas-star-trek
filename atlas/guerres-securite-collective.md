@@ -3,6 +3,6 @@
 layout: domaine
 domaine: guerres-securite-collective
 title: "Guerres et sécurité collective"
-description: "Atlas thématique — Guerres et sécurité collective : événements de la base rattachés par catégorie, table de correspondance publiée."
+description: "Ce domaine regroupe les entrées classées « guerre/bataille » : guerres entre puissances et guerres civiles, batailles, attaques et représailles, débats sur…"
 permalink: /atlas/guerres-securite-collective/
 ---

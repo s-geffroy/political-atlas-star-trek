@@ -2,6 +2,7 @@
  "domaines": [
   {
    "slug": "institutions-federalisme",
+   "intro": "Ce domaine regroupe les entrées classées « institutions/fédéralisme » : fonctionnement et crises des gouvernements, successions, élections et transitions de pouvoir, adhésions à la Fédération ou départs, chaîne de commandement de Starfleet.",
    "nom": "Institutions et fédéralisme",
    "categories": [
     "institutions/fédéralisme"
@@ -54,6 +55,7 @@
   },
   {
    "slug": "guerres-securite-collective",
+   "intro": "Ce domaine regroupe les entrées classées « guerre/bataille » : guerres entre puissances et guerres civiles, batailles, attaques et représailles, débats sur une attaque préventive ; le renseignement et les opérations secrètes relèvent d’un domaine distinct.",
    "nom": "Guerres et sécurité collective",
    "categories": [
     "guerre/bataille"
@@ -154,6 +156,7 @@
   },
   {
    "slug": "colonialisme-occupation-resistance",
+   "intro": "Ce domaine regroupe les entrées classées « colonialisme/occupation » : occupations militaires et résistances qu’elles suscitent, de Bajor à Mat’aar XII, colonies déplacées ou redécoupées par un traité, mise en servitude d’un peuple par un autre.",
    "nom": "Colonialisme, occupation et résistance",
    "categories": [
     "colonialisme/occupation"
@@ -192,6 +195,7 @@
   },
   {
    "slug": "droits-civiques-discriminations",
+   "intro": "Ce domaine regroupe les entrées classées « justice/droits », catégorie plus large que son intitulé : persécutions de minorités, ségrégation, discriminations de sexe ou de genre, mais aussi procès, audiences, droit d’asile et statut juridique des êtres artificiels.",
    "nom": "Droits civiques et discriminations",
    "categories": [
     "justice/droits"
@@ -288,6 +292,7 @@
   },
   {
    "slug": "autoritarisme-coups-detat",
+   "intro": "Ce domaine regroupe les entrées classées « insurrection/pouvoir » : coups d’État, régimes autoritaires, soulèvements, crises de succession et chutes de dirigeants ; la catégorie couvre aussi des changements de pouvoir sans violence, comme une élection.",
    "nom": "Autoritarisme et coups d’État",
    "categories": [
     "insurrection/pouvoir"
@@ -356,6 +361,7 @@
   },
   {
    "slug": "economie-politique-classes",
+   "intro": "Ce domaine regroupe les entrées classées « économie/social » : hiérarchies de classe ou de caste, conditions de travail, pénuries et chocs économiques comme le Burn, domination commerciale, ascension sociale et contre-cultures.",
    "nom": "Économie politique et classes sociales",
    "categories": [
     "économie/social"
@@ -395,6 +401,7 @@
   },
   {
    "slug": "renseignement-propagande-raison-detat",
+   "intro": "Ce domaine regroupe les entrées classées « renseignement/sécurité » : services secrets comme Section 31, opérations clandestines, infiltrations, conspirations et sabotages ; la propagande et la raison d’État, sans catégorie propre, n’apparaissent que dans les entrées de cette catégorie qui les évoquent.",
    "nom": "Renseignement, propagande et raison d’État",
    "categories": [
     "renseignement/sécurité"
@@ -466,6 +473,7 @@
   },
   {
    "slug": "diplomatie-traites",
+   "intro": "Ce domaine regroupe les entrées classées « diplomatie/traité » : premiers contacts, négociations, traités et accords de frontière, alliances, aide humanitaire, et cas où la Directive première limite l’intervention de la Fédération.",
    "nom": "Diplomatie et traités",
    "categories": [
     "diplomatie/traité"
@@ -546,6 +554,7 @@
   },
   {
    "slug": "religion-legitimite",
+   "intro": "Ce domaine regroupe les entrées classées « religion/légitimité » : rapports entre autorité religieuse et pouvoir politique, à Bajor avec les Prophètes et l’Émissaire, chez les Klingons avec le retour de Kahless, ou sur une planète soumise à l’ordinateur Vaal.",
    "nom": "Religion et légitimité politique",
    "categories": [
     "religion/légitimité"
@@ -568,6 +577,7 @@
   },
   {
    "slug": "technologie-bioethique-ia",
+   "intro": "Ce domaine regroupe les entrées classées « technologie/bioéthique » : eugénisme et modifications génétiques, droits des intelligences artificielles et des synthétiques, de l’audience sur le statut de Data à leur interdiction fédérale, technologies militaires devenues incontrôlables.",
    "nom": "Technologie, bioéthique et intelligences artificielles",
    "categories": [
     "technologie/bioéthique"

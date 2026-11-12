@@ -4,17 +4,18 @@ layout: default
 {%- assign S = site.data.stats -%}
 {%- assign evs = site.data.evenements -%}
 {%- assign ed = site.data.editorial -%}
-<section class="balayage" aria-labelledby="titre-accueil">
-  <h1 id="titre-accueil">{{ site.title }}</h1>
-  <p class="chapo">{{ site.tagline }}. Une encyclopédie documentaire indépendante, entre atlas historique, publication universitaire et observatoire géopolitique : que s’est-il passé politiquement dans l’univers <em>Star Trek</em>, avec quels acteurs, quelles causes et quelles conséquences — et quels parallèles rigoureux avec l’histoire réelle ?</p>
-</section>
-
 {%- assign nA = S.niveaux | where: "cle", "A" | first -%}
 {%- assign nB = S.niveaux | where: "cle", "B" | first -%}
+{%- assign recoupes = nA.n | plus: nB.n -%}
+<section class="balayage" aria-labelledby="titre-accueil">
+  <h1 id="titre-accueil">{{ site.title }}</h1>
+  <p class="chapo">Que s’est-il passé politiquement dans l’univers <em>Star Trek</em> ? Coups d’État, occupations, procès, traités : l’atlas recense {{ S.distincts }} événements tirés des séries, des films et des <em>Short Treks</em>. {% if recoupes == S.distincts %}Chacun est recoupé{% else %}Parmi eux, {{ recoupes }} sont recoupés{% endif %} par une source citée, officielle (niveau A) ou indépendante (niveau B). Dans {{ S.fiches }} fiches approfondies, un événement est confronté à l’histoire réelle, avec les limites de la comparaison.</p>
+</section>
+
 <div class="compteurs" role="list">
   <div class="compteur" role="listitem"><b>{{ S.distincts }}</b><span>événements distincts ({{ S.total }} entrées, dont {{ S.doublons }} doublons)</span></div>
   <div class="compteur" role="listitem"><b>{{ S.fiches }}</b><span>fiches approfondies</span></div>
-  <div class="compteur" role="listitem"><b>{{ nA.n | plus: nB.n }}</b><span>entrées recoupées (A ou B)</span></div>
+  <div class="compteur" role="listitem"><b>{{ recoupes }}</b><span>événements recoupés (A ou B)</span></div>
   <div class="compteur" role="listitem"><b>{{ S.series.size }}</b><span>séries et ensembles couverts</span></div>
 </div>
 

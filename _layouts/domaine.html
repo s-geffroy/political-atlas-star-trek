@@ -5,6 +5,9 @@ layout: default
 <article>
   <p class="fil"><a href="{{ '/atlas/' | relative_url }}">Atlas thématique</a> › {{ d.nom }}</p>
   <h1>{{ d.nom }}</h1>
+  {%- if d.intro %}
+  <p class="chapo">{{ d.intro | escape }}</p>
+  {%- endif %}
   <dl class="donnees">
     <dt>Catégories rattachées</dt><dd>{% if d.categories.size > 0 %}<code>{{ d.categories | join: "</code>, <code>" }}</code>{% else %}Aucune catégorie de la base ne correspond à ce domaine.{% endif %}</dd>
     <dt>Entrées par catégorie</dt><dd>{{ d.evenements.size }}</dd>

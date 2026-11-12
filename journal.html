@@ -1,0 +1,13 @@
+---
+title: Journal des versions du corpus
+nav: methodologie
+permalink: /journal/
+description: "Les versions successives du corpus de l’atlas politique de Star Trek, de la V0.3 à aujourd’hui : recoupements, corrections, doublons tranchés et harmonisations."
+---
+{%- assign MOIS = "janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre" | split: "," -%}
+<p class="chapo">Chaque version du corpus corrige ou vérifie des entrées ; ses motifs détaillés figurent dans la note d’audit des fiches concernées. Ce journal en donne le résumé, du plus récent au plus ancien. Il est aussi diffusé en flux <a href="{{ '/feed.xml' | relative_url }}">Atom</a>.</p>
+<ol class="cartes">
+  {%- for p in site.posts %}{% assign m = p.date | date: "%-m" | minus: 1 %}
+  <li class="carte"><div class="carte__id"><time datetime="{{ p.date | date: '%Y-%m-%d' }}">{{ p.date | date: "%-d" }} {{ MOIS[m] }} {{ p.date | date: "%Y" }}</time></div><div><h2 class="carte__titre"><a href="{{ p.url | relative_url }}">{{ p.title | escape }}</a></h2><p class="carte__meta">{{ p.description | escape }}</p></div></li>
+  {%- endfor %}
+</ol>

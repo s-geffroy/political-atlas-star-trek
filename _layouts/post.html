@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{%- comment -%}Billet du journal des versions du corpus (_posts/).{%- endcomment -%}
+{%- assign MOIS = "janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre" | split: "," -%}
+{%- assign m = page.date | date: "%-m" | minus: 1 -%}
+<article>
+  <p class="fil"><a href="{{ '/journal/' | relative_url }}">Journal des versions</a> › {{ page.title | escape }}</p>
+  <h1>{{ page.title | escape }}</h1>
+  <p class="carte__meta"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%-d" }} {{ MOIS[m] }} {{ page.date | date: "%Y" }}</time></p>
+  {{ content }}
+  <p class="carte__meta"><a href="{{ '/journal/' | relative_url }}">Toutes les versions du corpus</a> · <a href="{{ '/methodologie/' | relative_url }}#synthese">État actuel du corpus</a></p>
+</article>

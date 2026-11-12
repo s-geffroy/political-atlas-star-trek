@@ -3,6 +3,6 @@
 layout: domaine
 domaine: religion-legitimite
 title: "Religion et légitimité politique"
-description: "Atlas thématique — Religion et légitimité politique : événements de la base rattachés par catégorie, table de correspondance publiée."
+description: "Ce domaine regroupe les entrées classées « religion/légitimité » : rapports entre autorité religieuse et pouvoir politique, à Bajor avec les Prophètes et…"
 permalink: /atlas/religion-legitimite/
 ---

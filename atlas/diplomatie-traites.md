@@ -3,6 +3,6 @@
 layout: domaine
 domaine: diplomatie-traites
 title: "Diplomatie et traités"
-description: "Atlas thématique — Diplomatie et traités : événements de la base rattachés par catégorie, table de correspondance publiée."
+description: "Ce domaine regroupe les entrées classées « diplomatie/traité » : premiers contacts, négociations, traités et accords de frontière, alliances, aide…"
 permalink: /atlas/diplomatie-traites/
 ---

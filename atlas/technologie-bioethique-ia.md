@@ -3,6 +3,6 @@
 layout: domaine
 domaine: technologie-bioethique-ia
 title: "Technologie, bioéthique et intelligences artificielles"
-description: "Atlas thématique — Technologie, bioéthique et intelligences artificielles : événements de la base rattachés par catégorie, table de correspondance publiée."
+description: "Ce domaine regroupe les entrées classées « technologie/bioéthique » : eugénisme et modifications génétiques, droits des intelligences artificielles et des…"
 permalink: /atlas/technologie-bioethique-ia/
 ---

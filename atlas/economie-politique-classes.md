@@ -3,6 +3,6 @@
 layout: domaine
 domaine: economie-politique-classes
 title: "Économie politique et classes sociales"
-description: "Atlas thématique — Économie politique et classes sociales : événements de la base rattachés par catégorie, table de correspondance publiée."
+description: "Ce domaine regroupe les entrées classées « économie/social » : hiérarchies de classe ou de caste, conditions de travail, pénuries et chocs économiques comme…"
 permalink: /atlas/economie-politique-classes/
 ---

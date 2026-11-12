@@ -50,6 +50,9 @@ defaults:
     values: { layout: evenement, image: /assets/partage.png }
   - scope: { path: "" }
     values: { layout: page, image: /assets/partage.png }
+  # Journal des versions du corpus : /journal/corpus-v0-N/ (adresse sans date).
+  - scope: { path: "", type: posts }
+    values: { layout: post, permalink: "/journal/:title/" }
 
 kramdown:
   input: GFM

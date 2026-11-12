@@ -3,6 +3,6 @@
 layout: domaine
 domaine: renseignement-propagande-raison-detat
 title: "Renseignement, propagande et raison d’État"
-description: "Atlas thématique — Renseignement, propagande et raison d’État : événements de la base rattachés par catégorie, table de correspondance publiée."
+description: "Ce domaine regroupe les entrées classées « renseignement/sécurité » : services secrets comme Section 31, opérations clandestines, infiltrations,…"
 permalink: /atlas/renseignement-propagande-raison-detat/
 ---

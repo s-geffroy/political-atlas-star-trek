@@ -651,7 +651,7 @@ export function ecrireSorties(r) {
   // Une page par domaine de l'atlas.
   for (const d of r.atlas.domaines) {
     ecrire(path.join(ROOT, 'atlas', `${d.slug}.md`), ['---', '# Fichier GENERE par scripts/import.mjs.', 'layout: domaine', `domaine: ${d.slug}`,
-      `title: ${yamlStr(d.nom)}`, `description: ${yamlStr(`Atlas thématique — ${d.nom} : événements de la base rattachés par catégorie, table de correspondance publiée.`)}`,
+      `title: ${yamlStr(d.nom)}`, `description: ${yamlStr(d.intro ? (d.intro.length > 158 ? d.intro.slice(0, 157).replace(/\s+\S*$/, '') + '…' : d.intro) : `Atlas thématique — ${d.nom} : événements de la base rattachés par catégorie, table de correspondance publiée.`)}`,
       `permalink: /atlas/${d.slug}/`, '---', ''].join('\n'));
   }
 

@@ -2,7 +2,7 @@
 <footer class="pied" role="contentinfo">
   <div class="cadre pied__grille">
     <p><strong>Projet indépendant.</strong> {{ site.title }} n’est ni affilié à, ni approuvé par Paramount ou CBS Studios. <em>Star Trek</em> et les noms associés sont des marques de leurs détenteurs ; ils sont cités ici à des fins documentaires et critiques. Aucune image officielle n’est reproduite.</p>
-    <p><strong>Corpus V{{ ed.version }}.</strong> {{ site.data.stats.total }} entrées ({{ site.data.stats.distincts }} événements distincts), {{ site.data.stats.fiches }} fiches approfondies. Données : <code>{{ ed.csv | split: "/" | last }}</code>. <a href="{{ '/methodologie/' | relative_url }}">Méthodologie et limites</a>.</p>
+    <p><strong>Corpus V{{ ed.version }}.</strong> {{ site.data.stats.total }} entrées ({{ site.data.stats.distincts }} événements distincts), {{ site.data.stats.fiches }} fiches approfondies. Données : <a href="https://github.com/{{ site.repository }}/blob/main/{{ ed.csv }}">tableur du corpus</a> (format CSV). <a href="{{ '/methodologie/' | relative_url }}">Méthodologie et limites</a> · <a href="{{ '/journal/' | relative_url }}">Journal des versions</a>.</p>
     <p><strong>Licences.</strong> Textes de l’atlas : <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>. Code : licence MIT. <a href="https://github.com/{{ site.repository }}">Dépôt source</a> · <a href="{{ '/contribuer/' | relative_url }}">Signaler une erreur</a>.</p>
   </div>
 </footer>

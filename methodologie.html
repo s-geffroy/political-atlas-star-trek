@@ -28,7 +28,7 @@ description: Protocole de recherche, niveaux de vérification A/B/C, corrections
 {%- if ed.synthese.historique.size > 0 %}
 <details class="historique">
 <summary>Historique des mises à jour du corpus ({{ ed.synthese.historique.last.version }} à {{ ed.synthese.historique.first.version }})</summary>
-<p class="carte__meta">Les répartitions citées dans ces paragraphes comptent toutes les entrées, doublons compris.</p>
+<p class="carte__meta">Les répartitions citées dans ces paragraphes comptent toutes les entrées, doublons compris. Résumé de chaque version : <a href="{{ '/journal/' | relative_url }}">journal des versions</a>.</p>
 {%- for h in ed.synthese.historique %}
 {{ h.markdown | markdownify }}
 {%- endfor %}

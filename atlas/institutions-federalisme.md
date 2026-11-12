@@ -3,6 +3,6 @@
 layout: domaine
 domaine: institutions-federalisme
 title: "Institutions et fédéralisme"
-description: "Atlas thématique — Institutions et fédéralisme : événements de la base rattachés par catégorie, table de correspondance publiée."
+description: "Ce domaine regroupe les entrées classées « institutions/fédéralisme » : fonctionnement et crises des gouvernements, successions, élections et transitions de…"
 permalink: /atlas/institutions-federalisme/
 ---

@@ -10,7 +10,7 @@ description: Les événements politiques de Star Trek classés selon les dates r
 {% include chrono-onglets.html vue="diffusion" %}
 
 <div class="encadre encadre--alerte">
-  <p><strong>Enrichissement hors corpus.</strong> Le corpus ne contient pas de dates de diffusion. Celles-ci ont été relevées (dernier relevé : {{ D.releve_le }}) sur les pages citées dans le fichier de données ; une date n’apparaît que si elle a été lue sur sa source, accessible depuis chaque fiche. Quand deux pages divergent (diffusions en syndication de TNG et DS9), la précision est réduite au mois ou à l’année, ou la date est omise.</p>
+  <p><strong>Enrichissement hors corpus.</strong> Le corpus ne contient pas de dates de diffusion. Celles-ci ont été relevées (dernier relevé : {% include date-fr.html d=D.releve_le %}) sur les pages citées dans le fichier de données ; une date n’apparaît que si elle a été lue sur sa source, accessible depuis chaque fiche. Quand deux pages divergent (diffusions en syndication de TNG et DS9), la précision est réduite au mois ou à l’année, ou la date est omise.</p>
 </div>
 {%- for b in D.blocs %}
 <h2 class="piste-titre" id="bloc-{{ b.code | slugify }}">{{ b.nom }} — {% if b.debut %}{{ b.debut }}{% else %}date non vérifiée{% endif %}{% if b.fin %} → {{ b.fin }}{% elsif b.debut %} → en cours{% endif %}</h2>
@@ -18,7 +18,7 @@ description: Les événements politiques de Star Trek classés selon les dates r
 {%- if b.evenements.size > 0 %}
 <ol class="frise">
   {%- for x in b.evenements %}{% assign e = evs | where: "id", x.id | first %}
-  <li data-niv="{{ e.niveau_recoupement }}"><a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{% if x.date %}{{ x.date }}{% else %}date non renseignée{% endif %} · {{ e.id }} — {{ e.event | escape }}</a></li>
+  <li data-niv="{{ e.niveau_recoupement }}"><a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{% if x.date %}{% include date-fr.html d=x.date %}{% else %}date non renseignée{% endif %} · {{ e.id }} — {{ e.event | escape }}</a></li>
   {%- endfor %}
 </ol>
 {%- endif %}

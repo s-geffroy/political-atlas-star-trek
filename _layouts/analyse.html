@@ -22,7 +22,7 @@ layout: default
   <section class="volet"><h3>Ce que dit la fiche</h3>{{ f.volets.contexte | markdownify }}</section>
   {%- if e.diffusion.size > 0 %}
   <p>Repères de diffusion relevés pour l’atlas (enrichissement hors corpus, voir la <a href="{{ '/chronologie/diffusion/' | relative_url }}">chronologie de diffusion</a>) :</p>
-  <ul>{% for d in e.diffusion %}<li>« {{ d.titre | escape }} » : <time datetime="{{ d.date }}">{{ d.date }}</time> (<a href="{{ d.source_url }}" rel="noopener">source</a>)</li>{% endfor %}</ul>
+  <ul>{% for d in e.diffusion %}<li>« {{ d.titre | escape }} » : <time datetime="{{ d.date }}">{% include date-fr.html d=d.date %}</time> (<a href="{{ d.source_url }}" rel="noopener">source</a>)</li>{% endfor %}</ul>
   {%- endif %}
 
   <h2>3. Le temps de la diffusion</h2>

@@ -1,0 +1,6 @@
+{%- comment -%}Date ISO (AAAA, AAAA-MM ou AAAA-MM-JJ) en francais : « 2 janvier 1995 », « janvier 1995 ». Le filtre date de Jekyll 3 ecrit les mois en anglais.{%- endcomment -%}
+{%- assign _p = include.d | split: "-" -%}
+{%- assign _mois = "janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre" | split: "," -%}
+{%- if _p.size == 3 -%}{%- assign _m = _p[1] | plus: 0 | minus: 1 -%}{%- assign _j = _p[2] | plus: 0 -%}{{ _j }}{% if _j == 1 %}er{% endif %} {{ _mois[_m] }} {{ _p[0] }}
+{%- elsif _p.size == 2 -%}{%- assign _m = _p[1] | plus: 0 | minus: 1 -%}{{ _mois[_m] }} {{ _p[0] }}
+{%- else -%}{{ include.d }}{%- endif -%}

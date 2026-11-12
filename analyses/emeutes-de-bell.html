@@ -23,9 +23,9 @@ description: "Analyse de STP-006, les émeutes de Bell (Star Trek: Deep Space Ni
 <section class="volet"><h3>Ce que dit la fiche</h3>{{ f.volets.contexte | markdownify }}</section>
 <p>Repères de diffusion relevés pour l’atlas (enrichissement hors corpus, voir la <a href="{{ '/chronologie/diffusion/' | relative_url }}">chronologie de diffusion</a>) :</p>
 <ul>
-  <li><em>Deep Space Nine</em> : première diffusion le <time datetime="{{ ds9.debut }}">{{ ds9.debut }}</time>, fin en {{ ds9.fin }} (<a href="{{ ds9.source_url }}" rel="noopener">source</a>).</li>
+  <li><em>Deep Space Nine</em> : première diffusion le <time datetime="{{ ds9.debut }}">{% include date-fr.html d=ds9.debut %}</time>, fin en {{ ds9.fin }} (<a href="{{ ds9.source_url }}" rel="noopener">source</a>).</li>
   {%- for d in e.diffusion %}
-  <li>« {{ d.titre }} » : <time datetime="{{ d.date }}">{{ d.date }}</time> (<a href="{{ d.source_url }}" rel="noopener">source</a>).</li>
+  <li>« {{ d.titre }} » : <time datetime="{{ d.date }}">{% include date-fr.html d=d.date %}</time> (<a href="{{ d.source_url }}" rel="noopener">source</a>).</li>
   {%- endfor %}
   <li>« Past Tense, Part I » : les pages consultées divergent sur la date exacte et sur l’année (fin décembre 1994 ou début janvier 1995) ; l’atlas ne retient pas de date.</li>
 </ul>

@@ -314,3 +314,6 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .historique { background: var(--surface); border-radius: 1rem; padding: 0.7rem 1.2rem; margin: 1.2rem 0; }
 .historique summary { cursor: pointer; font-weight: 600; color: var(--cyan, inherit); }
 .historique[open] summary { margin-bottom: 0.6rem; }
+.audit { margin: 0; padding-left: 1.2rem; }
+.audit li { margin: 0 0 0.4rem; }
+.audit__brut summary { cursor: pointer; color: var(--doux); font-size: 0.9rem; }

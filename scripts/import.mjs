@@ -12,7 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { readRecords } from './lib/csv.mjs';
 import { parseFiches, parseRegistre, sectionsEditoriales } from './lib/fiches.mjs';
-import { SERIES, CONTINUITES, PRECISIONS, episodesDe, continuite, ordreDiegetique, slug, epKey } from './lib/derive.mjs';
+import { SERIES, CONTINUITES, PRECISIONS, episodesDe, continuite, ordreDiegetique, slug, epKey, historiqueAudit } from './lib/derive.mjs';
 import { construireAtlas, DOMAINES } from './lib/atlas.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
@@ -110,6 +110,7 @@ export function importer(csvPath, mdPath) {
       continuite: cont.code,
       continuite_regle: cont.regle,
       ordre: ordreDiegetique(d.period),
+      audit: historiqueAudit(d.note_audit),
       cycle_slug: slug(d.cycle),
       fiche: ficheParId.has(d.id),
       corrections: corrections.get(d.id) || [],

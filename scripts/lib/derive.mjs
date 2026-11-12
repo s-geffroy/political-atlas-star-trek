@@ -109,3 +109,50 @@ export function slug(s) {
 export function epKey(e) {
   return `${e.serie || '?'}|${e.titre.toLowerCase().replace(/[’']/g, "'").replace(/[.…]+$/, '').trim()}`;
 }
+
+// Note d'audit lisible (affichage seulement ; le champ note_audit reste brut).
+// Decoupe par version (« V0.N (AAAA-MM-JJ) : »), explicite les sigles internes,
+// retire les chemins de fichiers non publies, isole les URL pour en faire des liens.
+const MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+export function dateLongue(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+  return m ? `${Number(m[3])}${m[3] === '01' ? 'er' : ''} ${MOIS[Number(m[2]) - 1]} ${m[1]}` : null;
+}
+export function lisibiliteAudit(texte) {
+  return texte
+    .replace(/\s*,\s*docs\/[\w./-]+/g, '')
+    .replace(/\s*\(docs\/[\w./-]+\)/g, '')
+    .replace(/\brecoupement ([ABC]) \(source officielle\)/g, 'passage au niveau $1 (source officielle)')
+    .replace(/\brecoupement ([ABC])\b/g, 'niveau $1')
+    .replace(/\bSource ([ABC]) précédente\b/g, 'Source du niveau $1 précédent')
+    .replace(/\bcorrigé\(s\)/g, 'corrigé')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+export function historiqueAudit(note) {
+  if (!note) return [];
+  const re = /(?:^|\s)(V\d+\.\d+)(?: \((\d{4}-\d{2}-\d{2})\))? : /g;
+  const marques = [...note.matchAll(re)];
+  if (!marques.length) return [{ version: null, date: null, segments: segmentsUrl(lisibiliteAudit(note)) }];
+  const avant = note.slice(0, marques[0].index).trim();
+  const origine = avant ? [{ version: null, date: null, segments: segmentsUrl(lisibiliteAudit(avant)) }] : [];
+  return origine.concat(marques.map((m, i) => {
+    const debut = m.index + m[0].length;
+    const fin = i + 1 < marques.length ? marques[i + 1].index : note.length;
+    return { version: m[1], date: dateLongue(m[2]), segments: segmentsUrl(lisibiliteAudit(note.slice(debut, fin))) };
+  }));
+}
+function segmentsUrl(t) {
+  const out = [];
+  let reste = t;
+  for (const m of t.matchAll(/https?:\/\/[^\s<>]+/g)) {
+    let url = m[0];
+    while (/[.,;:!?»]$/.test(url) || (url.endsWith(')') && url.split('(').length < url.split(')').length)) url = url.slice(0, -1);
+    const i = reste.indexOf(url);
+    if (i > 0) out.push({ texte: reste.slice(0, i) });
+    out.push({ url });
+    reste = reste.slice(i + url.length);
+  }
+  if (reste) out.push({ texte: reste });
+  return out;
+}

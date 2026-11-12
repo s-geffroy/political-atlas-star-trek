@@ -37,13 +37,16 @@ layout: default
     <dt class="derive">Série(s)</dt><dd>{% for s in e.series %}{% assign sr = R.series | where: "code", s | first %}<a href="{{ '/evenements/' | relative_url }}?serie={{ s | uri_escape }}">{{ sr.nom }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% if e.references_non_rattachees.size > 0 %} — non rattaché : {{ e.references_non_rattachees | join: ", " | escape }}{% endif %}</dd>
     <dt>Problématique politique</dt><dd>{{ e.politics | escape }}</dd>
     <dt>Catégories</dt><dd>{{ e.categories_politiques | escape }}</dd>
-    <dt>Niveau de recoupement</dt><dd><span class="niveau niveau--{{ e.niveau_recoupement }}">{{ e.niveau_recoupement }}</span> <a href="{{ '/methodologie/' | relative_url }}#niveaux">définition</a></dd>
+    <dt>Niveau de vérification</dt><dd><span class="niveau niveau--{{ e.niveau_recoupement }}">{{ e.niveau_recoupement }}</span> <a href="{{ '/methodologie/' | relative_url }}#niveaux">définition</a></dd>
     <dt>Nature de la source</dt><dd>{{ e.nature_source | escape }}</dd>
     <dt>Source de contrôle</dt><dd>{% if e.url_source != "" %}<a href="{{ e.url_source }}" rel="noopener">{{ e.url_source | escape }}</a>{% else %}Aucune URL dans le corpus.{% endif %}</dd>
-    {%- if e.note_audit != "" %}<dt>Note d’audit</dt><dd>{{ e.note_audit | escape }}</dd>{% endif %}
+    {%- if e.note_audit != "" %}<dt>Historique de vérification</dt><dd>
+      <ol class="audit">{% for h in e.audit %}<li>{% if h.version %}<strong>{{ h.version | replace_first: "V", "Version " }}</strong>{% if h.date %} ({{ h.date }}){% endif %} : {% else %}<strong>Note d’origine</strong> : {% endif %}{% for s in h.segments %}{% if s.url %}<a href="{{ s.url }}" rel="noopener">{{ s.url | escape }}</a>{% else %}{{ s.texte | escape }}{% endif %}{% endfor %}</li>{% endfor %}</ol>
+      <details class="audit__brut"><summary>Texte d’origine du corpus</summary><p>{{ e.note_audit | escape }}</p></details>
+    </dd>{% endif %}
     {%- if e.note_editoriale %}<dt>Note éditoriale</dt><dd>{{ e.note_editoriale | escape }}</dd>{% endif %}
     {%- for c in e.corrections %}<dt>Correction documentée</dt><dd>{{ c.motif | markdownify | remove: "<p>" | remove: "</p>" | strip }}</dd>{% endfor %}
-    <dt>Version d’entrée</dt><dd>{{ e.version_entree }}</dd>
+    <dt>Version du corpus</dt><dd>{% assign ve = e.version_entree | split: " " %}{% if ve[1] == "révisé" %}entrée révisée en {{ ve[0] }}{% elsif ve[1] == "ajout" %}entrée ajoutée en {{ ve[0] }}{% else %}entrée issue de la {{ e.version_entree }}{% endif %}</dd>
     {%- if e.diffusion.size > 0 %}
     <dt class="derive">Première diffusion</dt><dd>{% for d in e.diffusion %}{{ d.titre | escape }} : <time datetime="{{ d.date }}">{{ d.date }}</time> (<a href="{{ d.source_url }}" rel="noopener">source</a>){% unless forloop.last %} ; {% endunless %}{% endfor %}</dd>
     {%- endif %}

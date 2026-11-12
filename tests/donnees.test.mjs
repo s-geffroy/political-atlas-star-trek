@@ -116,3 +116,32 @@ test('mise en page : URL nues rendues cliquables, ponctuation finale preservee',
   assert.equal(liensCliquables('(https://a.org/x)'), '(<https://a.org/x>)');
   assert.equal(liensCliquables('Source https://a.org/b_(c)_d, puis'), 'Source <https://a.org/b_(c)_d>, puis');
 });
+
+test('note d\'audit lisible : une etape par version, sans chemins internes, URL isolees', async () => {
+  const { historiqueAudit } = await import('../scripts/lib/derive.mjs');
+  const h = historiqueAudit('V0.4 (2026-11-10) : catégories (proposition validée le 2026-11-10, docs/proposition-categories.md) — recoupement B — voir https://en.wikipedia.org/wiki/A_(b). V0.5 (2026-11-10) : recoupement A (source officielle) — ok.');
+  assert.equal(h.length, 2);
+  assert.equal(h[0].version, 'V0.4');
+  assert.equal(h[0].date, '10 novembre 2026');
+  const t0 = h[0].segments.map((s) => s.texte || s.url).join('');
+  assert.ok(!t0.includes('docs/'));
+  assert.ok(t0.includes('niveau B'));
+  assert.deepEqual(h[0].segments.filter((s) => s.url).map((s) => s.url), ['https://en.wikipedia.org/wiki/A_(b)']);
+  assert.ok(h[1].segments[0].texte.startsWith('passage au niveau A'));
+  // Tout le texte non technique est conserve.
+  for (const e of gen) if (e.note_audit) assert.ok(e.audit.length > 0, e.id);
+});
+
+test('note d\'audit lisible : aucun texte perdu (hors chemins internes)', async () => {
+  const { historiqueAudit } = await import('../scripts/lib/derive.mjs');
+  const h = historiqueAudit('Constat initial. V0.4 (2026-11-10) : suite.');
+  assert.equal(h.length, 2);
+  assert.equal(h[0].version, null);
+  assert.equal(h[0].segments[0].texte, 'Constat initial.');
+  const mots = (t) => t.replace(/https?:\/\/\S+|docs\/\S+|\(source officielle\)|recoupement|corrigé\(s\)|corrigé|niveau|passage|au|Source|du|précédent|précédente|[ABC]\b/g, ' ').split(/[^\p{L}\p{N}]+/u).filter((w) => w.length > 3);
+  for (const e of gen) {
+    if (!e.note_audit) continue;
+    const affiche = e.audit.flatMap((x) => [x.version || '', ...x.segments.map((s) => s.texte || s.url)]).join(' ');
+    for (const w of mots(e.note_audit)) assert.ok(affiche.includes(w) || /^\d{4}$/.test(w) || /^V\d/.test(w), `${e.id} : « ${w} » perdu`);
+  }
+});

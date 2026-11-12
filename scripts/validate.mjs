@@ -62,6 +62,8 @@ export function valider({ csv, md } = dernieresSources()) {
     for (const [id, n] of r.registre) {
       const e = r.records.find((x) => x.data.id === id)?.data;
       if (e && n.niveau !== e.niveau_recoupement) warn.push(`${id} : registre Markdown ${n.niveau}, CSV ${e.niveau_recoupement}`);
+      // Lien « Contrôle » du registre : meme URL que le CSV (une parenthese en trop le casse).
+      if (e && n.controle != null && e.url_source && n.controle !== e.url_source) err.push(`${id} : lien de contrôle du registre « ${n.controle} » ≠ CSV « ${e.url_source} »`);
     }
     ajouter(3, 'Niveaux de recoupement A / B / C', err, warn, r.stats.niveaux.map((n) => `${n.cle} : ${n.n}`).join(', ') + '.');
   }

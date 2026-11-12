@@ -68,7 +68,8 @@ export function parseRegistre(md) {
       if (!m) continue;
       const niv = /\*Recoupement :\* \*\*([ABC])\*\*/.exec(block);
       const note = /\*Note éditoriale :\* (.+)$/m.exec(block);
-      out.set(m[1], { id: m[1], titre: m[2], cycle: s.title.replace(/ — \d+ entrées$/, ''), niveau: niv && niv[1], note_editoriale: note && note[1].trim() });
+      const ctrl = /\[Contrôle\]\((\S*)\)/.exec(block);
+      out.set(m[1], { id: m[1], titre: m[2], cycle: s.title.replace(/ — \d+ entrées$/, ''), niveau: niv && niv[1], note_editoriale: note && note[1].trim(), controle: ctrl && ctrl[1] });
     }
   }
   return out;

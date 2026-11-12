@@ -90,7 +90,9 @@ export function appliquer(journal) {
         if (c.champs.politics) b = uneFois(b, `*Problématique :* ${c.champs.politics.avant}`, `*Problématique :* ${c.champs.politics.apres}`, `${id} : problématique du registre`, erreur, ['.', ' ', '\n', '\r']);
         if (c.champs.period) b = uneFois(b, `*Temps fictionnel :* ${c.champs.period.avant}.`, `*Temps fictionnel :* ${c.champs.period.apres}.`, `${id} : période du registre`, erreur);
       }
-      b = b.replace(/\*Recoupement :\* \*\*[ABC]\*\*\.( \[Contrôle\]\([^)]*\))?/, () =>
+      // Le lien de controle va jusqu'a l'espace : une URL a parentheses
+      // (Wikipedia « …_(episode) ») est remplacee en entier, sans « ) » residuelle.
+      b = b.replace(/\*Recoupement :\* \*\*[ABC]\*\*\.( \[Contrôle\]\(\S*)?/, () =>
         `*Recoupement :* **${d.niveau_recoupement}**.` + (d.url_source ? ` [Contrôle](${d.url_source})` : ''));
       const ligneNote = `*Note d’audit ${v} :* ${joindre(cs)}`;
       return b.replace(/\s+$/, '') + `  \n${ligneNote}`;

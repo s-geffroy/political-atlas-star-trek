@@ -3,14 +3,14 @@ layout: default
 ---
 {%- assign R = site.data.reseau -%}
 {%- assign c = R.composantes | where: "cle", page.groupe | first -%}
-<p class="fil"><a href="{{ '/reseau/' | relative_url }}">Réseau des relations</a> › {{ c.titre }}</p>
-<h1 id="titre-groupe">{{ c.titre }}</h1>
-<p class="chapo">{{ c.taille }} événements, {{ c.nb_relations }} relations documentées ({{ c.series | join: ", " }}). Lecture de gauche à droite : un fait est placé après ceux dont il est la conséquence ou la suite. Chaque événement mène à sa fiche.</p>
+<p class="fil"><a href="{{ '/reseau/' | relative_url }}">Réseau des relations</a> › Arc « {{ c.titre | escape }} »</p>
+<h1 id="titre-groupe">Arc « {{ c.titre | escape }} »</h1>
+<p class="chapo">{{ c.taille }} événement{% if c.taille > 1 %}s{% endif %}, {{ c.nb_relations }} relation{% if c.nb_relations > 1 %}s{% endif %} documentée{% if c.nb_relations > 1 %}s{% endif %} ({{ c.series_noms | join: ", " }}). Lecture de gauche à droite : un fait est placé après ceux dont il est la conséquence ou la suite. Chaque événement mène à sa fiche.</p>
 {% include reseau-legende.html %}
-<div class="defile" tabindex="0" role="region" aria-label="Graphe : {{ c.titre }}">
+<div class="defile" tabindex="0" role="region" aria-label="Graphe de l’arc « {{ c.titre | escape }} »">
 <svg class="reseau" width="{{ c.largeur }}" height="{{ c.hauteur }}" viewBox="0 0 {{ c.largeur }} {{ c.hauteur }}" role="group" aria-labelledby="titre-groupe">
   {%- for a in c.aretes %}<path d="{{ a.d }}" class="lien lien--{{ a.type }}"{% if a.type == "cause" %} marker-end="url(#fl-cause)"{% elsif a.type == "suite" %} marker-end="url(#fl-suite)"{% endif %} aria-hidden="true"/>{% endfor %}
-  {%- for n in c.noeuds %}<a href="{{ '/evenements/' | append: n.id | append: '/' | relative_url }}" aria-label="{{ n.id }} — {{ n.titre_complet | escape }}"><rect x="{{ n.x }}" y="{{ n.y }}" width="{{ n.w }}" height="{{ n.h }}" rx="6"/><text x="{{ n.x | plus: 10 }}" y="{{ n.y | plus: 28 }}">{{ n.id }} · {{ n.titre | escape }}</text></a>{% endfor %}
+  {%- for n in c.noeuds %}<a href="{{ '/evenements/' | append: n.id | append: '/' | relative_url }}" aria-label="{{ n.id }} — {{ n.titre_complet | escape }}"><title>{{ n.id }} — {{ n.titre_complet | escape }}</title><rect x="{{ n.x }}" y="{{ n.y }}" width="{{ n.w }}" height="{{ n.h }}" rx="6"/><text x="{{ n.tx }}" y="{{ n.id_y }}" class="n-id">{{ n.id }}</text>{% for l in n.lignes %}<text x="{{ n.tx }}" y="{{ l.y }}">{{ l.t | escape }}</text>{% endfor %}</a>{% endfor %}
 </svg>
 </div>
 <h2>Relations de l’arc</h2>

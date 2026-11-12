@@ -6,8 +6,8 @@ layout: default
 {%- assign per = site.data.periodes | where: "bornes", page.periode_diffusion | first -%}
 <article>
   <p class="fil"><a href="{{ '/analyses/' | relative_url }}">Analyses</a> › {{ e.id }}</p>
-  <h1>{{ e.event | escape }}</h1>
-  <p class="chapo">Fiction, contexte et limites. Fiche source : <a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{{ e.id }}</a> — niveau de recoupement {{ e.niveau_recoupement }} ({{ e.nature_source | escape }}). Les textes ci-dessous sont ceux du document analytique, sans réécriture ; l’atlas n’ajoute aucune analyse.</p>
+  <h1>{{ e.event | escape }} : fiction, contexte et limites</h1>
+  <p class="chapo">Fiction, contexte et limites. Fiche source : <a href="{{ '/evenements/' | append: e.id | append: '/' | relative_url }}">{{ e.id }}</a> — niveau de vérification {{ e.niveau_recoupement }} ({{ e.nature_source | escape }}). Les textes ci-dessous sont ceux du document analytique, sans réécriture ; l’atlas n’ajoute aucune analyse.</p>
 
   <h2>1. L’événement fictif</h2>
   <dl class="donnees">

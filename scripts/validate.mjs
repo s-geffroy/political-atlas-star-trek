@@ -173,7 +173,7 @@ export function valider({ csv, md } = dernieresSources()) {
   // 9. Aucun enrichissement invente
   {
     const err = [];
-    const derives = new Set(['categories', 'series', 'episodes', 'references_non_rattachees', 'continuite', 'continuite_regle', 'ordre', 'cycle_slug', 'fiche', 'corrections', 'note_editoriale', 'diffusion', 'associes', 'rang_diegetique', 'audit', 'sous_bande', 'bande', 'doublon_de', 'doublons', 'relations']);
+    const derives = new Set(['categories', 'series', 'episodes', 'references_non_rattachees', 'continuite', 'continuite_regle', 'ordre', 'cycle_slug', 'fiche', 'corrections', 'note_editoriale', 'diffusion', 'associes', 'rang_diegetique', 'audit', 'sous_bande', 'amorce', 'bande', 'doublon_de', 'doublons', 'relations']);
     for (const e of gen) for (const k of Object.keys(e)) if (!COLONNES.includes(k) && !derives.has(k)) err.push(`${e.id} : champ « ${k} » non prévu`);
     for (const f of Object.values(genFiches)) {
       for (const [k, v] of [...Object.entries(f.volets), ...Object.entries(f.entetes)]) if (!mdText.includes(v)) err.push(`${f.id} : ${k} absent du Markdown source`);
@@ -195,7 +195,8 @@ export function valider({ csv, md } = dernieresSources()) {
   }
 
   const bilan = {
-    genere_le: new Date().toISOString().slice(0, 10),
+    // Date de la version du corpus (stable d'un jour a l'autre), pas l'horloge.
+    genere_le: (/_(\d{4}-\d{2}-\d{2})\.csv$/.exec(r.meta.csv) || [])[1] || null,
     source: r.meta,
     erreurs: controles.reduce((s, c) => s + c.erreurs.length, 0),
     avertissements: controles.reduce((s, c) => s + c.avertissements.length, 0),

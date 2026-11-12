@@ -12,7 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { readRecords } from './lib/csv.mjs';
 import { parseFiches, parseRegistre, sectionsEditoriales } from './lib/fiches.mjs';
-import { SERIES, CONTINUITES, PRECISIONS, episodesDe, continuite, ordreDiegetique, slug, epKey, historiqueAudit } from './lib/derive.mjs';
+import { SERIES, CONTINUITES, PRECISIONS, episodesDe, continuite, ordreDiegetique, slug, epKey, historiqueAudit, nomComplet, oeuvres, amorce } from './lib/derive.mjs';
 import { construireAtlas, DOMAINES } from './lib/atlas.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
@@ -23,9 +23,13 @@ export function dernieresSources() {
   const files = fs.readdirSync(SRC).filter((f) => /^Star_Trek_Atlas_Politique_V\d+_\d+_.+\.(csv|md)$/.test(f));
   const version = (f) => f.match(/_V(\d+)_(\d+)_/).slice(1).map(Number);
   const cmp = (a, b) => { const [x, y] = [version(a), version(b)]; return x[0] - y[0] || x[1] - y[1] || a.localeCompare(b); };
+  // Le CSV de version la plus haute, et le Markdown de MEME nom (meme version,
+  // meme date) : jamais une paire depareillee.
   const csv = files.filter((f) => f.endsWith('.csv')).sort(cmp).pop();
-  const md = files.filter((f) => f.endsWith('.md')).sort(cmp).pop();
-  return { csv: csv && path.join(SRC, csv), md: md && path.join(SRC, md) };
+  if (!csv) return { csv: null, md: null };
+  const md = csv.replace(/\.csv$/, '.md');
+  if (!files.includes(md)) throw new Error(`Markdown apparie introuvable pour ${csv} (attendu : ${md})`);
+  return { csv: path.join(SRC, csv), md: path.join(SRC, md) };
 }
 
 export function lireDiffusion() {
@@ -157,6 +161,7 @@ export function importer(csvPath, mdPath) {
   [...evenements].sort(compare).forEach((e, i) => { e.rang_diegetique = i + 1; });
   for (const e of evenements) {
     e.bande = bande(e.ordre);
+    e.amorce = amorce(e);
     e.sous_bande = e.ordre.imprecis ? 'Datation imprécise dans le siècle' : null;
   }
 
@@ -246,8 +251,9 @@ function ecrire(p, contenu) {
 // cause/suite va de gauche a droite ; « meme arc » ne contraint pas l'ordre),
 // coordonnees SVG calculees ici pour un rendu statique sans JavaScript.
 export function reseau(r) {
-  const NW = 210, NH = 46, GX = 70, GY = 18, PAD = 12, PADX = 56;
+  const NW = 250, NH = 60, GX = 80, GY = 18, PAD = 12, PADX = 56, SEUIL = 25, LIGNE = 30;
   const parId = new Map(r.evenements.map((e) => [e.id, e]));
+  const rang = (id) => parId.get(id).rang_diegetique;
   const relsDoc = r.relations.filter((x) => parId.has(x.de) && parId.has(x.vers));
   // Liens « episode commun » (associations deja affichees sur les fiches),
   // ajoutes seulement entre evenements qui ont des relations documentees,
@@ -262,40 +268,82 @@ export function reseau(r) {
     communs.push({ de: id, vers: a.id, type: 'episode_commun', url: null });
   }
   const rels = [...relsDoc, ...communs];
-  // Groupes = arcs internes a une serie : seules les relations entre evenements
-  // de meme serie principale forment les groupes ; les relations entre series
-  // sont listees sous chaque groupe (« liens vers d'autres arcs »).
+
+  // Groupes : composantes connexes de TOUTES les relations ; une composante de
+  // plus de SEUIL evenements (illisible) est redecoupee en arcs par serie.
+  const composantes = (ids, garder) => {
+    const voisins = new Map(ids.map((i) => [i, new Set()]));
+    for (const x of rels) if (voisins.has(x.de) && voisins.has(x.vers) && garder(x)) { voisins.get(x.de).add(x.vers); voisins.get(x.vers).add(x.de); }
+    const vus = new Set(); const out = [];
+    for (const id of [...ids].sort()) {
+      if (vus.has(id)) continue;
+      const pile = [id]; const c = []; vus.add(id);
+      while (pile.length) { const n = pile.pop(); c.push(n); for (const v of voisins.get(n)) if (!vus.has(v)) { vus.add(v); pile.push(v); } }
+      out.push(c);
+    }
+    return out;
+  };
   const serieP = (id) => parId.get(id).series[0] || 'Film';
-  const interne = (x) => serieP(x.de) === serieP(x.vers);
-  const voisins = new Map();
-  for (const id of dansReseau) voisins.set(id, new Set());
-  for (const x of rels.filter(interne)) for (const [a, b] of [[x.de, x.vers], [x.vers, x.de]]) {
-    if (!voisins.has(a)) voisins.set(a, new Set());
-    voisins.get(a).add(b);
-  }
-  const vus = new Set(); const comps = [];
-  for (const id of [...voisins.keys()].sort()) {
-    if (vus.has(id)) continue;
-    const pile = [id]; const c = [];
-    vus.add(id);
-    while (pile.length) { const n = pile.pop(); c.push(n); for (const v of voisins.get(n)) if (!vus.has(v)) { vus.add(v); pile.push(v); } }
-    comps.push(c);
-  }
-  const tronque = (t, n) => (t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : t);
+  const comps = composantes([...dansReseau], () => true)
+    .flatMap((c) => (c.length > SEUIL ? composantes(c, (x) => serieP(x.de) === serieP(x.vers)) : [c]));
+
+  // Etiquette sur deux lignes (coupure aux mots), la seconde tronquee si besoin.
+  const deuxLignes = (t) => {
+    const mots = t.split(/\s+/); const l = ['', ''];
+    let i = 0;
+    for (const m of mots) {
+      const essai = l[i] ? `${l[i]} ${m}` : m;
+      if (essai.length <= LIGNE || !l[i]) l[i] = essai;
+      else if (i === 0) { i = 1; l[1] = m; }
+      else { l[1] = `${l[1]} ${m}`; }
+    }
+    if (l[1].length > LIGNE) l[1] = l[1].slice(0, LIGNE - 1).replace(/\s+\S*$/, '') + '…';
+    return l.filter(Boolean);
+  };
+
   const sortie = comps.map((ids) => {
     const set = new Set(ids);
     const aretes = rels.filter((x) => set.has(x.de) && set.has(x.vers));
     const externes = relsDoc.filter((x) => (set.has(x.de) || set.has(x.vers)) && !(set.has(x.de) && set.has(x.vers)))
       .map((x) => ({ de: x.de, vers: x.vers, type: x.type, autre: set.has(x.de) ? x.vers : x.de, sortant: set.has(x.de) }));
-    // Couche = plus long chemin depuis une source (cause/suite) ; meme_arc : meme couche minimale.
+    // Couche = plus long chemin depuis une source (cause/suite).
+    const oriente = (x) => x.type === 'cause' || x.type === 'suite';
     const couche = new Map(ids.map((i) => [i, 0]));
-    for (let k = 0; k < ids.length; k++) for (const x of aretes) {
-      if (x.type === 'meme_arc' || x.type === 'episode_commun') continue;
+    for (let k = 0; k < ids.length; k++) for (const x of aretes.filter(oriente)) {
       if (couche.get(x.vers) < couche.get(x.de) + 1) couche.set(x.vers, couche.get(x.de) + 1);
     }
+    // Un evenement sans relation orientee (seulement « meme arc » ou episode
+    // commun) n'est pas « anterieur » : il rejoint la couche de son partenaire
+    // oriente, a defaut celle de l'evenement oriente le plus proche dans la
+    // chronologie fictive ; dans un groupe sans aucune relation orientee, les
+    // evenements sont repartis en colonnes de 6 dans l'ordre de la chronologie.
+    const orientes = new Set(aretes.filter(oriente).flatMap((x) => [x.de, x.vers]));
+    const libres = ids.filter((i) => !orientes.has(i));
+    if (orientes.size) {
+      for (const id of libres) {
+        const partenaires = aretes.filter((x) => x.de === id || x.vers === id).map((x) => (x.de === id ? x.vers : x.de)).filter((p) => orientes.has(p));
+        const ref = partenaires.length ? partenaires : [...orientes];
+        const proche = ref.sort((a, b) => Math.abs(rang(a) - rang(id)) - Math.abs(rang(b) - rang(id)) || a.localeCompare(b))[0];
+        couche.set(id, couche.get(proche));
+      }
+    } else {
+      [...ids].sort((a, b) => rang(a) - rang(b)).forEach((id, j) => couche.set(id, Math.floor(j / 6)));
+    }
     const nCouches = Math.max(...couche.values()) + 1;
-    const parCouche = [...Array(nCouches)].map((_, c) => ids.filter((i) => couche.get(i) === c)
-      .sort((a, b) => parId.get(a).rang_diegetique - parId.get(b).rang_diegetique));
+    // Ordre dans chaque couche : chronologie fictive, puis quelques passes de
+    // barycentre (moyenne des positions des voisins) pour limiter les croisements.
+    const parCouche = [...Array(nCouches)].map((_, c) => ids.filter((i) => couche.get(i) === c).sort((a, b) => rang(a) - rang(b)));
+    const voisinsDe = (id) => aretes.filter((x) => x.de === id || x.vers === id).map((x) => (x.de === id ? x.vers : x.de));
+    for (let passe = 0; passe < 4; passe++) {
+      const place = new Map(parCouche.flatMap((l) => l.map((id, j) => [id, j / Math.max(1, l.length - 1)])));
+      for (const l of parCouche) {
+        const bary = new Map(l.map((id) => {
+          const v = voisinsDe(id).filter((w) => couche.get(w) !== couche.get(id));
+          return [id, v.length ? v.reduce((s, w) => s + place.get(w), 0) / v.length : place.get(id)];
+        }));
+        l.sort((a, b) => bary.get(a) - bary.get(b) || rang(a) - rang(b));
+      }
+    }
     const maxL = Math.max(...parCouche.map((l) => l.length));
     const pos = new Map();
     parCouche.forEach((l, c) => l.forEach((id, j) => {
@@ -304,28 +352,48 @@ export function reseau(r) {
     }));
     const noeuds = ids.map((id) => {
       const e = parId.get(id); const p = pos.get(id);
-      return { id, x: p.x, y: p.y, w: NW, h: NH, titre: tronque(e.event, 30), titre_complet: e.event, niv: e.niveau_recoupement, cycle: e.cycle };
-    }).sort((a, b) => parId.get(a.id).rang_diegetique - parId.get(b.id).rang_diegetique);
+      // Identifiant en petit sur la premiere ligne, intitule sur deux lignes.
+      return { id, x: p.x, y: p.y, w: NW, h: NH, tx: p.x + 10, id_y: p.y + 16,
+        lignes: deuxLignes(e.event).map((t, k) => ({ t, y: p.y + 34 + k * 16 })), titre_complet: e.event, niv: e.niveau_recoupement, cycle: e.cycle };
+    }).sort((a, b) => rang(a.id) - rang(b.id));
+    // Ports : les aretes qui arrivent sur (ou partent d') un meme cote d'une
+    // boite sont reparties sur sa hauteur, dans l'ordre vertical de l'autre bout.
+    const ports = new Map();
+    const port = (id, cote, autre) => {
+      const k = `${id}|${cote}`;
+      if (!ports.has(k)) ports.set(k, []);
+      ports.get(k).push(autre);
+    };
+    const cotes = (x) => {
+      const a = pos.get(x.de), b = pos.get(x.vers);
+      if (Math.abs(a.x - b.x) < 1) return ['g', 'g'];
+      return a.x < b.x ? ['d', 'g'] : ['g', 'd'];
+    };
+    for (const x of aretes) { const [ca, cb] = cotes(x); port(x.de, ca, x.vers); port(x.vers, cb, x.de); }
+    for (const l of ports.values()) l.sort((a, b) => pos.get(a).y - pos.get(b).y);
+    const yPort = (id, cote, autre) => {
+      const l = ports.get(`${id}|${cote}`); const k = l.indexOf(autre);
+      return pos.get(id).y + (NH * (k + 1)) / (l.length + 1);
+    };
     const chemins = aretes.map((x) => {
       const a = pos.get(x.de), b = pos.get(x.vers);
+      const [ca, cb] = cotes(x);
+      const ya = yPort(x.de, ca, x.vers), yb = yPort(x.vers, cb, x.de);
       let d;
-      if (Math.abs(a.x - b.x) < 1) { // meme couche : arc dans la marge de gauche (hors des etiquettes)
-        const x0 = a.x, y0 = a.y + NH / 2, y1 = b.y + NH / 2;
-        const ecart = Math.min(48, 18 + Math.abs(y1 - y0) / 6);
-        d = `M${x0},${y0} C${x0 - ecart},${y0} ${x0 - ecart},${y1} ${x0},${y1}`;
+      if (ca === 'g' && cb === 'g') { // meme couche : arc dans la marge de gauche (hors des etiquettes)
+        const ecart = Math.min(48, 18 + Math.abs(yb - ya) / 6);
+        d = `M${a.x},${ya} C${a.x - ecart},${ya} ${b.x - ecart},${yb} ${b.x},${yb}`;
       } else {
-        const [g, dr] = a.x < b.x ? [a, b] : [b, a];
-        const x0 = g.x + NW, y0 = g.y + NH / 2, x1 = dr.x, y1 = dr.y + NH / 2, m = (x0 + x1) / 2;
-        d = a.x < b.x ? `M${x0},${y0} C${m},${y0} ${m},${y1} ${x1 - 4},${y1}` : `M${x1},${y1} C${m},${y1} ${m},${y0} ${x0 + 4},${y0}`;
+        const xa = ca === 'd' ? a.x + NW : a.x, xb = cb === 'd' ? b.x + NW : b.x, m = (xa + xb) / 2;
+        const fin = xb > xa ? xb - 4 : xb + 4; // laisse la place de la pointe de fleche
+        d = `M${xa},${ya} C${m},${ya} ${m},${yb} ${fin},${yb}`;
       }
       return { de: x.de, vers: x.vers, type: x.type, d, url: x.url };
     });
-    // Titre : serie principale + evenement le plus connecte du groupe (le pivot).
+    // Titre : evenement le plus connecte du groupe (le pivot), en entier.
     const degre = (id) => aretes.filter((x) => x.de === id || x.vers === id).length + relsDoc.filter((x) => x.de === id || x.vers === id).length / 100;
-    const pivot = [...ids].sort((a, b) => degre(b) - degre(a) || parId.get(a).rang_diegetique - parId.get(b).rang_diegetique)[0];
-    const nomSerie = (SERIES.find((x) => x.code === serieP(pivot)) || { nom: serieP(pivot) }).nom;
-    const cycle = `${nomSerie} — ${tronque(parId.get(pivot).event, 70)}`;
-    return { titre: cycle, taille: ids.length, noeuds, aretes: chemins, externes,
+    const pivot = [...ids].sort((a, b) => degre(b) - degre(a) || rang(a) - rang(b))[0];
+    return { titre: parId.get(pivot).event, taille: ids.length, noeuds, aretes: chemins, externes,
       largeur: PADX + PAD + nCouches * NW + (nCouches - 1) * GX, hauteur: PAD * 2 + maxL * NH + (maxL - 1) * GY };
   }).sort((a, b) => b.taille - a.taille);
   sortie.forEach((c, i) => {
@@ -337,22 +405,36 @@ export function reseau(r) {
   sortie.forEach((c) => {
     for (const x of c.externes) x.groupe = groupeDe.get(x.autre);
     c.series = [...new Set(c.noeuds.flatMap((n) => parId.get(n.id).series))];
+    c.series_noms = c.series.map((s) => (s === 'Film' ? 'films' : (SERIES.find((x) => x.code === s) || { nom: s }).nom));
     c.nb_relations = c.aretes.filter((a) => a.type !== 'episode_commun').length;
   });
-  return { composantes: sortie, noeuds: sortie.reduce((s, c) => s + c.taille, 0), relations: relsDoc.length, liens_episode: communs.length };
+  return { composantes: sortie, noeuds: sortie.reduce((s, c) => s + c.taille, 0), relations: relsDoc.length, liens_episode: communs.length,
+    seuil_decoupe: SEUIL };
 }
 
 // Donnees des graphiques : matrices et repartitions, quantifiees en 5 classes
 // pour le codage couleur (une seule teinte ; 0 = case vide).
 export function graphiques(r) {
   const ev = r.distincts;
-  const q = (n, max) => (n === 0 ? 0 : Math.max(1, Math.ceil((5 * n) / max)));
   const cats = r.stats.categories.map((c) => c.cle);
   const series = r.stats.series.map((s) => ({ code: s.cle, nom: s.nom }));
+  // Cartes de chaleur : la couleur code la PART de la categorie parmi les
+  // evenements de la colonne (serie ou decennie), sur une echelle commune aux
+  // deux cartes ; le nombre brut reste ecrit dans la case. Sans cela, la
+  // couleur ne montrerait que la taille de chaque serie.
+  const BORNES = [10, 20, 35, 50]; // classes : ]0;10] ]10;20] ]20;35] ]35;50] ]50;100] (en %)
+  const classe = (pct) => (pct === 0 ? 0 : 1 + BORNES.filter((b) => pct > b).length);
   const matrice = (lignes, colonnes, test) => {
+    const effectifs = colonnes.map((c) => ev.filter((e) => test(e, c)).length);
     const m = lignes.map((l) => colonnes.map((c) => ev.filter((e) => e.categories.includes(l) && test(e, c)).length));
     const max = Math.max(1, ...m.flat());
-    return { max, lignes: lignes.map((l, i) => ({ cle: l, total: m[i].reduce((a, b) => a + b, 0), cellules: m[i].map((n) => ({ n, q: q(n, max) })) })) };
+    return {
+      max, effectifs,
+      lignes: lignes.map((l, i) => ({ cle: l, total: m[i].reduce((a, b) => a + b, 0), cellules: m[i].map((n, j) => {
+        const pct = effectifs[j] ? Math.round((100 * n) / effectifs[j]) : 0;
+        return { n, pct, q: classe(effectifs[j] ? (100 * n) / effectifs[j] : 0) };
+      }) })),
+    };
   };
   const decennie = (e) => (e.diffusion[0]?.date ? e.diffusion[0].date.slice(0, 3) + '0' : null);
   const decennies = [...new Set(ev.map(decennie).filter(Boolean))].sort();
@@ -363,8 +445,12 @@ export function graphiques(r) {
     return { ...s, total: sel.length, A: sel.filter((e) => e.niveau_recoupement === 'A').length, B: sel.filter((e) => e.niveau_recoupement === 'B').length, C: sel.filter((e) => e.niveau_recoupement === 'C').length };
   });
   const maxNiv = Math.max(...niveaux.map((n) => n.total));
-  for (const n of niveaux) for (const k of ['A', 'B', 'C']) n['pct_' + k] = +(100 * n[k] / maxNiv).toFixed(2);
+  for (const n of niveaux) {
+    for (const k of ['A', 'B', 'C']) n['pct_' + k] = +(100 * n[k] / maxNiv).toFixed(2);
+    n.part_A = n.total ? Math.round((100 * n.A) / n.total) : 0; // part des A dans la serie
+  }
   return {
+    bornes_pct: BORNES,
     categories: cats, series, decennies: decennies.map((d) => `${d}s`),
     par_serie: parSerie, par_decennie: { ...parDecennie, sans_date: ev.filter((e) => !decennie(e)).length },
     niveaux_par_serie: niveaux, max_niveaux: maxNiv,
@@ -380,8 +466,34 @@ function siteUrl() {
   return (SITE_URL = v('url').replace(/\/$/, '') + v('baseurl'));
 }
 
+// Date d'une version du corpus : journal data/corrections/V0.N.json, sinon date
+// portee par le nom du fichier source (V0.3 : premiere publication).
+let DATES_VERSIONS;
+function dateVersion(v) {
+  if (!DATES_VERSIONS) {
+    DATES_VERSIONS = new Map();
+    for (const f of fs.readdirSync(path.join(ROOT, 'data/source'))) {
+      const m = /_V(\d+)_(\d+)_(\d{4}-\d{2}-\d{2})\.csv$/.exec(f);
+      if (m) DATES_VERSIONS.set(`V${m[1]}.${m[2]}`, m[3]);
+    }
+    const dc = path.join(ROOT, 'data/corrections');
+    if (fs.existsSync(dc)) for (const f of fs.readdirSync(dc).filter((x) => /^V\d+\.\d+\.json$/.test(x))) {
+      const j = JSON.parse(fs.readFileSync(path.join(dc, f), 'utf8'));
+      if (j.version && j.date) DATES_VERSIONS.set(j.version, j.date);
+    }
+  }
+  return DATES_VERSIONS.get(v) || null;
+}
+
 function pageEvenement(e) {
-  const resume = e.politics.length > 155 ? e.politics.slice(0, 154).replace(/\s+\S*$/, '') + '…' : e.politics;
+  // Metadonnees : titre et description sans sigles, type Article, dates reelles
+  // (premiere publication = V0.3 ; modification = version de la derniere revision).
+  const libelle = oeuvres(e, 2);
+  const desc = `${libelle.charAt(0).toUpperCase()}${libelle.slice(1)} — ${e.period} : ${e.politics}`;
+  const description = desc.length > 158 ? desc.slice(0, 157).replace(/\s+\S*$/, '') + '…' : desc;
+  const publie = dateVersion('V0.3');
+  const revise = dateVersion((/^V\d+\.\d+/.exec(e.version_entree) || [])[0]) || publie;
+  const serieTitre = e.series.length === 1 ? (e.series[0] === 'Film' ? 'film Star Trek' : nomComplet(e.series[0])) : 'Star Trek';
   return [
     '---',
     '# Fichier GENERE par scripts/import.mjs. Ne pas modifier a la main :',
@@ -390,8 +502,12 @@ function pageEvenement(e) {
     `stp: ${e.id}`,
     // Permalien explicite : Jekyll 3 met :name en minuscules.
     `permalink: /evenements/${e.id}/`,
-    `title: ${yamlStr(`${e.id} — ${e.event}`)}`,
-    `description: ${yamlStr(`${e.period} · ${e.source}. ${resume}`)}`,
+    `title: ${yamlStr(`${e.event} — ${serieTitre} (${e.id})`)}`,
+    `description: ${yamlStr(description)}`,
+    `date: ${publie}`,
+    `last_modified_at: ${revise > publie ? revise : publie}`,
+    'seo:',
+    '  type: Article',
     // Doublon secondaire : canonique vers la principale (jekyll-seo-tag) et hors du plan du site.
     ...(e.doublon_de ? [`canonical_url: ${siteUrl()}/evenements/${e.doublon_de.id}/`, 'sitemap: false'] : []),
     '---',
@@ -500,7 +616,7 @@ export function ecrireSorties(r) {
   ecrire(clesP, JSON.stringify([...new Set([...clesAvant, ...clesMaintenant])].sort(), null, 1) + '\n');
   for (const c of res.composantes) {
     ecrire(path.join(dirR, `${c.cle}.md`), ['---', '# Fichier GENERE par scripts/import.mjs.', 'layout: reseau-groupe', `groupe: ${c.cle}`,
-      `title: ${yamlStr(`Réseau — ${c.titre} (${c.taille} événements)`)}`,
+      `title: ${yamlStr(`Arc « ${c.titre} » (${c.series_noms.join(', ')}) — réseau des relations`)}`,
       `description: ${yamlStr(`Graphe des relations documentées entre ${c.taille} événements politiques de Star Trek (${c.series.join(', ')}) : causes, suites et arcs narratifs.`)}`,
       `permalink: /reseau/${c.cle}/`, 'nav: graphiques', '---', ''].join('\n'));
   }
@@ -550,6 +666,7 @@ export function ecrireSorties(r) {
 
 if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(new URL(import.meta.url).pathname)) {
   const def = dernieresSources();
+  if (process.argv[2] && !process.argv[3]) { console.error('Donner le CSV ET le Markdown, ou aucun des deux.'); process.exit(2); }
   const csv = process.argv[2] ? path.resolve(process.argv[2]) : def.csv;
   const md = process.argv[3] ? path.resolve(process.argv[3]) : def.md;
   if (!csv || !md) { console.error('Sources introuvables dans data/source/'); process.exit(2); }

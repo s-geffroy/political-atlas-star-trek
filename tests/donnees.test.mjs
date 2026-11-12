@@ -186,3 +186,14 @@ test('nouvelle-version : volets de fiche et textes corriges seulement si le text
   assert.throws(() => appliquer(j('texte inexistant', lf)), /introuvable/);
   assert.throws(() => appliquer(j(avant, 'texte absent du document')), /introuvable/);
 });
+
+test('nouvelle-version : chaque journal rejoue redonne le CSV publie a l\'identique', async () => {
+  const { appliquer } = await import('../scripts/nouvelle-version.mjs');
+  const fs = await import('node:fs');
+  const dir = new URL('../data/corrections/', import.meta.url);
+  for (const f of fs.readdirSync(dir).filter((x) => /^V\d+\.\d+\.json$/.test(x))) {
+    const r = appliquer(JSON.parse(fs.readFileSync(new URL(f, dir), 'utf8')));
+    const publie = fs.readFileSync(new URL(`../data/source/${r.cible}.csv`, import.meta.url), 'utf8');
+    assert.equal(r.csv, publie, f);
+  }
+});

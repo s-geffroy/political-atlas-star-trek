@@ -11,7 +11,9 @@ description: >-
   Encyclopédie documentaire indépendante des événements politiques de l’univers
   Star Trek : 305 entrées, 31 fiches approfondies, niveaux de vérification
   explicites. Projet non affilié à Paramount.
-author: Star Trek Political Atlas
+# Pas d'« author » : jekyll-seo-tag le declarerait comme une personne. L'editeur
+# (publisher) est le site lui-meme, avec son logo.
+logo: /assets/icone.svg
 lang: fr
 locale: fr_FR
 # Depot GitHub, pour les liens « contribuer » et « signaler ».
@@ -45,9 +47,9 @@ collections:
 
 defaults:
   - scope: { path: "", type: evenements }
-    values: { layout: evenement }
+    values: { layout: evenement, image: /assets/partage.png }
   - scope: { path: "" }
-    values: { layout: page }
+    values: { layout: page, image: /assets/partage.png }
 
 kramdown:
   input: GFM

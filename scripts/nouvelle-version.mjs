@@ -34,6 +34,7 @@ export function appliquer(journal) {
   const parId = new Map(records.map((r) => [r.data.id, r.data]));
   const v = journal.version;
   const erreurs = [];
+  const avertissements = [];
   const touches = new Map();
 
   for (const c of journal.corrections) {
@@ -64,6 +65,19 @@ export function appliquer(journal) {
     md = md.replace(re, f);
   };
   const echap = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Remplacement exact d'UNE occurrence (le texte « apres » est insere tel quel :
+  // pas d'interpretation de « $& »). `fins` : caracteres admis juste apres le
+  // texte « avant », pour ne pas corriger le debut d'un texte plus long.
+  const uneFois = (texte, avant, apres, quoi, signaler, fins = null) => {
+    const pos = [];
+    for (let i = texte.indexOf(avant); i !== -1; i = texte.indexOf(avant, i + 1)) {
+      if (!fins || fins.includes(texte[i + avant.length] ?? '\n')) pos.push(i);
+    }
+    if (pos.length !== 1) { signaler(`${quoi} : ${pos.length ? 'plusieurs occurrences' : 'introuvable'}`); return texte; }
+    return texte.slice(0, pos[0]) + apres + texte.slice(pos[0] + avant.length);
+  };
+  const erreur = (m) => erreurs.push(m);
+  const avertir = (m) => avertissements.push(m);
   for (const [id, cs] of touches) {
     const d = parId.get(id);
     // Notice du registre integral : bloc « **STP-NNN — ... ** ... jusqu'a la notice suivante.
@@ -71,10 +85,10 @@ export function appliquer(journal) {
     remplacer(reBloc, (bloc) => {
       let b = bloc;
       for (const c of cs) {
-        if (c.champs.source) b = b.replace(`*Épisodes :* ${c.champs.source.avant}.`, `*Épisodes :* ${c.champs.source.apres}.`);
-        if (c.champs.event) b = b.replace(`**${id} — ${c.champs.event.avant}**`, `**${id} — ${c.champs.event.apres}**`);
-        if (c.champs.politics) b = b.replace(`*Problématique :* ${c.champs.politics.avant}`, `*Problématique :* ${c.champs.politics.apres}`);
-        if (c.champs.period) b = b.replace(`*Temps fictionnel :* ${c.champs.period.avant}.`, `*Temps fictionnel :* ${c.champs.period.apres}.`);
+        if (c.champs.source) b = uneFois(b, `*Épisodes :* ${c.champs.source.avant}.`, `*Épisodes :* ${c.champs.source.apres}.`, `${id} : épisodes du registre`, erreur);
+        if (c.champs.event) b = uneFois(b, `**${id} — ${c.champs.event.avant}**`, `**${id} — ${c.champs.event.apres}**`, `${id} : intitulé du registre`, erreur);
+        if (c.champs.politics) b = uneFois(b, `*Problématique :* ${c.champs.politics.avant}`, `*Problématique :* ${c.champs.politics.apres}`, `${id} : problématique du registre`, erreur, ['.', ' ', '\n', '\r']);
+        if (c.champs.period) b = uneFois(b, `*Temps fictionnel :* ${c.champs.period.avant}.`, `*Temps fictionnel :* ${c.champs.period.apres}.`, `${id} : période du registre`, erreur);
       }
       b = b.replace(/\*Recoupement :\* \*\*[ABC]\*\*\.( \[Contrôle\]\([^)]*\))?/, () =>
         `*Recoupement :* **${d.niveau_recoupement}**.` + (d.url_source ? ` [Contrôle](${d.url_source})` : ''));
@@ -87,9 +101,9 @@ export function appliquer(journal) {
       md = md.replace(reFiche, (f) => {
         let g = f.replace(/\*\*Recoupement documentaire :\*\* [^\n]*/, `**Recoupement documentaire :** ${d.niveau_recoupement} — ${d.nature_source}`);
         // Titre de la fiche : suit l'intitule corrige.
-        for (const c of cs) if (c.champs.event) g = g.replace(`### ${id} — ${c.champs.event.avant}\n`, `### ${id} — ${c.champs.event.apres}\n`);
-        for (const c of cs) if (c.champs.period) g = g.replace(`**Période diégétique :** ${c.champs.period.avant}`, `**Période diégétique :** ${c.champs.period.apres}`);
-        for (const c of cs) if (c.champs.source) g = g.replace(`**Source audiovisuelle :** ${c.champs.source.avant}`, `**Source audiovisuelle :** ${c.champs.source.apres}`);
+        for (const c of cs) if (c.champs.event) g = uneFois(g, `### ${id} — ${c.champs.event.avant}\n`, `### ${id} — ${c.champs.event.apres}\n`, `${id} : titre de la fiche`, avertir);
+        for (const c of cs) if (c.champs.period) g = uneFois(g, `**Période diégétique :** ${c.champs.period.avant}`, `**Période diégétique :** ${c.champs.period.apres}`, `${id} : période de la fiche`, avertir, [' ', '\n']);
+        for (const c of cs) if (c.champs.source) g = uneFois(g, `**Source audiovisuelle :** ${c.champs.source.avant}`, `**Source audiovisuelle :** ${c.champs.source.apres}`, `${id} : source de la fiche`, avertir, [' ', '\n']);
         // Volets de fiche corriges : texte « avant » exact, present une seule fois.
         for (const c of cs) for (const [k, { avant, apres }] of Object.entries(c.volets || {})) {
           const label = VOLETS[k];
@@ -135,7 +149,7 @@ export function appliquer(journal) {
 
   if (erreurs.length) throw new Error('Markdown :\n' + erreurs.join('\n'));
   const cible = `Star_Trek_Atlas_Politique_${v.replace('.', '_')}_${journal.date}`;
-  return { cible, csv: '﻿' + serializeCsv(header, records.map((r) => r.data)).replace(/\n/g, '\r\n') + '\r\n', md, touches: touches.size };
+  return { avertissements, cible, csv: '﻿' + serializeCsv(header, records.map((r) => r.data)).replace(/\n/g, '\r\n') + '\r\n', md, touches: touches.size };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(new URL(import.meta.url).pathname)) {
@@ -146,5 +160,6 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(new URL(im
     fs.writeFileSync(p, r[ext]);
     console.log('écrit :', path.relative(ROOT, p));
   }
+  for (const a of r.avertissements) console.warn('avertissement :', a);
   console.log(`${r.touches} entrées modifiées. Lancer ensuite : npm run check`);
 }

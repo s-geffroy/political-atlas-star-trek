@@ -17,6 +17,7 @@ layout: default
       {%- if e.continuite != "principale" %} <span class="etiquette etiquette--cont">{{ R.continuites[e.continuite] }}</span>{% endif %}
     </p>
   </header>
+  <p class="amorce">{{ e.amorce | escape }}</p>
 
   {%- if e.doublon_de %}
   <div class="encadre encadre--ambre"><p><strong>Doublon.</strong> Cette entrée décrit le même fait que <a href="{{ '/evenements/' | append: e.doublon_de.id | append: '/' | relative_url }}">{{ e.doublon_de.id }}</a>, entrée principale, à consulter en priorité. Elle est conservée pour la stabilité des identifiants et des liens, mais n’est pas comptée comme un événement distinct. {{ e.doublon_de.motif | escape }}</p></div>
@@ -54,12 +55,11 @@ layout: default
 
   {%- if f %}
   <h2>Fiche approfondie</h2>
-  <p class="chapo">Analyse en cinq volets reprise du document analytique V{{ site.data.editorial.meta.version }}. Recoupement : {{ f.entetes.recoupement | escape }}. <a href="{% if e.id == 'STP-006' %}{{ '/analyses/emeutes-de-bell/' | relative_url }}{% else %}{{ '/analyses/' | append: e.id | append: '/' | relative_url }}{% endif %}">Lire l’analyse fiction / histoire</a>.</p>
+  {%- if e.id == 'STP-006' %}{% assign ua = '/analyses/emeutes-de-bell/' | relative_url %}{% else %}{% assign ua = '/analyses/' | append: e.id | append: '/' | relative_url %}{% endif %}
+  <p class="chapo">Fiche du corpus V{{ site.data.editorial.meta.version }}. Recoupement : {{ f.entetes.recoupement | escape }}.</p>
   <section class="volet"><h3>Faits canoniques et acteurs</h3>{{ f.volets.faits | markdownify }}</section>
   <section class="volet"><h3>Mécanisme politique</h3>{{ f.volets.mecanisme | markdownify }}</section>
-  <section class="volet volet--parallele"><h3>Parallèle réel à étudier</h3>{{ f.volets.parallele | markdownify }}</section>
-  <section class="volet volet--objections"><h3>Objections et limites de l’analogie</h3>{{ f.volets.objections | markdownify }}</section>
-  <section class="volet"><h3>Contexte de création et de diffusion</h3>{{ f.volets.contexte | markdownify }}</section>
+  <div class="encadre encadre--ambre"><p><strong>Fiction et histoire.</strong> Le parallèle réel, les objections et le contexte de création et de diffusion de cette fiche sont présentés dans l’analyse : <a href="{{ ua }}">{{ e.event | escape }} : fiction, contexte et limites</a>.</p></div>
   <h3>Sources de la fiche</h3>
   {%- if f.sources.size > 0 %}
   <ul>{% for s in f.sources %}<li>{{ s.libelle | escape }} : <a href="{{ s.url }}" rel="noopener">{{ s.url | escape }}</a></li>{% endfor %}</ul>

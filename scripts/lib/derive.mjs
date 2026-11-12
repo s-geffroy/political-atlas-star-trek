@@ -182,3 +182,28 @@ function segmentsUrl(t) {
   if (reste) out.push({ texte: reste });
   return out;
 }
+
+// Libelles en clair (titres, descriptions, phrase d'amorce) : sigles developpes.
+export function nomComplet(code) {
+  if (code === 'Film') return 'films Star Trek';
+  const s = SERIES.find((x) => x.code === code);
+  return s ? `Star Trek: ${s.nom}` : code;
+}
+// « Star Trek: Deep Space Nine, « Past Tense » ; film « First Contact » » :
+// œuvres et episodes cites, regroupes par serie, dans l'ordre du champ source.
+export function oeuvres(e, max = 3) {
+  const parSerie = new Map();
+  for (const ep of e.episodes) {
+    if (!parSerie.has(ep.serie)) parSerie.set(ep.serie, []);
+    if (ep.titre) parSerie.get(ep.serie).push(ep.titre);
+  }
+  if (!parSerie.size) for (const s of e.series) parSerie.set(s, []);
+  return [...parSerie].map(([s, titres]) => {
+    const t = titres.slice(0, max).map((x) => `« ${x} »`).join(', ') + (titres.length > max ? '…' : '');
+    if (s === 'Film') return titres.length ? `film${titres.length > 1 ? 's' : ''} ${t}` : 'films Star Trek';
+    return t ? `${nomComplet(s)}, ${titres.length > 1 ? 'épisodes' : 'épisode'} ${t}` : nomComplet(s);
+  }).join(' ; ');
+}
+export function amorce(e) {
+  return `Événement politique de la fiction Star Trek (${oeuvres(e)}) ; période fictive : ${e.period}.`;
+}

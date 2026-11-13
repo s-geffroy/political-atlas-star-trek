@@ -34,7 +34,7 @@ export function dernieresSources() {
 
 // Analyses redigees a la main (pages propres dans analyses/) : l'import ne
 // genere pas de page pour ces fiches et les gabarits lisent `analyse_url`.
-export const ANALYSES_REDIGEES = { 'STP-006': 'emeutes-de-bell', 'STP-034': 'STP-034', 'STP-153': 'STP-153' };
+export const ANALYSES_REDIGEES = { 'STP-006': 'emeutes-de-bell', 'STP-034': 'STP-034', 'STP-153': 'STP-153', 'STP-139': 'STP-139' };
 
 export function lireDiffusion() {
   const p = path.join(ROOT, 'data/diffusion.json');

@@ -1,9 +1,9 @@
 {
  "genere_le": "2026-11-13",
  "source": {
-  "csv": "data/source/Star_Trek_Atlas_Politique_V0_19_2026-11-13.csv",
-  "md": "data/source/Star_Trek_Atlas_Politique_V0_19_2026-11-13.md",
-  "version": "0.19",
+  "csv": "data/source/Star_Trek_Atlas_Politique_V0_20_2026-11-13.csv",
+  "md": "data/source/Star_Trek_Atlas_Politique_V0_20_2026-11-13.md",
+  "version": "0.20",
   "etat": "État : 13 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
   "colonnes": [
    "id",
@@ -45,7 +45,7 @@
    "statut": "ok",
    "erreurs": [],
    "avertissements": [],
-   "info": "A : 260, B : 38, C : 1."
+   "info": "A : 259, B : 38, C : 1."
   },
   {
    "num": 4,
@@ -69,7 +69,7 @@
    "statut": "ok",
    "erreurs": [],
    "avertissements": [],
-   "info": "305 notices de registre comparées au CSV ; 6 doublons tranchés et 159 relations documentées vérifiés."
+   "info": "305 notices de registre comparées au CSV ; 7 doublons tranchés et 165 relations documentées vérifiés."
   },
   {
    "num": 7,
@@ -88,7 +88,7 @@
     "STP-047 ↔ STP-240 : association entre continuités différentes (affichée comme telle)",
     "STP-194 ↔ STP-239 : association entre continuités différentes (affichée comme telle)"
    ],
-   "info": "Continuité principale : 282, Univers Miroir : 8, Chronologie Kelvin : 4, Temporalité ou réalité modifiée : 5."
+   "info": "Continuité principale : 281, Univers Miroir : 8, Chronologie Kelvin : 4, Temporalité ou réalité modifiée : 5."
   },
   {
    "num": 9,

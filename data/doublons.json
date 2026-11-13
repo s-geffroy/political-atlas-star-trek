@@ -3,7 +3,7 @@
   "Doublons tranches : l'entree secondaire decrit le meme fait, dans le meme episode, que l'entree principale.",
   "Aucune entree n'est supprimee : la secondaire garde son identifiant, son adresse et son contenu ; sa page renvoie a la principale.",
   "Les secondaires ne sont pas comptees comme evenements distincts (statistiques, explorateur, atlas, chronologies).",
-  "Decisions du 2026-11-10 ; consignees dans la note d'audit des entrees (corpus V0.8, V0.10 et V0.11)."
+  "Decisions du 2026-11-10 et du 2026-11-13 ; consignees dans la note d'audit des entrees (corpus V0.8, V0.10, V0.11 et V0.20)."
  ],
  "doublons": [
   {
@@ -35,6 +35,11 @@
    "secondaire": "STP-238",
    "principal": "STP-176",
    "motif": "Même épisode (DIS «What’s Past Is Prologue») et même fait : le renversement de l’impératrice Georgiou par Lorca dans l’univers Miroir (2257). STP-176 est retenue comme principale : période précise (2257) et couverture de tout l’arc, de «Despite Yourself» à «What’s Past Is Prologue»."
+  },
+  {
+   "secondaire": "STP-055",
+   "principal": "STP-300",
+   "motif": "Même épisode (SNW « Orders of Magnitude ») et même fait : la prise de commandement de l’Enterprise par l’amiral Simon Reeger. STP-300 est retenue comme principale : intitulé précis (l’ordre de détruire Argus II), fiche approfondie, et relation établie avec la désobéissance de Kirk (STP-301)."
   }
  ]
 }

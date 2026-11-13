@@ -1,10 +1,10 @@
 {
  "_lisez_moi": [
-  "Relations documentees entre evenements (enrichissement hors corpus) : 60 validees le 2026-11-10 (docs/proposition-relations.md), 82 ajoutees le meme jour (docs/proposition-relations-2.md), 21 en troisieme passe (docs/proposition-relations-3.md).",
+  "Relations documentees entre evenements (enrichissement hors corpus) : 60 validees le 2026-11-10 (docs/proposition-relations.md), 82 ajoutees le meme jour (docs/proposition-relations-2.md), 21 en troisieme passe (docs/proposition-relations-3.md). 6 en quatrieme passe le 2026-11-13 (docs/proposition-relations-4.md).",
   "Types : cause (de est presente par la source comme une cause de vers), suite (vers prolonge directement l intrigue de de), meme_arc (meme arc narratif ou conflit nomme par la source).",
   "Chaque relation cite la page qui l etablit explicitement. Deux evenements d un meme episode ne sont relies que si la source etablit un enchainement entre eux.",
   "Doublons tranches le 2026-11-10 (STP-294, STP-296) : les relations qui les visaient sont reportees sur l entree principale ou retirees si elles y existaient deja.",
-  "examinees_sans_relation : evenements pour lesquels trois passes de recherche n ont trouve aucune relation etablie par une source (resultat, non oubli)."
+  "examinees_sans_relation : evenements pour lesquels quatre passes de recherche n ont trouve aucune relation etablie par une source (resultat, non oubli)."
  ],
  "relations": [
   {
@@ -1128,11 +1128,53 @@
    "type": "meme_arc",
    "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_5#ep62",
    "justification": "Même épisode : Rayner, survivant d'une occupation breen qui a tué sa famille, voit Burnham utiliser son histoire pour convaincre le primarque Ruhn que s'emparer de L'ak provoquerait un conflit avec les autres factions breens ; la rivale Tahal est désignée comme « responsible for the death of Rayner's family »."
+  },
+  {
+   "de": "STP-033",
+   "vers": "STP-035",
+   "type": "cause",
+   "url": "https://memory-alpha.fandom.com/wiki/Alliance_(2154)",
+   "justification": "Memory Alpha : l’alliance contre le drone romulien « would prove successful and would lead to the formation of the Coalition of Planets and its successor, the United Federation of Planets » ; la page Coalition of Planets précise que la conférence fut organisée par Nathan Samuels, « who sought to build upon the work begun the previous year by Archer »."
+  },
+  {
+   "de": "STP-102",
+   "vers": "STP-080",
+   "type": "meme_arc",
+   "url": "https://memory-alpha.fandom.com/wiki/Star_Trek_Generations",
+   "justification": "Arc nommé par Memory Alpha, « Worf vs. Duras » : « Redemption » en est le volet 4 sur 9 et Generations le volet 8 sur 9. Lursa, « together with B'Etor, she was responsible for the beginning of the Klingon Civil War in 2367 », détruit ensuite l’Enterprise-D avec sa sœur."
+  },
+  {
+   "de": "STP-300",
+   "vers": "STP-301",
+   "type": "cause",
+   "url": "https://memory-alpha.fandom.com/wiki/Argus_II",
+   "justification": "Memory Alpha : « Reeger prepared to enact General Order 24, which would destroy the planet's entire surface via orbital bombardment » ; « Aghast that Reeger would condemn 5,321 civilians to death on such circumstantial evidence », Kirk le drogue pour que M'Benga puisse le relever du commandement. Page Simon Reeger : « Kirk mutineed, aided by his brother »."
+  },
+  {
+   "de": "STP-298",
+   "vers": "STP-299",
+   "type": "meme_arc",
+   "url": "https://memory-alpha.fandom.com/wiki/Mat%27Aaran_resistance",
+   "justification": "Memory Alpha : la résistance est « an underground movement formed by Mat'Aarans to oppose the Klingon occupation of their homeworld Mat'Aar XII » ; « Nevette was fatally poisoned by her subordinate Roman before she could enact the plan »."
+  },
+  {
+   "de": "STP-178",
+   "vers": "STP-181",
+   "type": "cause",
+   "url": "https://memory-alpha.fandom.com/wiki/Forget_Me_Not_(episode)",
+   "justification": "Résumé de « Forget Me Not » : Xi explique que « Trill society and the population of Trill who could be joined was devastated by The Burn and its aftermath, with the survival of their culture through joining in doubt. He says symbionts joining with Humans could be a solution to their problem. »"
+  },
+  {
+   "de": "STP-178",
+   "vers": "STP-228",
+   "type": "cause",
+   "url": "https://memory-alpha.fandom.com/wiki/Kids_These_Days_(episode)",
+   "justification": "Narration de Nahla Ake à l’écran : « Then, one day, fate handed us an unimaginable loss. The Burn. And it all went away. » ; la nouvelle promotion est « the first new Starfleet Academy class in San Francisco in over a century »."
   }
  ],
  "examinees_sans_relation": {
-  "date": "2026-11-10",
-  "passes": 3,
+  "date": "2026-11-13",
+  "passes": 4,
   "ids": [
    "STP-003",
    "STP-006",
@@ -1142,10 +1184,8 @@
    "STP-020",
    "STP-022",
    "STP-025",
-   "STP-033",
    "STP-049",
    "STP-051",
-   "STP-055",
    "STP-056",
    "STP-057",
    "STP-058",
@@ -1164,7 +1204,6 @@
    "STP-073",
    "STP-075",
    "STP-076",
-   "STP-080",
    "STP-082",
    "STP-088",
    "STP-089",
@@ -1200,13 +1239,11 @@
    "STP-173",
    "STP-174",
    "STP-175",
-   "STP-181",
    "STP-204",
    "STP-209",
    "STP-210",
    "STP-215",
    "STP-217",
-   "STP-228",
    "STP-229",
    "STP-240",
    "STP-241",
@@ -1236,11 +1273,7 @@
    "STP-282",
    "STP-283",
    "STP-285",
-   "STP-291",
-   "STP-298",
-   "STP-299",
-   "STP-300",
-   "STP-301"
+   "STP-291"
   ]
  }
 }

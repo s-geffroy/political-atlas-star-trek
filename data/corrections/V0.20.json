@@ -1,0 +1,41 @@
+{
+ "version": "V0.20",
+ "date": "2026-11-13",
+ "date_longue": "13 novembre 2026",
+ "base": "V0_19_2026-11-13",
+ "titre": "Atlas politique de Star Trek — V0.20 : Lignes de force 1970–1986 et 2006–2016",
+ "resume": "Deux paragraphes sourcés comblent les trous des « Lignes de force » : 1970–1986 (série animée, films I à IV) et 2006–2016 (films de la continuité Kelvin) ; une phrase sur le sixième film complète la période 1987–1994. Les cinq sources citées s’ajoutent à la liste du corpus. STP-055 devient l’entrée secondaire de STP-300, qui décrit le même fait.",
+ "methode": {
+  "lignes_de_force": "rédaction historienne du 13 novembre 2026, proposition validée le 2026-11-13 (docs/proposition-v020.md) ; chaque affirmation sourcée, citations contrôlées sur les pages ; affirmations non sourcées écartées.",
+  "doublons": "doublon tranché le 2026-11-13 (docs/proposition-relations-4.md)."
+ },
+ "textes": [
+  {
+   "avant": "**1987–1994 (TNG).** Conflits de souveraineté",
+   "apres": "**1970–1986 (TAS, films I–IV).** Après l’arrêt de la série originale en 1969, Star Trek revient d’abord en dessin animé, le samedi matin sur NBC (1973–1974), puis au cinéma avec quatre films (1979–1986). La série animée prolonge les thèmes de la série originale (non-ingérence, arrestation et jugement, rivalités entre puissances) et s’ouvre à l’univers d’un auteur extérieur : « The Slaver Weapon » adapte une nouvelle de Larry Niven et y fait entrer ses Kzinti. Les films ramènent la politique à l’institution militaire et à ses règles : Nicholas Meyer dit avoir compris Star Trek comme « la Marine dans l’espace », et The Voyage Home se termine sur le jugement de Kirk pour désobéissance. Leonard Nimoy était fier du message écologique de ce quatrième film, mais celui-ci ne fait pas de la saga un commentaire suivi de l’actualité des années 1980.\n\n**1987–1994 (TNG).** Conflits de souveraineté"
+  },
+  {
+   "avant": "doit être étudiée épisode par épisode.",
+   "apres": "doit être étudiée épisode par épisode. Pour le sixième film (1991), le parallèle est revendiqué par ses auteurs : selon Nicholas Meyer, Leonard Nimoy lui avait suggéré d’imaginer que « le Mur » tombe dans l’espace, les Klingons ayant toujours tenu lieu de Russes, et Meyer a fait de l’explosion de Praxis un « Tchernobyl intergalactique »."
+  },
+  {
+   "avant": "**2017–2026 (DIS",
+   "apres": "**2006–2016 (films Kelvin).** Entre la fin d’Enterprise (mai 2005) et la première de Discovery (septembre 2017), aucune série nouvelle n’est diffusée : Star Trek passe par trois films situés dans une continuité alternative, dite « Kelvin » (2009, 2013, 2016). Leur matière politique tient à la destruction de Vulcain, à la militarisation secrète de Starfleet et au rejet du projet fédéral par un ancien soldat de la Terre. Les auteurs revendiquent eux-mêmes un lien avec l’actualité : Damon Lindelof prête à la destruction de Vulcain un impact « de l’ordre du 11-Septembre » sur cet univers, et Simon Pegg décrit le méchant de Beyond comme l’incarnation d’un « anti-collectivisme » qu’il rapproche du Brexit. Ces déclarations disent une intention ; elles ne dispensent pas d’examiner ce que les films montrent effectivement.\n\n**2017–2026 (DIS"
+  },
+  {
+   "avant": "- HCR, Convention de 1951 : https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention",
+   "apres": "- HCR, Convention de 1951 : https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention\n- Nicholas Meyer et la « Marine dans l’espace » (StarTrek.com, 6 août 2002, copie archivée) : https://web.archive.org/web/20090204202728/http://www.startrek.com/startrek/view/news/article/125294.html\n- Leonard Nimoy et le message écologique de The Voyage Home (NPR, 27 février 2015) : https://www.npr.org/2015/02/27/389520008/nimoy-leonard\n- Damon Lindelof sur la destruction de Vulcain (Collider, 26 décembre 2012) : https://collider.com/damon-lindelof-star-trek-2-into-darkness-interview/\n- Simon Pegg sur Star Trek Beyond (Time, 15 juillet 2016) : https://time.com/4408593/simon-pegg-star-trek-beyond-politics/\n- Nicholas Meyer sur la genèse du sixième film (StarTrek.com, 29 janvier 2004, copie archivée) : https://web.archive.org/web/20040604045933/http://www.startrek.com/startrek/view/news/article/4358.html"
+  }
+ ],
+ "comptes": {
+  "corrections": 1
+ },
+ "corrections": [
+  {
+   "id": "STP-055",
+   "type": "correction",
+   "champs": {},
+   "motif": "doublon tranché : entrée secondaire de STP-300 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SNW « Orders of Magnitude ») et même fait : la prise de commandement de l’Enterprise par l’amiral Simon Reeger. STP-300 est retenue comme principale : intitulé précis (l’ordre de détruire Argus II), fiche approfondie, et relation établie avec la désobéissance de Kirk (STP-301)."
+  }
+ ]
+}

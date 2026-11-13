@@ -7,11 +7,20 @@
   "texte": "Justice pénale, ségrégation, caste, guerre froide et diplomatie de puissances sont des thèmes explicites. Le contexte américain inclut les droits civiques, le conflit au Vietnam et la contestation étudiante. Mais la politique fictionnelle ne se réduit pas au calendrier des lois américaines."
  },
  {
+  "bornes": "1970–1986",
+  "codes": [
+   "TAS",
+   "films",
+   "I–IV"
+  ],
+  "texte": "Après l’arrêt de la série originale en 1969, Star Trek revient d’abord en dessin animé, le samedi matin sur NBC (1973–1974), puis au cinéma avec quatre films (1979–1986). La série animée prolonge les thèmes de la série originale (non-ingérence, arrestation et jugement, rivalités entre puissances) et s’ouvre à l’univers d’un auteur extérieur : « The Slaver Weapon » adapte une nouvelle de Larry Niven et y fait entrer ses Kzinti. Les films ramènent la politique à l’institution militaire et à ses règles : Nicholas Meyer dit avoir compris Star Trek comme « la Marine dans l’espace », et The Voyage Home se termine sur le jugement de Kirk pour désobéissance. Leonard Nimoy était fier du message écologique de ce quatrième film, mais celui-ci ne fait pas de la saga un commentaire suivi de l’actualité des années 1980."
+ },
+ {
   "bornes": "1987–1994",
   "codes": [
    "TNG"
   ],
-  "texte": "Conflits de souveraineté, non-ingérence, procédure judiciaire et droits des êtres artificiels prennent le pas sur une simple dichotomie d’empires ennemis. L’influence de la fin de la guerre froide, de la dissolution de l’URSS et de la culture juridique américaine doit être étudiée épisode par épisode."
+  "texte": "Conflits de souveraineté, non-ingérence, procédure judiciaire et droits des êtres artificiels prennent le pas sur une simple dichotomie d’empires ennemis. L’influence de la fin de la guerre froide, de la dissolution de l’URSS et de la culture juridique américaine doit être étudiée épisode par épisode. Pour le sixième film (1991), le parallèle est revendiqué par ses auteurs : selon Nicholas Meyer, Leonard Nimoy lui avait suggéré d’imaginer que « le Mur » tombe dans l’espace, les Klingons ayant toujours tenu lieu de Russes, et Meyer a fait de l’explosion de Praxis un « Tchernobyl intergalactique »."
  },
  {
   "bornes": "1993–2001",
@@ -27,6 +36,14 @@
    "ENT"
   ],
   "texte": "Une humanité militairement vulnérable découvre ses dilemmes de sécurité, risque de désigner un ennemi extérieur et subit le nativisme. Le calendrier de diffusion après le 11-Septembre est un indice de contexte de réception, mais certaines intrigues suivent aussi des ressorts plus anciens de la franchise."
+ },
+ {
+  "bornes": "2006–2016",
+  "codes": [
+   "films",
+   "Kelvin"
+  ],
+  "texte": "Entre la fin d’Enterprise (mai 2005) et la première de Discovery (septembre 2017), aucune série nouvelle n’est diffusée : Star Trek passe par trois films situés dans une continuité alternative, dite « Kelvin » (2009, 2013, 2016). Leur matière politique tient à la destruction de Vulcain, à la militarisation secrète de Starfleet et au rejet du projet fédéral par un ancien soldat de la Terre. Les auteurs revendiquent eux-mêmes un lien avec l’actualité : Damon Lindelof prête à la destruction de Vulcain un impact « de l’ordre du 11-Septembre » sur cet univers, et Simon Pegg décrit le méchant de Beyond comme l’incarnation d’un « anti-collectivisme » qu’il rapproche du Brexit. Ces déclarations disent une intention ; elles ne dispensent pas d’examiner ce que les films montrent effectivement."
  },
  {
   "bornes": "2017–2026",

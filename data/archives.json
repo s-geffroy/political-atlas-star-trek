@@ -877,9 +877,20 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
+  "https://memory-alpha.fandom.com/wiki/Alliance_(2154)": {
+   "archive": "https://web.archive.org/web/20251007082711/https://memory-alpha.fandom.com/wiki/Alliance_(2154)",
+   "archive_date": "2025-10-07",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
   "https://memory-alpha.fandom.com/wiki/Apocalypse_Rising_(episode)": {
    "archive": "https://web.archive.org/web/20260921115755/https://memory-alpha.fandom.com/wiki/Apocalypse_Rising_(episode)",
    "archive_date": "2026-09-21",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Argus_II": {
+   "archive": null,
    "statut_http": 403,
    "teste_le": "2026-11-13"
   },
@@ -925,6 +936,12 @@
    "statut_http": 403,
    "teste_le": "2026-11-13"
   },
+  "https://memory-alpha.fandom.com/wiki/Forget_Me_Not_(episode)": {
+   "archive": "https://web.archive.org/web/20260505064151/https://memory-alpha.fandom.com/wiki/Forget_Me_Not_(episode)",
+   "archive_date": "2026-05-05",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
   "https://memory-alpha.fandom.com/wiki/Homefront_(episode)": {
    "archive": "https://web.archive.org/web/20260829005923/https://memory-alpha.fandom.com/wiki/Homefront_(episode)",
    "archive_date": "2026-08-29",
@@ -949,6 +966,12 @@
    "statut_http": 403,
    "teste_le": "2026-11-13"
   },
+  "https://memory-alpha.fandom.com/wiki/Kids_These_Days_(episode)": {
+   "archive": "https://web.archive.org/web/20260310145850/https://memory-alpha.fandom.com/wiki/Kids_These_Days_(episode)",
+   "archive_date": "2026-03-10",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
   "https://memory-alpha.fandom.com/wiki/Kzinti": {
    "archive": "https://web.archive.org/web/20260701163952/https://memory-alpha.fandom.com/wiki/Kzinti",
    "archive_date": "2026-07-01",
@@ -958,6 +981,11 @@
   "https://memory-alpha.fandom.com/wiki/Maquis": {
    "archive": "https://web.archive.org/web/20260821150930/https://memory-alpha.fandom.com/wiki/Maquis",
    "archive_date": "2026-08-21",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Mat%27Aaran_resistance": {
+   "archive": null,
    "statut_http": 403,
    "teste_le": "2026-11-13"
   },
@@ -1006,6 +1034,12 @@
   "https://memory-alpha.fandom.com/wiki/Shakaar_(episode)": {
    "archive": "https://web.archive.org/web/20260922024152/https://memory-alpha.fandom.com/wiki/Shakaar_(episode)",
    "archive_date": "2026-09-22",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Star_Trek_Generations": {
+   "archive": "https://web.archive.org/web/20260921115823/https://memory-alpha.fandom.com/wiki/Star_Trek_Generations",
+   "archive_date": "2026-09-21",
    "statut_http": 403,
    "teste_le": "2026-11-13"
   },

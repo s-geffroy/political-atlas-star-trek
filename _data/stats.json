@@ -1,12 +1,12 @@
 {
  "total": 305,
- "distincts": 299,
- "doublons": 6,
+ "distincts": 298,
+ "doublons": 7,
  "fiches": 31,
  "niveaux": [
   {
    "cle": "A",
-   "n": 260
+   "n": 259
   },
   {
    "cle": "B",
@@ -30,7 +30,7 @@
   },
   {
    "cle": "Discovery et Strange New Worlds : crises du XXIIIe siècle",
-   "n": 16,
+   "n": 15,
    "slug": "discovery-et-strange-new-worlds-crises-du-xxiiie-siecle"
   },
   {
@@ -207,7 +207,7 @@
   },
   {
    "cle": "SNW",
-   "n": 19,
+   "n": 18,
    "nom": "Strange New Worlds"
   },
   {
@@ -239,7 +239,7 @@
   },
   {
    "cle": "institutions/fédéralisme",
-   "n": 40
+   "n": 39
   },
   {
    "cle": "technologie/bioéthique",
@@ -261,7 +261,7 @@
  "continuites": [
   {
    "cle": "principale",
-   "n": 282,
+   "n": 281,
    "nom": "Continuité principale"
   },
   {
@@ -287,7 +287,7 @@
   },
   {
    "cle": "V0.19 révisé",
-   "n": 51
+   "n": 50
   },
   {
    "cle": "V0.15 révisé",
@@ -337,7 +337,7 @@
   },
   {
    "cle": "siecle",
-   "n": 23,
+   "n": 22,
    "nom": "Siècle seulement"
   },
   {
@@ -354,6 +354,6 @@
  "max_serie": 59,
  "max_categorie": 88,
  "max_cycle": 41,
- "relations": 159,
- "sans_relation": 107
+ "relations": 165,
+ "sans_relation": 98
 }

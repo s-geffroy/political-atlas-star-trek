@@ -1,6 +1,6 @@
 # Rapport d'import
 
-> Généré par `scripts/import.mjs`. Sources : `data/source/Star_Trek_Atlas_Politique_V0_19_2026-11-13.csv`, `data/source/Star_Trek_Atlas_Politique_V0_19_2026-11-13.md`.
+> Généré par `scripts/import.mjs`. Sources : `data/source/Star_Trek_Atlas_Politique_V0_20_2026-11-13.csv`, `data/source/Star_Trek_Atlas_Politique_V0_20_2026-11-13.md`.
 
 ## Comptages
 
@@ -12,12 +12,12 @@
 | Colonnes | 12 (`id`, `cycle`, `period`, `event`, `source`, `politics`, `categories_politiques`, `niveau_recoupement`, `nature_source`, `url_source`, `note_audit`, `version_entree`) |
 | Fiches approfondies extraites du Markdown | 31 |
 | Notices du registre intégral (Markdown) | 305 |
-| Corrections documentées (Markdown) | 120 |
+| Corrections documentées (Markdown) | 121 |
 | Pages d'événement générées | 305 |
 
 ## Répartition par niveau
 
-- A : 260
+- A : 259
 - B : 38
 - C : 1
 

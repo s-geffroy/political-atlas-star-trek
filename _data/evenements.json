@@ -376,7 +376,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 3,
   "bande": "Passé lointain",
@@ -772,7 +772,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 10,
   "bande": "XXIe siècle",
@@ -1202,7 +1202,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 16,
   "bande": "XXIe siècle",
@@ -1597,7 +1597,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 47,
   "bande": "XXIIe siècle",
@@ -2062,7 +2062,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 19,
   "bande": "XXIIe siècle",
@@ -2449,7 +2449,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 22,
   "bande": "XXIIe siècle",
@@ -2661,7 +2661,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 25,
   "bande": "XXIIe siècle",
@@ -2960,7 +2960,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 28,
   "bande": "XXIIe siècle",
@@ -3955,9 +3955,17 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-035",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Alliance_(2154)",
+     "url_complementaire": null,
+     "justification": "Memory Alpha : l’alliance contre le drone romulien « would prove successful and would lead to the formation of the Coalition of Planets and its successor, the United Federation of Planets » ; la page Coalition of Planets précise que la conférence fut organisée par Nathan Samuels, « who sought to build upon the work begun the previous year by Archer »."
+    }
+   ],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": null
   },
   "rang_diegetique": 40,
   "bande": "XXIIe siècle",
@@ -4197,6 +4205,13 @@
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
      "url_complementaire": null,
      "justification": "Résumé de « Demons » : « A xenophobic faction of humanity threatens to undermine talks to form a new coalition of planets. » Terra Prime et la conférence forment l'intrigue du diptyque Demons / Terra Prime."
+    },
+    {
+     "id": "STP-033",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Alliance_(2154)",
+     "url_complementaire": null,
+     "justification": "Memory Alpha : l’alliance contre le drone romulien « would prove successful and would lead to the formation of the Coalition of Planets and its successor, the United Federation of Planets » ; la page Coalition of Planets précise que la conférence fut organisée par Nathan Samuels, « who sought to build upon the work begun the previous year by Archer »."
     }
    ],
    "examinee_le": null
@@ -5757,7 +5772,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 69,
   "bande": "XXIIIe siècle",
@@ -5995,7 +6010,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 71,
   "bande": "XXIIIe siècle",
@@ -6339,8 +6354,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.paramountplus.com/shows/video/ALVE01M1XR9ESFEPPAKAF6984NG1JV/",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crise de la chaîne de commandement », « contrôle de l'outil militaire » ; recoupement B — La critique de TrekCore indique que l'amiral Simon Reeger réquisitionne l'Enterprise pour une mission prioritaire, entre en conflit avec Kirk (premier officier par intérim) jusqu'à le menacer d'un phaseur, puis est relevé de son commandement. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.18 (2026-11-13) : période alignée — aucune année n’est dite à l’écran dans SNW « Orders of Magnitude » ; « 2260 env. » n’avait pas de source et différait de STP-300 et STP-301, tirées du même épisode (« XXIIIe siècle ») ; Memory Alpha déduit 2262. V0.19 (2026-11-13) : revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-13 (https://www.paramountplus.com/shows/video/ALVE01M1XR9ESFEPPAKAF6984NG1JV/). Elle confirme le fait central : « Enterprise is commandeered by Admiral Simon Reeger to track down and destroy an invisible alien ship. With the command crew out of contact, Lt. Cmdr. James T. Kirk finds himself at odds with the order to destroy an entire planet. » ; « S4 E8: Enterprise is commandeered by Admiral Reeger to track down an alien ship. » Niveau B porté à A.",
-  "version_entree": "V0.19 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crise de la chaîne de commandement », « contrôle de l'outil militaire » ; recoupement B — La critique de TrekCore indique que l'amiral Simon Reeger réquisitionne l'Enterprise pour une mission prioritaire, entre en conflit avec Kirk (premier officier par intérim) jusqu'à le menacer d'un phaseur, puis est relevé de son commandement. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.18 (2026-11-13) : période alignée — aucune année n’est dite à l’écran dans SNW « Orders of Magnitude » ; « 2260 env. » n’avait pas de source et différait de STP-300 et STP-301, tirées du même épisode (« XXIIIe siècle ») ; Memory Alpha déduit 2262. V0.19 (2026-11-13) : revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-13 (https://www.paramountplus.com/shows/video/ALVE01M1XR9ESFEPPAKAF6984NG1JV/). Elle confirme le fait central : « Enterprise is commandeered by Admiral Simon Reeger to track down and destroy an invisible alien ship. With the command crew out of contact, Lt. Cmdr. James T. Kirk finds himself at odds with the order to destroy an entire planet. » ; « S4 E8: Enterprise is commandeered by Admiral Reeger to track down an alien ship. » Niveau B porté à A. V0.20 (2026-11-13) : doublon tranché : entrée secondaire de STP-300 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SNW « Orders of Magnitude ») et même fait : la prise de commandement de l’Enterprise par l’amiral Simon Reeger. STP-300 est retenue comme principale : intitulé précis (l’ordre de détruire Argus II), fiche approfondie, et relation établie avec la désobéissance de Kirk (STP-301).",
+  "version_entree": "V0.20 révisé",
   "categories": [
    "institutions/fédéralisme"
   ],
@@ -6405,6 +6420,15 @@
       "texte": "). Elle confirme le fait central : « Enterprise is commandeered by Admiral Simon Reeger to track down and destroy an invisible alien ship. With the command crew out of contact, Lt. Cmdr. James T. Kirk finds himself at odds with the order to destroy an entire planet. » ; « S4 E8: Enterprise is commandeered by Admiral Reeger to track down an alien ship. » Niveau B porté à A."
      }
     ]
+   },
+   {
+    "version": "V0.20",
+    "date": "13 novembre 2026",
+    "segments": [
+     {
+      "texte": "doublon tranché : entrée secondaire de STP-300 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SNW « Orders of Magnitude ») et même fait : la prise de commandement de l’Enterprise par l’amiral Simon Reeger. STP-300 est retenue comme principale : intitulé précis (l’ordre de détruire Argus II), fiche approfondie, et relation établie avec la désobéissance de Kirk (STP-301)."
+     }
+    ]
    }
   ],
   "cycle_slug": "discovery-et-strange-new-worlds-crises-du-xxiiie-siecle",
@@ -6413,6 +6437,10 @@
    {
     "libelle": "Intervention d'un amiral et crise de la chaîne de commandement sur l'Enterprise.",
     "motif": "période alignée — aucune année n’est dite à l’écran dans SNW « Orders of Magnitude » ; « 2260 env. » n’avait pas de source et différait de STP-300 et STP-301, tirées du même épisode (« XXIIIe siècle ») ; Memory Alpha déduit 2262."
+   },
+   {
+    "libelle": "Intervention d'un amiral et crise de la chaîne de commandement sur l'Enterprise.",
+    "motif": "doublon tranché : entrée secondaire de STP-300 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (SNW « Orders of Magnitude ») et même fait : la prise de commandement de l’Enterprise par l’amiral Simon Reeger. STP-300 est retenue comme principale : intitulé précis (l’ordre de détruire Argus II), fiche approfondie, et relation établie avec la désobéissance de Kirk (STP-301)."
    }
   ],
   "note_editoriale": null,
@@ -6423,12 +6451,15 @@
     "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes"
    }
   ],
-  "doublon_de": null,
+  "doublon_de": {
+   "id": "STP-300",
+   "motif": "Même épisode (SNW « Orders of Magnitude ») et même fait : la prise de commandement de l’Enterprise par l’amiral Simon Reeger. STP-300 est retenue comme principale : intitulé précis (l’ordre de détruire Argus II), fiche approfondie, et relation établie avec la désobéissance de Kirk (STP-301)."
+  },
   "doublons": [],
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": null
   },
   "rang_diegetique": 108,
   "bande": "XXIIIe siècle",
@@ -6540,7 +6571,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 76,
   "bande": "XXIIIe siècle",
@@ -6634,7 +6665,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 77,
   "bande": "XXIIIe siècle",
@@ -6728,7 +6759,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 78,
   "bande": "XXIIIe siècle",
@@ -6807,7 +6838,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 79,
   "bande": "XXIIIe siècle",
@@ -6901,7 +6932,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 80,
   "bande": "XXIIIe siècle",
@@ -6989,7 +7020,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 81,
   "bande": "XXIIIe siècle",
@@ -7171,7 +7202,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 83,
   "bande": "XXIIIe siècle",
@@ -7282,7 +7313,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 84,
   "bande": "XXIIIe siècle",
@@ -7407,7 +7438,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 85,
   "bande": "XXIIIe siècle",
@@ -7502,7 +7533,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 86,
   "bande": "XXIIIe siècle",
@@ -7596,7 +7627,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 87,
   "bande": "XXIIIe siècle",
@@ -7720,7 +7751,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 88,
   "bande": "XXIIIe siècle",
@@ -7814,7 +7845,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 89,
   "bande": "XXIIIe siècle",
@@ -7938,7 +7969,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 90,
   "bande": "XXIIIe siècle",
@@ -8053,7 +8084,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 91,
   "bande": "XXIIIe siècle",
@@ -8261,7 +8292,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 101,
   "bande": "XXIIIe siècle",
@@ -8449,7 +8480,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 103,
   "bande": "XXIIIe siècle",
@@ -8564,7 +8595,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 104,
   "bande": "XXIIIe siècle",
@@ -9005,8 +9036,16 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "entrantes": [
+    {
+     "id": "STP-102",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Star_Trek_Generations",
+     "url_complementaire": null,
+     "justification": "Arc nommé par Memory Alpha, « Worf vs. Duras » : « Redemption » en est le volet 4 sur 9 et Generations le volet 8 sur 9. Lursa, « together with B'Etor, she was responsible for the beginning of the Klingon Civil War in 2367 », détruit ensuite l’Enterprise-D avec sa sœur."
+    }
+   ],
+   "examinee_le": null
   },
   "rang_diegetique": 173,
   "bande": "XXIVe siècle",
@@ -9202,7 +9241,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 217,
   "bande": "XXIVe siècle",
@@ -9774,7 +9813,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 99,
   "bande": "XXIIIe siècle",
@@ -9869,7 +9908,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 119,
   "bande": "XXIVe siècle",
@@ -9977,7 +10016,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 120,
   "bande": "XXIVe siècle",
@@ -10104,7 +10143,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 121,
   "bande": "XXIVe siècle",
@@ -10183,7 +10222,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 122,
   "bande": "XXIVe siècle",
@@ -10278,7 +10317,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 123,
   "bande": "XXIVe siècle",
@@ -10475,7 +10514,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 127,
   "bande": "XXIVe siècle",
@@ -10599,7 +10638,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 128,
   "bande": "XXIVe siècle",
@@ -10957,7 +10996,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 131,
   "bande": "XXIVe siècle",
@@ -11138,7 +11177,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 137,
   "bande": "XXIVe siècle",
@@ -11236,7 +11275,15 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-080",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Star_Trek_Generations",
+     "url_complementaire": null,
+     "justification": "Arc nommé par Memory Alpha, « Worf vs. Duras » : « Redemption » en est le volet 4 sur 9 et Generations le volet 8 sur 9. Lursa, « together with B'Etor, she was responsible for the beginning of the Klingon Civil War in 2367 », détruit ensuite l’Enterprise-D avec sa sœur."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-100",
@@ -11474,7 +11521,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 139,
   "bande": "XXIVe siècle",
@@ -11801,7 +11848,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 144,
   "bande": "XXIVe siècle",
@@ -11900,7 +11947,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 140,
   "bande": "XXIVe siècle",
@@ -11994,7 +12041,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 124,
   "bande": "XXIVe siècle",
@@ -12078,7 +12125,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 151,
   "bande": "XXIVe siècle",
@@ -12169,7 +12216,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 152,
   "bande": "XXIVe siècle",
@@ -12274,7 +12321,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 132,
   "bande": "XXIVe siècle",
@@ -12368,7 +12415,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 153,
   "bande": "XXIVe siècle",
@@ -12726,7 +12773,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 165,
   "bande": "XXIVe siècle",
@@ -12908,7 +12955,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 166,
   "bande": "XXIVe siècle",
@@ -13007,7 +13054,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 141,
   "bande": "XXIVe siècle",
@@ -14316,7 +14363,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 182,
   "bande": "XXIVe siècle",
@@ -14410,7 +14457,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 174,
   "bande": "XXIVe siècle",
@@ -14525,7 +14572,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 175,
   "bande": "XXIVe siècle",
@@ -17188,7 +17235,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 188,
   "bande": "XXIVe siècle",
@@ -18673,7 +18720,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 190,
   "bande": "XXIVe siècle",
@@ -19007,7 +19054,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 203,
   "bande": "XXIVe siècle",
@@ -19106,7 +19153,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 209,
   "bande": "XXIVe siècle",
@@ -19322,7 +19369,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 226,
   "bande": "XXIVe siècle",
@@ -19437,7 +19484,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 233,
   "bande": "XXIVe siècle",
@@ -19547,7 +19594,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 234,
   "bande": "XXIVe siècle",
@@ -19671,7 +19718,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 211,
   "bande": "XXIVe siècle",
@@ -19770,7 +19817,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 232,
   "bande": "XXIVe siècle",
@@ -19893,7 +19940,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 235,
   "bande": "XXIVe siècle",
@@ -20206,6 +20253,20 @@
      "url": "https://en.wikipedia.org/wiki/Vox_in_Excelso",
      "url_complementaire": null,
      "justification": "Résumé de «Vox in Excelso» : à cause du Burn, « the Klingon homeworld of Qo'noS was rendered uninhabitable », et l'écrasement d'un vaisseau de survivants met « the species on the brink of extinction »."
+    },
+    {
+     "id": "STP-181",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Forget_Me_Not_(episode)",
+     "url_complementaire": null,
+     "justification": "Résumé de « Forget Me Not » : Xi explique que « Trill society and the population of Trill who could be joined was devastated by The Burn and its aftermath, with the survival of their culture through joining in doubt. He says symbionts joining with Humans could be a solution to their problem. »"
+    },
+    {
+     "id": "STP-228",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Kids_These_Days_(episode)",
+     "url_complementaire": null,
+     "justification": "Narration de Nahla Ake à l’écran : « Then, one day, fate handed us an unimaginable loss. The Burn. And it all went away. » ; la nouvelle promotion est « the first new Starfleet Academy class in San Francisco in over a century »."
     }
    ],
    "entrantes": [],
@@ -20500,8 +20561,16 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "entrantes": [
+    {
+     "id": "STP-178",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Forget_Me_Not_(episode)",
+     "url_complementaire": null,
+     "justification": "Résumé de « Forget Me Not » : Xi explique que « Trill society and the population of Trill who could be joined was devastated by The Burn and its aftermath, with the survival of their culture through joining in doubt. He says symbionts joining with Humans could be a solution to their problem. »"
+    }
+   ],
+   "examinee_le": null
   },
   "rang_diegetique": 281,
   "bande": "XXXIIe siècle",
@@ -22881,7 +22950,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 274,
   "bande": "XXVe siècle",
@@ -23406,7 +23475,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 242,
   "bande": "XXIVe siècle",
@@ -23524,7 +23593,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 243,
   "bande": "XXIVe siècle",
@@ -24189,7 +24258,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 248,
   "bande": "XXIVe siècle",
@@ -24395,7 +24464,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 252,
   "bande": "XXIVe siècle",
@@ -25640,8 +25709,16 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "entrantes": [
+    {
+     "id": "STP-178",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Kids_These_Days_(episode)",
+     "url_complementaire": null,
+     "justification": "Narration de Nahla Ake à l’écran : « Then, one day, fate handed us an unimaginable loss. The Burn. And it all went away. » ; la nouvelle promotion est « the first new Starfleet Academy class in San Francisco in over a century »."
+    }
+   ],
+   "examinee_le": null
   },
   "rang_diegetique": 294,
   "bande": "XXXIIe siècle",
@@ -25785,7 +25862,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 295,
   "bande": "XXXIIe siècle",
@@ -27238,7 +27315,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 100,
   "bande": "XXIIIe siècle",
@@ -27340,7 +27417,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 23,
   "bande": "XXIIe siècle",
@@ -27434,7 +27511,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 29,
   "bande": "XXIIe siècle",
@@ -27630,7 +27707,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 31,
   "bande": "XXIIe siècle",
@@ -27724,7 +27801,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 93,
   "bande": "XXIIIe siècle",
@@ -27818,7 +27895,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 94,
   "bande": "XXIIIe siècle",
@@ -27926,7 +28003,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 95,
   "bande": "XXIIIe siècle",
@@ -28025,7 +28102,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 96,
   "bande": "XXIIIe siècle",
@@ -28104,7 +28181,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 97,
   "bande": "XXIIIe siècle",
@@ -28207,7 +28284,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 98,
   "bande": "XXIIIe siècle",
@@ -28331,7 +28408,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 134,
   "bande": "XXIVe siècle",
@@ -28425,7 +28502,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 145,
   "bande": "XXIVe siècle",
@@ -28521,7 +28598,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 146,
   "bande": "XXIVe siècle",
@@ -28727,7 +28804,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 170,
   "bande": "XXIVe siècle",
@@ -28832,7 +28909,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 7,
   "bande": "XXe siècle",
@@ -28946,7 +29023,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 8,
   "bande": "XXe siècle",
@@ -29264,7 +29341,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 213,
   "bande": "XXIVe siècle",
@@ -29358,7 +29435,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 214,
   "bande": "XXIVe siècle",
@@ -29467,7 +29544,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 215,
   "bande": "XXIVe siècle",
@@ -29561,7 +29638,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 228,
   "bande": "XXIVe siècle",
@@ -29676,7 +29753,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 236,
   "bande": "XXIVe siècle",
@@ -30555,7 +30632,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 172,
   "bande": "XXIVe siècle",
@@ -31039,7 +31116,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 159,
   "bande": "XXIVe siècle",
@@ -31485,7 +31562,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 125,
   "bande": "XXIVe siècle",
@@ -31583,7 +31660,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 148,
   "bande": "XXIVe siècle",
@@ -31842,7 +31919,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 238,
   "bande": "XXIVe siècle",
@@ -31959,7 +32036,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 229,
   "bande": "XXIVe siècle",
@@ -32199,7 +32276,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 230,
   "bande": "XXIVe siècle",
@@ -32898,7 +32975,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": "2026-11-13"
   },
   "rang_diegetique": 34,
   "bande": "XXIIe siècle",
@@ -33951,9 +34028,17 @@
    "STP-054"
   ],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-299",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Mat%27Aaran_resistance",
+     "url_complementaire": null,
+     "justification": "Memory Alpha : la résistance est « an underground movement formed by Mat'Aarans to oppose the Klingon occupation of their homeworld Mat'Aar XII » ; « Nevette was fatally poisoned by her subordinate Roman before she could enact the plan »."
+    }
+   ],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": null
   },
   "rang_diegetique": 113,
   "bande": "XXIIIe siècle",
@@ -34083,8 +34168,16 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "entrantes": [
+    {
+     "id": "STP-298",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Mat%27Aaran_resistance",
+     "url_complementaire": null,
+     "justification": "Memory Alpha : la résistance est « an underground movement formed by Mat'Aarans to oppose the Klingon occupation of their homeworld Mat'Aar XII » ; « Nevette was fatally poisoned by her subordinate Roman before she could enact the plan »."
+    }
+   ],
+   "examinee_le": null
   },
   "rang_diegetique": 114,
   "bande": "XXIIIe siècle",
@@ -34199,11 +34292,21 @@
    }
   ],
   "doublon_de": null,
-  "doublons": [],
+  "doublons": [
+   "STP-055"
+  ],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-301",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Argus_II",
+     "url_complementaire": null,
+     "justification": "Memory Alpha : « Reeger prepared to enact General Order 24, which would destroy the planet's entire surface via orbital bombardment » ; « Aghast that Reeger would condemn 5,321 civilians to death on such circumstantial evidence », Kirk le drogue pour que M'Benga puisse le relever du commandement. Page Simon Reeger : « Kirk mutineed, aided by his brother »."
+    }
+   ],
    "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "examinee_le": null
   },
   "rang_diegetique": 115,
   "bande": "XXIIIe siècle",
@@ -34317,8 +34420,16 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": [],
-   "examinee_le": "2026-11-10"
+   "entrantes": [
+    {
+     "id": "STP-300",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Argus_II",
+     "url_complementaire": null,
+     "justification": "Memory Alpha : « Reeger prepared to enact General Order 24, which would destroy the planet's entire surface via orbital bombardment » ; « Aghast that Reeger would condemn 5,321 civilians to death on such circumstantial evidence », Kirk le drogue pour que M'Benga puisse le relever du commandement. Page Simon Reeger : « Kirk mutineed, aided by his brother »."
+    }
+   ],
+   "examinee_le": null
   },
   "rang_diegetique": 116,
   "bande": "XXIIIe siècle",

@@ -41,6 +41,7 @@ data/source/              CSV + Markdown du corpus, une paire par version ; jama
 data/corrections/         journaux V0.N.json : passage d'une version du corpus a la suivante
 data/doublons.json        doublons tranches (secondaire -> principale), sans suppression
 data/relations.json       relations documentees (cause, suite, meme arc), chacune sourcee
+data/archives.json        copies archivees des sources et statut HTTP (genere par scripts/sources.mjs)
 data/diffusion.json       dates de diffusion relevees, chacune avec sa source
 ```
 
@@ -84,6 +85,7 @@ scripts/nouvelle-version.mjs  version N + journal -> version N+1
 scripts/validate.mjs      10 controles documentaires
 scripts/verify.mjs        garde-fou avant push (npm run verify, hook pre-push)
 scripts/check-links.mjs   liens internes d'un site construit (prefixe compris)
+scripts/sources.mjs       copies archivees (web.archive.org) et statut des sources -> data/archives.json (reseau, hors check)
 tests/                    node --test
 .githooks/pre-push        hook versionne (lance scripts/verify.mjs)
 _layouts/ _includes/      gabarits (pas de theme)

@@ -38,7 +38,7 @@ description: "Analyse de STP-006, les émeutes de Bell (Star Trek: Deep Space Ni
 <h2>4. Résonances politiques ultérieures</h2>
 <section class="volet volet--parallele"><h3>Parallèle réel à étudier</h3>{{ f.volets.parallele | markdownify }}</section>
 <p>Sources citées par la fiche :</p>
-<ul>{% for s in f.sources %}<li>{{ s.libelle }} : <a href="{{ s.url }}" rel="noopener">{{ s.url }}</a></li>{% endfor %}</ul>
+<ul>{% for s in f.sources %}<li>{{ s.libelle }} : <a href="{{ s.url }}" rel="noopener">{{ s.url }}</a> {% if s.archive %}(<a href="{{ s.archive }}" rel="noopener">copie archivée</a>){% endif %}</li>{% endfor %}</ul>
 
 <h2>5. Différences et limites de la comparaison</h2>
 <section class="volet volet--objections"><h3>Objections et limites de l’analogie</h3>{{ f.volets.objections | markdownify }}</section>

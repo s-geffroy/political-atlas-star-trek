@@ -42,7 +42,7 @@ layout: default
   <section class="volet volet--parallele"><h3>Parallèle réel à étudier</h3>{{ f.volets.parallele | markdownify }}</section>
   {%- if f.sources.size > 0 %}
   <p>Sources citées par la fiche :</p>
-  <ul>{% for s in f.sources %}<li>{{ s.libelle | escape }} : <a href="{{ s.url }}" rel="noopener">{{ s.url | escape }}</a></li>{% endfor %}</ul>
+  <ul>{% for s in f.sources %}<li>{{ s.libelle | escape }} : <a href="{{ s.url }}" rel="noopener">{{ s.url | escape }}</a> {% if s.archive %}(<a href="{{ s.archive }}" rel="noopener">copie archivée</a>){% endif %}</li>{% endfor %}</ul>
   {%- endif %}
 
   <h2>5. Différences et limites de la comparaison</h2>

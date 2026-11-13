@@ -187,13 +187,17 @@ export function valider({ csv, md } = dernieresSources()) {
   // 9. Aucun enrichissement invente
   {
     const err = [];
-    const derives = new Set(['categories', 'series', 'episodes', 'references_non_rattachees', 'continuite', 'continuite_regle', 'ordre', 'cycle_slug', 'fiche', 'corrections', 'note_editoriale', 'diffusion', 'associes', 'rang_diegetique', 'audit', 'sous_bande', 'amorce', 'analyse_url', 'bande', 'doublon_de', 'doublons', 'relations']);
+    const derives = new Set(['categories', 'series', 'episodes', 'references_non_rattachees', 'continuite', 'continuite_regle', 'ordre', 'cycle_slug', 'fiche', 'corrections', 'note_editoriale', 'diffusion', 'associes', 'rang_diegetique', 'audit', 'sous_bande', 'amorce', 'analyse_url', 'url_archive', 'bande', 'doublon_de', 'doublons', 'relations']);
     for (const e of gen) for (const k of Object.keys(e)) if (!COLONNES.includes(k) && !derives.has(k)) err.push(`${e.id} : champ « ${k} » non prévu`);
     for (const f of Object.values(genFiches)) {
       for (const [k, v] of [...Object.entries(f.volets), ...Object.entries(f.entetes)]) if (!mdText.includes(v)) err.push(`${f.id} : ${k} absent du Markdown source`);
       for (const [k, v] of Object.entries(f.volets)) if (/<\s*[a-z!/]/i.test(v)) err.push(`${f.id} : HTML brut dans « ${k} » (refusé par le pipeline)`);
     }
     for (const e of gen) for (const d of e.diffusion) if (!d.source_url) err.push(`${e.id} : date de diffusion sans source`);
+    // Copies archivees : uniquement des captures web.archive.org.
+    const capture = /^https:\/\/web\.archive\.org\/web\/\d{14}\/https?:\/\//;
+    for (const e of gen) if (e.url_archive && !capture.test(e.url_archive)) err.push(`${e.id} : copie archivée mal formée`);
+    for (const f of Object.values(genFiches)) for (const x of f.sources) if (x.archive && !capture.test(x.archive)) err.push(`${f.id} : copie archivée de source mal formée`);
     for (const e of gen) for (const ep of e.episodes) if (!e.source.includes(ep.titre)) err.push(`${e.id} : épisode « ${ep.titre} » absent du champ source`);
     ajouter(9, 'Aucun enrichissement inventé', err, [], 'Champs dérivés limités à une liste fermée ; textes des fiches = sous-chaînes exactes du Markdown ; dates de diffusion toutes sourcées.');
   }

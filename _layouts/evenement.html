@@ -40,7 +40,7 @@ layout: default
     <dt>Catégories</dt><dd>{{ e.categories_politiques | escape }}</dd>
     <dt>Niveau de vérification</dt><dd><span class="niveau niveau--{{ e.niveau_recoupement }}">{{ e.niveau_recoupement }}</span> <a href="{{ '/methodologie/' | relative_url }}#niveaux">définition</a></dd>
     <dt>Nature de la source</dt><dd>{{ e.nature_source | escape }}</dd>
-    <dt>Source de contrôle</dt><dd>{% if e.url_source != "" %}<a href="{{ e.url_source }}" rel="noopener">{{ e.url_source | escape }}</a>{% else %}Aucune URL dans le corpus.{% endif %}</dd>
+    <dt>Source de contrôle</dt><dd>{% if e.url_source != "" %}<a href="{{ e.url_source }}" rel="noopener">{{ e.url_source | escape }}</a>{% if e.url_archive %} (<a href="{{ e.url_archive }}" rel="noopener">copie archivée</a>){% endif %}{% else %}Aucune URL dans le corpus.{% endif %}</dd>
     {%- if e.note_audit != "" %}<dt>Historique de vérification</dt><dd>
       <ol class="audit">{% for h in e.audit %}<li>{% if h.version %}<strong>{{ h.version | replace_first: "V", "Version " }}</strong>{% if h.date %} ({{ h.date }}){% endif %} : {% else %}<strong>Note d’origine</strong> : {% endif %}{% for s in h.segments %}{% if s.url %}<a href="{{ s.url }}" rel="noopener">{{ s.url | escape }}</a>{% else %}{{ s.texte | escape }}{% endif %}{% endfor %}</li>{% endfor %}</ol>
       <details class="audit__brut"><summary>Texte d’origine du corpus</summary><p>{{ e.note_audit | escape }}</p></details>
@@ -62,7 +62,7 @@ layout: default
   <div class="encadre encadre--ambre"><p><strong>Fiction et histoire.</strong> Le parallèle réel, les objections et le contexte de création et de diffusion de cette fiche sont présentés dans l’analyse : <a href="{{ ua }}">{{ e.event | escape }} : fiction, contexte et limites</a>.</p></div>
   <h3>Sources de la fiche</h3>
   {%- if f.sources.size > 0 %}
-  <ul>{% for s in f.sources %}<li>{{ s.libelle | escape }} : <a href="{{ s.url }}" rel="noopener">{{ s.url | escape }}</a></li>{% endfor %}</ul>
+  <ul>{% for s in f.sources %}<li>{{ s.libelle | escape }} : <a href="{{ s.url }}" rel="noopener">{{ s.url | escape }}</a> {% if s.archive %}(<a href="{{ s.archive }}" rel="noopener">copie archivée</a>){% endif %}</li>{% endfor %}</ul>
   {%- else %}
   <p>La fiche ne cite pas de source de contrôle.</p>
   {%- endif %}

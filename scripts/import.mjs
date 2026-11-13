@@ -65,6 +65,11 @@ export function lireRelations() {
   const p = path.join(ROOT, 'data/relations.json');
   return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')).relations : [];
 }
+// Copies archivees des sources (data/archives.json, produit par scripts/sources.mjs).
+export function lireArchives() {
+  const p = path.join(ROOT, 'data/archives.json');
+  return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')).sources : {};
+}
 export function lireSansRelation() {
   const p = path.join(ROOT, 'data/relations.json');
   return fs.existsSync(p) ? (JSON.parse(fs.readFileSync(p, 'utf8')).examinees_sans_relation || { ids: [] }) : { ids: [] };
@@ -148,6 +153,7 @@ export function importer(csvPath, mdPath) {
 
   // Relations documentees (data/relations.json), affichees dans les deux sens.
   const relations = lireRelations();
+  const archives = lireArchives();
   const sansRel = lireSansRelation();
   for (const e of evenements) e.relations = { sortantes: [], entrantes: [], examinee_le: sansRel.ids.includes(e.id) ? sansRel.date : null };
   for (const x of relations) {
@@ -169,7 +175,9 @@ export function importer(csvPath, mdPath) {
     e.amorce = amorce(e);
     e.analyse_url = e.fiche ? `/analyses/${ANALYSES_REDIGEES[e.id] || e.id}/` : null;
     e.sous_bande = e.ordre.imprecis ? 'Datation imprécise dans le siècle' : null;
+    e.url_archive = archives[e.url_source]?.archive || null;
   }
+  for (const f of fiches) f.sources = f.sources.map((x) => ({ ...x, archive: archives[x.url]?.archive || null }));
 
   // Evenements associes : (1) episode commun ; (2) identifiant cite dans les
   // textes de l'entree (note d'audit, fiche, correction, note editoriale).

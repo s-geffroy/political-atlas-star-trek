@@ -17,11 +17,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/star-treks-best-revolutions-rebellions"
+    "url": "https://www.startrek.com/news/star-treks-best-revolutions-rebellions",
+    "archive": null
    },
    {
     "libelle": "Source documentaire pour le parallèle",
-    "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/23-175.html"
+    "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/23-175.html",
+    "archive": null
    }
   ]
  },
@@ -43,7 +45,8 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/best-of-charles-trip-tucker"
+    "url": "https://www.startrek.com/news/best-of-charles-trip-tucker",
+    "archive": null
    }
   ]
  },
@@ -65,7 +68,8 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/recap-202-ad-astra-per-aspera-strange-new-worlds"
+    "url": "https://www.startrek.com/news/recap-202-ad-astra-per-aspera-strange-new-worlds",
+    "archive": null
    }
   ]
  },
@@ -87,15 +91,18 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/lost-trek-history-the-cloud-minders"
+    "url": "https://www.startrek.com/news/lost-trek-history-the-cloud-minders",
+    "archive": null
    },
    {
     "libelle": "Source documentaire pour le parallèle",
-    "url": "https://www.archives.gov/milestone-documents/civil-rights-act"
+    "url": "https://www.archives.gov/milestone-documents/civil-rights-act",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
-    "url": "https://www.startrek.com/news/resistance-planetary-uprisings-movements"
+    "url": "https://www.startrek.com/news/resistance-planetary-uprisings-movements",
+    "archive": null
    }
   ]
  },
@@ -117,19 +124,23 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.4)",
-    "url": "https://www.startrek.com/en-un/movies/star-trek-vi-the-undiscovered-country"
+    "url": "https://www.startrek.com/en-un/movies/star-trek-vi-the-undiscovered-country",
+    "archive": null
    },
    {
     "libelle": "Source — Wikipedia — Star Trek VI: The Undiscovered Country (section Production) (V0.13)",
-    "url": "https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country"
+    "url": "https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country",
+    "archive": null
    },
    {
     "libelle": "Source — Reactor — A.C. Crispin, « The Wall Comes Down in Space » (2011) (V0.13)",
-    "url": "https://reactormag.com/the-wall-comes-down-in-space-star-trek-vi-the-undiscovered-country/"
+    "url": "https://reactormag.com/the-wall-comes-down-in-space-star-trek-vi-the-undiscovered-country/",
+    "archive": null
    },
    {
     "libelle": "Source — Wikipedia — Dissolution of the Soviet Union (V0.13)",
-    "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+    "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
+    "archive": null
    }
   ]
  },
@@ -151,7 +162,8 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/star-trek-sets-course-nearest-starbase"
+    "url": "https://www.startrek.com/news/star-trek-sets-course-nearest-starbase",
+    "archive": null
    }
   ]
  },
@@ -173,7 +185,8 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/your-ultimate-star-trek-picard-watch-guide"
+    "url": "https://www.startrek.com/news/your-ultimate-star-trek-picard-watch-guide",
+    "archive": null
    }
   ]
  },
@@ -195,11 +208,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/the-next-generations-call-for-equality"
+    "url": "https://www.startrek.com/news/the-next-generations-call-for-equality",
+    "archive": null
    },
    {
     "libelle": "Source — Wikipedia — The Outcast (Star Trek: The Next Generation) (V0.13)",
-    "url": "https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)"
+    "url": "https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)",
+    "archive": null
    }
   ]
  },
@@ -221,11 +236,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/episodes/duet"
+    "url": "https://startrekarchive.com/episodes/duet",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
-    "url": "https://www.startrek.com/en-un/news/space-time-travelers-guide-to-star-trek"
+    "url": "https://www.startrek.com/en-un/news/space-time-travelers-guide-to-star-trek",
+    "archive": null
    }
   ]
  },
@@ -247,11 +264,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/episodes/the-circle"
+    "url": "https://startrekarchive.com/episodes/the-circle",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
-    "url": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-winn-adami"
+    "url": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-winn-adami",
+    "archive": null
    }
   ]
  },
@@ -273,7 +292,8 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/unionizing-star-trek-deep-space-nine"
+    "url": "https://www.startrek.com/news/unionizing-star-trek-deep-space-nine",
+    "archive": null
    }
   ]
  },
@@ -295,7 +315,8 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/a-guide-to-star-treks-bad-admirals"
+    "url": "https://www.startrek.com/news/a-guide-to-star-treks-bad-admirals",
+    "archive": null
    }
   ]
  },
@@ -317,7 +338,8 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/this-classic-ds9-episode-tackles-the-finer-points-of-morality"
+    "url": "https://www.startrek.com/news/this-classic-ds9-episode-tackles-the-finer-points-of-morality",
+    "archive": null
    }
   ]
  },
@@ -339,19 +361,23 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty"
+    "url": "https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty",
+    "archive": null
    },
    {
     "libelle": "Source — Wikipedia — When It Rains… (DS9 7x21), diffusé le 3 mai 1999 (V0.13)",
-    "url": "https://en.wikipedia.org/wiki/When_It_Rains%E2%80%A6"
+    "url": "https://en.wikipedia.org/wiki/When_It_Rains%E2%80%A6",
+    "archive": null
    },
    {
     "libelle": "Source — Wikipedia — Extreme Measures (DS9 7x23), diffusé en mai 1999 (V0.13)",
-    "url": "https://en.wikipedia.org/wiki/Extreme_Measures_(Star_Trek:_Deep_Space_Nine)"
+    "url": "https://en.wikipedia.org/wiki/Extreme_Measures_(Star_Trek:_Deep_Space_Nine)",
+    "archive": null
    },
    {
     "libelle": "Source — Wikipedia — Inquisition (DS9 6x18), diffusé le 6 avril 1998 (V0.13)",
-    "url": "https://en.wikipedia.org/wiki/Inquisition_(Star_Trek:_Deep_Space_Nine)"
+    "url": "https://en.wikipedia.org/wiki/Inquisition_(Star_Trek:_Deep_Space_Nine)",
+    "archive": null
    }
   ]
  },
@@ -373,11 +399,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/episodes/what-you-leave-behind"
+    "url": "https://startrekarchive.com/episodes/what-you-leave-behind",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
-    "url": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles"
+    "url": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
+    "archive": null
    }
   ]
  },
@@ -399,11 +427,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/events/holographic-rights-ruling"
+    "url": "https://startrekarchive.com/events/holographic-rights-ruling",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
-    "url": "https://www.startrek.com/en-un/news/author-author-can-teach-us-a-lot-about-ai-and-copyright"
+    "url": "https://www.startrek.com/en-un/news/author-author-can-teach-us-a-lot-about-ai-and-copyright",
+    "archive": null
    }
   ]
  },
@@ -425,7 +455,8 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/recap-505-discovery-mirrors"
+    "url": "https://www.startrek.com/news/recap-505-discovery-mirrors",
+    "archive": null
    }
   ]
  },
@@ -447,11 +478,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/events/synthetic-ban"
+    "url": "https://startrekarchive.com/events/synthetic-ban",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
-    "url": "https://www.startrek.com/en-un/news/recap-star-trek-picard-remembrance"
+    "url": "https://www.startrek.com/en-un/news/recap-star-trek-picard-remembrance",
+    "archive": null
    }
   ]
  },
@@ -473,15 +506,18 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/"
+    "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
-    "url": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/"
+    "url": "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.17)",
-    "url": "https://www.paramountplus.com/shows/video/TWM68Ce3TC9HdLIN2ulAh8YbyCkkRkzf/"
+    "url": "https://www.paramountplus.com/shows/video/TWM68Ce3TC9HdLIN2ulAh8YbyCkkRkzf/",
+    "archive": null
    }
   ]
  },
@@ -503,7 +539,8 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/news/recap-505-discovery-mirrors"
+    "url": "https://www.startrek.com/news/recap-505-discovery-mirrors",
+    "archive": null
    }
   ]
  },
@@ -525,7 +562,8 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://www.startrek.com/movies/star-trek-section-31"
+    "url": "https://www.startrek.com/movies/star-trek-section-31",
+    "archive": null
    }
   ]
  },
@@ -547,15 +585,18 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/episodes/sanctuary"
+    "url": "https://startrekarchive.com/episodes/sanctuary",
+    "archive": null
    },
    {
     "libelle": "Source documentaire pour le parallèle",
-    "url": "https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention"
+    "url": "https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
-    "url": "https://en.wikipedia.org/wiki/Sanctuary_(Star_Trek:_Deep_Space_Nine)"
+    "url": "https://en.wikipedia.org/wiki/Sanctuary_(Star_Trek:_Deep_Space_Nine)",
+    "archive": null
    }
   ]
  },
@@ -577,11 +618,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/episodes/statistical-probabilities"
+    "url": "https://startrekarchive.com/episodes/statistical-probabilities",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
-    "url": "https://en.wikipedia.org/wiki/Statistical_Probabilities"
+    "url": "https://en.wikipedia.org/wiki/Statistical_Probabilities",
+    "archive": null
    }
   ]
  },
@@ -603,15 +646,18 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/episodes/flesh-and-blood"
+    "url": "https://startrekarchive.com/episodes/flesh-and-blood",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
-    "url": "https://www.paramountplus.com/shows/star_trek_voyager/episodes/7/"
+    "url": "https://www.paramountplus.com/shows/star_trek_voyager/episodes/7/",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.15)",
-    "url": "https://web.archive.org/web/20230322223853/https://www.startrek.com/database_article/flesh-and-blood-part-i"
+    "url": "https://web.archive.org/web/20230322223853/https://www.startrek.com/database_article/flesh-and-blood-part-i",
+    "archive": null
    }
   ]
  },
@@ -633,11 +679,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/episodes/the-void"
+    "url": "https://startrekarchive.com/episodes/the-void",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
-    "url": "https://en.wikipedia.org/wiki/The_Void_(Star_Trek:_Voyager)"
+    "url": "https://en.wikipedia.org/wiki/The_Void_(Star_Trek:_Voyager)",
+    "archive": null
    }
   ]
  },
@@ -659,11 +707,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/episodes/the-sound-of-thunder"
+    "url": "https://startrekarchive.com/episodes/the-sound-of-thunder",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
-    "url": "https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide"
+    "url": "https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide",
+    "archive": null
    }
   ]
  },
@@ -685,7 +735,8 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/"
+    "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/",
+    "archive": null
    }
   ]
  },
@@ -707,11 +758,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/"
+    "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
-    "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1"
+    "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+    "archive": null
    }
   ]
  },
@@ -733,11 +786,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/series/starfleet-academy"
+    "url": "https://startrekarchive.com/series/starfleet-academy",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
-    "url": "https://www.denofgeek.com/tv/star-trek-starfleet-academy-episode-9-review-300th-night/"
+    "url": "https://www.denofgeek.com/tv/star-trek-starfleet-academy-episode-9-review-300th-night/",
+    "archive": null
    }
   ]
  },
@@ -759,11 +814,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/episodes/a-case-of-chiaroscuro"
+    "url": "https://startrekarchive.com/episodes/a-case-of-chiaroscuro",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
-    "url": "https://blog.trekcore.com/2026/08/star-trek-strange-new-worlds-episode-404-review-a-case-of-chiaroscuro/"
+    "url": "https://blog.trekcore.com/2026/08/star-trek-strange-new-worlds-episode-404-review-a-case-of-chiaroscuro/",
+    "archive": null
    }
   ]
  },
@@ -785,11 +842,13 @@
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
-    "url": "https://startrekarchive.com/episodes/orders-of-magnitude"
+    "url": "https://startrekarchive.com/episodes/orders-of-magnitude",
+    "archive": null
    },
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
-    "url": "https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-episode-408-review-orders-of-magnitude/"
+    "url": "https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-episode-408-review-orders-of-magnitude/",
+    "archive": null
    }
   ]
  }

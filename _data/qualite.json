@@ -1,10 +1,10 @@
 {
- "genere_le": "2026-11-12",
+ "genere_le": "2026-11-13",
  "source": {
-  "csv": "data/source/Star_Trek_Atlas_Politique_V0_17_2026-11-12.csv",
-  "md": "data/source/Star_Trek_Atlas_Politique_V0_17_2026-11-12.md",
-  "version": "0.17",
-  "etat": "État : 12 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
+  "csv": "data/source/Star_Trek_Atlas_Politique_V0_18_2026-11-13.csv",
+  "md": "data/source/Star_Trek_Atlas_Politique_V0_18_2026-11-13.md",
+  "version": "0.18",
+  "etat": "État : 13 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
   "colonnes": [
    "id",
    "cycle",
@@ -77,7 +77,7 @@
    "statut": "ok",
    "erreurs": [],
    "avertissements": [],
-   "info": "92 périodes non réductibles à une année, conservées telles quelles ; la clé d'ordre ne sert qu'au tri et n'est jamais affichée."
+   "info": "91 périodes non réductibles à une année, conservées telles quelles ; la clé d'ordre ne sert qu'au tri et n'est jamais affichée."
   },
   {
    "num": 8,

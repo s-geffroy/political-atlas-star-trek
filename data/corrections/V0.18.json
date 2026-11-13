@@ -1,0 +1,126 @@
+{
+ "version": "V0.18",
+ "date": "2026-11-13",
+ "date_longue": "13 novembre 2026",
+ "base": "V0_17_2026-11-12",
+ "titre": "Atlas politique de Star Trek — V0.18 : périodes précisées d’après l’écran",
+ "resume": "Les 73 périodes qui ne sont pas une année ont été relues : dix sont précisées ou corrigées d’après une date dite ou montrée à l’écran (STP-011 en 2063 et non 2053 ; STP-005 de 1992 à 1996 ; STP-256 en 1953 ; STP-257 en 1962 ; Iconia et les Slavers datés en années avant le présent ; STP-010 au début du XXIe siècle) ; le film Section 31 n’est plus daté par conversion de date stellaire (« Après 2257 ») et STP-055 s’aligne sur les autres entrées de son épisode.",
+ "methode": {
+  "periodes": "relecture du 13 novembre 2026, proposition validée le 2026-11-13 (docs/proposition-v018.md) ; une année n’est retenue que si elle est dite ou montrée à l’écran ; citations contrôlées sur les transcriptions chakoteya.net et Memory Alpha."
+ },
+ "comptes": {
+  "corrections": 10
+ },
+ "corrections": [
+  {
+   "id": "STP-003",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "Passé lointain",
+     "apres": "Passé lointain (il y a environ 200 000 ans)"
+    }
+   },
+   "motif": "période précisée d’après une date dite à l’écran — Data, TNG « Contagion » : « Approximately two hundred thousand years, sir. » (http://www.chakoteya.net/NextGen/137.htm) ; Sisko le redit dans DS9 « To the Death »."
+  },
+  {
+   "id": "STP-004",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "Passé lointain",
+     "apres": "Passé lointain (il y a environ un milliard d'années)"
+    }
+   },
+   "motif": "période précisée d’après une date dite à l’écran — Spock, TAS « The Slaver Weapon » : « …which ruled most of the galaxy a billion years ago » (https://memory-alpha.fandom.com/wiki/The_Slaver_Weapon_(episode))."
+  },
+  {
+   "id": "STP-005",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "1990s / chronologie instable",
+     "apres": "1992–1996 / chronologie instable"
+    }
+   },
+   "motif": "période précisée d’après une date dite à l’écran — Spock, TOS « Space Seed » : « From 1992 through 1996, absolute ruler of more than a quarter of your world. » (http://www.chakoteya.net/StarTrek/24.htm). L’instabilité de la chronologie (SNW) est maintenue."
+  },
+  {
+   "id": "STP-010",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "Milieu XXIe siècle",
+     "apres": "Début XXIe siècle"
+    }
+   },
+   "motif": "période précisée d’après une date dite à l’écran — TOS « The Savage Curtain » : « Colonel Green, who led a genocidal war early in the 21st century on Earth. » (http://www.chakoteya.net/StarTrek/77.htm). L’année 2056 de Memory Alpha est déduite."
+  },
+  {
+   "id": "STP-011",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2053 (datation usuelle)",
+     "apres": "2063"
+    }
+   },
+   "motif": "période précisée d’après une date dite à l’écran — film « First Contact », Data : « April fourth, two thousand sixty-three » ; « approximately ten years after the Third World War » (http://www.chakoteya.net/movies/movie8.html). 2053 est la fin de la guerre, déduite (Memory Alpha : « based on Trip Tucker's statement in \"Terra Prime\" »)."
+  },
+  {
+   "id": "STP-055",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2260 env.",
+     "apres": "XXIIIe siècle"
+    }
+   },
+   "motif": "période alignée — aucune année n’est dite à l’écran dans SNW « Orders of Magnitude » ; « 2260 env. » n’avait pas de source et différait de STP-300 et STP-301, tirées du même épisode (« XXIIIe siècle ») ; Memory Alpha déduit 2262."
+  },
+  {
+   "id": "STP-256",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "Années 1950, vision",
+     "apres": "1953, vision"
+    }
+   },
+   "motif": "période précisée d’après une date dite à l’écran — DS9 « Far Beyond the Stars » : couverture à l’écran du numéro de mars 1953 d’Incredible Tales (Memory Alpha : « The cover of the March 1953 edition of Incredible Tales », https://memory-alpha.fandom.com/wiki/Far_Beyond_the_Stars_(episode))."
+  },
+  {
+   "id": "STP-257",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "Années 1960, reconstitution",
+     "apres": "1962, reconstitution"
+    }
+   },
+   "motif": "période précisée d’après une date dite à l’écran — Sisko, DS9 « Badda-Bing, Badda-Bang » : « Las Vegas nineteen sixty two, that's my problem. » (http://www.chakoteya.net/DS9/566.htm)."
+  },
+  {
+   "id": "STP-267",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "vers 2324 (chronologie secondaire)",
+     "apres": "Après 2257 (chronologie secondaire)"
+    }
+   },
+   "motif": "période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » (https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31)."
+  },
+  {
+   "id": "STP-268",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "vers 2324 (chronologie secondaire)",
+     "apres": "Après 2257 (chronologie secondaire)"
+    }
+   },
+   "motif": "période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » (https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31)."
+  }
+ ]
+}

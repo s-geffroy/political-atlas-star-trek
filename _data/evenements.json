@@ -277,7 +277,7 @@
  {
   "id": "STP-003",
   "cycle": "Terre : origines et histoire antérieure",
-  "period": "Passé lointain",
+  "period": "Passé lointain (il y a environ 200 000 ans)",
   "event": "Destruction d'Iconia par un bombardement orbital et survivance de ses portes interdimensionnelles",
   "source": "TNG « Contagion » ; DS9 « To the Death »",
   "politics": "Guerre de civilisation, mémoire d'un empire disparu.",
@@ -285,8 +285,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/alien-races-without-faces",
-  "note_audit": "V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement A — L'article officiel indique que « Contagion » traite de la découverte d'Iconia et du sort des Iconiens, éteints après un assaut contre leur planète (« focused orbital bombardment »), et que « To the Death » porte sur une porte iconienne que des Jem'Hadar renégats veulent exploiter. La « dispersion des vestiges » n'est pas décrite. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement A — L'article officiel indique que « Contagion » traite de la découverte d'Iconia et du sort des Iconiens, éteints après un assaut contre leur planète (« focused orbital bombardment »), et que « To the Death » porte sur une porte iconienne que des Jem'Hadar renégats veulent exploiter. La « dispersion des vestiges » n'est pas décrite. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.18 (2026-11-13) : période précisée d’après une date dite à l’écran — Data, TNG « Contagion » : « Approximately two hundred thousand years, sir. » (http://www.chakoteya.net/NextGen/137.htm) ; Sisko le redit dans DS9 « To the Death ».",
+  "version_entree": "V0.18 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -329,6 +329,21 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.18",
+    "date": "13 novembre 2026",
+    "segments": [
+     {
+      "texte": "période précisée d’après une date dite à l’écran — Data, TNG « Contagion » : « Approximately two hundred thousand years, sir. » ("
+     },
+     {
+      "url": "http://www.chakoteya.net/NextGen/137.htm"
+     },
+     {
+      "texte": ") ; Sisko le redit dans DS9 « To the Death »."
+     }
+    ]
    }
   ],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
@@ -337,6 +352,10 @@
    {
     "libelle": "Destruction d'Iconia par un bombardement orbital et survivance de ses portes interdimensionnelles.",
     "motif": "intitulé corrigé(s) d’après la source, recoupement A — L'article officiel indique que « Contagion » traite de la découverte d'Iconia et du sort des Iconiens, éteints après un assaut contre leur planète (« focused orbital bombardment »), et que « To the Death » porte sur une porte iconienne que des Jem'Hadar renégats veulent exploiter. La « dispersion des vestiges » n'est pas décrite"
+   },
+   {
+    "libelle": "Destruction d'Iconia par un bombardement orbital et survivance de ses portes interdimensionnelles.",
+    "motif": "période précisée d’après une date dite à l’écran — Data, TNG « Contagion » : « Approximately two hundred thousand years, sir. » (<http://www.chakoteya.net/NextGen/137.htm>) ; Sisko le redit dans DS9 « To the Death »."
    }
   ],
   "note_editoriale": null,
@@ -361,7 +380,7 @@
   },
   "rang_diegetique": 3,
   "bande": "Passé lointain",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Contagion » ; Star Trek: Deep Space Nine, épisode « To the Death ») ; période fictive : Passé lointain.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Contagion » ; Star Trek: Deep Space Nine, épisode « To the Death ») ; période fictive : Passé lointain (il y a environ 200 000 ans).",
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
@@ -370,7 +389,7 @@
  {
   "id": "STP-004",
   "cycle": "Terre : origines et histoire antérieure",
-  "period": "Passé lointain",
+  "period": "Passé lointain (il y a environ un milliard d'années)",
   "event": "Domination de la galaxie par l'ancienne civilisation des Slavers et son extermination dans une guerre",
   "source": "TAS « The Slaver Weapon »",
   "politics": "Esclavage et effondrement d'un ordre politique galactique.",
@@ -378,8 +397,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Mise en servitude des espèces », « Esclavage » ; vérification non concluante (niveau C maintenu) — La « mise en servitude des espèces » n'est pas décrite dans le corps de l'article (seul un commentaire de lecteur l'évoque). Source consultée : https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Le corps du rewatch dit que les Slavers « conquered the entire galaxy billions of years earlier » et qu'après leur anéantissement la vie a dû réapparaître. La transcription de l'épisode (chakoteya.net) précise : maîtres de tous les êtres intelligents de la galaxie, une race s'est révoltée, et les Slavers et tous leurs sujets ont été exterminés dans la guerre. La mise en servitude des Tnuctipun n'apparaît que dans la nouvelle de Niven, pas dans l'épisode (Wikipedia). V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de guerre/bataille : « extermination dans une guerre » ; colonialisme/occupation maintenu : « Domination de la galaxie ». V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Mise en servitude des espèces », « Esclavage » ; vérification non concluante (niveau C maintenu) — La « mise en servitude des espèces » n'est pas décrite dans le corps de l'article (seul un commentaire de lecteur l'évoque). Source consultée : https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Le corps du rewatch dit que les Slavers « conquered the entire galaxy billions of years earlier » et qu'après leur anéantissement la vie a dû réapparaître. La transcription de l'épisode (chakoteya.net) précise : maîtres de tous les êtres intelligents de la galaxie, une race s'est révoltée, et les Slavers et tous leurs sujets ont été exterminés dans la guerre. La mise en servitude des Tnuctipun n'apparaît que dans la nouvelle de Niven, pas dans l'épisode (Wikipedia). V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout de guerre/bataille : « extermination dans une guerre » ; colonialisme/occupation maintenu : « Domination de la galaxie ». V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.18 (2026-11-13) : période précisée d’après une date dite à l’écran — Spock, TAS « The Slaver Weapon » : « …which ruled most of the galaxy a billion years ago » (https://memory-alpha.fandom.com/wiki/The_Slaver_Weapon_(episode)).",
+  "version_entree": "V0.18 révisé",
   "categories": [
    "guerre/bataille",
    "colonialisme/occupation"
@@ -442,6 +461,21 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.18",
+    "date": "13 novembre 2026",
+    "segments": [
+     {
+      "texte": "période précisée d’après une date dite à l’écran — Spock, TAS « The Slaver Weapon » : « …which ruled most of the galaxy a billion years ago » ("
+     },
+     {
+      "url": "https://memory-alpha.fandom.com/wiki/The_Slaver_Weapon_(episode)"
+     },
+     {
+      "texte": ")."
+     }
+    ]
    }
   ],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
@@ -450,6 +484,10 @@
    {
     "libelle": "Domination de la galaxie par l'ancienne civilisation des Slavers et son extermination dans une guerre.",
     "motif": "intitulé corrigé(s) d’après la source, recoupement B — Le corps du rewatch dit que les Slavers « conquered the entire galaxy billions of years earlier » et qu'après leur anéantissement la vie a dû réapparaître. La transcription de l'épisode (chakoteya.net) précise : maîtres de tous les êtres intelligents de la galaxie, une race s'est révoltée, et les Slavers et tous leurs sujets ont été exterminés dans la guerre. La mise en servitude des Tnuctipun n'apparaît que dans la nouvelle de Niven, pas dans l'épisode (Wikipedia)"
+   },
+   {
+    "libelle": "Domination de la galaxie par l'ancienne civilisation des Slavers et son extermination dans une guerre.",
+    "motif": "période précisée d’après une date dite à l’écran — Spock, TAS « The Slaver Weapon » : « …which ruled most of the galaxy a billion years ago » (<https://memory-alpha.fandom.com/wiki/The_Slaver_Weapon_(episode)>)."
    }
   ],
   "note_editoriale": null,
@@ -477,7 +515,7 @@
   },
   "rang_diegetique": 4,
   "bande": "Passé lointain",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « The Slaver Weapon ») ; période fictive : Passé lointain.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « The Slaver Weapon ») ; période fictive : Passé lointain (il y a environ un milliard d'années).",
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
@@ -501,7 +539,7 @@
  {
   "id": "STP-005",
   "cycle": "Terre : origines et histoire antérieure",
-  "period": "1990s / chronologie instable",
+  "period": "1992–1996 / chronologie instable",
   "event": "Guerres eugéniques et domination de Khan et des « Augments »",
   "source": "TOS « Space Seed » ; ENT « Borderland » ; SNW « Tomorrow and Tomorrow and Tomorrow »",
   "politics": "Autoritarisme biotechnologique et héritage juridique de l'eugénisme ; datation diégétique retouchée.",
@@ -509,8 +547,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/strange-new-worlds-101-genetic-engineering",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « Guerres eugéniques », « Autoritarisme biotechnologique » ; recoupement B — Wikipedia : Khan Noonien Singh et les siens, produits d'une sélection génétique, devenus tyrans, ont conquis plus d'un tiers de la planète pendant les guerres eugéniques des années 1990. Réserve : Seul l'épisode TOS a été vérifié ; ENT « Borderland » et SNW non recoupés. V0.5 (2026-11-10) : recoupement A (source officielle) — L'article décrit Khan comme un tyran génétiquement modifié et les humains « augmentés » prenant le contrôle de parties de la planète en dictateurs régnant d'une main de fer, l'ingénierie génétique étant interdite après les guerres eugéniques. Réserve : La page ne traite ni de « Borderland » ni de « Tomorrow and Tomorrow and Tomorrow ». Source B précédente : https://en.wikipedia.org/wiki/Space_Seed. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « Guerres eugéniques », « Autoritarisme biotechnologique » ; recoupement B — Wikipedia : Khan Noonien Singh et les siens, produits d'une sélection génétique, devenus tyrans, ont conquis plus d'un tiers de la planète pendant les guerres eugéniques des années 1990. Réserve : Seul l'épisode TOS a été vérifié ; ENT « Borderland » et SNW non recoupés. V0.5 (2026-11-10) : recoupement A (source officielle) — L'article décrit Khan comme un tyran génétiquement modifié et les humains « augmentés » prenant le contrôle de parties de la planète en dictateurs régnant d'une main de fer, l'ingénierie génétique étant interdite après les guerres eugéniques. Réserve : La page ne traite ni de « Borderland » ni de « Tomorrow and Tomorrow and Tomorrow ». Source B précédente : https://en.wikipedia.org/wiki/Space_Seed. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.18 (2026-11-13) : période précisée d’après une date dite à l’écran — Spock, TOS « Space Seed » : « From 1992 through 1996, absolute ruler of more than a quarter of your world. » (http://www.chakoteya.net/StarTrek/24.htm). L’instabilité de la chronologie (SNW) est maintenue.",
+  "version_entree": "V0.18 révisé",
   "categories": [
    "guerre/bataille",
    "technologie/bioéthique"
@@ -538,8 +576,8 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 1990,
-   "precision": "decennie",
+   "cle": 1992,
+   "precision": "annee_qualifiee",
    "siecle": 20
   },
   "audit": [
@@ -575,11 +613,31 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.18",
+    "date": "13 novembre 2026",
+    "segments": [
+     {
+      "texte": "période précisée d’après une date dite à l’écran — Spock, TOS « Space Seed » : « From 1992 through 1996, absolute ruler of more than a quarter of your world. » ("
+     },
+     {
+      "url": "http://www.chakoteya.net/StarTrek/24.htm"
+     },
+     {
+      "texte": "). L’instabilité de la chronologie (SNW) est maintenue."
+     }
+    ]
    }
   ],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Guerres eugéniques et domination de Khan et des « Augments ».",
+    "motif": "période précisée d’après une date dite à l’écran — Spock, TOS « Space Seed » : « From 1992 through 1996, absolute ruler of more than a quarter of your world. » (<http://www.chakoteya.net/StarTrek/24.htm>). L’instabilité de la chronologie (SNW) est maintenue."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -629,7 +687,7 @@
   },
   "rang_diegetique": 9,
   "bande": "XXe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Space Seed » ; Star Trek: Enterprise, épisode « Borderland » ; Star Trek: Strange New Worlds, épisode « Tomorrow and Tomorrow and Tomorrow ») ; période fictive : 1990s / chronologie instable.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Space Seed » ; Star Trek: Enterprise, épisode « Borderland » ; Star Trek: Strange New Worlds, épisode « Tomorrow and Tomorrow and Tomorrow ») ; période fictive : 1992–1996 / chronologie instable.",
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
@@ -1039,7 +1097,7 @@
  {
   "id": "STP-010",
   "cycle": "Terre : origines et histoire antérieure",
-  "period": "Milieu XXIe siècle",
+  "period": "Début XXIe siècle",
   "event": "Régime et crimes militaires du colonel Phillip Green",
   "source": "ENT « Demons » ; TOS « The Savage Curtain »",
   "politics": "Violence exterminatrice, rémanence idéologique dans la mouvance Terra Prime.",
@@ -1047,8 +1105,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Chronologie indépendante",
   "url_source": "https://en.wikipedia.org/wiki/Timeline_of_Star_Trek",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crimes militaires », « Violence exterminatrice » ; recoupement B — La chronologie indique que le colonel Phillip Green et un groupe d'éco-terroristes commettent pendant la Troisième Guerre mondiale un génocide de 37 millions de personnes, et que « The Savage Curtain » présente Green comme meneur d'une guerre génocidaire au XXIe siècle ; l'article Wikipedia de « Demons » confirme que Paxton y regarde des images de Green. Réserve : La chronologie attribue la mention du génocide à ENT « In a Mirror, Darkly, Part II », et non à « Demons » où Green n'apparaît qu'en images d'archives (https://en.wikipedia.org/wiki/Demons_(Star_Trek:_Enterprise)). Pas une contradiction, mais l'épisode source principal semble mal ciblé. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crimes militaires », « Violence exterminatrice » ; recoupement B — La chronologie indique que le colonel Phillip Green et un groupe d'éco-terroristes commettent pendant la Troisième Guerre mondiale un génocide de 37 millions de personnes, et que « The Savage Curtain » présente Green comme meneur d'une guerre génocidaire au XXIe siècle ; l'article Wikipedia de « Demons » confirme que Paxton y regarde des images de Green. Réserve : La chronologie attribue la mention du génocide à ENT « In a Mirror, Darkly, Part II », et non à « Demons » où Green n'apparaît qu'en images d'archives (https://en.wikipedia.org/wiki/Demons_(Star_Trek:_Enterprise)). Pas une contradiction, mais l'épisode source principal semble mal ciblé. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.18 (2026-11-13) : période précisée d’après une date dite à l’écran — TOS « The Savage Curtain » : « Colonel Green, who led a genocidal war early in the 21st century on Earth. » (http://www.chakoteya.net/StarTrek/77.htm). L’année 2056 de Memory Alpha est déduite.",
+  "version_entree": "V0.18 révisé",
   "categories": [
    "guerre/bataille",
    "justice/droits"
@@ -1075,7 +1133,7 @@
    "precision": "siecle",
    "siecle": 21,
    "imprecis": true,
-   "qualif": 2
+   "qualif": 1
   },
   "audit": [
    {
@@ -1101,11 +1159,31 @@
       "texte": "harmonisation typographique (guillemets, ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.18",
+    "date": "13 novembre 2026",
+    "segments": [
+     {
+      "texte": "période précisée d’après une date dite à l’écran — TOS « The Savage Curtain » : « Colonel Green, who led a genocidal war early in the 21st century on Earth. » ("
+     },
+     {
+      "url": "http://www.chakoteya.net/StarTrek/77.htm"
+     },
+     {
+      "texte": "). L’année 2056 de Memory Alpha est déduite."
+     }
+    ]
    }
   ],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Régime et crimes militaires du colonel Phillip Green.",
+    "motif": "période précisée d’après une date dite à l’écran — TOS « The Savage Curtain » : « Colonel Green, who led a genocidal war early in the 21st century on Earth. » (<http://www.chakoteya.net/StarTrek/77.htm>). L’année 2056 de Memory Alpha est déduite."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -1128,7 +1206,7 @@
   },
   "rang_diegetique": 16,
   "bande": "XXIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Demons » ; Star Trek: The Original Series, épisode « The Savage Curtain ») ; période fictive : Milieu XXIe siècle.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Demons » ; Star Trek: The Original Series, épisode « The Savage Curtain ») ; période fictive : Début XXIe siècle.",
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": null,
@@ -1152,7 +1230,7 @@
  {
   "id": "STP-011",
   "cycle": "Terre : origines et histoire antérieure",
-  "period": "2053 (datation usuelle)",
+  "period": "2063",
   "event": "Terre en reconstruction au sortir de la Troisième Guerre mondiale (datations et bilan variables selon les récits)",
   "source": "Film « First Contact »",
   "politics": "Catastrophe politico-militaire et effondrement institutionnel ; bilan humain variable selon les sources diégétiques.",
@@ -1160,8 +1238,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_First_Contact",
-  "note_audit": "La date de fin 2053 est usuelle, pas une chronologie entièrement cohérente avec toutes les mentions. V0.4 (2026-11-10) : champ source : « First Contact » sans sigle rattaché explicitement au film (Film «First Contact»), seule œuvre canonique de ce titre ; catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « effondrement institutionnel » ; vérification non concluante (niveau C maintenu) — Le tableau de la Timeline est marqué « citation needed » (non sourcé) ; aucune des deux pages ne rattache la fin de la guerre à « Encounter at Farpoint ». Source consultée : https://en.wikipedia.org/wiki/Timeline_of_Star_Trek. V0.6 (2026-11-10) : intitulé, épisode cité corrigé(s) d’après la source, recoupement B — Le résumé Wikipedia situe l'action le 4 avril 2063, « while the planet is recovering from World War III ». La date de fin (2053) et le bilan ne sont attestés par aucune source A/B lue (la Timeline Wikipedia les donne sans épisode) ; le résumé Wikipedia de « Encounter at Farpoint » ne mentionne ni la guerre ni l'« horreur post-atomique », d'où le retrait de cet épisode de la source. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "La date de fin 2053 est usuelle, pas une chronologie entièrement cohérente avec toutes les mentions. V0.4 (2026-11-10) : champ source : « First Contact » sans sigle rattaché explicitement au film (Film «First Contact»), seule œuvre canonique de ce titre ; catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « effondrement institutionnel » ; vérification non concluante (niveau C maintenu) — Le tableau de la Timeline est marqué « citation needed » (non sourcé) ; aucune des deux pages ne rattache la fin de la guerre à « Encounter at Farpoint ». Source consultée : https://en.wikipedia.org/wiki/Timeline_of_Star_Trek. V0.6 (2026-11-10) : intitulé, épisode cité corrigé(s) d’après la source, recoupement B — Le résumé Wikipedia situe l'action le 4 avril 2063, « while the planet is recovering from World War III ». La date de fin (2053) et le bilan ne sont attestés par aucune source A/B lue (la Timeline Wikipedia les donne sans épisode) ; le résumé Wikipedia de « Encounter at Farpoint » ne mentionne ni la guerre ni l'« horreur post-atomique », d'où le retrait de cet épisode de la source. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.18 (2026-11-13) : période précisée d’après une date dite à l’écran — film « First Contact », Data : « April fourth, two thousand sixty-three » ; « approximately ten years after the Third World War » (http://www.chakoteya.net/movies/movie8.html). 2053 est la fin de la guerre, déduite (Memory Alpha : « based on Trip Tucker's statement in \"Terra Prime\" »).",
+  "version_entree": "V0.18 révisé",
   "categories": [
    "guerre/bataille",
    "institutions/fédéralisme"
@@ -1179,8 +1257,8 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2053,
-   "precision": "annee_qualifiee",
+   "cle": 2063,
+   "precision": "annee",
    "siecle": 21
   },
   "audit": [
@@ -1225,6 +1303,21 @@
       "texte": "harmonisation typographique (guillemets, ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.18",
+    "date": "13 novembre 2026",
+    "segments": [
+     {
+      "texte": "période précisée d’après une date dite à l’écran — film « First Contact », Data : « April fourth, two thousand sixty-three » ; « approximately ten years after the Third World War » ("
+     },
+     {
+      "url": "http://www.chakoteya.net/movies/movie8.html"
+     },
+     {
+      "texte": "). 2053 est la fin de la guerre, déduite (Memory Alpha : « based on Trip Tucker's statement in \"Terra Prime\" »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
@@ -1241,6 +1334,10 @@
    {
     "libelle": "Terre en reconstruction au sortir de la Troisième Guerre mondiale (datations et bilan variables selon les récits).",
     "motif": "intitulé, épisode cité corrigé(s) d’après la source, recoupement B — Le résumé Wikipedia situe l'action le 4 avril 2063, « while the planet is recovering from World War III ». La date de fin (2053) et le bilan ne sont attestés par aucune source A/B lue (la Timeline Wikipedia les donne sans épisode) ; le résumé Wikipedia de « Encounter at Farpoint » ne mentionne ni la guerre ni l'« horreur post-atomique », d'où le retrait de cet épisode de la source"
+   },
+   {
+    "libelle": "Terre en reconstruction au sortir de la Troisième Guerre mondiale (datations et bilan variables selon les récits).",
+    "motif": "période précisée d’après une date dite à l’écran — film « First Contact », Data : « April fourth, two thousand sixty-three » ; « approximately ten years after the Third World War » (<http://www.chakoteya.net/movies/movie8.html>). 2053 est la fin de la guerre, déduite (Memory Alpha : « based on Trip Tucker's statement in \"Terra Prime\" »)."
    }
   ],
   "note_editoriale": "La date de fin 2053 est usuelle, pas une chronologie entièrement cohérente avec toutes les mentions.",
@@ -1268,7 +1365,7 @@
   },
   "rang_diegetique": 14,
   "bande": "XXIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (film « First Contact ») ; période fictive : 2053 (datation usuelle).",
+  "amorce": "Événement politique de la fiction Star Trek (film « First Contact ») ; période fictive : 2063.",
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
@@ -5184,7 +5281,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 62,
+  "rang_diegetique": 64,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Such Sweet Sorrow ») ; période fictive : 2258.",
   "analyse_url": null,
@@ -5272,7 +5369,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 64,
+  "rang_diegetique": 66,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Strange New Worlds ») ; période fictive : 2259.",
   "analyse_url": null,
@@ -5414,7 +5511,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 65,
+  "rang_diegetique": 67,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisodes « A Quality of Mercy », « The Broken Circle ») ; période fictive : 2259.",
   "analyse_url": null,
@@ -5515,7 +5612,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 66,
+  "rang_diegetique": 68,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Ad Astra per Aspera ») ; période fictive : 2259.",
   "analyse_url": "/analyses/STP-048/",
@@ -5602,7 +5699,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 67,
+  "rang_diegetique": 69,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Lift Us Where Suffering Cannot Reach ») ; période fictive : 2259.",
   "analyse_url": null,
@@ -5713,7 +5810,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 68,
+  "rang_diegetique": 70,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisodes « Ghosts of Illyria », « Ad Astra per Aspera ») ; période fictive : 2259.",
   "analyse_url": null,
@@ -5840,7 +5937,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 69,
+  "rang_diegetique": 71,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisodes « Memento Mori », « Hegemony ») ; période fictive : 2259.",
   "analyse_url": null,
@@ -5928,7 +6025,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 70,
+  "rang_diegetique": 72,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « The Broken Circle ») ; période fictive : 2259.",
   "analyse_url": null,
@@ -6023,7 +6120,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 71,
+  "rang_diegetique": 73,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Under the Cloak of War ») ; période fictive : 2259.",
   "analyse_url": null,
@@ -6147,7 +6244,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 73,
+  "rang_diegetique": 75,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « A Case of Chiaroscuro ») ; période fictive : 2260 env..",
   "analyse_url": null,
@@ -6174,7 +6271,7 @@
  {
   "id": "STP-055",
   "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle",
-  "period": "2260 env.",
+  "period": "XXIIIe siècle",
   "event": "Intervention d'un amiral et crise de la chaîne de commandement sur l'Enterprise",
   "source": "SNW S4 « Orders of Magnitude »",
   "politics": "Pouvoir hiérarchique et contrôle de l'outil militaire.",
@@ -6182,8 +6279,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-episode-408-review-orders-of-magnitude/",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crise de la chaîne de commandement », « contrôle de l'outil militaire » ; recoupement B — La critique de TrekCore indique que l'amiral Simon Reeger réquisitionne l'Enterprise pour une mission prioritaire, entre en conflit avec Kirk (premier officier par intérim) jusqu'à le menacer d'un phaseur, puis est relevé de son commandement. V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crise de la chaîne de commandement », « contrôle de l'outil militaire » ; recoupement B — La critique de TrekCore indique que l'amiral Simon Reeger réquisitionne l'Enterprise pour une mission prioritaire, entre en conflit avec Kirk (premier officier par intérim) jusqu'à le menacer d'un phaseur, puis est relevé de son commandement. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.18 (2026-11-13) : période alignée — aucune année n’est dite à l’écran dans SNW « Orders of Magnitude » ; « 2260 env. » n’avait pas de source et différait de STP-300 et STP-301, tirées du même épisode (« XXIIIe siècle ») ; Memory Alpha déduit 2262.",
+  "version_entree": "V0.18 révisé",
   "categories": [
    "institutions/fédéralisme"
   ],
@@ -6200,9 +6297,11 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2260,
-   "precision": "annee_qualifiee",
-   "siecle": 23
+   "cle": 2201,
+   "precision": "siecle",
+   "siecle": 23,
+   "imprecis": true,
+   "qualif": 4
   },
   "audit": [
    {
@@ -6222,11 +6321,25 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.18",
+    "date": "13 novembre 2026",
+    "segments": [
+     {
+      "texte": "période alignée — aucune année n’est dite à l’écran dans SNW « Orders of Magnitude » ; « 2260 env. » n’avait pas de source et différait de STP-300 et STP-301, tirées du même épisode (« XXIIIe siècle ») ; Memory Alpha déduit 2262."
+     }
+    ]
    }
   ],
   "cycle_slug": "discovery-et-strange-new-worlds-crises-du-xxiiie-siecle",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Intervention d'un amiral et crise de la chaîne de commandement sur l'Enterprise.",
+    "motif": "période alignée — aucune année n’est dite à l’écran dans SNW « Orders of Magnitude » ; « 2260 env. » n’avait pas de source et différait de STP-300 et STP-301, tirées du même épisode (« XXIIIe siècle ») ; Memory Alpha déduit 2262."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -6242,16 +6355,17 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 74,
+  "rang_diegetique": 108,
   "bande": "XXIIIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Orders of Magnitude ») ; période fictive : 2260 env..",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Orders of Magnitude ») ; période fictive : XXIIIe siècle.",
   "analyse_url": null,
-  "sous_bande": null,
+  "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": null,
   "associes": [
    {
     "id": "STP-300",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : orders of magnitude"
     ],
     "autre_continuite": false
@@ -6259,6 +6373,7 @@
    {
     "id": "STP-301",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : orders of magnitude"
     ],
     "autre_continuite": false
@@ -6352,7 +6467,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 75,
+  "rang_diegetique": 76,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Let That Be Your Last Battlefield ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -6446,7 +6561,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 76,
+  "rang_diegetique": 77,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « A Taste of Armageddon ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -6540,7 +6655,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 77,
+  "rang_diegetique": 78,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Return of the Archons ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -6619,7 +6734,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 78,
+  "rang_diegetique": 79,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Patterns of Force ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -6698,7 +6813,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 79,
+  "rang_diegetique": 80,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « A Private Little War ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -6786,7 +6901,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 80,
+  "rang_diegetique": 81,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Cloud Minders ») ; période fictive : 2260s.",
   "analyse_url": "/analyses/STP-061/",
@@ -6889,7 +7004,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 81,
+  "rang_diegetique": 82,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Errand of Mercy ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -6968,7 +7083,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 82,
+  "rang_diegetique": 83,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Balance of Terror ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -7079,7 +7194,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 83,
+  "rang_diegetique": 84,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Journey to Babel ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -7189,7 +7304,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 84,
+  "rang_diegetique": 85,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Friday's Child ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -7284,7 +7399,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 85,
+  "rang_diegetique": 86,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Omega Glory ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -7378,7 +7493,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 86,
+  "rang_diegetique": 87,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Gamesters of Triskelion ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -7487,7 +7602,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 87,
+  "rang_diegetique": 88,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Mark of Gideon ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -7581,7 +7696,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 88,
+  "rang_diegetique": 89,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Way to Eden ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -7690,7 +7805,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 89,
+  "rang_diegetique": 90,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Apple ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -7805,7 +7920,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 90,
+  "rang_diegetique": 91,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « The Jihad ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -7913,7 +8028,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 91,
+  "rang_diegetique": 92,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « The Slaver Weapon ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -8013,7 +8128,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 100,
+  "rang_diegetique": 101,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Motion Picture ») ; période fictive : 2270s.",
   "analyse_url": null,
@@ -8101,7 +8216,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 101,
+  "rang_diegetique": 102,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Wrath of Khan ») ; période fictive : 2280s.",
   "analyse_url": null,
@@ -8186,7 +8301,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 102,
+  "rang_diegetique": 103,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Voyage Home ») ; période fictive : 2280s.",
   "analyse_url": null,
@@ -8301,7 +8416,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 103,
+  "rang_diegetique": 104,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Final Frontier ») ; période fictive : 2280s.",
   "analyse_url": null,
@@ -8409,7 +8524,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 104,
+  "rang_diegetique": 105,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Undiscovered Country ») ; période fictive : 2293.",
   "analyse_url": "/analyses/STP-077/",
@@ -8512,7 +8627,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 105,
+  "rang_diegetique": 106,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Undiscovered Country ») ; période fictive : 2293.",
   "analyse_url": null,
@@ -8643,7 +8758,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 106,
+  "rang_diegetique": 107,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « The Undiscovered Country ») ; période fictive : 2293.",
   "analyse_url": null,
@@ -9329,7 +9444,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 63,
+  "rang_diegetique": 65,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Star Trek ») ; période fictive : 2258 (Kelvin).",
   "analyse_url": null,
@@ -9431,7 +9546,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 72,
+  "rang_diegetique": 74,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Star Trek Into Darkness ») ; période fictive : 2259 (Kelvin).",
   "analyse_url": null,
@@ -9511,7 +9626,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 98,
+  "rang_diegetique": 99,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Star Trek Beyond ») ; période fictive : 2263 (Kelvin).",
   "analyse_url": null,
@@ -21204,7 +21319,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 115,
+  "rang_diegetique": 117,
   "bande": "Entre le XXIIIe et le XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Mirrors ») ; période fictive : Entre 2267 et la fin du XXIVe siècle (événement relaté en 3191).",
   "analyse_url": "/analyses/STP-194/",
@@ -25757,7 +25872,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 107,
+  "rang_diegetique": 109,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Mirror, Mirror ») ; période fictive : XXIIIe siècle Miroir.",
   "analyse_url": null,
@@ -25884,7 +25999,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 108,
+  "rang_diegetique": 110,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Mirror, Mirror ») ; période fictive : XXIIIe siècle Miroir.",
   "analyse_url": null,
@@ -25982,7 +26097,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 109,
+  "rang_diegetique": 111,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Crossover ») ; période fictive : XXIIIe siècle Miroir.",
   "analyse_url": null,
@@ -26361,7 +26476,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 110,
+  "rang_diegetique": 112,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « What's Past Is Prologue ») ; période fictive : XXIIIe siècle Miroir.",
   "analyse_url": null,
@@ -26483,7 +26598,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 116,
+  "rang_diegetique": 118,
   "bande": "Entre le XXIIIe et le XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « Mirrors ») ; période fictive : Entre 2267 et la fin du XXIVe siècle, Miroir.",
   "analyse_url": "/analyses/STP-239/",
@@ -26585,7 +26700,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 99,
+  "rang_diegetique": 100,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « A Quality of Mercy ») ; période fictive : 2266, branche temporelle.",
   "analyse_url": null,
@@ -27071,7 +27186,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 92,
+  "rang_diegetique": 93,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Plato's Stepchildren ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -27165,7 +27280,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 93,
+  "rang_diegetique": 94,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Ultimate Computer ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -27258,7 +27373,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 94,
+  "rang_diegetique": 95,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Whom Gods Destroy ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -27342,7 +27457,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 95,
+  "rang_diegetique": 96,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « Albatross ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -27421,7 +27536,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 96,
+  "rang_diegetique": 97,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « Bem ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -27524,7 +27639,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 97,
+  "rang_diegetique": 98,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Animated Series, épisode « The Infinite Vulcan ») ; période fictive : 2260s.",
   "analyse_url": null,
@@ -28025,7 +28140,7 @@
  {
   "id": "STP-256",
   "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts",
-  "period": "Années 1950, vision",
+  "period": "1953, vision",
   "event": "Benny Russell subit la ségrégation raciale dans l'édition de science-fiction",
   "source": "DS9 « Far Beyond the Stars »",
   "politics": "Racisme dans l'histoire américaine, métarécit sur la représentation.",
@@ -28033,8 +28148,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/news/ds9s-far-beyond-the-stars-15-years-later",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « ségrégation raciale », « Racisme » ; recoupement A — L'article officiel présente l'épisode comme « une histoire sur Benjamin Sisko et le racisme », situe Benny dans le milieu éditorial des années 1950 et évoque le préjugé de Pabst qui refuse de tenir tête à l'éditeur du magazine. Le résumé Wikipedia (https://en.wikipedia.org/wiki/Far_Beyond_the_Stars) détaille l'exclusion de Russell de la photo d'équipe, le refus de publier un récit à héros noir et son licenciement. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « ségrégation raciale », « Racisme » ; recoupement A — L'article officiel présente l'épisode comme « une histoire sur Benjamin Sisko et le racisme », situe Benny dans le milieu éditorial des années 1950 et évoque le préjugé de Pabst qui refuse de tenir tête à l'éditeur du magazine. Le résumé Wikipedia (https://en.wikipedia.org/wiki/Far_Beyond_the_Stars) détaille l'exclusion de Russell de la photo d'équipe, le refus de publier un récit à héros noir et son licenciement. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.18 (2026-11-13) : période précisée d’après une date dite à l’écran — DS9 « Far Beyond the Stars » : couverture à l’écran du numéro de mars 1953 d’Incredible Tales (Memory Alpha : « The cover of the March 1953 edition of Incredible Tales », https://memory-alpha.fandom.com/wiki/Far_Beyond_the_Stars_(episode)).",
+  "version_entree": "V0.18 révisé",
   "categories": [
    "justice/droits"
   ],
@@ -28051,8 +28166,8 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 1950,
-   "precision": "decennie",
+   "cle": 1953,
+   "precision": "annee_qualifiee",
    "siecle": 20
   },
   "audit": [
@@ -28079,11 +28194,31 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.18",
+    "date": "13 novembre 2026",
+    "segments": [
+     {
+      "texte": "période précisée d’après une date dite à l’écran — DS9 « Far Beyond the Stars » : couverture à l’écran du numéro de mars 1953 d’Incredible Tales (Memory Alpha : « The cover of the March 1953 edition of Incredible Tales », "
+     },
+     {
+      "url": "https://memory-alpha.fandom.com/wiki/Far_Beyond_the_Stars_(episode)"
+     },
+     {
+      "texte": ")."
+     }
+    ]
    }
   ],
   "cycle_slug": "complements-episodes-sociaux-politiques-locales-et-formats-courts",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Benny Russell subit la ségrégation raciale dans l'édition de science-fiction.",
+    "motif": "période précisée d’après une date dite à l’écran — DS9 « Far Beyond the Stars » : couverture à l’écran du numéro de mars 1953 d’Incredible Tales (Memory Alpha : « The cover of the March 1953 edition of Incredible Tales », <https://memory-alpha.fandom.com/wiki/Far_Beyond_the_Stars_(episode)>)."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -28101,7 +28236,7 @@
   },
   "rang_diegetique": 7,
   "bande": "XXe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Far Beyond the Stars ») ; période fictive : Années 1950, vision.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Far Beyond the Stars ») ; période fictive : 1953, vision.",
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
@@ -28110,7 +28245,7 @@
  {
   "id": "STP-257",
   "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts",
-  "period": "Années 1960, reconstitution",
+  "period": "1962, reconstitution",
   "event": "Critique des discriminations raciales dans le Las Vegas recréé par le holosuite",
   "source": "DS9 « Badda-Bing, Badda-Bang »",
   "politics": "Mémoire de la ségrégation et réécriture nostalgique du passé.",
@@ -28118,8 +28253,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/how-ben-sisko-wrestled-with-american-history",
-  "note_audit": "V0.4 (2026-11-10) : recoupement B — Le résumé indique que Sisko refuse d'abord le programme de Vic Fontaine en invoquant le racisme omniprésent envers les Noirs dans le Las Vegas réel des années 1960, avant que Kasidy Yates ne le persuade de participer. V0.5 (2026-11-10) : recoupement A (source officielle) — L'article indique que « Badda-Bing, Badda-Bang » repose sur la connaissance qu'a Sisko du racisme dans le Las Vegas des années 1960 ; Sisko y rejette une vision fausse et rassurante du passé (« We cannot ignore the truth about the past »). Source B précédente : https://en.wikipedia.org/wiki/Badda-Bing_Badda-Bang. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement B — Le résumé indique que Sisko refuse d'abord le programme de Vic Fontaine en invoquant le racisme omniprésent envers les Noirs dans le Las Vegas réel des années 1960, avant que Kasidy Yates ne le persuade de participer. V0.5 (2026-11-10) : recoupement A (source officielle) — L'article indique que « Badda-Bing, Badda-Bang » repose sur la connaissance qu'a Sisko du racisme dans le Las Vegas des années 1960 ; Sisko y rejette une vision fausse et rassurante du passé (« We cannot ignore the truth about the past »). Source B précédente : https://en.wikipedia.org/wiki/Badda-Bing_Badda-Bang. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.18 (2026-11-13) : période précisée d’après une date dite à l’écran — Sisko, DS9 « Badda-Bing, Badda-Bang » : « Las Vegas nineteen sixty two, that's my problem. » (http://www.chakoteya.net/DS9/566.htm).",
+  "version_entree": "V0.18 révisé",
   "categories": [
    "justice/droits"
   ],
@@ -28136,8 +28271,8 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 1960,
-   "precision": "decennie",
+   "cle": 1962,
+   "precision": "annee_qualifiee",
    "siecle": 20
   },
   "audit": [
@@ -28173,11 +28308,31 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.18",
+    "date": "13 novembre 2026",
+    "segments": [
+     {
+      "texte": "période précisée d’après une date dite à l’écran — Sisko, DS9 « Badda-Bing, Badda-Bang » : « Las Vegas nineteen sixty two, that's my problem. » ("
+     },
+     {
+      "url": "http://www.chakoteya.net/DS9/566.htm"
+     },
+     {
+      "texte": ")."
+     }
+    ]
    }
   ],
   "cycle_slug": "complements-episodes-sociaux-politiques-locales-et-formats-courts",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Critique des discriminations raciales dans le Las Vegas recréé par le holosuite.",
+    "motif": "période précisée d’après une date dite à l’écran — Sisko, DS9 « Badda-Bing, Badda-Bang » : « Las Vegas nineteen sixty two, that's my problem. » (<http://www.chakoteya.net/DS9/566.htm>)."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -28195,7 +28350,7 @@
   },
   "rang_diegetique": 8,
   "bande": "XXe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Badda-Bing, Badda-Bang ») ; période fictive : Années 1960, reconstitution.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Badda-Bing, Badda-Bang ») ; période fictive : 1962, reconstitution.",
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
@@ -29097,7 +29252,7 @@
  {
   "id": "STP-267",
   "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts",
-  "period": "vers 2324 (chronologie secondaire)",
+  "period": "Après 2257 (chronologie secondaire)",
   "event": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure",
   "source": "Film « Star Trek: Section 31 » (2025)",
   "politics": "Services secrets non contrôlés et héritage d'un pouvoir génocidaire.",
@@ -29105,8 +29260,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Synopsis officiel ; année diégétique secondaire seulement",
   "url_source": "https://www.startrek.com/movies/star-trek-section-31",
-  "note_audit": "CORRECTION : le film 2025 se situe autour de 2324 dans les chronologies secondaires, non vers 2250. Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "CORRECTION : le film 2025 se situe autour de 2324 dans les chronologies secondaires, non vers 2250. Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.18 (2026-11-13) : période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » (https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31).",
+  "version_entree": "V0.18 révisé",
   "categories": [
    "guerre/bataille",
    "renseignement/sécurité"
@@ -29124,9 +29279,9 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2324,
+   "cle": 2257,
    "precision": "borne",
-   "siecle": 24
+   "siecle": 23
   },
   "audit": [
    {
@@ -29146,6 +29301,21 @@
       "texte": "harmonisation typographique (guillemets, ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.18",
+    "date": "13 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » ("
+     },
+     {
+      "url": "https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31"
+     },
+     {
+      "texte": ")."
+     }
+    ]
    }
   ],
   "cycle_slug": "complements-episodes-sociaux-politiques-locales-et-formats-courts",
@@ -29154,6 +29324,10 @@
    {
     "libelle": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure.",
     "motif": "CORRECTION : le film 2025 se situe autour de 2324 dans les chronologies secondaires, non vers 2250."
+   },
+   {
+    "libelle": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure.",
+    "motif": "période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » (<https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31>)."
    }
   ],
   "note_editoriale": "CORRECTION : le film 2025 se situe autour de 2324 dans les chronologies secondaires, non vers 2250. Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran.",
@@ -29179,9 +29353,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 117,
-  "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (film « Star Trek: Section 31 ») ; période fictive : vers 2324 (chronologie secondaire).",
+  "rang_diegetique": 60,
+  "bande": "XXIIIe siècle",
+  "amorce": "Événement politique de la fiction Star Trek (film « Star Trek: Section 31 ») ; période fictive : Après 2257 (chronologie secondaire).",
   "analyse_url": "/analyses/STP-267/",
   "sous_bande": null,
   "url_archive": null,
@@ -29198,7 +29372,7 @@
  {
   "id": "STP-268",
   "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts",
-  "period": "vers 2324 (chronologie secondaire)",
+  "period": "Après 2257 (chronologie secondaire)",
   "event": "Confrontation de Georgiou aux crimes commis pendant son règne dans l’Empire terrien",
   "source": "Film « Star Trek: Section 31 » (2025)",
   "politics": "Responsabilité historique et collaboration de circonstance.",
@@ -29206,8 +29380,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/news/philippa-georgiou-second-chances-and-sacrifice",
-  "note_audit": "CORRECTION : situer le récit principal du film dans la période dite « ère perdue » (vers 2324). Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crimes commis pendant son règne », « Responsabilité historique ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "CORRECTION : situer le récit principal du film dans la période dite « ère perdue » (vers 2324). Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crimes commis pendant son règne », « Responsabilité historique ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.18 (2026-11-13) : période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » (https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31).",
+  "version_entree": "V0.18 révisé",
   "categories": [
    "justice/droits"
   ],
@@ -29224,9 +29398,9 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2324,
+   "cle": 2257,
    "precision": "borne",
-   "siecle": 24
+   "siecle": 23
   },
   "audit": [
    {
@@ -29255,6 +29429,21 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.18",
+    "date": "13 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » ("
+     },
+     {
+      "url": "https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31"
+     },
+     {
+      "texte": ")."
+     }
+    ]
    }
   ],
   "cycle_slug": "complements-episodes-sociaux-politiques-locales-et-formats-courts",
@@ -29263,6 +29452,10 @@
    {
     "libelle": "Confrontation de Georgiou aux crimes commis pendant son règne dans l’Empire terrien.",
     "motif": "CORRECTION : situer le récit principal du film dans la période dite « ère perdue » (vers 2324)."
+   },
+   {
+    "libelle": "Confrontation de Georgiou aux crimes commis pendant son règne dans l’Empire terrien.",
+    "motif": "période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » (<https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31>)."
    }
   ],
   "note_editoriale": "CORRECTION : situer le récit principal du film dans la période dite « ère perdue » (vers 2324). Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran.",
@@ -29288,9 +29481,9 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 118,
-  "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (film « Star Trek: Section 31 ») ; période fictive : vers 2324 (chronologie secondaire).",
+  "rang_diegetique": 61,
+  "bande": "XXIIIe siècle",
+  "amorce": "Événement politique de la fiction Star Trek (film « Star Trek: Section 31 ») ; période fictive : Après 2257 (chronologie secondaire).",
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
@@ -31328,7 +31521,7 @@
    ],
    "examinee_le": null
   },
-  "rang_diegetique": 60,
+  "rang_diegetique": 62,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « The Sound of Thunder ») ; période fictive : 2257.",
   "analyse_url": "/analyses/STP-286/",
@@ -31434,7 +31627,7 @@
    "entrantes": [],
    "examinee_le": null
   },
-  "rang_diegetique": 61,
+  "rang_diegetique": 63,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisode « New Eden ») ; période fictive : 2257.",
   "analyse_url": null,
@@ -32941,7 +33134,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 111,
+  "rang_diegetique": 113,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « A Case of Chiaroscuro ») ; période fictive : XXIIIe siècle.",
   "analyse_url": "/analyses/STP-298/",
@@ -33072,7 +33265,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 112,
+  "rang_diegetique": 114,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « A Case of Chiaroscuro ») ; période fictive : XXIIIe siècle.",
   "analyse_url": null,
@@ -33191,7 +33384,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 113,
+  "rang_diegetique": 115,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Orders of Magnitude ») ; période fictive : XXIIIe siècle.",
   "analyse_url": "/analyses/STP-300/",
@@ -33201,6 +33394,7 @@
    {
     "id": "STP-055",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : orders of magnitude"
     ],
     "autre_continuite": false
@@ -33305,7 +33499,7 @@
    "entrantes": [],
    "examinee_le": "2026-11-10"
   },
-  "rang_diegetique": 114,
+  "rang_diegetique": 116,
   "bande": "XXIIIe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Orders of Magnitude ») ; période fictive : XXIIIe siècle.",
   "analyse_url": null,
@@ -33315,6 +33509,7 @@
    {
     "id": "STP-055",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : orders of magnitude"
     ],
     "autre_continuite": false

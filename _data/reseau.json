@@ -133,7 +133,7 @@
       }
      ],
      "titre_complet": "Demande d’asile et activisme violent de Tahna Los au nom de l’indépendance bajorane",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Deep Space Nine : situations omises"
     },
     {
@@ -190,16 +190,16 @@
      "id_y": 652,
      "lignes": [
       {
-       "t": "Capture d'un éventuel",
+       "t": "Changelin infiltré à bord du",
        "y": 670
       },
       {
-       "t": "Fondateur infiltré et…",
+       "t": "Defiant pour provoquer une…",
        "y": 686
       }
      ],
-     "titre_complet": "Capture d'un éventuel Fondateur infiltré et paranoïa sécuritaire",
-     "niv": "B",
+     "titre_complet": "Changelin infiltré à bord du Defiant pour provoquer une guerre avec les Tzenkethi, et suspicion mutuelle de l'équipage",
+     "niv": "A",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
     {
@@ -243,7 +243,7 @@
       }
      ],
      "titre_complet": "Candidature de Shakaar à la direction de Bajor et retrait de la kai Winn",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
     {
@@ -375,7 +375,7 @@
       }
      ],
      "titre_complet": "Tentative de restauration des castes d’jarra bajoranes par un nouvel Émissaire",
-     "niv": "B",
+     "niv": "A",
      "cycle": "La politique des réfugiés"
     },
     {
@@ -419,7 +419,7 @@
       }
      ],
      "titre_complet": "Mémoire de la collaboration bajorane : chantage sur une liste de collaborateurs et exécutions d'innocents sous l'autorité d'Odo",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
     {
@@ -551,7 +551,7 @@
       }
      ],
      "titre_complet": "Report de l’adhésion de Bajor à la Fédération demandé par l’Émissaire Sisko",
-     "niv": "B",
+     "niv": "A",
      "cycle": "La politique des réfugiés"
     },
     {
@@ -617,7 +617,7 @@
       }
      ],
      "titre_complet": "Résistance clandestine de Kira, Rom et Quark face à l'Occupation",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
     {
@@ -639,7 +639,7 @@
       }
      ],
      "titre_complet": "Dépendance des Jem'Hadar au ketracel-white, loyauté imposée envers les Vorta et dissidence de Goran'Agar",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
     {
@@ -661,7 +661,7 @@
       }
      ],
      "titre_complet": "Prévision statistique d’une défaite fédérale et projet clandestin de transmettre des stratégies au Dominion",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Pouvoir technocratique"
     },
     {
@@ -1164,7 +1164,7 @@
       }
      ],
      "titre_complet": "Chute de l'administrateur V'Las, dissolution du Haut Commandement vulcain",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Enterprise : diplomatie et fondation de la Fédération"
     },
     {
@@ -2150,7 +2150,7 @@
       }
      ],
      "titre_complet": "Décision d’Archer de s’emparer d’un module de distorsion au détriment de son propriétaire",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Enterprise : événements omis"
     },
     {
@@ -4692,7 +4692,7 @@
       }
      ],
      "titre_complet": "Promotion par le combat chez les Kazon-Ogla et projet de Culluh d'unir les sectes kazones grâce à la technologie de Voyager",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Voyager : Delta Quadrant, gouvernance et droits"
     },
     {
@@ -4736,7 +4736,7 @@
       }
      ],
      "titre_complet": "Négociations contradictoires avec les Kazons et les Trabes",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Voyager : événements omis"
     }
    ],
@@ -5351,7 +5351,7 @@
       }
      ],
      "titre_complet": "Nus Braka confronte Nahla Ake à une crise mettant en jeu la Fédération",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Starfleet Academy (saison 1, 2026)"
     },
     {
@@ -5534,7 +5534,7 @@
       }
      ],
      "titre_complet": "Maquis et cadres de Starfleet en conflit : infiltration de cellules maquisardes par Ro Laren et Tuvok",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts"
     },
     {
@@ -5620,7 +5620,7 @@
       }
      ],
      "titre_complet": "Dissidence des V'tosh ka'tur à bord d'un navire vulcain et fusion mentale imposée à T'Pol",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Enterprise : diplomatie et fondation de la Fédération"
     },
     {
@@ -5717,7 +5717,7 @@
       }
      ],
      "titre_complet": "Différend territorial Vulcains–Andoriens à Weytahn/Paan Mokar",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Enterprise : diplomatie et fondation de la Fédération"
     }
    ],
@@ -6072,7 +6072,7 @@
       }
      ],
      "titre_complet": "Enlèvement de Kira par l'Ordre obsidien et sort des orphelins cardassiens élevés par des Bajorans",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
     {
@@ -6094,7 +6094,7 @@
       }
      ],
      "titre_complet": "Confrontation de Kira avec le passé du dissident cardassien Tekeny Ghemor et pressions de Dukat pour son extradition",
-     "niv": "B",
+     "niv": "A",
      "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts"
     }
    ],
@@ -6235,16 +6235,16 @@
      "id_y": 28,
      "lignes": [
       {
-       "t": "Guerre civile des Q sur",
+       "t": "Guerre civile du Continuum Q",
        "y": 46
       },
       {
-       "t": "l'usage des institutions…",
+       "t": "entre partisans du statu quo…",
        "y": 62
       }
      ],
-     "titre_complet": "Guerre civile des Q sur l'usage des institutions immortelles",
-     "niv": "B",
+     "titre_complet": "Guerre civile du Continuum Q entre partisans du statu quo et partisans de l'individualisme, après le suicide de Quinn",
+     "niv": "A",
      "cycle": "Voyager : Delta Quadrant, gouvernance et droits"
     }
    ],

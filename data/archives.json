@@ -61,35 +61,6 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/A_Private_Little_War": {
-   "archive": "https://web.archive.org/web/20261016231324/https://en.wikipedia.org/wiki/A_Private_Little_War",
-   "archive_date": "2026-10-16",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Accession_(Star_Trek:_Deep_Space_Nine)": {
-   "archive": "https://web.archive.org/web/20261104130557/https://en.wikipedia.org/wiki/Accession_(Star_Trek:_Deep_Space_Nine)",
-   "archive_date": "2026-11-04",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Albatross_(Star_Trek:_The_Animated_Series)": {
-   "archive": "https://web.archive.org/web/20261018235208/https://en.wikipedia.org/wiki/Albatross_(Star_Trek:_The_Animated_Series)",
-   "archive_date": "2026-10-18",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Alliances_(Star_Trek:_Voyager)": {
-   "archive": "https://web.archive.org/web/20251230122329/https://en.wikipedia.org/wiki/Alliances_(Star_Trek:_Voyager)",
-   "archive_date": "2025-12-30",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Angel_One_(Star_Trek:_The_Next_Generation)": {
-   "archive": null,
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/Apocalypse_Rising": {
    "archive": "https://web.archive.org/web/20260708201415/https://en.wikipedia.org/wiki/Apocalypse_Rising",
    "archive_date": "2026-07-08",
@@ -111,12 +82,6 @@
   "https://en.wikipedia.org/wiki/Battle_at_the_Binary_Stars": {
    "archive": "https://web.archive.org/web/20260311055532/https://en.wikipedia.org/wiki/Battle_at_the_Binary_Stars",
    "archive_date": "2026-03-11",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Behind_the_Lines_(Star_Trek:_Deep_Space_Nine)": {
-   "archive": "https://web.archive.org/web/20261005010754/https://en.wikipedia.org/wiki/Behind_the_Lines_(Star_Trek:_Deep_Space_Nine)",
-   "archive_date": "2026-10-05",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -150,18 +115,6 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/Code_of_Honor_(Star_Trek:_The_Next_Generation)": {
-   "archive": "https://web.archive.org/web/20261018212109/https://en.wikipedia.org/wiki/Code_of_Honor_(Star_Trek:_The_Next_Generation)",
-   "archive_date": "2026-10-18",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Critical_Care_(Star_Trek:_Voyager)": {
-   "archive": "https://web.archive.org/web/20261016131935/https://en.wikipedia.org/wiki/Critical_Care_(Star_Trek:_Voyager)",
-   "archive_date": "2026-10-16",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/Crossover_(Star_Trek:_Deep_Space_Nine)": {
    "archive": "https://web.archive.org/web/20260420003834/https://en.wikipedia.org/wiki/Crossover_(Star_Trek:_Deep_Space_Nine)",
    "archive_date": "2026-04-20",
@@ -186,12 +139,6 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/Distant_Origin": {
-   "archive": "https://web.archive.org/web/20261016065523/https://en.wikipedia.org/wiki/Distant_Origin",
-   "archive_date": "2026-10-16",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/Duet_(Star_Trek:_Deep_Space_Nine)": {
    "archive": "https://web.archive.org/web/20261025021115/https://en.wikipedia.org/wiki/Duet_(Star_Trek:_Deep_Space_Nine)",
    "archive_date": "2026-10-25",
@@ -201,12 +148,6 @@
   "https://en.wikipedia.org/wiki/Ensign_Ro_(Star_Trek:_The_Next_Generation)": {
    "archive": "https://web.archive.org/web/20261011150044/https://en.wikipedia.org/wiki/Ensign_Ro_(Star_Trek:_The_Next_Generation)",
    "archive_date": "2026-10-11",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Equilibrium_(Star_Trek:_Deep_Space_Nine)": {
-   "archive": "https://web.archive.org/web/20260129210118/https://en.wikipedia.org/wiki/Equilibrium_(Star_Trek:_Deep_Space_Nine)",
-   "archive_date": "2026-01-29",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -228,39 +169,9 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/Friday's_Child_(Star_Trek:_The_Original_Series)": {
-   "archive": "https://web.archive.org/web/20261017035743/https://en.wikipedia.org/wiki/Friday%27s_Child_(Star_Trek:_The_Original_Series)",
-   "archive_date": "2026-10-17",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Fusion_(Star_Trek:_Enterprise)": {
-   "archive": "https://web.archive.org/web/20260928205721/https://en.wikipedia.org/wiki/Fusion_(Star_Trek:_Enterprise)",
-   "archive_date": "2026-09-28",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Half_a_Life_(Star_Trek:_The_Next_Generation)": {
-   "archive": "https://web.archive.org/web/20260729065757/https://en.wikipedia.org/wiki/Half_a_Life_(Star_Trek:_The_Next_Generation)",
-   "archive_date": "2026-07-29",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Hippocratic_Oath_(Star_Trek:_Deep_Space_Nine)": {
-   "archive": "https://web.archive.org/web/20261024043454/https://en.wikipedia.org/wiki/Hippocratic_Oath_(Star_Trek:_Deep_Space_Nine)",
-   "archive_date": "2026-10-24",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/Homefront_(Star_Trek:_Deep_Space_Nine)": {
    "archive": "https://web.archive.org/web/20261031094307/https://en.wikipedia.org/wiki/Homefront_(Star_Trek:_Deep_Space_Nine)",
    "archive_date": "2026-10-31",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Homeward_(Star_Trek:_The_Next_Generation)": {
-   "archive": "https://web.archive.org/web/20261018054740/https://en.wikipedia.org/wiki/Homeward_(Star_Trek:_The_Next_Generation)",
-   "archive_date": "2026-10-18",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -366,39 +277,9 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/Memorial_(Star_Trek:_Voyager)": {
-   "archive": "https://web.archive.org/web/20251231084735/https://en.wikipedia.org/wiki/Memorial_(Star_Trek:_Voyager)",
-   "archive_date": "2025-12-31",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)": {
    "archive": "https://web.archive.org/web/20261027181244/https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)",
    "archive_date": "2026-10-27",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Necessary_Evil_(Star_Trek:_Deep_Space_Nine)": {
-   "archive": "https://web.archive.org/web/20261010121407/https://en.wikipedia.org/wiki/Necessary_Evil_(Star_Trek:_Deep_Space_Nine)",
-   "archive_date": "2026-10-10",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Nemesis_(Star_Trek:_Voyager)": {
-   "archive": "https://web.archive.org/web/20260705134841/https://en.wikipedia.org/wiki/Nemesis_(Star_Trek:_Voyager)",
-   "archive_date": "2026-07-05",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/North_Star_(Star_Trek:_Enterprise)": {
-   "archive": "https://web.archive.org/web/20260928212710/https://en.wikipedia.org/wiki/North_Star_(Star_Trek:_Enterprise)",
-   "archive_date": "2026-09-28",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Paradise_(Star_Trek:_Deep_Space_Nine)": {
-   "archive": "https://web.archive.org/web/20261024043207/https://en.wikipedia.org/wiki/Paradise_(Star_Trek:_Deep_Space_Nine)",
-   "archive_date": "2026-10-24",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -420,33 +301,9 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)": {
-   "archive": "https://web.archive.org/web/20261109035117/https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)",
-   "archive_date": "2026-11-09",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Rapture_(Star_Trek:_Deep_Space_Nine)": {
-   "archive": "https://web.archive.org/web/20261022220138/https://en.wikipedia.org/wiki/Rapture_(Star_Trek:_Deep_Space_Nine)",
-   "archive_date": "2026-10-22",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)": {
    "archive": "https://web.archive.org/web/20261028040843/https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)",
    "archive_date": "2026-10-28",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Repentance_(Star_Trek:_Voyager)": {
-   "archive": "https://web.archive.org/web/20260319082734/https://en.wikipedia.org/wiki/Repentance_(Star_Trek:_Voyager)",
-   "archive_date": "2026-03-19",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Resistance_(Star_Trek:_Voyager)": {
-   "archive": "https://web.archive.org/web/20251218012251/https://en.wikipedia.org/wiki/Resistance_(Star_Trek:_Voyager)",
-   "archive_date": "2025-12-18",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -468,12 +325,6 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/Rubincon": {
-   "archive": "https://web.archive.org/web/20260827033344/https://en.wikipedia.org/wiki/Rubincon",
-   "archive_date": "2026-08-27",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/Sacrifice_of_Angels": {
    "archive": "https://web.archive.org/web/20261021212323/https://en.wikipedia.org/wiki/Sacrifice_of_Angels",
    "archive_date": "2026-10-21",
@@ -483,18 +334,6 @@
   "https://en.wikipedia.org/wiki/Sanctuary_(Star_Trek:_Deep_Space_Nine)": {
    "archive": "https://web.archive.org/web/20260930202453/https://en.wikipedia.org/wiki/Sanctuary_(Star_Trek:_Deep_Space_Nine)",
    "archive_date": "2026-09-30",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Second_Skin_(Star_Trek:_Deep_Space_Nine)": {
-   "archive": "https://web.archive.org/web/20261012105532/https://en.wikipedia.org/wiki/Second_Skin_(Star_Trek:_Deep_Space_Nine)",
-   "archive_date": "2026-10-12",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/Shakaar": {
-   "archive": "https://web.archive.org/web/20251230160154/https://en.wikipedia.org/wiki/Shakaar",
-   "archive_date": "2025-12-30",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -727,7 +566,8 @@
    "teste_le": "2026-11-13"
   },
   "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1": {
-   "archive": null,
+   "archive": "https://web.archive.org/web/20261113132313/https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+   "archive_date": "2026-11-13",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -851,12 +691,6 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/Star_Trek_IV:_The_Voyage_Home": {
-   "archive": "https://web.archive.org/web/20261106000219/https://en.wikipedia.org/wiki/Star_Trek_IV:_The_Voyage_Home",
-   "archive_date": "2026-11-06",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country": {
    "archive": "https://web.archive.org/web/20261027193946/https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country",
    "archive_date": "2026-10-27",
@@ -887,30 +721,6 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/Terra_Nova_(Star_Trek:_Enterprise)": {
-   "archive": "https://web.archive.org/web/20251026150140/https://en.wikipedia.org/wiki/Terra_Nova_(Star_Trek:_Enterprise)",
-   "archive_date": "2025-10-26",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/The_Adversary_(Star_Trek:_Deep_Space_Nine)": {
-   "archive": "https://web.archive.org/web/20260312132236/https://en.wikipedia.org/wiki/The_Adversary_(Star_Trek:_Deep_Space_Nine)",
-   "archive_date": "2026-03-12",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/The_Apple_(Star_Trek:_The_Original_Series)": {
-   "archive": "https://web.archive.org/web/20261007222645/https://en.wikipedia.org/wiki/The_Apple_(Star_Trek:_The_Original_Series)",
-   "archive_date": "2026-10-07",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/The_Chute": {
-   "archive": "https://web.archive.org/web/20260908132946/https://en.wikipedia.org/wiki/The_Chute",
-   "archive_date": "2026-09-08",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/The_Circle_(Star_Trek:_Deep_Space_Nine)": {
    "archive": "https://web.archive.org/web/20261023165220/https://en.wikipedia.org/wiki/The_Circle_(Star_Trek:_Deep_Space_Nine)",
    "archive_date": "2026-10-23",
@@ -923,12 +733,6 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/The_Defector_(Star_Trek:_The_Next_Generation)": {
-   "archive": "https://web.archive.org/web/20261030011656/https://en.wikipedia.org/wiki/The_Defector_(Star_Trek:_The_Next_Generation)",
-   "archive_date": "2026-10-30",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/The_Dogs_of_War_(Star_Trek:_Deep_Space_Nine)": {
    "archive": "https://web.archive.org/web/20260113135230/https://en.wikipedia.org/wiki/The_Dogs_of_War_(Star_Trek:_Deep_Space_Nine)",
    "archive_date": "2026-01-13",
@@ -938,18 +742,6 @@
   "https://en.wikipedia.org/wiki/The_Drumhead": {
    "archive": "https://web.archive.org/web/20261103235303/https://en.wikipedia.org/wiki/The_Drumhead",
    "archive_date": "2026-11-03",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/The_Enemy_(Star_Trek:_The_Next_Generation)": {
-   "archive": "https://web.archive.org/web/20261105175404/https://en.wikipedia.org/wiki/The_Enemy_(Star_Trek:_The_Next_Generation)",
-   "archive_date": "2026-11-05",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/The_Ensigns_of_Command": {
-   "archive": "https://web.archive.org/web/20260906213249/https://en.wikipedia.org/wiki/The_Ensigns_of_Command",
-   "archive_date": "2026-09-06",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -995,12 +787,6 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/The_Mark_of_Gideon": {
-   "archive": "https://web.archive.org/web/20261016195251/https://en.wikipedia.org/wiki/The_Mark_of_Gideon",
-   "archive_date": "2026-10-16",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/The_Measure_of_a_Man_(Star_Trek:_The_Next_Generation)": {
    "archive": "https://web.archive.org/web/20261103103750/https://en.wikipedia.org/wiki/The_Measure_of_a_Man_(Star_Trek:_The_Next_Generation)",
    "archive_date": "2026-11-03",
@@ -1010,12 +796,6 @@
   "https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)": {
    "archive": "https://web.archive.org/web/20261007105143/https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)",
    "archive_date": "2026-10-07",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://en.wikipedia.org/wiki/The_Perfect_Mate": {
-   "archive": "https://web.archive.org/web/20260801125456/https://en.wikipedia.org/wiki/The_Perfect_Mate",
-   "archive_date": "2026-08-01",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -1079,12 +859,6 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/Warhead_(Star_Trek:_Voyager)": {
-   "archive": "https://web.archive.org/web/20260509005517/https://en.wikipedia.org/wiki/Warhead_(Star_Trek:_Voyager)",
-   "archive_date": "2026-05-09",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://en.wikipedia.org/wiki/What_You_Leave_Behind": {
    "archive": "https://web.archive.org/web/20261102144704/https://en.wikipedia.org/wiki/What_You_Leave_Behind",
    "archive_date": "2026-11-02",
@@ -1097,14 +871,9 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://en.wikipedia.org/wiki/Whom_Gods_Destroy_(Star_Trek:_The_Original_Series)": {
-   "archive": "https://web.archive.org/web/20261017014908/https://en.wikipedia.org/wiki/Whom_Gods_Destroy_(Star_Trek:_The_Original_Series)",
-   "archive_date": "2026-10-17",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://epguides.com/StarTrekScouts/": {
-   "archive": null,
+   "archive": "https://web.archive.org/web/20261113132350/https://epguides.com/StarTrekScouts/",
+   "archive_date": "2026-11-13",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -1295,12 +1064,14 @@
    "teste_le": "2026-11-13"
   },
   "https://prodigy.trekcore.com/episodes/season1/prodigy-ep101.html": {
-   "archive": null,
+   "archive": "https://web.archive.org/web/20261113132451/https://prodigy.trekcore.com/episodes/season1/prodigy-ep101.html",
+   "archive_date": "2026-11-13",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
   "https://prodigy.trekcore.com/episodes/season2/prodigy-ep220.html": {
-   "archive": null,
+   "archive": "https://web.archive.org/web/20261113132525/https://prodigy.trekcore.com/episodes/season2/prodigy-ep220.html",
+   "archive_date": "2026-11-13",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -1484,12 +1255,27 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
+  "https://www.paramountplus.com/shows/video/ALVE01M1XR9ESFEPPAKAF6984NG1JV/": {
+   "archive": null,
+   "statut_http": 500,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.paramountplus.com/shows/video/GyCj2YaZJLlO8mE81r5LAP9rD2Zzgwhj/": {
+   "archive": null,
+   "statut_http": 500,
+   "teste_le": "2026-11-13"
+  },
   "https://www.paramountplus.com/shows/video/TWM68Ce3TC9HdLIN2ulAh8YbyCkkRkzf/": {
    "archive": null,
    "statut_http": 500,
    "teste_le": "2026-11-13"
   },
   "https://www.paramountplus.com/shows/video/iyevUDlexci3OxNZV62iqpbLSdA7DOJq/": {
+   "archive": null,
+   "statut_http": 500,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.paramountplus.com/shows/video/mT9_MgxwTeglWxwfULyqKLw0__iGRvHP/": {
    "archive": null,
    "statut_http": 500,
    "teste_le": "2026-11-13"

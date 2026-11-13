@@ -1,0 +1,2398 @@
+{
+ "_lisez_moi": "Genere par scripts/sources.mjs (ne pas modifier a la main). archive : derniere copie web.archive.org en statut 200 (null : aucune copie ; archive_exclue : site exclu de la Wayback Machine ; absent : non determine). statut_http : reponse de la page vivante a un client automatise honnete.",
+ "sources": {
+  "http://chakoteya.net/StarTrek/TAS011.htm": {
+   "archive": "https://web.archive.org/web/20260424191401/https://www.chakoteya.net/StarTrek/TAS011.htm",
+   "archive_date": "2026-04-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://blog.trekcore.com/2019/04/star-trek-discovery-season-finale-review-such-sweet-sorrow-part-2/": {
+   "archive": "https://web.archive.org/web/20251019075955/https://blog.trekcore.com/2019/04/star-trek-discovery-season-finale-review-such-sweet-sorrow-part-2/",
+   "archive_date": "2025-10-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://blog.trekcore.com/2021/09/star-trek-lower-decks-review-where-pleasant-fountains-lie/": {
+   "archive": "https://web.archive.org/web/20260210195514/https://blog.trekcore.com/2021/09/star-trek-lower-decks-review-where-pleasant-fountains-lie/",
+   "archive_date": "2026-02-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://blog.trekcore.com/2023/10/star-trek-lower-decks-review-parth-ferengis-heart-place/": {
+   "archive": "https://web.archive.org/web/20240104142621/https://blog.trekcore.com/2023/10/star-trek-lower-decks-review-parth-ferengis-heart-place/",
+   "archive_date": "2024-01-04",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://blog.trekcore.com/2024/11/star-trek-prodigy-reviews-brink-touch-of-grey/": {
+   "archive": "https://web.archive.org/web/20250116084326/https://blog.trekcore.com/2024/11/star-trek-prodigy-reviews-brink-touch-of-grey/",
+   "archive_date": "2025-01-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://blog.trekcore.com/2024/11/star-trek-prodigy-season-2-finale-review-ouroboros/": {
+   "archive": "https://web.archive.org/web/20260702025157/https://blog.trekcore.com/2024/11/star-trek-prodigy-season-2-finale-review-ouroboros/",
+   "archive_date": "2026-07-02",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/": {
+   "archive": "https://web.archive.org/web/20260221013908/https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/",
+   "archive_date": "2026-02-21",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/": {
+   "archive": "https://web.archive.org/web/20260314071008/https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/",
+   "archive_date": "2026-03-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://blog.trekcore.com/2026/08/star-trek-strange-new-worlds-episode-404-review-a-case-of-chiaroscuro/": {
+   "archive": "https://web.archive.org/web/20261004052047/https://blog.trekcore.com/2026/08/star-trek-strange-new-worlds-episode-404-review-a-case-of-chiaroscuro/",
+   "archive_date": "2026-10-04",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-episode-408-review-orders-of-magnitude/": {
+   "archive": "https://web.archive.org/web/20261028201146/https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-episode-408-review-orders-of-magnitude/",
+   "archive_date": "2026-10-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/A_Private_Little_War": {
+   "archive": "https://web.archive.org/web/20261016231324/https://en.wikipedia.org/wiki/A_Private_Little_War",
+   "archive_date": "2026-10-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Accession_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261104130557/https://en.wikipedia.org/wiki/Accession_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-11-04",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Albatross_(Star_Trek:_The_Animated_Series)": {
+   "archive": "https://web.archive.org/web/20261018235208/https://en.wikipedia.org/wiki/Albatross_(Star_Trek:_The_Animated_Series)",
+   "archive_date": "2026-10-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Alliances_(Star_Trek:_Voyager)": {
+   "archive": "https://web.archive.org/web/20251230122329/https://en.wikipedia.org/wiki/Alliances_(Star_Trek:_Voyager)",
+   "archive_date": "2025-12-30",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Angel_One_(Star_Trek:_The_Next_Generation)": {
+   "archive": null,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Apocalypse_Rising": {
+   "archive": "https://web.archive.org/web/20260708201415/https://en.wikipedia.org/wiki/Apocalypse_Rising",
+   "archive_date": "2026-07-08",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Balance_of_Terror": {
+   "archive": "https://web.archive.org/web/20261020080714/https://en.wikipedia.org/wiki/Balance_of_Terror",
+   "archive_date": "2026-10-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Bar_Association_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261031084954/https://en.wikipedia.org/wiki/Bar_Association_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-31",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Battle_at_the_Binary_Stars": {
+   "archive": "https://web.archive.org/web/20260311055532/https://en.wikipedia.org/wiki/Battle_at_the_Binary_Stars",
+   "archive_date": "2026-03-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Behind_the_Lines_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261005010754/https://en.wikipedia.org/wiki/Behind_the_Lines_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-05",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Bem_(Star_Trek:_The_Animated_Series)": {
+   "archive": "https://web.archive.org/web/20261027010254/https://en.wikipedia.org/wiki/Bem_(Star_Trek:_The_Animated_Series)",
+   "archive_date": "2026-10-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Broken_Bow_(Star_Trek:_Enterprise)": {
+   "archive": "https://web.archive.org/web/20260928205010/https://en.wikipedia.org/wiki/Broken_Bow_(Star_Trek:_Enterprise)",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/By_Inferno%27s_Light": {
+   "archive": "https://web.archive.org/web/20261016032129/https://en.wikipedia.org/wiki/By_Inferno%27s_Light",
+   "archive_date": "2026-10-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Call_to_Arms_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261016032041/https://en.wikipedia.org/wiki/Call_to_Arms_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Cease_Fire_(Star_Trek:_Enterprise)": {
+   "archive": "https://web.archive.org/web/20260928205853/https://en.wikipedia.org/wiki/Cease_Fire_(Star_Trek:_Enterprise)",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Code_of_Honor_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261018212109/https://en.wikipedia.org/wiki/Code_of_Honor_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-10-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Critical_Care_(Star_Trek:_Voyager)": {
+   "archive": "https://web.archive.org/web/20261016131935/https://en.wikipedia.org/wiki/Critical_Care_(Star_Trek:_Voyager)",
+   "archive_date": "2026-10-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Crossover_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20260420003834/https://en.wikipedia.org/wiki/Crossover_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-04-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Damage_(Star_Trek:_Enterprise)": {
+   "archive": "https://web.archive.org/web/20260418160236/https://en.wikipedia.org/wiki/Damage_(Star_Trek:_Enterprise)",
+   "archive_date": "2026-04-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Detained_(Star_Trek:_Enterprise)": {
+   "archive": "https://web.archive.org/web/20260928205842/https://en.wikipedia.org/wiki/Detained_(Star_Trek:_Enterprise)",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union": {
+   "archive": "https://web.archive.org/web/20261111215651/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
+   "archive_date": "2026-11-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Distant_Origin": {
+   "archive": "https://web.archive.org/web/20261016065523/https://en.wikipedia.org/wiki/Distant_Origin",
+   "archive_date": "2026-10-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Duet_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261025021115/https://en.wikipedia.org/wiki/Duet_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-25",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Ensign_Ro_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261011150044/https://en.wikipedia.org/wiki/Ensign_Ro_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-10-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Equilibrium_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20260129210118/https://en.wikipedia.org/wiki/Equilibrium_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-01-29",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Extreme_Measures_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20251225200032/https://en.wikipedia.org/wiki/Extreme_Measures_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2025-12-25",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/First_Contact_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261019143755/https://en.wikipedia.org/wiki/First_Contact_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-10-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Flesh_and_Blood_(Star_Trek:_Voyager)": {
+   "archive": "https://web.archive.org/web/20261103022250/https://en.wikipedia.org/wiki/Flesh_and_Blood_(Star_Trek:_Voyager)",
+   "archive_date": "2026-11-03",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Friday's_Child_(Star_Trek:_The_Original_Series)": {
+   "archive": "https://web.archive.org/web/20261017035743/https://en.wikipedia.org/wiki/Friday%27s_Child_(Star_Trek:_The_Original_Series)",
+   "archive_date": "2026-10-17",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Fusion_(Star_Trek:_Enterprise)": {
+   "archive": "https://web.archive.org/web/20260928205721/https://en.wikipedia.org/wiki/Fusion_(Star_Trek:_Enterprise)",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Half_a_Life_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20260729065757/https://en.wikipedia.org/wiki/Half_a_Life_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-07-29",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Hippocratic_Oath_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261024043454/https://en.wikipedia.org/wiki/Hippocratic_Oath_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Homefront_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261031094307/https://en.wikipedia.org/wiki/Homefront_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-31",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Homeward_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261018054740/https://en.wikipedia.org/wiki/Homeward_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-10-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/In_the_Pale_Moonlight": {
+   "archive": "https://web.archive.org/web/20261106000757/https://en.wikipedia.org/wiki/In_the_Pale_Moonlight",
+   "archive_date": "2026-11-06",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Inquisition_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20251115071736/https://en.wikipedia.org/wiki/Inquisition_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2025-11-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Journey%27s_End_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261016024508/https://en.wikipedia.org/wiki/Journey%27s_End_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-10-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Justice_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20260923091712/https://en.wikipedia.org/wiki/Justice_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-09-23",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Kids_These_Days_(Star_Trek:_Starfleet_Academy)": {
+   "archive": "https://web.archive.org/web/20261014234045/https://en.wikipedia.org/wiki/Kids_These_Days_(Star_Trek:_Starfleet_Academy)",
+   "archive_date": "2026-10-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Kir%27Shara": {
+   "archive": "https://web.archive.org/web/20260928213925/https://en.wikipedia.org/wiki/Kir%27Shara",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes": {
+   "archive": "https://web.archive.org/web/20261111101118/https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes",
+   "archive_date": "2026-11-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Discovery_episodes": {
+   "archive": "https://web.archive.org/web/20261001215700/https://en.wikipedia.org/wiki/List_of_Star_Trek:_Discovery_episodes",
+   "archive_date": "2026-10-01",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes": {
+   "archive": "https://web.archive.org/web/20261031085037/https://en.wikipedia.org/wiki/List_of_Star_Trek:_Enterprise_episodes",
+   "archive_date": "2026-10-31",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Picard_episodes": {
+   "archive": "https://web.archive.org/web/20260205121526/https://en.wikipedia.org/wiki/List_of_Star_Trek:_Picard_episodes",
+   "archive_date": "2026-02-05",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes": {
+   "archive": "https://web.archive.org/web/20251218235617/https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes",
+   "archive_date": "2025-12-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes": {
+   "archive": "https://web.archive.org/web/20261103013519/https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Next_Generation_episodes",
+   "archive_date": "2026-11-03",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Original_Series_episodes": {
+   "archive": "https://web.archive.org/web/20261020080615/https://en.wikipedia.org/wiki/List_of_Star_Trek:_The_Original_Series_episodes",
+   "archive_date": "2026-10-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes": {
+   "archive": "https://web.archive.org/web/20261105030612/https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
+   "archive_date": "2026-11-05",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/List_of_Star_Trek_films": {
+   "archive": "https://web.archive.org/web/20261102014329/https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+   "archive_date": "2026-11-02",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)": {
+   "archive": "https://web.archive.org/web/20261101034038/https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager)",
+   "archive_date": "2026-11-01",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Maquis_(Star_Trek)": {
+   "archive": "https://web.archive.org/web/20261112044032/https://en.wikipedia.org/wiki/Maquis_(Star_Trek)",
+   "archive_date": "2026-11-12",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Memorial_(Star_Trek:_Voyager)": {
+   "archive": "https://web.archive.org/web/20251231084735/https://en.wikipedia.org/wiki/Memorial_(Star_Trek:_Voyager)",
+   "archive_date": "2025-12-31",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)": {
+   "archive": "https://web.archive.org/web/20261027181244/https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)",
+   "archive_date": "2026-10-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Necessary_Evil_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261010121407/https://en.wikipedia.org/wiki/Necessary_Evil_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Nemesis_(Star_Trek:_Voyager)": {
+   "archive": "https://web.archive.org/web/20260705134841/https://en.wikipedia.org/wiki/Nemesis_(Star_Trek:_Voyager)",
+   "archive_date": "2026-07-05",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/North_Star_(Star_Trek:_Enterprise)": {
+   "archive": "https://web.archive.org/web/20260928212710/https://en.wikipedia.org/wiki/North_Star_(Star_Trek:_Enterprise)",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Paradise_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261024043207/https://en.wikipedia.org/wiki/Paradise_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Paradise_Lost_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20260522110733/https://en.wikipedia.org/wiki/Paradise_Lost_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-05-22",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Past_Prologue": {
+   "archive": "https://web.archive.org/web/20261031095159/https://en.wikipedia.org/wiki/Past_Prologue",
+   "archive_date": "2026-10-31",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Patterns_of_Force_(Star_Trek:_The_Original_Series)": {
+   "archive": "https://web.archive.org/web/20261020080626/https://en.wikipedia.org/wiki/Patterns_of_Force_(Star_Trek:_The_Original_Series)",
+   "archive_date": "2026-10-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261109035117/https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-11-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Rapture_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261022220138/https://en.wikipedia.org/wiki/Rapture_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-22",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261028040843/https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-10-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Repentance_(Star_Trek:_Voyager)": {
+   "archive": "https://web.archive.org/web/20260319082734/https://en.wikipedia.org/wiki/Repentance_(Star_Trek:_Voyager)",
+   "archive_date": "2026-03-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Resistance_(Star_Trek:_Voyager)": {
+   "archive": "https://web.archive.org/web/20251218012251/https://en.wikipedia.org/wiki/Resistance_(Star_Trek:_Voyager)",
+   "archive_date": "2025-12-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Reunion_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261011094716/https://en.wikipedia.org/wiki/Reunion_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-10-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Rocks_and_Shoals_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20250928080222/https://en.wikipedia.org/wiki/Rocks_and_Shoals_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2025-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Romulan": {
+   "archive": "https://web.archive.org/web/20261031094307/https://en.wikipedia.org/wiki/Romulan",
+   "archive_date": "2026-10-31",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Rubincon": {
+   "archive": "https://web.archive.org/web/20260827033344/https://en.wikipedia.org/wiki/Rubincon",
+   "archive_date": "2026-08-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Sacrifice_of_Angels": {
+   "archive": "https://web.archive.org/web/20261021212323/https://en.wikipedia.org/wiki/Sacrifice_of_Angels",
+   "archive_date": "2026-10-21",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Sanctuary_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20260930202453/https://en.wikipedia.org/wiki/Sanctuary_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-09-30",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Second_Skin_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261012105532/https://en.wikipedia.org/wiki/Second_Skin_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-12",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Shakaar": {
+   "archive": "https://web.archive.org/web/20251230160154/https://en.wikipedia.org/wiki/Shakaar",
+   "archive_date": "2025-12-30",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Space_Seed": {
+   "archive": "https://web.archive.org/web/20261027215333/https://en.wikipedia.org/wiki/Space_Seed",
+   "archive_date": "2026-10-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek#YouTube_series": {
+   "archive": "https://web.archive.org/web/20261111000124/https://en.wikipedia.org/wiki/Star_Trek",
+   "archive_date": "2026-11-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Discovery": {
+   "archive": "https://web.archive.org/web/20261111000844/https://en.wikipedia.org/wiki/Star_Trek:_Discovery",
+   "archive_date": "2026-11-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1": {
+   "archive": "https://web.archive.org/web/20261024044822/https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+   "archive_date": "2026-10-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1#ep15": {
+   "archive": "https://web.archive.org/web/20261024044822/https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1",
+   "archive_date": "2026-10-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2": {
+   "archive": "https://web.archive.org/web/20260928214058/https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2#ep17": {
+   "archive": "https://web.archive.org/web/20260928214058/https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2#ep21": {
+   "archive": "https://web.archive.org/web/20260928214058/https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3": {
+   "archive": "https://web.archive.org/web/20261027025653/https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "archive_date": "2026-10-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3#ep36": {
+   "archive": "https://web.archive.org/web/20261027025653/https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3",
+   "archive_date": "2026-10-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4": {
+   "archive": "https://web.archive.org/web/20261013122619/https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4",
+   "archive_date": "2026-10-13",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_5": {
+   "archive": "https://web.archive.org/web/20261001060414/https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_5",
+   "archive_date": "2026-10-01",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_5#ep62": {
+   "archive": "https://web.archive.org/web/20261001060414/https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_5",
+   "archive_date": "2026-10-01",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise": {
+   "archive": "https://web.archive.org/web/20261029022325/https://en.wikipedia.org/wiki/Star_Trek:_Enterprise",
+   "archive_date": "2026-10-29",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_1": {
+   "archive": "https://web.archive.org/web/20260928212355/https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_1",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_2": {
+   "archive": "https://web.archive.org/web/20260928210829/https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_2",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_3": {
+   "archive": "https://web.archive.org/web/20260928212400/https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_3",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4": {
+   "archive": "https://web.archive.org/web/20261108202140/https://en.wikipedia.org/wiki/Star_Trek:_Enterprise_season_4",
+   "archive_date": "2026-11-08",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_First_Contact": {
+   "archive": "https://web.archive.org/web/20261110205131/https://en.wikipedia.org/wiki/Star_Trek:_First_Contact",
+   "archive_date": "2026-11-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks": {
+   "archive": "https://web.archive.org/web/20261020111224/https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks",
+   "archive_date": "2026-10-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_1": {
+   "archive": "https://web.archive.org/web/20261024174251/https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_1",
+   "archive_date": "2026-10-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2": {
+   "archive": "https://web.archive.org/web/20260330134429/https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
+   "archive_date": "2026-03-30",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2#ep20": {
+   "archive": "https://web.archive.org/web/20260330134429/https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
+   "archive_date": "2026-03-30",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_3": {
+   "archive": "https://web.archive.org/web/20260724162708/https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_3",
+   "archive_date": "2026-07-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4": {
+   "archive": "https://web.archive.org/web/20260710222545/https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_4",
+   "archive_date": "2026-07-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Nemesis": {
+   "archive": "https://web.archive.org/web/20261027193735/https://en.wikipedia.org/wiki/Star_Trek:_Nemesis",
+   "archive_date": "2026-10-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Picard": {
+   "archive": "https://web.archive.org/web/20261105175404/https://en.wikipedia.org/wiki/Star_Trek:_Picard",
+   "archive_date": "2026-11-05",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1": {
+   "archive": "https://web.archive.org/web/20261106151804/https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
+   "archive_date": "2026-11-06",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2": {
+   "archive": "https://web.archive.org/web/20261030014124/https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2",
+   "archive_date": "2026-10-30",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3": {
+   "archive": "https://web.archive.org/web/20261024133529/https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_3",
+   "archive_date": "2026-10-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy": {
+   "archive": "https://web.archive.org/web/20261031130253/https://en.wikipedia.org/wiki/Star_Trek:_Prodigy",
+   "archive_date": "2026-10-31",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1": {
+   "archive": "https://web.archive.org/web/20261108214714/https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1",
+   "archive_date": "2026-11-08",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2": {
+   "archive": "https://web.archive.org/web/20261027025653/https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2",
+   "archive_date": "2026-10-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Section_31": {
+   "archive": "https://web.archive.org/web/20261009095310/https://en.wikipedia.org/wiki/Star_Trek:_Section_31",
+   "archive_date": "2026-10-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks": {
+   "archive": "https://web.archive.org/web/20261108092732/https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
+   "archive_date": "2026-11-08",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks#ep10": {
+   "archive": "https://web.archive.org/web/20261108092732/https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
+   "archive_date": "2026-11-08",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy": {
+   "archive": "https://web.archive.org/web/20261105025506/https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+   "archive_date": "2026-11-05",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy#Episodes": {
+   "archive": "https://web.archive.org/web/20261105025506/https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy",
+   "archive_date": "2026-11-05",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1": {
+   "archive": null,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds": {
+   "archive": "https://web.archive.org/web/20261111000837/https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds",
+   "archive_date": "2026-11-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1": {
+   "archive": "https://web.archive.org/web/20261009045221/https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1",
+   "archive_date": "2026-10-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1#ep10": {
+   "archive": "https://web.archive.org/web/20261009045221/https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_1",
+   "archive_date": "2026-10-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2": {
+   "archive": "https://web.archive.org/web/20261024121418/https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+   "archive_date": "2026-10-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2#ep18": {
+   "archive": "https://web.archive.org/web/20261024121418/https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_2",
+   "archive_date": "2026-10-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_4": {
+   "archive": "https://web.archive.org/web/20261029201014/https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_4",
+   "archive_date": "2026-10-29",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series": {
+   "archive": "https://web.archive.org/web/20261027181247/https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
+   "archive_date": "2026-10-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_1": {
+   "archive": "https://web.archive.org/web/20261031223228/https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_1",
+   "archive_date": "2026-10-31",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_2": {
+   "archive": "https://web.archive.org/web/20261015070449/https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_2",
+   "archive_date": "2026-10-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3": {
+   "archive": "https://web.archive.org/web/20261030025524/https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_3",
+   "archive_date": "2026-10-30",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_4": {
+   "archive": "https://web.archive.org/web/20261014042602/https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_4",
+   "archive_date": "2026-10-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_5": {
+   "archive": "https://web.archive.org/web/20261018205801/https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_5",
+   "archive_date": "2026-10-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_6": {
+   "archive": "https://web.archive.org/web/20261016033051/https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_6",
+   "archive_date": "2026-10-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_7": {
+   "archive": "https://web.archive.org/web/20261029205011/https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation_season_7",
+   "archive_date": "2026-10-29",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_1": {
+   "archive": "https://web.archive.org/web/20261019004617/https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_1",
+   "archive_date": "2026-10-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2": {
+   "archive": "https://web.archive.org/web/20261019153950/https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2",
+   "archive_date": "2026-10-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_3": {
+   "archive": "https://web.archive.org/web/20261019202756/https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_3",
+   "archive_date": "2026-10-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Very_Short_Treks": {
+   "archive": "https://web.archive.org/web/20261020080734/https://en.wikipedia.org/wiki/Star_Trek:_Very_Short_Treks",
+   "archive_date": "2026-10-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek:_Voyager_season_4": {
+   "archive": "https://web.archive.org/web/20260929220833/https://en.wikipedia.org/wiki/Star_Trek:_Voyager_season_4",
+   "archive_date": "2026-09-29",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek_II:_The_Wrath_of_Khan": {
+   "archive": "https://web.archive.org/web/20261029161329/https://en.wikipedia.org/wiki/Star_Trek_II:_The_Wrath_of_Khan",
+   "archive_date": "2026-10-29",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek_IV:_The_Voyage_Home": {
+   "archive": "https://web.archive.org/web/20261106000219/https://en.wikipedia.org/wiki/Star_Trek_IV:_The_Voyage_Home",
+   "archive_date": "2026-11-06",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country": {
+   "archive": "https://web.archive.org/web/20261027193946/https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country",
+   "archive_date": "2026-10-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Statistical_Probabilities": {
+   "archive": "https://web.archive.org/web/20261101070530/https://en.wikipedia.org/wiki/Statistical_Probabilities",
+   "archive_date": "2026-11-01",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Stigma_(Star_Trek:_Enterprise)": {
+   "archive": "https://web.archive.org/web/20251103083101/https://en.wikipedia.org/wiki/Stigma_(Star_Trek:_Enterprise)",
+   "archive_date": "2025-11-03",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Surak": {
+   "archive": "https://web.archive.org/web/20261014005529/https://en.wikipedia.org/wiki/Surak",
+   "archive_date": "2026-10-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)": {
+   "archive": "https://web.archive.org/web/20261024044822/https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)",
+   "archive_date": "2026-10-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Terra_Nova_(Star_Trek:_Enterprise)": {
+   "archive": "https://web.archive.org/web/20251026150140/https://en.wikipedia.org/wiki/Terra_Nova_(Star_Trek:_Enterprise)",
+   "archive_date": "2025-10-26",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Adversary_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20260312132236/https://en.wikipedia.org/wiki/The_Adversary_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-03-12",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Apple_(Star_Trek:_The_Original_Series)": {
+   "archive": "https://web.archive.org/web/20261007222645/https://en.wikipedia.org/wiki/The_Apple_(Star_Trek:_The_Original_Series)",
+   "archive_date": "2026-10-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Chute": {
+   "archive": "https://web.archive.org/web/20260908132946/https://en.wikipedia.org/wiki/The_Chute",
+   "archive_date": "2026-09-08",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Circle_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261023165220/https://en.wikipedia.org/wiki/The_Circle_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-23",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Council_(Star_Trek:_Enterprise)": {
+   "archive": "https://web.archive.org/web/20260928212710/https://en.wikipedia.org/wiki/The_Council_(Star_Trek:_Enterprise)",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Defector_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261030011656/https://en.wikipedia.org/wiki/The_Defector_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-10-30",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Dogs_of_War_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20260113135230/https://en.wikipedia.org/wiki/The_Dogs_of_War_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-01-13",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Drumhead": {
+   "archive": "https://web.archive.org/web/20261103235303/https://en.wikipedia.org/wiki/The_Drumhead",
+   "archive_date": "2026-11-03",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Enemy_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261105175404/https://en.wikipedia.org/wiki/The_Enemy_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-11-05",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Ensigns_of_Command": {
+   "archive": "https://web.archive.org/web/20260906213249/https://en.wikipedia.org/wiki/The_Ensigns_of_Command",
+   "archive_date": "2026-09-06",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Expanse_(Star_Trek:_Enterprise_episode)": {
+   "archive": "https://web.archive.org/web/20251104114948/https://en.wikipedia.org/wiki/The_Expanse_(Star_Trek:_Enterprise_episode)",
+   "archive_date": "2025-11-04",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Homecoming_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20261005010754/https://en.wikipedia.org/wiki/The_Homecoming_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-10-05",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Infinite_Vulcan": {
+   "archive": "https://web.archive.org/web/20261029174215/https://en.wikipedia.org/wiki/The_Infinite_Vulcan",
+   "archive_date": "2026-10-29",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Jem%27Hadar": {
+   "archive": "https://web.archive.org/web/20261104130557/https://en.wikipedia.org/wiki/The_Jem'Hadar",
+   "archive_date": "2026-11-04",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Jihad": {
+   "archive": "https://web.archive.org/web/20261019182622/https://en.wikipedia.org/wiki/The_Jihad",
+   "archive_date": "2026-10-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Last_Outpost_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261113033529/https://en.wikipedia.org/wiki/The_Last_Outpost_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-11-13",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Maquis": {
+   "archive": "https://web.archive.org/web/20261018091549/https://en.wikipedia.org/wiki/The_Maquis",
+   "archive_date": "2026-10-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Mark_of_Gideon": {
+   "archive": "https://web.archive.org/web/20261016195251/https://en.wikipedia.org/wiki/The_Mark_of_Gideon",
+   "archive_date": "2026-10-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Measure_of_a_Man_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261103103750/https://en.wikipedia.org/wiki/The_Measure_of_a_Man_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-11-03",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20261007105143/https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)",
+   "archive_date": "2026-10-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Perfect_Mate": {
+   "archive": "https://web.archive.org/web/20260801125456/https://en.wikipedia.org/wiki/The_Perfect_Mate",
+   "archive_date": "2026-08-01",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Q_and_the_Grey": {
+   "archive": "https://web.archive.org/web/20260925142633/https://en.wikipedia.org/wiki/The_Q_and_the_Grey",
+   "archive_date": "2026-09-25",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Siege_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20260723111022/https://en.wikipedia.org/wiki/The_Siege_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-07-23",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Siege_of_AR-558": {
+   "archive": "https://web.archive.org/web/20260301034408/https://en.wikipedia.org/wiki/The_Siege_of_AR-558",
+   "archive_date": "2026-03-01",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Void_(Star_Trek:_Voyager)": {
+   "archive": "https://web.archive.org/web/20260927055225/https://en.wikipedia.org/wiki/The_Void_(Star_Trek:_Voyager)",
+   "archive_date": "2026-09-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20260710222444/https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2026-07-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/These_Are_the_Voyages...": {
+   "archive": "https://web.archive.org/web/20261023042804/https://en.wikipedia.org/wiki/These_Are_the_Voyages...",
+   "archive_date": "2026-10-23",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Things_Past_(Star_Trek:_Deep_Space_Nine)": {
+   "archive": "https://web.archive.org/web/20250928080222/https://en.wikipedia.org/wiki/Things_Past_(Star_Trek:_Deep_Space_Nine)",
+   "archive_date": "2025-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Ties_of_Blood_and_Water": {
+   "archive": "https://web.archive.org/web/20260703232827/https://en.wikipedia.org/wiki/Ties_of_Blood_and_Water",
+   "archive_date": "2026-07-03",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Timeline_of_Star_Trek": {
+   "archive": "https://web.archive.org/web/20261108092743/https://en.wikipedia.org/wiki/Timeline_of_Star_Trek",
+   "archive_date": "2026-11-08",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Vox_in_Excelso": {
+   "archive": "https://web.archive.org/web/20260930190340/https://en.wikipedia.org/wiki/Vox_in_excelso",
+   "archive_date": "2026-09-30",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Warhead_(Star_Trek:_Voyager)": {
+   "archive": "https://web.archive.org/web/20260509005517/https://en.wikipedia.org/wiki/Warhead_(Star_Trek:_Voyager)",
+   "archive_date": "2026-05-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/What_You_Leave_Behind": {
+   "archive": "https://web.archive.org/web/20261102144704/https://en.wikipedia.org/wiki/What_You_Leave_Behind",
+   "archive_date": "2026-11-02",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/When_It_Rains%E2%80%A6": {
+   "archive": "https://web.archive.org/web/20260327042758/https://en.wikipedia.org/wiki/When_It_Rains%E2%80%A6",
+   "archive_date": "2026-03-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://en.wikipedia.org/wiki/Whom_Gods_Destroy_(Star_Trek:_The_Original_Series)": {
+   "archive": "https://web.archive.org/web/20261017014908/https://en.wikipedia.org/wiki/Whom_Gods_Destroy_(Star_Trek:_The_Original_Series)",
+   "archive_date": "2026-10-17",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://epguides.com/StarTrekScouts/": {
+   "archive": null,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Apocalypse_Rising_(episode)": {
+   "archive": "https://web.archive.org/web/20260921115755/https://memory-alpha.fandom.com/wiki/Apocalypse_Rising_(episode)",
+   "archive_date": "2026-09-21",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/By_Inferno%27s_Light_(episode)": {
+   "archive": "https://web.archive.org/web/20260803130928/https://memory-alpha.fandom.com/wiki/By_Inferno%27s_Light_(episode)",
+   "archive_date": "2026-08-03",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Call_to_Arms_(episode)": {
+   "archive": "https://web.archive.org/web/20260218191543/https://memory-alpha.fandom.com/wiki/Call_to_Arms_(episode)",
+   "archive_date": "2026-02-18",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Caretaker_(episode)": {
+   "archive": "https://web.archive.org/web/20261106050759/https://memory-alpha.fandom.com/wiki/Caretaker_(episode)",
+   "archive_date": "2026-11-06",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Crossover_(episode)": {
+   "archive": "https://web.archive.org/web/20260921115756/https://memory-alpha.fandom.com/wiki/Crossover_(episode)",
+   "archive_date": "2026-09-21",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Dominion_War": {
+   "archive": "https://web.archive.org/web/20260916070141/https://memory-alpha.fandom.com/wiki/Dominion_War",
+   "archive_date": "2026-09-16",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Extreme_Measures_(episode)": {
+   "archive": "https://web.archive.org/web/20260722203637/https://memory-alpha.fandom.com/wiki/Extreme_Measures_(episode)",
+   "archive_date": "2026-07-22",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Face_Of_The_Enemy_(episode)": {
+   "archive": "https://web.archive.org/web/20260802071434/https://memory-alpha.fandom.com/wiki/Face_Of_The_Enemy_(episode)",
+   "archive_date": "2026-08-02",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Homefront_(episode)": {
+   "archive": "https://web.archive.org/web/20260829005923/https://memory-alpha.fandom.com/wiki/Homefront_(episode)",
+   "archive_date": "2026-08-29",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Inter_Arma_Enim_Silent_Leges_(episode)": {
+   "archive": "https://web.archive.org/web/20261019044139/https://memory-alpha.fandom.com/wiki/Inter_Arma_Enim_Silent_Leges_(episode)",
+   "archive_date": "2026-10-19",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Kahless_(clone)": {
+   "archive": "https://web.archive.org/web/20260301125109/https://memory-alpha.fandom.com/wiki/Kahless_(clone)",
+   "archive_date": "2026-03-01",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Khan_Noonien_Singh_(alternate_reality)": {
+   "archive": "https://web.archive.org/web/20260618095113/https://memory-alpha.fandom.com/wiki/Khan_Noonien_Singh_(alternate_reality)",
+   "archive_date": "2026-06-18",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Kzinti": {
+   "archive": "https://web.archive.org/web/20260701163952/https://memory-alpha.fandom.com/wiki/Kzinti",
+   "archive_date": "2026-07-01",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Maquis": {
+   "archive": "https://web.archive.org/web/20260821150930/https://memory-alpha.fandom.com/wiki/Maquis",
+   "archive_date": "2026-08-21",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Morphogenic_virus": {
+   "archive": "https://web.archive.org/web/20260526154150/https://memory-alpha.fandom.com/wiki/Morphogenic_virus",
+   "archive_date": "2026-05-26",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Occupation_of_Bajor": {
+   "archive": "https://web.archive.org/web/20260616004243/https://memory-alpha.fandom.com/wiki/Occupation_of_Bajor",
+   "archive_date": "2026-06-16",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Parth_Ferengi%27s_Heart_Place_(episode)": {
+   "archive": "https://web.archive.org/web/20260921115816/https://memory-alpha.fandom.com/wiki/Parth_Ferengi%27s_Heart_Place_(episode)",
+   "archive_date": "2026-09-21",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)": {
+   "archive": "https://web.archive.org/web/20260902033036/https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)",
+   "archive_date": "2026-09-02",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Rapture_(episode)": {
+   "archive": "https://web.archive.org/web/20260731131556/https://memory-alpha.fandom.com/wiki/Rapture_(episode)",
+   "archive_date": "2026-07-31",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Reunion_(episode)": {
+   "archive": "https://web.archive.org/web/20251228021250/https://memory-alpha.fandom.com/wiki/Reunion_(episode)",
+   "archive_date": "2025-12-28",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Romulus_(star)": {
+   "archive": "https://web.archive.org/web/20260518000049/https://memory-alpha.fandom.com/wiki/Romulus_(star)",
+   "archive_date": "2026-05-18",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Shakaar_(episode)": {
+   "archive": "https://web.archive.org/web/20260922024152/https://memory-alpha.fandom.com/wiki/Shakaar_(episode)",
+   "archive_date": "2026-09-22",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Tacking_Into_the_Wind_(episode)": {
+   "archive": "https://web.archive.org/web/20260729233518/https://memory-alpha.fandom.com/wiki/Tacking_Into_the_Wind_(episode)",
+   "archive_date": "2026-07-29",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/The_Adversary_(episode)": {
+   "archive": "https://web.archive.org/web/20260909123540/https://memory-alpha.fandom.com/wiki/The_Adversary_(episode)",
+   "archive_date": "2026-09-09",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)": {
+   "archive": "https://web.archive.org/web/20260718093021/https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
+   "archive_date": "2026-07-18",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Through_the_Looking_Glass_(episode)": {
+   "archive": "https://web.archive.org/web/20260921115804/https://memory-alpha.fandom.com/wiki/Through_the_Looking_Glass_(episode)",
+   "archive_date": "2026-09-21",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Treaty_of_Organia": {
+   "archive": "https://web.archive.org/web/20260122103943/https://memory-alpha.fandom.com/wiki/Treaty_of_Organia",
+   "archive_date": "2026-01-22",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/United_Earth": {
+   "archive": "https://web.archive.org/web/20261015092651/https://memory-alpha.fandom.com/wiki/United_Earth",
+   "archive_date": "2026-10-15",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Vadic": {
+   "archive": "https://web.archive.org/web/20260824035410/https://memory-alpha.fandom.com/wiki/Vadic",
+   "archive_date": "2026-08-24",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Winn_Adami": {
+   "archive": "https://web.archive.org/web/20260222185510/https://memory-alpha.fandom.com/wiki/Winn_Adami",
+   "archive_date": "2026-02-22",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/World_War_III": {
+   "archive": "https://web.archive.org/web/20260309191104/https://memory-alpha.fandom.com/wiki/World_War_III",
+   "archive_date": "2026-03-09",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  },
+  "https://prodigy.trekcore.com/episodes/season1/prodigy-ep101.html": {
+   "archive": null,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://prodigy.trekcore.com/episodes/season2/prodigy-ep220.html": {
+   "archive": null,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://reactormag.com/star-trek-deep-space-nine-rewatch-the-jemhadar/": {
+   "archive": "https://web.archive.org/web/20260123212600/https://reactormag.com/star-trek-deep-space-nine-rewatch-the-jemhadar//",
+   "archive_date": "2026-01-23",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://reactormag.com/star-trek-enterprise-rewatch-demons/": {
+   "archive": "https://web.archive.org/web/20260324222706/https://reactormag.com/star-trek-enterprise-rewatch-demons/",
+   "archive_date": "2026-03-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://reactormag.com/star-trek-the-original-series-rewatch-balance-of-terror/": {
+   "archive": "https://web.archive.org/web/20260312102847/https://reactormag.com/star-trek-the-original-series-rewatch-balance-of-terror/",
+   "archive_date": "2026-03-12",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/": {
+   "archive": "https://web.archive.org/web/20260731065639/https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/",
+   "archive_date": "2026-07-31",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://reactormag.com/the-secret-origin-of-the-mistress-of-the-winter-constellations-star-trek-lower-decks-something-borrowed-something-green/": {
+   "archive": "https://web.archive.org/web/20250813044734/https://reactormag.com/the-secret-origin-of-the-mistress-of-the-winter-constellations-star-trek-lower-decks-something-borrowed-something-green//",
+   "archive_date": "2025-08-13",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://reactormag.com/the-wall-comes-down-in-space-star-trek-vi-the-undiscovered-country/": {
+   "archive": "https://web.archive.org/web/20260928110427/https://reactormag.com/the-wall-comes-down-in-space-star-trek-vi-the-undiscovered-country/",
+   "archive_date": "2026-09-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://reactormag.com/tv-review-star-trek-lower-decks-wej-duj/": {
+   "archive": "https://web.archive.org/web/20260421085449/https://reactormag.com/tv-review-star-trek-lower-decks-wej-duj//",
+   "archive_date": "2026-04-21",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrek.com/news/recap-star-trek-picard-307-dominion": {
+   "archive": "https://web.archive.org/web/20260311171515/https://www.startrek.com/news/recap-star-trek-picard-307-dominion",
+   "archive_date": "2026-03-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrek.com/news/recap-star-trek-picard-309-vox": {
+   "archive": "https://web.archive.org/web/20260208133631/https://www.startrek.com/news/recap-star-trek-picard-309-vox",
+   "archive_date": "2026-02-08",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrek.com/news/recap-star-trek-picard-remembrance": {
+   "archive": "https://web.archive.org/web/20260515112132/https://www.startrek.com/news/recap-star-trek-picard-remembrance",
+   "archive_date": "2026-05-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/episodes/a-case-of-chiaroscuro": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/episodes/duet": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/episodes/flesh-and-blood": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/episodes/orders-of-magnitude": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/episodes/sanctuary": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/episodes/statistical-probabilities": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/episodes/the-circle": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/episodes/the-sound-of-thunder": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/episodes/the-void": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/episodes/what-you-leave-behind": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/events/holographic-rights-ruling": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/events/synthetic-ban": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://startrekarchive.com/series/starfleet-academy": {
+   "archive": null,
+   "archive_exclue": true,
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.archives.gov/milestone-documents/civil-rights-act": {
+   "archive": "https://web.archive.org/web/20261110022822/https://www.archives.gov/milestone-documents/civil-rights-act",
+   "archive_date": "2026-11-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.denofgeek.com/tv/star-trek-lower-decks-episode-1-review-second-contact/": {
+   "archive": "https://web.archive.org/web/20261014024655/https://www.denofgeek.com/tv/star-trek-lower-decks-episode-1-review-second-contact/",
+   "archive_date": "2026-10-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.denofgeek.com/tv/star-trek-picard-episode-10-review-et-in-arcadia-ego-part-2/": {
+   "archive": "https://web.archive.org/web/20260419182549/https://www.denofgeek.com/tv/star-trek-picard-episode-10-review-et-in-arcadia-ego-part-2/",
+   "archive_date": "2026-04-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.denofgeek.com/tv/star-trek-starfleet-academy-episode-9-review-300th-night/": {
+   "archive": "https://web.archive.org/web/20260416115107/https://www.denofgeek.com/tv/star-trek-starfleet-academy-episode-9-review-300th-night/",
+   "archive_date": "2026-04-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/": {
+   "archive": "https://web.archive.org/web/20260228095907/https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/",
+   "archive_date": "2026-02-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.paramountplus.com/shows/star_trek_deep_space_nine/episodes/5/": {
+   "archive": "https://web.archive.org/web/20250817213329/https://www.paramountplus.com/shows/star_trek_deep_space_nine/episodes/5/",
+   "archive_date": "2025-08-17",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.paramountplus.com/shows/star_trek_voyager/episodes/7/": {
+   "archive": "https://web.archive.org/web/20250605014522/https://www.paramountplus.com/shows/star_trek_voyager/episodes/7/",
+   "archive_date": "2025-06-05",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.paramountplus.com/shows/video/TWM68Ce3TC9HdLIN2ulAh8YbyCkkRkzf/": {
+   "archive": null,
+   "statut_http": 500,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.paramountplus.com/shows/video/iyevUDlexci3OxNZV62iqpbLSdA7DOJq/": {
+   "archive": null,
+   "statut_http": 500,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/movies/star-trek-ii-the-wrath-of-khan": {
+   "archive": "https://web.archive.org/web/20251114004015/https://www.startrek.com/en-un/movies/star-trek-ii-the-wrath-of-khan",
+   "archive_date": "2025-11-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/movies/star-trek-ix-insurrection": {
+   "archive": "https://web.archive.org/web/20260120153957/https://www.startrek.com/en-un/movies/star-trek-ix-insurrection",
+   "archive_date": "2026-01-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/movies/star-trek-vi-the-undiscovered-country": {
+   "archive": "https://web.archive.org/web/20260120171141/https://www.startrek.com/en-un/movies/star-trek-vi-the-undiscovered-country",
+   "archive_date": "2026-01-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/10-first-contacts-that-went-really-really-wrong": {
+   "archive": "https://web.archive.org/web/20260420123919/https://www.startrek.com/news/10-first-contacts-that-went-really-really-wrong",
+   "archive_date": "2026-04-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/10-star-trek-stories-crying-out-for-a-follow-up": {
+   "archive": "https://web.archive.org/web/20260714094940/https://www.startrek.com/news/10-star-trek-stories-crying-out-for-a-follow-up",
+   "archive_date": "2026-07-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/10-times-captain-picard-earned-his-own-day": {
+   "archive": "https://web.archive.org/web/20260809224853/https://www.startrek.com/news/10-times-captain-picard-earned-his-own-day",
+   "archive_date": "2026-08-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/15-years-ago-one-enterprise-epic-set-the-stage-for-discovery": {
+   "archive": "https://web.archive.org/web/20260808043805/https://www.startrek.com/news/15-years-ago-one-enterprise-epic-set-the-stage-for-discovery",
+   "archive_date": "2026-08-08",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/50-years-later-plato-s-stepchildren": {
+   "archive": "https://web.archive.org/web/20251206172308/https://www.startrek.com/en-un/news/50-years-later-plato-s-stepchildren",
+   "archive_date": "2025-12-06",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/6-things-to-know-about-the-omega-glory": {
+   "archive": "https://web.archive.org/web/20250329073210/https://www.startrek.com/en-un/news/6-things-to-know-about-the-omega-glory",
+   "archive_date": "2025-03-29",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/a-guide-to-star-treks-bad-admirals": {
+   "archive": "https://web.archive.org/web/20260809131043/https://www.startrek.com/news/a-guide-to-star-treks-bad-admirals",
+   "archive_date": "2026-08-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/admiral-red-shirt-patriarchy-on-trial-tng": {
+   "archive": "https://web.archive.org/web/20250824143343/https://www.startrek.com/en-un/news/admiral-red-shirt-patriarchy-on-trial-tng",
+   "archive_date": "2025-08-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/alien-races-without-faces": {
+   "archive": "https://web.archive.org/web/20260419233301/https://www.startrek.com/news/alien-races-without-faces",
+   "archive_date": "2026-04-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/author-author-can-teach-us-a-lot-about-ai-and-copyright": {
+   "archive": "https://web.archive.org/web/20260809135029/https://www.startrek.com/news/author-author-can-teach-us-a-lot-about-ai-and-copyright",
+   "archive_date": "2026-08-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/below-deck-lower-decks-406-slug-fest": {
+   "archive": "https://web.archive.org/web/20260413104536/https://www.startrek.com/news/below-deck-lower-decks-406-slug-fest",
+   "archive_date": "2026-04-13",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/below-deck-lower-decks-410-genesis-device": {
+   "archive": "https://web.archive.org/web/20250724135241/https://www.startrek.com/en-un/news/below-deck-lower-decks-410-genesis-device",
+   "archive_date": "2025-07-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/below-deck-lower-decks-race-against-the-machine": {
+   "archive": "https://web.archive.org/web/20260315231943/https://www.startrek.com/news/below-deck-lower-decks-race-against-the-machine",
+   "archive_date": "2026-03-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/below-deck-with-lower-decks-501-idol-fancies": {
+   "archive": "https://web.archive.org/web/20260807120111/https://www.startrek.com/news/below-deck-with-lower-decks-501-idol-fancies",
+   "archive_date": "2026-08-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/below-deck-with-lower-decks-ornara-and-brekka": {
+   "archive": "https://web.archive.org/web/20260411025402/https://www.startrek.com/news/below-deck-with-lower-decks-ornara-and-brekka",
+   "archive_date": "2026-04-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/best-of-charles-trip-tucker": {
+   "archive": "https://web.archive.org/web/20260316000706/https://www.startrek.com/en-un/news/best-of-charles-trip-tucker",
+   "archive_date": "2026-03-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/best-star-trek-romulans-ranked": {
+   "archive": "https://web.archive.org/web/20250307180934/https://www.startrek.com/en-un/news/best-star-trek-romulans-ranked",
+   "archive_date": "2025-03-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/cadet-training-mirror-universe-episodes-mirror-mirror": {
+   "archive": "https://web.archive.org/web/20250817061406/https://www.startrek.com/en-un/news/cadet-training-mirror-universe-episodes-mirror-mirror",
+   "archive_date": "2025-08-17",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/captain-georgious-fate-discoverys-future": {
+   "archive": "https://web.archive.org/web/20250723182033/https://www.startrek.com/en-un/news/captain-georgious-fate-discoverys-future",
+   "archive_date": "2025-07-23",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/celebrating-the-ships-of-the-line-uss-enterprise-ncc-1701-a": {
+   "archive": "https://web.archive.org/web/20250816220147/https://www.startrek.com/en-un/news/celebrating-the-ships-of-the-line-uss-enterprise-ncc-1701-a",
+   "archive_date": "2025-08-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/celebrating-the-ships-of-the-line-uss-enterprise-ncc-1701-d": {
+   "archive": "https://web.archive.org/web/20260309061913/https://www.startrek.com/en-un/news/celebrating-the-ships-of-the-line-uss-enterprise-ncc-1701-d",
+   "archive_date": "2026-03-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/delta-quadrant-regimes-ranked": {
+   "archive": "https://web.archive.org/web/20260807184744/https://www.startrek.com/news/delta-quadrant-regimes-ranked",
+   "archive_date": "2026-08-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/discovery-episode-12-primer": {
+   "archive": "https://web.archive.org/web/20251206182526/https://www.startrek.com/en-un/news/discovery-episode-12-primer",
+   "archive_date": "2025-12-06",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/discovery-episode-14-primer": {
+   "archive": "https://web.archive.org/web/20250819133630/https://www.startrek.com/en-un/news/discovery-episode-14-primer",
+   "archive_date": "2025-08-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/discovery-episode-3-primer": {
+   "archive": "https://web.archive.org/web/20260612172215/https://www.startrek.com/news/discovery-episode-3-primer",
+   "archive_date": "2026-06-12",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/dr-crushers-guide-to-saving-the-enterprise": {
+   "archive": "https://web.archive.org/web/20240717001510/https://www.startrek.com/en-un/news/dr-crushers-guide-to-saving-the-enterprise",
+   "archive_date": "2024-07-17",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/ds9s-two-part-turning-point": {
+   "archive": "https://web.archive.org/web/20251030174243/https://www.startrek.com/en-un/news/ds9s-two-part-turning-point",
+   "archive_date": "2025-10-30",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/dual-paths-orions-and-the-andorians": {
+   "archive": "https://web.archive.org/web/20260131064517/https://www.startrek.com/en-un/news/dual-paths-orions-and-the-andorians",
+   "archive_date": "2026-01-31",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/enterprises-ambitious-arcs": {
+   "archive": "https://web.archive.org/web/20260413211516/https://www.startrek.com/news/enterprises-ambitious-arcs",
+   "archive_date": "2026-04-13",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/essential-ro-laren-watch-list": {
+   "archive": "https://web.archive.org/web/20250820115422/https://www.startrek.com/en-un/news/essential-ro-laren-watch-list",
+   "archive_date": "2025-08-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-nero": {
+   "archive": "https://web.archive.org/web/20260514020221/https://www.startrek.com/news/everything-you-need-to-know-about-nero",
+   "archive_date": "2026-05-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-winn-adami": {
+   "archive": "https://web.archive.org/web/20260710103303/https://www.startrek.com/news/everything-you-need-to-know-about-winn-adami",
+   "archive_date": "2026-07-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/federation-foes-dominion-and-emerald-chain": {
+   "archive": "https://web.archive.org/web/20250726004213/https://www.startrek.com/en-un/news/federation-foes-dominion-and-emerald-chain",
+   "archive_date": "2025-07-26",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/five-times-geordi-la-forge-embodied-star-treks-hopeful-future": {
+   "archive": "https://web.archive.org/web/20260418234417/https://www.startrek.com/news/five-times-geordi-la-forge-embodied-star-treks-hopeful-future",
+   "archive_date": "2026-04-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/how-ben-sisko-wrestled-with-american-history": {
+   "archive": "https://web.archive.org/web/20261027131857/https://www.startrek.com/en-un/news/how-ben-sisko-wrestled-with-american-history",
+   "archive_date": "2026-10-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/how-lower-decks-captain-freeman-rose-to-the-occasion-in-season-two": {
+   "archive": "https://web.archive.org/web/20260415094628/https://www.startrek.com/news/how-lower-decks-captain-freeman-rose-to-the-occasion-in-season-two",
+   "archive_date": "2026-04-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/how-the-united-nations-helped-shape-the-federation": {
+   "archive": "https://web.archive.org/web/20250720110551/https://www.startrek.com/en-un/news/how-the-united-nations-helped-shape-the-federation",
+   "archive_date": "2025-07-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/hugh-serves-as-an-important-reminder-of-our-capacity-for-compassion": {
+   "archive": "https://web.archive.org/web/20260420133452/https://www.startrek.com/news/hugh-serves-as-an-important-reminder-of-our-capacity-for-compassion",
+   "archive_date": "2026-04-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/i-was-a-child-of-mars": {
+   "archive": "https://web.archive.org/web/20260421034324/https://www.startrek.com/news/i-was-a-child-of-mars",
+   "archive_date": "2026-04-21",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/in-the-year-2255": {
+   "archive": "https://web.archive.org/web/20260109202916/https://www.startrek.com/en-un/news/in-the-year-2255",
+   "archive_date": "2026-01-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/inside-the-romulan-warbird-valdore": {
+   "archive": "https://web.archive.org/web/20250815173733/https://www.startrek.com/en-un/news/inside-the-romulan-warbird-valdore",
+   "archive_date": "2025-08-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/intruder-alert-ship-invaders": {
+   "archive": "https://web.archive.org/web/20241211205708/https://www.startrek.com/en-un/news/intruder-alert-ship-invaders",
+   "archive_date": "2024-12-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/ishka-of-ferenginar-mother-of-a-movement": {
+   "archive": "https://web.archive.org/web/20260515100706/https://www.startrek.com/news/ishka-of-ferenginar-mother-of-a-movement",
+   "archive_date": "2026-05-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras": {
+   "archive": "https://web.archive.org/web/20250828000533/https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras",
+   "archive_date": "2025-08-28",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/last-minute-reinforcements-starfleet-tradition": {
+   "archive": "https://web.archive.org/web/20250721153335/https://www.startrek.com/en-un/news/last-minute-reinforcements-starfleet-tradition",
+   "archive_date": "2025-07-21",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/lessons-learned-on-the-way-to-eden": {
+   "archive": "https://web.archive.org/web/20250819221650/https://www.startrek.com/en-un/news/lessons-learned-on-the-way-to-eden",
+   "archive_date": "2025-08-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/let-that-be-your-last-battlefield-47-years-later": {
+   "archive": "https://web.archive.org/web/20260807181804/https://www.startrek.com/en-un/news/let-that-be-your-last-battlefield-47-years-later",
+   "archive_date": "2026-08-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/lower-decks-connection-unjustly-accused-characters": {
+   "archive": "https://web.archive.org/web/20260410170553/https://www.startrek.com/news/lower-decks-connection-unjustly-accused-characters",
+   "archive_date": "2026-04-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/needs-of-the-many-personal-sacrifice": {
+   "archive": "https://web.archive.org/web/20260504130359/https://www.startrek.com/en-un/news/needs-of-the-many-personal-sacrifice",
+   "archive_date": "2026-05-04",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/nog-post-traumatic-progress-of-star-trek-characters": {
+   "archive": "https://web.archive.org/web/20250112220906/https://www.startrek.com/en-un/news/nog-post-traumatic-progress-of-star-trek-characters",
+   "archive_date": "2025-01-12",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/one-trek-mind-benjamin-sisko-son-of-a-god": {
+   "archive": "https://web.archive.org/web/20250815230042/https://www.startrek.com/en-un/news/one-trek-mind-benjamin-sisko-son-of-a-god",
+   "archive_date": "2025-08-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/piqard-qs-influence-on-the-captain": {
+   "archive": "https://web.archive.org/web/20250214121513/https://www.startrek.com/en-un/news/piqard-qs-influence-on-the-captain",
+   "archive_date": "2025-02-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/pre-warp-impersonations-prime-directive": {
+   "archive": "https://web.archive.org/web/20250825203729/https://www.startrek.com/en-un/news/pre-warp-impersonations-prime-directive",
+   "archive_date": "2025-08-25",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-210-hegemony-strange-new-worlds": {
+   "archive": "https://web.archive.org/web/20250722001226/https://www.startrek.com/en-un/news/recap-210-hegemony-strange-new-worlds",
+   "archive_date": "2025-07-22",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-507-discovery-erigah": {
+   "archive": "https://web.archive.org/web/20251002232324/https://www.startrek.com/en-un/news/recap-507-discovery-erigah",
+   "archive_date": "2025-10-02",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-510-discovery-life-itself": {
+   "archive": "https://web.archive.org/web/20251002180348/https://www.startrek.com/en-un/news/recap-510-discovery-life-itself",
+   "archive_date": "2025-10-02",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-discovery-all-is-possible": {
+   "archive": "https://web.archive.org/web/20241120085451/https://www.startrek.com/en-un/news/recap-star-trek-discovery-all-is-possible",
+   "archive_date": "2024-11-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-discovery-but-to-connect": {
+   "archive": "https://web.archive.org/web/20260716040306/https://www.startrek.com/news/recap-star-trek-discovery-but-to-connect",
+   "archive_date": "2026-07-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-discovery-coming-home": {
+   "archive": "https://web.archive.org/web/20260421064314/https://www.startrek.com/news/recap-star-trek-discovery-coming-home",
+   "archive_date": "2026-04-21",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-discovery-forget-me-not": {
+   "archive": "https://web.archive.org/web/20241116072732/https://www.startrek.com/en-un/news/recap-star-trek-discovery-forget-me-not",
+   "archive_date": "2024-11-16",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-discovery-kobayashi-maru": {
+   "archive": "https://web.archive.org/web/20241120063507/https://www.startrek.com/en-un/news/recap-star-trek-discovery-kobayashi-maru",
+   "archive_date": "2024-11-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-discovery-people-of-earth": {
+   "archive": "https://web.archive.org/web/20260208010232/https://www.startrek.com/news/recap-star-trek-discovery-people-of-earth",
+   "archive_date": "2026-02-08",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-discovery-scavengers": {
+   "archive": "https://web.archive.org/web/20241117065027/https://www.startrek.com/en-un/news/recap-star-trek-discovery-scavengers",
+   "archive_date": "2024-11-17",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-discovery-that-hope-is-you-part-2": {
+   "archive": "https://web.archive.org/web/20241119070615/https://www.startrek.com/en-un/news/recap-star-trek-discovery-that-hope-is-you-part-2",
+   "archive_date": "2024-11-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-discovery-there-is-a-tide": {
+   "archive": "https://web.archive.org/web/20260719212933/https://www.startrek.com/news/recap-star-trek-discovery-there-is-a-tide",
+   "archive_date": "2026-07-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-discovery-unification-iii": {
+   "archive": "https://web.archive.org/web/20250219192238/https://www.startrek.com/en-un/news/recap-star-trek-discovery-unification-iii",
+   "archive_date": "2025-02-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-picard-306-the-bounty": {
+   "archive": "https://web.archive.org/web/20260809041617/https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty",
+   "archive_date": "2026-08-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-picard-farewell": {
+   "archive": "https://web.archive.org/web/20260422213947/https://www.startrek.com/news/recap-star-trek-picard-farewell",
+   "archive_date": "2026-04-22",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-picard-remembrance": {
+   "archive": "https://web.archive.org/web/20241127221616/https://www.startrek.com/en-un/news/recap-star-trek-picard-remembrance",
+   "archive_date": "2024-11-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-prodigy-a-moral-star-part-2": {
+   "archive": "https://web.archive.org/web/20250126070152/https://www.startrek.com/en-un/news/recap-star-trek-prodigy-a-moral-star-part-2",
+   "archive_date": "2025-01-26",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-quality-of-mercy": {
+   "archive": "https://web.archive.org/web/20250120035530/https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-quality-of-mercy",
+   "archive_date": "2025-01-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-strange-new-worlds": {
+   "archive": "https://web.archive.org/web/20241203143856/https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-strange-new-worlds",
+   "archive_date": "2024-12-03",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/remain-klingon-federation-relationship-with-klingons": {
+   "archive": "https://web.archive.org/web/20251206195654/https://www.startrek.com/en-un/news/remain-klingon-federation-relationship-with-klingons",
+   "archive_date": "2025-12-06",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/remarkable-revelations": {
+   "archive": "https://web.archive.org/web/20260415105531/https://www.startrek.com/news/remarkable-revelations",
+   "archive_date": "2026-04-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements": {
+   "archive": "https://web.archive.org/web/20240815185620/https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements",
+   "archive_date": "2024-08-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/science/fall-of-a-season-environmentalism": {
+   "archive": "https://web.archive.org/web/20231211021631/https://www.startrek.com/news/science/fall-of-a-season-environmentalism",
+   "archive_date": "2023-12-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/space-time-travelers-guide-to-star-trek": {
+   "archive": "https://web.archive.org/web/20250407180446/https://www.startrek.com/en-un/news/space-time-travelers-guide-to-star-trek",
+   "archive_date": "2025-04-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/star-trek-101-seven-of-nine": {
+   "archive": "https://web.archive.org/web/20250825002842/https://www.startrek.com/en-un/news/star-trek-101-seven-of-nine",
+   "archive_date": "2025-08-25",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/star-trek-101-the-xindi": {
+   "archive": "https://web.archive.org/web/20240903020524/https://www.startrek.com/en-un/news/star-trek-101-the-xindi",
+   "archive_date": "2024-09-03",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide": {
+   "archive": "https://web.archive.org/web/20250720193150/https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide",
+   "archive_date": "2025-07-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/star-trek-megalomaniacal-ai-guide": {
+   "archive": "https://web.archive.org/web/20250726125844/https://www.startrek.com/en-un/news/star-trek-megalomaniacal-ai-guide",
+   "archive_date": "2025-07-26",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/star-trek-next-generation-journeys-end-native-american-representation": {
+   "archive": "https://web.archive.org/web/20260715141611/https://www.startrek.com/news/star-trek-next-generation-journeys-end-native-american-representation",
+   "archive_date": "2026-07-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/star-treks-best-revolutions-rebellions": {
+   "archive": "https://web.archive.org/web/20251206172408/https://www.startrek.com/en-un/news/star-treks-best-revolutions-rebellions",
+   "archive_date": "2025-12-06",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles": {
+   "archive": "https://web.archive.org/web/20251030174237/https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
+   "archive_date": "2025-10-30",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/starbases-of-the-federation-from-k-7-to-yorktown": {
+   "archive": "https://web.archive.org/web/20250821085607/https://www.startrek.com/en-un/news/starbases-of-the-federation-from-k-7-to-yorktown",
+   "archive_date": "2025-08-21",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/starfleet-encounters-with-qonos": {
+   "archive": "https://web.archive.org/web/20241113020311/https://www.startrek.com/en-un/news/starfleet-encounters-with-qonos",
+   "archive_date": "2024-11-13",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/starfleet-manual-for-going-rogue": {
+   "archive": "https://web.archive.org/web/20250725232931/https://www.startrek.com/en-un/news/starfleet-manual-for-going-rogue",
+   "archive_date": "2025-07-25",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/starfleets-detective-tales": {
+   "archive": "https://web.archive.org/web/20241127171539/https://www.startrek.com/en-un/news/starfleets-detective-tales",
+   "archive_date": "2024-11-27",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/strange-new-worlds-101-genetic-engineering": {
+   "archive": "https://web.archive.org/web/20260509225847/https://www.startrek.com/news/strange-new-worlds-101-genetic-engineering",
+   "archive_date": "2026-05-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/the-dual-paths-of-the-orions-and-the-andorians": {
+   "archive": "https://web.archive.org/web/20250813152837/https://www.startrek.com/news/the-dual-paths-of-the-orions-and-the-andorians",
+   "archive_date": "2025-08-13",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/the-final-frontier-25-years-later": {
+   "archive": "https://web.archive.org/web/20260418003338/https://www.startrek.com/news/the-final-frontier-25-years-later",
+   "archive_date": "2026-04-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/the-four-lights": {
+   "archive": "https://web.archive.org/web/20260322154628/https://www.startrek.com/en-un/news/the-four-lights",
+   "archive_date": "2026-03-22",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/the-lower-decks-connection-the-most-dangerous-games": {
+   "archive": "https://web.archive.org/web/20260710112347/https://www.startrek.com/news/the-lower-decks-connection-the-most-dangerous-games",
+   "archive_date": "2026-07-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/the-moments-of-first-contact": {
+   "archive": "https://web.archive.org/web/20260807154018/https://www.startrek.com/news/the-moments-of-first-contact",
+   "archive_date": "2026-08-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/the-most-influential-tal-shiar-moments-ranked": {
+   "archive": "https://web.archive.org/web/20260411233419/https://www.startrek.com/news/the-most-influential-tal-shiar-moments-ranked",
+   "archive_date": "2026-04-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/the-people-vs-star-trek-9-best-courtroom-drama-episodes-ranked": {
+   "archive": "https://web.archive.org/web/20250824072314/https://www.startrek.com/en-un/news/the-people-vs-star-trek-9-best-courtroom-drama-episodes-ranked",
+   "archive_date": "2025-08-24",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/the-quality-of-life-consciousness-and-ai": {
+   "archive": "https://web.archive.org/web/20250722235205/https://www.startrek.com/en-un/news/the-quality-of-life-consciousness-and-ai",
+   "archive_date": "2025-07-22",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/the-science-behind-discoverys-burn": {
+   "archive": "https://web.archive.org/web/20231220100741/https://www.startrek.com/en-un/news/the-science-behind-discoverys-burn",
+   "archive_date": "2023-12-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/things-to-know-about-the-xindi": {
+   "archive": "https://web.archive.org/web/20250409165004/https://www.startrek.com/en-un/news/things-to-know-about-the-xindi",
+   "archive_date": "2025-04-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/through-the-valley-of-shadows-spock-klingons": {
+   "archive": "https://web.archive.org/web/20260711202608/https://www.startrek.com/news/through-the-valley-of-shadows-spock-klingons",
+   "archive_date": "2026-07-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/tpol-tactics-and-protocols": {
+   "archive": "https://web.archive.org/web/20250723174332/https://www.startrek.com/en-un/news/tpol-tactics-and-protocols",
+   "archive_date": "2025-07-23",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/undiscovered-country-underrated-classic": {
+   "archive": "https://web.archive.org/web/20251012075516/https://www.startrek.com/en-un/news/undiscovered-country-underrated-classic",
+   "archive_date": "2025-10-12",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/voyager-the-doctor-watchlist": {
+   "archive": "https://web.archive.org/web/20250722131537/https://www.startrek.com/en-un/news/voyager-the-doctor-watchlist",
+   "archive_date": "2025-07-22",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/voyagers-death-wish-19-years-later": {
+   "archive": "https://web.archive.org/web/20240814171201/https://www.startrek.com/en-un/news/voyagers-death-wish-19-years-later",
+   "archive_date": "2024-08-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/vulcans-and-romulans-a-primer-on-unification": {
+   "archive": "https://web.archive.org/web/20250905235322/https://www.startrek.com/en-un/news/vulcans-and-romulans-a-primer-on-unification",
+   "archive_date": "2025-09-05",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/warp-five-lowers-decks-series-finale-cerritos-future": {
+   "archive": "https://web.archive.org/web/20250315044737/https://www.startrek.com/en-un/news/warp-five-lowers-decks-series-finale-cerritos-future",
+   "archive_date": "2025-03-15",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/who-is-rachel-garrett": {
+   "archive": "https://web.archive.org/web/20250720172256/https://www.startrek.com/en-un/news/who-is-rachel-garrett",
+   "archive_date": "2025-07-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/why-archer-hated-the-vulcans": {
+   "archive": "https://web.archive.org/web/20260611172410/https://www.startrek.com/news/why-archer-hated-the-vulcans",
+   "archive_date": "2026-06-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/why-voyager-is-the-only-thing-im-streaming-during-a-pandemic": {
+   "archive": "https://web.archive.org/web/20251118163647/https://www.startrek.com/news/why-voyager-is-the-only-thing-im-streaming-during-a-pandemic",
+   "archive_date": "2025-11-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/your-point-light-primer": {
+   "archive": "https://web.archive.org/web/20260423031027/https://www.startrek.com/news/your-point-light-primer",
+   "archive_date": "2026-04-23",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/your-star-trek-pandemic-themed-watch-list": {
+   "archive": "https://web.archive.org/web/20240525144657/https://www.startrek.com/en-un/news/your-star-trek-pandemic-themed-watch-list",
+   "archive_date": "2024-05-25",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/movies/star-trek-section-31": {
+   "archive": "https://web.archive.org/web/20251119202923/https://www.startrek.com/movies/star-trek-section-31",
+   "archive_date": "2025-11-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/a-guide-to-star-treks-bad-admirals": {
+   "archive": "https://web.archive.org/web/20260809131043/https://www.startrek.com/news/a-guide-to-star-treks-bad-admirals",
+   "archive_date": "2026-08-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/best-of-charles-trip-tucker": {
+   "archive": "https://web.archive.org/web/20260710110024/https://www.startrek.com/news/best-of-charles-trip-tucker",
+   "archive_date": "2026-07-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/cadet-training-mirror-universe-episodes-crossover": {
+   "archive": "https://web.archive.org/web/20260807114516/https://www.startrek.com/news/cadet-training-mirror-universe-episodes-crossover",
+   "archive_date": "2026-08-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/ds9s-far-beyond-the-stars-15-years-later": {
+   "archive": "https://web.archive.org/web/20260420004138/https://www.startrek.com/news/ds9s-far-beyond-the-stars-15-years-later",
+   "archive_date": "2026-04-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/lost-trek-history-the-cloud-minders": {
+   "archive": "https://web.archive.org/web/20260717021709/https://www.startrek.com/news/lost-trek-history-the-cloud-minders",
+   "archive_date": "2026-07-17",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/philippa-georgiou-second-chances-and-sacrifice": {
+   "archive": "https://web.archive.org/web/20260807110654/https://www.startrek.com/news/philippa-georgiou-second-chances-and-sacrifice",
+   "archive_date": "2026-08-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-201-the-broken-circle-strange-new-worlds": {
+   "archive": "https://web.archive.org/web/20260410093210/https://www.startrek.com/news/recap-201-the-broken-circle-strange-new-worlds",
+   "archive_date": "2026-04-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-202-ad-astra-per-aspera-strange-new-worlds": {
+   "archive": "https://web.archive.org/web/20260509222841/https://www.startrek.com/news/recap-202-ad-astra-per-aspera-strange-new-worlds",
+   "archive_date": "2026-05-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-208-under-the-cloak-of-war-strange-new-worlds": {
+   "archive": "https://web.archive.org/web/20260607172900/https://www.startrek.com/news/recap-208-under-the-cloak-of-war-strange-new-worlds",
+   "archive_date": "2026-06-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-505-discovery-mirrors": {
+   "archive": "https://web.archive.org/web/20260810140425/https://www.startrek.com/news/recap-505-discovery-mirrors",
+   "archive_date": "2026-08-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-discovery-terra-firma-part-2": {
+   "archive": "https://web.archive.org/web/20260714095147/https://www.startrek.com/news/recap-star-trek-discovery-terra-firma-part-2",
+   "archive_date": "2026-07-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty": {
+   "archive": "https://web.archive.org/web/20260809041617/https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty",
+   "archive_date": "2026-08-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-picard-310-the-last-generation-finale": {
+   "archive": "https://web.archive.org/web/20260808031616/https://www.startrek.com/news/recap-star-trek-picard-310-the-last-generation-finale",
+   "archive_date": "2026-08-08",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-picard-broken-pieces": {
+   "archive": "https://web.archive.org/web/20260411023225/https://www.startrek.com/news/recap-star-trek-picard-broken-pieces",
+   "archive_date": "2026-04-11",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-picard-farewell": {
+   "archive": "https://web.archive.org/web/20260422213947/https://www.startrek.com/news/recap-star-trek-picard-farewell",
+   "archive_date": "2026-04-22",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-picard-maps-and-legends": {
+   "archive": "https://web.archive.org/web/20260421040245/https://www.startrek.com/news/recap-star-trek-picard-maps-and-legends",
+   "archive_date": "2026-04-21",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-picard-penance": {
+   "archive": "https://web.archive.org/web/20260212185025/https://www.startrek.com/news/recap-star-trek-picard-penance",
+   "archive_date": "2026-02-12",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-picard-stardust-city-rag": {
+   "archive": "https://web.archive.org/web/20260809035747/https://www.startrek.com/news/recap-star-trek-picard-stardust-city-rag",
+   "archive_date": "2026-08-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-prodigy-lost-and-found-part-1": {
+   "archive": "https://web.archive.org/web/20260712055329/https://www.startrek.com/news/recap-star-trek-prodigy-lost-and-found-part-1",
+   "archive_date": "2026-07-12",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-prodigy-lost-and-found-part-2": {
+   "archive": "https://web.archive.org/web/20260512004247/https://www.startrek.com/news/recap-star-trek-prodigy-lost-and-found-part-2",
+   "archive_date": "2026-05-12",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-prodigy-supernova-part-1": {
+   "archive": "https://web.archive.org/web/20260509224533/https://www.startrek.com/news/recap-star-trek-prodigy-supernova-part-1",
+   "archive_date": "2026-05-09",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-prodigy-supernova-part-2-finale": {
+   "archive": "https://web.archive.org/web/20260410163209/https://www.startrek.com/news/recap-star-trek-prodigy-supernova-part-2-finale",
+   "archive_date": "2026-04-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-strange-new-worlds-lift-us-where-suffering-cannot-reach": {
+   "archive": "https://web.archive.org/web/20260518030702/https://www.startrek.com/news/recap-star-trek-strange-new-worlds-lift-us-where-suffering-cannot-reach",
+   "archive_date": "2026-05-18",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/recap-star-trek-strange-new-worlds-strange-new-worlds": {
+   "archive": "https://web.archive.org/web/20260314100411/https://www.startrek.com/news/recap-star-trek-strange-new-worlds-strange-new-worlds",
+   "archive_date": "2026-03-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/resistance-planetary-uprisings-movements": {
+   "archive": "https://web.archive.org/web/20260807113011/https://www.startrek.com/news/resistance-planetary-uprisings-movements",
+   "archive_date": "2026-08-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/star-trek-sets-course-nearest-starbase": {
+   "archive": "https://web.archive.org/web/20260717023530/https://www.startrek.com/news/star-trek-sets-course-nearest-starbase",
+   "archive_date": "2026-07-17",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/star-treks-best-revolutions-rebellions": {
+   "archive": "https://web.archive.org/web/20260710105253/https://www.startrek.com/news/star-treks-best-revolutions-rebellions",
+   "archive_date": "2026-07-10",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/star-treks-most-breathtaking-and-consequential-battles": {
+   "archive": "https://web.archive.org/web/20260213215438/https://www.startrek.com/news/star-treks-most-breathtaking-and-consequential-battles",
+   "archive_date": "2026-02-13",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/the-best-klingon-quests-from-deep-space-nine-ranked": {
+   "archive": "https://web.archive.org/web/20260421162041/https://www.startrek.com/news/the-best-klingon-quests-from-deep-space-nine-ranked",
+   "archive_date": "2026-04-21",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/the-next-generations-call-for-equality": {
+   "archive": "https://web.archive.org/web/20260419234958/https://www.startrek.com/news/the-next-generations-call-for-equality",
+   "archive_date": "2026-04-19",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/this-classic-ds9-episode-tackles-the-finer-points-of-morality": {
+   "archive": "https://web.archive.org/web/20260612175323/https://www.startrek.com/news/this-classic-ds9-episode-tackles-the-finer-points-of-morality",
+   "archive_date": "2026-06-12",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/unionizing-star-trek-deep-space-nine": {
+   "archive": "https://web.archive.org/web/20260714094453/https://www.startrek.com/news/unionizing-star-trek-deep-space-nine",
+   "archive_date": "2026-07-14",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/news/your-ultimate-star-trek-picard-watch-guide": {
+   "archive": "https://web.archive.org/web/20260807162732/https://www.startrek.com/news/your-ultimate-star-trek-picard-watch-guide",
+   "archive_date": "2026-08-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.supremecourt.gov/docket/docketfiles/html/public/23-175.html": {
+   "archive": "https://web.archive.org/web/20261107154929/https://www.supremecourt.gov/docket/docketfiles/html/public/23-175.html",
+   "archive_date": "2026-11-07",
+   "statut_http": 200,
+   "teste_le": "2026-11-13"
+  },
+  "https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention": {
+   "archive": "https://web.archive.org/web/20261030115258/https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention",
+   "archive_date": "2026-10-30",
+   "statut_http": 403,
+   "teste_le": "2026-11-13"
+  }
+ }
+}

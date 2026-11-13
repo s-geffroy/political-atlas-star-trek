@@ -8,6 +8,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { serializeCsv } from './lib/csv.mjs';
 import { importer, dernieresSources, COLONNES } from './import.mjs';
+import { anneesHorsPeriode } from './lib/derive.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const lire = (p) => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
@@ -159,8 +160,16 @@ export function valider({ csv, md } = dernieresSources()) {
       if (g && g.period !== data.period) err.push(`${data.id} : période modifiée (« ${data.period} » → « ${g.period} »)`);
       if (g && typeof g.period !== 'string') err.push(`${data.id} : période non textuelle`);
     }
+    // Coherence : une annee citee par l'intitule ou les faits de la fiche doit
+    // figurer dans la periode (avertissement : a trancher sur la source).
+    const warn = [];
+    for (const { data } of r.records) {
+      const f = r.fiches.find((x) => x.id === data.id);
+      const hors = anneesHorsPeriode(data.period, [data.event, f?.volets?.faits, f?.volets?.mecanisme]);
+      if (hors.length) warn.push(`${data.id} : année(s) ${hors.join(', ')} citée(s) dans l'intitulé ou la fiche, absente(s) de la période « ${data.period} »`);
+    }
     const floues = gen.filter((e) => e.ordre.precision !== 'annee');
-    ajouter(7, 'Dates ambiguës conservées en texte', err, [], `${floues.length} périodes non réductibles à une année, conservées telles quelles ; la clé d'ordre ne sert qu'au tri et n'est jamais affichée.`);
+    ajouter(7, 'Dates ambiguës conservées en texte', err, warn, `${floues.length} périodes non réductibles à une année, conservées telles quelles ; la clé d'ordre ne sert qu'au tri et n'est jamais affichée.`);
   }
 
   // 8. Pas de fusion entre continuites

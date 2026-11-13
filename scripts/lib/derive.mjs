@@ -116,6 +116,15 @@ export function ordreDiegetique(period) {
   return o;
 }
 
+// Annees citees par un texte de la fiction (intitule, faits) et absentes de la
+// periode de l'entree : signale une periode trop floue ou fausse (ex. « XXIe
+// siecle » alors que la fiche dit « septembre 2024 »). Les parentheses et les
+// numeros d'espece (« espece 8472 ») sont ignores.
+export function anneesHorsPeriode(period, textes) {
+  const t = textes.filter(Boolean).join(' ').replace(/\([^)]*\)/g, '').replace(/\b(?:espèce|Species|species) \d{4}\b/g, '');
+  return [...new Set([...t.matchAll(/\b(\d{4})\b/g)].map((m) => m[1]))].filter((y) => +y >= 1000 && !period.includes(y));
+}
+
 export const PRECISIONS = {
   annee: 'Année explicite',
   annee_qualifiee: 'Année avec réserve (intervalle, « env. », alternative…)',

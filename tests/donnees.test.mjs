@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { parseCsv, readRecords, serializeCsv } from '../scripts/lib/csv.mjs';
 import { parseFiches, paragraphesApresPoint, liensCliquables } from '../scripts/lib/fiches.mjs';
-import { episodesDe, continuite, ordreDiegetique } from '../scripts/lib/derive.mjs';
+import { episodesDe, continuite, ordreDiegetique, anneesHorsPeriode } from '../scripts/lib/derive.mjs';
 import { importer, dernieresSources } from '../scripts/import.mjs';
 import { valider } from '../scripts/validate.mjs';
 
@@ -196,4 +196,12 @@ test('nouvelle-version : chaque journal rejoue redonne le CSV publie a l\'identi
     const publie = fs.readFileSync(new URL(`../data/source/${r.cible}.csv`, import.meta.url), 'utf8');
     assert.equal(r.csv, publie, f);
   }
+});
+
+test('controle : annee citee par la fiche absente de la periode', () => {
+  const faits = 'Deux voyageurs rejoignent une Zone de Sanctuaire en septembre 2024.';
+  assert.deepEqual(anneesHorsPeriode('XXIe siècle', [faits]), ['2024']);
+  assert.deepEqual(anneesHorsPeriode('2024', [faits]), []);
+  assert.deepEqual(anneesHorsPeriode('Entre 2267 et la fin du XXIVe siècle (événement relaté en 3191)', ['Épave découverte (en 3191)']), []);
+  assert.deepEqual(anneesHorsPeriode('2374', ["Accord avec les Borg contre l'espèce 8472"]), []);
 });

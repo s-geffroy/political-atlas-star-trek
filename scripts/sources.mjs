@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Copies archivees des sources (enrichissement hors corpus). Usage :
 //
-//   node scripts/sources.mjs            # toutes les URL, reprend les resultats deja connus
+//   node scripts/sources.mjs            # reprend les URL deja archivees, reinterroge les autres
 //   node scripts/sources.mjs --tout     # reinterroge toutes les URL
 //
 // Pour chaque URL citee par le corpus (source de controle, sources des fiches),
@@ -44,12 +44,28 @@ async function obtenir(url, opts = {}) {
   finally { clearTimeout(t); }
 }
 
+// startrek.com sert les memes articles sous /news/ et /en-un/news/ : une copie de
+// l'une vaut pour l'autre (meme page, autre prefixe de langue).
+const variantes = (url) => {
+  const v = [url];
+  const m = /^https?:\/\/(?:www\.)?startrek\.com\/(en-un\/)?(.*)$/.exec(url);
+  if (m) v.push(`https://www.startrek.com/${m[1] ? '' : 'en-un/'}${m[2]}`);
+  return v;
+};
+
 async function archive(url) {
+  let r;
+  for (const u of variantes(url)) { r = await archive1(u); if (r.archive) return r; }
+  return r;
+}
+
+async function archive1(url) {
   const q = `https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(url)}&output=json&limit=-1&filter=statuscode:200&fl=timestamp,original`;
   for (let essai = 0; essai < 3; essai++) {
     try {
       const r = await obtenir(q);
       if (r.status === 429 || r.status >= 500) { await dormir(10000 * (essai + 1)); continue; }
+      if (r.status === 403) return { archive: null, archive_exclue: true }; // site exclu de la Wayback Machine
       const j = await r.json();
       if (j.length < 2) return { archive: null };
       const [ts, orig] = j[j.length - 1];
@@ -74,7 +90,7 @@ async function main() {
   let n = 0;
   for (const url of urls) {
     n++;
-    if (!tout && prec[url] && prec[url].archive !== undefined) { sources[url] = prec[url]; continue; }
+    if (!tout && prec[url]?.archive) { sources[url] = prec[url]; continue; }
     const a = await archive(url);
     await dormir(PAUSE);
     const v = await vivant(url);
@@ -83,7 +99,7 @@ async function main() {
     await dormir(PAUSE);
   }
   const doc = {
-    _lisez_moi: 'Genere par scripts/sources.mjs (ne pas modifier a la main). archive : derniere copie web.archive.org en statut 200 (null : aucune copie ; absent : non determine). statut_http : reponse de la page vivante a un client automatise honnete.',
+    _lisez_moi: 'Genere par scripts/sources.mjs (ne pas modifier a la main). archive : derniere copie web.archive.org en statut 200 (null : aucune copie ; archive_exclue : site exclu de la Wayback Machine ; absent : non determine). statut_http : reponse de la page vivante a un client automatise honnete.',
     sources,
   };
   fs.writeFileSync(SORTIE, JSON.stringify(doc, null, 1) + '\n');

@@ -3019,6 +3019,28 @@
      "cycle": "Prodigy : esclavage, contact et guerre civile"
     },
     {
+     "id": "STP-227",
+     "x": 386,
+     "y": 168,
+     "w": 250,
+     "h": 60,
+     "tx": 396,
+     "id_y": 184,
+     "lignes": [
+      {
+       "t": "Intervention de Janeway dans",
+       "y": 202
+      },
+      {
+       "t": "la guerre civile de Solum",
+       "y": 218
+      }
+     ],
+     "titre_complet": "Intervention de Janeway dans la guerre civile de Solum",
+     "niv": "B",
+     "cycle": "Prodigy : esclavage, contact et guerre civile"
+    },
+    {
      "id": "STP-225",
      "x": 56,
      "y": 168,
@@ -3043,28 +3065,6 @@
     {
      "id": "STP-226",
      "x": 386,
-     "y": 168,
-     "w": 250,
-     "h": 60,
-     "tx": 396,
-     "id_y": 184,
-     "lignes": [
-      {
-       "t": "Renversement de l'Asencia",
-       "y": 202
-      },
-      {
-       "t": "militariste sur Solum",
-       "y": 218
-      }
-     ],
-     "titre_complet": "Renversement de l'Asencia militariste sur Solum",
-     "niv": "B",
-     "cycle": "Prodigy : esclavage, contact et guerre civile"
-    },
-    {
-     "id": "STP-227",
-     "x": 386,
      "y": 246,
      "w": 250,
      "h": 60,
@@ -3072,15 +3072,15 @@
      "id_y": 262,
      "lignes": [
       {
-       "t": "Intervention de Janeway dans",
+       "t": "Renversement de l'Asencia",
        "y": 280
       },
       {
-       "t": "la guerre civile de Solum",
+       "t": "militariste sur Solum",
        "y": 296
       }
      ],
-     "titre_complet": "Intervention de Janeway dans la guerre civile de Solum",
+     "titre_complet": "Renversement de l'Asencia militariste sur Solum",
      "niv": "B",
      "cycle": "Prodigy : esclavage, contact et guerre civile"
     }
@@ -3097,7 +3097,7 @@
      "de": "STP-225",
      "vers": "STP-226",
      "type": "suite",
-     "d": "M306,198 C346,198 346,208 382,208",
+     "d": "M306,198 C346,198 346,286 382,286",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2"
     },
     {
@@ -3118,7 +3118,7 @@
      "de": "STP-224",
      "vers": "STP-227",
      "type": "meme_arc",
-     "d": "M386,135 C344.5,135 344.5,276 386,276",
+     "d": "M386,120 C355,120 355,198 386,198",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2"
     },
     {
@@ -3132,7 +3132,7 @@
      "de": "STP-224",
      "vers": "STP-226",
      "type": "episode_commun",
-     "d": "M386,120 C356.6666666666667,120 356.6666666666667,188 386,188",
+     "d": "M386,135 C346.1666666666667,135 346.1666666666667,266 386,266",
      "url": null
     }
    ],
@@ -3146,9 +3146,9 @@
     "STP-222",
     "STP-223",
     "STP-224",
+    "STP-227",
     "STP-225",
-    "STP-226",
-    "STP-227"
+    "STP-226"
    ],
    "series": [
     "PRO"

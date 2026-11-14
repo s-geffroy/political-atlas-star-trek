@@ -10050,7 +10050,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 173,
+  "rang_diegetique": 174,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « Generations ») ; période fictive : 2371.",
   "analyse_url": null,
@@ -10171,7 +10171,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 193,
+  "rang_diegetique": 194,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (film « First Contact ») ; période fictive : 2373.",
   "analyse_url": null,
@@ -11976,7 +11976,7 @@
  {
   "id": "STP-098",
   "cycle": "The Next Generation : institutions, guerre, droits",
-  "period": "2366",
+  "period": "2366–2367",
   "event": "Assimilation de Picard et bataille de Wolf 359",
   "source": "TNG « The Best of Both Worlds » ; DS9 « Emissary »",
   "politics": "Guerre existentielle, traumatisme institutionnel.",
@@ -11984,8 +11984,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
-  "note_audit": "V0.4 (2026-11-10) : recoupement B — Wikipedia : Picard est enlevé et assimilé par les Borgs sous le nom de « Locutus of Borg », et l'Enterprise trouve détruite la flotte rassemblée à Wolf 359. V0.5 (2026-11-10) : recoupement A (source officielle) — La section « Battle of Wolf 359 » (TNG et DS9) décrit l'échec de Starfleet face aux Borgs à Wolf 359, Picard enrôlé de force pour aider les Borgs, et les lourdes pertes en vies et en vaisseaux ; le synopsis Paramount+ de « The Best of Both Worlds, Part 1 » confirme la capture de Picard par les Borgs. Source B précédente : https://en.wikipedia.org/wiki/The_Best_of_Both_Worlds_(Star_Trek:_The_Next_Generation). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement B — Wikipedia : Picard est enlevé et assimilé par les Borgs sous le nom de « Locutus of Borg », et l'Enterprise trouve détruite la flotte rassemblée à Wolf 359. V0.5 (2026-11-10) : recoupement A (source officielle) — La section « Battle of Wolf 359 » (TNG et DS9) décrit l'échec de Starfleet face aux Borgs à Wolf 359, Picard enrôlé de force pour aider les Borgs, et les lourdes pertes en vies et en vaisseaux ; le synopsis Paramount+ de « The Best of Both Worlds, Part 1 » confirme la capture de Picard par les Borgs. Source B précédente : https://en.wikipedia.org/wiki/The_Best_of_Both_Worlds_(Star_Trek:_The_Next_Generation). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.22 (2026-11-14) : période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « The Best of Both Worlds », partie I : date stellaire 43989.1, soit 2366 ; la bataille de Wolf 359 a lieu dans la partie II, que Memory Alpha date « 44001.4-44002.3 ([[2366]]/[[2367]]) » (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie).",
+  "version_entree": "V0.22 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -12008,7 +12008,7 @@
   "continuite_regle": null,
   "ordre": {
    "cle": 2366,
-   "precision": "annee",
+   "precision": "annee_qualifiee",
    "siecle": 24
   },
   "audit": [
@@ -12044,11 +12044,25 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.22",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « The Best of Both Worlds », partie I : date stellaire 43989.1, soit 2366 ; la bataille de Wolf 359 a lieu dans la partie II, que Memory Alpha date « 44001.4-44002.3 ([[2366]]/[[2367]]) » (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+     }
+    ]
    }
   ],
   "cycle_slug": "the-next-generation-institutions-guerre-droits",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Assimilation de Picard et bataille de Wolf 359.",
+    "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « The Best of Both Worlds », partie I : date stellaire 43989.1, soit 2366 ; la bataille de Wolf 359 a lieu dans la partie II, que Memory Alpha date « 44001.4-44002.3 ([[2366]]/[[2367]]) » (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -12092,7 +12106,7 @@
   },
   "rang_diegetique": 130,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Best of Both Worlds » ; Star Trek: Deep Space Nine, épisode « Emissary ») ; période fictive : 2366.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Best of Both Worlds » ; Star Trek: Deep Space Nine, épisode « Emissary ») ; période fictive : 2366–2367.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
@@ -12384,7 +12398,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 136,
+  "rang_diegetique": 137,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Reunion ») ; période fictive : 2367.",
   "analyse_url": null,
@@ -12469,7 +12483,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 137,
+  "rang_diegetique": 138,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Drumhead ») ; période fictive : 2367.",
   "analyse_url": "/analyses/STP-101/",
@@ -12607,7 +12621,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 138,
+  "rang_diegetique": 139,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Redemption ») ; période fictive : 2367.",
   "analyse_url": null,
@@ -12748,7 +12762,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 162,
+  "rang_diegetique": 161,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Journey's End ») ; période fictive : 2370.",
   "analyse_url": null,
@@ -12785,7 +12799,7 @@
  {
   "id": "STP-104",
   "cycle": "The Next Generation : institutions, guerre, droits",
-  "period": "2367",
+  "period": "2366",
   "event": "Mise à l'épreuve de la Directive première dans l'affaire des Mintakans",
   "source": "TNG « Who Watches the Watchers »",
   "politics": "Développement social, religion et ingérence.",
@@ -12793,8 +12807,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/10-first-contacts-that-went-really-really-wrong",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « religion et ingérence », « Directive première » ; recoupement B — Wikipedia : après la panne d'un poste d'observation, un Mintakan proto-vulcain voit l'équipage et vénère « le Picard » comme un dieu, ce qui met en jeu la Directive première. V0.5 (2026-11-10) : recoupement A (source officielle) — La section « The Mintakans » décrit, dans « Who Watches the Watchers », un poste d'observation de Starfleet exposé à une civilisation de l'âge du bronze, l'échec à rattraper la situation sans violer la Directive première, et des Mintakans qui finissent par vénérer Picard comme un dieu. Source B précédente : https://en.wikipedia.org/wiki/Who_Watches_the_Watchers. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « religion et ingérence », « Directive première » ; recoupement B — Wikipedia : après la panne d'un poste d'observation, un Mintakan proto-vulcain voit l'équipage et vénère « le Picard » comme un dieu, ce qui met en jeu la Directive première. V0.5 (2026-11-10) : recoupement A (source officielle) — La section « The Mintakans » décrit, dans « Who Watches the Watchers », un poste d'observation de Starfleet exposé à une civilisation de l'âge du bronze, l'échec à rattraper la situation sans violer la Directive première, et des Mintakans qui finissent par vénérer Picard comme un dieu. Source B précédente : https://en.wikipedia.org/wiki/Who_Watches_the_Watchers. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.22 (2026-11-14) : période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Who Watches the Watchers » : dates stellaires 43173.5 et 43174.2, soit 2366 (Memory Alpha : « 43173.5-43174.2 ([[2366]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie).",
+  "version_entree": "V0.22 révisé",
   "categories": [
    "religion/légitimité",
    "diplomatie/traité"
@@ -12812,7 +12826,7 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2367,
+   "cle": 2366,
    "precision": "annee",
    "siecle": 24
   },
@@ -12849,11 +12863,25 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.22",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Who Watches the Watchers » : dates stellaires 43173.5 et 43174.2, soit 2366 (Memory Alpha : « 43173.5-43174.2 ([[2366]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+     }
+    ]
    }
   ],
   "cycle_slug": "the-next-generation-institutions-guerre-droits",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Mise à l'épreuve de la Directive première dans l'affaire des Mintakans.",
+    "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Who Watches the Watchers » : dates stellaires 43173.5 et 43174.2, soit 2366 (Memory Alpha : « 43173.5-43174.2 ([[2366]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -12870,9 +12898,9 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 139,
+  "rang_diegetique": 132,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Who Watches the Watchers ») ; période fictive : 2367.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Who Watches the Watchers ») ; période fictive : 2366.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
@@ -13004,7 +13032,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 142,
+  "rang_diegetique": 143,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Unification ») ; période fictive : 2368.",
   "analyse_url": null,
@@ -13025,7 +13053,7 @@
  {
   "id": "STP-106",
   "cycle": "The Next Generation : institutions, guerre, droits",
-  "period": "2368",
+  "period": "2369",
   "event": "Opération de transfert de réfugiés romuliens par un réseau clandestin",
   "source": "TNG « Face of the Enemy »",
   "politics": "Exil politique et protection des dissidents.",
@@ -13033,8 +13061,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/the-most-influential-tal-shiar-moments-ranked",
-  "note_audit": "V0.4 (2026-11-10) : recoupement B — Wikipedia : Troi est contrainte de se faire passer pour une officière du renseignement romulien afin d'aider des transfuges romuliens de haut rang ; l'opération doit servir à faire fuir d'autres dissidents. V0.5 (2026-11-10) : recoupement A (source officielle) — La section sur « Face of the Enemy » décrit Troi déguisée en major Rakal du Tal Shiar, participante involontaire d'une opération visant à transférer des transfuges romuliens de haut rang vers la Fédération ; le synopsis Paramount+ parle d'un « elaborate defection scheme ». Source B précédente : https://en.wikipedia.org/wiki/Face_of_the_Enemy_(Star_Trek:_The_Next_Generation). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement B — Wikipedia : Troi est contrainte de se faire passer pour une officière du renseignement romulien afin d'aider des transfuges romuliens de haut rang ; l'opération doit servir à faire fuir d'autres dissidents. V0.5 (2026-11-10) : recoupement A (source officielle) — La section sur « Face of the Enemy » décrit Troi déguisée en major Rakal du Tal Shiar, participante involontaire d'une opération visant à transférer des transfuges romuliens de haut rang vers la Fédération ; le synopsis Paramount+ parle d'un « elaborate defection scheme ». Source B précédente : https://en.wikipedia.org/wiki/Face_of_the_Enemy_(Star_Trek:_The_Next_Generation). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.22 (2026-11-14) : période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Face of the Enemy » : date stellaire 46519.1, soit 2369 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie).",
+  "version_entree": "V0.22 révisé",
   "categories": [
    "économie/social",
    "renseignement/sécurité"
@@ -13052,7 +13080,7 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2368,
+   "cle": 2369,
    "precision": "annee",
    "siecle": 24
   },
@@ -13089,11 +13117,25 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.22",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Face of the Enemy » : date stellaire 46519.1, soit 2369 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+     }
+    ]
    }
   ],
   "cycle_slug": "the-next-generation-institutions-guerre-droits",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Opération de transfert de réfugiés romuliens par un réseau clandestin.",
+    "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Face of the Enemy » : date stellaire 46519.1, soit 2369 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -13126,9 +13168,9 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 143,
+  "rang_diegetique": 151,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Face of the Enemy ») ; période fictive : 2368.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Face of the Enemy ») ; période fictive : 2369.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
@@ -13564,7 +13606,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 151,
+  "rang_diegetique": 152,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Chain of Command ») ; période fictive : 2369.",
   "analyse_url": null,
@@ -13678,7 +13720,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 152,
+  "rang_diegetique": 153,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Quality of Life ») ; période fictive : 2369.",
   "analyse_url": null,
@@ -13814,7 +13856,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 132,
+  "rang_diegetique": 133,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The High Ground ») ; période fictive : 2366.",
   "analyse_url": null,
@@ -13839,7 +13881,7 @@
  {
   "id": "STP-113",
   "cycle": "The Next Generation : institutions, guerre, droits",
-  "period": "2369",
+  "period": "2367",
   "event": "Raid illégal du capitaine Maxwell contre des vaisseaux cardassiens soupçonnés de réarmement",
   "source": "TNG « The Wounded »",
   "politics": "Traités, fiabilité des intentions et sécurité préventive.",
@@ -13847,8 +13889,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/10-times-captain-picard-earned-his-own-day",
-  "note_audit": "CORRECTION : ce n’est pas un projet de gouvernement militaire cardassien. V0.4 (2026-11-10) : recoupement A — L'article indique que le capitaine Maxwell, convaincu que les Cardassiens se préparent de nouveau à la guerre, agit de lui-même en détruisant vaisseaux et stations cardassiens, tuant des centaines de personnes. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "CORRECTION : ce n’est pas un projet de gouvernement militaire cardassien. V0.4 (2026-11-10) : recoupement A — L'article indique que le capitaine Maxwell, convaincu que les Cardassiens se préparent de nouveau à la guerre, agit de lui-même en détruisant vaisseaux et stations cardassiens, tuant des centaines de personnes. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.22 (2026-11-14) : période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « The Wounded » : dates stellaires 44429.6 et 44431.7, soit 2367 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie).",
+  "version_entree": "V0.22 révisé",
   "categories": [
    "guerre/bataille",
    "diplomatie/traité"
@@ -13866,7 +13908,7 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2369,
+   "cle": 2367,
    "precision": "annee",
    "siecle": 24
   },
@@ -13897,6 +13939,15 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.22",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « The Wounded » : dates stellaires 44429.6 et 44431.7, soit 2367 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+     }
+    ]
    }
   ],
   "cycle_slug": "the-next-generation-institutions-guerre-droits",
@@ -13905,6 +13956,10 @@
    {
     "libelle": "Raid illégal du capitaine Maxwell contre des vaisseaux cardassiens soupçonnés de réarmement.",
     "motif": "CORRECTION : ce n’est pas un projet de gouvernement militaire cardassien."
+   },
+   {
+    "libelle": "Raid illégal du capitaine Maxwell contre des vaisseaux cardassiens soupçonnés de réarmement.",
+    "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « The Wounded » : dates stellaires 44429.6 et 44431.7, soit 2367 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
    }
   ],
   "note_editoriale": "CORRECTION : ce n’est pas un projet de gouvernement militaire cardassien.",
@@ -13923,9 +13978,9 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 153,
+  "rang_diegetique": 141,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Wounded ») ; période fictive : 2369.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Wounded ») ; période fictive : 2367.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
@@ -14068,7 +14123,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 163,
+  "rang_diegetique": 162,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisodes « Journey's End », « Preemptive Strike » ; Star Trek: Deep Space Nine, épisode « The Maquis ») ; période fictive : 2370.",
   "analyse_url": null,
@@ -14238,7 +14293,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 164,
+  "rang_diegetique": 163,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Preemptive Strike ») ; période fictive : 2370.",
   "analyse_url": null,
@@ -14353,7 +14408,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 165,
+  "rang_diegetique": 164,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Pegasus ») ; période fictive : 2370.",
   "analyse_url": null,
@@ -14456,7 +14511,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 133,
+  "rang_diegetique": 134,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Offspring ») ; période fictive : 2366.",
   "analyse_url": null,
@@ -14565,7 +14620,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 166,
+  "rang_diegetique": 165,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Homeward ») ; période fictive : 2370.",
   "analyse_url": null,
@@ -14683,7 +14738,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 141,
+  "rang_diegetique": 142,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « First Contact ») ; période fictive : 2367.",
   "analyse_url": null,
@@ -15783,7 +15838,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 167,
+  "rang_diegetique": 166,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « The Homecoming », « The Circle », « The Siege ») ; période fictive : 2370.",
   "analyse_url": "/analyses/STP-126/",
@@ -15923,7 +15978,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 168,
+  "rang_diegetique": 167,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Maquis ») ; période fictive : 2370.",
   "analyse_url": null,
@@ -16050,7 +16105,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 169,
+  "rang_diegetique": 168,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Jem'Hadar ») ; période fictive : 2370.",
   "analyse_url": null,
@@ -16124,7 +16179,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 182,
+  "rang_diegetique": 181,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Bar Association ») ; période fictive : 2372.",
   "analyse_url": "/analyses/STP-129/",
@@ -16221,7 +16276,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 174,
+  "rang_diegetique": 175,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Dax ») ; période fictive : 2371.",
   "analyse_url": null,
@@ -16339,7 +16394,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 175,
+  "rang_diegetique": 176,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Equilibrium ») ; période fictive : 2371.",
   "analyse_url": null,
@@ -16456,7 +16511,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 176,
+  "rang_diegetique": 177,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Adversary ») ; période fictive : 2371.",
   "analyse_url": null,
@@ -16489,7 +16544,7 @@
  {
   "id": "STP-133",
   "cycle": "Deep Space Nine : occupations, démocratie, guerre",
-  "period": "2371",
+  "period": "2370–2371",
   "event": "Enlèvement de Kira par l'Ordre obsidien et sort des orphelins cardassiens élevés par des Bajorans",
   "source": "DS9 « Second Skin » ; « Cardassians »",
   "politics": "Identité, enlèvements et enfance en contexte de guerre.",
@@ -16497,8 +16552,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://web.archive.org/web/20160304231445/http://www.startrek.com/database_article/second-skin",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Les résumés Wikipedia lus décrivent d'autres intrigues : « Second Skin » = enlèvement de Kira par l'Ordre obsidien pour démasquer le dissident Ghemor (https://en.wikipedia.org/wiki/Second_Skin_(Star_Trek:_Deep_Space_Nine)) ; « Cardassians » = garde d'un orphelin cardassien élevé par des Bajorans et complot de Dukat contre Pa'Dar (https://en.wikipedia.org/wiki/Cardassians_(Star_Trek:_Deep_Space_Nine_episode)). Le thème correspond plutôt à « Duet », non cité par l'entrée. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — « Second Skin » : Kira, enlevée par l'Ordre obsidien et grimée en Cardassienne, sert à démasquer le dissident Ghemor. « Cardassians » (https://en.wikipedia.org/wiki/Cardassians_(Star_Trek:_Deep_Space_Nine_episode)) : Rugal, orphelin cardassien élevé par des Bajorans, au cœur d'une manœuvre de Dukat contre Pa'Dar. Cette lecture colle à la problématique actuelle (identité, enlèvements, enfance) ; si l'on tient à la poursuite des criminels cardassiens, c'est « Duet », déjà couvert par STP-125. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de guerre/bataille ; renseignement/sécurité : « Enlèvement de Kira par l’Ordre obsidien » ; justice/droits : « sort des orphelins cardassiens ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.19 (2026-11-13) : revérification de novembre 2026 — pages d'épisode officielles de l'ancienne base de données de startrek.com lues dans leurs copies archivées : https://web.archive.org/web/20160304231445/http://www.startrek.com/database_article/second-skin et https://web.archive.org/web/20160304223753/http://www.startrek.com/database_article/cardassians-episode. Elles confirment le fait central : « Garak reveals that Kira may be held by the Obsidian Order. » ; « The boy, Rugal, is an orphan abandoned after the war who was adopted by a Bajoran family. » ; « his quest to bring the Cardassian war orphans back home ». Niveau B porté à A.",
-  "version_entree": "V0.19 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Les résumés Wikipedia lus décrivent d'autres intrigues : « Second Skin » = enlèvement de Kira par l'Ordre obsidien pour démasquer le dissident Ghemor (https://en.wikipedia.org/wiki/Second_Skin_(Star_Trek:_Deep_Space_Nine)) ; « Cardassians » = garde d'un orphelin cardassien élevé par des Bajorans et complot de Dukat contre Pa'Dar (https://en.wikipedia.org/wiki/Cardassians_(Star_Trek:_Deep_Space_Nine_episode)). Le thème correspond plutôt à « Duet », non cité par l'entrée. V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — « Second Skin » : Kira, enlevée par l'Ordre obsidien et grimée en Cardassienne, sert à démasquer le dissident Ghemor. « Cardassians » (https://en.wikipedia.org/wiki/Cardassians_(Star_Trek:_Deep_Space_Nine_episode)) : Rugal, orphelin cardassien élevé par des Bajorans, au cœur d'une manœuvre de Dukat contre Pa'Dar. Cette lecture colle à la problématique actuelle (identité, enlèvements, enfance) ; si l'on tient à la poursuite des criminels cardassiens, c'est « Duet », déjà couvert par STP-125. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — retrait de guerre/bataille ; renseignement/sécurité : « Enlèvement de Kira par l’Ordre obsidien » ; justice/droits : « sort des orphelins cardassiens ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.19 (2026-11-13) : revérification de novembre 2026 — pages d'épisode officielles de l'ancienne base de données de startrek.com lues dans leurs copies archivées : https://web.archive.org/web/20160304231445/http://www.startrek.com/database_article/second-skin et https://web.archive.org/web/20160304223753/http://www.startrek.com/database_article/cardassians-episode. Elles confirment le fait central : « Garak reveals that Kira may be held by the Obsidian Order. » ; « The boy, Rugal, is an orphan abandoned after the war who was adopted by a Bajoran family. » ; « his quest to bring the Cardassian war orphans back home ». Niveau B porté à A. V0.22 (2026-11-14) : période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Cardassians » : dates stellaires 47177.2 et 47178.3, soit 2370 ; « Second Skin », sans date stellaire, est situé en 2371 par Memory Alpha (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie).",
+  "version_entree": "V0.22 révisé",
   "categories": [
    "renseignement/sécurité",
    "justice/droits"
@@ -16520,8 +16575,8 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2371,
-   "precision": "annee",
+   "cle": 2370,
+   "precision": "annee_qualifiee",
    "siecle": 24
   },
   "audit": [
@@ -16599,6 +16654,15 @@
       "texte": ". Elles confirment le fait central : « Garak reveals that Kira may be held by the Obsidian Order. » ; « The boy, Rugal, is an orphan abandoned after the war who was adopted by a Bajoran family. » ; « his quest to bring the Cardassian war orphans back home ». Niveau B porté à A."
      }
     ]
+   },
+   {
+    "version": "V0.22",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Cardassians » : dates stellaires 47177.2 et 47178.3, soit 2370 ; « Second Skin », sans date stellaire, est situé en 2371 par Memory Alpha (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+     }
+    ]
    }
   ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
@@ -16607,6 +16671,10 @@
    {
     "libelle": "Enlèvement de Kira par l'Ordre obsidien et sort des orphelins cardassiens élevés par des Bajorans.",
     "motif": "intitulé corrigé(s) d’après la source, recoupement B — « Second Skin » : Kira, enlevée par l'Ordre obsidien et grimée en Cardassienne, sert à démasquer le dissident Ghemor. « Cardassians » (<https://en.wikipedia.org/wiki/Cardassians_(Star_Trek:_Deep_Space_Nine_episode)>) : Rugal, orphelin cardassien élevé par des Bajorans, au cœur d'une manœuvre de Dukat contre Pa'Dar. Cette lecture colle à la problématique actuelle (identité, enlèvements, enfance) ; si l'on tient à la poursuite des criminels cardassiens, c'est « Duet », déjà couvert par STP-125"
+   },
+   {
+    "libelle": "Enlèvement de Kira par l'Ordre obsidien et sort des orphelins cardassiens élevés par des Bajorans.",
+    "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Cardassians » : dates stellaires 47177.2 et 47178.3, soit 2370 ; « Second Skin », sans date stellaire, est situé en 2371 par Memory Alpha (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
    }
   ],
   "note_editoriale": null,
@@ -16638,9 +16706,9 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 177,
+  "rang_diegetique": 169,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Second Skin », « Cardassians ») ; période fictive : 2371.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Second Skin », « Cardassians ») ; période fictive : 2370–2371.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
@@ -17014,7 +17082,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 183,
+  "rang_diegetique": 182,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Way of the Warrior ») ; période fictive : 2372.",
   "analyse_url": null,
@@ -17176,7 +17244,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 184,
+  "rang_diegetique": 183,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Way of the Warrior ») ; période fictive : 2372.",
   "analyse_url": null,
@@ -17323,7 +17391,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 185,
+  "rang_diegetique": 184,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Way of the Warrior ») ; période fictive : 2372.",
   "analyse_url": null,
@@ -17463,7 +17531,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 186,
+  "rang_diegetique": 185,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Homefront », « Paradise Lost ») ; période fictive : 2372.",
   "analyse_url": "/analyses/STP-139/",
@@ -17583,7 +17651,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 194,
+  "rang_diegetique": 195,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Apocalypse Rising ») ; période fictive : 2373.",
   "analyse_url": null,
@@ -17719,7 +17787,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 187,
+  "rang_diegetique": 186,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « For the Cause », « For the Uniform ») ; période fictive : 2372.",
   "analyse_url": null,
@@ -17891,7 +17959,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 195,
+  "rang_diegetique": 196,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Things Past », « Necessary Evil ») ; période fictive : 2373.",
   "analyse_url": null,
@@ -18031,7 +18099,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 196,
+  "rang_diegetique": 197,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « By Inferno's Light ») ; période fictive : 2373.",
   "analyse_url": null,
@@ -18179,7 +18247,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 197,
+  "rang_diegetique": 198,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « By Inferno's Light » ; Star Trek: Voyager, épisode « Hunters ») ; période fictive : 2373.",
   "analyse_url": null,
@@ -18316,7 +18384,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 198,
+  "rang_diegetique": 199,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Call to Arms ») ; période fictive : 2373.",
   "analyse_url": null,
@@ -18485,7 +18553,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 199,
+  "rang_diegetique": 200,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Call to Arms ») ; période fictive : 2373.",
   "analyse_url": null,
@@ -18654,7 +18722,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 200,
+  "rang_diegetique": 201,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « Call to Arms », « A Time to Stand ») ; période fictive : 2373.",
   "analyse_url": null,
@@ -19277,7 +19345,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 188,
+  "rang_diegetique": 187,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « The Quickening ») ; période fictive : 2372.",
   "analyse_url": null,
@@ -20536,7 +20604,7 @@
  {
   "id": "STP-162",
   "cycle": "Voyager : Delta Quadrant, gouvernance et droits",
-  "period": "2371",
+  "period": "2372",
   "event": "Promotion par le combat chez les Kazon-Ogla et projet de Culluh d'unir les sectes kazones grâce à la technologie de Voyager",
   "source": "VOY « Initiations » ; « Maneuvers »",
   "politics": "Fragmentation tribale et négociation inter-factions.",
@@ -20544,8 +20612,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://web.archive.org/web/20110101213845/http://www.startrek.com/database_article/maneuvers",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Pas de « conflit de succession » de secte au sens strict : seule une promotion interne (Razik/Haliz) est décrite dans «Initiations». Source consultée : https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia « Maneuvers » : Culluh vole un module de téléportation en croyant que la technologie fédérale lui permettra d'unir et de diriger les autres sectes kazones, dont il réunit les chefs ; « Initiations » (Wikipedia) : les Kazon gagnent leur nom par la conquête ou la mort, Kar tue Razik et Haliz est promu. Aucun conflit de succession de secte. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout d’insurrection/pouvoir : « Promotion par le combat », projet de Culluh « d’unir les sectes ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.19 (2026-11-13) : revérification de novembre 2026 — pages d'épisode officielles de l'ancienne base de données de startrek.com lues dans leurs copies archivées : https://web.archive.org/web/20110101213845/http://www.startrek.com/database_article/maneuvers et https://web.archive.org/web/20111207044659/http://www.startrek.com/database_article/initiations. Elles confirment le fait central : « Chakotay is targeted by Kar , a Kazon youth attempting to earn his warrior name by killing the Federation trespasser. » ; « Culluh plans to use the stolen module to persuade rival sects to help him conquer the Federation ship. » Niveau B porté à A.",
-  "version_entree": "V0.19 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Pas de « conflit de succession » de secte au sens strict : seule une promotion interne (Razik/Haliz) est décrite dans «Initiations». Source consultée : https://en.wikipedia.org/wiki/Maneuvers_(Star_Trek:_Voyager). V0.6 (2026-11-10) : intitulé corrigé(s) d’après la source, recoupement B — Wikipedia « Maneuvers » : Culluh vole un module de téléportation en croyant que la technologie fédérale lui permettra d'unir et de diriger les autres sectes kazones, dont il réunit les chefs ; « Initiations » (Wikipedia) : les Kazon gagnent leur nom par la conquête ou la mort, Kar tue Razik et Haliz est promu. Aucun conflit de succession de secte. V0.7 (2026-11-10) : catégories revues après réécriture de l’intitulé en V0.6 (proposition validée le 2026-11-10, docs/proposition-categories-v07.md) — ajout d’insurrection/pouvoir : « Promotion par le combat », projet de Culluh « d’unir les sectes ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.19 (2026-11-13) : revérification de novembre 2026 — pages d'épisode officielles de l'ancienne base de données de startrek.com lues dans leurs copies archivées : https://web.archive.org/web/20110101213845/http://www.startrek.com/database_article/maneuvers et https://web.archive.org/web/20111207044659/http://www.startrek.com/database_article/initiations. Elles confirment le fait central : « Chakotay is targeted by Kar , a Kazon youth attempting to earn his warrior name by killing the Federation trespasser. » ; « Culluh plans to use the stolen module to persuade rival sects to help him conquer the Federation ship. » Niveau B porté à A. V0.22 (2026-11-14) : période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Initiations » : date stellaire 49005.3 ; « Maneuvers » : 49208.5 et 49211.5 ; soit 2372 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie).",
+  "version_entree": "V0.22 révisé",
   "categories": [
    "diplomatie/traité",
    "insurrection/pouvoir"
@@ -20567,7 +20635,7 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2371,
+   "cle": 2372,
    "precision": "annee",
    "siecle": 24
   },
@@ -20634,6 +20702,15 @@
       "texte": ". Elles confirment le fait central : « Chakotay is targeted by Kar , a Kazon youth attempting to earn his warrior name by killing the Federation trespasser. » ; « Culluh plans to use the stolen module to persuade rival sects to help him conquer the Federation ship. » Niveau B porté à A."
      }
     ]
+   },
+   {
+    "version": "V0.22",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Initiations » : date stellaire 49005.3 ; « Maneuvers » : 49208.5 et 49211.5 ; soit 2372 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+     }
+    ]
    }
   ],
   "cycle_slug": "voyager-delta-quadrant-gouvernance-et-droits",
@@ -20642,6 +20719,10 @@
    {
     "libelle": "Promotion par le combat chez les Kazon-Ogla et projet de Culluh d'unir les sectes kazones grâce à la technologie de Voyager.",
     "motif": "intitulé corrigé(s) d’après la source, recoupement B — Wikipedia « Maneuvers » : Culluh vole un module de téléportation en croyant que la technologie fédérale lui permettra d'unir et de diriger les autres sectes kazones, dont il réunit les chefs ; « Initiations » (Wikipedia) : les Kazon gagnent leur nom par la conquête ou la mort, Kar tue Razik et Haliz est promu. Aucun conflit de succession de secte"
+   },
+   {
+    "libelle": "Promotion par le combat chez les Kazon-Ogla et projet de Culluh d'unir les sectes kazones grâce à la technologie de Voyager.",
+    "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Initiations » : date stellaire 49005.3 ; « Maneuvers » : 49208.5 et 49211.5 ; soit 2372 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
    }
   ],
   "note_editoriale": null,
@@ -20680,9 +20761,9 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 181,
+  "rang_diegetique": 188,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisodes « Initiations », « Maneuvers ») ; période fictive : 2371.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisodes « Initiations », « Maneuvers ») ; période fictive : 2372.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
@@ -20966,7 +21047,7 @@
  {
   "id": "STP-165",
   "cycle": "Voyager : Delta Quadrant, gouvernance et droits",
-  "period": "2373",
+  "period": "2372",
   "event": "Crise du droit politique des Q, interdiction d'assister au suicide",
   "source": "VOY « Death Wish »",
   "politics": "Liberté individuelle et jugement de l'État/Continuum.",
@@ -20974,8 +21055,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/voyagers-death-wish-19-years-later",
-  "note_audit": "V0.4 (2026-11-10) : recoupement B — Quinn, Q emprisonné par le Continuum, veut mettre fin à sa vie ; il demande l'asile, Janeway tient une audience face à Q et le lui accorde. V0.5 (2026-11-10) : recoupement A (source officielle) — Le Q Quinn demande l'asile à bord de Voyager pour pouvoir se suicider, tandis que Q défend le Continuum. Source B précédente : https://en.wikipedia.org/wiki/Death_Wish_(Star_Trek:_Voyager). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement B — Quinn, Q emprisonné par le Continuum, veut mettre fin à sa vie ; il demande l'asile, Janeway tient une audience face à Q et le lui accorde. V0.5 (2026-11-10) : recoupement A (source officielle) — Le Q Quinn demande l'asile à bord de Voyager pour pouvoir se suicider, tandis que Q défend le Continuum. Source B précédente : https://en.wikipedia.org/wiki/Death_Wish_(Star_Trek:_Voyager). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.22 (2026-11-14) : période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Death Wish » : date stellaire 49301.2, soit 2372 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie).",
+  "version_entree": "V0.22 révisé",
   "categories": [
    "justice/droits"
   ],
@@ -20992,7 +21073,7 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2373,
+   "cle": 2372,
    "precision": "annee",
    "siecle": 24
   },
@@ -21029,11 +21110,25 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.22",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Death Wish » : date stellaire 49301.2, soit 2372 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+     }
+    ]
    }
   ],
   "cycle_slug": "voyager-delta-quadrant-gouvernance-et-droits",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Crise du droit politique des Q, interdiction d'assister au suicide.",
+    "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Death Wish » : date stellaire 49301.2, soit 2372 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -21058,9 +21153,9 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 201,
+  "rang_diegetique": 191,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Death Wish ») ; période fictive : 2373.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Death Wish ») ; période fictive : 2372.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
@@ -24589,7 +24684,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 263,
+  "rang_diegetique": 261,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisodes « Remembrance », « Maps and Legends ») ; période fictive : 2385.",
   "analyse_url": null,
@@ -24707,7 +24802,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 264,
+  "rang_diegetique": 262,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard) ; période fictive : 2385.",
   "analyse_url": "/analyses/STP-197/",
@@ -24813,7 +24908,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 265,
+  "rang_diegetique": 263,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisode « Remembrance ») ; période fictive : 2385.",
   "analyse_url": null,
@@ -27884,7 +27979,7 @@
  {
   "id": "STP-225",
   "cycle": "Prodigy : esclavage, contact et guerre civile",
-  "period": "2384",
+  "period": "2385",
   "event": "Ralliement de la jeune Asencia à la rébellion contre sa version future",
   "source": "PRO « Brink »",
   "politics": "Rébellion civique et refus de la dictature.",
@@ -27892,8 +27987,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://blog.trekcore.com/2024/11/star-trek-prodigy-reviews-brink-touch-of-grey/",
-  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Wikipedia place ce fait dans le résumé de « Brink » (épisode 17), non dans « Ouroboros, Part I », et dit « s'est rangée du côté de », non « a mené » la résistance. Source consultée : https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2. V0.6 (2026-11-10) : intitulé, épisode cité corrigé(s) d’après la source, recoupement B — Wikipedia saison 2, résumé de « Brink » (épisode 17) : l'équipe apprend de la jeune Asencia, « qui s'est rangée du côté de la rébellion contre son double plus âgé », que Wesley Crusher est la source de ses armes. Elle ne mène pas la résistance ; « Ouroboros, Part I » montre les Vau N'Akat en rébellion ouverte et la défaite d'Asencia (voir STP-226). V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). La critique TrekCore de « Brink » et « Touch of Grey » confirme le fait central : « it's Asencia — not the Vindicator, but rather young Asencia from this time period » ; « Seeing the absolute worst version of yourself has got to make you pretty introspective, so it makes perfect sense that she would be a leader in the resistance. » Niveau B maintenu sur une page d'épisode ; TrekCore dit « leader », là où Wikipedia (saison) disait seulement qu'elle s'est rangée du côté de la rébellion : l'intitulé « Ralliement » reste prudent.",
-  "version_entree": "V0.15 révisé",
+  "note_audit": "V0.4 (2026-11-10) : vérification non concluante (niveau C maintenu) — Wikipedia place ce fait dans le résumé de « Brink » (épisode 17), non dans « Ouroboros, Part I », et dit « s'est rangée du côté de », non « a mené » la résistance. Source consultée : https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_2. V0.6 (2026-11-10) : intitulé, épisode cité corrigé(s) d’après la source, recoupement B — Wikipedia saison 2, résumé de « Brink » (épisode 17) : l'équipe apprend de la jeune Asencia, « qui s'est rangée du côté de la rébellion contre son double plus âgé », que Wesley Crusher est la source de ses armes. Elle ne mène pas la résistance ; « Ouroboros, Part I » montre les Vau N'Akat en rébellion ouverte et la défaite d'Asencia (voir STP-226). V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). La critique TrekCore de « Brink » et « Touch of Grey » confirme le fait central : « it's Asencia — not the Vindicator, but rather young Asencia from this time period » ; « Seeing the absolute worst version of yourself has got to make you pretty introspective, so it makes perfect sense that she would be a leader in the resistance. » Niveau B maintenu sur une page d'épisode ; TrekCore dit « leader », là où Wikipedia (saison) disait seulement qu'elle s'est rangée du côté de la rébellion : l'intitulé « Ralliement » reste prudent. V0.22 (2026-11-14) : période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Brink » : date stellaire 62083.5, soit 2385 (Memory Alpha : « 62083.5 ([[2385]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie).",
+  "version_entree": "V0.22 révisé",
   "categories": [
    "insurrection/pouvoir"
   ],
@@ -27910,7 +28005,7 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2384,
+   "cle": 2385,
    "precision": "annee",
    "siecle": 24
   },
@@ -27956,6 +28051,15 @@
       "texte": "revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). La critique TrekCore de « Brink » et « Touch of Grey » confirme le fait central : « it's Asencia — not the Vindicator, but rather young Asencia from this time period » ; « Seeing the absolute worst version of yourself has got to make you pretty introspective, so it makes perfect sense that she would be a leader in the resistance. » Niveau B maintenu sur une page d'épisode ; TrekCore dit « leader », là où Wikipedia (saison) disait seulement qu'elle s'est rangée du côté de la rébellion : l'intitulé « Ralliement » reste prudent."
      }
     ]
+   },
+   {
+    "version": "V0.22",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Brink » : date stellaire 62083.5, soit 2385 (Memory Alpha : « 62083.5 ([[2385]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+     }
+    ]
    }
   ],
   "cycle_slug": "prodigy-esclavage-contact-et-guerre-civile",
@@ -27964,6 +28068,10 @@
    {
     "libelle": "Ralliement de la jeune Asencia à la rébellion contre sa version future.",
     "motif": "intitulé, épisode cité corrigé(s) d’après la source, recoupement B — Wikipedia saison 2, résumé de « Brink » (épisode 17) : l'équipe apprend de la jeune Asencia, « qui s'est rangée du côté de la rébellion contre son double plus âgé », que Wesley Crusher est la source de ses armes. Elle ne mène pas la résistance ; « Ouroboros, Part I » montre les Vau N'Akat en rébellion ouverte et la défaite d'Asencia (voir STP-226)"
+   },
+   {
+    "libelle": "Ralliement de la jeune Asencia à la rébellion contre sa version future.",
+    "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Brink » : date stellaire 62083.5, soit 2385 (Memory Alpha : « 62083.5 ([[2385]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
    }
   ],
   "note_editoriale": null,
@@ -27984,9 +28092,9 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 260,
+  "rang_diegetique": 264,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Brink ») ; période fictive : 2384.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Brink ») ; période fictive : 2385.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
@@ -28017,7 +28125,7 @@
  {
   "id": "STP-226",
   "cycle": "Prodigy : esclavage, contact et guerre civile",
-  "period": "2384",
+  "period": "2385",
   "event": "Renversement de l'Asencia militariste sur Solum",
   "source": "PRO « Ouroboros », partie II",
   "politics": "Transition politique et possibilité d'une paix durable.",
@@ -28025,8 +28133,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://blog.trekcore.com/2024/11/star-trek-prodigy-season-2-finale-review-ouroboros/",
-  "note_audit": "V0.4 (2026-11-10) : recoupement B — La critique de TrekCore du final « Ouroboros » décrit la défaite d'Asencia face à Gwyn, aidée par les Vau N'Akat, l'esprit d'Asencia saturé, son effondrement puis son arrestation, alors que la résistance s'étend sur Solum. Réserve : Wikipedia (saison 2) confirme aussi : « Gwyn battles Asencia, ultimately defeating her ». V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement B — La critique de TrekCore du final « Ouroboros » décrit la défaite d'Asencia face à Gwyn, aidée par les Vau N'Akat, l'esprit d'Asencia saturé, son effondrement puis son arrestation, alors que la résistance s'étend sur Solum. Réserve : Wikipedia (saison 2) confirme aussi : « Gwyn battles Asencia, ultimately defeating her ». V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.22 (2026-11-14) : période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Ouroboros » : date stellaire 62314.8, soit 2385 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie).",
+  "version_entree": "V0.22 révisé",
   "categories": [
    "diplomatie/traité",
    "insurrection/pouvoir"
@@ -28044,7 +28152,7 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2384,
+   "cle": 2385,
    "precision": "annee",
    "siecle": 24
   },
@@ -28066,11 +28174,25 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.22",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Ouroboros » : date stellaire 62314.8, soit 2385 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+     }
+    ]
    }
   ],
   "cycle_slug": "prodigy-esclavage-contact-et-guerre-civile",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Renversement de l'Asencia militariste sur Solum.",
+    "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Ouroboros » : date stellaire 62314.8, soit 2385 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -28100,9 +28222,9 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 261,
+  "rang_diegetique": 265,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Ouroboros ») ; période fictive : 2384.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy, épisode « Ouroboros ») ; période fictive : 2385.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
@@ -28234,7 +28356,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 262,
+  "rang_diegetique": 260,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Prodigy) ; période fictive : 2384.",
   "analyse_url": null,
@@ -31250,7 +31372,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 134,
+  "rang_diegetique": 135,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « The Defector ») ; période fictive : 2366.",
   "analyse_url": null,
@@ -33860,7 +33982,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 191,
+  "rang_diegetique": 192,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Accession ») ; période fictive : 2372.",
   "analyse_url": null,
@@ -34129,7 +34251,7 @@
  {
   "id": "STP-275",
   "cycle": "Pouvoir technocratique",
-  "period": "2369",
+  "period": "2370",
   "event": "Contrôle coercitif d’une colonie par Alixus, qui sabote les technologies pour imposer son idéal social",
   "source": "DS9 « Paradise »",
   "politics": "Utopie autoritaire, manipulation du consentement et liberté de sortie.",
@@ -34137,8 +34259,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://web.archive.org/web/20160801141053/http://www.startrek.com:80/database_article/paradise",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : recoupement B — Le résumé décrit Alixus, chef de la colonie et philosophe hostile à la technologie, qui interdit l'accès aux soins, punit par la « boîte » et a elle-même créé le champ duonétique qui neutralise les appareils ; à la fin, les colons « choisissent » de rester sans avoir été consultés. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.19 (2026-11-13) : revérification de novembre 2026 — page d'épisode officielle de l'ancienne base de données de startrek.com lue dans sa copie archivée : https://web.archive.org/web/20160801141053/http://www.startrek.com:80/database_article/paradise. Elle confirme le fait central : « they discover one of the colonists has been imprisoned in a metal box for stealing a candle. » ; « Realizing she's been caught, Alixus admits to creating the situation that has kept them there. » Niveau B porté à A.",
-  "version_entree": "V0.19 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : recoupement B — Le résumé décrit Alixus, chef de la colonie et philosophe hostile à la technologie, qui interdit l'accès aux soins, punit par la « boîte » et a elle-même créé le champ duonétique qui neutralise les appareils ; à la fin, les colons « choisissent » de rester sans avoir été consultés. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.19 (2026-11-13) : revérification de novembre 2026 — page d'épisode officielle de l'ancienne base de données de startrek.com lue dans sa copie archivée : https://web.archive.org/web/20160801141053/http://www.startrek.com:80/database_article/paradise. Elle confirme le fait central : « they discover one of the colonists has been imprisoned in a metal box for stealing a candle. » ; « Realizing she's been caught, Alixus admits to creating the situation that has kept them there. » Niveau B porté à A. V0.22 (2026-11-14) : période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Paradise » : date stellaire 47573.1, soit 2370 (Memory Alpha : « 47573.1 ([[2370]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie).",
+  "version_entree": "V0.22 révisé",
   "categories": [
    "justice/droits",
    "renseignement/sécurité"
@@ -34156,7 +34278,7 @@
   "continuite": "principale",
   "continuite_regle": null,
   "ordre": {
-   "cle": 2369,
+   "cle": 2370,
    "precision": "annee",
    "siecle": 24
   },
@@ -34211,11 +34333,25 @@
       "texte": ". Elle confirme le fait central : « they discover one of the colonists has been imprisoned in a metal box for stealing a candle. » ; « Realizing she's been caught, Alixus admits to creating the situation that has kept them there. » Niveau B porté à A."
      }
     ]
+   },
+   {
+    "version": "V0.22",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Paradise » : date stellaire 47573.1, soit 2370 (Memory Alpha : « 47573.1 ([[2370]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+     }
+    ]
    }
   ],
   "cycle_slug": "pouvoir-technocratique",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Contrôle coercitif d’une colonie par Alixus, qui sabote les technologies pour imposer son idéal social.",
+    "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Paradise » : date stellaire 47573.1, soit 2370 (Memory Alpha : « 47573.1 ([[2370]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {
@@ -34232,9 +34368,9 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 159,
+  "rang_diegetique": 173,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Paradise ») ; période fictive : 2369.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Paradise ») ; période fictive : 2370.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
@@ -34493,7 +34629,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 160,
+  "rang_diegetique": 159,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Rightful Heir ») ; période fictive : 2369.",
   "analyse_url": null,
@@ -34629,7 +34765,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 135,
+  "rang_diegetique": 136,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Yesterday’s Enterprise ») ; période fictive : 2366 (timeline alternative).",
   "analyse_url": null,
@@ -35403,7 +35539,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 192,
+  "rang_diegetique": 193,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Voyager, épisode « Alliances ») ; période fictive : 2372.",
   "analyse_url": null,
@@ -38142,7 +38278,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 161,
+  "rang_diegetique": 160,
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Past Prologue ») ; période fictive : 2369.",
   "analyse_url": null,

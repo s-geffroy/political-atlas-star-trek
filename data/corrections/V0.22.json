@@ -1,0 +1,126 @@
+{
+ "version": "V0.22",
+ "date": "2026-11-14",
+ "date_longue": "14 novembre 2026",
+ "base": "V0_21_2026-11-14",
+ "titre": "Atlas politique de Star Trek — V0.22 : périodes corrigées d’après les journaux de bord",
+ "resume": "Les périodes en année ont été comparées à l’année des journaux de bord de leurs épisodes (date stellaire prononcée à l’écran et confirmée par Memory Alpha, convention de l’ère TNG). Dix périodes contredites sont corrigées, dont STP-113 (« The Wounded ») en 2367 et non 2369, et STP-098 (Wolf 359) étendue à 2366–2367.",
+ "methode": {
+  "periodes": "comparaison du 14 novembre 2026 entre les périodes en année et data/stardates.json ; proposition validée le 2026-11-14 (docs/proposition-v022.md) ; voyages dans le temps et entrées sur plusieurs épisodes d’années différentes écartés."
+ },
+ "comptes": {
+  "corrections": 10
+ },
+ "corrections": [
+  {
+   "id": "STP-098",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2366",
+     "apres": "2366–2367"
+    }
+   },
+   "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « The Best of Both Worlds », partie I : date stellaire 43989.1, soit 2366 ; la bataille de Wolf 359 a lieu dans la partie II, que Memory Alpha date « 44001.4-44002.3 ([[2366]]/[[2367]]) » (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+  },
+  {
+   "id": "STP-104",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2367",
+     "apres": "2366"
+    }
+   },
+   "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Who Watches the Watchers » : dates stellaires 43173.5 et 43174.2, soit 2366 (Memory Alpha : « 43173.5-43174.2 ([[2366]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+  },
+  {
+   "id": "STP-106",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2368",
+     "apres": "2369"
+    }
+   },
+   "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Face of the Enemy » : date stellaire 46519.1, soit 2369 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+  },
+  {
+   "id": "STP-113",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2369",
+     "apres": "2367"
+    }
+   },
+   "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « The Wounded » : dates stellaires 44429.6 et 44431.7, soit 2367 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+  },
+  {
+   "id": "STP-133",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2371",
+     "apres": "2370–2371"
+    }
+   },
+   "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Cardassians » : dates stellaires 47177.2 et 47178.3, soit 2370 ; « Second Skin », sans date stellaire, est situé en 2371 par Memory Alpha (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+  },
+  {
+   "id": "STP-162",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2371",
+     "apres": "2372"
+    }
+   },
+   "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Initiations » : date stellaire 49005.3 ; « Maneuvers » : 49208.5 et 49211.5 ; soit 2372 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+  },
+  {
+   "id": "STP-165",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2373",
+     "apres": "2372"
+    }
+   },
+   "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Death Wish » : date stellaire 49301.2, soit 2372 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+  },
+  {
+   "id": "STP-275",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2369",
+     "apres": "2370"
+    }
+   },
+   "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Paradise » : date stellaire 47573.1, soit 2370 (Memory Alpha : « 47573.1 ([[2370]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+  },
+  {
+   "id": "STP-225",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2384",
+     "apres": "2385"
+    }
+   },
+   "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Brink » : date stellaire 62083.5, soit 2385 (Memory Alpha : « 62083.5 ([[2385]]) ») (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+  },
+  {
+   "id": "STP-226",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2384",
+     "apres": "2385"
+    }
+   },
+   "motif": "période corrigée d’après le journal de bord (revue du 14 novembre 2026) — « Ouroboros » : date stellaire 62314.8, soit 2385 (date prononcée dans un journal de bord de la transcription et confirmée par Memory Alpha ; année déduite selon la convention de l’ère TNG, voir la méthodologie)."
+  }
+ ]
+}

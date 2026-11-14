@@ -8,6 +8,26 @@ description: Graphe des relations documentées entre événements politiques de 
 <p class="chapo">Les {{ R.relations }} relations documentées entre {{ R.noeuds }} événements, organisées en {{ R.composantes.size }} arcs. Un arc réunit des événements reliés entre eux, quelles que soient leurs séries ; seul un ensemble de plus de {{ R.seuil_decoupe }} événements, illisible d’un bloc, est découpé par série, et les relations entre ses morceaux sont listées sur chaque arc avec un lien vers l’arc d’arrivée. Chaque arc a son graphe, qui se lit de gauche à droite : un fait est placé après ceux dont il est la conséquence ou la suite.</p>
 <div class="encadre"><p><strong>Ce que montre ce réseau.</strong> Seules les relations établies explicitement par une source sont dessinées (<a href="{{ '/methodologie/' | relative_url }}#relations">méthode</a>). Les liens « épisode commun », en gris, reprennent les associations déjà affichées sur les fiches, uniquement entre événements du réseau, pour relier les arcs. L’absence de lien n’est pas une absence de relation : elle signifie qu’aucune source lue ne l’établit.</p></div>
 {% include reseau-legende.html %}
+<h2 id="carte-des-arcs">Carte des arcs</h2>
+<p>Chaque bulle est un arc, d’autant plus grande qu’il réunit d’événements ; elle est placée dans la bande de la série qui y domine, et, de gauche à droite, à la médiane de ses événements dans la chronologie fictive. L’axe suit l’ordre des événements, pas les années : il n’est pas proportionnel au temps (le XXIVe siècle, très documenté, y occupe beaucoup de place). La liste des arcs, plus bas, donne les mêmes informations en texte.</p>
+{%- assign C = R.carte %}
+<div class="defile" tabindex="0" role="region" aria-label="Carte des arcs (faire défiler horizontalement sur petit écran)">
+<svg class="carte-arcs" width="{{ C.largeur }}" height="{{ C.hauteur }}" viewBox="0 0 {{ C.largeur }} {{ C.hauteur }}" role="group" aria-labelledby="carte-des-arcs">
+  {%- for k in C.couloirs %}
+  <rect class="couloir{% cycle '', ' couloir--pair' %}" x="0" y="{{ k.y }}" width="{{ C.largeur }}" height="{{ k.h }}" aria-hidden="true"/>
+  <text class="couloir__nom" x="8" y="{{ k.ty }}" aria-hidden="true">{{ k.nom }}</text>
+  {%- endfor %}
+  {%- for g in C.graduations %}
+  <line class="graduation" x1="{{ g.x }}" x2="{{ g.x }}" y1="24" y2="{{ C.hauteur | minus: 24 }}" aria-hidden="true"/>{% if g.ecrite %}<text class="graduation__texte" x="{{ g.x | plus: 3 }}" y="18" aria-hidden="true">{{ g.t }}</text>{% endif %}
+  {%- endfor %}
+  {%- for l in C.liens %}<path class="lien-arcs" d="{{ l.d }}" stroke-width="{{ l.n | plus: 1 }}" aria-hidden="true"/>{%- endfor %}
+  {%- for b in C.bulles %}
+  <a href="{{ '/reseau/' | append: b.cle | append: '/' | relative_url }}" aria-label="Arc « {{ b.titre | escape }} », {{ b.taille }} événements"><title>{{ b.titre | escape }} — {{ b.taille }} événements</title>
+    <circle class="bulle" cx="{{ b.x }}" cy="{{ b.y }}" r="{{ b.r }}"/>{% if b.r >= 11 %}<text class="bulle__n" x="{{ b.x }}" y="{{ b.y | plus: 4 }}" aria-hidden="true">{{ b.taille }}</text>{% endif %}</a>
+  {%- endfor %}
+</svg>
+</div>
+
 <h2>Arcs</h2>
 <ol class="cartes groupes">
   {%- for c in R.composantes %}

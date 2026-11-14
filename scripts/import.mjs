@@ -481,7 +481,75 @@ export function reseau(r) {
     c.nb_relations = c.aretes.filter((a) => a.type !== 'episode_commun').length;
   });
   return { composantes: sortie, noeuds: sortie.reduce((s, c) => s + c.taille, 0), relations: relsDoc.length, liens_episode: communs.length,
-    seuil_decoupe: SEUIL };
+    seuil_decoupe: SEUIL, carte: carteDesArcs(sortie, parId) };
+}
+
+// Carte d'ensemble des arcs : une bulle par arc, placee en abscisse a la
+// mediane de l'ordre diegetique de ses evenements (axe ordinal, non
+// proportionnel au temps), dans la bande de sa serie dominante ; surface
+// proportionnelle au nombre d'evenements ; traits fins pour les relations
+// documentees entre deux arcs (epaisseur = nombre de relations).
+function carteDesArcs(arcs, parId) {
+  const L = 1180, G = 150, D = 30, HAUT = 34, BAS = 30, RMAX = 30;
+  const rangMax = Math.max(...[...parId.values()].map((e) => e.rang_diegetique));
+  const mediane = (v) => { const t = [...v].sort((a, b) => a - b); const m = t.length >> 1; return t.length % 2 ? t[m] : (t[m - 1] + t[m]) / 2; };
+  const xDe = (rang) => G + ((rang - 1) / (rangMax - 1)) * (L - G - D);
+  const tailleMax = Math.max(...arcs.map((c) => c.taille));
+  const rayon = (n) => Math.max(7, RMAX * Math.sqrt(n / tailleMax));
+  const bulles = arcs.map((c) => {
+    const rangs = c.ids.map((id) => parId.get(id).rang_diegetique);
+    const compte = new Map();
+    for (const id of c.ids) { const s = parId.get(id).series[0] || 'Film'; compte.set(s, (compte.get(s) || 0) + 1); }
+    const serie = [...compte].sort((a, b) => b[1] - a[1] || SERIES.findIndex((x) => x.code === a[0]) - SERIES.findIndex((x) => x.code === b[0]))[0][0];
+    return { cle: c.cle, titre: c.titre, taille: c.taille, serie, rang: mediane(rangs), x: Math.round(xDe(mediane(rangs))), r: Math.round(rayon(c.taille) * 10) / 10 };
+  });
+  // Bandes : series ordonnees par la mediane diegetique de leurs arcs (diagonale du temps fictif).
+  const parSerie = new Map();
+  for (const b of bulles) { if (!parSerie.has(b.serie)) parSerie.set(b.serie, []); parSerie.get(b.serie).push(b); }
+  const ordre = [...parSerie.keys()].sort((a, b) => mediane(parSerie.get(a).map((x) => x.rang)) - mediane(parSerie.get(b).map((x) => x.rang)));
+  // Dans une bande, les bulles qui se chevauchent sont decalees verticalement (essaim).
+  let y0 = HAUT; const couloirs = [];
+  for (const s of ordre) {
+    const liste = parSerie.get(s).sort((a, b) => a.x - b.x || b.taille - a.taille);
+    const places = [];
+    for (const b of liste) {
+      let dy = 0;
+      for (let k = 0; k < 40; k++) {
+        const essai = k === 0 ? 0 : (k % 2 ? 1 : -1) * Math.ceil(k / 2) * 9;
+        if (places.every((q) => Math.hypot(q.x - b.x, q.dy - essai) >= q.r + b.r + 3)) { dy = essai; break; }
+      }
+      b.dy = dy; places.push(b);
+    }
+    const haut = Math.max(...places.map((b) => b.r - b.dy)), bas = Math.max(...places.map((b) => b.r + b.dy));
+    const h = Math.max(46, haut + bas + 16);
+    const centre = y0 + 8 + haut;
+    for (const b of places) b.y = Math.round(centre + b.dy);
+    couloirs.push({ serie: s, nom: s === 'Film' ? 'Films' : (SERIES.find((x) => x.code === s) || { nom: s }).nom, y: y0, h, ty: centre + 4 });
+    y0 += h;
+  }
+  const hauteur = y0 + BAS;
+  // Graduations : debut de chaque siecle (et du passe lointain) dans l'ordre diegetique.
+  const graduations = []; const vus = new Set();
+  for (const e of [...parId.values()].sort((a, b) => a.rang_diegetique - b.rang_diegetique)) {
+    const b = e.bande || '';
+    const lib = /^Passé/.test(b) ? 'Passé lointain' : (/^([XVI]+e) siècle$/.exec(b) || [])[1] ? `${/^([XVI]+e) siècle$/.exec(b)[1]} s.` : null;
+    if (!lib || vus.has(lib)) continue;
+    vus.add(lib); graduations.push({ x: Math.round(xDe(e.rang_diegetique)), t: lib });
+  }
+  // Liens entre arcs : relations documentees dont les deux bouts sont dans des arcs differents.
+  const ou = new Map(bulles.map((b) => [b.cle, b]));
+  const paires = new Map();
+  for (const c of arcs) for (const x of c.externes) if (x.sortant && x.groupe) {
+    const k = `${c.cle}|${x.groupe}`; paires.set(k, (paires.get(k) || 0) + 1);
+  }
+  const liens = [...paires].map(([k, n]) => {
+    const [a, b] = k.split('|').map((cle) => ou.get(cle));
+    const mx = (a.x + b.x) / 2, my = Math.min(a.y, b.y) - 18;
+    return { de: a.cle, vers: b.cle, n, d: `M${a.x},${a.y} Q${mx},${my} ${b.x},${b.y}` };
+  });
+  // Etiquettes de graduation trop proches : seule la plus a droite est ecrite (le trait reste).
+  graduations.forEach((g, i) => { const suiv = graduations[i + 1]; g.ecrite = !suiv || suiv.x - g.x >= 44; });
+  return { largeur: L, hauteur, gauche: G, couloirs, graduations, bulles: bulles.map(({ rang, dy, ...b }) => b), liens };
 }
 
 // Donnees des graphiques : matrices et repartitions, quantifiees en 5 classes

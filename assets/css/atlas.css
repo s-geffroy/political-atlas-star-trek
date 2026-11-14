@@ -295,6 +295,18 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .reseau a:focus { outline: none; }
 .reseau a:focus-visible rect { stroke: var(--ambre); stroke-width: 3; }
 .lien { fill: none; stroke-width: 2; }
+/* Carte d'ensemble des arcs (page /reseau/). */
+.carte-arcs { max-width: none; display: block; font-family: var(--police-titre); }
+.carte-arcs .couloir { fill: transparent; }
+.carte-arcs .couloir--pair { fill: var(--surface-2); fill-opacity: 0.45; }
+.carte-arcs .couloir__nom { fill: var(--doux); font-size: 12px; letter-spacing: 0.04em; }
+.carte-arcs .graduation { stroke: var(--doux); stroke-opacity: 0.35; stroke-dasharray: 2 4; }
+.carte-arcs .graduation__texte { fill: var(--doux); font-size: 11px; }
+.carte-arcs .lien-arcs { fill: none; stroke: var(--lien-episode); }
+.carte-arcs .bulle { fill: var(--cyan); fill-opacity: 0.8; stroke: var(--fond); stroke-width: 2; }
+.carte-arcs a:hover .bulle, .carte-arcs a:focus-visible .bulle { fill: var(--ambre); fill-opacity: 1; }
+.carte-arcs a:focus-visible { outline: 3px solid var(--ambre); outline-offset: 2px; }
+.carte-arcs .bulle__n { fill: var(--encre); font-size: 12px; font-weight: 700; text-anchor: middle; pointer-events: none; }
 .lien--cause { stroke: var(--lien-cause); }
 .fleche--cause { fill: var(--lien-cause); }
 .fleche--suite { fill: var(--lien-suite); }

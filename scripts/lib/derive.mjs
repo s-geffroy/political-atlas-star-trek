@@ -125,6 +125,15 @@ export function anneesHorsPeriode(period, textes) {
   return [...new Set([...t.matchAll(/\b(\d{4})\b/g)].map((m) => m[1]))].filter((y) => +y >= 1000 && !period.includes(y));
 }
 
+// Convention de l'ere TNG, etablie a l'ecran (« The Neutral Zone » : 2364 pour
+// les dates 41xxx) : mille unites par an. Appliquee aux seules dates de 41000 a
+// 79999 (2364-2402) ; les dates de TOS, DIS, SNW ou de la chronologie Kelvin
+// suivent d'autres conventions et ne recoivent pas d'annee.
+export function anneeDeduite(sd) {
+  const n = Number(sd);
+  return n >= 41000 && n < 80000 ? 2323 + Math.floor(n / 1000) : null;
+}
+
 export const PRECISIONS = {
   annee: 'Année explicite',
   annee_qualifiee: 'Année avec réserve (intervalle, « env. », alternative…)',

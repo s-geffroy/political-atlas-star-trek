@@ -12,6 +12,7 @@
     "check": "node scripts/import.mjs && node scripts/validate.mjs && node --test tests/",
     "verify": "node scripts/verify.mjs",
     "links": "node scripts/check-links.mjs",
-    "sources": "node scripts/sources.mjs"
+    "sources": "node scripts/sources.mjs",
+    "stardates": "node scripts/stardates.mjs"
   }
 }

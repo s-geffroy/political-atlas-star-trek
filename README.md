@@ -42,6 +42,7 @@ data/corrections/         journaux V0.N.json : passage d'une version du corpus a
 data/doublons.json        doublons tranches (secondaire -> principale), sans suppression
 data/relations.json       relations documentees (cause, suite, meme arc), chacune sourcee
 data/archives.json        copies archivees des sources et statut HTTP (genere par scripts/sources.mjs)
+data/stardates.json       dates stellaires dites a l ecran (genere par scripts/stardates.mjs ; annee deduite a l affichage, ere TNG seulement)
 data/diffusion.json       dates de diffusion relevees, chacune avec sa source
 ```
 
@@ -86,6 +87,7 @@ scripts/validate.mjs      10 controles documentaires
 scripts/verify.mjs        garde-fou avant push (npm run verify, hook pre-push)
 scripts/check-links.mjs   liens internes d'un site construit (prefixe compris)
 scripts/sources.mjs       copies archivees (web.archive.org) et statut des sources -> data/archives.json (reseau, hors check)
+scripts/stardates.mjs     dates stellaires des journaux de bord (transcription + Memory Alpha) -> data/stardates.json (reseau, hors check)
 tests/                    node --test
 .githooks/pre-push        hook versionne (lance scripts/verify.mjs)
 _layouts/ _includes/      gabarits (pas de theme)

@@ -205,3 +205,13 @@ test('controle : annee citee par la fiche absente de la periode', () => {
   assert.deepEqual(anneesHorsPeriode('Entre 2267 et la fin du XXIVe siècle (événement relaté en 3191)', ['Épave découverte (en 3191)']), []);
   assert.deepEqual(anneesHorsPeriode('2374', ["Accord avec les Borg contre l'espèce 8472"]), []);
 });
+
+test('dates stellaires : annee deduite pour la seule ere TNG', async () => {
+  const { anneeDeduite } = await import('../scripts/lib/derive.mjs');
+  assert.equal(anneeDeduite('41153.7'), 2364);
+  assert.equal(anneeDeduite('42523.7'), 2365);
+  assert.equal(anneeDeduite('56844.9'), 2379);
+  assert.equal(anneeDeduite('5027.3'), null);
+  assert.equal(anneeDeduite('2258.42'), null);
+  assert.equal(anneeDeduite('865211.3'), null);
+});

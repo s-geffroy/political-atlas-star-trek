@@ -51,6 +51,9 @@ layout: default
     {%- if e.diffusion.size > 0 %}
     <dt class="derive">Première diffusion</dt><dd>{% for d in e.diffusion %}{{ d.titre | escape }} : <time datetime="{{ d.date }}">{% include date-fr.html d=d.date %}</time> (<a href="{{ d.source_url }}" rel="noopener">source</a>){% unless forloop.last %} ; {% endunless %}{% endfor %}</dd>
     {%- endif %}
+    {%- if e.dates_stellaires.size > 0 %}
+    <dt class="derive">Journal de bord</dt><dd>{% for x in e.dates_stellaires %}{{ x.titre | escape }} : date stellaire {% for d in x.dates %}{{ d.date }}{% if d.annee %} (année {{ d.annee }}, <a href="{{ '/methodologie/' | relative_url }}#dates-stellaires">déduite</a>){% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %} (<a href="{{ x.source_url }}" rel="noopener">transcription</a>, <a href="{{ x.memory_alpha_url }}" rel="noopener">Memory Alpha</a>){% unless forloop.last %} ; {% endunless %}{% endfor %}</dd>
+    {%- endif %}
   </dl>
 
   {%- if f %}

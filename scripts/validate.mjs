@@ -187,13 +187,18 @@ export function valider({ csv, md } = dernieresSources()) {
   // 9. Aucun enrichissement invente
   {
     const err = [];
-    const derives = new Set(['categories', 'series', 'episodes', 'references_non_rattachees', 'continuite', 'continuite_regle', 'ordre', 'cycle_slug', 'fiche', 'corrections', 'note_editoriale', 'diffusion', 'associes', 'rang_diegetique', 'audit', 'sous_bande', 'amorce', 'analyse_url', 'url_archive', 'bande', 'doublon_de', 'doublons', 'relations']);
+    const derives = new Set(['categories', 'series', 'episodes', 'references_non_rattachees', 'continuite', 'continuite_regle', 'ordre', 'cycle_slug', 'fiche', 'corrections', 'note_editoriale', 'diffusion', 'associes', 'rang_diegetique', 'audit', 'sous_bande', 'amorce', 'analyse_url', 'url_archive', 'dates_stellaires', 'bande', 'doublon_de', 'doublons', 'relations']);
     for (const e of gen) for (const k of Object.keys(e)) if (!COLONNES.includes(k) && !derives.has(k)) err.push(`${e.id} : champ « ${k} » non prévu`);
     for (const f of Object.values(genFiches)) {
       for (const [k, v] of [...Object.entries(f.volets), ...Object.entries(f.entetes)]) if (!mdText.includes(v)) err.push(`${f.id} : ${k} absent du Markdown source`);
       for (const [k, v] of Object.entries(f.volets)) if (/<\s*[a-z!/]/i.test(v)) err.push(`${f.id} : HTML brut dans « ${k} » (refusé par le pipeline)`);
     }
     for (const e of gen) for (const d of e.diffusion) if (!d.source_url) err.push(`${e.id} : date de diffusion sans source`);
+    // Dates stellaires : chacune avec ses deux sources ; annee seulement pour l'ere TNG.
+    for (const e of gen) for (const x of e.dates_stellaires || []) {
+      if (!x.source_url || !x.memory_alpha_url) err.push(`${e.id} : date stellaire sans ses deux sources (${x.titre})`);
+      for (const d of x.dates) if (d.annee !== null && !(+d.date >= 41000 && +d.date < 80000)) err.push(`${e.id} : annee deduite hors de l'ere TNG (${d.date})`);
+    }
     // Copies archivees : uniquement des captures web.archive.org.
     const capture = /^https:\/\/web\.archive\.org\/web\/\d{14}\/https?:\/\//;
     for (const e of gen) if (e.url_archive && !capture.test(e.url_archive)) err.push(`${e.id} : copie archivée mal formée`);

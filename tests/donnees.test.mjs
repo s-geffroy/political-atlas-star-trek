@@ -226,3 +226,16 @@ test('ordre diegetique : passe lointain du plus ancien au plus recent, « Apres 
   assert.ok(cmp('Après 2257 (chronologie secondaire)', '2258') < 0);
   assert.ok(cmp('Avant 2369', '2369') < 0);
 });
+
+test('analyses redigees : une page par adresse, et chaque analyse inscrite a sa page', async () => {
+  const { lireAnalysesRedigees } = await import('../scripts/import.mjs');
+  const dir = new URL('../analyses/', import.meta.url);
+  const adresses = new Map();
+  for (const f of fs.readdirSync(dir)) {
+    const m = /^permalink:\s*(\S+)/m.exec(fs.readFileSync(new URL(f, dir), 'utf8'));
+    if (!m) continue;
+    assert.ok(!adresses.has(m[1]), `${f} et ${adresses.get(m[1])} : meme adresse ${m[1]}`);
+    adresses.set(m[1], f);
+  }
+  for (const a of lireAnalysesRedigees()) assert.equal(adresses.get(a.permalien), a.fichier.replace('analyses/', ''), a.id);
+});

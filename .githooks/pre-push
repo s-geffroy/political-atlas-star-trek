@@ -1,5 +1,16 @@
 #!/bin/sh
 # Hook versionne (activation : git config core.hooksPath .githooks).
-# Un push publie le site : on verifie d'abord que les fichiers generes sont a
-# jour et que validation et tests passent. Contournement explicite : --no-verify.
-cd "$(git rev-parse --show-toplevel)" && exec node scripts/verify.mjs
+# Un push publie le site : on verifie d'abord que ce qui est pousse sur main est
+# exactement le commit courant (verify controle l'arbre de travail), puis que
+# les fichiers generes sont a jour, qu'aucune adresse publiee ne disparait et
+# que validation et tests passent. Contournement explicite : --no-verify.
+cd "$(git rev-parse --show-toplevel)" || exit 1
+head=$(git rev-parse HEAD)
+while read -r local_ref local_sha remote_ref remote_sha; do
+  if [ "$remote_ref" = "refs/heads/main" ] && [ "$local_sha" != "$head" ]; then
+    echo "Push de main refuse : le commit pousse ($local_sha) n'est pas le commit courant ($head)." >&2
+    echo "Se placer sur ce commit (git checkout) avant de pousser, pour que la verification porte sur lui." >&2
+    exit 1
+  fi
+done
+exec node scripts/verify.mjs

@@ -7,7 +7,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { serializeCsv } from './lib/csv.mjs';
-import { importer, dernieresSources, COLONNES } from './import.mjs';
+import { importer, dernieresSources, COLONNES, lireAnalysesRedigees } from './import.mjs';
 import { anneesHorsPeriode } from './lib/derive.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
@@ -198,6 +198,21 @@ export function valider({ csv, md } = dernieresSources()) {
     for (const e of gen) for (const x of e.dates_stellaires || []) {
       if (!x.source_url || !x.memory_alpha_url) err.push(`${e.id} : date stellaire sans ses deux sources (${x.titre})`);
       for (const d of x.dates) if (d.annee !== null && !(+d.date >= 41000 && +d.date < 80000)) err.push(`${e.id} : annee deduite hors de l'ere TNG (${d.date})`);
+    }
+    // Analyses redigees : la page existe, porte l'adresse inscrite, et aucune
+    // autre page de analyses/ ne revendique la meme adresse.
+    const permaliens = new Map();
+    for (const f of fs.readdirSync(path.join(ROOT, 'analyses'))) {
+      const fm = /^---\n([\s\S]*?)\n---/.exec(fs.readFileSync(path.join(ROOT, 'analyses', f), 'utf8'));
+      const pl = fm && /^permalink:\s*(\S+)/m.exec(fm[1]);
+      if (!pl) continue;
+      if (permaliens.has(pl[1])) err.push(`analyses : ${f} et ${permaliens.get(pl[1])} ont la meme adresse ${pl[1]}`);
+      permaliens.set(pl[1], f);
+    }
+    for (const a of lireAnalysesRedigees()) {
+      if (!r.fiches.some((f) => f.id === a.id)) err.push(`analyse redigee ${a.id} : aucune fiche approfondie`);
+      if (!fs.existsSync(path.join(ROOT, a.fichier))) err.push(`analyse redigee ${a.id} : fichier ${a.fichier} absent`);
+      else if (permaliens.get(a.permalien) !== path.basename(a.fichier)) err.push(`analyse redigee ${a.id} : ${a.fichier} ne porte pas l'adresse ${a.permalien}`);
     }
     // Copies archivees : uniquement des captures web.archive.org.
     const capture = /^https:\/\/web\.archive\.org\/web\/\d{14}\/https?:\/\//;

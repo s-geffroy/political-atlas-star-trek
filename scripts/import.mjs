@@ -32,9 +32,14 @@ export function dernieresSources() {
   return { csv: path.join(SRC, csv), md: path.join(SRC, md) };
 }
 
-// Analyses redigees a la main (pages propres dans analyses/) : l'import ne
-// genere pas de page pour ces fiches et les gabarits lisent `analyse_url`.
-export const ANALYSES_REDIGEES = { 'STP-006': 'emeutes-de-bell', 'STP-034': 'STP-034', 'STP-153': 'STP-153', 'STP-139': 'STP-139', 'STP-094': 'STP-094' };
+// Analyses redigees a la main (data/analyses-redigees.json) : l'import ne
+// genere pas de page pour ces fiches, retire la page generee devenue inutile,
+// et les gabarits lisent `analyse_url`. Valeur : id -> segment d'adresse.
+export function lireAnalysesRedigees() {
+  const p = path.join(ROOT, 'data/analyses-redigees.json');
+  return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')).analyses : [];
+}
+export const ANALYSES_REDIGEES = Object.fromEntries(lireAnalysesRedigees().map((a) => [a.id, a.permalien.replace(/^\/analyses\/|\/$/g, '')]));
 
 export function lireDiffusion() {
   const p = path.join(ROOT, 'data/diffusion.json');
@@ -650,14 +655,19 @@ export function ecrireSorties(r) {
       `permalink: /reseau/${c.cle}/`, 'nav: reseau', '---', ''].join('\n'));
   }
 
-  // Analyses fiction / histoire : une page par fiche approfondie (sauf STP-006,
-  // qui a sa page editoriale propre). Contenu = volets de la fiche + paragraphe
-  // « Lignes de force » de la periode de diffusion de la serie ; rien de redige.
+  // Analyses fiction / histoire : une page par fiche approfondie, sauf les
+  // analyses redigees (data/analyses-redigees.json). Contenu = volets de la fiche
+  // + paragraphe « Lignes de force » de la periode de diffusion ; rien de redige.
   const periodes = [...(r.editorial.lignes_de_force?.markdown || '').matchAll(/^\*\*(\d{4}–\d{4}) \(([^)]+)\)\.\*\* (.+)$/gm)]
     .map((m) => ({ bornes: m[1], codes: m[2].split(/[\/,]\s*|\s+/).filter(Boolean), texte: m[3].trim() }));
   ecrire(D('periodes.json'), JSON.stringify(periodes, null, 1) + '\n');
   for (const f of r.fiches) {
-    if (ANALYSES_REDIGEES[f.id]) continue;
+    if (ANALYSES_REDIGEES[f.id]) {
+      // Page generee remplacee par une analyse redigee : on la retire (jamais une page ecrite a la main).
+      const gen = path.join(ROOT, 'analyses', `${f.id}.md`);
+      if (fs.existsSync(gen) && fs.readFileSync(gen, 'utf8').includes('# Fichier GENERE par scripts/import.mjs.')) fs.unlinkSync(gen);
+      continue;
+    }
     const e = r.evenements.find((x) => x.id === f.id);
     // Periode : celle de la serie de l'episode principal (premier episode cite) ;
     // a defaut (films, TAS, Short Treks), celle qui contient l'annee de premiere

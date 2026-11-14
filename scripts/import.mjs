@@ -556,7 +556,7 @@ function grapheChronologique(arcs, rels, parId) {
 // proportionnelle au nombre d'evenements ; traits fins pour les relations
 // documentees entre deux arcs (epaisseur = nombre de relations).
 function carteDesArcs(arcs, parId) {
-  const D = 24, G = 236, HAUT = 40, BAS = 24, RMAX = 30, MIN = 34, K = 30;
+  const D = 16, G = 236, HAUT = 40, BAS = 24, RMAX = 30, MIN = 26, K = 22;
   const noms = (() => { const p = path.join(ROOT, 'data/arcs-noms.json'); return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')).noms : {}; })();
   const mediane = (v) => { const t = [...v].sort((a, b) => a - b); return t[(t.length - 1) >> 1]; };
   // Axe : une largeur par periode (croissant avec la racine du nombre d'evenements),

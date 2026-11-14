@@ -130,7 +130,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 4,
+  "rang_diegetique": 5,
   "bande": "Passé lointain",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Amok Time » ; Star Trek: Enterprise, épisodes « The Forge », « Kir'Shara ») ; période fictive : Antiquité vulcaine.",
   "analyse_url": null,
@@ -269,7 +269,7 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 5,
+  "rang_diegetique": 6,
   "bande": "Passé lointain",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Unification » ; Star Trek: Enterprise, épisode « Awakening ») ; période fictive : Antiquité vulcaine.",
   "analyse_url": null,
@@ -400,7 +400,7 @@
    "examinee_le": "2026-11-13",
    "passes": 4
   },
-  "rang_diegetique": 3,
+  "rang_diegetique": 4,
   "bande": "Passé lointain",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Next Generation, épisode « Contagion » ; Star Trek: Deep Space Nine, épisode « To the Death ») ; période fictive : Passé lointain (il y a environ 200 000 ans).",
   "analyse_url": null,
@@ -793,8 +793,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel : faits de la fiction",
   "url_source": "https://www.startrek.com/news/star-treks-best-revolutions-rebellions",
-  "note_audit": "V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.17 (2026-11-12) : période précisée — la date est dite à l'écran : Sisko et Bashir arrivent à San Francisco le 30 août 2024 et la révolte culmine le 2 septembre 2024 (Wikipedia, « Past Tense » : « they materialize in San Francisco on August 30, 2024 » ; « Early in the morning of Monday, September 2, 2024 »). La fiche disait déjà « septembre 2024 ».",
-  "version_entree": "V0.17 révisé",
+  "note_audit": "V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.17 (2026-11-12) : période précisée — la date est dite à l'écran : Sisko et Bashir arrivent à San Francisco le 30 août 2024 et la révolte culmine le 2 septembre 2024 (Wikipedia, « Past Tense » : « they materialize in San Francisco on August 30, 2024 » ; « Early in the morning of Monday, September 2, 2024 »). La fiche disait déjà « septembre 2024 ». V0.21 (2026-11-14) : volet aligné sur l’analyse rédigée (revue du 14 novembre 2026) — le lien avec les débats de 1995 n’était pas sourcé comme intention.",
+  "version_entree": "V0.21 révisé",
   "categories": [
    "insurrection/pouvoir"
   ],
@@ -833,6 +833,15 @@
       "texte": "période précisée — la date est dite à l'écran : Sisko et Bashir arrivent à San Francisco le 30 août 2024 et la révolte culmine le 2 septembre 2024 (Wikipedia, « Past Tense » : « they materialize in San Francisco on August 30, 2024 » ; « Early in the morning of Monday, September 2, 2024 »). La fiche disait déjà « septembre 2024 »."
      }
     ]
+   },
+   {
+    "version": "V0.21",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "volet aligné sur l’analyse rédigée (revue du 14 novembre 2026) — le lien avec les débats de 1995 n’était pas sourcé comme intention."
+     }
+    ]
    }
   ],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
@@ -841,6 +850,10 @@
    {
     "libelle": "Émeutes de Bell contre les Zones de Sanctuaire.",
     "motif": "période précisée — la date est dite à l'écran : Sisko et Bashir arrivent à San Francisco le 30 août 2024 et la révolte culmine le 2 septembre 2024 (Wikipedia, « Past Tense » : « they materialize in San Francisco on August 30, 2024 » ; « Early in the morning of Monday, September 2, 2024 »). La fiche disait déjà « septembre 2024 »."
+   },
+   {
+    "libelle": "Émeutes de Bell contre les Zones de Sanctuaire.",
+    "motif": "volet aligné sur l’analyse rédigée (revue du 14 novembre 2026) — le lien avec les débats de 1995 n’était pas sourcé comme intention."
    }
   ],
   "note_editoriale": null,
@@ -1210,7 +1223,7 @@
  {
   "id": "STP-010",
   "cycle": "Terre : origines et histoire antérieure",
-  "period": "Début XXIe siècle",
+  "period": "XXIe siècle",
   "event": "Régime et crimes militaires du colonel Phillip Green",
   "source": "ENT « Demons » ; TOS « The Savage Curtain »",
   "politics": "Violence exterminatrice, rémanence idéologique dans la mouvance Terra Prime.",
@@ -1218,8 +1231,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Chronologie indépendante",
   "url_source": "https://en.wikipedia.org/wiki/Timeline_of_Star_Trek",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crimes militaires », « Violence exterminatrice » ; recoupement B — La chronologie indique que le colonel Phillip Green et un groupe d'éco-terroristes commettent pendant la Troisième Guerre mondiale un génocide de 37 millions de personnes, et que « The Savage Curtain » présente Green comme meneur d'une guerre génocidaire au XXIe siècle ; l'article Wikipedia de « Demons » confirme que Paxton y regarde des images de Green. Réserve : La chronologie attribue la mention du génocide à ENT « In a Mirror, Darkly, Part II », et non à « Demons » où Green n'apparaît qu'en images d'archives (https://en.wikipedia.org/wiki/Demons_(Star_Trek:_Enterprise)). Pas une contradiction, mais l'épisode source principal semble mal ciblé. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.18 (2026-11-13) : période précisée d’après une date dite à l’écran — TOS « The Savage Curtain » : « Colonel Green, who led a genocidal war early in the 21st century on Earth. » (http://www.chakoteya.net/StarTrek/77.htm). L’année 2056 de Memory Alpha est déduite.",
-  "version_entree": "V0.18 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crimes militaires », « Violence exterminatrice » ; recoupement B — La chronologie indique que le colonel Phillip Green et un groupe d'éco-terroristes commettent pendant la Troisième Guerre mondiale un génocide de 37 millions de personnes, et que « The Savage Curtain » présente Green comme meneur d'une guerre génocidaire au XXIe siècle ; l'article Wikipedia de « Demons » confirme que Paxton y regarde des images de Green. Réserve : La chronologie attribue la mention du génocide à ENT « In a Mirror, Darkly, Part II », et non à « Demons » où Green n'apparaît qu'en images d'archives (https://en.wikipedia.org/wiki/Demons_(Star_Trek:_Enterprise)). Pas une contradiction, mais l'épisode source principal semble mal ciblé. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.18 (2026-11-13) : période précisée d’après une date dite à l’écran — TOS « The Savage Curtain » : « Colonel Green, who led a genocidal war early in the 21st century on Earth. » (http://www.chakoteya.net/StarTrek/77.htm). L’année 2056 de Memory Alpha est déduite. V0.21 (2026-11-14) : période corrigée (revue du 14 novembre 2026) — les deux épisodes sources se contredisent à l’écran : TOS « The Savage Curtain » situe la guerre de Green « early in the 21st century » ; ENT « Demons » place son discours juste après la Troisième Guerre mondiale (« The Third World War had just ended and the cease-fire was barely three years old »). Seul le siècle est commun.",
+  "version_entree": "V0.21 révisé",
   "categories": [
    "guerre/bataille",
    "justice/droits"
@@ -1246,7 +1259,7 @@
    "precision": "siecle",
    "siecle": 21,
    "imprecis": true,
-   "qualif": 1
+   "qualif": 4
   },
   "audit": [
    {
@@ -1287,6 +1300,15 @@
       "texte": "). L’année 2056 de Memory Alpha est déduite."
      }
     ]
+   },
+   {
+    "version": "V0.21",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période corrigée (revue du 14 novembre 2026) — les deux épisodes sources se contredisent à l’écran : TOS « The Savage Curtain » situe la guerre de Green « early in the 21st century » ; ENT « Demons » place son discours juste après la Troisième Guerre mondiale (« The Third World War had just ended and the cease-fire was barely three years old »). Seul le siècle est commun."
+     }
+    ]
    }
   ],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
@@ -1295,6 +1317,10 @@
    {
     "libelle": "Régime et crimes militaires du colonel Phillip Green.",
     "motif": "période précisée d’après une date dite à l’écran — TOS « The Savage Curtain » : « Colonel Green, who led a genocidal war early in the 21st century on Earth. » (<http://www.chakoteya.net/StarTrek/77.htm>). L’année 2056 de Memory Alpha est déduite."
+   },
+   {
+    "libelle": "Régime et crimes militaires du colonel Phillip Green.",
+    "motif": "période corrigée (revue du 14 novembre 2026) — les deux épisodes sources se contredisent à l’écran : TOS « The Savage Curtain » situe la guerre de Green « early in the 21st century » ; ENT « Demons » place son discours juste après la Troisième Guerre mondiale (« The Third World War had just ended and the cease-fire was barely three years old »). Seul le siècle est commun."
    }
   ],
   "note_editoriale": null,
@@ -1320,7 +1346,7 @@
   },
   "rang_diegetique": 16,
   "bande": "XXIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Demons » ; Star Trek: The Original Series, épisode « The Savage Curtain ») ; période fictive : Début XXIe siècle.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Enterprise, épisode « Demons » ; Star Trek: The Original Series, épisode « The Savage Curtain ») ; période fictive : XXIe siècle.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": "Datation imprécise dans le siècle",
@@ -3116,15 +3142,15 @@
   "id": "STP-025",
   "cycle": "Enterprise : diplomatie et fondation de la Fédération",
   "period": "2152",
-  "event": "Planète de mineurs sous domination d'une puissance locale à Libérateurs",
+  "event": "Colonie minière rançonnée en deutérium par des maraudeurs klingons et défendue avec l'aide d'Enterprise",
   "source": "ENT « Marauders »",
   "politics": "Autodéfense communautaire contre extorsion klingonne.",
   "categories_politiques": "économie/social ; guerre/bataille",
   "niveau_recoupement": "A",
-  "nature_source": "Éditorial officiel",
-  "url_source": "https://www.startrek.com/en-un/news/tpol-tactics-and-protocols",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Planète de mineurs », « extorsion », « Autodéfense communautaire » ; recoupement B — Le résumé confirme qu'une colonie de 76 mineurs est rançonnée en deutérium par des maraudeurs klingons, et qu'Archer l'aide à résister. Réserve : Les oppresseurs sont des maraudeurs klingons, pas une « puissance locale » ; « Libérateurs » semble être un titre français de l'épisode (non vérifié). V0.5 (2026-11-10) : recoupement A (source officielle) — Dans « Marauders », des maraudeurs klingons exercent une pression régulière sur une colonie isolée productrice de deutérium ; Archer et l'équipage forment les colons à se défendre. Réserve : La puissance dominatrice est klingonne et non « locale » ; la colonie produit du deutérium. Source B précédente : https://en.wikipedia.org/wiki/Marauders_(Star_Trek:_Enterprise). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "nature_source": "Récapitulatif officiel",
+  "url_source": "https://web.archive.org/web/20230531001336/https://www.startrek.com/database_article/marauders",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Planète de mineurs », « extorsion », « Autodéfense communautaire » ; recoupement B — Le résumé confirme qu'une colonie de 76 mineurs est rançonnée en deutérium par des maraudeurs klingons, et qu'Archer l'aide à résister. Réserve : Les oppresseurs sont des maraudeurs klingons, pas une « puissance locale » ; « Libérateurs » semble être un titre français de l'épisode (non vérifié). V0.5 (2026-11-10) : recoupement A (source officielle) — Dans « Marauders », des maraudeurs klingons exercent une pression régulière sur une colonie isolée productrice de deutérium ; Archer et l'équipage forment les colons à se défendre. Réserve : La puissance dominatrice est klingonne et non « locale » ; la colonie produit du deutérium. Source B précédente : https://en.wikipedia.org/wiki/Marauders_(Star_Trek:_Enterprise). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.21 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026) — « Libérateurs » était un résidu de titre français non vérifié. La fiche officielle de l’épisode, lue dans sa copie archivée (https://web.archive.org/web/20230531001336/https://www.startrek.com/database_article/marauders), dit : « these Klingon marauders have been preying on them for five seasons, taking all the first-yield deuterium they can produce » ; « the colonists defend themselves against the marauders ». Niveau A, sur la page officielle propre à l’épisode.",
+  "version_entree": "V0.21 révisé",
   "categories": [
    "économie/social",
    "guerre/bataille"
@@ -3179,11 +3205,31 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.21",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026) — « Libérateurs » était un résidu de titre français non vérifié. La fiche officielle de l’épisode, lue dans sa copie archivée ("
+     },
+     {
+      "url": "https://web.archive.org/web/20230531001336/https://www.startrek.com/database_article/marauders"
+     },
+     {
+      "texte": "), dit : « these Klingon marauders have been preying on them for five seasons, taking all the first-yield deuterium they can produce » ; « the colonists defend themselves against the marauders ». Niveau A, sur la page officielle propre à l’épisode."
+     }
+    ]
    }
   ],
   "cycle_slug": "enterprise-diplomatie-et-fondation-de-la-federation",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Colonie minière rançonnée en deutérium par des maraudeurs klingons et défendue avec l'aide d'Enterprise.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026) — « Libérateurs » était un résidu de titre français non vérifié. La fiche officielle de l’épisode, lue dans sa copie archivée (<https://web.archive.org/web/20230531001336/https://www.startrek.com/database_article/marauders>), dit : « these Klingon marauders have been preying on them for five seasons, taking all the first-yield deuterium they can produce » ; « the colonists defend themselves against the marauders ». Niveau A, sur la page officielle propre à l’épisode."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -3206,7 +3252,7 @@
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
-  "url_archive": "https://web.archive.org/web/20250723174332/https://www.startrek.com/en-un/news/tpol-tactics-and-protocols",
+  "url_archive": null,
   "dates_stellaires": [],
   "associes": []
  },
@@ -4250,8 +4296,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel : Terra Prime",
   "url_source": "https://www.startrek.com/news/best-of-charles-trip-tucker",
-  "note_audit": "V0.13 (2026-11-12) : période corrigée — « Demons » et « Terra Prime » se déroulent en janvier 2155 (Memory Alpha : « Captain's starlog, January 19, 2155 » ; « January 22, 2155 »). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.13 (2026-11-12) : période corrigée — « Demons » et « Terra Prime » se déroulent en janvier 2155 (Memory Alpha : « Captain's starlog, January 19, 2155 » ; « January 22, 2155 »). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.21 (2026-11-14) : volets alignés sur l’analyse rédigée (revue du 14 novembre 2026) — à l’écran, l’ultimatum de Paxton vise tout le système solaire (« every single non-human in our system leaves immediately ») ; l’intention déclarée est celle de Manny Coto (StarTrek.com, 9 février 2005 : « our own last vestiges of intolerance »).",
+  "version_entree": "V0.21 révisé",
   "categories": [
    "diplomatie/traité"
   ],
@@ -4294,6 +4340,15 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.21",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "volets alignés sur l’analyse rédigée (revue du 14 novembre 2026) — à l’écran, l’ultimatum de Paxton vise tout le système solaire (« every single non-human in our system leaves immediately ») ; l’intention déclarée est celle de Manny Coto (StarTrek.com, 9 février 2005 : « our own last vestiges of intolerance »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "enterprise-diplomatie-et-fondation-de-la-federation",
@@ -4302,6 +4357,10 @@
    {
     "libelle": "Proclamation et développement d'une coalition anti-étrangers Terra Prime.",
     "motif": "période corrigée — « Demons » et « Terra Prime » se déroulent en janvier 2155 (Memory Alpha : « Captain's starlog, January 19, 2155 » ; « January 22, 2155 »)."
+   },
+   {
+    "libelle": "Proclamation et développement d'une coalition anti-étrangers Terra Prime.",
+    "motif": "volets alignés sur l’analyse rédigée (revue du 14 novembre 2026) — à l’écran, l’ultimatum de Paxton vise tout le système solaire (« every single non-human in our system leaves immediately ») ; l’intention déclarée est celle de Manny Coto (StarTrek.com, 9 février 2005 : « our own last vestiges of intolerance »)."
    }
   ],
   "note_editoriale": null,
@@ -11402,13 +11461,13 @@
   "period": "2365",
   "event": "Audience déterminant si Data est propriété de Starfleet ou libre de refuser son démontage",
   "source": "TNG « The Measure of a Man »",
-  "politics": "Débat de statut juridique et propriété d'un être conscient.",
+  "politics": "Statut juridique d'un être artificiel : propriété ou liberté de choisir.",
   "categories_politiques": "justice/droits ; technologie/bioéthique",
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/news/star-trek-sets-course-nearest-starbase",
-  "note_audit": "CORRECTION MAJEURE : la V0.2 décrivait à tort un asservissement organique; le procès porte sur Data. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « Data », « propriété d'un être conscient ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "CORRECTION MAJEURE : la V0.2 décrivait à tort un asservissement organique; le procès porte sur Data. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « Data », « propriété d'un être conscient ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.21 (2026-11-14) : volet et problématique alignés sur l’analyse rédigée (revue du 14 novembre 2026) — aucune source ne relie l’épisode à l’automatisation ; l’autrice cite l’arrêt Dred Scott (entretiens de 2012 et 2013, voir l’analyse). La décision de l’épisode ne tranche pas la conscience de Data : elle lui reconnaît « the freedom to choose ».",
+  "version_entree": "V0.21 révisé",
   "categories": [
    "justice/droits",
    "technologie/bioéthique"
@@ -11457,6 +11516,15 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.21",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "volet et problématique alignés sur l’analyse rédigée (revue du 14 novembre 2026) — aucune source ne relie l’épisode à l’automatisation ; l’autrice cite l’arrêt Dred Scott (entretiens de 2012 et 2013, voir l’analyse). La décision de l’épisode ne tranche pas la conscience de Data : elle lui reconnaît « the freedom to choose »."
+     }
+    ]
    }
   ],
   "cycle_slug": "the-next-generation-institutions-guerre-droits",
@@ -11465,6 +11533,10 @@
    {
     "libelle": "Audience déterminant si Data est propriété de Starfleet ou libre de refuser son démontage.",
     "motif": "CORRECTION MAJEURE : la V0.2 décrivait à tort un asservissement organique; le procès porte sur Data."
+   },
+   {
+    "libelle": "Audience déterminant si Data est propriété de Starfleet ou libre de refuser son démontage.",
+    "motif": "volet et problématique alignés sur l’analyse rédigée (revue du 14 novembre 2026) — aucune source ne relie l’épisode à l’automatisation ; l’autrice cite l’arrêt Dred Scott (entretiens de 2012 et 2013, voir l’analyse). La décision de l’épisode ne tranche pas la conscience de Data : elle lui reconnaît « the freedom to choose »."
    }
   ],
   "note_editoriale": "CORRECTION MAJEURE : la V0.2 décrivait à tort un asservissement organique ; le procès porte sur Data.",
@@ -17247,8 +17319,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/news/a-guide-to-star-treks-bad-admirals",
-  "note_audit": "CORRECTION : le texte précédent laissait entendre une attaque fédérale contre Leyton. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "CORRECTION : le texte précédent laissait entendre une attaque fédérale contre Leyton. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.21 (2026-11-14) : volets alignés sur l’analyse rédigée (revue du 14 novembre 2026) — le volet prêtait à l’épisode des « craintes » sans source ; la seule déclaration d’auteur est celle de Ronald D. Moore (AOL, 7 avril 1997 : « We wanted to tell the story of an attempted military coup of the Federation »).",
+  "version_entree": "V0.21 révisé",
   "categories": [
    "insurrection/pouvoir",
    "renseignement/sécurité"
@@ -17292,6 +17364,15 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.21",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "volets alignés sur l’analyse rédigée (revue du 14 novembre 2026) — le volet prêtait à l’épisode des « craintes » sans source ; la seule déclaration d’auteur est celle de Ronald D. Moore (AOL, 7 avril 1997 : « We wanted to tell the story of an attempted military coup of the Federation »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
@@ -17300,6 +17381,10 @@
    {
     "libelle": "Tentative de coup d’État militaire de l’amiral Leyton contre les autorités civiles fédérales.",
     "motif": "CORRECTION : le texte précédent laissait entendre une attaque fédérale contre Leyton."
+   },
+   {
+    "libelle": "Tentative de coup d’État militaire de l’amiral Leyton contre les autorités civiles fédérales.",
+    "motif": "volets alignés sur l’analyse rédigée (revue du 14 novembre 2026) — le volet prêtait à l’épisode des « craintes » sans source ; la seule déclaration d’auteur est celle de Ronald D. Moore (AOL, 7 avril 1997 : « We wanted to tell the story of an attempted military coup of the Federation »)."
    }
   ],
   "note_editoriale": "CORRECTION : le texte précédent laissait entendre une attaque fédérale contre Leyton.",
@@ -19155,14 +19240,14 @@
   "cycle": "Deep Space Nine : occupations, démocratie, guerre",
   "period": "2375",
   "event": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
-  "source": "DS9 « When It Rains… » ; « Extreme Measures »",
+  "source": "DS9 « When It Rains… » ; « Extreme Measures » ; « The Dogs of War » ; « What You Leave Behind »",
   "politics": "Guerre clandestine, risque de génocide et responsabilité de l'État.",
   "categories_politiques": "guerre/bataille ; renseignement/sécurité",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty",
-  "note_audit": "V0.13 (2026-11-12) : épisode cité corrigé — « Inquisition » (DS9 6x18, diffusé le 6 avril 1998) présente Section 31 mais pas le virus ; l’infection d’Odo est révélée dans « When It Rains… » (3 mai 1999 : « deliberately infected Odo with the virus so that he would transmit it to the Founders ») et le remède obtenu dans « Extreme Measures » (Wikipedia). La source officielle déjà citée confirme le fait central : « Section 31 secretly injected Constable Odo with a morphogenic virus, intended for genocide » (récapitulatif de Picard 3x06). Volets « faits » et « contexte » corrigés ; la phrase sur les « controverses » de 1999, sans source, est retirée. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.13 (2026-11-12) : épisode cité corrigé — « Inquisition » (DS9 6x18, diffusé le 6 avril 1998) présente Section 31 mais pas le virus ; l’infection d’Odo est révélée dans « When It Rains… » (3 mai 1999 : « deliberately infected Odo with the virus so that he would transmit it to the Founders ») et le remède obtenu dans « Extreme Measures » (Wikipedia). La source officielle déjà citée confirme le fait central : « Section 31 secretly injected Constable Odo with a morphogenic virus, intended for genocide » (récapitulatif de Picard 3x06). Volets « faits » et « contexte » corrigés ; la phrase sur les « controverses » de 1999, sans source, est retirée. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.21 (2026-11-14) : volet aligné sur l’écran et l’analyse rédigée (revue du 14 novembre 2026) — « The Dogs of War » : « The Federation Council considered giving the Founders the cure, then they decided against it » ; « What You Leave Behind » : Odo guérit la Fondatrice par le Lien. Les deux épisodes sont ajoutés à la source.",
+  "version_entree": "V0.21 révisé",
   "categories": [
    "guerre/bataille",
    "renseignement/sécurité"
@@ -19178,6 +19263,14 @@
    {
     "serie": "DS9",
     "titre": "Extreme Measures"
+   },
+   {
+    "serie": "DS9",
+    "titre": "The Dogs of War"
+   },
+   {
+    "serie": "DS9",
+    "titre": "What You Leave Behind"
    }
   ],
   "references_non_rattachees": [],
@@ -19206,6 +19299,15 @@
       "texte": "harmonisation typographique (guillemets, ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.21",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "volet aligné sur l’écran et l’analyse rédigée (revue du 14 novembre 2026) — « The Dogs of War » : « The Federation Council considered giving the Founders the cure, then they decided against it » ; « What You Leave Behind » : Odo guérit la Fondatrice par le Lien. Les deux épisodes sont ajoutés à la source."
+     }
+    ]
    }
   ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
@@ -19214,10 +19316,19 @@
    {
     "libelle": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire.",
     "motif": "épisode cité corrigé — « Inquisition » (DS9 6x18, diffusé le 6 avril 1998) présente Section 31 mais pas le virus ; l’infection d’Odo est révélée dans « When It Rains… » (3 mai 1999 : « deliberately infected Odo with the virus so that he would transmit it to the Founders ») et le remède obtenu dans « Extreme Measures » (Wikipedia). La source officielle déjà citée confirme le fait central : « Section 31 secretly injected Constable Odo with a morphogenic virus, intended for genocide » (récapitulatif de Picard 3x06). Volets « faits » et « contexte » corrigés ; la phrase sur les « controverses » de 1999, sans source, est retirée."
+   },
+   {
+    "libelle": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire.",
+    "motif": "volet aligné sur l’écran et l’analyse rédigée (revue du 14 novembre 2026) — « The Dogs of War » : « The Federation Council considered giving the Founders the cure, then they decided against it » ; « What You Leave Behind » : Odo guérit la Fondatrice par le Lien. Les deux épisodes sont ajoutés à la source."
    }
   ],
   "note_editoriale": null,
   "diffusion": [
+   {
+    "date": "1999",
+    "titre": "What You Leave Behind",
+    "source_url": "https://en.wikipedia.org/wiki/What_You_Leave_Behind"
+   },
    {
     "date": "1999-05",
     "titre": "When It Rains...",
@@ -19227,6 +19338,11 @@
     "date": "1999-05",
     "titre": "Extreme Measures",
     "source_url": "https://en.wikipedia.org/wiki/Extreme_Measures_(Star_Trek:_Deep_Space_Nine)"
+   },
+   {
+    "date": "1999-05-26",
+    "titre": "The Dogs of War",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Deep_Space_Nine_episodes"
    }
   ],
   "doublon_de": null,
@@ -19254,7 +19370,7 @@
   },
   "rang_diegetique": 218,
   "bande": "XXIVe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « When It Rains… », « Extreme Measures ») ; période fictive : 2375.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisodes « When It Rains… », « Extreme Measures », « The Dogs of War »…) ; période fictive : 2375.",
   "analyse_url": "/analyses/STP-153/",
   "analyse_redigee": true,
   "sous_bande": null,
@@ -19276,7 +19392,36 @@
    {
     "id": "STP-156",
     "motifs": [
+     "épisode commun : the dogs of war",
      "épisode commun : when it rains"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-157",
+    "motifs": [
+     "épisode commun : what you leave behind"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-158",
+    "motifs": [
+     "épisode commun : what you leave behind"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-159",
+    "motifs": [
+     "épisode commun : the dogs of war"
+    ],
+    "autre_continuite": false
+   },
+   {
+    "id": "STP-160",
+    "motifs": [
+     "épisode commun : the dogs of war"
     ],
     "autre_continuite": false
    }
@@ -19614,6 +19759,7 @@
    {
     "id": "STP-153",
     "motifs": [
+     "épisode commun : the dogs of war",
      "épisode commun : when it rains"
     ],
     "autre_continuite": false
@@ -19749,6 +19895,13 @@
   "dates_stellaires": [],
   "associes": [
    {
+    "id": "STP-153",
+    "motifs": [
+     "épisode commun : what you leave behind"
+    ],
+    "autre_continuite": false
+   },
+   {
     "id": "STP-158",
     "motifs": [
      "épisode commun : what you leave behind"
@@ -19869,6 +20022,13 @@
   "url_archive": "https://web.archive.org/web/20251030174237/https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
   "dates_stellaires": [],
   "associes": [
+   {
+    "id": "STP-153",
+    "motifs": [
+     "épisode commun : what you leave behind"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-157",
     "motifs": [
@@ -20007,6 +20167,13 @@
   "dates_stellaires": [],
   "associes": [
    {
+    "id": "STP-153",
+    "motifs": [
+     "épisode commun : the dogs of war"
+    ],
+    "autre_continuite": false
+   },
+   {
     "id": "STP-156",
     "motifs": [
      "épisode commun : the dogs of war"
@@ -20134,6 +20301,13 @@
   "url_archive": "https://web.archive.org/web/20260515100706/https://www.startrek.com/news/ishka-of-ferenginar-mother-of-a-movement",
   "dates_stellaires": [],
   "associes": [
+   {
+    "id": "STP-153",
+    "motifs": [
+     "épisode commun : the dogs of war"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-156",
     "motifs": [
@@ -31415,15 +31589,15 @@
   "id": "STP-255",
   "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts",
   "period": "2370",
-  "event": "Conflit environnemental et idéologique dans la communauté de Leka Trion",
+  "event": "Alerte de scientifiques hékarans sur la destruction de leur planète par les champs de distorsion, et sabotages pour forcer l’enquête",
   "source": "TNG « Force of Nature »",
   "politics": "Externalités écologiques des voyages à distorsion et limitation volontaire.",
   "categories_politiques": "technologie/bioéthique ; économie/social",
   "niveau_recoupement": "A",
-  "nature_source": "Éditorial officiel",
-  "url_source": "https://www.startrek.com/en-un/news/science/fall-of-a-season-environmentalism",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Externalités écologiques des voyages à distorsion » ; recoupement A — L'article indique que le voyage en distorsion crée des instabilités dans le corridor d'Hekaras, que la Fédération tarde à croire les scientifiques hékarans, puis que le Conseil limite les vitesses à distorsion 5. Réserve : Le nom « Leka Trion » n'apparaît dans aucune source lue : la planète est Hekaras II (corridor d'Hekaras), les scientifiques Rabal et Serova (résumé Wikipedia de « Force of Nature »). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "nature_source": "Récapitulatif officiel",
+  "url_source": "https://web.archive.org/web/20230321222227/https://www.startrek.com/database_article/force-of-nature",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Externalités écologiques des voyages à distorsion » ; recoupement A — L'article indique que le voyage en distorsion crée des instabilités dans le corridor d'Hekaras, que la Fédération tarde à croire les scientifiques hékarans, puis que le Conseil limite les vitesses à distorsion 5. Réserve : Le nom « Leka Trion » n'apparaît dans aucune source lue : la planète est Hekaras II (corridor d'Hekaras), les scientifiques Rabal et Serova (résumé Wikipedia de « Force of Nature »). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.21 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026) — Leka Trion est la gouverneure pélienne de « The Host » (Memory Alpha), sans rapport avec « Force of Nature ». La fiche officielle de l’épisode, lue dans sa copie archivée (https://web.archive.org/web/20230321222227/https://www.startrek.com/database_article/force-of-nature), dit : « the use of warp fields in the area is destroying their planet » ; « They have been disabling offending ships in hopes of forcing Starfleet to investigate ». Niveau A, sur la page officielle propre à l’épisode.",
+  "version_entree": "V0.21 révisé",
   "categories": [
    "technologie/bioéthique",
    "économie/social"
@@ -31463,11 +31637,31 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.21",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026) — Leka Trion est la gouverneure pélienne de « The Host » (Memory Alpha), sans rapport avec « Force of Nature ». La fiche officielle de l’épisode, lue dans sa copie archivée ("
+     },
+     {
+      "url": "https://web.archive.org/web/20230321222227/https://www.startrek.com/database_article/force-of-nature"
+     },
+     {
+      "texte": "), dit : « the use of warp fields in the area is destroying their planet » ; « They have been disabling offending ships in hopes of forcing Starfleet to investigate ». Niveau A, sur la page officielle propre à l’épisode."
+     }
+    ]
    }
   ],
   "cycle_slug": "complements-episodes-sociaux-politiques-locales-et-formats-courts",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Alerte de scientifiques hékarans sur la destruction de leur planète par les champs de distorsion, et sabotages pour forcer l’enquête.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026) — Leka Trion est la gouverneure pélienne de « The Host » (Memory Alpha), sans rapport avec « Force of Nature ». La fiche officielle de l’épisode, lue dans sa copie archivée (<https://web.archive.org/web/20230321222227/https://www.startrek.com/database_article/force-of-nature>), dit : « the use of warp fields in the area is destroying their planet » ; « They have been disabling offending ships in hopes of forcing Starfleet to investigate ». Niveau A, sur la page officielle propre à l’épisode."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -31490,7 +31684,7 @@
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
-  "url_archive": "https://web.archive.org/web/20231211021631/https://www.startrek.com/news/science/fall-of-a-season-environmentalism",
+  "url_archive": null,
   "dates_stellaires": [
    {
     "titre": "Force of Nature",
@@ -32747,8 +32941,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Synopsis officiel ; année diégétique secondaire seulement",
   "url_source": "https://www.startrek.com/movies/star-trek-section-31",
-  "note_audit": "CORRECTION : le film 2025 se situe autour de 2324 dans les chronologies secondaires, non vers 2250. Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.18 (2026-11-13) : période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » (https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31).",
-  "version_entree": "V0.18 révisé",
+  "note_audit": "CORRECTION : le film 2025 se situe autour de 2324 dans les chronologies secondaires, non vers 2250. Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.18 (2026-11-13) : période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » (https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31). V0.21 (2026-11-14) : volet aligné sur la période corrigée en V0.18 (revue du 14 novembre 2026).",
+  "version_entree": "V0.21 révisé",
   "categories": [
    "guerre/bataille",
    "renseignement/sécurité"
@@ -32804,6 +32998,15 @@
       "texte": ")."
      }
     ]
+   },
+   {
+    "version": "V0.21",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "volet aligné sur la période corrigée en V0.18 (revue du 14 novembre 2026)."
+     }
+    ]
    }
   ],
   "cycle_slug": "complements-episodes-sociaux-politiques-locales-et-formats-courts",
@@ -32816,6 +33019,10 @@
    {
     "libelle": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure.",
     "motif": "période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » (<https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31>)."
+   },
+   {
+    "libelle": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure.",
+    "motif": "volet aligné sur la période corrigée en V0.18 (revue du 14 novembre 2026)."
    }
   ],
   "note_editoriale": "CORRECTION : le film 2025 se situe autour de 2324 dans les chronologies secondaires, non vers 2250. Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran.",
@@ -37600,6 +37807,7 @@
    {
     "id": "STP-303",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : valles marineris"
     ],
     "autre_continuite": false
@@ -37609,7 +37817,7 @@
  {
   "id": "STP-303",
   "cycle": "Strange New Worlds : saison 4 2026",
-  "period": "Préhistoire de Sol (ligne temporelle observée)",
+  "period": "Préhistoire de Sol (65 millions d’années avant notre ère, ligne temporelle observée)",
   "event": "Décision de Pike de ne pas modifier le résultat d’une guerre ancienne",
   "source": "SNW « Valles Marineris »",
   "politics": "Non-interférence temporelle et responsabilité par abstention.",
@@ -37617,8 +37825,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Résumé de saison (Wikipedia)",
   "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_4",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (saison 4, « Valles Marineris ») : « Pike makes a last minute decision not to interfere » ; la planète des Dol'drm est alors détruite, ce qui forme la ceinture d’astéroïdes. Fait central concordant. V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (saison 4, « Valles Marineris ») : « Pike makes a last minute decision not to interfere » ; la planète des Dol'drm est alors détruite, ce qui forme la ceinture d’astéroïdes. Fait central concordant. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.21 (2026-11-14) : période précisée d’après l’écran (revue du 14 novembre 2026) — Spock, SNW « Valles Marineris » : « Currently, we are 65 million years in the past » (transcription, https://scrapsfromtheloft.com/tv-series/star-trek-strange-new-worlds-s04e01-valles-marineris-transcript/) ; même datation que STP-302.",
+  "version_entree": "V0.21 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -37637,7 +37845,7 @@
   "ordre": {
    "cle": null,
    "precision": "passe_lointain",
-   "anciennete": null
+   "anciennete": 65000000
   },
   "audit": [
    {
@@ -37675,11 +37883,31 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.21",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "période précisée d’après l’écran (revue du 14 novembre 2026) — Spock, SNW « Valles Marineris » : « Currently, we are 65 million years in the past » (transcription, "
+     },
+     {
+      "url": "https://scrapsfromtheloft.com/tv-series/star-trek-strange-new-worlds-s04e01-valles-marineris-transcript/"
+     },
+     {
+      "texte": ") ; même datation que STP-302."
+     }
+    ]
    }
   ],
   "cycle_slug": "strange-new-worlds-saison-4-2026",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Décision de Pike de ne pas modifier le résultat d’une guerre ancienne.",
+    "motif": "période précisée d’après l’écran (revue du 14 novembre 2026) — Spock, SNW « Valles Marineris » : « Currently, we are 65 million years in the past » (transcription, <https://scrapsfromtheloft.com/tv-series/star-trek-strange-new-worlds-s04e01-valles-marineris-transcript/>) ; même datation que STP-302."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {
@@ -37704,9 +37932,9 @@
    "examinee_le": null,
    "passes": null
   },
-  "rang_diegetique": 6,
+  "rang_diegetique": 3,
   "bande": "Passé lointain",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Valles Marineris ») ; période fictive : Préhistoire de Sol (ligne temporelle observée).",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Strange New Worlds, épisode « Valles Marineris ») ; période fictive : Préhistoire de Sol (65 millions d’années avant notre ère, ligne temporelle observée).",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
@@ -37716,6 +37944,7 @@
    {
     "id": "STP-302",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : valles marineris"
     ],
     "autre_continuite": false

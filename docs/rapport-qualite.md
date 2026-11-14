@@ -1,6 +1,6 @@
 # Rapport de qualité documentaire
 
-> Généré par `scripts/validate.mjs` le 2026-11-13. Source : `data/source/Star_Trek_Atlas_Politique_V0_20_2026-11-13.csv`, `data/source/Star_Trek_Atlas_Politique_V0_20_2026-11-13.md`.
+> Généré par `scripts/validate.mjs` le 2026-11-14. Source : `data/source/Star_Trek_Atlas_Politique_V0_21_2026-11-14.csv`, `data/source/Star_Trek_Atlas_Politique_V0_21_2026-11-14.md`.
 
 **Bilan : 0 erreur(s), 2 avertissement(s).**
 

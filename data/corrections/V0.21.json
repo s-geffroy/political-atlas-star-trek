@@ -1,0 +1,192 @@
+{
+ "version": "V0.21",
+ "date": "2026-11-14",
+ "date_longue": "14 novembre 2026",
+ "base": "V0_20_2026-11-13",
+ "titre": "Atlas politique de Star Trek — V0.21 : corrections de la revue du 14 novembre",
+ "resume": "Deux intitulés faux de niveau A sont corrigés d’après les fiches officielles (STP-025 : maraudeurs klingons ; STP-255 : scientifiques hékarans). Les volets des six fiches dotées d’une analyse rédigée ou liées à elle sont alignés sur ces analyses. STP-303 est datée de 65 millions d’années, STP-010 ramenée au seul XXIe siècle, ses deux épisodes se contredisant. La réserve sur les entrées de niveau C, devenue fausse, est retirée, et trois phrases des Lignes de force sont précisées.",
+ "methode": {
+  "revue": "revue complète du 14 novembre 2026 (docs/revue-2026-11-14.md), proposition validée le 2026-11-14 (docs/proposition-v021.md) ; citations contrôlées sur les pages."
+ },
+ "textes": [
+  {
+   "avant": "la plupart des lignes issues de V0.2 demeurent de niveau C.",
+   "apres": "depuis la V0.4, chaque événement a été recoupé au moins une fois (une seule entrée reste en C)."
+  },
+  {
+   "avant": "; 1 entrées modifiées, chacune avec une note d’audit V0.16.",
+   "apres": "; 1 entrée modifiée, avec une note d’audit V0.16."
+  },
+  {
+   "avant": "; 1 entrées modifiées, chacune avec une note d’audit V0.20.",
+   "apres": "; 1 entrée modifiée, avec une note d’audit V0.20."
+  },
+  {
+   "avant": "comme « la Marine dans l’espace »",
+   "apres": "comme une histoire de marine (« It was all about the Navy »)"
+  },
+  {
+   "avant": "Leonard Nimoy était fier du message écologique",
+   "apres": "Selon NPR, Leonard Nimoy était fier du message écologique"
+  },
+  {
+   "avant": "Ces déclarations disent une intention ; elles",
+   "apres": "Ces déclarations disent une intention, que Pegg juge lui-même dépassée par l’actualité (« even more than we intended ») ; elles"
+  }
+ ],
+ "comptes": {
+  "corrections": 10
+ },
+ "corrections": [
+  {
+   "id": "STP-025",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Planète de mineurs sous domination d'une puissance locale à Libérateurs",
+     "apres": "Colonie minière rançonnée en deutérium par des maraudeurs klingons et défendue avec l'aide d'Enterprise"
+    },
+    "url_source": {
+     "avant": "https://www.startrek.com/en-un/news/tpol-tactics-and-protocols",
+     "apres": "https://web.archive.org/web/20230531001336/https://www.startrek.com/database_article/marauders"
+    },
+    "nature_source": {
+     "avant": "Éditorial officiel",
+     "apres": "Récapitulatif officiel"
+    }
+   },
+   "motif": "intitulé corrigé (revue du 14 novembre 2026) — « Libérateurs » était un résidu de titre français non vérifié. La fiche officielle de l’épisode, lue dans sa copie archivée (https://web.archive.org/web/20230531001336/https://www.startrek.com/database_article/marauders), dit : « these Klingon marauders have been preying on them for five seasons, taking all the first-yield deuterium they can produce » ; « the colonists defend themselves against the marauders ». Niveau A, sur la page officielle propre à l’épisode."
+  },
+  {
+   "id": "STP-255",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Conflit environnemental et idéologique dans la communauté de Leka Trion",
+     "apres": "Alerte de scientifiques hékarans sur la destruction de leur planète par les champs de distorsion, et sabotages pour forcer l’enquête"
+    },
+    "url_source": {
+     "avant": "https://www.startrek.com/en-un/news/science/fall-of-a-season-environmentalism",
+     "apres": "https://web.archive.org/web/20230321222227/https://www.startrek.com/database_article/force-of-nature"
+    },
+    "nature_source": {
+     "avant": "Éditorial officiel",
+     "apres": "Récapitulatif officiel"
+    }
+   },
+   "motif": "intitulé corrigé (revue du 14 novembre 2026) — Leka Trion est la gouverneure pélienne de « The Host » (Memory Alpha), sans rapport avec « Force of Nature ». La fiche officielle de l’épisode, lue dans sa copie archivée (https://web.archive.org/web/20230321222227/https://www.startrek.com/database_article/force-of-nature), dit : « the use of warp fields in the area is destroying their planet » ; « They have been disabling offending ships in hopes of forcing Starfleet to investigate ». Niveau A, sur la page officielle propre à l’épisode."
+  },
+  {
+   "id": "STP-094",
+   "type": "correction",
+   "champs": {
+    "politics": {
+     "avant": "Débat de statut juridique et propriété d'un être conscient.",
+     "apres": "Statut juridique d'un être artificiel : propriété ou liberté de choisir."
+    }
+   },
+   "volets": {
+    "contexte": {
+     "avant": "Diffusion 1989 : réflexion sur les machines intelligentes, l’automatisation et les droits des êtres non humains.",
+     "apres": "Diffusion le 13 février 1989. Scénario d’une ancienne avocate, Melinda M. Snodgrass, qui dit avoir pris l’arrêt Dred Scott (1857) comme analogie de la situation de Data."
+    }
+   },
+   "motif": "volet et problématique alignés sur l’analyse rédigée (revue du 14 novembre 2026) — aucune source ne relie l’épisode à l’automatisation ; l’autrice cite l’arrêt Dred Scott (entretiens de 2012 et 2013, voir l’analyse). La décision de l’épisode ne tranche pas la conscience de Data : elle lui reconnaît « the freedom to choose »."
+  },
+  {
+   "id": "STP-034",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Terra Prime, mouvement de John Frederick Paxton, veut expulser les extraterrestres de la Terre au moment où plusieurs mondes discutent d’une coalition. Le groupe utilise une arme martienne et une enfant issue d’ADN humain-vulcain comme supports de propagande.",
+     "apres": "Terra Prime, mouvement de John Frederick Paxton, veut expulser les extraterrestres du système solaire au moment où plusieurs mondes discutent d’une coalition. Le groupe utilise une arme martienne et une enfant issue d’ADN humain-vulcain comme supports de propagande."
+    },
+    "contexte": {
+     "avant": "Diffusion 2005, après le 11-Septembre et dans une période américaine de débat intense sur sécurité, immigration et identité.",
+     "apres": "Diffusion en mai 2005, après l’annonce de l’arrêt de la série. Manny Coto présente le diptyque comme le dernier obstacle à la fondation de la Fédération, venu de « nos propres derniers restes d’intolérance » ; aucune déclaration ne le relie au débat américain de 2005 sur l’immigration, qui n’en est que le contexte de réception."
+    }
+   },
+   "motif": "volets alignés sur l’analyse rédigée (revue du 14 novembre 2026) — à l’écran, l’ultimatum de Paxton vise tout le système solaire (« every single non-human in our system leaves immediately ») ; l’intention déclarée est celle de Manny Coto (StarTrek.com, 9 février 2005 : « our own last vestiges of intolerance »)."
+  },
+  {
+   "id": "STP-006",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "contexte": {
+     "avant": "Diffusion originale 1995 : débats américains sur la pauvreté urbaine, la criminalité et la réforme de l’aide sociale ; ne pas projeter rétrospectivement un scénario écrit trente ans plus tôt.",
+     "apres": "Diffusion en janvier 1995. Les débats américains de l’époque sur la pauvreté urbaine et l’aide sociale sont un contexte de réception : aucune déclaration d’auteur d’époque ne les établit comme intention. Ne pas projeter rétrospectivement un scénario écrit trente ans plus tôt."
+    }
+   },
+   "motif": "volet aligné sur l’analyse rédigée (revue du 14 novembre 2026) — le lien avec les débats de 1995 n’était pas sourcé comme intention."
+  },
+  {
+   "id": "STP-139",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "objections": {
+     "avant": "Il ne faut donc pas le présenter comme une réponse à la Patriot Act. Il exprime des craintes antérieures sur le rapport entre sécurité et libertés.",
+     "apres": "Il ne faut donc pas le présenter comme une réponse au Patriot Act (2001), postérieur de cinq ans. Ronald D. Moore dit seulement avoir voulu raconter « une tentative de coup d’État militaire contre la Fédération »."
+    },
+    "contexte": {
+     "avant": "Diffusion 1996, dans l’après-guerre froide et les débats sur le terrorisme.",
+     "apres": "Diffusion en janvier 1996, neuf mois après l’attentat d’Oklahoma City ; aucune source ne relie les épisodes aux débats antiterroristes de l’époque, qui en sont le contexte de réception."
+    }
+   },
+   "motif": "volets alignés sur l’analyse rédigée (revue du 14 novembre 2026) — le volet prêtait à l’épisode des « craintes » sans source ; la seule déclaration d’auteur est celle de Ronald D. Moore (AOL, 7 avril 1997 : « We wanted to tell the story of an attempted military coup of the Federation »)."
+  },
+  {
+   "id": "STP-153",
+   "type": "correction",
+   "champs": {
+    "source": {
+     "avant": "DS9 « When It Rains… » ; « Extreme Measures »",
+     "apres": "DS9 « When It Rains… » ; « Extreme Measures » ; « The Dogs of War » ; « What You Leave Behind »"
+    }
+   },
+   "volets": {
+    "faits": {
+     "avant": "Section 31 a secrètement infecté Odo d’un virus morphogénique, qu’il a transmis aux Fondateurs en rejoignant le Grand Lien. Bashir met au jour l’opération en 2375, puis obtient le remède, ce qui rend possible la guérison de la dirigeante du Dominion et la conclusion de la guerre.",
+     "apres": "Section 31 a secrètement infecté Odo d’un virus morphogénique, qu’il a transmis aux Fondateurs en se liant à eux dans le Grand Lien. Bashir met au jour l’opération en 2375 et obtient le remède ; le Conseil de la Fédération refuse de le transmettre aux Fondateurs, et c’est Odo qui guérit la dirigeante du Dominion en se liant à elle, ce qui permet la fin de la guerre."
+    }
+   },
+   "motif": "volet aligné sur l’écran et l’analyse rédigée (revue du 14 novembre 2026) — « The Dogs of War » : « The Federation Council considered giving the Founders the cure, then they decided against it » ; « What You Leave Behind » : Odo guérit la Fondatrice par le Lien. Les deux épisodes sont ajoutés à la source."
+  },
+  {
+   "id": "STP-267",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "objections": {
+     "avant": "L’ancrage exact en 2324 dépend d’indices et de chronologies secondaires, non d’une datation unanime à l’écran.",
+     "apres": "La datation du film n’est pas établie à l’écran : « vers 2324 » vient d’une conversion de date stellaire, et la seule borne dite à l’écran est 2257."
+    }
+   },
+   "motif": "volet aligné sur la période corrigée en V0.18 (revue du 14 novembre 2026)."
+  },
+  {
+   "id": "STP-303",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "Préhistoire de Sol (ligne temporelle observée)",
+     "apres": "Préhistoire de Sol (65 millions d’années avant notre ère, ligne temporelle observée)"
+    }
+   },
+   "motif": "période précisée d’après l’écran (revue du 14 novembre 2026) — Spock, SNW « Valles Marineris » : « Currently, we are 65 million years in the past » (transcription, https://scrapsfromtheloft.com/tv-series/star-trek-strange-new-worlds-s04e01-valles-marineris-transcript/) ; même datation que STP-302."
+  },
+  {
+   "id": "STP-010",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "Début XXIe siècle",
+     "apres": "XXIe siècle"
+    }
+   },
+   "motif": "période corrigée (revue du 14 novembre 2026) — les deux épisodes sources se contredisent à l’écran : TOS « The Savage Curtain » situe la guerre de Green « early in the 21st century » ; ENT « Demons » place son discours juste après la Troisième Guerre mondiale (« The Third World War had just ended and the cease-fire was barely three years old »). Seul le siècle est commun."
+  }
+ ]
+}

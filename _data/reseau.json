@@ -2628,7 +2628,7 @@
    "nb_relations": 8
   },
   {
-   "titre": "Formation de la résistance cardassienne menée par Damar",
+   "titre": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
    "taille": 8,
    "noeuds": [
     {
@@ -2813,28 +2813,28 @@
      "de": "STP-153",
      "vers": "STP-158",
      "type": "cause",
-     "d": "M306,42 C511,42 511,188 712,188",
+     "d": "M306,52 C511,52 511,188 712,188",
      "url": "https://memory-alpha.fandom.com/wiki/Morphogenic_virus"
     },
     {
      "de": "STP-156",
      "vers": "STP-157",
      "type": "cause",
-     "d": "M306,120 C346,120 346,159 382,159",
+     "d": "M306,120 C346,120 346,169 382,169",
      "url": "https://memory-alpha.fandom.com/wiki/Dominion_War"
     },
     {
      "de": "STP-153",
      "vers": "STP-305",
      "type": "meme_arc",
-     "d": "M56,52 C8,52 8,354 56,354",
+     "d": "M56,60 C8,60 8,354 56,354",
      "url": "https://memory-alpha.fandom.com/wiki/Inter_Arma_Enim_Silent_Leges_(episode)"
     },
     {
      "de": "STP-159",
      "vers": "STP-160",
      "type": "meme_arc",
-     "d": "M56,208 C25,208 25,286 56,286",
+     "d": "M56,213 C25,213 25,291 56,291",
      "url": "https://en.wikipedia.org/wiki/The_Dogs_of_War_(Star_Trek:_Deep_Space_Nine)"
     },
     {
@@ -2862,21 +2862,42 @@
      "de": "STP-153",
      "vers": "STP-156",
      "type": "episode_commun",
-     "d": "M56,32 C25.833333333333336,32 25.833333333333336,105 56,105",
+     "d": "M56,24 C24.5,24 24.5,105 56,105",
+     "url": null
+    },
+    {
+     "de": "STP-153",
+     "vers": "STP-157",
+     "type": "episode_commun",
+     "d": "M306,32 C346,32 346,149 382,149",
+     "url": null
+    },
+    {
+     "de": "STP-153",
+     "vers": "STP-159",
+     "type": "episode_commun",
+     "d": "M56,36 C13.5,36 13.5,183 56,183",
+     "url": null
+    },
+    {
+     "de": "STP-153",
+     "vers": "STP-160",
+     "type": "episode_commun",
+     "d": "M56,48 C8,48 8,261 56,261",
      "url": null
     },
     {
      "de": "STP-156",
      "vers": "STP-159",
      "type": "episode_commun",
-     "d": "M56,120 C26.666666666666664,120 26.666666666666664,188 56,188",
+     "d": "M56,120 C25,120 25,198 56,198",
      "url": null
     },
     {
      "de": "STP-156",
      "vers": "STP-160",
      "type": "episode_commun",
-     "d": "M56,135 C16.16666666666667,135 16.16666666666667,266 56,266",
+     "d": "M56,135 C14.5,135 14.5,276 56,276",
      "url": null
     }
    ],
@@ -7327,6 +7348,6 @@
  ],
  "noeuds": 200,
  "relations": 165,
- "liens_episode": 40,
+ "liens_episode": 43,
  "seuil_decoupe": 25
 }

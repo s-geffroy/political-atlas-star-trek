@@ -1,10 +1,10 @@
 {
- "genere_le": "2026-11-13",
+ "genere_le": "2026-11-14",
  "source": {
-  "csv": "data/source/Star_Trek_Atlas_Politique_V0_20_2026-11-13.csv",
-  "md": "data/source/Star_Trek_Atlas_Politique_V0_20_2026-11-13.md",
-  "version": "0.20",
-  "etat": "État : 13 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
+  "csv": "data/source/Star_Trek_Atlas_Politique_V0_21_2026-11-14.csv",
+  "md": "data/source/Star_Trek_Atlas_Politique_V0_21_2026-11-14.md",
+  "version": "0.21",
+  "etat": "État : 14 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
   "colonnes": [
    "id",
    "cycle",

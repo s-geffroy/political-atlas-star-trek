@@ -556,24 +556,34 @@ function grapheChronologique(arcs, rels, parId) {
 // proportionnelle au nombre d'evenements ; traits fins pour les relations
 // documentees entre deux arcs (epaisseur = nombre de relations).
 function carteDesArcs(arcs, parId) {
-  const L = 1180, G = 150, D = 30, HAUT = 34, BAS = 30, RMAX = 30;
-  const rangMax = Math.max(...[...parId.values()].map((e) => e.rang_diegetique));
-  const mediane = (v) => { const t = [...v].sort((a, b) => a - b); const m = t.length >> 1; return t.length % 2 ? t[m] : (t[m - 1] + t[m]) / 2; };
-  const xDe = (rang) => G + ((rang - 1) / (rangMax - 1)) * (L - G - D);
+  const D = 24, G = 236, HAUT = 40, BAS = 24, RMAX = 30, MIN = 34, K = 30;
+  const noms = (() => { const p = path.join(ROOT, 'data/arcs-noms.json'); return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')).noms : {}; })();
+  const mediane = (v) => { const t = [...v].sort((a, b) => a - b); return t[(t.length - 1) >> 1]; };
+  // Axe : une largeur par periode (croissant avec la racine du nombre d'evenements),
+  // ordre diegetique a l'interieur ; une bulle est placee a son evenement median.
+  const ev = arcs.flatMap((c) => c.ids).map((id) => parId.get(id)).sort((a, b) => a.rang_diegetique - b.rang_diegetique);
+  const bandes = [];
+  for (const e of ev) { const b = e.bande || 'Non daté'; if (!bandes.length || bandes.at(-1).nom !== b) bandes.push({ nom: b, ids: [] }); bandes.at(-1).ids.push(e.id); }
+  let x0 = G;
+  for (const b of bandes) { b.x = x0; b.w = Math.round(MIN + K * Math.sqrt(b.ids.length)); x0 += b.w; }
+  const L = x0 + D;
+  const xDe = (id) => { const b = bandes.find((q) => q.ids.includes(id)); return b.x + (b.w * (b.ids.indexOf(id) + 0.5)) / b.ids.length; };
   const tailleMax = Math.max(...arcs.map((c) => c.taille));
   const rayon = (n) => Math.max(7, RMAX * Math.sqrt(n / tailleMax));
+  // Bandes horizontales : series peu representees regroupees avec leur epoque.
+  const GROUPES = { TAS: 'TOS', SFA: 'DIS', 'Short Treks': 'DIS', PRO: 'LD' };
+  const NOMS_GROUPES = { TOS: 'Série originale et animée', DIS: 'Discovery, Academy, Short Treks', LD: 'Lower Decks et Prodigy', Film: 'Films' };
   const bulles = arcs.map((c) => {
-    const rangs = c.ids.map((id) => parId.get(id).rang_diegetique);
+    const ordre = c.ids.map((id) => parId.get(id)).sort((a, b) => a.rang_diegetique - b.rang_diegetique);
+    const median = ordre[(ordre.length - 1) >> 1];
     const compte = new Map();
-    for (const id of c.ids) { const s = parId.get(id).series[0] || 'Film'; compte.set(s, (compte.get(s) || 0) + 1); }
+    for (const id of c.ids) { const s0 = parId.get(id).series[0] || 'Film'; const s = GROUPES[s0] || s0; compte.set(s, (compte.get(s) || 0) + 1); }
     const serie = [...compte].sort((a, b) => b[1] - a[1] || SERIES.findIndex((x) => x.code === a[0]) - SERIES.findIndex((x) => x.code === b[0]))[0][0];
-    return { cle: c.cle, titre: c.titre, taille: c.taille, serie, rang: mediane(rangs), x: Math.round(xDe(mediane(rangs))), r: Math.round(rayon(c.taille) * 10) / 10 };
+    return { cle: c.cle, titre: c.titre, taille: c.taille, serie, rang: median.rang_diegetique, x: Math.round(xDe(median.id)), r: Math.round(rayon(c.taille) * 10) / 10, court: noms[c.cle] || null };
   });
-  // Bandes : series ordonnees par la mediane diegetique de leurs arcs (diagonale du temps fictif).
   const parSerie = new Map();
   for (const b of bulles) { if (!parSerie.has(b.serie)) parSerie.set(b.serie, []); parSerie.get(b.serie).push(b); }
   const ordre = [...parSerie.keys()].sort((a, b) => mediane(parSerie.get(a).map((x) => x.rang)) - mediane(parSerie.get(b).map((x) => x.rang)));
-  // Dans une bande, les bulles qui se chevauchent sont decalees verticalement (essaim).
   let y0 = HAUT; const couloirs = [];
   for (const s of ordre) {
     const liste = parSerie.get(s).sort((a, b) => a.x - b.x || b.taille - a.taille);
@@ -587,51 +597,53 @@ function carteDesArcs(arcs, parId) {
       b.dy = dy; places.push(b);
     }
     const haut = Math.max(...places.map((b) => b.r - b.dy)), bas = Math.max(...places.map((b) => b.r + b.dy));
-    const h = Math.max(46, haut + bas + 16);
-    const centre = y0 + 8 + haut;
+    const h = Math.max(40, haut + bas + 14);
+    const centre = y0 + 7 + haut;
     for (const b of places) b.y = Math.round(centre + b.dy);
-    couloirs.push({ serie: s, nom: s === 'Film' ? 'Films' : (SERIES.find((x) => x.code === s) || { nom: s }).nom, y: y0, h, ty: centre + 4 });
+    couloirs.push({ serie: s, nom: NOMS_GROUPES[s] || (SERIES.find((x) => x.code === s) || { nom: s }).nom, y: y0, h, ty: centre + 4 });
     y0 += h;
   }
   const hauteur = y0 + BAS;
-  // Graduations : debut de chaque siecle (et du passe lointain) dans l'ordre diegetique.
-  const graduations = []; const vus = new Set();
-  for (const e of [...parId.values()].sort((a, b) => a.rang_diegetique - b.rang_diegetique)) {
-    const b = e.bande || '';
-    const lib = /^Passé/.test(b) ? 'Passé lointain' : (/^([XVI]+e) siècle$/.exec(b) || [])[1] ? `${/^([XVI]+e) siècle$/.exec(b)[1]} s.` : null;
-    if (!lib || vus.has(lib)) continue;
-    vus.add(lib); graduations.push({ x: Math.round(xDe(e.rang_diegetique)), t: lib });
-  }
-  // Liens entre arcs : relations documentees dont les deux bouts sont dans des arcs differents.
-  const ou = new Map(bulles.map((b) => [b.cle, b]));
-  const paires = new Map();
-  for (const c of arcs) for (const x of c.externes) if (x.sortant && x.groupe) {
-    const k = `${c.cle}|${x.groupe}`; paires.set(k, (paires.get(k) || 0) + 1);
-  }
-  const liens = [...paires].map(([k, n]) => {
-    const [a, b] = k.split('|').map((cle) => ou.get(cle));
-    const mx = (a.x + b.x) / 2, my = Math.min(a.y, b.y) - 18;
-    return { de: a.cle, vers: b.cle, n, d: `M${a.x},${a.y} Q${mx},${my} ${b.x},${b.y}` };
+  // Graduations : nom de chaque periode ; une etiquette plus large que sa bande
+  // passe sur la seconde ligne, sous celle de sa voisine.
+  const fins = [-Infinity, -Infinity];
+  const graduations = bandes.map((b) => {
+    const t = b.nom.replace(/^Entre le (.*) et le (.*) siècle$/, '$1–$2 s.').replace(/ siècle$/, ' s.').replace('Non ordonnable sans interprétation', 'non daté');
+    const rang = b.x + 3 >= fins[0] ? 0 : 1;
+    fins[rang] = b.x + 3 + t.length * 6.2 + 6;
+    return { x: b.x, w: b.w, t, ty: rang ? 31 : 17 };
   });
-  // Nom court des plus grands arcs (8 evenements et plus) : place a droite, a
-  // gauche, au-dessus ou au-dessous de la bulle, la premiere position qui ne
-  // touche aucune autre bulle ; les autres arcs se lisent au survol et dans la liste.
-  for (const b of bulles) if (b.taille >= 8) {
-    const t = b.titre.length > 30 ? b.titre.slice(0, 29).replace(/\s+\S*$/, '') + '…' : b.titre;
-    const w = t.length * 6.3, h = 14;
+  // Noms courts (arcs de 5 evenements et plus) : a droite, a gauche, au-dessus ou
+  // au-dessous de la bulle, la premiere position qui ne touche ni bulle ni nom deja place.
+  const poses = [];
+  for (const b of [...bulles].sort((u, v) => v.taille - u.taille)) {
+    if (b.taille < 5) continue;
+    const t = b.court || (b.titre.length > 30 ? b.titre.slice(0, 29).replace(/\s+\S*$/, '') + '…' : b.titre);
+    const w = t.length * 6.4, h = 14;
     const essais = [
       { x: b.x + b.r + 6, y: b.y + 4, a: 'start', bx: b.x + b.r + 6, by: b.y - 9 },
       { x: b.x - b.r - 6, y: b.y + 4, a: 'end', bx: b.x - b.r - 6 - w, by: b.y - 9 },
-      { x: b.x, y: b.y - b.r - 6, a: 'middle', bx: b.x - w / 2, by: b.y - b.r - 6 - 11 },
+      { x: b.x, y: b.y - b.r - 6, a: 'middle', bx: b.x - w / 2, by: b.y - b.r - 17 },
       { x: b.x, y: b.y + b.r + 15, a: 'middle', bx: b.x - w / 2, by: b.y + b.r + 4 },
+      // Diagonales : texte qui part du bord de la bulle, au-dessus ou au-dessous.
+      { x: b.x + b.r * 0.6, y: b.y - b.r - 4, a: 'start', bx: b.x + b.r * 0.6, by: b.y - b.r - 15 },
+      { x: b.x + b.r * 0.6, y: b.y + b.r + 13, a: 'start', bx: b.x + b.r * 0.6, by: b.y + b.r + 2 },
+      { x: b.x - b.r * 0.6, y: b.y - b.r - 4, a: 'end', bx: b.x - b.r * 0.6 - w, by: b.y - b.r - 15 },
+      { x: b.x - b.r * 0.6, y: b.y + b.r + 13, a: 'end', bx: b.x - b.r * 0.6 - w, by: b.y + b.r + 2 },
     ];
-    const libre = (e) => e.bx >= 4 && e.bx + w <= L - 4 && bulles.every((o) => o === b ||
-      Math.max(e.bx - o.x, 0, o.x - (e.bx + w)) ** 2 + Math.max(e.by - o.y, 0, o.y - (e.by + h)) ** 2 > (o.r + 3) ** 2);
+    const libre = (e) => e.bx >= G - 4 && e.bx + w <= L - 4
+      && poses.every((q) => e.bx + w < q.x || q.x + q.w < e.bx || e.by + h < q.y || q.y + q.h < e.by)
+      && bulles.every((o) => o === b || Math.max(e.bx - o.x, 0, o.x - (e.bx + w)) ** 2 + Math.max(e.by - o.y, 0, o.y - (e.by + h)) ** 2 > (o.r + 3) ** 2);
     const e = essais.find(libre);
-    if (e) Object.assign(b, { nom: t, nx: Math.round(e.x), ny: Math.round(e.y), nancre: e.a });
+    if (e) { poses.push({ x: e.bx, y: e.by, w, h }); Object.assign(b, { nom: t, nx: Math.round(e.x), ny: Math.round(e.y), nancre: e.a }); }
   }
-  // Etiquettes de graduation trop proches : seule la plus a droite est ecrite (le trait reste).
-  graduations.forEach((g, i) => { const suiv = graduations[i + 1]; g.ecrite = !suiv || suiv.x - g.x >= 44; });
+  const ou = new Map(bulles.map((b) => [b.cle, b]));
+  const paires = new Map();
+  for (const c of arcs) for (const x of c.externes) if (x.sortant && x.groupe) { const k = `${c.cle}|${x.groupe}`; paires.set(k, (paires.get(k) || 0) + 1); }
+  const liens = [...paires].map(([k, n]) => {
+    const [a, b] = k.split('|').map((cle) => ou.get(cle));
+    return { de: a.cle, vers: b.cle, n, d: `M${a.x},${a.y} Q${(a.x + b.x) / 2},${Math.min(a.y, b.y) - 18} ${b.x},${b.y}` };
+  });
   return { largeur: L, hauteur, gauche: G, couloirs, graduations, bulles: bulles.map(({ rang, dy, ...b }) => b), liens };
 }
 

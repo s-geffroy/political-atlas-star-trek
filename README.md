@@ -43,6 +43,7 @@ data/doublons.json        doublons tranches (secondaire -> principale), sans sup
 data/relations.json       relations documentees (cause, suite, meme arc), chacune sourcee
 data/diffusion.json       dates de diffusion relevees, chacune avec sa source
 data/analyses-redigees.json  analyses redigees a la main (fiche, fichier, adresse) : voir docs/procedures.md, 6
+data/arcs-noms.json       noms courts des grands arcs sur la carte de /reseau/ (cle d'arc -> nom ; affichage seulement)
 ```
 
 Doublons, relations et diffusion sont des enrichissements hors corpus : les

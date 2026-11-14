@@ -11,7 +11,7 @@ description: Graphe des relations documentées entre événements politiques de 
 <p class="encadre"><strong>Nouveau :</strong> le <a href="{{ '/reseau/graphe/' | relative_url }}">graphe chronologique</a> montre tous les événements reliés et leurs relations sur le temps fictif, avec recherche et zoom.</p>
 
 <h2 id="carte-des-arcs">Carte des arcs</h2>
-<p>Chaque bulle est un arc, d’autant plus grande qu’il réunit d’événements ; elle est placée dans la bande de la série qui y domine, et, de gauche à droite, à la médiane de ses événements dans la chronologie fictive. L’axe suit l’ordre des événements, pas les années : il n’est pas proportionnel au temps (le XXIVe siècle, très documenté, y occupe beaucoup de place). La liste des arcs, plus bas, donne les mêmes informations en texte.</p>
+<p>Chaque bulle est un arc, d’autant plus grande qu’il réunit d’événements ; elle est placée dans la bande de la série qui y domine (les séries peu représentées partagent la bande de leur époque), et, de gauche à droite, à son événement médian dans la chronologie fictive. Chaque période reçoit une largeur qui croît avec son nombre d’événements : l’axe n’est pas proportionnel aux années. Les arcs de cinq événements et plus portent un nom court. La liste des arcs, plus bas, donne les mêmes informations en texte.</p>
 {%- assign C = R.carte %}
 <div class="defile" tabindex="0" role="region" aria-label="Carte des arcs (faire défiler horizontalement sur petit écran)">
 <svg class="carte-arcs" width="{{ C.largeur }}" height="{{ C.hauteur }}" viewBox="0 0 {{ C.largeur }} {{ C.hauteur }}" role="group" aria-labelledby="carte-des-arcs">
@@ -20,7 +20,7 @@ description: Graphe des relations documentées entre événements politiques de 
   <text class="couloir__nom" x="8" y="{{ k.ty }}" aria-hidden="true">{{ k.nom }}</text>
   {%- endfor %}
   {%- for g in C.graduations %}
-  <line class="graduation" x1="{{ g.x }}" x2="{{ g.x }}" y1="24" y2="{{ C.hauteur | minus: 24 }}" aria-hidden="true"/>{% if g.ecrite %}<text class="graduation__texte" x="{{ g.x | plus: 3 }}" y="18" aria-hidden="true">{{ g.t }}</text>{% endif %}
+  <line class="graduation" x1="{{ g.x }}" x2="{{ g.x }}" y1="{{ g.ty | minus: 11 }}" y2="{{ C.hauteur | minus: 24 }}" aria-hidden="true"/><text class="graduation__texte" x="{{ g.x | plus: 3 }}" y="{{ g.ty }}" aria-hidden="true">{{ g.t }}</text>
   {%- endfor %}
   {%- for l in C.liens %}<path class="lien-arcs" d="{{ l.d }}" stroke-width="{{ l.n | plus: 1 }}" aria-hidden="true"/>{%- endfor %}
   {%- for b in C.bulles %}

@@ -4935,7 +4935,19 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250720110551/https://www.startrek.com/en-un/news/how-the-united-nations-helped-shape-the-federation",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "These Are the Voyages…",
+    "source_url": "http://www.chakoteya.net/Enterprise/98.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/These_Are_The_Voyages..._(episode)",
+    "dates": [
+     {
+      "date": "47457.1",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -9294,7 +9306,27 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251114004015/https://www.startrek.com/en-un/movies/star-trek-ii-the-wrath-of-khan",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "The Wrath of Khan",
+    "source_url": "http://www.chakoteya.net/movies/movie2.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_II%3A_The_Wrath_of_Khan",
+    "dates": [
+     {
+      "date": "8130.3",
+      "annee": null
+     },
+     {
+      "date": "8130.4",
+      "annee": null
+     },
+     {
+      "date": "8141.6",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -13539,7 +13571,27 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260322154628/https://www.startrek.com/en-un/news/the-four-lights",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Chain of Command",
+    "source_url": "http://www.chakoteya.net/NextGen/236.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Chain_Of_Command%2C_Part_I_(episode)",
+    "dates": [
+     {
+      "date": "46357.4",
+      "annee": 2369
+     },
+     {
+      "date": "46358.2",
+      "annee": 2369
+     },
+     {
+      "date": "46360.8",
+      "annee": 2369
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -27799,7 +27851,19 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20240815185620/https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Ouroboros",
+    "source_url": "http://www.chakoteya.net/STProdigy/STP219.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ouroboros%2C_Part_I_(episode)",
+    "dates": [
+     {
+      "date": "62314.8",
+      "annee": 2385
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-226",
@@ -28043,7 +28107,19 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260702025157/https://blog.trekcore.com/2024/11/star-trek-prodigy-season-2-finale-review-ouroboros/",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Ouroboros",
+    "source_url": "http://www.chakoteya.net/STProdigy/STP219.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ouroboros%2C_Part_I_(episode)",
+    "dates": [
+     {
+      "date": "62314.8",
+      "annee": 2385
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-224",

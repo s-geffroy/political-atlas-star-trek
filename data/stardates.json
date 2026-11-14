@@ -27,7 +27,7 @@
    "titre": "Anomaly",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/STDisco17/402.html",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Anomaly",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -36,7 +36,7 @@
    "titre": "Battle at the Binary Stars",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/STDisco17/102.html",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Battle_at_the_Binary_Stars_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -145,7 +145,7 @@
    "titre": "Species Ten-C",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/STDisco17/412.html",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Species_Ten-C_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -231,7 +231,7 @@
    "titre": "There Is a Tide…",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/STDisco17/312.html",
-   "memory_alpha_url": null,
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/There_Is_A_Tide..._(episode)",
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -575,7 +575,7 @@
    "titre": "Sacrifice of Angels",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/DS9/530.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Sacrifice_of_Angels_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -603,7 +603,7 @@
    "titre": "Shakaar",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/DS9/470.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Shakaar_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -651,7 +651,7 @@
    "titre": "The Circle",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/DS9/422.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Circle_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -697,7 +697,7 @@
    "titre": "The Jem'Hadar",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/DS9/446.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Jem'Hadar_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -709,7 +709,7 @@
     "http://www.chakoteya.net/DS9/440.htm",
     "http://www.chakoteya.net/DS9/441.htm"
    ],
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Maquis",
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Maquis%2C_Part_I_(episode)",
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -718,7 +718,7 @@
    "titre": "The Quickening",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/DS9/495.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Quickening_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -727,7 +727,7 @@
    "titre": "The Siege",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/DS9/423.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Siege_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -736,7 +736,7 @@
    "titre": "The Siege of AR-558",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/DS9/558.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Siege_of_AR-558_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -764,7 +764,7 @@
    "titre": "Through the Looking Glass",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/DS9/466.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Through_the_Looking_Glass_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -792,7 +792,7 @@
    "titre": "What You Leave Behind",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/DS9/575.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/What_You_Leave_Behind_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -900,7 +900,7 @@
    "titre": "Demons",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/Enterprise/96.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Demons_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -963,7 +963,7 @@
    "titre": "North Star",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/Enterprise/61.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/North_Star_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -984,7 +984,7 @@
     "http://www.chakoteya.net/Enterprise/26.htm",
     "http://www.chakoteya.net/Enterprise/28.htm"
    ],
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Shockwave_(episode)",
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Shockwave%2C_Part_II_(episode)",
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -1005,7 +1005,7 @@
     "http://www.chakoteya.net/Enterprise/77.htm",
     "http://www.chakoteya.net/Enterprise/78.htm"
    ],
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Storm_Front_(episode)",
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Storm_Front%2C_Part_II_(episode)",
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -1014,7 +1014,7 @@
    "titre": "Terra Nova",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/Enterprise/06.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Terra_Nova_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -1032,7 +1032,7 @@
    "titre": "The Aenar",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/Enterprise/90.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Aenar_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -1084,11 +1084,12 @@
   {
    "serie": "ENT",
    "titre": "These Are the Voyages…",
-   "dates_stellaires": [],
+   "dates_stellaires": [
+    "47457.1"
+   ],
    "transcription_url": "http://www.chakoteya.net/Enterprise/98.htm",
-   "memory_alpha_url": null,
-   "releve_le": "2026-11-14",
-   "note": "date(s) prononcee(s) non confirmee(s) par Memory Alpha : 47457.1"
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/These_Are_The_Voyages..._(episode)",
+   "releve_le": "2026-11-14"
   },
   {
    "serie": "ENT",
@@ -1134,7 +1135,7 @@
    "titre": "Insurrection",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/movies/movie9.html",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek%3A_Insurrection",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -1153,7 +1154,7 @@
    "titre": "Star Trek",
    "dates_stellaires": [],
    "transcription_url": null,
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "transcription introuvable"
   },
@@ -1189,7 +1190,7 @@
    "titre": "The Final Frontier",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/movies/movie5.html",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek%3A_The_Final_Frontier",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -1229,11 +1230,14 @@
   {
    "serie": "Film",
    "titre": "The Wrath of Khan",
-   "dates_stellaires": [],
+   "dates_stellaires": [
+    "8130.3",
+    "8130.4",
+    "8141.6"
+   ],
    "transcription_url": "http://www.chakoteya.net/movies/movie2.html",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek%3A_The_Wrath_of_Khan",
-   "releve_le": "2026-11-14",
-   "note": "date(s) prononcee(s) non confirmee(s) par Memory Alpha : 8130.3, 8130.4, 8141.6"
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_II%3A_The_Wrath_of_Khan",
+   "releve_le": "2026-11-14"
   },
   {
    "serie": "LD",
@@ -1400,7 +1404,7 @@
    "titre": "Võx",
    "dates_stellaires": [],
    "transcription_url": null,
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/V%C3%83%C2%B5x_(episode)",
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/V%C3%B5x_(episode)",
    "releve_le": "2026-11-14",
    "note": "transcription introuvable"
   },
@@ -1426,14 +1430,15 @@
   {
    "serie": "PRO",
    "titre": "Ouroboros",
-   "dates_stellaires": [],
+   "dates_stellaires": [
+    "62314.8"
+   ],
    "transcription_url": [
     "http://www.chakoteya.net/STProdigy/STP219.html",
     "http://www.chakoteya.net/STProdigy/STP220.html"
    ],
-   "memory_alpha_url": null,
-   "releve_le": "2026-11-14",
-   "note": "date(s) prononcee(s) non confirmee(s) par Memory Alpha : 62314.8"
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ouroboros%2C_Part_I_(episode)",
+   "releve_le": "2026-11-14"
   },
   {
    "serie": "PRO",
@@ -1443,7 +1448,7 @@
     "http://www.chakoteya.net/STProdigy/STP119.html",
     "http://www.chakoteya.net/STProdigy/STP120.html"
    ],
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Supernova",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -1461,7 +1466,7 @@
    "titre": "Beta Test",
    "dates_stellaires": [],
    "transcription_url": null,
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Beta_Test_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "transcription introuvable"
   },
@@ -1488,7 +1493,7 @@
    "titre": "Rubincon",
    "dates_stellaires": [],
    "transcription_url": null,
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Rubincon_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "transcription introuvable"
   },
@@ -1595,7 +1600,7 @@
    "titre": "Orders of Magnitude",
    "dates_stellaires": [],
    "transcription_url": null,
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Orders_of_Magnitude_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "transcription introuvable"
   },
@@ -1604,7 +1609,7 @@
    "titre": "Strange New Worlds",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/StarTrekSNW/101.html",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Strange_New_Worlds_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -1727,14 +1732,17 @@
   {
    "serie": "TNG",
    "titre": "Chain of Command",
-   "dates_stellaires": [],
+   "dates_stellaires": [
+    "46357.4",
+    "46358.2",
+    "46360.8"
+   ],
    "transcription_url": [
     "http://www.chakoteya.net/NextGen/236.htm",
     "http://www.chakoteya.net/NextGen/237.htm"
    ],
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Chain_of_Command",
-   "releve_le": "2026-11-14",
-   "note": "date(s) prononcee(s) non confirmee(s) par Memory Alpha : 46357.4, 46358.2, 46360.8"
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Chain_Of_Command%2C_Part_I_(episode)",
+   "releve_le": "2026-11-14"
   },
   {
    "serie": "TNG",
@@ -2125,7 +2133,7 @@
     "http://www.chakoteya.net/NextGen/208.htm",
     "http://www.chakoteya.net/NextGen/207.htm"
    ],
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Unification_(disambiguation)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "date(s) prononcee(s) non confirmee(s) par Memory Alpha : 45233.1, 45236.4, 45240.1, 45240.6, 45245.8"
   },
@@ -2156,7 +2164,7 @@
    "titre": "Yesterday’s Enterprise",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/NextGen/163.htm",
-   "memory_alpha_url": null,
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Yesterday's_Enterprise_(episode)",
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -2264,7 +2272,7 @@
    "titre": "Patterns of Force",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/StarTrek/52.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Patterns_of_Force_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -2339,7 +2347,7 @@
    "titre": "The Omega Glory",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/StarTrek/54.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Omega_Glory_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
@@ -2454,7 +2462,7 @@
    "titre": "Critical Care",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/Voyager/703.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Critical_Care_(episode)",
+   "memory_alpha_url": null,
    "releve_le": "2026-11-14",
    "note": "aucune date stellaire prononcee dans la transcription"
   },

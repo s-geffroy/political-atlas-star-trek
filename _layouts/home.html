@@ -29,9 +29,15 @@ layout: default
 <div class="grille-2">
   <div class="panneau">
     {%- assign bell = une | first %}
-    <h3><a href="{{ bell.analyse_url | relative_url }}">Les émeutes de Bell : fiction, contexte et limites</a></h3>
-    <p>{{ bell.event }} — {{ bell.period }}, {{ bell.source }}. Une analyse croisée de l’épisode, de son contexte de diffusion et des résonances ultérieures, sans lecture « prophétique ».</p>
-    <p><a href="{{ '/evenements/' | append: bell.id | append: '/' | relative_url }}">Fiche {{ bell.id }}</a> · <a href="{{ '/analyses/' | relative_url }}">Toutes les analyses</a></p>
+    {%- assign redigees = evs | where: "analyse_redigee", true %}
+    <h3>Analyses rédigées</h3>
+    <p>{{ redigees.size }} analyses croisent la fiction, ce que les auteurs ont déclaré, le contexte de diffusion et la réception, chacune appuyée sur des sources numérotées et sans lecture « prophétique ».</p>
+    <ul>
+      {%- for e in redigees %}
+      <li><a href="{{ e.analyse_url | relative_url }}">{{ e.event | escape }}</a> <span class="carte__meta">({{ e.source | escape }})</span></li>
+      {%- endfor %}
+    </ul>
+    <p><a href="{{ '/analyses/' | relative_url }}">Toutes les analyses</a></p>
   </div>
   <div class="panneau">
     <h3>Fiches approfondies de niveau A</h3>

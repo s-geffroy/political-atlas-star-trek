@@ -11,8 +11,13 @@ description: >-
   Encyclopédie documentaire indépendante des événements politiques de l’univers
   Star Trek : 305 entrées, 31 fiches approfondies, niveaux de vérification
   explicites. Projet non affilié à Paramount.
-# Pas d'« author » : jekyll-seo-tag le declarerait comme une personne. L'editeur
-# (publisher) est le site lui-meme, avec son logo.
+# Auteur et editeur : le site lui-meme, declare comme organisation (et non comme
+# personne). jekyll-seo-tag en tire le nom de l'editeur (publisher) ; jekyll-feed
+# le nom de l'auteur du flux.
+author:
+  name: Star Trek Political Atlas
+  type: Organization
+  url: https://s-geffroy.github.io/political-atlas-star-trek/
 logo: /assets/icone.svg
 lang: fr
 locale: fr_FR

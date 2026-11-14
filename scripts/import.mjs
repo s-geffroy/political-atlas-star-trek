@@ -519,6 +519,8 @@ function dateVersion(v) {
   return DATES_VERSIONS.get(v) || null;
 }
 
+const courte = (s) => (s.length > 158 ? s.slice(0, 157).replace(/\s+\S*$/, '') + '…' : s);
+
 function pageEvenement(e) {
   // Metadonnees : titre et description sans sigles, type Article, dates reelles
   // (premiere publication = V0.3 ; modification = version de la derniere revision).
@@ -682,8 +684,12 @@ export function ecrireSorties(r) {
     }
     ecrire(path.join(ROOT, 'analyses', `${f.id}.md`), ['---', '# Fichier GENERE par scripts/import.mjs.', 'layout: analyse', `stp: ${f.id}`,
       `periode_diffusion: ${per ? yamlStr(per.bornes) : 'null'}`, `periode_par_annee: ${parAnnee}`,
-      `title: ${yamlStr(`${e.event} : fiction, contexte et limites`)}`,
-      `description: ${yamlStr(`Analyse de ${f.id} (${e.source}) : faits de la fiction, contexte de diffusion, parallèle réel et limites de l’analogie.`)}`,
+      `title: ${yamlStr(`Analyse — ${e.event}`)}`,
+      `description: ${yamlStr(courte(`${oeuvres(e, 2).replace(/^./, (c) => c.toUpperCase())} : faits de la fiction, contexte de diffusion, parallèle réel et limites de l’analogie.`))}`,
+      // Type Article date, comme les fiches : publiee avec les analyses (V0.4), revue avec sa fiche.
+      `date: ${dateVersion('V0.4')}`,
+      `last_modified_at: ${[dateVersion('V0.4'), dateVersion((/^V\d+\.\d+/.exec(e.version_entree) || [])[0]) || ''].sort().pop()}`,
+      'seo:', '  type: Article',
       `permalink: /analyses/${f.id}/`, 'nav: analyses', '---', ''].join('\n'));
   }
 

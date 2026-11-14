@@ -1,6 +1,6 @@
 # Rapport de qualité documentaire
 
-> Généré par `scripts/validate.mjs` le 2026-11-14. Source : `data/source/Star_Trek_Atlas_Politique_V0_23_2026-11-14.csv`, `data/source/Star_Trek_Atlas_Politique_V0_23_2026-11-14.md`.
+> Généré par `scripts/validate.mjs` le 2026-11-14. Source : `data/source/Star_Trek_Atlas_Politique_V0_24_2026-11-14.csv`, `data/source/Star_Trek_Atlas_Politique_V0_24_2026-11-14.md`.
 
 **Bilan : 0 erreur(s), 2 avertissement(s).**
 
@@ -8,11 +8,11 @@
 |---|---|---|---|
 | 1 | Identifiants uniques et non vides | ok | 305 identifiants distincts, 305 déjà publiés suivis. |
 | 2 | Lignes importées et rejets | ok | 305 entrées importées, 0 rejet(s), 305 annoncées par le Markdown. |
-| 3 | Niveaux de recoupement A / B / C | ok | A : 258, B : 38, C : 1. |
+| 3 | Niveaux de recoupement A / B / C | ok | A : 256, B : 40, C : 1. |
 | 4 | Liens syntaxiquement valides | ok | 727 URL contrôlées (syntaxe seulement, pas de requête réseau). |
 | 5 | Présence des fiches approfondies | ok | 31 fiches : STP-006, STP-034, STP-048, STP-061, STP-077, STP-094, STP-101, STP-107, STP-125, STP-126, STP-129, STP-139, STP-149, STP-153, STP-157, STP-172, STP-194, STP-197, STP-230, STP-239, STP-267, STP-271, STP-274, STP-281, STP-282, STP-286, STP-293, STP-295, STP-297, STP-298, STP-300. |
 | 6 | Cohérence fiches ↔ événements | ok | 305 notices de registre comparées au CSV ; 8 doublons tranchés et 164 relations documentées vérifiés. |
-| 7 | Dates ambiguës conservées en texte | ok | 93 périodes non réductibles à une année, conservées telles quelles ; la clé d'ordre ne sert qu'au tri et n'est jamais affichée. |
+| 7 | Dates ambiguës conservées en texte | ok | 94 périodes non réductibles à une année, conservées telles quelles ; la clé d'ordre ne sert qu'au tri et n'est jamais affichée. |
 | 8 | Continuités alternatives distinctes | avertissement | Continuité principale : 281, Univers Miroir : 8, Chronologie Kelvin : 4, Temporalité ou réalité modifiée : 4. |
 | 9 | Aucun enrichissement inventé | ok | Champs dérivés limités à une liste fermée ; textes des fiches = sous-chaînes exactes du Markdown ; dates de diffusion toutes sourcées. |
 | 10 | Aucune perte de données | ok | CSV reconstruit à partir des données publiées et comparé octet par octet (hors BOM et fins de ligne). |

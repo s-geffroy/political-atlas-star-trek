@@ -6,11 +6,11 @@
  "niveaux": [
   {
    "cle": "A",
-   "n": 258
+   "n": 256
   },
   {
    "cle": "B",
-   "n": 38
+   "n": 40
   },
   {
    "cle": "C",
@@ -283,15 +283,11 @@
  "versions": [
   {
    "cle": "V0.14 révisé",
-   "n": 187
+   "n": 186
   },
   {
    "cle": "V0.19 révisé",
    "n": 47
-  },
-  {
-   "cle": "V0.23 révisé",
-   "n": 14
   },
   {
    "cle": "V0.21 révisé",
@@ -306,11 +302,19 @@
    "n": 9
   },
   {
+   "cle": "V0.24 révisé",
+   "n": 8
+  },
+  {
    "cle": "V0.17 révisé",
    "n": 7
   },
   {
    "cle": "V0.18 révisé",
+   "n": 7
+  },
+  {
+   "cle": "V0.23 révisé",
    "n": 7
   },
   {
@@ -329,12 +333,12 @@
  "precisions": [
   {
    "cle": "annee",
-   "n": 210,
+   "n": 209,
    "nom": "Année explicite"
   },
   {
    "cle": "annee_qualifiee",
-   "n": 19,
+   "n": 20,
    "nom": "Année avec réserve (intervalle, « env. », alternative…)"
   },
   {

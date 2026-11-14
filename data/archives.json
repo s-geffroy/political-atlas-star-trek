@@ -1061,6 +1061,12 @@
    "statut_http": 403,
    "teste_le": "2026-11-13"
   },
+  "https://memory-alpha.fandom.com/wiki/The_Forge_(episode)": {
+   "archive": "https://web.archive.org/web/20251028050442/https://memory-alpha.fandom.com/wiki/The_Forge_(episode)",
+   "archive_date": "2025-10-28",
+   "statut_http": 403,
+   "teste_le": "2026-11-14"
+  },
   "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)": {
    "archive": "https://web.archive.org/web/20260718093021/https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
    "archive_date": "2026-07-18",
@@ -1090,6 +1096,12 @@
    "archive_date": "2026-08-24",
    "statut_http": 403,
    "teste_le": "2026-11-13"
+  },
+  "https://memory-alpha.fandom.com/wiki/Will_You_Take_My_Hand%3F_(episode)": {
+   "archive": "https://web.archive.org/web/20260622143542/https://memory-alpha.fandom.com/wiki/Will_You_Take_My_Hand%3F_(episode)",
+   "archive_date": "2026-06-22",
+   "statut_http": 403,
+   "teste_le": "2026-11-14"
   },
   "https://memory-alpha.fandom.com/wiki/Winn_Adami": {
    "archive": "https://web.archive.org/web/20260222185510/https://memory-alpha.fandom.com/wiki/Winn_Adami",
@@ -1356,12 +1368,6 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
-  "https://www.startrek.com/en-un/news/15-years-ago-one-enterprise-epic-set-the-stage-for-discovery": {
-   "archive": "https://web.archive.org/web/20260808043805/https://www.startrek.com/news/15-years-ago-one-enterprise-epic-set-the-stage-for-discovery",
-   "archive_date": "2026-08-08",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
   "https://www.startrek.com/en-un/news/50-years-later-plato-s-stepchildren": {
    "archive": "https://web.archive.org/web/20251206172308/https://www.startrek.com/en-un/news/50-years-later-plato-s-stepchildren",
    "archive_date": "2025-12-06",
@@ -1421,6 +1427,12 @@
    "archive_date": "2026-08-07",
    "statut_http": 200,
    "teste_le": "2026-11-13"
+  },
+  "https://www.startrek.com/en-un/news/below-deck-with-lower-decks-boiming-the-rifts": {
+   "archive": "https://web.archive.org/web/20250720143503/https://www.startrek.com/en-un/news/below-deck-with-lower-decks-boiming-the-rifts",
+   "archive_date": "2025-07-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-14"
   },
   "https://www.startrek.com/en-un/news/below-deck-with-lower-decks-ornara-and-brekka": {
    "archive": "https://web.archive.org/web/20260411025402/https://www.startrek.com/news/below-deck-with-lower-decks-ornara-and-brekka",
@@ -1509,12 +1521,6 @@
   "https://www.startrek.com/en-un/news/enterprises-ambitious-arcs": {
    "archive": "https://web.archive.org/web/20260413211516/https://www.startrek.com/news/enterprises-ambitious-arcs",
    "archive_date": "2026-04-13",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://www.startrek.com/en-un/news/essential-ro-laren-watch-list": {
-   "archive": "https://web.archive.org/web/20250820115422/https://www.startrek.com/en-un/news/essential-ro-laren-watch-list",
-   "archive_date": "2025-08-20",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
@@ -1959,12 +1965,6 @@
   "https://www.startrek.com/en-un/news/vulcans-and-romulans-a-primer-on-unification": {
    "archive": "https://web.archive.org/web/20250905235322/https://www.startrek.com/en-un/news/vulcans-and-romulans-a-primer-on-unification",
    "archive_date": "2025-09-05",
-   "statut_http": 200,
-   "teste_le": "2026-11-13"
-  },
-  "https://www.startrek.com/en-un/news/warp-five-lowers-decks-series-finale-cerritos-future": {
-   "archive": "https://web.archive.org/web/20250315044737/https://www.startrek.com/en-un/news/warp-five-lowers-decks-series-finale-cerritos-future",
-   "archive_date": "2025-03-15",
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },

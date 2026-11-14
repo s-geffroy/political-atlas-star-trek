@@ -1076,7 +1076,7 @@
       }
      ],
      "titre_complet": "Guerre totale de l'Antiquité vulcaine puis doctrine de Surak",
-     "niv": "A",
+     "niv": "B",
      "cycle": "Terre : origines et histoire antérieure"
     },
     {
@@ -1322,28 +1322,6 @@
      "cycle": "Discovery : futur et reconstruction post-Burn"
     },
     {
-     "id": "STP-187",
-     "x": 716,
-     "y": 246,
-     "w": 250,
-     "h": 60,
-     "tx": 726,
-     "id_y": 262,
-     "lignes": [
-      {
-       "t": "Réintégration de Ni'Var et de",
-       "y": 280
-      },
-      {
-       "t": "la Terre à la Fédération",
-       "y": 296
-      }
-     ],
-     "titre_complet": "Réintégration de Ni'Var et de la Terre à la Fédération",
-     "niv": "A",
-     "cycle": "Discovery : futur et reconstruction post-Burn"
-    },
-    {
      "id": "STP-188",
      "x": 56,
      "y": 558,
@@ -1362,6 +1340,28 @@
       }
      ],
      "titre_complet": "Catastrophe du DMA, destruction de Kwejian par l'anomalie",
+     "niv": "A",
+     "cycle": "Discovery : futur et reconstruction post-Burn"
+    },
+    {
+     "id": "STP-187",
+     "x": 716,
+     "y": 246,
+     "w": 250,
+     "h": 60,
+     "tx": 726,
+     "id_y": 262,
+     "lignes": [
+      {
+       "t": "Réintégration de Ni'Var et de",
+       "y": 280
+      },
+      {
+       "t": "la Terre à la Fédération",
+       "y": 296
+      }
+     ],
+     "titre_complet": "Réintégration de Ni'Var et de la Terre à la Fédération",
      "niv": "A",
      "cycle": "Discovery : futur et reconstruction post-Burn"
     },
@@ -1765,8 +1765,8 @@
     "STP-181",
     "STP-182",
     "STP-183",
-    "STP-187",
     "STP-188",
+    "STP-187",
     "STP-189",
     "STP-190",
     "STP-228",
@@ -1881,7 +1881,7 @@
       }
      ],
      "titre_complet": "Projet fédéral d'anéantir Qo'noS, abandonné sous la menace d'une mutinerie de l'équipage",
-     "niv": "A",
+     "niv": "B",
      "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle"
     },
     {

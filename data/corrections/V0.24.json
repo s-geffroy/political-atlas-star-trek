@@ -1,0 +1,136 @@
+{
+ "version": "V0.24",
+ "date": "2026-11-14",
+ "date_longue": "14 novembre 2026",
+ "base": "V0_23_2026-11-14",
+ "titre": "Atlas politique de Star Trek — V0.24 : niveaux A sur pages d’épisode, deux périodes",
+ "resume": "Six entrées de niveau A reposaient sur un article thématique de startrek.com : quatre gardent le niveau A sur la page officielle propre à leur épisode (STP-020, 115, 158, 217), deux passent en B faute d’une telle page (STP-001, 042). STP-187 est datée de 3190 d’après les dialogues de la série, STP-224 de 2384–2385 d’après les journaux de bord.",
+ "methode": {
+  "revue": "points mineurs de la revue du 14 novembre 2026, proposition validée le 2026-11-14 (docs/proposition-v024.md) ; citations contrôlées sur les pages."
+ },
+ "comptes": {
+  "corrections": 8
+ },
+ "corrections": [
+  {
+   "id": "STP-001",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "A",
+     "apres": "B"
+    },
+    "url_source": {
+     "avant": "https://www.startrek.com/en-un/news/15-years-ago-one-enterprise-epic-set-the-stage-for-discovery",
+     "apres": "https://memory-alpha.fandom.com/wiki/The_Forge_(episode)"
+    },
+    "nature_source": {
+     "avant": "Éditorial officiel",
+     "apres": "Résumé d’épisode (Memory Alpha)"
+    }
+   },
+   "motif": "niveau A ramené à B (revue du 14 novembre 2026) — la source précédente était un article thématique de startrek.com, et aucune page officielle propre aux épisodes ne confirme le fait (pages de l’ancienne base de startrek.com et Paramount+ lues) ; source secondaire propre à l’épisode (https://memory-alpha.fandom.com/wiki/The_Forge_(episode)) : Soval : « We had our wars, Admiral, just as Humans did. Our planet was devastated, our civilization nearly destroyed. Logic saved us » ; Memory Alpha, « The Savage Curtain » : « the option that resolved the final war on Vulcan »."
+  },
+  {
+   "id": "STP-020",
+   "type": "recoupement",
+   "champs": {
+    "url_source": {
+     "avant": "https://www.startrek.com/en-un/news/pre-warp-impersonations-prime-directive",
+     "apres": "https://web.archive.org/web/20100719215348/http://www.startrek.com:80/database_article/civilization"
+    },
+    "nature_source": {
+     "avant": "Éditorial officiel",
+     "apres": "Récapitulatif officiel"
+    }
+   },
+   "motif": "niveau A maintenu sur une page officielle propre à l’épisode (revue du 14 novembre 2026) — la source précédente était un article thématique de startrek.com ; la page de l’épisode, lue dans sa copie archivée (https://web.archive.org/web/20100719215348/http://www.startrek.com:80/database_article/civilization), dit : « they're mining a veridium isotope… their drill bits are saturated with tetracyanate » ; « the city's groundwater is contaminated with tetracyanate 622 ». La réserve de la V0.5 sur l’exploitation minière est levée."
+  },
+  {
+   "id": "STP-042",
+   "type": "recoupement",
+   "champs": {
+    "niveau_recoupement": {
+     "avant": "A",
+     "apres": "B"
+    },
+    "url_source": {
+     "avant": "https://www.startrek.com/en-un/news/starfleet-encounters-with-qonos",
+     "apres": "https://memory-alpha.fandom.com/wiki/Will_You_Take_My_Hand%3F_(episode)"
+    },
+    "nature_source": {
+     "avant": "Éditorial officiel",
+     "apres": "Résumé d’épisode (Memory Alpha)"
+    }
+   },
+   "motif": "niveau A ramené à B (revue du 14 novembre 2026) — la source précédente était un article thématique de startrek.com, et aucune page officielle propre aux épisodes ne confirme le fait (pages de l’ancienne base de startrek.com et Paramount+ lues) ; source secondaire propre à l’épisode (https://memory-alpha.fandom.com/wiki/Will_You_Take_My_Hand%3F_(episode)) : « detonating a hydro bomb in an active volcano would lead to an apocalyptic explosion that would render the planet uninhabitable » ; « She threatens another mutiny… the crew stands to support her »."
+  },
+  {
+   "id": "STP-115",
+   "type": "recoupement",
+   "champs": {
+    "url_source": {
+     "avant": "https://www.startrek.com/en-un/news/essential-ro-laren-watch-list",
+     "apres": "https://web.archive.org/web/20100719173348/http://www.startrek.com:80/database_article/preemptive-strike"
+    },
+    "nature_source": {
+     "avant": "Éditorial officiel",
+     "apres": "Récapitulatif officiel"
+    }
+   },
+   "motif": "niveau A maintenu sur une page officielle propre à l’épisode (revue du 14 novembre 2026) — la source précédente était un article thématique de startrek.com ; la page de l’épisode, lue dans sa copie archivée (https://web.archive.org/web/20100719173348/http://www.startrek.com:80/database_article/preemptive-strike), dit : « send Ro Laren into the Maquis community as an undercover operative » ; « The Maquis ships retreat, and Ro goes with them »."
+  },
+  {
+   "id": "STP-158",
+   "type": "recoupement",
+   "champs": {
+    "url_source": {
+     "avant": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
+     "apres": "https://web.archive.org/web/20101130130656/http://www.startrek.com:80/database_article/what-you-leave-behind-part-ii"
+    },
+    "nature_source": {
+     "avant": "Éditorial officiel",
+     "apres": "Récapitulatif officiel"
+    }
+   },
+   "motif": "niveau A maintenu sur une page officielle propre à l’épisode (revue du 14 novembre 2026) — la source précédente était un article thématique de startrek.com ; la page de l’épisode, lue dans sa copie archivée (https://web.archive.org/web/20101130130656/http://www.startrek.com:80/database_article/what-you-leave-behind-part-ii), dit : « she orders a cease-fire » ; « With the signing of surrender documents, the war officially ends. » Le mot « armistice » de l’intitulé repose sur Wikipedia (note V0.23)."
+  },
+  {
+   "id": "STP-217",
+   "type": "recoupement",
+   "champs": {
+    "url_source": {
+     "avant": "https://www.startrek.com/en-un/news/warp-five-lowers-decks-series-finale-cerritos-future",
+     "apres": "https://www.startrek.com/en-un/news/below-deck-with-lower-decks-boiming-the-rifts"
+    },
+    "nature_source": {
+     "avant": "Éditorial officiel",
+     "apres": "Chronique officielle de l’épisode"
+    }
+   },
+   "motif": "niveau A maintenu sur une page officielle propre à l’épisode (revue du 14 novembre 2026) — la source précédente était un article thématique de startrek.com ; la page de l’épisode, lue en ligne (https://www.startrek.com/en-un/news/below-deck-with-lower-decks-boiming-the-rifts), dit : « finding and stopping whoever's been opening spatial rifts all over the place, using a special ship which can create dimensional rifts in order to bridge different realities » (chronique officielle propre à l’épisode « Fissure Quest »)."
+  },
+  {
+   "id": "STP-187",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "3189",
+     "apres": "3190"
+    }
+   },
+   "motif": "période corrigée (revue du 14 novembre 2026) — aucune année n’est prononcée dans « All Is Possible » ni « Coming Home », mais les dialogues de la série la fixent : « You have reached year 3188 » (saison 3, épisode 1) ; « I landed here a year ago » (saison 3, épisode 2, arrivée de Discovery en 3189) ; « Last year at this time, Federation Headquarters was cloaked » (saison 4, épisode 1, soit 3190). Memory Alpha place les deux réintégrations en 3190 ; « 3189 » contredisait ces répliques."
+  },
+  {
+   "id": "STP-224",
+   "type": "correction",
+   "champs": {
+    "period": {
+     "avant": "2384",
+     "apres": "2384–2385"
+    }
+   },
+   "motif": "période étendue (revue du 14 novembre 2026) — les journaux de bord de la saison 2 de Prodigy, recopiés par Memory Alpha, vont de 61859.6 (« Into the Breach, Part II ») et 61945.4 (« Ascension, Part I »), soit 2384, à 62083.5 (« Brink ») et 62314.8 (« Ouroboros, Part II »), soit 2385 (convention de l’ère TNG)."
+  }
+ ]
+}

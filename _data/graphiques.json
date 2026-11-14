@@ -1295,13 +1295,13 @@
    "code": "TOS",
    "nom": "The Original Series",
    "total": 25,
-   "A": 21,
-   "B": 4,
+   "A": 20,
+   "B": 5,
    "C": 0,
-   "pct_A": 35.59,
-   "pct_B": 6.78,
+   "pct_A": 33.9,
+   "pct_B": 8.47,
    "pct_C": 0,
-   "part_A": 84
+   "part_A": 80
   },
   {
    "code": "TAS",
@@ -1367,25 +1367,25 @@
    "code": "ENT",
    "nom": "Enterprise",
    "total": 33,
-   "A": 31,
-   "B": 2,
+   "A": 30,
+   "B": 3,
    "C": 0,
-   "pct_A": 52.54,
-   "pct_B": 3.39,
+   "pct_A": 50.85,
+   "pct_B": 5.08,
    "pct_C": 0,
-   "part_A": 94
+   "part_A": 91
   },
   {
    "code": "DIS",
    "nom": "Discovery",
    "total": 31,
-   "A": 30,
-   "B": 1,
+   "A": 29,
+   "B": 2,
    "C": 0,
-   "pct_A": 50.85,
-   "pct_B": 1.69,
+   "pct_A": 49.15,
+   "pct_B": 3.39,
    "pct_C": 0,
-   "part_A": 97
+   "part_A": 94
   },
   {
    "code": "Short Treks",

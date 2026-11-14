@@ -7,15 +7,16 @@ layout: default
 <h1 id="titre-groupe">Arc « {{ c.titre | escape }} »</h1>
 <p class="chapo">{{ c.taille }} événement{% if c.taille > 1 %}s{% endif %}, {{ c.nb_relations }} relation{% if c.nb_relations > 1 %}s{% endif %} documentée{% if c.nb_relations > 1 %}s{% endif %} ({{ c.series_noms | join: ", " }}). Lecture de gauche à droite : un fait est placé après ceux dont il est la conséquence ou la suite. Chaque événement mène à sa fiche.</p>
 {% include reseau-legende.html %}
+<p><a class="evitement-local" href="#relations-arc">Passer le graphe et aller à la liste des relations</a></p>
 <div class="defile" tabindex="0" role="region" aria-label="Graphe de l’arc « {{ c.titre | escape }} »">
 <svg class="reseau" width="{{ c.largeur }}" height="{{ c.hauteur }}" viewBox="0 0 {{ c.largeur }} {{ c.hauteur }}" role="group" aria-labelledby="titre-groupe">
   {%- for a in c.aretes %}<path d="{{ a.d }}" class="lien lien--{{ a.type }}"{% if a.type == "cause" %} marker-end="url(#fl-cause)"{% elsif a.type == "suite" %} marker-end="url(#fl-suite)"{% endif %} aria-hidden="true"/>{% endfor %}
   {%- for n in c.noeuds %}<a href="{{ '/evenements/' | append: n.id | append: '/' | relative_url }}" aria-label="{{ n.id }} — {{ n.titre_complet | escape }}"><title>{{ n.id }} — {{ n.titre_complet | escape }}</title><rect x="{{ n.x }}" y="{{ n.y }}" width="{{ n.w }}" height="{{ n.h }}" rx="6"/><text x="{{ n.tx }}" y="{{ n.id_y }}" class="n-id">{{ n.id }}</text>{% for l in n.lignes %}<text x="{{ n.tx }}" y="{{ l.y }}">{{ l.t | escape }}</text>{% endfor %}</a>{% endfor %}
 </svg>
 </div>
-<h2>Relations de l’arc</h2>
+<h2 id="relations-arc">Relations de l’arc</h2>
 {%- if c.nb_relations == 0 %}
-<p>Aucune relation interne : cet événement n’est relié qu’à d’autres arcs.</p>
+<p>Aucune relation interne : {% if c.taille > 1 %}ces événements ne sont reliés{% else %}cet événement n’est relié{% endif %} qu’à d’autres arcs.</p>
 {%- else %}
 <ul class="relations">
   {%- for a in c.aretes %}{% unless a.type == "episode_commun" %}{% assign n1 = c.noeuds | where: "id", a.de | first %}{% assign n2 = c.noeuds | where: "id", a.vers | first %}

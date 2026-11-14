@@ -166,6 +166,9 @@
    {
     "titre": "The Savage Curtain",
     "source_url": "http://www.chakoteya.net/StarTrek/77.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/77.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Savage_Curtain_(episode)",
     "dates": [
      {
@@ -176,7 +179,8 @@
       "date": "5906.5",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -447,23 +451,35 @@
    {
     "titre": "Contagion",
     "source_url": "http://www.chakoteya.net/NextGen/137.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/137.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Contagion_(episode)",
     "dates": [
      {
       "date": "42609.1",
       "annee": 2365
      }
+    ],
+    "annees": [
+     2365
     ]
    },
    {
     "titre": "To the Death",
     "source_url": "http://www.chakoteya.net/DS9/496.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/496.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/To_the_Death_(episode)",
     "dates": [
      {
       "date": "49904.2",
       "annee": 2372
      }
+    ],
+    "annees": [
+     2372
     ]
    }
   ],
@@ -609,13 +625,17 @@
    {
     "titre": "The Slaver Weapon",
     "source_url": "http://www.chakoteya.net/StarTrek/TAS011.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/TAS011.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Slaver_Weapon_(episode)",
     "dates": [
      {
       "date": "4187.3",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -796,24 +816,32 @@
    {
     "titre": "Space Seed",
     "source_url": "http://www.chakoteya.net/StarTrek/24.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/24.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Space_Seed_(episode)",
     "dates": [
      {
       "date": "3141.9",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    },
    {
     "titre": "Tomorrow and Tomorrow and Tomorrow",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/203.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/203.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Tomorrow_and_Tomorrow_and_Tomorrow_(episode)",
     "dates": [
      {
       "date": "1581.2",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -924,12 +952,19 @@
    {
     "titre": "Past Tense",
     "source_url": "http://www.chakoteya.net/DS9/457.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/457.htm",
+     "http://www.chakoteya.net/DS9/458.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Past_Tense%2C_Part_I_(episode)",
     "dates": [
      {
       "date": "48481.2",
       "annee": 2371
      }
+    ],
+    "annees": [
+     2371
     ]
    }
   ],
@@ -1432,6 +1467,9 @@
    {
     "titre": "The Savage Curtain",
     "source_url": "http://www.chakoteya.net/StarTrek/77.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/77.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Savage_Curtain_(episode)",
     "dates": [
      {
@@ -1442,7 +1480,8 @@
       "date": "5906.5",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -1617,12 +1656,18 @@
    {
     "titre": "First Contact",
     "source_url": "http://www.chakoteya.net/movies/movie8.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie8.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek%3A_First_Contact",
     "dates": [
      {
       "date": "50893.5",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -1741,12 +1786,18 @@
    {
     "titre": "First Contact",
     "source_url": "http://www.chakoteya.net/movies/movie8.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie8.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek%3A_First_Contact",
     "dates": [
      {
       "date": "50893.5",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -1883,6 +1934,9 @@
    {
     "titre": "Up the Long Ladder",
     "source_url": "http://www.chakoteya.net/NextGen/144.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/144.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Up_The_Long_Ladder_(episode)",
     "dates": [
      {
@@ -1893,17 +1947,26 @@
       "date": "42827.3",
       "annee": 2365
      }
+    ],
+    "annees": [
+     2365
     ]
    },
    {
     "titre": "Attached",
     "source_url": "http://www.chakoteya.net/NextGen/260.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/260.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Attached_(episode)",
     "dates": [
      {
       "date": "47304.2",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -2018,13 +2081,17 @@
    {
     "titre": "The Slaver Weapon",
     "source_url": "http://www.chakoteya.net/StarTrek/TAS011.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/TAS011.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Slaver_Weapon_(episode)",
     "dates": [
      {
       "date": "4187.3",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -4786,6 +4853,9 @@
    {
     "titre": "Balance of Terror",
     "source_url": "http://www.chakoteya.net/StarTrek/9.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/9.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Balance_of_Terror_(episode)",
     "dates": [
      {
@@ -4796,7 +4866,8 @@
       "date": "1709.6",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -4908,6 +4979,9 @@
    {
     "titre": "Balance of Terror",
     "source_url": "http://www.chakoteya.net/StarTrek/9.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/9.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Balance_of_Terror_(episode)",
     "dates": [
      {
@@ -4918,7 +4992,8 @@
       "date": "1709.6",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -5049,12 +5124,18 @@
    {
     "titre": "These Are the Voyages…",
     "source_url": "http://www.chakoteya.net/Enterprise/98.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Enterprise/98.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/These_Are_The_Voyages..._(episode)",
     "dates": [
      {
       "date": "47457.1",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -5168,13 +5249,17 @@
    {
     "titre": "The Vulcan Hello",
     "source_url": "http://www.chakoteya.net/STDisco17/101.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STDisco17/101.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Vulcan_Hello_(episode)",
     "dates": [
      {
       "date": "1207.3",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -5427,6 +5512,9 @@
    {
     "titre": "Under the Cloak of War",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/208.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/208.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Under_the_Cloak_of_War_(episode)",
     "dates": [
      {
@@ -5437,7 +5525,8 @@
       "date": "1877.5",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -5932,13 +6021,18 @@
    {
     "titre": "Such Sweet Sorrow",
     "source_url": "http://www.chakoteya.net/STDisco17/213.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STDisco17/213.html",
+     "http://www.chakoteya.net/STDisco17/214.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Such_Sweet_Sorrow_(episode)",
     "dates": [
      {
       "date": "1051.8",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -6180,6 +6274,9 @@
    {
     "titre": "A Quality of Mercy",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/110.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/110.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/A_Quality_of_Mercy_(episode)",
     "dates": [
      {
@@ -6190,18 +6287,23 @@
       "date": "1709.2",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    },
    {
     "titre": "The Broken Circle",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/201.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/201.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Broken_Circle_(episode)",
     "dates": [
      {
       "date": "2369.2",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -6311,13 +6413,17 @@
    {
     "titre": "Ad Astra per Aspera",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/202.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/202.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ad_Astra_per_Aspera_(episode)",
     "dates": [
      {
       "date": "2393.8",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -6439,13 +6545,17 @@
    {
     "titre": "Lift Us Where Suffering Cannot Reach",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/106.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/106.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Lift_Us_Where_Suffering_Cannot_Reach_(episode)",
     "dates": [
      {
       "date": "1943.7",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -6565,24 +6675,32 @@
    {
     "titre": "Ghosts of Illyria",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/103.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/103.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ghosts_of_Illyria_(episode)",
     "dates": [
      {
       "date": "1224.3",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    },
    {
     "titre": "Ad Astra per Aspera",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/202.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/202.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ad_Astra_per_Aspera_(episode)",
     "dates": [
      {
       "date": "2393.8",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -6718,6 +6836,9 @@
    {
     "titre": "Memento Mori",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/104.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/104.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Memento_Mori_(episode)",
     "dates": [
      {
@@ -6728,18 +6849,23 @@
       "date": "3177.9",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    },
    {
     "titre": "Hegemony",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/210.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/210.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Hegemony_(episode)",
     "dates": [
      {
       "date": "2344.2",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -6836,13 +6962,17 @@
    {
     "titre": "The Broken Circle",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/201.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/201.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Broken_Circle_(episode)",
     "dates": [
      {
       "date": "2369.2",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -6946,6 +7076,9 @@
    {
     "titre": "Under the Cloak of War",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/208.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/208.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Under_the_Cloak_of_War_(episode)",
     "dates": [
      {
@@ -6956,7 +7089,8 @@
       "date": "1877.5",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -7349,6 +7483,9 @@
    {
     "titre": "Let That Be Your Last Battlefield",
     "source_url": "http://www.chakoteya.net/StarTrek/70.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/70.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Let_That_Be_Your_Last_Battlefield_(episode)",
     "dates": [
      {
@@ -7359,7 +7496,8 @@
       "date": "5730.7",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -7462,6 +7600,9 @@
    {
     "titre": "A Taste of Armageddon",
     "source_url": "http://www.chakoteya.net/StarTrek/23.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/23.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/A_Taste_of_Armageddon_(episode)",
     "dates": [
      {
@@ -7472,7 +7613,8 @@
       "date": "3193.0",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -7575,13 +7717,17 @@
    {
     "titre": "The Return of the Archons",
     "source_url": "http://www.chakoteya.net/StarTrek/22.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/22.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Return_of_the_Archons_(episode)",
     "dates": [
      {
       "date": "3158.7",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -7766,6 +7912,9 @@
    {
     "titre": "A Private Little War",
     "source_url": "http://www.chakoteya.net/StarTrek/45.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/45.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/A_Private_Little_War_(episode)",
     "dates": [
      {
@@ -7776,7 +7925,8 @@
       "date": "4211.8",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -7873,6 +8023,9 @@
    {
     "titre": "The Cloud Minders",
     "source_url": "http://www.chakoteya.net/StarTrek/74.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/74.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Cloud_Minders_(episode)",
     "dates": [
      {
@@ -7883,7 +8036,8 @@
       "date": "5819.3",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -7995,13 +8149,17 @@
    {
     "titre": "Errand of Mercy",
     "source_url": "http://www.chakoteya.net/StarTrek/27.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/27.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Errand_of_Mercy_(episode)",
     "dates": [
      {
       "date": "3198.4",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -8089,6 +8247,9 @@
    {
     "titre": "Balance of Terror",
     "source_url": "http://www.chakoteya.net/StarTrek/9.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/9.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Balance_of_Terror_(episode)",
     "dates": [
      {
@@ -8099,7 +8260,8 @@
       "date": "1709.6",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -8219,6 +8381,9 @@
    {
     "titre": "Journey to Babel",
     "source_url": "http://www.chakoteya.net/StarTrek/44.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/44.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Journey_to_Babel_(episode)",
     "dates": [
      {
@@ -8233,7 +8398,8 @@
       "date": "3843.4",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -8367,6 +8533,9 @@
    {
     "titre": "Friday's Child",
     "source_url": "http://www.chakoteya.net/StarTrek/32.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/32.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Friday's_Child_(episode)",
     "dates": [
      {
@@ -8381,7 +8550,8 @@
       "date": "3499.1",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -8582,6 +8752,9 @@
    {
     "titre": "The Gamesters of Triskelion",
     "source_url": "http://www.chakoteya.net/StarTrek/46.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/46.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Gamesters_of_Triskelion_(episode)",
     "dates": [
      {
@@ -8596,7 +8769,8 @@
       "date": "3259.2",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -8729,6 +8903,9 @@
    {
     "titre": "The Mark of Gideon",
     "source_url": "http://www.chakoteya.net/StarTrek/72.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/72.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Mark_of_Gideon_(episode)",
     "dates": [
      {
@@ -8739,7 +8916,8 @@
       "date": "5423.8",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -8842,6 +9020,9 @@
    {
     "titre": "The Way to Eden",
     "source_url": "http://www.chakoteya.net/StarTrek/75.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/75.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Way_to_Eden_(episode)",
     "dates": [
      {
@@ -8856,7 +9037,8 @@
       "date": "5832.6",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -8989,6 +9171,9 @@
    {
     "titre": "The Apple",
     "source_url": "http://www.chakoteya.net/StarTrek/38.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/38.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Apple_(episode)",
     "dates": [
      {
@@ -8999,7 +9184,8 @@
       "date": "3715.6",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -9123,13 +9309,17 @@
    {
     "titre": "The Jihad",
     "source_url": "http://www.chakoteya.net/StarTrek/TAS014.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/TAS014.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Jihad_(episode)",
     "dates": [
      {
       "date": "5683.1",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -9246,13 +9436,17 @@
    {
     "titre": "The Slaver Weapon",
     "source_url": "http://www.chakoteya.net/StarTrek/TAS011.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/TAS011.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Slaver_Weapon_(episode)",
     "dates": [
      {
       "date": "4187.3",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -9361,6 +9555,9 @@
    {
     "titre": "The Motion Picture",
     "source_url": "http://www.chakoteya.net/movies/movie1.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie1.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek%3A_The_Motion_Picture",
     "dates": [
      {
@@ -9375,7 +9572,8 @@
       "date": "7414.1",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -9498,6 +9696,9 @@
    {
     "titre": "The Wrath of Khan",
     "source_url": "http://www.chakoteya.net/movies/movie2.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie2.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_II%3A_The_Wrath_of_Khan",
     "dates": [
      {
@@ -9512,7 +9713,8 @@
       "date": "8141.6",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -9621,13 +9823,17 @@
    {
     "titre": "The Voyage Home",
     "source_url": "http://www.chakoteya.net/movies/movie4.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie4.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_IV%3A_The_Voyage_Home",
     "dates": [
      {
       "date": "8390",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -9862,13 +10068,17 @@
    {
     "titre": "The Undiscovered Country",
     "source_url": "http://www.chakoteya.net/movies/movie6.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie6.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_VI%3A_The_Undiscovered_Country",
     "dates": [
      {
       "date": "9522.6",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -9980,13 +10190,17 @@
    {
     "titre": "The Undiscovered Country",
     "source_url": "http://www.chakoteya.net/movies/movie6.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie6.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_VI%3A_The_Undiscovered_Country",
     "dates": [
      {
       "date": "9522.6",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -10126,13 +10340,17 @@
    {
     "titre": "The Undiscovered Country",
     "source_url": "http://www.chakoteya.net/movies/movie6.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie6.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_VI%3A_The_Undiscovered_Country",
     "dates": [
      {
       "date": "9522.6",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -10249,6 +10467,9 @@
    {
     "titre": "Generations",
     "source_url": "http://www.chakoteya.net/movies/movie7.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie7.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_Generations",
     "dates": [
      {
@@ -10259,6 +10480,9 @@
       "date": "48650.1",
       "annee": 2371
      }
+    ],
+    "annees": [
+     2371
     ]
    }
   ],
@@ -10370,12 +10594,18 @@
    {
     "titre": "First Contact",
     "source_url": "http://www.chakoteya.net/movies/movie8.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie8.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek%3A_First_Contact",
     "dates": [
      {
       "date": "50893.5",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -10570,12 +10800,18 @@
    {
     "titre": "Nemesis",
     "source_url": "http://www.chakoteya.net/movies/movie10.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie10.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_Nemesis",
     "dates": [
      {
       "date": "56844.9",
       "annee": 2379
      }
+    ],
+    "annees": [
+     2379
     ]
    }
   ],
@@ -10681,12 +10917,18 @@
    {
     "titre": "Nemesis",
     "source_url": "http://www.chakoteya.net/movies/movie10.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/movies/movie10.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_Nemesis",
     "dates": [
      {
       "date": "56844.9",
       "annee": 2379
      }
+    ],
+    "annees": [
+     2379
     ]
    }
   ],
@@ -11191,6 +11433,9 @@
    {
     "titre": "Encounter at Farpoint",
     "source_url": "http://www.chakoteya.net/NextGen/101.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/101.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Encounter_at_Farpoint_(episode)",
     "dates": [
      {
@@ -11205,6 +11450,9 @@
       "date": "41174.2",
       "annee": 2364
      }
+    ],
+    "annees": [
+     2364
     ]
    }
   ],
@@ -11322,6 +11570,9 @@
    {
     "titre": "The Last Outpost",
     "source_url": "http://www.chakoteya.net/NextGen/107.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/107.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Last_Outpost_(episode)",
     "dates": [
      {
@@ -11332,6 +11583,9 @@
       "date": "41386.5",
       "annee": 2364
      }
+    ],
+    "annees": [
+     2364
     ]
    }
   ],
@@ -11468,12 +11722,18 @@
    {
     "titre": "Code of Honor",
     "source_url": "http://www.chakoteya.net/NextGen/104.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/104.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Code_of_Honor_(episode)",
     "dates": [
      {
       "date": "41235.25",
       "annee": 2364
      }
+    ],
+    "annees": [
+     2364
     ]
    }
   ],
@@ -11582,6 +11842,9 @@
    {
     "titre": "Justice",
     "source_url": "http://www.chakoteya.net/NextGen/109.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/109.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Justice_(episode)",
     "dates": [
      {
@@ -11592,6 +11855,9 @@
       "date": "41255.9",
       "annee": 2364
      }
+    ],
+    "annees": [
+     2364
     ]
    }
   ],
@@ -11814,12 +12080,18 @@
    {
     "titre": "The Measure of a Man",
     "source_url": "http://www.chakoteya.net/NextGen/135.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/135.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Measure_Of_A_Man_(episode)",
     "dates": [
      {
       "date": "42523.7",
       "annee": 2365
      }
+    ],
+    "annees": [
+     2365
     ]
    }
   ],
@@ -11924,12 +12196,18 @@
    {
     "titre": "The Hunted",
     "source_url": "http://www.chakoteya.net/NextGen/159.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/159.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Hunted_(episode)",
     "dates": [
      {
       "date": "43489.2",
       "annee": 2366
      }
+    ],
+    "annees": [
+     2366
     ]
    }
   ],
@@ -12063,12 +12341,18 @@
    {
     "titre": "The Enemy",
     "source_url": "http://www.chakoteya.net/NextGen/155.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/155.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Enemy_(episode)",
     "dates": [
      {
       "date": "43349.2",
       "annee": 2366
      }
+    ],
+    "annees": [
+     2366
     ]
    }
   ],
@@ -12323,6 +12607,10 @@
    {
     "titre": "The Best of Both Worlds",
     "source_url": "http://www.chakoteya.net/NextGen/174.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/174.htm",
+     "http://www.chakoteya.net/NextGen/175.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Best_of_Both_Worlds_(episode)",
     "dates": [
      {
@@ -12345,11 +12633,17 @@
       "date": "43998.5",
       "annee": 2366
      }
+    ],
+    "annees": [
+     2366
     ]
    },
    {
     "titre": "Emissary",
     "source_url": "http://www.chakoteya.net/DS9/401.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/401.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Emissary_(episode)",
     "dates": [
      {
@@ -12364,6 +12658,9 @@
       "date": "46393.1",
       "annee": 2369
      }
+    ],
+    "annees": [
+     2369
     ]
    }
   ],
@@ -12617,12 +12914,18 @@
    {
     "titre": "Reunion",
     "source_url": "http://www.chakoteya.net/NextGen/181.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/181.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Reunion_(episode)",
     "dates": [
      {
       "date": "44246.3",
       "annee": 2367
      }
+    ],
+    "annees": [
+     2367
     ]
    }
   ],
@@ -12702,12 +13005,18 @@
    {
     "titre": "The Drumhead",
     "source_url": "http://www.chakoteya.net/NextGen/195.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/195.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Drumhead_(episode)",
     "dates": [
      {
       "date": "44769.2",
       "annee": 2367
      }
+    ],
+    "annees": [
+     2367
     ]
    }
   ],
@@ -12840,6 +13149,9 @@
    {
     "titre": "Redemption",
     "source_url": "http://www.chakoteya.net/NextGen/200.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/200.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Redemption_(episode)",
     "dates": [
      {
@@ -12854,6 +13166,9 @@
       "date": "44998.3",
       "annee": 2367
      }
+    ],
+    "annees": [
+     2367
     ]
    }
   ],
@@ -12981,6 +13296,9 @@
    {
     "titre": "Journey's End",
     "source_url": "http://www.chakoteya.net/NextGen/272.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/272.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Journey's_End_(episode)",
     "dates": [
      {
@@ -12991,6 +13309,9 @@
       "date": "47755.3",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -13117,6 +13438,9 @@
    {
     "titre": "Who Watches the Watchers",
     "source_url": "http://www.chakoteya.net/NextGen/152.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/152.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Who_Watches_The_Watchers_(episode)",
     "dates": [
      {
@@ -13127,6 +13451,9 @@
       "date": "43174.2",
       "annee": 2366
      }
+    ],
+    "annees": [
+     2366
     ]
    }
   ],
@@ -13387,12 +13714,18 @@
    {
     "titre": "Face of the Enemy",
     "source_url": "http://www.chakoteya.net/NextGen/240.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/240.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Face_Of_The_Enemy_(episode)",
     "dates": [
      {
       "date": "46519.1",
       "annee": 2369
      }
+    ],
+    "annees": [
+     2369
     ]
    }
   ],
@@ -13495,6 +13828,9 @@
    {
     "titre": "The Outcast",
     "source_url": "http://www.chakoteya.net/NextGen/217.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/217.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Outcast_(episode)",
     "dates": [
      {
@@ -13505,6 +13841,9 @@
       "date": "45620.4",
       "annee": 2368
      }
+    ],
+    "annees": [
+     2368
     ]
    }
   ],
@@ -13613,6 +13952,9 @@
    {
     "titre": "Half a Life",
     "source_url": "http://www.chakoteya.net/NextGen/196.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/196.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Half_a_Life_(episode)",
     "dates": [
      {
@@ -13623,6 +13965,9 @@
       "date": "44812.6",
       "annee": 2367
      }
+    ],
+    "annees": [
+     2367
     ]
    }
   ],
@@ -13726,12 +14071,18 @@
    {
     "titre": "Angel One",
     "source_url": "http://www.chakoteya.net/NextGen/115.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/115.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Angel_One_(episode)",
     "dates": [
      {
       "date": "41636.9",
       "annee": 2364
      }
+    ],
+    "annees": [
+     2364
     ]
    }
   ],
@@ -13825,6 +14176,10 @@
    {
     "titre": "Chain of Command",
     "source_url": "http://www.chakoteya.net/NextGen/236.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/236.htm",
+     "http://www.chakoteya.net/NextGen/237.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Chain_Of_Command%2C_Part_I_(episode)",
     "dates": [
      {
@@ -13839,6 +14194,9 @@
       "date": "46360.8",
       "annee": 2369
      }
+    ],
+    "annees": [
+     2369
     ]
    }
   ],
@@ -13939,6 +14297,9 @@
    {
     "titre": "The Quality of Life",
     "source_url": "http://www.chakoteya.net/NextGen/235.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/235.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Quality_of_Life_(episode)",
     "dates": [
      {
@@ -13961,6 +14322,9 @@
       "date": "46317.8",
       "annee": 2369
      }
+    ],
+    "annees": [
+     2369
     ]
    }
   ],
@@ -14075,12 +14439,18 @@
    {
     "titre": "The High Ground",
     "source_url": "http://www.chakoteya.net/NextGen/160.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/160.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_High_Ground_(episode)",
     "dates": [
      {
       "date": "43510.7",
       "annee": 2366
      }
+    ],
+    "annees": [
+     2366
     ]
    }
   ],
@@ -14197,6 +14567,9 @@
    {
     "titre": "The Wounded",
     "source_url": "http://www.chakoteya.net/NextGen/186.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/186.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Wounded_(episode)",
     "dates": [
      {
@@ -14207,6 +14580,9 @@
       "date": "44431.7",
       "annee": 2367
      }
+    ],
+    "annees": [
+     2367
     ]
    }
   ],
@@ -14342,6 +14718,9 @@
    {
     "titre": "Journey's End",
     "source_url": "http://www.chakoteya.net/NextGen/272.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/272.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Journey's_End_(episode)",
     "dates": [
      {
@@ -14352,11 +14731,17 @@
       "date": "47755.3",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    },
    {
     "titre": "Preemptive Strike",
     "source_url": "http://www.chakoteya.net/NextGen/276.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/276.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)",
     "dates": [
      {
@@ -14367,6 +14752,9 @@
       "date": "47943.2",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -14538,6 +14926,9 @@
    {
     "titre": "Preemptive Strike",
     "source_url": "http://www.chakoteya.net/NextGen/276.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/276.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)",
     "dates": [
      {
@@ -14548,6 +14939,9 @@
       "date": "47943.2",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -14653,12 +15047,18 @@
    {
     "titre": "The Pegasus",
     "source_url": "http://www.chakoteya.net/NextGen/264.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/264.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Pegasus_(episode)",
     "dates": [
      {
       "date": "47457.1",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -14756,12 +15156,18 @@
    {
     "titre": "The Offspring",
     "source_url": "http://www.chakoteya.net/NextGen/164.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/164.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Offspring_(episode)",
     "dates": [
      {
       "date": "43657.0",
       "annee": 2366
      }
+    ],
+    "annees": [
+     2366
     ]
    }
   ],
@@ -14865,6 +15271,9 @@
    {
     "titre": "Homeward",
     "source_url": "http://www.chakoteya.net/NextGen/265.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/265.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Homeward_(episode)",
     "dates": [
      {
@@ -14875,6 +15284,9 @@
       "date": "47427.2",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -15129,6 +15541,9 @@
    {
     "titre": "Emissary",
     "source_url": "http://www.chakoteya.net/DS9/401.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/401.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Emissary_(episode)",
     "dates": [
      {
@@ -15143,17 +15558,26 @@
       "date": "46393.1",
       "annee": 2369
      }
+    ],
+    "annees": [
+     2369
     ]
    },
    {
     "titre": "Necessary Evil",
     "source_url": "http://www.chakoteya.net/DS9/428.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/428.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Necessary_Evil_(episode)",
     "dates": [
      {
       "date": "47284.1",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -15328,6 +15752,9 @@
    {
     "titre": "Emissary",
     "source_url": "http://www.chakoteya.net/DS9/401.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/401.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Emissary_(episode)",
     "dates": [
      {
@@ -15342,17 +15769,26 @@
       "date": "46393.1",
       "annee": 2369
      }
+    ],
+    "annees": [
+     2369
     ]
    },
    {
     "titre": "The Darkness and the Light",
     "source_url": "http://www.chakoteya.net/DS9/509.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/509.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Darkness_and_the_Light_(episode)",
     "dates": [
      {
       "date": "50416.2",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -15515,6 +15951,9 @@
    {
     "titre": "Emissary",
     "source_url": "http://www.chakoteya.net/DS9/401.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/401.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Emissary_(episode)",
     "dates": [
      {
@@ -15529,6 +15968,9 @@
       "date": "46393.1",
       "annee": 2369
      }
+    ],
+    "annees": [
+     2369
     ]
    }
   ],
@@ -15676,6 +16118,9 @@
    {
     "titre": "Emissary",
     "source_url": "http://www.chakoteya.net/DS9/401.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/401.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Emissary_(episode)",
     "dates": [
      {
@@ -15690,6 +16135,9 @@
       "date": "46393.1",
       "annee": 2369
      }
+    ],
+    "annees": [
+     2369
     ]
    }
   ],
@@ -16756,6 +17204,9 @@
    {
     "titre": "The Adversary",
     "source_url": "http://www.chakoteya.net/DS9/472.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/472.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Adversary_(episode)",
     "dates": [
      {
@@ -16770,6 +17221,9 @@
       "date": "48962.5",
       "annee": 2371
      }
+    ],
+    "annees": [
+     2371
     ]
    }
   ],
@@ -16951,6 +17405,9 @@
    {
     "titre": "Cardassians",
     "source_url": "http://www.chakoteya.net/DS9/425.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/425.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Cardassians_(episode)",
     "dates": [
      {
@@ -16961,6 +17418,9 @@
       "date": "47178.3",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -17353,12 +17813,18 @@
    {
     "titre": "The Way of the Warrior",
     "source_url": "http://www.chakoteya.net/DS9/473.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/473.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
     "dates": [
      {
       "date": "49011.4",
       "annee": 2372
      }
+    ],
+    "annees": [
+     2372
     ]
    }
   ],
@@ -17515,12 +17981,18 @@
    {
     "titre": "The Way of the Warrior",
     "source_url": "http://www.chakoteya.net/DS9/473.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/473.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
     "dates": [
      {
       "date": "49011.4",
       "annee": 2372
      }
+    ],
+    "annees": [
+     2372
     ]
    }
   ],
@@ -17662,12 +18134,18 @@
    {
     "titre": "The Way of the Warrior",
     "source_url": "http://www.chakoteya.net/DS9/473.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/473.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
     "dates": [
      {
       "date": "49011.4",
       "annee": 2372
      }
+    ],
+    "annees": [
+     2372
     ]
    }
   ],
@@ -18058,6 +18536,9 @@
    {
     "titre": "For the Uniform",
     "source_url": "http://www.chakoteya.net/DS9/511.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/511.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/For_the_Uniform_(episode)",
     "dates": [
      {
@@ -18068,6 +18549,9 @@
       "date": "50488.2",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -18230,12 +18714,18 @@
    {
     "titre": "Necessary Evil",
     "source_url": "http://www.chakoteya.net/DS9/428.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/428.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Necessary_Evil_(episode)",
     "dates": [
      {
       "date": "47284.1",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -18370,12 +18860,18 @@
    {
     "titre": "By Inferno's Light",
     "source_url": "http://www.chakoteya.net/DS9/513.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/513.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/By_Inferno's_Light_(episode)",
     "dates": [
      {
       "date": "50564.2",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -18518,23 +19014,35 @@
    {
     "titre": "By Inferno's Light",
     "source_url": "http://www.chakoteya.net/DS9/513.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/513.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/By_Inferno's_Light_(episode)",
     "dates": [
      {
       "date": "50564.2",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    },
    {
     "titre": "Hunters",
     "source_url": "http://www.chakoteya.net/Voyager/413.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/413.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Hunters_(episode)",
     "dates": [
      {
       "date": "51501.4",
       "annee": 2374
      }
+    ],
+    "annees": [
+     2374
     ]
    }
   ],
@@ -18655,12 +19163,18 @@
    {
     "titre": "Call to Arms",
     "source_url": "http://www.chakoteya.net/DS9/524.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/524.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Call_to_Arms_(episode)",
     "dates": [
      {
       "date": "50975.2",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -18824,12 +19338,18 @@
    {
     "titre": "Call to Arms",
     "source_url": "http://www.chakoteya.net/DS9/524.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/524.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Call_to_Arms_(episode)",
     "dates": [
      {
       "date": "50975.2",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -18993,12 +19513,18 @@
    {
     "titre": "Call to Arms",
     "source_url": "http://www.chakoteya.net/DS9/524.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/524.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Call_to_Arms_(episode)",
     "dates": [
      {
       "date": "50975.2",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -19350,6 +19876,9 @@
    {
     "titre": "Behind the Lines",
     "source_url": "http://www.chakoteya.net/DS9/528.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/528.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Behind_the_Lines_(episode)",
     "dates": [
      {
@@ -19360,6 +19889,9 @@
       "date": "51149.5",
       "annee": 2374
      }
+    ],
+    "annees": [
+     2374
     ]
    }
   ],
@@ -19507,12 +20039,18 @@
    {
     "titre": "Hippocratic Oath",
     "source_url": "http://www.chakoteya.net/DS9/475.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/475.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Hippocratic_Oath_(episode)",
     "dates": [
      {
       "date": "49066.5",
       "annee": 2372
      }
+    ],
+    "annees": [
+     2372
     ]
    }
   ],
@@ -19759,12 +20297,18 @@
    {
     "titre": "Extreme Measures",
     "source_url": "http://www.chakoteya.net/DS9/573.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/573.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Extreme_Measures_(episode)",
     "dates": [
      {
       "date": "52645.7",
       "annee": 2375
      }
+    ],
+    "annees": [
+     2375
     ]
    }
   ],
@@ -20858,17 +21402,26 @@
    {
     "titre": "Caretaker",
     "source_url": "http://www.chakoteya.net/Voyager/101.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/101.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Caretaker_(episode)",
     "dates": [
      {
       "date": "48315.6",
       "annee": 2371
      }
+    ],
+    "annees": [
+     2371
     ]
    },
    {
     "titre": "Learning Curve",
     "source_url": "http://www.chakoteya.net/Voyager/115.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/115.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Learning_Curve_(episode)",
     "dates": [
      {
@@ -20879,6 +21432,9 @@
       "date": "48859.3",
       "annee": 2371
      }
+    ],
+    "annees": [
+     2371
     ]
    }
   ],
@@ -21064,17 +21620,26 @@
    {
     "titre": "Initiations",
     "source_url": "http://www.chakoteya.net/Voyager/201.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/201.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Initiations_(episode)",
     "dates": [
      {
       "date": "49005.3",
       "annee": 2372
      }
+    ],
+    "annees": [
+     2372
     ]
    },
    {
     "titre": "Maneuvers",
     "source_url": "http://www.chakoteya.net/Voyager/207.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/207.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Maneuvers_(episode)",
     "dates": [
      {
@@ -21085,6 +21650,9 @@
       "date": "49211.5",
       "annee": 2372
      }
+    ],
+    "annees": [
+     2372
     ]
    }
   ],
@@ -21456,12 +22024,18 @@
    {
     "titre": "Death Wish",
     "source_url": "http://www.chakoteya.net/Voyager/210.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/210.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Death_Wish_(episode)",
     "dates": [
      {
       "date": "49301.2",
       "annee": 2372
      }
+    ],
+    "annees": [
+     2372
     ]
    }
   ],
@@ -21580,6 +22154,9 @@
    {
     "titre": "The Q and the Grey",
     "source_url": "http://www.chakoteya.net/Voyager/306.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/306.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Q_and_the_Grey_(episode)",
     "dates": [
      {
@@ -21590,6 +22167,9 @@
       "date": "50392.7",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -21722,12 +22302,18 @@
    {
     "titre": "The Chute",
     "source_url": "http://www.chakoteya.net/Voyager/301.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/301.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Chute_(episode)",
     "dates": [
      {
       "date": "50156.2",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -21836,12 +22422,18 @@
    {
     "titre": "Scorpion",
     "source_url": "http://www.chakoteya.net/Voyager/321.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/321.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Scorpion_(episode)",
     "dates": [
      {
       "date": "50984.3",
       "annee": 2373
      }
+    ],
+    "annees": [
+     2373
     ]
    }
   ],
@@ -22301,6 +22893,9 @@
    {
     "titre": "Author, Author",
     "source_url": "http://www.chakoteya.net/Voyager/717.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/717.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Author%2C_Author_(episode)",
     "dates": [
      {
@@ -22315,6 +22910,9 @@
       "date": "54748.6",
       "annee": 2377
      }
+    ],
+    "annees": [
+     2377
     ]
    }
   ],
@@ -22448,6 +23046,9 @@
    {
     "titre": "Nemesis",
     "source_url": "http://www.chakoteya.net/Voyager/402.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/402.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Nemesis_(episode)",
     "dates": [
      {
@@ -22458,6 +23059,9 @@
       "date": "51096.5",
       "annee": 2374
      }
+    ],
+    "annees": [
+     2374
     ]
    }
   ],
@@ -22803,13 +23407,17 @@
    {
     "titre": "What's Past Is Prologue",
     "source_url": "http://www.chakoteya.net/STDisco17/113.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STDisco17/113.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/What's_Past_Is_Prologue_(episode)",
     "dates": [
      {
       "date": "1834.2",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -23141,13 +23749,17 @@
    {
     "titre": "People of Earth",
     "source_url": "http://www.chakoteya.net/STDisco17/303.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STDisco17/303.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/People_of_Earth_(episode)",
     "dates": [
      {
       "date": "865211.3",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -23266,13 +23878,17 @@
    {
     "titre": "People of Earth",
     "source_url": "http://www.chakoteya.net/STDisco17/303.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STDisco17/303.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/People_of_Earth_(episode)",
     "dates": [
      {
       "date": "865211.3",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -26457,12 +27073,18 @@
    {
     "titre": "Second Contact",
     "source_url": "http://www.chakoteya.net/StarTrekLD/101.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekLD/101.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Second_Contact_(episode)",
     "dates": [
      {
       "date": "57436.2",
       "annee": 2380
      }
+    ],
+    "annees": [
+     2380
     ]
    }
   ],
@@ -26695,12 +27317,18 @@
    {
     "titre": "First First Contact",
     "source_url": "http://www.chakoteya.net/StarTrekLD/210.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekLD/210.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/First_First_Contact_(episode)",
     "dates": [
      {
       "date": "58130.6",
       "annee": 2381
      }
+    ],
+    "annees": [
+     2381
     ]
    }
   ],
@@ -26898,12 +27526,18 @@
    {
     "titre": "First First Contact",
     "source_url": "http://www.chakoteya.net/StarTrekLD/210.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekLD/210.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/First_First_Contact_(episode)",
     "dates": [
      {
       "date": "58130.6",
       "annee": 2381
      }
+    ],
+    "annees": [
+     2381
     ]
    }
   ],
@@ -27196,12 +27830,18 @@
    {
     "titre": "Parth Ferengi's Heart Place",
     "source_url": "http://www.chakoteya.net/StarTrekLD/406.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekLD/406.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Parth_Ferengi's_Heart_Place_(episode)",
     "dates": [
      {
       "date": "58901.5",
       "annee": 2381
      }
+    ],
+    "annees": [
+     2381
     ]
    }
   ],
@@ -27306,12 +27946,18 @@
    {
     "titre": "The Stars at Night",
     "source_url": "http://www.chakoteya.net/StarTrekLD/310.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekLD/310.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Stars_At_Night_(episode)",
     "dates": [
      {
       "date": "58499.2",
       "annee": 2381
      }
+    ],
+    "annees": [
+     2381
     ]
    }
   ],
@@ -28406,12 +29052,19 @@
    {
     "titre": "Ouroboros",
     "source_url": "http://www.chakoteya.net/STProdigy/STP219.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STProdigy/STP219.html",
+     "http://www.chakoteya.net/STProdigy/STP220.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ouroboros%2C_Part_I_(episode)",
     "dates": [
      {
       "date": "62314.8",
       "annee": 2385
      }
+    ],
+    "annees": [
+     2385
     ]
    }
   ],
@@ -28559,12 +29212,18 @@
    {
     "titre": "Brink",
     "source_url": "http://www.chakoteya.net/STProdigy/STP217.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STProdigy/STP217.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Brink_(episode)",
     "dates": [
      {
       "date": "62083.5",
       "annee": 2385
      }
+    ],
+    "annees": [
+     2385
     ]
    }
   ],
@@ -28689,12 +29348,19 @@
    {
     "titre": "Ouroboros",
     "source_url": "http://www.chakoteya.net/STProdigy/STP219.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STProdigy/STP219.html",
+     "http://www.chakoteya.net/STProdigy/STP220.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ouroboros%2C_Part_I_(episode)",
     "dates": [
      {
       "date": "62314.8",
       "annee": 2385
      }
+    ],
+    "annees": [
+     2385
     ]
    }
   ],
@@ -30355,13 +31021,17 @@
    {
     "titre": "What's Past Is Prologue",
     "source_url": "http://www.chakoteya.net/STDisco17/113.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STDisco17/113.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/What's_Past_Is_Prologue_(episode)",
     "dates": [
      {
       "date": "1834.2",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -30597,6 +31267,9 @@
    {
     "titre": "A Quality of Mercy",
     "source_url": "http://www.chakoteya.net/StarTrekSNW/110.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/110.html"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/A_Quality_of_Mercy_(episode)",
     "dates": [
      {
@@ -30607,7 +31280,8 @@
       "date": "1709.2",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": [
@@ -31114,6 +31788,9 @@
    {
     "titre": "Plato's Stepchildren",
     "source_url": "http://www.chakoteya.net/StarTrek/67.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/67.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Plato's_Stepchildren_(episode)",
     "dates": [
      {
@@ -31124,7 +31801,8 @@
       "date": "5784.3",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -31227,6 +31905,9 @@
    {
     "titre": "The Ultimate Computer",
     "source_url": "http://www.chakoteya.net/StarTrek/53.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/53.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Ultimate_Computer_(episode)",
     "dates": [
      {
@@ -31237,7 +31918,8 @@
       "date": "4731.3",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -31354,13 +32036,17 @@
    {
     "titre": "Whom Gods Destroy",
     "source_url": "http://www.chakoteya.net/StarTrek/71.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/71.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Whom_Gods_Destroy_(episode)",
     "dates": [
      {
       "date": "5718.3",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -31468,6 +32154,9 @@
    {
     "titre": "Albatross",
     "source_url": "http://www.chakoteya.net/StarTrek/TAS019.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/TAS019.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Albatross_(episode)",
     "dates": [
      {
@@ -31490,7 +32179,8 @@
       "date": "5276.8",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -31578,13 +32268,17 @@
    {
     "titre": "Bem",
     "source_url": "http://www.chakoteya.net/StarTrek/TAS018.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/TAS018.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Bem_(episode)",
     "dates": [
      {
       "date": "7403.6",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -31696,6 +32390,9 @@
    {
     "titre": "The Infinite Vulcan",
     "source_url": "http://www.chakoteya.net/StarTrek/TAS002.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrek/TAS002.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Infinite_Vulcan_(episode)",
     "dates": [
      {
@@ -31706,7 +32403,8 @@
       "date": "5554.8",
       "annee": null
      }
-    ]
+    ],
+    "annees": []
    }
   ],
   "associes": []
@@ -31839,6 +32537,9 @@
    {
     "titre": "The Defector",
     "source_url": "http://www.chakoteya.net/NextGen/158.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/158.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Defector_(episode)",
     "dates": [
      {
@@ -31853,6 +32554,9 @@
       "date": "43465.2",
       "annee": 2366
      }
+    ],
+    "annees": [
+     2366
     ]
    }
   ],
@@ -31956,6 +32660,9 @@
    {
     "titre": "The Perfect Mate",
     "source_url": "http://www.chakoteya.net/NextGen/221.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/221.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Perfect_Mate_(episode)",
     "dates": [
      {
@@ -31966,6 +32673,9 @@
       "date": "45766.1",
       "annee": 2368
      }
+    ],
+    "annees": [
+     2368
     ]
    }
   ],
@@ -32071,12 +32781,18 @@
    {
     "titre": "The Masterpiece Society",
     "source_url": "http://www.chakoteya.net/NextGen/213.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/213.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Masterpiece_Society_(episode)",
     "dates": [
      {
       "date": "45470.1",
       "annee": 2368
      }
+    ],
+    "annees": [
+     2368
     ]
    }
   ],
@@ -32222,6 +32938,9 @@
    {
     "titre": "The Quality of Life",
     "source_url": "http://www.chakoteya.net/NextGen/235.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/235.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Quality_of_Life_(episode)",
     "dates": [
      {
@@ -32244,6 +32963,9 @@
       "date": "46317.8",
       "annee": 2369
      }
+    ],
+    "annees": [
+     2369
     ]
    }
   ],
@@ -32362,6 +33084,9 @@
    {
     "titre": "Force of Nature",
     "source_url": "http://www.chakoteya.net/NextGen/261.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/261.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Force_of_Nature_(episode)",
     "dates": [
      {
@@ -32376,6 +33101,9 @@
       "date": "47314.5",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -33143,12 +33871,18 @@
    {
     "titre": "Random Thoughts",
     "source_url": "http://www.chakoteya.net/Voyager/408.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/408.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Random_Thoughts_(episode)",
     "dates": [
      {
       "date": "51367.2",
       "annee": 2374
      }
+    ],
+    "annees": [
+     2374
     ]
    }
   ],
@@ -33370,6 +34104,9 @@
    {
     "titre": "Workforce",
     "source_url": "http://www.chakoteya.net/Voyager/714.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/714.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Workforce_(episode)",
     "dates": [
      {
@@ -33384,6 +34121,9 @@
       "date": "54608.6",
       "annee": 2377
      }
+    ],
+    "annees": [
+     2377
     ]
    }
   ],
@@ -34024,17 +34764,26 @@
    {
     "titre": "Caretaker",
     "source_url": "http://www.chakoteya.net/Voyager/101.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/101.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Caretaker_(episode)",
     "dates": [
      {
       "date": "48315.6",
       "annee": 2371
      }
+    ],
+    "annees": [
+     2371
     ]
    },
    {
     "titre": "Preemptive Strike",
     "source_url": "http://www.chakoteya.net/NextGen/276.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/276.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)",
     "dates": [
      {
@@ -34045,6 +34794,9 @@
       "date": "47943.2",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -34332,12 +35084,18 @@
    {
     "titre": "Sanctuary",
     "source_url": "http://www.chakoteya.net/DS9/430.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/430.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Sanctuary_(episode)",
     "dates": [
      {
       "date": "47391.2",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -34854,12 +35612,18 @@
    {
     "titre": "Paradise",
     "source_url": "http://www.chakoteya.net/DS9/435.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/435.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Paradise_(episode)",
     "dates": [
      {
       "date": "47573.1",
       "annee": 2370
      }
+    ],
+    "annees": [
+     2370
     ]
    }
   ],
@@ -34975,6 +35739,9 @@
    {
     "titre": "Ensign Ro",
     "source_url": "http://www.chakoteya.net/NextGen/203.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/203.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ensign_Ro_(episode)",
     "dates": [
      {
@@ -34985,6 +35752,9 @@
       "date": "45077.8",
       "annee": 2368
      }
+    ],
+    "annees": [
+     2368
     ]
    }
   ],
@@ -35115,12 +35885,18 @@
    {
     "titre": "Rightful Heir",
     "source_url": "http://www.chakoteya.net/NextGen/249.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/249.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Rightful_Heir_(episode)",
     "dates": [
      {
       "date": "46852.2",
       "annee": 2369
      }
+    ],
+    "annees": [
+     2369
     ]
    }
   ],
@@ -35352,6 +36128,9 @@
    {
     "titre": "Conspiracy",
     "source_url": "http://www.chakoteya.net/NextGen/125.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/125.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Conspiracy_(episode)",
     "dates": [
      {
@@ -35362,6 +36141,9 @@
       "date": "41780.2",
       "annee": 2364
      }
+    ],
+    "annees": [
+     2364
     ]
    }
   ],
@@ -35469,12 +36251,18 @@
    {
     "titre": "I, Borg",
     "source_url": "http://www.chakoteya.net/NextGen/223.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/223.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/I_Borg_(episode)",
     "dates": [
      {
       "date": "45854.2",
       "annee": 2368
      }
+    ],
+    "annees": [
+     2368
     ]
    }
   ],
@@ -35621,12 +36409,18 @@
    {
     "titre": "Flesh and Blood",
     "source_url": "http://www.chakoteya.net/Voyager/706.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/706.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Flesh_and_Blood_(episode)",
     "dates": [
      {
       "date": "54337.5",
       "annee": 2377
      }
+    ],
+    "annees": [
+     2377
     ]
    }
   ],
@@ -35758,6 +36552,9 @@
    {
     "titre": "The Void",
     "source_url": "http://www.chakoteya.net/Voyager/713.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/713.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Void_(episode)",
     "dates": [
      {
@@ -35768,6 +36565,9 @@
       "date": "54562.7",
       "annee": 2377
      }
+    ],
+    "annees": [
+     2377
     ]
    }
   ],
@@ -36025,6 +36825,9 @@
    {
     "titre": "Alliances",
     "source_url": "http://www.chakoteya.net/Voyager/211.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/211.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Alliances_(episode)",
     "dates": [
      {
@@ -36035,6 +36838,9 @@
       "date": "49342.5",
       "annee": 2372
      }
+    ],
+    "annees": [
+     2372
     ]
    }
   ],
@@ -36156,12 +36962,18 @@
    {
     "titre": "Thirty Days",
     "source_url": "http://www.chakoteya.net/Voyager/508.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/Voyager/508.htm"
+    ],
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Thirty_Days_(episode)",
     "dates": [
      {
       "date": "52179.4",
       "annee": 2375
      }
+    ],
+    "annees": [
+     2375
     ]
    }
   ],

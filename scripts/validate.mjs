@@ -263,9 +263,9 @@ function rapport(b) {
   }
   const l = b.limites;
   L.push('', '## Limites du corpus mesurées', '',
-    `- ${l.niveau_c} entrées de niveau C (référence candidate non recoupée individuellement).`,
-    `- ${l.sans_url} entrées sans URL de contrôle.`,
-    `- ${l.autre_a_qualifier} entrées classées « autre / à qualifier ».`,
+    `- ${l.niveau_c} ${l.niveau_c > 1 ? 'entrées' : 'entrée'} de niveau C, doublons secondaires compris (référence candidate non recoupée individuellement).`,
+    `- ${l.sans_url} ${l.sans_url > 1 ? 'entrées' : 'entrée'} sans URL de contrôle.`,
+    `- ${l.autre_a_qualifier} ${l.autre_a_qualifier > 1 ? 'entrées classées' : 'entrée classée'} « autre / à qualifier ».`,
     `- ${l.avec_diffusion} entrées reliées à une date de diffusion vérifiée.`,
     `- Fiches approfondies sans source de contrôle : ${l.fiches_sans_source.join(', ') || 'aucune'}.`,
     `- Références de source non rattachées à une série : ${l.non_rattachees.map((x) => `${x.id} (${x.refs.join(', ')})`).join(' ; ') || 'aucune'}.`);

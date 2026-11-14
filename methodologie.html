@@ -36,13 +36,13 @@ description: Protocole de recherche, niveaux de vérification A/B/C, corrections
 {%- endif %}
 <h3>Socle de départ (V0.3)</h3>
 <p class="carte__meta">Chiffres de la version 0.3, avant les passes de recoupement.</p>
-{{ ed.synthese.socle | markdownify }}
+<div class="defile-tableaux">{{ ed.synthese.socle | markdownify }}</div>
 
 <h2 id="niveaux">Niveaux de vérification</h2>
 {% include niveaux.html %}
 
 <h2 id="protocole">Protocole d’audit</h2>
-{{ ed.protocole.markdown | markdownify }}
+<div class="defile-tableaux">{{ ed.protocole.markdown | markdownify }}</div>
 
 <h2 id="selection">Critères de sélection et règles de citation</h2>
 <ul>

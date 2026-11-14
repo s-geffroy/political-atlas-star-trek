@@ -54,7 +54,7 @@ layout: default
     <h3 id="r-niv">Niveaux de vérification</h3>
     <ul class="barres">
       {%- for n in S.niveaux %}
-      <li><a href="{{ '/evenements/' | relative_url }}?niv={{ n.cle }}"><span class="niveau niveau--{{ n.cle }}">{{ n.cle }}</span></a><span class="jauge" aria-hidden="true"><i style="width: {{ n.n | times: 100 | divided_by: S.distincts }}%"></i></span><span class="n">{{ n.n }}</span></li>
+      <li><a href="{{ '/evenements/' | relative_url }}?niv={{ n.cle }}"><span class="niveau niveau--{{ n.cle }}">{{ n.cle }}</span></a><span class="jauge" aria-hidden="true"><i style="width: {{ n.n | times: 100.0 | divided_by: S.distincts }}%"></i></span><span class="n">{{ n.n }}</span></li>
       {%- endfor %}
     </ul>
     <p class="carte__meta"><a href="{{ '/methodologie/' | relative_url }}#niveaux">Définition des niveaux A, B, C</a></p>
@@ -63,7 +63,7 @@ layout: default
     <h3 id="r-cat">Catégories politiques</h3>
     <ul class="barres barres--magenta">
       {%- for c in S.categories %}
-      <li><a href="{{ '/evenements/' | relative_url }}?cat={{ c.cle | uri_escape }}">{{ c.cle }}</a><span class="jauge" aria-hidden="true"><i style="width: {{ c.n | times: 100 | divided_by: S.max_categorie }}%"></i></span><span class="n">{{ c.n }}</span></li>
+      <li><a href="{{ '/evenements/' | relative_url }}?cat={{ c.cle | uri_escape }}">{{ c.cle }}</a><span class="jauge" aria-hidden="true"><i style="width: {{ c.n | times: 100.0 | divided_by: S.max_categorie }}%"></i></span><span class="n">{{ c.n }}</span></li>
       {%- endfor %}
     </ul>
     <p class="carte__meta">Une entrée peut porter plusieurs catégories.</p>
@@ -72,7 +72,7 @@ layout: default
     <h3 id="r-serie">Séries</h3>
     <ul class="barres barres--ambre">
       {%- for s in S.series %}
-      <li><a href="{{ '/evenements/' | relative_url }}?serie={{ s.cle | uri_escape }}">{{ s.nom }}</a><span class="jauge" aria-hidden="true"><i style="width: {{ s.n | times: 100 | divided_by: S.max_serie }}%"></i></span><span class="n">{{ s.n }}</span></li>
+      <li><a href="{{ '/evenements/' | relative_url }}?serie={{ s.cle | uri_escape }}">{{ s.nom }}</a><span class="jauge" aria-hidden="true"><i style="width: {{ s.n | times: 100.0 | divided_by: S.max_serie }}%"></i></span><span class="n">{{ s.n }}</span></li>
       {%- endfor %}
     </ul>
     <p class="carte__meta">Série déduite du sigle du champ source ; une entrée peut citer plusieurs séries.</p>
@@ -81,7 +81,7 @@ layout: default
     <h3 id="r-cycle">Périodes et cycles du registre</h3>
     <ul class="barres">
       {%- for c in S.cycles %}
-      <li><a href="{{ '/evenements/' | relative_url }}?cycle={{ c.slug }}">{{ c.cle }}</a><span class="jauge" aria-hidden="true"><i style="width: {{ c.n | times: 100 | divided_by: S.max_cycle }}%"></i></span><span class="n">{{ c.n }}</span></li>
+      <li><a href="{{ '/evenements/' | relative_url }}?cycle={{ c.slug }}">{{ c.cle }}</a><span class="jauge" aria-hidden="true"><i style="width: {{ c.n | times: 100.0 | divided_by: S.max_cycle }}%"></i></span><span class="n">{{ c.n }}</span></li>
       {%- endfor %}
     </ul>
   </section>

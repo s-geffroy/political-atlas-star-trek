@@ -72,6 +72,10 @@ kramdown:
 # purement et simplement tout fichier depose dans _plugins/. La liste a jour
 # est publiee sur https://pages.github.com/versions.json -- va la lire plutot
 # que de te fier a une recette trouvee ailleurs.
+# Pas de theme : sans cette ligne, GitHub Pages applique jekyll-theme-primer et
+# publie son assets/css/style.css (76 Ko) que le site n utilise pas.
+theme: null
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

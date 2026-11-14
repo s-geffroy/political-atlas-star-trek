@@ -192,8 +192,10 @@ export function importer(csvPath, mdPath) {
     e.url_archive = archives[e.url_source]?.archive || null;
     // Dates stellaires prononcees a l'ecran ; annee deduite pour l'ere TNG seulement.
     e.dates_stellaires = e.episodes.map((p) => stardates.get(`${p.serie}|${p.titre}`)).filter(Boolean).map((x) => ({
-      titre: x.titre, source_url: [x.transcription_url].flat()[0], memory_alpha_url: x.memory_alpha_url,
+      titre: x.titre, source_url: [x.transcription_url].flat()[0], transcriptions: [x.transcription_url].flat(), memory_alpha_url: x.memory_alpha_url,
       dates: x.dates_stellaires.map((d) => ({ date: d, annee: anneeDeduite(d) })),
+      // Annees deduites distinctes : affichees une fois quand toutes les dates tombent la meme annee.
+      annees: [...new Set(x.dates_stellaires.map(anneeDeduite).filter(Boolean))],
     }));
   }
   for (const f of fiches) f.sources = f.sources.map((x) => ({ ...x, archive: archives[x.url]?.archive || null }));

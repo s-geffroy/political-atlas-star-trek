@@ -24,9 +24,9 @@
 
 ## Limites du corpus mesurées
 
-- 2 entrées de niveau C (référence candidate non recoupée individuellement).
-- 1 entrées sans URL de contrôle.
-- 0 entrées classées « autre / à qualifier ».
+- 2 entrées de niveau C, doublons secondaires compris (référence candidate non recoupée individuellement).
+- 1 entrée sans URL de contrôle.
+- 0 entrée classée « autre / à qualifier ».
 - 292 entrées reliées à une date de diffusion vérifiée.
 - Fiches approfondies sans source de contrôle : aucune.
 - Références de source non rattachées à une série : aucune.

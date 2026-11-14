@@ -39,7 +39,7 @@ test('reseau : cause/suite de gauche a droite ; un noeud « meme arc » seul n\'
       const partenaires = c.aretes.filter((a) => a.de === x.id || a.vers === x.id).map((a) => (a.de === x.id ? a.vers : a.de)).filter((p) => orientes.has(p));
       if (partenaires.length) assert.ok(partenaires.some((p) => n.get(p).x === x.x), `${x.id} hors des couches de ${partenaires}`);
     }
-    for (const x of c.noeuds) assert.ok(x.lignes.length >= 1 && x.lignes.length <= 2 && x.lignes.every((l) => l.t.length <= 31), x.id);
+    for (const x of c.noeuds) assert.ok(x.lignes.length >= 1 && x.lignes.length <= 3 && x.lignes.every((l) => l.t.length <= 37), x.id);
   }
 });
 
@@ -73,4 +73,15 @@ test('import idempotent : deux imports donnent les memes donnees', () => {
   const r2 = importer(src.csv, src.md);
   assert.deepEqual(r2.evenements, r.evenements);
   assert.deepEqual(reseau(r2), R);
+});
+
+test('reseau : chaque arc tient par des relations documentees, sans arc d un seul evenement', () => {
+  for (const c of R.composantes) {
+    assert.ok(c.taille >= 2, `arc ${c.cle} reduit a un evenement`);
+    const ids = new Set(c.ids);
+    const docs = r.relations.filter((x) => ids.has(x.de) && ids.has(x.vers));
+    const vus = new Set([c.ids[0]]);
+    for (let change = true; change;) { change = false; for (const x of docs) if (vus.has(x.de) !== vus.has(x.vers)) { vus.add(x.de); vus.add(x.vers); change = true; } }
+    assert.equal(vus.size, c.taille, `arc ${c.cle} : relie seulement par des liens « episode commun »`);
+  }
 });

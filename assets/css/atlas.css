@@ -300,7 +300,7 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .fleche--suite { fill: var(--lien-suite); }
 .lien--suite { stroke: var(--lien-suite); stroke-dasharray: 7 4; }
 .lien--meme_arc { stroke: var(--lien-arc); stroke-dasharray: 2 4; stroke-linecap: round; }
-.lien--episode_commun { stroke: var(--lien-episode); stroke-width: 1; }
+.lien--episode_commun { stroke: var(--lien-episode); stroke-width: 1; stroke-dasharray: 7 4; }
 .legende--reseau svg { flex: none; }
 
 /* --- Relations documentees ----------------------------------------------- */

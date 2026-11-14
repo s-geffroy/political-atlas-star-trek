@@ -287,13 +287,13 @@ function ecrire(p, contenu) {
 // cause/suite va de gauche a droite ; « meme arc » ne contraint pas l'ordre),
 // coordonnees SVG calculees ici pour un rendu statique sans JavaScript.
 export function reseau(r) {
-  const NW = 250, NH = 60, GX = 80, GY = 18, PAD = 12, PADX = 56, SEUIL = 25, LIGNE = 30;
+  const NW = 270, NH = 74, GX = 84, GY = 22, PAD = 12, PADX = 56, SEUIL = 25, LIGNE = 36;
   const parId = new Map(r.evenements.map((e) => [e.id, e]));
   const rang = (id) => parId.get(id).rang_diegetique;
   const relsDoc = r.relations.filter((x) => parId.has(x.de) && parId.has(x.vers));
-  // Liens « episode commun » (associations deja affichees sur les fiches),
-  // ajoutes seulement entre evenements qui ont des relations documentees,
-  // pour recoudre les arcs sans gonfler le graphe.
+  // Liens « episode commun » (associations deja affichees sur les fiches) :
+  // dessines en gris a l'interieur d'un arc, mais ils ne servent pas a former
+  // les arcs, qui ne reposent que sur des relations documentees.
   const dansReseau = new Set(relsDoc.flatMap((x) => [x.de, x.vers]));
   const dejaLies = new Set(relsDoc.flatMap((x) => [`${x.de}|${x.vers}`, `${x.vers}|${x.de}`]));
   const communs = [];
@@ -305,11 +305,14 @@ export function reseau(r) {
   }
   const rels = [...relsDoc, ...communs];
 
-  // Groupes : composantes connexes de TOUTES les relations ; une composante de
-  // plus de SEUIL evenements (illisible) est redecoupee en arcs par serie.
+  const causal = (x) => x.type === 'cause' || x.type === 'suite';
+  // Arcs : composantes connexes des relations DOCUMENTEES. Une composante de
+  // plus de SEUIL evenements (illisible) est redecoupee sans couper les chaines
+  // causales : d'abord en ne gardant que les liens cause / suite, puis, si un
+  // morceau reste trop grand, par serie.
   const composantes = (ids, garder) => {
     const voisins = new Map(ids.map((i) => [i, new Set()]));
-    for (const x of rels) if (voisins.has(x.de) && voisins.has(x.vers) && garder(x)) { voisins.get(x.de).add(x.vers); voisins.get(x.vers).add(x.de); }
+    for (const x of relsDoc) if (voisins.has(x.de) && voisins.has(x.vers) && garder(x)) { voisins.get(x.de).add(x.vers); voisins.get(x.vers).add(x.de); }
     const vus = new Set(); const out = [];
     for (const id of [...ids].sort()) {
       if (vus.has(id)) continue;
@@ -320,20 +323,40 @@ export function reseau(r) {
     return out;
   };
   const serieP = (id) => parId.get(id).series[0] || 'Film';
+  // Apres la coupe causale, un morceau relie a un autre par un lien « meme arc »
+  // le rejoint, tant que l'arc obtenu ne depasse pas SEUIL (plus petits d'abord).
+  const recoller = (morceaux) => {
+    const ms = morceaux.map((m) => [...m]);
+    for (let change = true; change;) {
+      change = false;
+      ms.sort((a, b) => a.length - b.length || String(a[0]).localeCompare(String(b[0])));
+      for (const m of ms) {
+        if (!m.length) continue;
+        const ici = new Set(m);
+        const cibles = relsDoc.filter((x) => !causal(x) && (ici.has(x.de) !== ici.has(x.vers)))
+          .map((x) => ms.find((o) => o !== m && o.includes(ici.has(x.de) ? x.vers : x.de)))
+          .filter((o) => o && o.length && o.length + m.length <= SEUIL)
+          .sort((a, b) => a.length - b.length || a[0].localeCompare(b[0]));
+        if (cibles.length) { cibles[0].push(...m); m.length = 0; change = true; break; }
+      }
+    }
+    return ms.filter((m) => m.length);
+  };
   const comps = composantes([...dansReseau], () => true)
+    .flatMap((c) => (c.length > SEUIL ? recoller(composantes(c, causal)) : [c]))
     .flatMap((c) => (c.length > SEUIL ? composantes(c, (x) => serieP(x.de) === serieP(x.vers)) : [c]));
 
-  // Etiquette sur deux lignes (coupure aux mots), la seconde tronquee si besoin.
-  const deuxLignes = (t) => {
-    const mots = t.split(/\s+/); const l = ['', ''];
+  // Etiquette sur trois lignes au plus (coupure aux mots), la derniere tronquee si besoin.
+  const deuxLignes = (t, n = 3) => {
+    const mots = t.split(/\s+/); const l = Array(n).fill('');
     let i = 0;
     for (const m of mots) {
       const essai = l[i] ? `${l[i]} ${m}` : m;
       if (essai.length <= LIGNE || !l[i]) l[i] = essai;
-      else if (i === 0) { i = 1; l[1] = m; }
-      else { l[1] = `${l[1]} ${m}`; }
+      else if (i < n - 1) { i += 1; l[i] = m; }
+      else { l[i] = `${l[i]} ${m}`; }
     }
-    if (l[1].length > LIGNE) l[1] = l[1].slice(0, LIGNE - 1).replace(/\s+\S*$/, '') + '…';
+    if (l[n - 1].length > LIGNE) l[n - 1] = l[n - 1].slice(0, LIGNE - 1).replace(/\s+\S*$/, '') + '…';
     return l.filter(Boolean);
   };
 
@@ -390,7 +413,7 @@ export function reseau(r) {
       const e = parId.get(id); const p = pos.get(id);
       // Identifiant en petit sur la premiere ligne, intitule sur deux lignes.
       return { id, x: p.x, y: p.y, w: NW, h: NH, tx: p.x + 10, id_y: p.y + 16,
-        lignes: deuxLignes(e.event).map((t, k) => ({ t, y: p.y + 34 + k * 16 })), titre_complet: e.event, niv: e.niveau_recoupement, cycle: e.cycle };
+        lignes: deuxLignes(e.event).map((t, k) => ({ t, y: p.y + 32 + k * 15 })), titre_complet: e.event, niv: e.niveau_recoupement, cycle: e.cycle };
     }).sort((a, b) => rang(a.id) - rang(b.id));
     // Ports : les aretes qui arrivent sur (ou partent d') un meme cote d'une
     // boite sont reparties sur sa hauteur, dans l'ordre vertical de l'autre bout.
@@ -422,7 +445,20 @@ export function reseau(r) {
       } else {
         const xa = ca === 'd' ? a.x + NW : a.x, xb = cb === 'd' ? b.x + NW : b.x, m = (xa + xb) / 2;
         const fin = xb > xa ? xb - 4 : xb + 4; // laisse la place de la pointe de fleche
-        d = `M${xa},${ya} C${m},${ya} ${m},${yb} ${fin},${yb}`;
+        // Lien qui franchit des colonnes intermediaires : il passe par un couloir
+        // horizontal libre entre leurs boites, au lieu de glisser dessous.
+        const c1 = Math.min(couche.get(x.de), couche.get(x.vers)), c2 = Math.max(couche.get(x.de), couche.get(x.vers));
+        const inter = [];
+        for (let k = c1 + 1; k < c2; k++) inter.push(...parCouche[k].map((id) => pos.get(id)));
+        const libre = (y) => inter.every((q) => y < q.y - 3 || y > q.y + NH + 3);
+        if (inter.length && !inter.every((q) => [ya, yb, (ya + yb) / 2].every((y) => libre(y)) )) {
+          const candidats = [PAD / 2, ...inter.flatMap((q) => [q.y - GY / 2, q.y + NH + GY / 2])].filter(libre);
+          const cy = candidats.sort((u, v) => Math.abs(u - (ya + yb) / 2) - Math.abs(v - (ya + yb) / 2))[0];
+          const g = xb > xa ? 1 : -1, x1 = xa + g * GX / 2, x2 = xb - g * GX / 2;
+          d = `M${xa},${ya} C${x1},${ya} ${x1},${cy} ${x1 + g * 12},${cy} L${x2 - g * 12},${cy} C${x2},${cy} ${x2},${yb} ${fin},${yb}`;
+        } else {
+          d = `M${xa},${ya} C${m},${ya} ${m},${yb} ${fin},${yb}`;
+        }
       }
       return { de: x.de, vers: x.vers, type: x.type, d, url: x.url };
     });

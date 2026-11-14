@@ -481,7 +481,56 @@ export function reseau(r) {
     c.nb_relations = c.aretes.filter((a) => a.type !== 'episode_commun').length;
   });
   return { composantes: sortie, noeuds: sortie.reduce((s, c) => s + c.taille, 0), relations: relsDoc.length, liens_episode: communs.length,
-    seuil_decoupe: SEUIL, carte: carteDesArcs(sortie, parId) };
+    seuil_decoupe: SEUIL, carte: carteDesArcs(sortie, parId), graphe: grapheChronologique(sortie, relsDoc, parId) };
+}
+
+// Graphe chronologique : tous les evenements relies et leurs relations
+// documentees. Abscisse = temps fictif (une largeur par periode, croissant avec
+// la racine du nombre d'evenements ; ordre diegetique a l'interieur) ;
+// ordonnee calculee par relaxation deterministe (les evenements lies se
+// rapprochent, les voisins dans le temps s'ecartent). Calcule a la
+// construction : le graphe s'affiche sans JavaScript.
+function grapheChronologique(arcs, rels, parId) {
+  const H = 720, PADY = 40, PADX = 30, MIN = 46, K = 44;
+  const ids = arcs.flatMap((c) => c.ids);
+  const ev = ids.map((id) => parId.get(id)).sort((a, b) => a.rang_diegetique - b.rang_diegetique);
+  // Periodes dans l'ordre diegetique, largeur ~ racine du nombre d'evenements.
+  const bandes = [];
+  for (const e of ev) { const b = e.bande || 'Non daté'; if (!bandes.length || bandes.at(-1).nom !== b) bandes.push({ nom: b, ids: [] }); bandes.at(-1).ids.push(e.id); }
+  let x0 = PADX;
+  for (const b of bandes) { b.x = x0; b.w = Math.round(MIN + K * Math.sqrt(b.ids.length)); x0 += b.w; }
+  const L = x0 + PADX;
+  const degre = new Map(ids.map((id) => [id, 0]));
+  for (const x of rels) if (degre.has(x.de) && degre.has(x.vers)) { degre.set(x.de, degre.get(x.de) + 1); degre.set(x.vers, degre.get(x.vers) + 1); }
+  const n = new Map();
+  for (const b of bandes) b.ids.forEach((id, k) => {
+    const d = degre.get(id);
+    n.set(id, { id, x: b.x + (b.w * (k + 0.5)) / b.ids.length, y: PADY + ((k * 97) % (H - 2 * PADY)), r: Math.min(14, 4 + 2.2 * Math.sqrt(d)), d });
+  });
+  const N = [...n.values()];
+  const E = rels.filter((x) => n.has(x.de) && n.has(x.vers));
+  // Relaxation : ressorts verticaux sur les liens, repulsion entre noeuds proches.
+  for (let it = 0; it < 500; it++) {
+    const pas = 1 - it / 500;
+    for (const x of E) { const a = n.get(x.de), b = n.get(x.vers); const dy = (b.y - a.y) * 0.04 * pas; a.y += dy; b.y -= dy; }
+    for (let i = 0; i < N.length; i++) for (let j = i + 1; j < N.length; j++) {
+      const a = N[i], b = N[j]; const dx = b.x - a.x; if (Math.abs(dx) > 40) continue;
+      const dy = b.y - a.y || (i % 2 ? 0.5 : -0.5); const dist = Math.hypot(dx, dy), min = a.r + b.r + 10;
+      if (dist < min) { const f = ((min - dist) / dist) * 0.5; a.y -= dy * f; b.y += dy * f; }
+    }
+    for (const a of N) { a.y += (H / 2 - a.y) * 0.002 * pas; a.y = Math.max(PADY, Math.min(H - PADY, a.y)); }
+  }
+  const noeuds = N.map((a) => {
+    const e = parId.get(a.id);
+    const court = e.event.length > 34 ? e.event.slice(0, 33).replace(/\s+\S*$/, '') + '…' : e.event;
+    return { id: a.id, x: Math.round(a.x), y: Math.round(a.y), r: Math.round(a.r * 10) / 10, d: a.d, titre: e.event, court, serie: e.series[0] || 'Film', periode: e.period, etiquette: a.d >= 3 };
+  });
+  const liens = E.map((x) => {
+    const a = n.get(x.de), b = n.get(x.vers);
+    const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2 - Math.min(60, Math.abs(b.x - a.x) / 6);
+    return { de: x.de, vers: x.vers, type: x.type, d: `M${Math.round(a.x)},${Math.round(a.y)} Q${Math.round(mx)},${Math.round(my)} ${Math.round(b.x)},${Math.round(b.y)}` };
+  });
+  return { largeur: L, hauteur: H, bandes: bandes.map((b) => ({ nom: b.nom, x: b.x, w: b.w, n: b.ids.length })), noeuds, liens };
 }
 
 // Carte d'ensemble des arcs : une bulle par arc, placee en abscisse a la

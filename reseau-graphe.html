@@ -1,0 +1,41 @@
+---
+title: Graphe chronologique des relations
+nav: reseau
+permalink: /reseau/graphe/
+description: "Tous les événements reliés de l’atlas et leurs relations documentées (causes, suites, arcs), placés sur le temps fictif de Star Trek, du passé lointain au XXXIIe siècle."
+scripts: [graphe.js]
+---
+{%- assign G = site.data.reseau.graphe -%}
+<p class="fil"><a href="{{ '/reseau/' | relative_url }}">Réseau des relations</a> › Graphe chronologique</p>
+<p class="chapo">Les {{ G.noeuds.size }} événements reliés de l’atlas et leurs {{ G.liens.size }} relations documentées, sur le temps fictif. De gauche à droite : du passé lointain au XXXIIe siècle, chaque période recevant une largeur qui croît avec son nombre d’événements (l’axe n’est pas proportionnel aux années). La hauteur n’a pas de sens propre : elle rapproche les événements liés. La taille d’un point croît avec son nombre de relations.</p>
+
+<div class="filtres graphe-outils" hidden>
+  <div class="graphe-champ"><label for="graphe-recherche">Chercher un événement</label>
+  <input id="graphe-recherche" type="search" placeholder="Identifiant ou mot de l’intitulé" autocomplete="off"></div>
+  <span class="graphe-boutons"><button class="bouton" type="button" data-zoom="1.25" aria-label="Agrandir">+</button><button class="bouton" type="button" data-zoom="0.8" aria-label="Réduire">−</button><button class="bouton bouton--ambre" type="button" data-zoom="0">Vue entière</button></span>
+  <span class="graphe-etat" role="status" aria-live="polite"></span>
+</div>
+<p class="carte__meta">Survoler ou parcourir au clavier un point isole ses relations ; cliquer ouvre sa fiche. Molette ou boutons pour zoomer, glisser pour se déplacer.</p>
+{% include reseau-legende.html %}
+<div class="defile graphe-cadre" tabindex="0" role="region" aria-label="Graphe chronologique des relations (faire défiler horizontalement)">
+<svg class="graphe" width="{{ G.largeur }}" height="{{ G.hauteur }}" viewBox="0 0 {{ G.largeur }} {{ G.hauteur }}" role="group" aria-label="Graphe chronologique : {{ G.noeuds.size }} événements, {{ G.liens.size }} relations">
+  <defs>
+    <marker id="gf-cause" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="fleche fleche--cause"/></marker>
+    <marker id="gf-suite" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="fleche fleche--suite"/></marker>
+  </defs>
+  {%- for b in G.bandes %}
+  <rect class="g-bande{% cycle '', ' g-bande--pair' %}" x="{{ b.x }}" y="0" width="{{ b.w }}" height="{{ G.hauteur }}" aria-hidden="true"/>
+  <text class="g-bande__nom" x="{{ b.x | plus: 4 }}" y="16" aria-hidden="true">{{ b.nom | replace: " siècle", " s." | replace: "Entre le ", "" | replace: "Non ordonnable sans interprétation", "non daté" }}</text>
+  {%- endfor %}
+  <g class="g-liens">
+  {%- for l in G.liens %}<path class="lien lien--{{ l.type }}" d="{{ l.d }}" data-de="{{ l.de }}" data-vers="{{ l.vers }}"{% if l.type == "cause" %} marker-end="url(#gf-cause)"{% elsif l.type == "suite" %} marker-end="url(#gf-suite)"{% endif %} aria-hidden="true"/>{% endfor %}
+  </g>
+  <g class="g-noeuds">
+  {%- for n in G.noeuds %}
+  <a class="g-noeud" href="{{ '/evenements/' | append: n.id | append: '/' | relative_url }}" data-id="{{ n.id }}" aria-label="{{ n.id }} — {{ n.titre | escape }} ({{ n.periode | escape }}, {{ n.d }} relation{% if n.d > 1 %}s{% endif %})"><title>{{ n.id }} — {{ n.titre | escape }} ({{ n.periode | escape }})</title>
+    <circle cx="{{ n.x }}" cy="{{ n.y }}" r="{{ n.r }}"/>{% if n.etiquette %}<text x="{{ n.x | plus: n.r | plus: 4 }}" y="{{ n.y | plus: 4 }}">{{ n.court | escape }}</text>{% endif %}</a>
+  {%- endfor %}
+  </g>
+</svg>
+</div>
+<p class="carte__meta">Vue par arcs : <a href="{{ '/reseau/' | relative_url }}">carte et liste des arcs</a>. Les mêmes relations figurent en texte sur chaque fiche et sur la page de chaque arc.</p>

@@ -127,6 +127,11 @@ main { padding-block: 1.5rem 3rem; min-height: 60vh; }
 .chapo { font-size: 1.12rem; color: var(--doux); }
 .fil { font-size: 0.9rem; color: var(--doux); margin-bottom: 0.5rem; }
 .fil a { color: var(--doux); }
+/* Analyses redigees : appels [n] et liste des sources numerotees. */
+a.appel { text-decoration: none; font-size: 0.85em; vertical-align: 0.1em; padding: 0 0.05em; }
+a.appel:hover, a.appel:focus-visible { text-decoration: underline; }
+ol.sources > li { margin-bottom: 0.35rem; scroll-margin-top: 1rem; }
+ol.sources > li:target { outline: 2px solid var(--ambre, currentColor); outline-offset: 2px; }
 .encadre { background: var(--surface); border-left: 0.5rem solid var(--lavande); border-radius: 0 1rem 1rem 0; padding: 0.9rem 1.2rem; margin: 1.2rem 0; }
 .encadre--alerte { border-left-color: var(--magenta); }
 .encadre--ambre { border-left-color: var(--ambre); }

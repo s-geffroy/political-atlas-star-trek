@@ -1,23 +1,30 @@
 ---
-title: "Les émeutes de Bell : fiction, contexte et limites"
+layout: analyse-redigee
+title: "Les émeutes de Bell : analyse de « Past Tense » (Deep Space Nine)"
+fil: "Les émeutes de Bell"
 nav: analyses
 permalink: /analyses/emeutes-de-bell/
-description: "Analyse de STP-006, les émeutes de Bell (Star Trek: Deep Space Nine, « Past Tense ») — faits de la fiction, contexte de diffusion, résonances et limites de l’analogie."
+redirect_from: /analyses/STP-006/
+date: 2026-11-10
+last_modified_at: 2026-11-14
+seo:
+  type: Article
+description: "Les émeutes de Bell (Deep Space Nine, « Past Tense », 1995) : faits de la fiction, témoignage des scénaristes, contexte de diffusion, réception et limites."
 ---
 {%- assign e = site.data.evenements | where: "id", "STP-006" | first -%}
 {%- assign f = site.data.fiches["STP-006"] -%}
 {%- assign ds9 = site.data.diffusion.blocs | where: "code", "DS9" | first -%}
-<p class="fil"><a href="{{ '/analyses/' | relative_url }}">Analyses</a> › Émeutes de Bell</p>
-<p class="chapo">Fiche source : <a href="{{ '/evenements/STP-006/' | relative_url }}">STP-006 — {{ e.event }}</a>. Niveau de recoupement {{ e.niveau_recoupement }} ({{ e.nature_source }}). Les textes cités en encadré sont ceux du document analytique V{{ site.data.editorial.meta.version }}, sans réécriture.</p>
+<p class="chapo">Fiche source : <a href="{{ '/evenements/STP-006/' | relative_url }}">STP-006 — {{ e.event | escape }}</a>. Niveau de vérification {{ e.niveau_recoupement }} ({{ e.nature_source | escape }}). Les textes cités en encadré sont ceux du document analytique V{{ site.data.editorial.meta.version }}, sans réécriture ; les compléments de l’atlas renvoient chacun à une source numérotée en fin de page. Les dialogues et déclarations sont cités en anglais, avec la traduction de l’atlas.</p>
 
 <h2>1. L’événement fictif</h2>
 <dl class="donnees">
-  <dt>Période fictive</dt><dd>{{ e.period }} (la fiche précise l’année dans les faits ci-dessous)</dd>
-  <dt>Source audiovisuelle</dt><dd>{{ e.source }}</dd>
-  <dt>Problématique</dt><dd>{{ e.politics }}</dd>
+  <dt>Période fictive</dt><dd>{{ e.period | escape }}</dd>
+  <dt>Source audiovisuelle</dt><dd>{{ e.source | escape }}</dd>
+  <dt>Problématique</dt><dd>{{ e.politics | escape }}</dd>
 </dl>
 <section class="volet"><h3>Faits canoniques et acteurs</h3>{{ f.volets.faits | markdownify }}</section>
 <section class="volet"><h3>Mécanisme politique</h3>{{ f.volets.mecanisme | markdownify }}</section>
+<p>Selon le résumé de l’épisode, Sisko et Bashir se matérialisent à San Francisco le 30 août 2024, et la révolte de la Zone de Sanctuaire culmine le lundi 2 septembre 2024 (« <span lang="en">Early in the morning of Monday, September 2, 2024</span> ») <a class="appel" href="#src-1">[1]</a>.</p>
 
 <h2>2. Contexte de production et de diffusion</h2>
 <section class="volet"><h3>Ce que dit la fiche</h3>{{ f.volets.contexte | markdownify }}</section>
@@ -25,25 +32,39 @@ description: "Analyse de STP-006, les émeutes de Bell (Star Trek: Deep Space Ni
 <ul>
   <li><em>Deep Space Nine</em> : première diffusion le <time datetime="{{ ds9.debut }}">{% include date-fr.html d=ds9.debut %}</time>, fin en {{ ds9.fin }} (<a href="{{ ds9.source_url }}" rel="noopener">source</a>).</li>
   {%- for d in e.diffusion %}
-  <li>« {{ d.titre }} » : <time datetime="{{ d.date }}">{% include date-fr.html d=d.date %}</time> (<a href="{{ d.source_url }}" rel="noopener">source</a>).</li>
+  <li>« {{ d.titre | escape }} » : <time datetime="{{ d.date }}">{% include date-fr.html d=d.date %}</time> (<a href="{{ d.source_url }}" rel="noopener">source</a>).</li>
   {%- endfor %}
-  <li>Diffusion en syndication : chaque station choisissait son jour dans la semaine. Le relevé des audiences Nielsen place la première partie la semaine du 2 janvier 1995 et la seconde la semaine du 9 janvier ; l’atlas ne retient pas de jour.</li>
+  <li>Diffusion en syndication : chaque station choisissait son jour dans la semaine. Le relevé des audiences Nielsen place la première partie la semaine du 2 janvier 1995 et la seconde la semaine du 9 janvier (« <span lang="en">These are "Week of" dates</span> ») <a class="appel" href="#src-2">[2]</a> ; la liste des épisodes de Wikipedia donne le 31 décembre 1994 pour la première partie, sans source. L’atlas ne retient pas de jour.</li>
 </ul>
+<p>La première partie est écrite par Ira Steven Behr et Robert Hewitt Wolfe et réalisée par Reza Badiyi ; la seconde, par Behr, Wolfe et René Echevarria, est réalisée par Jonathan Frakes <a class="appel" href="#src-3">[3]</a><a class="appel" href="#src-4">[4]</a>.</p>
+<p>Les témoignages des auteurs sont rétrospectifs. En 2021, Robert Hewitt Wolfe rattache l’épisode à ce que l’équipe voyait autour d’elle : « <span lang="en">We weren’t being predictive. We were just looking out our windows in the ’90s</span> » [nous ne cherchions pas à prédire ; nous regardions simplement par nos fenêtres, dans les années 1990] ; sa femme travaillait comme psychothérapeute auprès de personnes sans abri, et Behr, dit-il, s’est décidé en traversant Palisades Park, à Santa Monica, où il voyait de nombreux sans-abri <a class="appel" href="#src-5">[5]</a>. En 2019, Ira Steven Behr cite lui-même « Past Tense » parmi les épisodes « <span lang="en">more socially oriented</span> » de la série, en évoquant les sans-abri de Los Angeles <a class="appel" href="#src-6">[6]</a>. Ces déclarations portent sur la pauvreté sans domicile observée en Californie au début des années 1990 ; aucune ne vise une loi ou une décision de justice précise.</p>
 
 <h2>3. Le temps de la diffusion</h2>
 <p>Le document analytique situe la période 1993–2001 de la franchise ainsi :</p>
 <blockquote class="encadre">{{ site.data.editorial.lignes_de_force.markdown | split: "**1993–2001 (DS9/VOY).**" | last | split: "**2001–2005" | first | prepend: "**1993–2001 (DS9/VOY).**" | markdownify }}</blockquote>
-<p>Pour cet épisode, la fiche retient les débats américains sur la pauvreté urbaine, la criminalité et la réforme de l’aide sociale. L’atlas ne dispose pas, dans son corpus actuel, d’entretiens ou de documents de production établissant l’intention des scénaristes : le contexte est un cadre de lecture, non une explication causale.</p>
+<p>Pour cet épisode, la fiche retient les débats américains de l’époque sur la pauvreté urbaine et l’aide sociale comme contexte de réception. Le seul lien établi par les auteurs est celui qu’ils font eux-mêmes, après coup, avec la pauvreté sans domicile qu’ils observaient <a class="appel" href="#src-5">[5]</a><a class="appel" href="#src-6">[6]</a>.</p>
 
 <h2>4. Résonances politiques ultérieures</h2>
 <section class="volet volet--parallele"><h3>Parallèle réel à étudier</h3>{{ f.volets.parallele | markdownify }}</section>
+<p>L’épisode a été relu, à partir de la fin des années 2010, comme une anticipation des années 2020 ; Vox l’écrit en 2021 dans le titre même de son article (« <span lang="en">accidentally predicted the 2020s by writing about the 1990s</span> ») <a class="appel" href="#src-5">[5]</a>. Ce rapprochement appartient à la réception, et les auteurs le récusent : « <span lang="en">We weren’t being predictive. We were just being observant</span> » <a class="appel" href="#src-5">[5]</a>.</p>
 <p>Sources citées par la fiche :</p>
-<ul>{% for s in f.sources %}<li>{{ s.libelle }} : <a href="{{ s.url }}" rel="noopener">{{ s.url }}</a> {% if s.archive %}(<a href="{{ s.archive }}" rel="noopener">copie archivée</a>){% endif %}</li>{% endfor %}</ul>
+<ul>{% for s in f.sources %}<li>{{ s.libelle | escape }} : <a href="{{ s.url }}" rel="noopener">{{ s.url | escape }}</a> {% if s.archive %}(<a href="{{ s.archive }}" rel="noopener">copie archivée</a>){% endif %}</li>{% endfor %}</ul>
 
 <h2>5. Différences et limites de la comparaison</h2>
 <section class="volet volet--objections"><h3>Objections et limites de l’analogie</h3>{{ f.volets.objections | markdownify }}</section>
 <div class="encadre encadre--alerte">
-  <p><strong>Ce que cette page n’affirme pas.</strong> Elle n’affirme pas que l’épisode a « prédit » 2024, ni que la décision de 2024 répond à l’épisode, ni que les campements contemporains sont des Zones de Sanctuaire. Le rapprochement porte sur une question commune — le traitement public de la pauvreté sans domicile, entre ordre public et assistance — dont les formes juridiques diffèrent.</p>
+  <p><strong>Ce que cette page n’affirme pas.</strong> Elle n’affirme pas que l’épisode a « prédit » 2024, ni que la décision de 2024 répond à l’épisode, ni que les campements contemporains sont des Zones de Sanctuaire. Le rapprochement porte sur une question commune — le traitement public de la pauvreté sans domicile, entre ordre public et assistance — dont les formes juridiques diffèrent. Ce que les auteurs ont déclaré, c’est avoir décrit ce qu’ils observaient en Californie dans les années 1990.</p>
 </div>
+
+<h2 id="sources">Sources de l’analyse</h2>
+<p>Pages lues les 12 et 14 novembre 2026 ; une copie archivée est indiquée quand la page d’origine n’est plus en ligne.</p>
+<ol class="sources">
+  <li id="src-1">Wikipedia, « Past Tense (Star Trek: Deep Space Nine) » (résumé de l’épisode) : <a href="https://en.wikipedia.org/wiki/Past_Tense_(Star_Trek:_Deep_Space_Nine)" rel="noopener">wikipedia.org</a>.</li>
+  <li id="src-2">TrekNation, « DS9 Nielsen Ratings – Season 3 », relevé des audiences : <a href="https://web.archive.org/web/20001003225525/http://treknation.com/nielsens/ds9/season3.shtml" rel="noopener">copie archivée</a>.</li>
+  <li id="src-3">Keith R.A. DeCandido, « Star Trek: Deep Space Nine Rewatch: "Past Tense, Part I" », Tor.com (générique de l’épisode) : <a href="https://reactormag.com/star-trek-deep-space-nine-rewatch-past-tense-part-i/" rel="noopener">reactormag.com</a>.</li>
+  <li id="src-4">Keith R.A. DeCandido, « Star Trek: Deep Space Nine Rewatch: "Past Tense, Part II" », Tor.com (générique de l’épisode) : <a href="https://reactormag.com/star-trek-deep-space-nine-rewatch-past-tense-part-ii/" rel="noopener">reactormag.com</a>.</li>
+  <li id="src-5">Emily VanDerWerff, « Star Trek: Deep Space Nine accidentally predicted the 2020s by writing about the 1990s », Vox, 16 février 2021 (entretien avec Robert Hewitt Wolfe) : <a href="https://www.vox.com/culture/22273263/star-trek-deep-space-nine-past-tense-prediction-2024" rel="noopener">vox.com</a>.</li>
+  <li id="src-6">Andrew Bundy, « Ira Steven Behr talks "Deep Space Nine" at SDCC », Slice of SciFi, 28 juillet 2019 : <a href="https://www.sliceofscifi.com/2019/07/28/ira-steven-behr-talks-deep-space-nine-at-sdcc/" rel="noopener">sliceofscifi.com</a>.</li>
+</ol>
 
 <p><a href="{{ '/evenements/STP-006/' | relative_url }}">Retour à la fiche STP-006</a> · <a href="{{ '/contribuer/' | relative_url }}">Proposer une correction</a></p>

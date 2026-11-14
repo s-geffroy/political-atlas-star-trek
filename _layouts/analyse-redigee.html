@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{%- comment -%}
+Analyse redigee a la main (data/analyses-redigees.json). Le fil d'Ariane precede
+le titre, comme dans les analyses generees (_layouts/analyse.html). Les appels
+[n] du texte renvoient a la liste <ol class="sources"> (ancres #src-n).
+{%- endcomment -%}
+{%- assign dp = page.date | date: '%Y-%m-%d' -%}
+{%- assign dr = page.last_modified_at | date: '%Y-%m-%d' -%}
+<article class="analyse-redigee">
+  <p class="fil"><a href="{{ '/analyses/' | relative_url }}">Analyses</a> › {{ page.fil | escape }}</p>
+  <h1>{{ page.title | escape }}</h1>
+  <p class="carte__meta">Analyse rédigée · publiée le <time datetime="{{ dp }}">{% include date-fr.html d=dp %}</time>{% if page.last_modified_at and dr != dp %}, revue le <time datetime="{{ dr }}">{% include date-fr.html d=dr %}</time>{% endif %} · <a href="#sources">sources numérotées</a></p>
+  {{ content }}
+</article>

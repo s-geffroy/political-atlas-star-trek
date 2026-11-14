@@ -306,7 +306,7 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .carte-arcs .bulle { fill: var(--cyan); fill-opacity: 0.8; stroke: var(--fond); stroke-width: 2; }
 .carte-arcs a:hover .bulle, .carte-arcs a:focus-visible .bulle { fill: var(--ambre); fill-opacity: 1; }
 .carte-arcs a:focus-visible { outline: 3px solid var(--ambre); outline-offset: 2px; }
-.carte-arcs .bulle__nom { fill: var(--texte); font-size: 12px; paint-order: stroke; stroke: var(--fond); stroke-width: 3px; }
+.carte-arcs .bulle__nom { fill: var(--texte); font-size: 12px; font-weight: 600; }
 .carte-arcs .bulle__n { fill: var(--encre); font-size: 12px; font-weight: 700; text-anchor: middle; pointer-events: none; }
 .lien--cause { stroke: var(--lien-cause); }
 .fleche--cause { fill: var(--lien-cause); }

@@ -1,0 +1,20 @@
+{
+ "_lisez_moi": [
+  "Noms courts des principaux arcs du reseau, affiches sur la carte des arcs (/reseau/). Cle = identifiant de l'arc (plus petit identifiant de ses evenements).",
+  "Ce sont des libelles de navigation rediges d'apres les intitules des evenements de l'arc, pas des donnees du corpus. Un arc dont la cle disparait apres un recalcul n'a plus de nom court (avertissement de la validation)."
+ ],
+ "noms": {
+  "STP-062": "Klingons, Khitomer et guerre du Dominion",
+  "STP-005": "Augments, Kelvin et supernova romulienne",
+  "STP-105": "Burn et réunification vulcano-romulienne",
+  "STP-016": "Guerre froide temporelle et crise xindie",
+  "STP-039": "Guerre Fédération–Klingons (2256–2257)",
+  "STP-103": "Maquis",
+  "STP-081": "Borg et changelings infiltrés",
+  "STP-120": "Occupation de Bajor",
+  "STP-080": "Worf contre les Duras",
+  "STP-153": "Section 31 et fin de la guerre du Dominion",
+  "STP-221": "Diviner et guerre de Solum",
+  "STP-233": "Univers Miroir"
+ }
+}

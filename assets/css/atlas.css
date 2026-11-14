@@ -297,18 +297,19 @@ p.carte__meta > a:only-child, .panneau > p > a { display: inline-block; min-heig
 .lien { fill: none; stroke-width: 2; }
 /* Graphe chronologique (page /reseau/graphe/). */
 .graphe { max-width: none; display: block; font-family: var(--police); touch-action: none; cursor: grab; }
-.graphe .g-bande { fill: transparent; }
+.graphe .g-bande { fill: transparent; pointer-events: none; }
+.graphe .g-bande__nom { pointer-events: none; }
 .graphe .g-bande--pair { fill: var(--surface-2); fill-opacity: 0.4; }
 .graphe .g-bande__nom { fill: var(--doux); font-size: 11px; }
-.graphe .lien { stroke-width: 1.4; stroke-opacity: 0.75; transition: stroke-opacity 0.15s; }
+.graphe .lien { stroke-width: 1.4; opacity: 0.75; transition: opacity 0.15s; }
 .graphe .g-noeud circle { fill: var(--lavande); stroke: var(--fond); stroke-width: 1.5; transition: opacity 0.15s; }
 .graphe .g-noeud text { fill: var(--texte); font-size: 11px; pointer-events: none; }
 .graphe .g-noeud:hover circle, .graphe .g-noeud:focus-visible circle { fill: var(--ambre); }
 .graphe .g-noeud:focus-visible { outline: none; }
 .graphe .g-noeud:focus-visible circle { stroke: var(--texte); stroke-width: 3; }
 .graphe.isole .g-noeud:not(.actif) { opacity: 0.18; }
-.graphe.isole .lien:not(.actif) { stroke-opacity: 0.06; }
-.graphe.isole .lien.actif { stroke-width: 2.4; stroke-opacity: 1; }
+.graphe.isole .lien:not(.actif) { opacity: 0.06; }
+.graphe.isole .lien.actif { stroke-width: 2.4; opacity: 1; }
 .graphe.isole .g-noeud.actif text, .graphe .g-noeud:hover text { font-weight: 700; }
 .graphe.recherche:not(.isole) .g-noeud:not(.trouve) { opacity: 0.25; }
 .graphe .g-noeud.trouve circle { fill: var(--ambre); }

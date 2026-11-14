@@ -1,0 +1,14 @@
+{
+ "_lisez_moi": [
+  "Analyses redigees a la main : une page propre dans analyses/ remplace la page generee par scripts/import.mjs.",
+  "Pour en ajouter une : ecrire la page (front matter : title, permalink /analyses/STP-NNN/, description), l'inscrire ici, puis npm run check : l'import retire la page generee devenue inutile et la validation verifie que fichier et adresse concordent.",
+  "L'adresse d'une analyse deja publiee ne change pas (une adresse qui disparait laisse des liens morts)."
+ ],
+ "analyses": [
+  { "id": "STP-006", "fichier": "analyses/emeutes-de-bell.html", "permalien": "/analyses/emeutes-de-bell/" },
+  { "id": "STP-034", "fichier": "analyses/terra-prime.html", "permalien": "/analyses/STP-034/" },
+  { "id": "STP-094", "fichier": "analyses/data.html", "permalien": "/analyses/STP-094/" },
+  { "id": "STP-139", "fichier": "analyses/leyton.html", "permalien": "/analyses/STP-139/" },
+  { "id": "STP-153", "fichier": "analyses/section-31.html", "permalien": "/analyses/STP-153/" }
+ ]
+}

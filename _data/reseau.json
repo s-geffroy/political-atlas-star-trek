@@ -260,11 +260,11 @@
        "y": 241
       },
       {
-       "t": "contre l'ordre…",
+       "t": "contre le gouvernement…",
        "y": 257
       }
      ],
-     "titre_complet": "Soulèvement des Cardassiens contre l'ordre militaro-renseignement",
+     "titre_complet": "Soulèvement des Cardassiens contre le gouvernement militaire",
      "niv": "B",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
@@ -1055,7 +1055,7 @@
   },
   {
    "titre": "Le « Burn » détruit massivement les moteurs à dilithium et brise les liaisons galactiques",
-   "taille": 19,
+   "taille": 22,
    "noeuds": [
     {
      "id": "STP-001",
@@ -1192,19 +1192,19 @@
     {
      "id": "STP-106",
      "x": 386,
-     "y": 246,
+     "y": 168,
      "w": 250,
      "h": 60,
      "tx": 396,
-     "id_y": 262,
+     "id_y": 184,
      "lignes": [
       {
        "t": "Opération de transfert de",
-       "y": 280
+       "y": 202
       },
       {
        "t": "réfugiés romuliens par un…",
-       "y": 296
+       "y": 218
       }
      ],
      "titre_complet": "Opération de transfert de réfugiés romuliens par un réseau clandestin",
@@ -1258,19 +1258,19 @@
     {
      "id": "STP-181",
      "x": 386,
-     "y": 480,
+     "y": 558,
      "w": 250,
      "h": 60,
      "tx": 396,
-     "id_y": 496,
+     "id_y": 574,
      "lignes": [
       {
        "t": "Crise Trill au sujet de",
-       "y": 514
+       "y": 592
       },
       {
        "t": "l'accueil d'un symbiote dans…",
-       "y": 530
+       "y": 608
       }
      ],
      "titre_complet": "Crise Trill au sujet de l'accueil d'un symbiote dans un hôte humain",
@@ -1280,19 +1280,19 @@
     {
      "id": "STP-182",
      "x": 386,
-     "y": 168,
+     "y": 324,
      "w": 250,
      "h": 60,
      "tx": 396,
-     "id_y": 184,
+     "id_y": 340,
      "lignes": [
       {
        "t": "Ni'Var — réunification",
-       "y": 202
+       "y": 358
       },
       {
        "t": "vulcano-romulienne mais…",
-       "y": 218
+       "y": 374
       }
      ],
      "titre_complet": "Ni'Var — réunification vulcano-romulienne mais départ de la Fédération",
@@ -1344,21 +1344,87 @@
      "cycle": "Discovery : futur et reconstruction post-Burn"
     },
     {
-     "id": "STP-228",
-     "x": 386,
+     "id": "STP-188",
+     "x": 56,
      "y": 558,
      "w": 250,
      "h": 60,
-     "tx": 396,
+     "tx": 66,
      "id_y": 574,
      "lignes": [
       {
-       "t": "Réouverture de l'Académie de",
+       "t": "Catastrophe du DMA,",
        "y": 592
       },
       {
-       "t": "Starfleet et intégration de…",
+       "t": "destruction de Kwejian par…",
        "y": 608
+      }
+     ],
+     "titre_complet": "Catastrophe du DMA, destruction de Kwejian par l'anomalie",
+     "niv": "A",
+     "cycle": "Discovery : futur et reconstruction post-Burn"
+    },
+    {
+     "id": "STP-189",
+     "x": 386,
+     "y": 246,
+     "w": 250,
+     "h": 60,
+     "tx": 396,
+     "id_y": 262,
+     "lignes": [
+      {
+       "t": "Débat institutionnel sur une",
+       "y": 280
+      },
+      {
+       "t": "attaque préventive contre…",
+       "y": 296
+      }
+     ],
+     "titre_complet": "Débat institutionnel sur une attaque préventive contre l'espèce 10-C",
+     "niv": "A",
+     "cycle": "Discovery : futur et reconstruction post-Burn"
+    },
+    {
+     "id": "STP-190",
+     "x": 716,
+     "y": 480,
+     "w": 250,
+     "h": 60,
+     "tx": 726,
+     "id_y": 496,
+     "lignes": [
+      {
+       "t": "Premier contact avec l'espèce",
+       "y": 514
+      },
+      {
+       "t": "10-C et résolution…",
+       "y": 530
+      }
+     ],
+     "titre_complet": "Premier contact avec l'espèce 10-C et résolution diplomatique",
+     "niv": "A",
+     "cycle": "Discovery : futur et reconstruction post-Burn"
+    },
+    {
+     "id": "STP-228",
+     "x": 386,
+     "y": 636,
+     "w": 250,
+     "h": 60,
+     "tx": 396,
+     "id_y": 652,
+     "lignes": [
+      {
+       "t": "Réouverture de l'Académie de",
+       "y": 670
+      },
+      {
+       "t": "Starfleet et intégration de…",
+       "y": 686
       }
      ],
      "titre_complet": "Réouverture de l'Académie de Starfleet et intégration de nouveaux cadets",
@@ -1368,19 +1434,19 @@
     {
      "id": "STP-230",
      "x": 386,
-     "y": 402,
+     "y": 480,
      "w": 250,
      "h": 60,
      "tx": 396,
-     "id_y": 418,
+     "id_y": 496,
      "lignes": [
       {
        "t": "Crise menaçant l'existence et",
-       "y": 436
+       "y": 514
       },
       {
        "t": "l'avenir des Klingons",
-       "y": 452
+       "y": 530
       }
      ],
      "titre_complet": "Crise menaçant l'existence et l'avenir des Klingons",
@@ -1390,19 +1456,19 @@
     {
      "id": "STP-292",
      "x": 386,
-     "y": 636,
+     "y": 714,
      "w": 250,
      "h": 60,
      "tx": 396,
-     "id_y": 652,
+     "id_y": 730,
      "lignes": [
       {
        "t": "Isolement de Betazed derrière",
-       "y": 670
+       "y": 748
       },
       {
        "t": "une barrière psionique après…",
-       "y": 686
+       "y": 764
       }
      ],
      "titre_complet": "Isolement de Betazed derrière une barrière psionique après le Burn",
@@ -1434,19 +1500,19 @@
     {
      "id": "STP-295",
      "x": 716,
-     "y": 480,
+     "y": 558,
      "w": 250,
      "h": 60,
      "tx": 726,
-     "id_y": 496,
+     "id_y": 574,
      "lignes": [
       {
        "t": "Accord mettant en scène une «",
-       "y": 514
+       "y": 592
       },
       {
        "t": "conquête » klingonne de Faan…",
-       "y": 530
+       "y": 608
       }
      ],
      "titre_complet": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
@@ -1456,19 +1522,19 @@
     {
      "id": "STP-179",
      "x": 386,
-     "y": 324,
+     "y": 402,
      "w": 250,
      "h": 60,
      "tx": 396,
-     "id_y": 340,
+     "id_y": 418,
      "lignes": [
       {
        "t": "Sécession ou retrait de",
-       "y": 358
+       "y": 436
       },
       {
        "t": "nombreuses planètes de la…",
-       "y": 374
+       "y": 452
       }
      ],
      "titre_complet": "Sécession ou retrait de nombreuses planètes de la Fédération",
@@ -1481,7 +1547,7 @@
      "de": "STP-105",
      "vers": "STP-182",
      "type": "suite",
-     "d": "M306,354 C346,354 346,198 382,198",
+     "d": "M306,369 C346,369 346,354 382,354",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3#ep36"
     },
     {
@@ -1502,28 +1568,42 @@
      "de": "STP-178",
      "vers": "STP-179",
      "type": "cause",
-     "d": "M306,488.57142857142856 C346,488.57142857142856 346,369 382,369",
+     "d": "M306,497.14285714285717 C346,497.14285714285717 346,447 382,447",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3"
     },
     {
      "de": "STP-180",
      "vers": "STP-187",
      "type": "suite",
-     "d": "M306,422 C511,422 511,286 712,286",
+     "d": "M306,422 C511,422 511,276 712,276",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4"
     },
     {
      "de": "STP-182",
      "vers": "STP-187",
      "type": "suite",
-     "d": "M636,188 C676,188 676,266 712,266",
+     "d": "M636,344 C676,344 676,261 712,261",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4"
+    },
+    {
+     "de": "STP-188",
+     "vers": "STP-189",
+     "type": "cause",
+     "d": "M306,588 C346,588 346,276 382,276",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4"
+    },
+    {
+     "de": "STP-189",
+     "vers": "STP-190",
+     "type": "suite",
+     "d": "M636,276 C676,276 676,500 712,500",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4"
     },
     {
      "de": "STP-178",
      "vers": "STP-292",
      "type": "cause",
-     "d": "M306,531.4285714285714 C346,531.4285714285714 346,666 382,666",
+     "d": "M306,531.4285714285714 C346,531.4285714285714 346,744 382,744",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy"
     },
     {
@@ -1537,35 +1617,35 @@
      "de": "STP-178",
      "vers": "STP-183",
      "type": "cause",
-     "d": "M306,497.14285714285717 C511,497.14285714285717 511,369 712,369",
+     "d": "M306,488.57142857142856 C511,488.57142857142856 511,369 712,369",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3#ep36"
     },
     {
      "de": "STP-182",
      "vers": "STP-183",
      "type": "cause",
-     "d": "M636,208 C676,208 676,339 712,339",
+     "d": "M636,364 C676,364 676,339 712,339",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_3#ep36"
     },
     {
      "de": "STP-178",
      "vers": "STP-230",
      "type": "cause",
-     "d": "M306,505.7142857142857 C346,505.7142857142857 346,432 382,432",
+     "d": "M306,505.7142857142857 C346,505.7142857142857 346,510 382,510",
      "url": "https://en.wikipedia.org/wiki/Vox_in_Excelso"
     },
     {
      "de": "STP-230",
      "vers": "STP-295",
      "type": "cause",
-     "d": "M636,432 C676,432 676,510 712,510",
+     "d": "M636,510 C676,510 676,588 712,588",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy#Episodes"
     },
     {
      "de": "STP-292",
      "vers": "STP-293",
      "type": "suite",
-     "d": "M636,666 C676,666 676,432 712,432",
+     "d": "M636,744 C676,744 676,432 712,432",
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy#Episodes"
     },
     {
@@ -1579,28 +1659,28 @@
      "de": "STP-105",
      "vers": "STP-106",
      "type": "suite",
-     "d": "M306,369 C346,369 346,286 382,286",
+     "d": "M306,354 C346,354 346,188 382,188",
      "url": "https://memory-alpha.fandom.com/wiki/Face_Of_The_Enemy_(episode)"
     },
     {
      "de": "STP-106",
      "vers": "STP-182",
      "type": "meme_arc",
-     "d": "M386,266 C354.1666666666667,266 354.1666666666667,183 386,183",
+     "d": "M386,208 C346.1666666666667,208 346.1666666666667,339 386,339",
      "url": "https://memory-alpha.fandom.com/wiki/Face_Of_The_Enemy_(episode)"
     },
     {
      "de": "STP-178",
      "vers": "STP-181",
      "type": "cause",
-     "d": "M306,514.2857142857143 C346,514.2857142857143 346,510 382,510",
+     "d": "M306,514.2857142857143 C346,514.2857142857143 346,588 382,588",
      "url": "https://memory-alpha.fandom.com/wiki/Forget_Me_Not_(episode)"
     },
     {
      "de": "STP-178",
      "vers": "STP-228",
      "type": "cause",
-     "d": "M306,522.8571428571429 C346,522.8571428571429 346,588 382,588",
+     "d": "M306,522.8571428571429 C346,522.8571428571429 346,666 382,666",
      "url": "https://memory-alpha.fandom.com/wiki/Kids_These_Days_(episode)"
     },
     {
@@ -1642,27 +1722,34 @@
      "de": "STP-179",
      "vers": "STP-180",
      "type": "episode_commun",
-     "d": "M386,354 C346,354 346,442 310,442",
+     "d": "M386,432 C346,432 346,442 310,442",
      "url": null
     },
     {
      "de": "STP-179",
      "vers": "STP-182",
      "type": "episode_commun",
-     "d": "M386,339 C347,339 347,213 386,213",
+     "d": "M386,417 C360,417 360,369 386,369",
      "url": null
     },
     {
      "de": "STP-179",
      "vers": "STP-183",
      "type": "episode_commun",
-     "d": "M636,354 C676,354 676,354 712,354",
+     "d": "M636,432 C676,432 676,354 712,354",
+     "url": null
+    },
+    {
+     "de": "STP-187",
+     "vers": "STP-190",
+     "type": "episode_commun",
+     "d": "M716,291 C668,291 668,520 716,520",
      "url": null
     }
    ],
    "externes": [],
    "largeur": 978,
-   "hauteur": 708,
+   "hauteur": 786,
    "numero": 2,
    "cle": "STP-001",
    "ids": [
@@ -1679,6 +1766,9 @@
     "STP-182",
     "STP-183",
     "STP-187",
+    "STP-188",
+    "STP-189",
+    "STP-190",
     "STP-228",
     "STP-230",
     "STP-292",
@@ -1700,7 +1790,7 @@
     "Discovery",
     "Starfleet Academy"
    ],
-   "nb_relations": 18
+   "nb_relations": 20
   },
   {
    "titre": "Guerre Fédération–Empire klingon et atrocités contre des civils",
@@ -1786,11 +1876,11 @@
        "y": 124
       },
       {
-       "t": "Qo'noS et renoncement forcé…",
+       "t": "Qo'noS, abandonné sous la…",
        "y": 140
       }
      ],
-     "titre_complet": "Projet fédéral d'anéantir Qo'noS et renoncement forcé par une mutinerie morale",
+     "titre_complet": "Projet fédéral d'anéantir Qo'noS, abandonné sous la menace d'une mutinerie de l'équipage",
      "niv": "A",
      "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle"
     },
@@ -2711,11 +2801,11 @@
        "y": 202
       },
       {
-       "t": "traité mettant fin à la…",
+       "t": "armistice mettant fin à la…",
        "y": 218
       }
      ],
-     "titre_complet": "Capitulation du Dominion et traité mettant fin à la guerre du quadrant Alpha",
+     "titre_complet": "Capitulation du Dominion et armistice mettant fin à la guerre du quadrant Alpha",
      "niv": "A",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
@@ -2984,15 +3074,15 @@
      "id_y": 145,
      "lignes": [
       {
-       "t": "Débat sur la réintégration de",
+       "t": "Procès du jeune équipage du",
        "y": 163
       },
       {
-       "t": "jeunes mineurs sans statut…",
+       "t": "Protostar, abandon des…",
        "y": 179
       }
      ],
-     "titre_complet": "Débat sur la réintégration de jeunes mineurs sans statut fédéral",
+     "titre_complet": "Procès du jeune équipage du Protostar, abandon des charges et intégration dans Starfleet",
      "niv": "A",
      "cycle": "Prodigy : esclavage, contact et guerre civile"
     },
@@ -4626,15 +4716,15 @@
      "id_y": 106,
      "lignes": [
       {
-       "t": "Naissance du mouvement armé",
+       "t": "Infiltration d'une cellule du",
        "y": 124
       },
       {
-       "t": "maquisard et défection de Ro…",
+       "t": "Maquis et défection de Ro…",
        "y": 140
       }
      ],
-     "titre_complet": "Naissance du mouvement armé maquisard et défection de Ro Laren",
+     "titre_complet": "Infiltration d'une cellule du Maquis et défection de Ro Laren",
      "niv": "A",
      "cycle": "The Next Generation : institutions, guerre, droits"
     }
@@ -4706,111 +4796,6 @@
     "Deep Space Nine"
    ],
    "nb_relations": 3
-  },
-  {
-   "titre": "Émergence d'une Confédération terrienne xénophobe dans une réalité modifiée",
-   "taille": 3,
-   "noeuds": [
-    {
-     "id": "STP-007",
-     "x": 56,
-     "y": 12,
-     "w": 250,
-     "h": 60,
-     "tx": 66,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Projet de régime autoritaire",
-       "y": 46
-      },
-      {
-       "t": "de la Confédération de la…",
-       "y": 62
-      }
-     ],
-     "titre_complet": "Projet de régime autoritaire de la Confédération de la Terre (ligne temporelle Q)",
-     "niv": "A",
-     "cycle": "Terre : origines et histoire antérieure"
-    },
-    {
-     "id": "STP-008",
-     "x": 386,
-     "y": 51,
-     "w": 250,
-     "h": 60,
-     "tx": 396,
-     "id_y": 67,
-     "lignes": [
-      {
-       "t": "Protection du projet de vol",
-       "y": 85
-      },
-      {
-       "t": "spatial de Renée Picard…",
-       "y": 101
-      }
-     ],
-     "titre_complet": "Protection du projet de vol spatial de Renée Picard contre des manipulations politiques et temporelles",
-     "niv": "A",
-     "cycle": "Terre : origines et histoire antérieure"
-    },
-    {
-     "id": "STP-203",
-     "x": 56,
-     "y": 90,
-     "w": 250,
-     "h": 60,
-     "tx": 66,
-     "id_y": 106,
-     "lignes": [
-      {
-       "t": "Émergence d'une Confédération",
-       "y": 124
-      },
-      {
-       "t": "terrienne xénophobe dans une…",
-       "y": 140
-      }
-     ],
-     "titre_complet": "Émergence d'une Confédération terrienne xénophobe dans une réalité modifiée",
-     "niv": "A",
-     "cycle": "Picard : gouvernance, synthétiques, Romuliens"
-    }
-   ],
-   "aretes": [
-    {
-     "de": "STP-007",
-     "vers": "STP-203",
-     "type": "meme_arc",
-     "d": "M56,42 C25,42 25,120 56,120",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2"
-    },
-    {
-     "de": "STP-203",
-     "vers": "STP-008",
-     "type": "cause",
-     "d": "M306,120 C346,120 346,81 382,81",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2"
-    }
-   ],
-   "externes": [],
-   "largeur": 648,
-   "hauteur": 162,
-   "numero": 19,
-   "cle": "STP-007",
-   "ids": [
-    "STP-007",
-    "STP-008",
-    "STP-203"
-   ],
-   "series": [
-    "PIC"
-   ],
-   "series_noms": [
-    "Picard"
-   ],
-   "nb_relations": 2
   },
   {
    "titre": "Promotion par le combat chez les Kazon-Ogla et projet de Culluh d'unir les sectes kazones grâce à la technologie de Voyager",
@@ -4909,7 +4894,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 162,
-   "numero": 20,
+   "numero": 19,
    "cle": "STP-162",
    "ids": [
     "STP-162",
@@ -5014,117 +4999,12 @@
    "externes": [],
    "largeur": 978,
    "hauteur": 84,
-   "numero": 21,
+   "numero": 20,
    "cle": "STP-184",
    "ids": [
     "STP-184",
     "STP-185",
     "STP-186"
-   ],
-   "series": [
-    "DIS"
-   ],
-   "series_noms": [
-    "Discovery"
-   ],
-   "nb_relations": 2
-  },
-  {
-   "titre": "Débat institutionnel sur une attaque préventive contre l'espèce 10-C",
-   "taille": 3,
-   "noeuds": [
-    {
-     "id": "STP-188",
-     "x": 56,
-     "y": 12,
-     "w": 250,
-     "h": 60,
-     "tx": 66,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Catastrophe du DMA,",
-       "y": 46
-      },
-      {
-       "t": "destruction de Kwejian par…",
-       "y": 62
-      }
-     ],
-     "titre_complet": "Catastrophe du DMA, destruction de Kwejian par l'anomalie",
-     "niv": "A",
-     "cycle": "Discovery : futur et reconstruction post-Burn"
-    },
-    {
-     "id": "STP-189",
-     "x": 386,
-     "y": 12,
-     "w": 250,
-     "h": 60,
-     "tx": 396,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Débat institutionnel sur une",
-       "y": 46
-      },
-      {
-       "t": "attaque préventive contre…",
-       "y": 62
-      }
-     ],
-     "titre_complet": "Débat institutionnel sur une attaque préventive contre l'espèce 10-C",
-     "niv": "A",
-     "cycle": "Discovery : futur et reconstruction post-Burn"
-    },
-    {
-     "id": "STP-190",
-     "x": 716,
-     "y": 12,
-     "w": 250,
-     "h": 60,
-     "tx": 726,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Premier contact avec l'espèce",
-       "y": 46
-      },
-      {
-       "t": "10-C et résolution…",
-       "y": 62
-      }
-     ],
-     "titre_complet": "Premier contact avec l'espèce 10-C et résolution diplomatique",
-     "niv": "A",
-     "cycle": "Discovery : futur et reconstruction post-Burn"
-    }
-   ],
-   "aretes": [
-    {
-     "de": "STP-188",
-     "vers": "STP-189",
-     "type": "cause",
-     "d": "M306,42 C346,42 346,42 382,42",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4"
-    },
-    {
-     "de": "STP-189",
-     "vers": "STP-190",
-     "type": "suite",
-     "d": "M636,42 C676,42 676,42 712,42",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4"
-    }
-   ],
-   "externes": [],
-   "largeur": 978,
-   "hauteur": 84,
-   "numero": 22,
-   "cle": "STP-188",
-   "ids": [
-    "STP-188",
-    "STP-189",
-    "STP-190"
    ],
    "series": [
     "DIS"
@@ -5224,7 +5104,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 162,
-   "numero": 23,
+   "numero": 21,
    "cle": "STP-191",
    "ids": [
     "STP-191",
@@ -5329,7 +5209,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 162,
-   "numero": 24,
+   "numero": 22,
    "cle": "STP-211",
    "ids": [
     "STP-211",
@@ -5434,7 +5314,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 162,
-   "numero": 25,
+   "numero": 23,
    "cle": "STP-213",
    "ids": [
     "STP-213",
@@ -5539,7 +5419,7 @@
    "externes": [],
    "largeur": 978,
    "hauteur": 84,
-   "numero": 26,
+   "numero": 24,
    "cle": "STP-231",
    "ids": [
     "STP-231",
@@ -5640,7 +5520,7 @@
    ],
    "largeur": 318,
    "hauteur": 162,
-   "numero": 27,
+   "numero": 25,
    "cle": "STP-009",
    "ids": [
     "STP-009",
@@ -5724,7 +5604,7 @@
    ],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 28,
+   "numero": 26,
    "cle": "STP-161",
    "ids": [
     "STP-269",
@@ -5737,6 +5617,81 @@
    "series_noms": [
     "Voyager",
     "The Next Generation"
+   ],
+   "nb_relations": 1
+  },
+  {
+   "titre": "Protection du projet de vol spatial de Renée Picard contre des manipulations politiques et temporelles",
+   "taille": 2,
+   "noeuds": [
+    {
+     "id": "STP-008",
+     "x": 386,
+     "y": 12,
+     "w": 250,
+     "h": 60,
+     "tx": 396,
+     "id_y": 28,
+     "lignes": [
+      {
+       "t": "Protection du projet de vol",
+       "y": 46
+      },
+      {
+       "t": "spatial de Renée Picard…",
+       "y": 62
+      }
+     ],
+     "titre_complet": "Protection du projet de vol spatial de Renée Picard contre des manipulations politiques et temporelles",
+     "niv": "A",
+     "cycle": "Terre : origines et histoire antérieure"
+    },
+    {
+     "id": "STP-203",
+     "x": 56,
+     "y": 12,
+     "w": 250,
+     "h": 60,
+     "tx": 66,
+     "id_y": 28,
+     "lignes": [
+      {
+       "t": "Émergence d'une Confédération",
+       "y": 46
+      },
+      {
+       "t": "terrienne xénophobe dans une…",
+       "y": 62
+      }
+     ],
+     "titre_complet": "Émergence d'une Confédération terrienne xénophobe dans une réalité modifiée",
+     "niv": "A",
+     "cycle": "Picard : gouvernance, synthétiques, Romuliens"
+    }
+   ],
+   "aretes": [
+    {
+     "de": "STP-203",
+     "vers": "STP-008",
+     "type": "cause",
+     "d": "M306,42 C346,42 346,42 382,42",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2"
+    }
+   ],
+   "externes": [],
+   "largeur": 648,
+   "hauteur": 84,
+   "numero": 27,
+   "cle": "STP-008",
+   "ids": [
+    "STP-008",
+    "STP-203"
+   ],
+   "series": [
+    "PIC"
+   ],
+   "series_noms": [
+    "Picard"
    ],
    "nb_relations": 1
   },
@@ -5801,7 +5756,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 29,
+   "numero": 28,
    "cle": "STP-019",
    "ids": [
     "STP-019",
@@ -5876,7 +5831,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 30,
+   "numero": 29,
    "cle": "STP-021",
    "ids": [
     "STP-021",
@@ -5951,7 +5906,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 31,
+   "numero": 30,
    "cle": "STP-036",
    "ids": [
     "STP-036",
@@ -6028,7 +5983,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 32,
+   "numero": 31,
    "cle": "STP-083",
    "ids": [
     "STP-083",
@@ -6103,7 +6058,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 33,
+   "numero": 32,
    "cle": "STP-094",
    "ids": [
     "STP-094",
@@ -6178,7 +6133,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 34,
+   "numero": 33,
    "cle": "STP-124",
    "ids": [
     "STP-124",
@@ -6253,7 +6208,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 35,
+   "numero": 34,
    "cle": "STP-133",
    "ids": [
     "STP-133",
@@ -6328,7 +6283,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 36,
+   "numero": 35,
    "cle": "STP-154",
    "ids": [
     "STP-154",
@@ -6403,7 +6358,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 37,
+   "numero": 36,
    "cle": "STP-165",
    "ids": [
     "STP-165",
@@ -6478,7 +6433,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 38,
+   "numero": 37,
    "cle": "STP-169",
    "ids": [
     "STP-169",
@@ -6553,7 +6508,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 39,
+   "numero": 38,
    "cle": "STP-194",
    "ids": [
     "STP-194",
@@ -6611,7 +6566,7 @@
        "y": 62
       }
      ],
-     "titre_complet": "Évasion des captifs et contrôle du Protostar par de jeunes réfugiés",
+     "titre_complet": "Évasion des captifs et contrôle du Protostar par de jeunes prisonniers",
      "niv": "A",
      "cycle": "Prodigy : esclavage, contact et guerre civile"
     }
@@ -6628,7 +6583,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 40,
+   "numero": 39,
    "cle": "STP-219",
    "ids": [
     "STP-219",
@@ -6703,7 +6658,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 41,
+   "numero": 40,
    "cle": "STP-266",
    "ids": [
     "STP-266",
@@ -6780,7 +6735,7 @@
    "externes": [],
    "largeur": 318,
    "hauteur": 162,
-   "numero": 42,
+   "numero": 41,
    "cle": "STP-298",
    "ids": [
     "STP-298",
@@ -6855,7 +6810,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 43,
+   "numero": 42,
    "cle": "STP-300",
    "ids": [
     "STP-300",
@@ -6930,7 +6885,7 @@
    "externes": [],
    "largeur": 648,
    "hauteur": 84,
-   "numero": 44,
+   "numero": 43,
    "cle": "STP-302",
    "ids": [
     "STP-302",
@@ -7000,7 +6955,7 @@
    ],
    "largeur": 318,
    "hauteur": 84,
-   "numero": 45,
+   "numero": 44,
    "cle": "STP-005",
    "ids": [
     "STP-005"
@@ -7057,7 +7012,7 @@
    ],
    "largeur": 318,
    "hauteur": 84,
-   "numero": 46,
+   "numero": 45,
    "cle": "STP-062",
    "ids": [
     "STP-062"
@@ -7071,7 +7026,7 @@
    "nb_relations": 0
   },
   {
-   "titre": "Retour de Khan et poursuite d'une revanche contre Kirk et la Fédération",
+   "titre": "Retour de Khan et poursuite d'une revanche contre Kirk",
    "taille": 1,
    "noeuds": [
     {
@@ -7088,11 +7043,11 @@
        "y": 46
       },
       {
-       "t": "d'une revanche contre Kirk…",
+       "t": "d'une revanche contre Kirk",
        "y": 62
       }
      ],
-     "titre_complet": "Retour de Khan et poursuite d'une revanche contre Kirk et la Fédération",
+     "titre_complet": "Retour de Khan et poursuite d'une revanche contre Kirk",
      "niv": "A",
      "cycle": "Films classiques et Kelvin"
     }
@@ -7110,7 +7065,7 @@
    ],
    "largeur": 318,
    "hauteur": 84,
-   "numero": 47,
+   "numero": 46,
    "cle": "STP-074",
    "ids": [
     "STP-074"
@@ -7171,7 +7126,7 @@
    ],
    "largeur": 318,
    "hauteur": 84,
-   "numero": 48,
+   "numero": 47,
    "cle": "STP-098",
    "ids": [
     "STP-098"
@@ -7226,7 +7181,7 @@
    ],
    "largeur": 318,
    "hauteur": 84,
-   "numero": 49,
+   "numero": 48,
    "cle": "STP-265",
    "ids": [
     "STP-265"
@@ -7279,7 +7234,7 @@
    ],
    "largeur": 318,
    "hauteur": 84,
-   "numero": 50,
+   "numero": 49,
    "cle": "STP-276",
    "ids": [
     "STP-276"
@@ -7332,7 +7287,7 @@
    ],
    "largeur": 318,
    "hauteur": 84,
-   "numero": 51,
+   "numero": 50,
    "cle": "STP-277",
    "ids": [
     "STP-277"
@@ -7346,8 +7301,8 @@
    "nb_relations": 0
   }
  ],
- "noeuds": 200,
- "relations": 165,
- "liens_episode": 43,
+ "noeuds": 199,
+ "relations": 164,
+ "liens_episode": 44,
  "seuil_decoupe": 25
 }

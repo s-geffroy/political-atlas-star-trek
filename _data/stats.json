@@ -1,12 +1,12 @@
 {
  "total": 305,
- "distincts": 298,
- "doublons": 7,
+ "distincts": 297,
+ "doublons": 8,
  "fiches": 31,
  "niveaux": [
   {
    "cle": "A",
-   "n": 259
+   "n": 258
   },
   {
    "cle": "B",
@@ -20,7 +20,7 @@
  "cycles": [
   {
    "cle": "Terre : origines et histoire antérieure",
-   "n": 15,
+   "n": 14,
    "slug": "terre-origines-et-histoire-anterieure"
   },
   {
@@ -192,7 +192,7 @@
   },
   {
    "cle": "PIC",
-   "n": 16,
+   "n": 15,
    "nom": "Picard"
   },
   {
@@ -223,7 +223,7 @@
   },
   {
    "cle": "justice/droits",
-   "n": 84
+   "n": 83
   },
   {
    "cle": "diplomatie/traité",
@@ -235,7 +235,7 @@
   },
   {
    "cle": "insurrection/pouvoir",
-   "n": 56
+   "n": 55
   },
   {
    "cle": "institutions/fédéralisme",
@@ -276,18 +276,22 @@
   },
   {
    "cle": "modifiee",
-   "n": 5,
+   "n": 4,
    "nom": "Temporalité ou réalité modifiée"
   }
  ],
  "versions": [
   {
    "cle": "V0.14 révisé",
-   "n": 201
+   "n": 187
   },
   {
    "cle": "V0.19 révisé",
    "n": 47
+  },
+  {
+   "cle": "V0.23 révisé",
+   "n": 14
   },
   {
    "cle": "V0.21 révisé",
@@ -311,7 +315,7 @@
   },
   {
    "cle": "V0.4 révisé",
-   "n": 5
+   "n": 4
   },
   {
    "cle": "V0.16 révisé",
@@ -330,7 +334,7 @@
   },
   {
    "cle": "annee_qualifiee",
-   "n": 20,
+   "n": 19,
    "nom": "Année avec réserve (intervalle, « env. », alternative…)"
   },
   {
@@ -362,7 +366,7 @@
  "max_serie": 59,
  "max_categorie": 88,
  "max_cycle": 41,
- "relations": 165,
+ "relations": 164,
  "sans_relation": 98,
  "passes_relations": 4
 }

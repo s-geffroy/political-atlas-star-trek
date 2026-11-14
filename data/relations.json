@@ -4,7 +4,8 @@
   "Types : cause (de est presente par la source comme une cause de vers), suite (vers prolonge directement l intrigue de de), meme_arc (meme arc narratif ou conflit nomme par la source).",
   "Chaque relation cite la page qui l etablit explicitement. Deux evenements d un meme episode ne sont relies que si la source etablit un enchainement entre eux.",
   "Doublons tranches le 2026-11-10 (STP-294, STP-296) : les relations qui les visaient sont reportees sur l entree principale ou retirees si elles y existaient deja.",
-  "examinees_sans_relation : evenements pour lesquels quatre passes de recherche n ont trouve aucune relation etablie par une source (resultat, non oubli)."
+  "examinees_sans_relation : evenements pour lesquels quatre passes de recherche n ont trouve aucune relation etablie par une source (resultat, non oubli).",
+  "Doublon tranche le 2026-11-14 (STP-007 -> STP-203) : la relation meme_arc STP-007 -> STP-203 est retiree, les deux entrees decrivant le meme fait."
  ],
  "relations": [
   {
@@ -806,13 +807,6 @@
    "type": "suite",
    "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_1",
    "justification": "Résumé de «Et in Arcadia Ego, Part 2» : une fois la crise de Coppelius résolue (balise désactivée, retraite des Romuliens), « the Federation lifts the ban on synths »."
-  },
-  {
-   "de": "STP-007",
-   "vers": "STP-203",
-   "type": "meme_arc",
-   "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2",
-   "justification": "La page de saison nomme la « Confederation of Earth », xénophobe, de la ligne temporelle de 2401, et explique qu'elle est née d'un changement opéré par Q en 2024, le 15 avril (« Watcher »). Les deux entrées relèvent de la même chronologie modifiée."
   },
   {
    "de": "STP-203",

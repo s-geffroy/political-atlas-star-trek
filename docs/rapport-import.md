@@ -1,6 +1,6 @@
 # Rapport d'import
 
-> Généré par `scripts/import.mjs`. Sources : `data/source/Star_Trek_Atlas_Politique_V0_22_2026-11-14.csv`, `data/source/Star_Trek_Atlas_Politique_V0_22_2026-11-14.md`.
+> Généré par `scripts/import.mjs`. Sources : `data/source/Star_Trek_Atlas_Politique_V0_23_2026-11-14.csv`, `data/source/Star_Trek_Atlas_Politique_V0_23_2026-11-14.md`.
 
 ## Comptages
 
@@ -12,12 +12,12 @@
 | Colonnes | 12 (`id`, `cycle`, `period`, `event`, `source`, `politics`, `categories_politiques`, `niveau_recoupement`, `nature_source`, `url_source`, `note_audit`, `version_entree`) |
 | Fiches approfondies extraites du Markdown | 31 |
 | Notices du registre intégral (Markdown) | 305 |
-| Corrections documentées (Markdown) | 141 |
+| Corrections documentées (Markdown) | 157 |
 | Pages d'événement générées | 305 |
 
 ## Répartition par niveau
 
-- A : 259
+- A : 258
 - B : 38
 - C : 1
 
@@ -50,5 +50,5 @@ Segments du champ `source` sans sigle de série reconnu (laissés tels quels, no
 
 ## Dates de diffusion rattachées
 
-290 entrées ont au moins une date d'épisode vérifiée (source : `data/diffusion.json`).
+292 entrées ont au moins une date d'épisode vérifiée (source : `data/diffusion.json`).
 

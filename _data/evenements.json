@@ -4,14 +4,14 @@
   "cycle": "Terre : origines et histoire antérieure",
   "period": "Antiquité vulcaine",
   "event": "Guerre totale de l'Antiquité vulcaine puis doctrine de Surak",
-  "source": "TOS « Amok Time » ; ENT « The Forge »–« Kir'Shara »",
+  "source": "TOS « The Savage Curtain » ; ENT « The Forge »–« Kir'Shara »",
   "politics": "Pacification philosophique, religion civique, réforme des institutions.",
   "categories_politiques": "guerre/bataille ; insurrection/pouvoir ; institutions/fédéralisme ; religion/légitimité",
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/15-years-ago-one-enterprise-epic-set-the-stage-for-discovery",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « réforme des institutions » ; religion/légitimité ajoutée : « religion civique » ; recoupement B — La page de « The Forge » mentionne une période de sauvagerie de l'histoire vulcaine, le « Time of Awakening », et Surak comme philosophe et père de la logique vulcaine ; la page « Kir'Shara » décrit la dissolution du Haut Commandement vulcain à l'issue de l'arc. Réserve : Le caractère « nucléaire » des guerres n'est pas confirmé. La page de « The Forge » cite comme mentions antérieures en TOS « Balance of Terror », « All Our Yesterdays » et « The Savage Curtain », non « Amok Time » (qui n'est cité que pour T'Pau) ; l'article Wikipedia de « Amok Time » ne mentionne ni Surak ni guerres vulcaines. V0.5 (2026-11-10) : recoupement A (source officielle) — L'article sur l'arc « The Forge »–« Kir'Shara » évoque le passé violent des Vulcains et affirme que Surak a mis fin à une guerre totale des milliers d'années avant Enterprise, détournant les Vulcains de la voie militariste des Romuliens ; le Kir'Shara ramène ensuite ses écrits originaux. Réserve : La page ne précise pas le caractère civil ou nucléaire des guerres anciennes. Source B précédente : https://en.wikipedia.org/wiki/The_Forge_(Star_Trek:_Enterprise). V0.12 (2026-11-12) : revérification de novembre 2026 — La page citée a été relue ; elle contient, mot pour mot : « Surak was able to stop all-out war thousands of years before the events of Enterprise ». Elle dit aussi « their violent past » et « the Vulcan who prevented his people from turning into the Romulans ». La note V0.5 (« Surak a mis fin à une guerre totale des milliers d'années avant Enterprise ») est donc fidèle. En revanche, la page ne dit pas que cette guerre était civile ou nucléaire. Aucune page startrek.com lue ne mentionne d'arme atomique ou nucléaire. L'intitulé est réduit en conséquence et reste en A. Les écrits de Surak sont confirmés par la même page : « bringing the original Surak texts back to the Vulcan High Command ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « réforme des institutions » ; religion/légitimité ajoutée : « religion civique » ; recoupement B — La page de « The Forge » mentionne une période de sauvagerie de l'histoire vulcaine, le « Time of Awakening », et Surak comme philosophe et père de la logique vulcaine ; la page « Kir'Shara » décrit la dissolution du Haut Commandement vulcain à l'issue de l'arc. Réserve : Le caractère « nucléaire » des guerres n'est pas confirmé. La page de « The Forge » cite comme mentions antérieures en TOS « Balance of Terror », « All Our Yesterdays » et « The Savage Curtain », non « Amok Time » (qui n'est cité que pour T'Pau) ; l'article Wikipedia de « Amok Time » ne mentionne ni Surak ni guerres vulcaines. V0.5 (2026-11-10) : recoupement A (source officielle) — L'article sur l'arc « The Forge »–« Kir'Shara » évoque le passé violent des Vulcains et affirme que Surak a mis fin à une guerre totale des milliers d'années avant Enterprise, détournant les Vulcains de la voie militariste des Romuliens ; le Kir'Shara ramène ensuite ses écrits originaux. Réserve : La page ne précise pas le caractère civil ou nucléaire des guerres anciennes. Source B précédente : https://en.wikipedia.org/wiki/The_Forge_(Star_Trek:_Enterprise). V0.12 (2026-11-12) : revérification de novembre 2026 — La page citée a été relue ; elle contient, mot pour mot : « Surak was able to stop all-out war thousands of years before the events of Enterprise ». Elle dit aussi « their violent past » et « the Vulcan who prevented his people from turning into the Romulans ». La note V0.5 (« Surak a mis fin à une guerre totale des milliers d'années avant Enterprise ») est donc fidèle. En revanche, la page ne dit pas que cette guerre était civile ou nucléaire. Aucune page startrek.com lue ne mentionne d'arme atomique ou nucléaire. L'intitulé est réduit en conséquence et reste en A. Les écrits de Surak sont confirmés par la même page : « bringing the original Surak texts back to the Vulcan High Command ». V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.23 (2026-11-14) : champ source corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Surak : « We'd suffered devastating wars which nearly destroyed our planet. Another was about to begin. […] Ultimately we achieved peace, which has lasted since then. » Dans « Amok Time », le seul passage sur le passé vulcain est : « In the distant past, Vulcans killed to win their mates. » Il ne parle ni de guerre ni de Surak. Source : http://www.chakoteya.net/StarTrek/77.htm, http://www.chakoteya.net/StarTrek/34.htm.",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "guerre/bataille",
    "insurrection/pouvoir",
@@ -25,7 +25,7 @@
   "episodes": [
    {
     "serie": "TOS",
-    "titre": "Amok Time"
+    "titre": "The Savage Curtain"
    },
    {
     "serie": "ENT",
@@ -86,6 +86,27 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "champ source corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Surak : « We'd suffered devastating wars which nearly destroyed our planet. Another was about to begin. […] Ultimately we achieved peace, which has lasted since then. » Dans « Amok Time », le seul passage sur le passé vulcain est : « In the distant past, Vulcans killed to win their mates. » Il ne parle ni de guerre ni de Surak. Source : "
+     },
+     {
+      "url": "http://www.chakoteya.net/StarTrek/77.htm"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "http://www.chakoteya.net/StarTrek/34.htm"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
@@ -94,14 +115,18 @@
    {
     "libelle": "Guerre totale de l'Antiquité vulcaine puis doctrine de Surak.",
     "motif": "revérification de novembre 2026 — La page citée a été relue ; elle contient, mot pour mot : « Surak was able to stop all-out war thousands of years before the events of Enterprise ». Elle dit aussi « their violent past » et « the Vulcan who prevented his people from turning into the Romulans ». La note V0.5 (« Surak a mis fin à une guerre totale des milliers d'années avant Enterprise ») est donc fidèle. En revanche, la page ne dit pas que cette guerre était civile ou nucléaire. Aucune page startrek.com lue ne mentionne d'arme atomique ou nucléaire. L'intitulé est réduit en conséquence et reste en A. Les écrits de Surak sont confirmés par la même page : « bringing the original Surak texts back to the Vulcan High Command »."
+   },
+   {
+    "libelle": "Guerre totale de l'Antiquité vulcaine puis doctrine de Surak.",
+    "motif": "champ source corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Surak : « We'd suffered devastating wars which nearly destroyed our planet. Another was about to begin. […] Ultimately we achieved peace, which has lasted since then. » Dans « Amok Time », le seul passage sur le passé vulcain est : « In the distant past, Vulcans killed to win their mates. » Il ne parle ni de guerre ni de Surak. Source : <http://www.chakoteya.net/StarTrek/77.htm>, <http://www.chakoteya.net/StarTrek/34.htm>."
    }
   ],
   "note_editoriale": null,
   "diffusion": [
    {
-    "date": "1967-09-15",
-    "titre": "Amok Time",
-    "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_2"
+    "date": "1969-03-07",
+    "titre": "The Savage Curtain",
+    "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series_season_3"
    },
    {
     "date": "2004-11-19",
@@ -132,25 +157,36 @@
   },
   "rang_diegetique": 5,
   "bande": "Passé lointain",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « Amok Time » ; Star Trek: Enterprise, épisodes « The Forge », « Kir'Shara ») ; période fictive : Antiquité vulcaine.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: The Original Series, épisode « The Savage Curtain » ; Star Trek: Enterprise, épisodes « The Forge », « Kir'Shara ») ; période fictive : Antiquité vulcaine.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260808043805/https://www.startrek.com/news/15-years-ago-one-enterprise-epic-set-the-stage-for-discovery",
   "dates_stellaires": [
    {
-    "titre": "Amok Time",
-    "source_url": "http://www.chakoteya.net/StarTrek/34.htm",
-    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Amok_Time_(episode)",
+    "titre": "The Savage Curtain",
+    "source_url": "http://www.chakoteya.net/StarTrek/77.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Savage_Curtain_(episode)",
     "dates": [
      {
-      "date": "3372.7",
+      "date": "5906.4",
+      "annee": null
+     },
+     {
+      "date": "5906.5",
       "annee": null
      }
     ]
    }
   ],
   "associes": [
+   {
+    "id": "STP-010",
+    "motifs": [
+     "épisode commun : the savage curtain"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-030",
     "motifs": [
@@ -903,15 +939,15 @@
   "id": "STP-007",
   "cycle": "Terre : origines et histoire antérieure",
   "period": "2024, chronologie modifiée",
-  "event": "Projet de régime autoritaire de la Confédération de la Terre (ligne temporelle Q)",
-  "source": "PIC saison 2",
+  "event": "Régime autoritaire de la Confédération de la Terre (ligne temporelle modifiée par Q)",
+  "source": "PIC saison 2 ; « Penance »",
   "politics": "Xénophobie d'État, empire terrestre et politique de purification ; réalité alternative.",
   "categories_politiques": "insurrection/pouvoir ; justice/droits",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/news/recap-star-trek-picard-penance",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « régime autoritaire », « Xénophobie d'État » ; recoupement A — Épisode où le fait est montré : « Penance » (PIC 2x02). Le récapitulatif officiel décrit la « Confederation » qui remplace la Fédération dans la ligne temporelle modifiée par Q, sa « loathing for aliens », le meurtre d'extraterrestres et les Romuliens réduits en esclavage, la bifurcation trouvant son origine dans le Los Angeles de 2024. Réserve : L'entrée cite « PIC saison 2 » ; le fait central est montré dans « Penance ». La page parle d'une Confédération déjà installée (en 2401 alternatif), pas d'un « projet » en 2024. V0.14 (2026-11-12) : harmonisation typographique (ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « régime autoritaire », « Xénophobie d'État » ; recoupement A — Épisode où le fait est montré : « Penance » (PIC 2x02). Le récapitulatif officiel décrit la « Confederation » qui remplace la Fédération dans la ligne temporelle modifiée par Q, sa « loathing for aliens », le meurtre d'extraterrestres et les Romuliens réduits en esclavage, la bifurcation trouvant son origine dans le Los Angeles de 2024. Réserve : L'entrée cite « PIC saison 2 » ; le fait central est montré dans « Penance ». La page parle d'une Confédération déjà installée (en 2401 alternatif), pas d'un « projet » en 2024. V0.14 (2026-11-12) : harmonisation typographique (ponctuation). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « a loathing for aliens and a brutality we are unfamiliar with from the Federation (in this timeline, the Confederation) » ; « she’s the Confederation president » ; « Q changed just one thing in the timeline, back in the Los Angeles of 2024 ». Memory Alpha : « the most ruthless and bloodthirsty general of the [[Confederation of Earth]] » Source : https://www.startrek.com/en-un/news/recap-star-trek-picard-penance, https://memory-alpha.fandom.com/wiki/Penance_(episode). Doublon tranché : entrée secondaire de STP-203 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — même épisode (PIC « Penance ») et même fait : la Confédération de la Terre de la ligne temporelle modifiée par Q, montrée en 2401. Le champ source cite désormais « Penance », épisode où la Confédération est montrée (Memory Alpha : « the most ruthless and bloodthirsty general of the [[Confederation of Earth]] »).",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "insurrection/pouvoir",
    "justice/droits"
@@ -919,7 +955,12 @@
   "series": [
    "PIC"
   ],
-  "episodes": [],
+  "episodes": [
+   {
+    "serie": "PIC",
+    "titre": "Penance"
+   }
+  ],
   "references_non_rattachees": [],
   "continuite": "modifiee",
   "continuite_regle": "`period` signale une temporalité ou réalité modifiée",
@@ -946,38 +987,74 @@
       "texte": "harmonisation typographique (ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « a loathing for aliens and a brutality we are unfamiliar with from the Federation (in this timeline, the Confederation) » ; « she’s the Confederation president » ; « Q changed just one thing in the timeline, back in the Los Angeles of 2024 ». Memory Alpha : « the most ruthless and bloodthirsty general of the [[Confederation of Earth]] » Source : "
+     },
+     {
+      "url": "https://www.startrek.com/en-un/news/recap-star-trek-picard-penance"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://memory-alpha.fandom.com/wiki/Penance_(episode)"
+     },
+     {
+      "texte": ". Doublon tranché : entrée secondaire de STP-203 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — même épisode (PIC « Penance ») et même fait : la Confédération de la Terre de la ligne temporelle modifiée par Q, montrée en 2401. Le champ source cite désormais « Penance », épisode où la Confédération est montrée (Memory Alpha : « the most ruthless and bloodthirsty general of the [[Confederation of Earth]] »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "terre-origines-et-histoire-anterieure",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Régime autoritaire de la Confédération de la Terre (ligne temporelle modifiée par Q).",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « a loathing for aliens and a brutality we are unfamiliar with from the Federation (in this timeline, the Confederation) » ; « she’s the Confederation president » ; « Q changed just one thing in the timeline, back in the Los Angeles of 2024 ». Memory Alpha : « the most ruthless and bloodthirsty general of the [[Confederation of Earth]] » Source : <https://www.startrek.com/en-un/news/recap-star-trek-picard-penance>, <https://memory-alpha.fandom.com/wiki/Penance_(episode)>. Doublon tranché : entrée secondaire de STP-203 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — même épisode (PIC « Penance ») et même fait : la Confédération de la Terre de la ligne temporelle modifiée par Q, montrée en 2401. Le champ source cite désormais « Penance », épisode où la Confédération est montrée (Memory Alpha : « the most ruthless and bloodthirsty general of the [[Confederation of Earth]] »)."
+   }
+  ],
   "note_editoriale": null,
-  "diffusion": [],
-  "doublon_de": null,
+  "diffusion": [
+   {
+    "date": "2022-03-10",
+    "titre": "Penance",
+    "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2"
+   }
+  ],
+  "doublon_de": {
+   "id": "STP-203",
+   "motif": "Même épisode (PIC « Penance ») et même fait : la Confédération de la Terre de la ligne temporelle modifiée par Q, montrée en 2401. STP-203 est retenue comme principale : épisode précis et période conforme à l’écran (2401) ; STP-007 était datée de 2024, année de la modification de l’histoire, non du régime montré."
+  },
   "doublons": [],
   "relations": {
-   "sortantes": [
-    {
-     "id": "STP-203",
-     "type": "meme_arc",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2",
-     "url_complementaire": null,
-     "justification": "La page de saison nomme la « Confederation of Earth », xénophobe, de la ligne temporelle de 2401, et explique qu'elle est née d'un changement opéré par Q en 2024, le 15 avril (« Watcher »). Les deux entrées relèvent de la même chronologie modifiée."
-    }
-   ],
+   "sortantes": [],
    "entrantes": [],
    "examinee_le": null,
    "passes": null
   },
   "rang_diegetique": 11,
   "bande": "XXIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard) ; période fictive : 2024, chronologie modifiée.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Picard, épisode « Penance ») ; période fictive : 2024, chronologie modifiée.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260212185025/https://www.startrek.com/news/recap-star-trek-picard-penance",
   "dates_stellaires": [],
-  "associes": []
+  "associes": [
+   {
+    "id": "STP-203",
+    "motifs": [
+     "identifiant cité dans la notice",
+     "épisode commun : penance"
+    ],
+    "autre_continuite": false
+   }
+  ]
  },
  {
   "id": "STP-008",
@@ -1369,6 +1446,13 @@
    }
   ],
   "associes": [
+   {
+    "id": "STP-001",
+    "motifs": [
+     "épisode commun : the savage curtain"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-034",
     "motifs": [
@@ -2615,15 +2699,15 @@
   "id": "STP-020",
   "cycle": "Enterprise : diplomatie et fondation de la Fédération",
   "period": "2151",
-  "event": "Répression du peuple d'Akaali par une exploitation minière clandestine",
+  "event": "Empoisonnement du peuple akaali par une exploitation minière clandestine",
   "source": "ENT « Civilization »",
   "politics": "Extractivisme, intervention et protection des peuples moins avancés.",
   "categories_politiques": "justice/droits ; économie/social ; renseignement/sécurité",
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/pre-warp-impersonations-prime-directive",
-  "note_audit": "V0.4 (2026-11-10) : recoupement B — Le résumé confirme que des Malurians exploitent clandestinement un isotope de veridium sous une boutique akaalie, empoisonnant l'eau et rendant la population malade, et qu'Archer intervient. V0.5 (2026-11-10) : recoupement A (source officielle) — Dans « Civilization », Archer découvre chez les Akaali pré-industriels un Malurien déguisé dont le réacteur à antimatière clandestin empoisonne la population, et le force à retirer son équipement de la planète. Réserve : La page parle d'un réacteur clandestin qui empoisonne la population, sans mentionner explicitement l'exploitation minière ; le terme « répression » n'y figure pas. Source B précédente : https://en.wikipedia.org/wiki/Civilization_(Star_Trek:_Enterprise). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement B — Le résumé confirme que des Malurians exploitent clandestinement un isotope de veridium sous une boutique akaalie, empoisonnant l'eau et rendant la population malade, et qu'Archer intervient. V0.5 (2026-11-10) : recoupement A (source officielle) — Dans « Civilization », Archer découvre chez les Akaali pré-industriels un Malurien déguisé dont le réacteur à antimatière clandestin empoisonne la population, et le force à retirer son équipement de la planète. Réserve : La page parle d'un réacteur clandestin qui empoisonne la population, sans mentionner explicitement l'exploitation minière ; le terme « répression » n'y figure pas. Source B précédente : https://en.wikipedia.org/wiki/Civilization_(Star_Trek:_Enterprise). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Page officielle : « The Malurian's covert antimatter reactor was poisoning the local population ». Wikipedia : « Garos is mining a veridium isotope, and the poisoned water is a by-product ». Aucune page lue ne parle de répression. Source : https://www.startrek.com/en-un/news/pre-warp-impersonations-prime-directive, https://en.wikipedia.org/wiki/Civilization_(Star_Trek:_Enterprise).",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "justice/droits",
    "économie/social",
@@ -2679,11 +2763,37 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Page officielle : « The Malurian's covert antimatter reactor was poisoning the local population ». Wikipedia : « Garos is mining a veridium isotope, and the poisoned water is a by-product ». Aucune page lue ne parle de répression. Source : "
+     },
+     {
+      "url": "https://www.startrek.com/en-un/news/pre-warp-impersonations-prime-directive"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Civilization_(Star_Trek:_Enterprise)"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "enterprise-diplomatie-et-fondation-de-la-federation",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Empoisonnement du peuple akaali par une exploitation minière clandestine.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Page officielle : « The Malurian's covert antimatter reactor was poisoning the local population ». Wikipedia : « Garos is mining a veridium isotope, and the poisoned water is a by-product ». Aucune page lue ne parle de répression. Source : <https://www.startrek.com/en-un/news/pre-warp-impersonations-prime-directive>, <https://en.wikipedia.org/wiki/Civilization_(Star_Trek:_Enterprise)>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -5344,15 +5454,15 @@
   "id": "STP-042",
   "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle",
   "period": "2257",
-  "event": "Projet fédéral d'anéantir Qo'noS et renoncement forcé par une mutinerie morale",
+  "event": "Projet fédéral d'anéantir Qo'noS, abandonné sous la menace d'une mutinerie de l'équipage",
   "source": "DIS « Will You Take My Hand? »",
   "politics": "Usage d'une arme de destruction de masse et refus d'un crime d'État.",
   "categories_politiques": "guerre/bataille ; insurrection/pouvoir",
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/starfleet-encounters-with-qonos",
-  "note_audit": "V0.4 (2026-11-10) : recoupement B — Le résumé de « Will You Take My Hand? » : la « drone » est une hydro-bombe ; Cornwell admet que sa détonation dans le volcan anéantirait toute vie sur Qo'noS ; Burnham refuse que Starfleet commette un génocide et convainc Georgiou de remettre le détonateur. Réserve : Aucun récapitulatif officiel de cet épisode trouvé sur startrek.com (seul un « primer » d'avant-diffusion, qui ne décrit pas le dénouement). V0.5 (2026-11-10) : recoupement A (source officielle) — L'article officiel indique que Starfleet avait secrètement autorisé Georgiou à larguer une hydrobombe dans le système volcanique de Qo'noS pour le rendre inhabitable, et que Burnham a contesté ce plan et convaincu ses supérieurs d'y renoncer. Réserve : La page parle d'une contestation de Burnham, pas expressément d'une « mutinerie ». Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement B — Le résumé de « Will You Take My Hand? » : la « drone » est une hydro-bombe ; Cornwell admet que sa détonation dans le volcan anéantirait toute vie sur Qo'noS ; Burnham refuse que Starfleet commette un génocide et convainc Georgiou de remettre le détonateur. Réserve : Aucun récapitulatif officiel de cet épisode trouvé sur startrek.com (seul un « primer » d'avant-diffusion, qui ne décrit pas le dénouement). V0.5 (2026-11-10) : recoupement A (source officielle) — L'article officiel indique que Starfleet avait secrètement autorisé Georgiou à larguer une hydrobombe dans le système volcanique de Qo'noS pour le rendre inhabitable, et que Burnham a contesté ce plan et convaincu ses supérieurs d'y renoncer. Réserve : La page parle d'une contestation de Burnham, pas expressément d'une « mutinerie ». Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_1. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Page officielle : « Burnham challenged her superiors' scheme, convincing them to reverse course ». Transcription : « Do we need a mutiny today to prove who we are? » / « SARU: We are Starfleet. » / « (The bridge crew stands in support.) ». La mutinerie est brandie, pas commise. Source : https://www.startrek.com/en-un/news/starfleet-encounters-with-qonos, http://www.chakoteya.net/STDisco17/115.html.",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "guerre/bataille",
    "insurrection/pouvoir"
@@ -5407,11 +5517,37 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Page officielle : « Burnham challenged her superiors' scheme, convincing them to reverse course ». Transcription : « Do we need a mutiny today to prove who we are? » / « SARU: We are Starfleet. » / « (The bridge crew stands in support.) ». La mutinerie est brandie, pas commise. Source : "
+     },
+     {
+      "url": "https://www.startrek.com/en-un/news/starfleet-encounters-with-qonos"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "http://www.chakoteya.net/STDisco17/115.html"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "discovery-et-strange-new-worlds-crises-du-xxiiie-siecle",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Projet fédéral d'anéantir Qo'noS, abandonné sous la menace d'une mutinerie de l'équipage.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Page officielle : « Burnham challenged her superiors' scheme, convincing them to reverse course ». Transcription : « Do we need a mutiny today to prove who we are? » / « SARU: We are Starfleet. » / « (The bridge crew stands in support.) ». La mutinerie est brandie, pas commise. Source : <https://www.startrek.com/en-un/news/starfleet-encounters-with-qonos>, <http://www.chakoteya.net/STDisco17/115.html>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -6198,15 +6334,15 @@
   "id": "STP-049",
   "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle",
   "period": "2259",
-  "event": "Crise de la cité flottante Majalan qui sacrifie un enfant au « Premier Serviteur »",
+  "event": "Crise de la cité flottante de Majalis, qui sacrifie un enfant, le « Premier Serviteur »",
   "source": "SNW « Lift Us Where Suffering Cannot Reach »",
   "politics": "Sacrifice institutionnel et instrumentalisation d'une minorité sans consentement.",
   "categories_politiques": "justice/droits",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/news/recap-star-trek-strange-new-worlds-lift-us-where-suffering-cannot-reach",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « sacrifie un enfant », « instrumentalisation d'une minorité sans consentement » ; recoupement A — Le récapitulatif officiel décrit une cité de structures flottantes dont le « trône » utilise le réseau neuronal d'un enfant (le Premier Serviteur, choisi par tirage) pour maintenir la cité dans le ciel, et précise que le détacher de la machine le tuerait. Réserve : Le nom est orthographié Majalas (récapitulatif officiel) ou Majalis (Wikipedia), pas « Majalan » (forme employée pour le peuple : « Majalan people »). Le mot « sacrifice » n'est pas employé par le récapitulatif officiel, mais il l'est par Wikipedia. V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « sacrifie un enfant », « instrumentalisation d'une minorité sans consentement » ; recoupement A — Le récapitulatif officiel décrit une cité de structures flottantes dont le « trône » utilise le réseau neuronal d'un enfant (le Premier Serviteur, choisi par tirage) pour maintenir la cité dans le ciel, et précise que le détacher de la machine le tuerait. Réserve : Le nom est orthographié Majalas (récapitulatif officiel) ou Majalis (Wikipedia), pas « Majalan » (forme employée pour le peuple : « Majalan people »). Le mot « sacrifice » n'est pas employé par le récapitulatif officiel, mais il l'est par Wikipedia. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Récapitulatif officiel : « the boy is the First Servant, a holy figure chosen by a lottery to serve the Majalan people » ; « an ancient device that utilizes a child’s neural network to maintain Majalas ». Wikipedia : « Majalis can only remain a paradise-like society if a child is sacrificed to the machine ». L'enfant **est** le Premier Serviteur : « au » est faux. Source : https://www.startrek.com/news/recap-star-trek-strange-new-worlds-lift-us-where-suffering-cannot-reach, https://en.wikipedia.org/wiki/Lift_Us_Where_Suffering_Cannot_Reach.",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "justice/droits"
   ],
@@ -6245,11 +6381,37 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Récapitulatif officiel : « the boy is the First Servant, a holy figure chosen by a lottery to serve the Majalan people » ; « an ancient device that utilizes a child’s neural network to maintain Majalas ». Wikipedia : « Majalis can only remain a paradise-like society if a child is sacrificed to the machine ». L'enfant **est** le Premier Serviteur : « au » est faux. Source : "
+     },
+     {
+      "url": "https://www.startrek.com/news/recap-star-trek-strange-new-worlds-lift-us-where-suffering-cannot-reach"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Lift_Us_Where_Suffering_Cannot_Reach"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "discovery-et-strange-new-worlds-crises-du-xxiiie-siecle",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Crise de la cité flottante de Majalis, qui sacrifie un enfant, le « Premier Serviteur ».",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Récapitulatif officiel : « the boy is the First Servant, a holy figure chosen by a lottery to serve the Majalan people » ; « an ancient device that utilizes a child’s neural network to maintain Majalas ». Wikipedia : « Majalis can only remain a paradise-like society if a child is sacrificed to the machine ». L'enfant **est** le Premier Serviteur : « au » est faux. Source : <https://www.startrek.com/news/recap-star-trek-strange-new-worlds-lift-us-where-suffering-cannot-reach>, <https://en.wikipedia.org/wiki/Lift_Us_Where_Suffering_Cannot_Reach>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -9222,15 +9384,15 @@
   "id": "STP-074",
   "cycle": "Films classiques et Kelvin",
   "period": "2280s",
-  "event": "Retour de Khan et poursuite d'une revanche contre Kirk et la Fédération",
+  "event": "Retour de Khan et poursuite d'une revanche contre Kirk",
   "source": "Film « The Wrath of Khan »",
   "politics": "Vengeance politique et risques liés aux anciens programmes eugéniques.",
   "categories_politiques": "guerre/bataille ; technologie/bioéthique",
   "niveau_recoupement": "A",
   "nature_source": "Synopsis officiel",
   "url_source": "https://www.startrek.com/en-un/movies/star-trek-ii-the-wrath-of-khan",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « revanche », « anciens programmes eugéniques » ; recoupement A — Le synopsis officiel indique que Khan, « surhomme » génétiquement amélioré du passé de Kirk, revient se venger de l'amiral Kirk, qui l'avait exilé avec ses partisans sur une planète mourante quinze ans plus tôt. Réserve : Le synopsis parle d'une vengeance contre Kirk ; la dimension « contre la Fédération » n'y figure pas. V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « revanche », « anciens programmes eugéniques » ; recoupement A — Le synopsis officiel indique que Khan, « surhomme » génétiquement amélioré du passé de Kirk, revient se venger de l'amiral Kirk, qui l'avait exilé avec ses partisans sur une planète mourante quinze ans plus tôt. Réserve : Le synopsis parle d'une vengeance contre Kirk ; la dimension « contre la Fédération » n'y figure pas. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Synopsis officiel : « Khan, a genetically enhanced “super man” from Kirk’s past, returns to seek revenge on now-Admiral Kirk ». Wikipedia : « When Khan escapes from a 15-year exile to exact revenge on Kirk ». Aucune page lue ne parle d'une revanche contre la Fédération. Source : https://www.startrek.com/en-un/movies/star-trek-ii-the-wrath-of-khan, https://en.wikipedia.org/wiki/Star_Trek_II:_The_Wrath_of_Khan.",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "guerre/bataille",
    "technologie/bioéthique"
@@ -9270,11 +9432,37 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Synopsis officiel : « Khan, a genetically enhanced “super man” from Kirk’s past, returns to seek revenge on now-Admiral Kirk ». Wikipedia : « When Khan escapes from a 15-year exile to exact revenge on Kirk ». Aucune page lue ne parle d'une revanche contre la Fédération. Source : "
+     },
+     {
+      "url": "https://www.startrek.com/en-un/movies/star-trek-ii-the-wrath-of-khan"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Star_Trek_II:_The_Wrath_of_Khan"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "films-classiques-et-kelvin",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Retour de Khan et poursuite d'une revanche contre Kirk.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Synopsis officiel : « Khan, a genetically enhanced “super man” from Kirk’s past, returns to seek revenge on now-Admiral Kirk ». Wikipedia : « When Khan escapes from a 15-year exile to exact revenge on Kirk ». Aucune page lue ne parle d'une revanche contre la Fédération. Source : <https://www.startrek.com/en-un/movies/star-trek-ii-the-wrath-of-khan>, <https://en.wikipedia.org/wiki/Star_Trek_II:_The_Wrath_of_Khan>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -11295,15 +11483,15 @@
   "id": "STP-092",
   "cycle": "The Next Generation : institutions, guerre, droits",
   "period": "2364",
-  "event": "Jugement d'enfants appliquant un code de peine de mort automatique",
+  "event": "Condamnation à mort d'un adolescent (Wesley Crusher) par un code de peine de mort automatique",
   "source": "TNG « Justice »",
   "politics": "Proportionnalité de la peine et limites du droit local.",
   "categories_politiques": "justice/droits",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/Justice_(Star_Trek:_The_Next_Generation)",
-  "note_audit": "V0.4 (2026-11-10) : recoupement B — Wikipedia : les Edo de Rubicun III appliquent la peine capitale à toute infraction ; Wesley Crusher, ayant brisé une serre, est condamné à l'injection létale, et Picard se heurte à la Directive première. Réserve : La page décrit la condamnation d'un seul adolescent (Wesley), non un « jugement d'enfants » au pluriel. V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement B — Wikipedia : les Edo de Rubicun III appliquent la peine capitale à toute infraction ; Wesley Crusher, ayant brisé une serre, est condamné à l'injection létale, et Picard se heurte à la Directive première. Réserve : La page décrit la condamnation d'un seul adolescent (Wesley), non un « jugement d'enfants » au pluriel. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « Wesley Crusher (Wil Wheaton) is sentenced to death after inadvertently breaking the law on an alien planet. » ; « An Edo mediator, or policeman, attempts to give Wesley a lethal injection for this infraction of the law ». Un seul condamné. Source : https://en.wikipedia.org/wiki/Justice_(Star_Trek:_The_Next_Generation).",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "justice/droits"
   ],
@@ -11342,11 +11530,31 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « Wesley Crusher (Wil Wheaton) is sentenced to death after inadvertently breaking the law on an alien planet. » ; « An Edo mediator, or policeman, attempts to give Wesley a lethal injection for this infraction of the law ». Un seul condamné. Source : "
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Justice_(Star_Trek:_The_Next_Generation)"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "the-next-generation-institutions-guerre-droits",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Condamnation à mort d'un adolescent (Wesley Crusher) par un code de peine de mort automatique.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « Wesley Crusher (Wil Wheaton) is sentenced to death after inadvertently breaking the law on an alien planet. » ; « An Edo mediator, or policeman, attempts to give Wesley a lethal injection for this infraction of the law ». Un seul condamné. Source : <https://en.wikipedia.org/wiki/Justice_(Star_Trek:_The_Next_Generation)>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -14197,15 +14405,15 @@
   "id": "STP-115",
   "cycle": "The Next Generation : institutions, guerre, droits",
   "period": "2370",
-  "event": "Naissance du mouvement armé maquisard et défection de Ro Laren",
+  "event": "Infiltration d'une cellule du Maquis et défection de Ro Laren",
   "source": "TNG « Preemptive Strike »",
   "politics": "Insurrection frontalière et conflit entre devoir institutionnel et loyauté locale.",
   "categories_politiques": "insurrection/pouvoir",
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/essential-ro-laren-watch-list",
-  "note_audit": "V0.4 (2026-11-10) : recoupement A — L'article indique que dans « Preemptive Strike » la sympathie de Ro pour le Maquis la conduit à faire défection de Starfleet ; le résumé Wikipedia précise qu'infiltrée dans une cellule maquisarde, elle expose finalement la flotte de la Fédération et rejoint les Maquis. Réserve : La « naissance » du mouvement n'est pas dans cet épisode : selon le résumé Wikipedia (https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)), le Maquis est déjà actif et attaque un vaisseau cardassien dès le début de l'épisode. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement A — L'article indique que dans « Preemptive Strike » la sympathie de Ro pour le Maquis la conduit à faire défection de Starfleet ; le résumé Wikipedia précise qu'infiltrée dans une cellule maquisarde, elle expose finalement la flotte de la Fédération et rejoint les Maquis. Réserve : La « naissance » du mouvement n'est pas dans cet épisode : selon le résumé Wikipedia (https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)), le Maquis est déjà actif et attaque un vaisseau cardassien dès le début de l'épisode. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « The Enterprise responds to a distress call from a Cardassian warship under Maquis attack » (le Maquis existe déjà) ; « a Starfleet plan to infiltrate the terrorist cell using Ro Laren ». Page officielle : « Ro's sympathies to the Maquis, a resistance group opposed to the Occupation, led to her defection from Starfleet in this monumental episode. » Source : https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation), https://www.startrek.com/en-un/news/essential-ro-laren-watch-list.",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "insurrection/pouvoir"
   ],
@@ -14250,11 +14458,37 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « The Enterprise responds to a distress call from a Cardassian warship under Maquis attack » (le Maquis existe déjà) ; « a Starfleet plan to infiltrate the terrorist cell using Ro Laren ». Page officielle : « Ro's sympathies to the Maquis, a resistance group opposed to the Occupation, led to her defection from Starfleet in this monumental episode. » Source : "
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://www.startrek.com/en-un/news/essential-ro-laren-watch-list"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "the-next-generation-institutions-guerre-droits",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Infiltration d'une cellule du Maquis et défection de Ro Laren.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « The Enterprise responds to a distress call from a Cardassian warship under Maquis attack » (le Maquis existe déjà) ; « a Starfleet plan to infiltrate the terrorist cell using Ro Laren ». Page officielle : « Ro's sympathies to the Maquis, a resistance group opposed to the Occupation, led to her defection from Starfleet in this monumental episode. » Source : <https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)>, <https://www.startrek.com/en-un/news/essential-ro-laren-watch-list>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -17006,15 +17240,15 @@
   "id": "STP-136",
   "cycle": "Deep Space Nine : occupations, démocratie, guerre",
   "period": "2372",
-  "event": "Soulèvement des Cardassiens contre l'ordre militaro-renseignement",
+  "event": "Soulèvement des Cardassiens contre le gouvernement militaire",
   "source": "DS9 « The Way of the Warrior » (contexte)",
   "politics": "Transition du pouvoir militaire vers un gouvernement civil, fragile.",
   "categories_politiques": "insurrection/pouvoir",
   "niveau_recoupement": "B",
   "nature_source": "Résumé secondaire indexé",
   "url_source": "https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Soulèvement », « Transition du pouvoir militaire vers un gouvernement civil » ; recoupement B — Le résumé indique que le gouvernement militaire cardassien a été renversé au profit du Conseil Detapa, civil, et que les Klingons croient ce coup orchestré par le Dominion. Réserve : Le résumé ne mentionne pas l'Ordre obsidien ni un « ordre militaro-renseignement » : il parle seulement du renversement du gouvernement militaire. V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Soulèvement », « Transition du pouvoir militaire vers un gouvernement civil » ; recoupement B — Le résumé indique que le gouvernement militaire cardassien a été renversé au profit du Conseil Detapa, civil, et que les Klingons croient ce coup orchestré par le Dominion. Réserve : Le résumé ne mentionne pas l'Ordre obsidien ni un « ordre militaro-renseignement » : il parle seulement du renversement du gouvernement militaire. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « The Cardassian military government has been overthrown in favor of the civilian Detapa Council ». Memory Alpha : « the Central Command has been overthrown by civilian resistance, and power has been transferred to civilian authorities ». L'Ordre obsidien était déjà détruit : « since the destruction of the [[Obsidian Order]], he has heard rumors of civil uprisings ». Source : https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine), https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode).",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "insurrection/pouvoir"
   ],
@@ -17053,11 +17287,37 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « The Cardassian military government has been overthrown in favor of the civilian Detapa Council ». Memory Alpha : « the Central Command has been overthrown by civilian resistance, and power has been transferred to civilian authorities ». L'Ordre obsidien était déjà détruit : « since the destruction of the [[Obsidian Order]], he has heard rumors of civil uprisings ». Source : "
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Soulèvement des Cardassiens contre le gouvernement militaire.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « The Cardassian military government has been overthrown in favor of the civilian Detapa Council ». Memory Alpha : « the Central Command has been overthrown by civilian resistance, and power has been transferred to civilian authorities ». L'Ordre obsidien était déjà détruit : « since the destruction of the [[Obsidian Order]], he has heard rumors of civil uprisings ». Source : <https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)>, <https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -20034,15 +20294,15 @@
   "id": "STP-158",
   "cycle": "Deep Space Nine : occupations, démocratie, guerre",
   "period": "2375",
-  "event": "Capitulation du Dominion et traité mettant fin à la guerre du quadrant Alpha",
+  "event": "Capitulation du Dominion et armistice mettant fin à la guerre du quadrant Alpha",
   "source": "DS9 « What You Leave Behind »",
   "politics": "Règlement de guerre et construction d'un après-conflit.",
   "categories_politiques": "guerre/bataille ; diplomatie/traité",
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
-  "note_audit": "V0.4 (2026-11-10) : recoupement B — Le résumé indique que la Fondatrice, guérie par Odo, ordonne aux forces du Dominion de se rendre, accepte d'être jugée pour crimes de guerre et signe un armistice mettant fin à la guerre. Réserve : La page parle d'« armistice » (et de reddition), pas de « traité ». V0.5 (2026-11-10) : recoupement A (source officielle) — L'article indique qu'Odo guérit la Fondatrice, ce qui la convainc de capituler et met fin à la guerre du Dominion. Réserve : Nuance : la signature d'un traité n'est pas décrite, seule la capitulation l'est. Source B précédente : https://en.wikipedia.org/wiki/What_You_Leave_Behind. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement B — Le résumé indique que la Fondatrice, guérie par Odo, ordonne aux forces du Dominion de se rendre, accepte d'être jugée pour crimes de guerre et signe un armistice mettant fin à la guerre. Réserve : La page parle d'« armistice » (et de reddition), pas de « traité ». V0.5 (2026-11-10) : recoupement A (source officielle) — L'article indique qu'Odo guérit la Fondatrice, ce qui la convainc de capituler et met fin à la guerre du Dominion. Réserve : Nuance : la signature d'un traité n'est pas décrite, seule la capitulation l'est. Source B précédente : https://en.wikipedia.org/wiki/What_You_Leave_Behind. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « The Founder agrees to stand trial for war crimes and signs an armistice to end the war. » Transcription : « (The surrender documents are being signed.) » / « The war between the Dominion and the Federation Alliance is now over. » Memory Alpha : « Admiral Ross' speech at the armistice signing ». Aucun texte lu ne dit « treaty ». Le seul « Treaty » trouvé est le nom d'un fichier image Memory Alpha (« Dominion War Treaty.jpg »), dont la légende dit « Declaration of Peace ». Source : https://en.wikipedia.org/wiki/What_You_Leave_Behind, http://www.chakoteya.net/DS9/575.htm, https://memory-alpha.fandom.com/wiki/What_You_Leave_Behind_(episode).",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "guerre/bataille",
    "diplomatie/traité"
@@ -20097,11 +20357,43 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « The Founder agrees to stand trial for war crimes and signs an armistice to end the war. » Transcription : « (The surrender documents are being signed.) » / « The war between the Dominion and the Federation Alliance is now over. » Memory Alpha : « Admiral Ross' speech at the armistice signing ». Aucun texte lu ne dit « treaty ». Le seul « Treaty » trouvé est le nom d'un fichier image Memory Alpha (« Dominion War Treaty.jpg »), dont la légende dit « Declaration of Peace ». Source : "
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/What_You_Leave_Behind"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "http://www.chakoteya.net/DS9/575.htm"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://memory-alpha.fandom.com/wiki/What_You_Leave_Behind_(episode)"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Capitulation du Dominion et armistice mettant fin à la guerre du quadrant Alpha.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « The Founder agrees to stand trial for war crimes and signs an armistice to end the war. » Transcription : « (The surrender documents are being signed.) » / « The war between the Dominion and the Federation Alliance is now over. » Memory Alpha : « Admiral Ross' speech at the armistice signing ». Aucun texte lu ne dit « treaty ». Le seul « Treaty » trouvé est le nom d'un fichier image Memory Alpha (« Dominion War Treaty.jpg »), dont la légende dit « Declaration of Peace ». Source : <https://en.wikipedia.org/wiki/What_You_Leave_Behind>, <http://www.chakoteya.net/DS9/575.htm>, <https://memory-alpha.fandom.com/wiki/What_You_Leave_Behind_(episode)>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -23618,14 +23910,14 @@
   "cycle": "Discovery : futur et reconstruction post-Burn",
   "period": "3189",
   "event": "Réintégration de Ni'Var et de la Terre à la Fédération",
-  "source": "DIS saisons 4–5",
+  "source": "DIS « All Is Possible » ; « Coming Home »",
   "politics": "Restauration fédérale par négociation, reconstruction institutionnelle.",
   "categories_politiques": "diplomatie/traité ; institutions/fédéralisme",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/en-un/news/recap-star-trek-discovery-all-is-possible",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « Réintégration de Ni'Var et de la Terre à la Fédération » ; recoupement A — Le récapitulatif officiel de « All Is Possible » : après un compromis (comité de révision indépendant), Rillak accueille officiellement Ni'Var dans la Fédération ; celui de « Coming Home » : la présidente de la Terre unie annonce que la Terre est prête à la rejoindre. Réserve : Les deux réintégrations ont lieu en saison 4 (« All Is Possible », « Coming Home »), non en saison 5.",
-  "version_entree": "V0.4 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « Réintégration de Ni'Var et de la Terre à la Fédération » ; recoupement A — Le récapitulatif officiel de « All Is Possible » : après un compromis (comité de révision indépendant), Rillak accueille officiellement Ni'Var dans la Fédération ; celui de « Coming Home » : la présidente de la Terre unie annonce que la Terre est prête à la rejoindre. Réserve : Les deux réintégrations ont lieu en saison 4 (« All Is Possible », « Coming Home »), non en saison 5. V0.23 (2026-11-14) : champ source corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « Shortly thereafter, Rillak officially welcomes Ni’Var back into the Federation. » ; « The President of United Earth […] arrives to tell President Rillak that Earth is also ready to rejoin. » Memory Alpha : « Later that year, United Earth rejoined the Federation. ({{DIS\\|...But to Connect\\|Coming Home}}) ». Le résumé Wikipedia de la saison 5 ne mentionne aucune réintégration. Source : https://www.startrek.com/en-un/news/recap-star-trek-discovery-all-is-possible, https://www.startrek.com/en-un/news/recap-star-trek-discovery-coming-home, https://memory-alpha.fandom.com/wiki/United_Earth.",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "diplomatie/traité",
    "institutions/fédéralisme"
@@ -23633,7 +23925,16 @@
   "series": [
    "DIS"
   ],
-  "episodes": [],
+  "episodes": [
+   {
+    "serie": "DIS",
+    "titre": "All Is Possible"
+   },
+   {
+    "serie": "DIS",
+    "titre": "Coming Home"
+   }
+  ],
   "references_non_rattachees": [],
   "continuite": "principale",
   "continuite_regle": null,
@@ -23651,13 +23952,51 @@
       "texte": "catégories attribuées en V0.4 (proposition validée le 2026-11-10) — institutions/fédéralisme ajoutée : « Réintégration de Ni'Var et de la Terre à la Fédération » ; niveau A — Le récapitulatif officiel de « All Is Possible » : après un compromis (comité de révision indépendant), Rillak accueille officiellement Ni'Var dans la Fédération ; celui de « Coming Home » : la présidente de la Terre unie annonce que la Terre est prête à la rejoindre. Réserve : Les deux réintégrations ont lieu en saison 4 (« All Is Possible », « Coming Home »), non en saison 5."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "champ source corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « Shortly thereafter, Rillak officially welcomes Ni’Var back into the Federation. » ; « The President of United Earth […] arrives to tell President Rillak that Earth is also ready to rejoin. » Memory Alpha : « Later that year, United Earth rejoined the Federation. ({{DIS\\|...But to Connect\\|Coming Home}}) ». Le résumé Wikipedia de la saison 5 ne mentionne aucune réintégration. Source : "
+     },
+     {
+      "url": "https://www.startrek.com/en-un/news/recap-star-trek-discovery-all-is-possible"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://www.startrek.com/en-un/news/recap-star-trek-discovery-coming-home"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://memory-alpha.fandom.com/wiki/United_Earth"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "discovery-futur-et-reconstruction-post-burn",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Réintégration de Ni'Var et de la Terre à la Fédération.",
+    "motif": "champ source corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « Shortly thereafter, Rillak officially welcomes Ni’Var back into the Federation. » ; « The President of United Earth […] arrives to tell President Rillak that Earth is also ready to rejoin. » Memory Alpha : « Later that year, United Earth rejoined the Federation. ({{DIS\\|...But to Connect\\|Coming Home}}) ». Le résumé Wikipedia de la saison 5 ne mentionne aucune réintégration. Source : <https://www.startrek.com/en-un/news/recap-star-trek-discovery-all-is-possible>, <https://www.startrek.com/en-un/news/recap-star-trek-discovery-coming-home>, <https://memory-alpha.fandom.com/wiki/United_Earth>."
+   }
+  ],
   "note_editoriale": null,
-  "diffusion": [],
+  "diffusion": [
+   {
+    "date": "2022-03-17",
+    "titre": "Coming Home",
+    "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_4"
+   }
+  ],
   "doublon_de": null,
   "doublons": [],
   "relations": {
@@ -23683,13 +24022,21 @@
   },
   "rang_diegetique": 287,
   "bande": "XXXIIe siècle",
-  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery) ; période fictive : 3189.",
+  "amorce": "Événement politique de la fiction Star Trek (Star Trek: Discovery, épisodes « All Is Possible », « Coming Home ») ; période fictive : 3189.",
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241120085451/https://www.startrek.com/en-un/news/recap-star-trek-discovery-all-is-possible",
   "dates_stellaires": [],
-  "associes": []
+  "associes": [
+   {
+    "id": "STP-190",
+    "motifs": [
+     "épisode commun : coming home"
+    ],
+    "autre_continuite": false
+   }
+  ]
  },
  {
   "id": "STP-188",
@@ -24006,7 +24353,15 @@
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260421064314/https://www.startrek.com/news/recap-star-trek-discovery-coming-home",
   "dates_stellaires": [],
-  "associes": []
+  "associes": [
+   {
+    "id": "STP-187",
+    "motifs": [
+     "épisode commun : coming home"
+    ],
+    "autre_continuite": false
+   }
+  ]
  },
  {
   "id": "STP-191",
@@ -25387,7 +25742,9 @@
    }
   ],
   "doublon_de": null,
-  "doublons": [],
+  "doublons": [
+   "STP-007"
+  ],
   "relations": {
    "sortantes": [
     {
@@ -25398,15 +25755,7 @@
      "justification": "Dans «Penance», la reine borg indique qu'on peut empêcher la formation de la Confédération « by travelling to Los Angeles in 2024 ». Dans «Fly Me to the Moon», Picard sait qu'il est « essential that she does not back out of the Europa mission » (Renée Picard). Le passage d'une chronologie à l'autre est explicite (voyage temporel)."
     }
    ],
-   "entrantes": [
-    {
-     "id": "STP-007",
-     "type": "meme_arc",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard_season_2",
-     "url_complementaire": null,
-     "justification": "La page de saison nomme la « Confederation of Earth », xénophobe, de la ligne temporelle de 2401, et explique qu'elle est née d'un changement opéré par Q en 2024, le 15 avril (« Watcher »). Les deux entrées relèvent de la même chronologie modifiée."
-    }
-   ],
+   "entrantes": [],
    "examinee_le": null,
    "passes": null
   },
@@ -25418,7 +25767,16 @@
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260212185025/https://www.startrek.com/news/recap-star-trek-picard-penance",
   "dates_stellaires": [],
-  "associes": []
+  "associes": [
+   {
+    "id": "STP-007",
+    "motifs": [
+     "identifiant cité dans la notice",
+     "épisode commun : penance"
+    ],
+    "autre_continuite": false
+   }
+  ]
  },
  {
   "id": "STP-204",
@@ -25994,15 +26352,15 @@
   "id": "STP-209",
   "cycle": "Lower Decks : politique des marges et adhésions",
   "period": "2380",
-  "event": "Politique d'assistance fédérale lors de seconds contacts et conflits locaux",
+  "event": "Politique d'assistance fédérale lors de seconds contacts",
   "source": "LD « Second Contact »",
   "politics": "Bureaucratie de l'aide et responsabilité après le premier contact.",
   "categories_politiques": "diplomatie/traité",
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://www.denofgeek.com/tv/star-trek-lower-decks-episode-1-review-second-contact/",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « seconds contacts », « Bureaucratie de l'aide » ; recoupement B — La critique de Den of Geek indique que l'USS Cerritos est spécialisé dans le « Second Contact », c'est-à-dire le suivi après l'invitation d'un nouveau monde dans la Fédération. Réserve : Les « conflits locaux » ne sont pas mentionnés dans la page. Diffusion en 2020 ; la page ne donne pas d'année interne. V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « seconds contacts », « Bureaucratie de l'aide » ; recoupement B — La critique de Den of Geek indique que l'USS Cerritos est spécialisé dans le « Second Contact », c'est-à-dire le suivi après l'invitation d'un nouveau monde dans la Fédération. Réserve : Les « conflits locaux » ne sont pas mentionnés dans la page. Diffusion en 2020 ; la page ne donne pas d'année interne. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Den of Geek : « the USS Cerritos specializes in “Second Contact,” which means they’re the ship that follows-up when a new alien world finds itself invited into the welcoming arms of the magnanimous United Federation of Planets ». Memory Alpha : « all she was doing is giving them [[farming equipment]] ». Aucune des trois pages lues (Den of Geek, Wikipedia, Memory Alpha) ne parle d'un conflit local. Source : https://www.denofgeek.com/tv/star-trek-lower-decks-episode-1-review-second-contact/, https://memory-alpha.fandom.com/wiki/Second_Contact_(episode).",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "diplomatie/traité"
   ],
@@ -26041,11 +26399,37 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Den of Geek : « the USS Cerritos specializes in “Second Contact,” which means they’re the ship that follows-up when a new alien world finds itself invited into the welcoming arms of the magnanimous United Federation of Planets ». Memory Alpha : « all she was doing is giving them [[farming equipment]] ». Aucune des trois pages lues (Den of Geek, Wikipedia, Memory Alpha) ne parle d'un conflit local. Source : "
+     },
+     {
+      "url": "https://www.denofgeek.com/tv/star-trek-lower-decks-episode-1-review-second-contact/"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://memory-alpha.fandom.com/wiki/Second_Contact_(episode)"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "lower-decks-politique-des-marges-et-adhesions",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Politique d'assistance fédérale lors de seconds contacts.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Den of Geek : « the USS Cerritos specializes in “Second Contact,” which means they’re the ship that follows-up when a new alien world finds itself invited into the welcoming arms of the magnanimous United Federation of Planets ». Memory Alpha : « all she was doing is giving them [[farming equipment]] ». Aucune des trois pages lues (Den of Geek, Wikipedia, Memory Alpha) ne parle d'un conflit local. Source : <https://www.denofgeek.com/tv/star-trek-lower-decks-episode-1-review-second-contact/>, <https://memory-alpha.fandom.com/wiki/Second_Contact_(episode)>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -27063,15 +27447,15 @@
   "id": "STP-217",
   "cycle": "Lower Decks : politique des marges et adhésions",
   "period": "2382",
-  "event": "Enquête sur les failles de portails entre univers opposés",
+  "event": "Enquête sur les failles ouvrant des portails vers des univers parallèles",
   "source": "LD saison 5",
   "politics": "Frontières entre univers, risque de crise diplomatique.",
   "categories_politiques": "diplomatie/traité",
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/warp-five-lowers-decks-series-finale-cerritos-future",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « risque de crise diplomatique » ; recoupement B — Épisodes où le fait est montré : « A Farewell to Farms » et « Fissure Quest », puis « The New Next Generation ». Selon Wikipedia, Ma'ah étudie une faille vers un univers parallèle et conclut qu'elle n'est pas naturelle, William Boimler en cherche la source, puis le Cerritos tente de refermer une faille qui reste ouverte. Réserve : Wikipedia ne parle pas d'« univers opposés » ni de risque de crise diplomatique. V0.5 (2026-11-10) : recoupement A (source officielle) — L'entretien officiel sur le final de la série confirme que la faille reste ouverte comme portail vers d'autres réalités quantiques, et que Starfleet confie à la Starbase 80 la supervision des missions dans la faille ; l'article officiel de la bande-annonce de la saison 5 précise que le Cerritos doit refermer des failles subspatiales. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_5. V0.14 (2026-11-12) : harmonisation typographique (majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « risque de crise diplomatique » ; recoupement B — Épisodes où le fait est montré : « A Farewell to Farms » et « Fissure Quest », puis « The New Next Generation ». Selon Wikipedia, Ma'ah étudie une faille vers un univers parallèle et conclut qu'elle n'est pas naturelle, William Boimler en cherche la source, puis le Cerritos tente de refermer une faille qui reste ouverte. Réserve : Wikipedia ne parle pas d'« univers opposés » ni de risque de crise diplomatique. V0.5 (2026-11-10) : recoupement A (source officielle) — L'entretien officiel sur le final de la série confirme que la faille reste ouverte comme portail vers d'autres réalités quantiques, et que Starfleet confie à la Starbase 80 la supervision des missions dans la faille ; l'article officiel de la bande-annonce de la saison 5 précise que le Cerritos doit refermer des failles subspatiales. Source B précédente : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_5. V0.14 (2026-11-12) : harmonisation typographique (majuscule accentuée). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « Ma'ah then helps the pair to study a new parallel-universe rift in Klingon space; they discover the rifts are not a natural occurrence. » Page officielle : « the rift is a permanently open portal to other quantum realities ». « opposés » ne figure dans aucune des deux pages. Source : https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_5, https://www.startrek.com/en-un/news/warp-five-lowers-decks-series-finale-cerritos-future.",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "diplomatie/traité"
   ],
@@ -27120,11 +27504,37 @@
       "texte": "harmonisation typographique (majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « Ma'ah then helps the pair to study a new parallel-universe rift in Klingon space; they discover the rifts are not a natural occurrence. » Page officielle : « the rift is a permanently open portal to other quantum realities ». « opposés » ne figure dans aucune des deux pages. Source : "
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_5"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://www.startrek.com/en-un/news/warp-five-lowers-decks-series-finale-cerritos-future"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "lower-decks-politique-des-marges-et-adhesions",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Enquête sur les failles ouvrant des portails vers des univers parallèles.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Wikipedia : « Ma'ah then helps the pair to study a new parallel-universe rift in Klingon space; they discover the rifts are not a natural occurrence. » Page officielle : « the rift is a permanently open portal to other quantum realities ». « opposés » ne figure dans aucune des deux pages. Source : <https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_5>, <https://www.startrek.com/en-un/news/warp-five-lowers-decks-series-finale-cerritos-future>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [],
   "doublon_de": null,
@@ -27357,15 +27767,15 @@
   "id": "STP-220",
   "cycle": "Prodigy : esclavage, contact et guerre civile",
   "period": "2383",
-  "event": "Évasion des captifs et contrôle du Protostar par de jeunes réfugiés",
+  "event": "Évasion des captifs et contrôle du Protostar par de jeunes prisonniers",
   "source": "PRO « Lost and Found »",
   "politics": "Libération d'esclaves et contrôle légitime d'une technologie.",
   "categories_politiques": "économie/social",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/news/recap-star-trek-prodigy-lost-and-found-part-2",
-  "note_audit": "V0.4 (2026-11-10) : recoupement A — Le récapitulatif officiel décrit l'évasion de Dal, Rok-Tahk, Zero, Jankom Pog et Murf à bord du Protostar, que Rok-Tahk active et que le jeune équipage apprend à piloter avec l'hologramme de Janeway. Réserve : Ce sont des prisonniers ou des travailleurs forcés, et non des « réfugiés » au sens propre. V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : recoupement A — Le récapitulatif officiel décrit l'évasion de Dal, Rok-Tahk, Zero, Jankom Pog et Murf à bord du Protostar, que Rok-Tahk active et que le jeune équipage apprend à piloter avec l'hologramme de Janeway. Réserve : Ce sont des prisonniers ou des travailleurs forcés, et non des « réfugiés » au sens propre. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Récapitulatif officiel : « the secret of the Tars Lamora prison camp ». Wikipedia : « On the Tars Lamora prison colony in the Delta Quadrant, a young alien named Dal dreams of escaping. » Source : https://www.startrek.com/news/recap-star-trek-prodigy-lost-and-found-part-2, https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1.",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "économie/social"
   ],
@@ -27404,11 +27814,37 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Récapitulatif officiel : « the secret of the Tars Lamora prison camp ». Wikipedia : « On the Tars Lamora prison colony in the Delta Quadrant, a young alien named Dal dreams of escaping. » Source : "
+     },
+     {
+      "url": "https://www.startrek.com/news/recap-star-trek-prodigy-lost-and-found-part-2"
+     },
+     {
+      "texte": ", "
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "prodigy-esclavage-contact-et-guerre-civile",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Évasion des captifs et contrôle du Protostar par de jeunes prisonniers.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — Récapitulatif officiel : « the secret of the Tars Lamora prison camp ». Wikipedia : « On the Tars Lamora prison colony in the Delta Quadrant, a young alien named Dal dreams of escaping. » Source : <https://www.startrek.com/news/recap-star-trek-prodigy-lost-and-found-part-2>, <https://en.wikipedia.org/wiki/Star_Trek:_Prodigy_season_1>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -27717,15 +28153,15 @@
   "id": "STP-223",
   "cycle": "Prodigy : esclavage, contact et guerre civile",
   "period": "2384",
-  "event": "Débat sur la réintégration de jeunes mineurs sans statut fédéral",
+  "event": "Procès du jeune équipage du Protostar, abandon des charges et intégration dans Starfleet",
   "source": "PRO « Supernova », partie II",
   "politics": "Accès aux institutions et citoyenneté en devenir.",
   "categories_politiques": "justice/droits ; diplomatie/traité ; institutions/fédéralisme",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/news/recap-star-trek-prodigy-supernova-part-2-finale",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « Accès aux institutions et citoyenneté » ; recoupement A — Le récapitulatif officiel indique que le jeune équipage est jugé pour ses actes, que Janeway plaide la clémence et l'admission de Dal, un augment, à l'Académie, puis que les charges sont abandonnées et que cinq d'entre eux deviennent officiers en formation sous sa tutelle. Réserve : Il s'agit d'un procès plutôt que d'un « débat sur la réintégration ». V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « Accès aux institutions et citoyenneté » ; recoupement A — Le récapitulatif officiel indique que le jeune équipage est jugé pour ses actes, que Janeway plaide la clémence et l'admission de Dal, un augment, à l'Académie, puis que les charges sont abandonnées et que cinq d'entre eux deviennent officiers en formation sous sa tutelle. Réserve : Il s'agit d'un procès plutôt que d'un « débat sur la réintégration ». V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « they are pretty quickly put on trial for their actions — but Admiral Janeway argues for leniency » ; « the Federation opts to drop all charges » ; « They won’t be a part of the Academy, but they’ll still be allowed to be a part of Starfleet. » Ni « réintégration » (ils n'ont jamais appartenu à Starfleet) ni « sans statut fédéral » ne sont attestés. Source : https://www.startrek.com/news/recap-star-trek-prodigy-supernova-part-2-finale.",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "justice/droits",
    "diplomatie/traité",
@@ -27766,11 +28202,31 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « they are pretty quickly put on trial for their actions — but Admiral Janeway argues for leniency » ; « the Federation opts to drop all charges » ; « They won’t be a part of the Academy, but they’ll still be allowed to be a part of Starfleet. » Ni « réintégration » (ils n'ont jamais appartenu à Starfleet) ni « sans statut fédéral » ne sont attestés. Source : "
+     },
+     {
+      "url": "https://www.startrek.com/news/recap-star-trek-prodigy-supernova-part-2-finale"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "prodigy-esclavage-contact-et-guerre-civile",
   "fiche": false,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Procès du jeune équipage du Protostar, abandon des charges et intégration dans Starfleet.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « they are pretty quickly put on trial for their actions — but Admiral Janeway argues for leniency » ; « the Federation opts to drop all charges » ; « They won’t be a part of the Academy, but they’ll still be allowed to be a part of Starfleet. » Ni « réintégration » (ils n'ont jamais appartenu à Starfleet) ni « sans statut fédéral » ne sont attestés. Source : <https://www.startrek.com/news/recap-star-trek-prodigy-supernova-part-2-finale>."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -31630,15 +32086,15 @@
   "id": "STP-254",
   "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts",
   "period": "2369",
-  "event": "Accès aux droits civiques d'une communauté de travailleurs artificiels exocomps",
+  "event": "Reconnaissance de la vie des exocomps et refus de leur sacrifice utilitaire",
   "source": "TNG « The Quality of Life »",
   "politics": "Critère de conscience et refus de l'instrumentalisation.",
   "categories_politiques": "justice/droits ; économie/social ; technologie/bioéthique",
-  "niveau_recoupement": "C",
-  "nature_source": "Référence candidate de la V0.2/V0.3, non recoupée dans cet audit",
-  "url_source": "",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « travailleurs artificiels exocomps » ; vérification non concluante (niveau C maintenu) — Aucun « accès aux droits civiques » ni « communauté de travailleurs » n'est décrit : la page ne mentionne qu'une promesse de ne plus maltraiter les exocomps, Farallon restant incertaine de leur sentience. Source consultée : https://en.wikipedia.org/wiki/The_Quality_of_Life. V0.6 (2026-11-10) : DOUBLON de STP-111 (même fait, même épisode) ; entrée conservée pour la stabilité des identifiants, niveau C maintenu — Wikipedia : Data conclut à la sentience des exocomps et bloque leur sacrifice ; on leur laisse le choix, et Farallon, encore incertaine de leur sentience, promet de ne plus les maltraiter. Aucun droit civique ni « communauté de travailleurs » : corrigée, l'entrée décrit le même fait que STP-111 (reconnaissance des exocomps et refus de leur sacrifice). V0.8 (2026-11-10) : doublon tranché : entrée secondaire de STP-111 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (TNG «The Quality of Life») et même fait : reconnaissance de la vie des exocomps et refus de leur sacrifice. STP-111 est retenue comme principale : intitulé confirmé par une source officielle (niveau A) ; l’« accès aux droits civiques » de STP-254 n’est pas attesté. V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "niveau_recoupement": "B",
+  "nature_source": "Résumé d’épisode (Wikipedia)",
+  "url_source": "https://en.wikipedia.org/wiki/The_Quality_of_Life_(Star_Trek:_The_Next_Generation)",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « travailleurs artificiels exocomps » ; vérification non concluante (niveau C maintenu) — Aucun « accès aux droits civiques » ni « communauté de travailleurs » n'est décrit : la page ne mentionne qu'une promesse de ne plus maltraiter les exocomps, Farallon restant incertaine de leur sentience. Source consultée : https://en.wikipedia.org/wiki/The_Quality_of_Life. V0.6 (2026-11-10) : DOUBLON de STP-111 (même fait, même épisode) ; entrée conservée pour la stabilité des identifiants, niveau C maintenu — Wikipedia : Data conclut à la sentience des exocomps et bloque leur sacrifice ; on leur laisse le choix, et Farallon, encore incertaine de leur sentience, promet de ne plus les maltraiter. Aucun droit civique ni « communauté de travailleurs » : corrigée, l'entrée décrit le même fait que STP-111 (reconnaissance des exocomps et refus de leur sacrifice). V0.8 (2026-11-10) : doublon tranché : entrée secondaire de STP-111 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (TNG «The Quality of Life») et même fait : reconnaissance de la vie des exocomps et refus de leur sacrifice. STP-111 est retenue comme principale : intitulé confirmé par une source officielle (niveau A) ; l’« accès aux droits civiques » de STP-254 n’est pas attesté. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.23 (2026-11-14) : intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « Data concludes the Exocomps possess self-preservation and are sentient. » ; « refusing to allow them to be forced to die for others » ; « Farallon admits she is still not sure if the Exocomps are sentient but promises not to abuse them again. » La note de V0.8 déclare elle-même l'intitulé « non attesté ». Source : https://en.wikipedia.org/wiki/The_Quality_of_Life_(Star_Trek:_The_Next_Generation).",
+  "version_entree": "V0.23 révisé",
   "categories": [
    "justice/droits",
    "économie/social",
@@ -31703,6 +32159,21 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.23",
+    "date": "14 novembre 2026",
+    "segments": [
+     {
+      "texte": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « Data concludes the Exocomps possess self-preservation and are sentient. » ; « refusing to allow them to be forced to die for others » ; « Farallon admits she is still not sure if the Exocomps are sentient but promises not to abuse them again. » La note de V0.8 déclare elle-même l'intitulé « non attesté ». Source : "
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Quality_of_Life_(Star_Trek:_The_Next_Generation)"
+     },
+     {
+      "texte": "."
+     }
+    ]
    }
   ],
   "cycle_slug": "complements-episodes-sociaux-politiques-locales-et-formats-courts",
@@ -31715,6 +32186,10 @@
    {
     "libelle": "Accès aux droits civiques d'une communauté de travailleurs artificiels exocomps.",
     "motif": "doublon tranché : entrée secondaire de STP-111 (entrée principale), conservée pour la stabilité des identifiants mais non comptée comme événement distinct — Même épisode (TNG «The Quality of Life») et même fait : reconnaissance de la vie des exocomps et refus de leur sacrifice. STP-111 est retenue comme principale : intitulé confirmé par une source officielle (niveau A) ; l’« accès aux droits civiques » de STP-254 n’est pas attesté."
+   },
+   {
+    "libelle": "Reconnaissance de la vie des exocomps et refus de leur sacrifice utilitaire.",
+    "motif": "intitulé corrigé (revue du 14 novembre 2026, tri des réserves des notes d’audit) — « Data concludes the Exocomps possess self-preservation and are sentient. » ; « refusing to allow them to be forced to die for others » ; « Farallon admits she is still not sure if the Exocomps are sentient but promises not to abuse them again. » La note de V0.8 déclare elle-même l'intitulé « non attesté ». Source : <https://en.wikipedia.org/wiki/The_Quality_of_Life_(Star_Trek:_The_Next_Generation)>."
    }
   ],
   "note_editoriale": null,
@@ -31742,7 +32217,7 @@
   "analyse_url": null,
   "analyse_redigee": false,
   "sous_bande": null,
-  "url_archive": null,
+  "url_archive": "https://web.archive.org/web/20260720114301/https://en.wikipedia.org/wiki/The_Quality_of_Life_%28Star_Trek:_The_Next_Generation%29",
   "dates_stellaires": [
    {
     "titre": "The Quality of Life",

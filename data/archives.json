@@ -805,6 +805,12 @@
    "statut_http": 200,
    "teste_le": "2026-11-13"
   },
+  "https://en.wikipedia.org/wiki/The_Quality_of_Life_(Star_Trek:_The_Next_Generation)": {
+   "archive": "https://web.archive.org/web/20260720114301/https://en.wikipedia.org/wiki/The_Quality_of_Life_%28Star_Trek:_The_Next_Generation%29",
+   "archive_date": "2026-07-20",
+   "statut_http": 200,
+   "teste_le": "2026-11-14"
+  },
   "https://en.wikipedia.org/wiki/The_Siege_(Star_Trek:_Deep_Space_Nine)": {
    "archive": "https://web.archive.org/web/20260723111022/https://en.wikipedia.org/wiki/The_Siege_(Star_Trek:_Deep_Space_Nine)",
    "archive_date": "2026-07-23",

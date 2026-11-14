@@ -80,7 +80,7 @@ test('periodes floues : jamais converties, cle de tri seulement', () => {
   assert.equal(ordreDiegetique('Début XXIIe siècle–2150').siecle_fin, undefined);
   assert.equal(ordreDiegetique('Entre 2267 et la fin du XXIVe siècle (événement relaté en 3191)').siecle_fin, 24);
   assert.equal(ordreDiegetique('Avant 2369').avant, true);
-  assert.deepEqual(ordreDiegetique('Passé lointain'), { cle: null, precision: 'passe_lointain' });
+  assert.deepEqual(ordreDiegetique('Passé lointain'), { cle: null, precision: 'passe_lointain', anciennete: null });
   assert.equal(ordreDiegetique('2260s').precision, 'decennie');
   for (const e of gen) assert.equal(e.period, r.records.find((x) => x.data.id === e.id).data.period);
 });
@@ -214,4 +214,15 @@ test('dates stellaires : annee deduite pour la seule ere TNG', async () => {
   assert.equal(anneeDeduite('5027.3'), null);
   assert.equal(anneeDeduite('2258.42'), null);
   assert.equal(anneeDeduite('865211.3'), null);
+});
+
+test('ordre diegetique : passe lointain du plus ancien au plus recent, « Apres N » apres N', async () => {
+  const { cleTri } = await import('../scripts/import.mjs');
+  const cmp = (a, b) => { const x = cleTri(ordreDiegetique(a)), y = cleTri(ordreDiegetique(b)); for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return x[i] - y[i]; return 0; };
+  assert.ok(cmp("Passé lointain (il y a environ un milliard d'années)", 'Préhistoire de Sol (65 millions d’années avant notre ère)') < 0);
+  assert.ok(cmp('Préhistoire de Sol (65 millions d’années avant notre ère)', 'Passé lointain (il y a environ 200 000 ans)') < 0);
+  assert.ok(cmp('Passé lointain (il y a environ 200 000 ans)', 'Antiquité vulcaine') < 0);
+  assert.ok(cmp('2257', 'Après 2257 (chronologie secondaire)') < 0);
+  assert.ok(cmp('Après 2257 (chronologie secondaire)', '2258') < 0);
+  assert.ok(cmp('Avant 2369', '2369') < 0);
 });

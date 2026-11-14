@@ -5,11 +5,11 @@ permalink: /contribuer/
 description: Comment signaler une erreur ou contribuer à la vérification des événements de l’atlas politique de Star Trek.
 ---
 
-L’atlas est un inventaire de travail : la plupart des entrées attendent encore un recoupement. Toute aide à la vérification est bienvenue — mais **aucune donnée publiée n’est modifiable directement par un visiteur**. Chaque proposition passe par une relecture, puis par une nouvelle version du corpus.
+L’atlas est un inventaire de travail : chaque événement est recoupé par au moins une source, mais un recoupement n’est pas un visionnage intégral, et des erreurs restent possibles. Toute aide à la vérification est bienvenue — mais **aucune donnée publiée n’est modifiable directement par un visiteur**. Chaque proposition passe par une relecture, puis par une nouvelle version du corpus.
 
 ## Ce qui aide le plus
 
-1. **Faire monter une entrée de niveau.** Une entrée C devient B avec un guide ou récapitulatif indépendant concordant sur le point central, A avec un résumé ou éditorial officiel. Indiquez l’URL et la phrase qui concorde.
+1. **Signaler une source officielle.** Une entrée de niveau B passe en A quand une page officielle propre à l’épisode (startrek.com, Paramount+) confirme son fait central ; une entrée C passe en B avec un guide ou récapitulatif indépendant concordant. Indiquez l’URL et la phrase qui concorde.
 2. **Signaler une erreur factuelle** : épisode mal cité, date diégétique contestable, acteur erroné. Citez l’épisode et, si possible, le moment de la scène.
 3. **Discuter une analogie** d’une fiche approfondie : proposez une objection ou une explication alternative, avec ses sources.
 

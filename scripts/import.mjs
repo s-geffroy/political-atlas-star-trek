@@ -53,7 +53,8 @@ export function bande(o) {
 // Cle de tri complete : groupe, siecle, intervalle apres le siecle, imprecis en fin de siecle.
 export function cleTri(o) {
   const groupe = o.precision === 'passe_lointain' ? 0 : o.cle == null ? 2 : 1;
-  return [groupe, o.siecle ?? 0, o.siecle_fin ? 1 : 0, o.imprecis ? 1 : 0, o.imprecis ? o.qualif : (o.cle ?? 0) - (o.avant ? 0.5 : 0)];
+  if (groupe === 0) return [0, o.anciennete != null ? -o.anciennete : 0, 0, 0, 0];
+  return [groupe, o.siecle ?? 0, o.siecle_fin ? 1 : 0, o.imprecis ? 1 : 0, o.imprecis ? o.qualif : (o.cle ?? 0) - (o.avant ? 0.5 : 0) + (o.apres ? 0.5 : 0)];
 }
 
 export function lireDoublons() {
@@ -162,7 +163,7 @@ export function importer(csvPath, mdPath) {
   const archives = lireArchives();
   const stardates = new Map(lireStardates().filter((x) => x.dates_stellaires.length).map((x) => [`${x.serie}|${x.titre}`, x]));
   const sansRel = lireSansRelation();
-  for (const e of evenements) e.relations = { sortantes: [], entrantes: [], examinee_le: sansRel.ids.includes(e.id) ? sansRel.date : null };
+  for (const e of evenements) e.relations = { sortantes: [], entrantes: [], examinee_le: sansRel.ids.includes(e.id) ? sansRel.date : null, passes: sansRel.ids.includes(e.id) ? sansRel.passes : null };
   for (const x of relations) {
     if (!parId.has(x.de) || !parId.has(x.vers)) continue;
     const commun = { type: x.type, url: x.url, url_complementaire: x.url_complementaire || null, justification: x.justification };
@@ -181,6 +182,7 @@ export function importer(csvPath, mdPath) {
     e.bande = bande(e.ordre);
     e.amorce = amorce(e);
     e.analyse_url = e.fiche ? `/analyses/${ANALYSES_REDIGEES[e.id] || e.id}/` : null;
+    e.analyse_redigee = Boolean(ANALYSES_REDIGEES[e.id]);
     e.sous_bande = e.ordre.imprecis ? 'Datation imprécise dans le siècle' : null;
     e.url_archive = archives[e.url_source]?.archive || null;
     // Dates stellaires prononcees a l'ecran ; annee deduite pour l'ere TNG seulement.
@@ -248,6 +250,7 @@ export function importer(csvPath, mdPath) {
     max_cycle: Math.max(...compte(distincts.map((e) => e.cycle)).map((c) => c.n)),
     relations: relations.filter((x) => parId.has(x.de) && parId.has(x.vers)).length,
     sans_relation: sansRel.ids.length,
+    passes_relations: sansRel.passes,
   };
 
   const atlas = construireAtlas(distincts, categoriesPresentes);

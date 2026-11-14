@@ -20,7 +20,7 @@ layout: default
 </div>
 
 <div class="encadre encadre--ambre">
-  <p><strong>Corpus.</strong> {{ ed.etat | markdownify | remove: "<p>" | remove: "</p>" | strip }} Le registre est un inventaire de travail, pas une démonstration d’exhaustivité : {% if S.niveaux[2].n > 0 %}{{ S.niveaux[2].n }} événements sur {{ S.distincts }} restent au niveau C.{% else %}chaque événement est recoupé par au moins une source (A ou B), ce qui ne vaut pas visionnage intégral des épisodes.{% endif %} <a href="{{ '/methodologie/' | relative_url }}">Lire la méthodologie</a>.</p>
+  <p><strong>Corpus.</strong> {{ ed.etat | markdownify | remove: "<p>" | remove: "</p>" | strip }} Le registre est un inventaire de travail, pas une démonstration d’exhaustivité : {% if S.niveaux[2].n > 0 %}{% if S.niveaux[2].n == 1 %}1 événement sur {{ S.distincts }} reste{% else %}{{ S.niveaux[2].n }} événements sur {{ S.distincts }} restent{% endif %} au niveau C.{% else %}chaque événement est recoupé par au moins une source (A ou B), ce qui ne vaut pas visionnage intégral des épisodes.{% endif %} <a href="{{ '/methodologie/' | relative_url }}">Lire la méthodologie</a>.</p>
 </div>
 
 <h2>À la une</h2>

@@ -82,11 +82,24 @@ const ROMAINS = { XX: 20, XXI: 21, XXII: 22, XXIII: 23, XXIV: 24, XXV: 25, XXXI:
 //   et la fin du XXIVe siecle ») forme un groupe propre, entre ces siecles.
 const siecleDe = (an) => Math.floor((an - 1) / 100) + 1;
 const QUALIFS = [[/^Début/i, 1], [/^Milieu/i, 2], [/^Fin/i, 3]];
+// Anciennete en annees d'une periode du passe lointain, si elle est chiffree
+// (« il y a environ 200 000 ans », « 65 millions d'années », « un milliard
+// d'années ») ; null sinon (« Antiquité vulcaine »). Sert au tri seulement.
+export function anciennete(p) {
+  const t = p.replace(/\u00a0|\u202f/g, ' ');
+  const m = /(\d[\d ]*(?:,\d+)?|un|une)\s*(milliards?|millions?)?\s*d[’']?\s*années|(\d[\d ]*)\s*ans\b/i.exec(t);
+  if (!m) return null;
+  if (m[3]) return Number(m[3].replace(/ /g, ''));
+  const base = /^une?$/i.test(m[1]) ? 1 : Number(m[1].replace(/ /g, '').replace(',', '.'));
+  const mult = /milliard/i.test(m[2] || '') ? 1e9 : /million/i.test(m[2] || '') ? 1e6 : 1;
+  return base * mult;
+}
+
 export function ordreDiegetique(period) {
   const p = period.trim();
   let m;
   const base = (() => {
-    if (/Antiquité|Passé lointain|Préhistoire/.test(p)) return { cle: null, precision: 'passe_lointain' };
+    if (/Antiquité|Passé lointain|Préhistoire/.test(p)) return { cle: null, precision: 'passe_lointain', anciennete: anciennete(p) };
     if ((m = /^(\d{4})s\b/.exec(p))) return { cle: +m[1], precision: 'decennie' };
     if ((m = /^(\d{4})\b/.exec(p))) {
       const exacte = /^\d{4}$/.test(p);
@@ -109,6 +122,7 @@ export function ordreDiegetique(period) {
   const o = { ...base, siecle: debut };
   if (fin > debut) o.siecle_fin = fin;
   if (/^Avant \d{4}/.test(p)) o.avant = true;
+  if (/^Après \d{4}/.test(p)) o.apres = true;
   if (base.precision === 'siecle' && !o.siecle_fin) {
     o.imprecis = true;
     o.qualif = (QUALIFS.find(([re]) => re.test(p)) || [null, 4])[1];

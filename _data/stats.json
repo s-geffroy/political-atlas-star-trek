@@ -355,5 +355,6 @@
  "max_categorie": 88,
  "max_cycle": 41,
  "relations": 165,
- "sans_relation": 98
+ "sans_relation": 98,
+ "passes_relations": 4
 }

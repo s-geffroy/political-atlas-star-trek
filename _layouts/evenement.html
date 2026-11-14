@@ -89,7 +89,7 @@ layout: default
 
   {%- if RS.size == 0 and RE.size == 0 and e.relations.examinee_le %}
   <h2>Relations documentées</h2>
-  <p>Aucune relation documentée : trois passes de recherche (dernière le {{ e.relations.examinee_le }}) n’ont trouvé aucune source établissant un lien de cause, de suite ou d’arc avec un autre événement de l’atlas. C’est un résultat de recherche, non un oubli ; une source nouvelle peut être <a href="{{ '/contribuer/' | relative_url }}">signalée</a>.</p>
+  <p>Aucune relation documentée : {{ e.relations.passes }} passes de recherche (dernière le {{ e.relations.examinee_le }}) n’ont trouvé aucune source établissant un lien de cause, de suite ou d’arc avec un autre événement de l’atlas. C’est un résultat de recherche, non un oubli ; une source nouvelle peut être <a href="{{ '/contribuer/' | relative_url }}">signalée</a>.</p>
   {%- endif %}
 
   <h2>Événements associés</h2>

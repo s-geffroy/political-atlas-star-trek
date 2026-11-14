@@ -146,7 +146,7 @@ export function appliquer(journal) {
   const n = (lettre) => records.filter((r) => !secondaires.has(r.data.id) && r.data.niveau_recoupement === lettre).length;
   remplacer(/^# Atlas politique de Star Trek — V\d+\.\d+ : .*$/m, () => `# ${journal.titre}`, 'titre');
   remplacer(/^> État : [^.]*\./m, () => `> État : ${journal.date_longue}.`, 'ligne d’état');
-  const synth = `**Mise à jour ${v} (${journal.date_longue}).** ${journal.resume} Répartition ${v} (événements distincts, doublons exclus) : **${n('A')} de niveau A**, **${n('B')} de niveau B**, **${n('C')} de niveau C** ; ${touches.size} entrées modifiées, chacune avec une note d’audit ${v}.`;
+  const synth = `**Mise à jour ${v} (${journal.date_longue}).** ${journal.resume} Répartition ${v} (événements distincts, doublons exclus) : **${n('A')} de niveau A**, **${n('B')} de niveau B**, **${n('C')} de niveau C** ; ${touches.size === 1 ? '1 entrée modifiée, avec' : `${touches.size} entrées modifiées, chacune avec`} une note d’audit ${v}.`;
   remplacer(/(## Synthèse vérifiable\n\n)/, (m) => `${m}${synth}\n\n`, 'synthese');
 
   if (erreurs.length) throw new Error('Markdown :\n' + erreurs.join('\n'));

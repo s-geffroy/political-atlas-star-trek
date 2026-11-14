@@ -33,7 +33,7 @@ scripts: [graphe.js]
   <g class="g-noeuds">
   {%- for n in G.noeuds %}
   <a class="g-noeud" href="{{ '/evenements/' | append: n.id | append: '/' | relative_url }}" data-id="{{ n.id }}" aria-label="{{ n.id }} — {{ n.titre | escape }} ({{ n.periode | escape }}, {{ n.d }} relation{% if n.d > 1 %}s{% endif %})"><title>{{ n.id }} — {{ n.titre | escape }} ({{ n.periode | escape }})</title>
-    <circle cx="{{ n.x }}" cy="{{ n.y }}" r="{{ n.r }}"/>{% if n.etiquette %}<text x="{{ n.x | plus: n.r | plus: 4 }}" y="{{ n.y | plus: 4 }}">{{ n.court | escape }}</text>{% endif %}</a>
+    <circle cx="{{ n.x }}" cy="{{ n.y }}" r="{{ n.r }}"/>{% if n.court %}<text x="{{ n.tx }}" y="{{ n.y | plus: 4 }}" text-anchor="{{ n.ancre }}">{{ n.court | escape }}</text>{% endif %}</a>
   {%- endfor %}
   </g>
 </svg>

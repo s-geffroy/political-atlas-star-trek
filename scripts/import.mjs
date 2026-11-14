@@ -512,18 +512,35 @@ function grapheChronologique(arcs, rels, parId) {
   // Relaxation : ressorts verticaux sur les liens, repulsion entre noeuds proches.
   for (let it = 0; it < 500; it++) {
     const pas = 1 - it / 500;
-    for (const x of E) { const a = n.get(x.de), b = n.get(x.vers); const dy = (b.y - a.y) * 0.04 * pas; a.y += dy; b.y -= dy; }
+    for (const x of E) { const a = n.get(x.de), b = n.get(x.vers); const dy = (b.y - a.y) * 0.025 * pas; a.y += dy; b.y -= dy; }
     for (let i = 0; i < N.length; i++) for (let j = i + 1; j < N.length; j++) {
-      const a = N[i], b = N[j]; const dx = b.x - a.x; if (Math.abs(dx) > 40) continue;
-      const dy = b.y - a.y || (i % 2 ? 0.5 : -0.5); const dist = Math.hypot(dx, dy), min = a.r + b.r + 10;
+      const a = N[i], b = N[j]; const dx = b.x - a.x; if (Math.abs(dx) > 90) continue;
+      const dy = b.y - a.y || (i % 2 ? 0.5 : -0.5); const dist = Math.hypot(dx, dy), min = a.r + b.r + 26;
       if (dist < min) { const f = ((min - dist) / dist) * 0.5; a.y -= dy * f; b.y += dy * f; }
     }
-    for (const a of N) { a.y += (H / 2 - a.y) * 0.002 * pas; a.y = Math.max(PADY, Math.min(H - PADY, a.y)); }
+    for (const a of N) { a.y += (H / 2 - a.y) * 0.0008 * pas; a.y = Math.max(PADY, Math.min(H - PADY, a.y)); }
+  }
+  // Etiquettes : les evenements les plus relies d'abord ; une etiquette n'est
+  // ecrite que si elle ne touche ni une autre etiquette ni un autre point.
+  const posees = [];
+  const touche = (b) => posees.some((q) => b.x < q.x + q.w && q.x < b.x + b.w && b.y < q.y + q.h && q.y < b.y + b.h)
+    || N.some((o) => Math.max(b.x - o.x, 0, o.x - (b.x + b.w)) ** 2 + Math.max(b.y - o.y, 0, o.y - (b.y + b.h)) ** 2 < (o.r + 1) ** 2);
+  const etiquettes = new Map();
+  for (const a of [...N].sort((u, v) => v.d - u.d || u.id.localeCompare(v.id))) {
+    if (a.d < 2) break;
+    const e = parId.get(a.id);
+    const court = e.event.length > 30 ? e.event.slice(0, 29).replace(/\s+\S*$/, '') + '…' : e.event;
+    const w = court.length * 5.9, h = 13;
+    for (const c of [{ x: a.x + a.r + 4, ancre: 'start' }, { x: a.x - a.r - 4 - w, ancre: 'end' }]) {
+      const b = { x: c.x, y: a.y - 9, w, h };
+      if (b.x < 2 || b.x + w > L - 2 || touche(b)) continue;
+      posees.push(b); etiquettes.set(a.id, { court, tx: Math.round(c.ancre === 'start' ? c.x : c.x + w), ancre: c.ancre }); break;
+    }
   }
   const noeuds = N.map((a) => {
-    const e = parId.get(a.id);
-    const court = e.event.length > 34 ? e.event.slice(0, 33).replace(/\s+\S*$/, '') + '…' : e.event;
-    return { id: a.id, x: Math.round(a.x), y: Math.round(a.y), r: Math.round(a.r * 10) / 10, d: a.d, titre: e.event, court, serie: e.series[0] || 'Film', periode: e.period, etiquette: a.d >= 3 };
+    const e = parId.get(a.id); const t = etiquettes.get(a.id);
+    return { id: a.id, x: Math.round(a.x), y: Math.round(a.y), r: Math.round(a.r * 10) / 10, d: a.d, titre: e.event, serie: e.series[0] || 'Film', periode: e.period,
+      ...(t ? { court: t.court, tx: t.tx, ancre: t.ancre } : {}) };
   });
   const liens = E.map((x) => {
     const a = n.get(x.de), b = n.get(x.vers);

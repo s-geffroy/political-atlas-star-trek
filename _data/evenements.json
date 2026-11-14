@@ -134,6 +134,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260808043805/https://www.startrek.com/news/15-years-ago-one-enterprise-epic-set-the-stage-for-discovery",
+  "dates_stellaires": [
+   {
+    "titre": "Amok Time",
+    "source_url": "http://www.chakoteya.net/StarTrek/34.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Amok_Time_(episode)",
+    "dates": [
+     {
+      "date": "3372.7",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-030",
@@ -257,6 +270,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261014005529/https://en.wikipedia.org/wiki/Surak",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-031",
@@ -384,6 +398,30 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260419233301/https://www.startrek.com/news/alien-races-without-faces",
+  "dates_stellaires": [
+   {
+    "titre": "Contagion",
+    "source_url": "http://www.chakoteya.net/NextGen/137.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Contagion_(episode)",
+    "dates": [
+     {
+      "date": "42609.1",
+      "annee": 2365
+     }
+    ]
+   },
+   {
+    "titre": "To the Death",
+    "source_url": "http://www.chakoteya.net/DS9/496.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/To_the_Death_(episode)",
+    "dates": [
+     {
+      "date": "49904.2",
+      "annee": 2372
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -519,6 +557,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260731065639/https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/",
+  "dates_stellaires": [
+   {
+    "titre": "The Slaver Weapon",
+    "source_url": "http://www.chakoteya.net/StarTrek/TAS011.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Slaver_Weapon_(episode)",
+    "dates": [
+     {
+      "date": "4187.3",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-014",
@@ -691,6 +742,30 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260509225847/https://www.startrek.com/news/strange-new-worlds-101-genetic-engineering",
+  "dates_stellaires": [
+   {
+    "titre": "Space Seed",
+    "source_url": "http://www.chakoteya.net/StarTrek/24.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Space_Seed_(episode)",
+    "dates": [
+     {
+      "date": "3141.9",
+      "annee": null
+     }
+    ]
+   },
+   {
+    "titre": "Tomorrow and Tomorrow and Tomorrow",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/203.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Tomorrow_and_Tomorrow_and_Tomorrow_(episode)",
+    "dates": [
+     {
+      "date": "1581.2",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -780,6 +855,19 @@
   "analyse_url": "/analyses/emeutes-de-bell/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260710105253/https://www.startrek.com/news/star-treks-best-revolutions-rebellions",
+  "dates_stellaires": [
+   {
+    "titre": "Past Tense",
+    "source_url": "http://www.chakoteya.net/DS9/457.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Past_Tense%2C_Part_I_(episode)",
+    "dates": [
+     {
+      "date": "48481.2",
+      "annee": 2371
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -857,6 +945,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260212185025/https://www.startrek.com/news/recap-star-trek-picard-penance",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -953,6 +1042,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260422213947/https://www.startrek.com/news/recap-star-trek-picard-farewell",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-204",
@@ -1084,6 +1174,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241203143856/https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-strange-new-worlds",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-046",
@@ -1210,6 +1301,23 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20261108092743/https://en.wikipedia.org/wiki/Timeline_of_Star_Trek",
+  "dates_stellaires": [
+   {
+    "titre": "The Savage Curtain",
+    "source_url": "http://www.chakoteya.net/StarTrek/77.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Savage_Curtain_(episode)",
+    "dates": [
+     {
+      "date": "5906.4",
+      "annee": null
+     },
+     {
+      "date": "5906.5",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-034",
@@ -1369,6 +1477,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261110205131/https://en.wikipedia.org/wiki/Star_Trek:_First_Contact",
+  "dates_stellaires": [
+   {
+    "titre": "First Contact",
+    "source_url": "http://www.chakoteya.net/movies/movie8.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek%3A_First_Contact",
+    "dates": [
+     {
+      "date": "50893.5",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-012",
@@ -1478,6 +1599,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260807154018/https://www.startrek.com/news/the-moments-of-first-contact",
+  "dates_stellaires": [
+   {
+    "titre": "First Contact",
+    "source_url": "http://www.chakoteya.net/movies/movie8.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek%3A_First_Contact",
+    "dates": [
+     {
+      "date": "50893.5",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-011",
@@ -1605,6 +1739,34 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20261015092651/https://memory-alpha.fandom.com/wiki/United_Earth",
+  "dates_stellaires": [
+   {
+    "titre": "Up the Long Ladder",
+    "source_url": "http://www.chakoteya.net/NextGen/144.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Up_The_Long_Ladder_(episode)",
+    "dates": [
+     {
+      "date": "42823.2",
+      "annee": 2365
+     },
+     {
+      "date": "42827.3",
+      "annee": 2365
+     }
+    ]
+   },
+   {
+    "titre": "Attached",
+    "source_url": "http://www.chakoteya.net/NextGen/260.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Attached_(episode)",
+    "dates": [
+     {
+      "date": "47304.2",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-011",
@@ -1710,6 +1872,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260701163952/https://memory-alpha.fandom.com/wiki/Kzinti",
+  "dates_stellaires": [
+   {
+    "titre": "The Slaver Weapon",
+    "source_url": "http://www.chakoteya.net/StarTrek/TAS011.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Slaver_Weapon_(episode)",
+    "dates": [
+     {
+      "date": "4187.3",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-004",
@@ -1844,6 +2019,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20260611172410/https://www.startrek.com/news/why-archer-hated-the-vulcans",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-016",
@@ -1961,6 +2137,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260420123919/https://www.startrek.com/news/10-first-contacts-that-went-really-really-wrong",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-015",
@@ -2070,6 +2247,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -2215,6 +2393,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241113020311/https://www.startrek.com/en-un/news/starfleet-encounters-with-qonos",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-015",
@@ -2361,6 +2540,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -2457,6 +2637,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250825203729/https://www.startrek.com/en-un/news/pre-warp-impersonations-prime-directive",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -2575,6 +2756,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260131064517/https://www.startrek.com/en-un/news/dual-paths-orions-and-the-andorians",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -2669,6 +2851,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260109202916/https://www.startrek.com/en-un/news/in-the-year-2255",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -2771,6 +2954,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -2873,6 +3057,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260410170553/https://www.startrek.com/news/lower-decks-connection-unjustly-accused-characters",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -2968,6 +3153,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250723174332/https://www.startrek.com/en-un/news/tpol-tactics-and-protocols",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -3086,6 +3272,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250409165004/https://www.startrek.com/en-un/news/things-to-know-about-the-xindi",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -3191,6 +3378,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250409165004/https://www.startrek.com/en-un/news/things-to-know-about-the-xindi",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -3319,6 +3507,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20240903020524/https://www.startrek.com/en-un/news/star-trek-101-the-xindi",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-029",
@@ -3454,6 +3643,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20240815185620/https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-028",
@@ -3572,6 +3762,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260413211516/https://www.startrek.com/news/enterprises-ambitious-arcs",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-001",
@@ -3705,6 +3896,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260413211516/https://www.startrek.com/news/enterprises-ambitious-arcs",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-001",
@@ -3837,6 +4029,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-001",
@@ -3973,6 +4166,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260413211516/https://www.startrek.com/news/enterprises-ambitious-arcs",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -4074,6 +4268,7 @@
   "analyse_url": "/analyses/STP-034/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260710110024/https://www.startrek.com/news/best-of-charles-trip-tucker",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-010",
@@ -4222,6 +4417,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260413211516/https://www.startrek.com/news/enterprises-ambitious-arcs",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-010",
@@ -4341,6 +4537,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260109202916/https://www.startrek.com/en-un/news/in-the-year-2255",
+  "dates_stellaires": [
+   {
+    "titre": "Balance of Terror",
+    "source_url": "http://www.chakoteya.net/StarTrek/9.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Balance_of_Terror_(episode)",
+    "dates": [
+     {
+      "date": "1709.2",
+      "annee": null
+     },
+     {
+      "date": "1709.6",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-037",
@@ -4444,6 +4657,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260312102847/https://reactormag.com/star-trek-the-original-series-rewatch-balance-of-terror/",
+  "dates_stellaires": [
+   {
+    "titre": "Balance of Terror",
+    "source_url": "http://www.chakoteya.net/StarTrek/9.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Balance_of_Terror_(episode)",
+    "dates": [
+     {
+      "date": "1709.2",
+      "annee": null
+     },
+     {
+      "date": "1709.6",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-036",
@@ -4566,6 +4796,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250720110551/https://www.startrek.com/en-un/news/how-the-united-nations-helped-shape-the-federation",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -4670,6 +4901,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260612172215/https://www.startrek.com/news/discovery-episode-3-primer",
+  "dates_stellaires": [
+   {
+    "titre": "The Vulcan Hello",
+    "source_url": "http://www.chakoteya.net/STDisco17/101.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Vulcan_Hello_(episode)",
+    "dates": [
+     {
+      "date": "1207.3",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-040",
@@ -4772,6 +5016,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260612172215/https://www.startrek.com/news/discovery-episode-3-primer",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-039",
@@ -4911,6 +5156,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260607172900/https://www.startrek.com/news/recap-208-under-the-cloak-of-war-strange-new-worlds",
+  "dates_stellaires": [
+   {
+    "titre": "Under the Cloak of War",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/208.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Under_the_Cloak_of_War_(episode)",
+    "dates": [
+     {
+      "date": "1875.4",
+      "annee": null
+     },
+     {
+      "date": "1877.5",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-053",
@@ -5030,6 +5292,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241113020311/https://www.startrek.com/en-un/news/starfleet-encounters-with-qonos",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-043",
@@ -5149,6 +5412,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250723182033/https://www.startrek.com/en-un/news/captain-georgious-fate-discoverys-future",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-042",
@@ -5256,6 +5520,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260711202608/https://www.startrek.com/news/through-the-valley-of-shadows-spock-klingons",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -5362,6 +5627,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251019075955/https://blog.trekcore.com/2019/04/star-trek-discovery-season-finale-review-such-sweet-sorrow-part-2/",
+  "dates_stellaires": [
+   {
+    "titre": "Such Sweet Sorrow",
+    "source_url": "http://www.chakoteya.net/STDisco17/213.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Such_Sweet_Sorrow_(episode)",
+    "dates": [
+     {
+      "date": "1051.8",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -5450,6 +5728,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260314100411/https://www.startrek.com/news/recap-star-trek-strange-new-worlds-strange-new-worlds",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-009",
@@ -5592,6 +5871,34 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250120035530/https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-quality-of-mercy",
+  "dates_stellaires": [
+   {
+    "titre": "A Quality of Mercy",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/110.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/A_Quality_of_Mercy_(episode)",
+    "dates": [
+     {
+      "date": "1457.9",
+      "annee": null
+     },
+     {
+      "date": "1709.2",
+      "annee": null
+     }
+    ]
+   },
+   {
+    "titre": "The Broken Circle",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/201.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Broken_Circle_(episode)",
+    "dates": [
+     {
+      "date": "2369.2",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-052",
@@ -5693,6 +6000,19 @@
   "analyse_url": "/analyses/STP-048/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260509222841/https://www.startrek.com/news/recap-202-ad-astra-per-aspera-strange-new-worlds",
+  "dates_stellaires": [
+   {
+    "titre": "Ad Astra per Aspera",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/202.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ad_Astra_per_Aspera_(episode)",
+    "dates": [
+     {
+      "date": "2393.8",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-050",
@@ -5780,6 +6100,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260518030702/https://www.startrek.com/news/recap-star-trek-strange-new-worlds-lift-us-where-suffering-cannot-reach",
+  "dates_stellaires": [
+   {
+    "titre": "Lift Us Where Suffering Cannot Reach",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/106.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Lift_Us_Where_Suffering_Cannot_Reach_(episode)",
+    "dates": [
+     {
+      "date": "1943.7",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -5891,6 +6224,30 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260509222841/https://www.startrek.com/news/recap-202-ad-astra-per-aspera-strange-new-worlds",
+  "dates_stellaires": [
+   {
+    "titre": "Ghosts of Illyria",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/103.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ghosts_of_Illyria_(episode)",
+    "dates": [
+     {
+      "date": "1224.3",
+      "annee": null
+     }
+    ]
+   },
+   {
+    "titre": "Ad Astra per Aspera",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/202.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ad_Astra_per_Aspera_(episode)",
+    "dates": [
+     {
+      "date": "2393.8",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-048",
@@ -6018,6 +6375,34 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250722001226/https://www.startrek.com/en-un/news/recap-210-hegemony-strange-new-worlds",
+  "dates_stellaires": [
+   {
+    "titre": "Memento Mori",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/104.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Memento_Mori_(episode)",
+    "dates": [
+     {
+      "date": "3177.3",
+      "annee": null
+     },
+     {
+      "date": "3177.9",
+      "annee": null
+     }
+    ]
+   },
+   {
+    "titre": "Hegemony",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/210.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Hegemony_(episode)",
+    "dates": [
+     {
+      "date": "2344.2",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -6106,6 +6491,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260410093210/https://www.startrek.com/news/recap-201-the-broken-circle-strange-new-worlds",
+  "dates_stellaires": [
+   {
+    "titre": "The Broken Circle",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/201.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Broken_Circle_(episode)",
+    "dates": [
+     {
+      "date": "2369.2",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-047",
@@ -6201,6 +6599,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260607172900/https://www.startrek.com/news/recap-208-under-the-cloak-of-war-strange-new-worlds",
+  "dates_stellaires": [
+   {
+    "titre": "Under the Cloak of War",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/208.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Under_the_Cloak_of_War_(episode)",
+    "dates": [
+     {
+      "date": "1875.4",
+      "annee": null
+     },
+     {
+      "date": "1877.5",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-041",
@@ -6325,6 +6740,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-298",
@@ -6467,6 +6883,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-300",
@@ -6579,6 +6996,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260807181804/https://www.startrek.com/en-un/news/let-that-be-your-last-battlefield-47-years-later",
+  "dates_stellaires": [
+   {
+    "titre": "Let That Be Your Last Battlefield",
+    "source_url": "http://www.chakoteya.net/StarTrek/70.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Let_That_Be_Your_Last_Battlefield_(episode)",
+    "dates": [
+     {
+      "date": "5730.2",
+      "annee": null
+     },
+     {
+      "date": "5730.7",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -6673,6 +7107,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260710112347/https://www.startrek.com/news/the-lower-decks-connection-the-most-dangerous-games",
+  "dates_stellaires": [
+   {
+    "titre": "A Taste of Armageddon",
+    "source_url": "http://www.chakoteya.net/StarTrek/23.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/A_Taste_of_Armageddon_(episode)",
+    "dates": [
+     {
+      "date": "3192.1",
+      "annee": null
+     },
+     {
+      "date": "3193.0",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -6767,6 +7218,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250726125844/https://www.startrek.com/en-un/news/star-trek-megalomaniacal-ai-guide",
+  "dates_stellaires": [
+   {
+    "titre": "The Return of the Archons",
+    "source_url": "http://www.chakoteya.net/StarTrek/22.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Return_of_the_Archons_(episode)",
+    "dates": [
+     {
+      "date": "3158.7",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -6846,6 +7310,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261020080626/https://en.wikipedia.org/wiki/Patterns_of_Force_(Star_Trek:_The_Original_Series)",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -6940,6 +7405,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "A Private Little War",
+    "source_url": "http://www.chakoteya.net/StarTrek/45.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/A_Private_Little_War_(episode)",
+    "dates": [
+     {
+      "date": "4211.4",
+      "annee": null
+     },
+     {
+      "date": "4211.8",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -7028,6 +7510,23 @@
   "analyse_url": "/analyses/STP-061/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260807113011/https://www.startrek.com/news/resistance-planetary-uprisings-movements",
+  "dates_stellaires": [
+   {
+    "titre": "The Cloud Minders",
+    "source_url": "http://www.chakoteya.net/StarTrek/74.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Cloud_Minders_(episode)",
+    "dates": [
+     {
+      "date": "5818.4",
+      "annee": null
+     },
+     {
+      "date": "5819.3",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -7131,6 +7630,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260415105531/https://www.startrek.com/news/remarkable-revelations",
+  "dates_stellaires": [
+   {
+    "titre": "Errand of Mercy",
+    "source_url": "http://www.chakoteya.net/StarTrek/27.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Errand_of_Mercy_(episode)",
+    "dates": [
+     {
+      "date": "3198.4",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -7210,6 +7722,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260312102847/https://reactormag.com/star-trek-the-original-series-rewatch-balance-of-terror/",
+  "dates_stellaires": [
+   {
+    "titre": "Balance of Terror",
+    "source_url": "http://www.chakoteya.net/StarTrek/9.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Balance_of_Terror_(episode)",
+    "dates": [
+     {
+      "date": "1709.2",
+      "annee": null
+     },
+     {
+      "date": "1709.6",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-036",
@@ -7321,6 +7850,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250813152837/https://www.startrek.com/news/the-dual-paths-of-the-orions-and-the-andorians",
+  "dates_stellaires": [
+   {
+    "titre": "Journey to Babel",
+    "source_url": "http://www.chakoteya.net/StarTrek/44.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Journey_to_Babel_(episode)",
+    "dates": [
+     {
+      "date": "3842.3",
+      "annee": null
+     },
+     {
+      "date": "3842.4",
+      "annee": null
+     },
+     {
+      "date": "3843.4",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -7446,6 +7996,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Friday's Child",
+    "source_url": "http://www.chakoteya.net/StarTrek/32.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Friday's_Child_(episode)",
+    "dates": [
+     {
+      "date": "3497.2",
+      "annee": null
+     },
+     {
+      "date": "3498.9",
+      "annee": null
+     },
+     {
+      "date": "3499.1",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -7541,6 +8112,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250329073210/https://www.startrek.com/en-un/news/6-things-to-know-about-the-omega-glory",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -7635,6 +8207,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260714094940/https://www.startrek.com/news/10-star-trek-stories-crying-out-for-a-follow-up",
+  "dates_stellaires": [
+   {
+    "titre": "The Gamesters of Triskelion",
+    "source_url": "http://www.chakoteya.net/StarTrek/46.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Gamesters_of_Triskelion_(episode)",
+    "dates": [
+     {
+      "date": "3211.7",
+      "annee": null
+     },
+     {
+      "date": "3211.8",
+      "annee": null
+     },
+     {
+      "date": "3259.2",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -7759,6 +8352,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "The Mark of Gideon",
+    "source_url": "http://www.chakoteya.net/StarTrek/72.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Mark_of_Gideon_(episode)",
+    "dates": [
+     {
+      "date": "5423.4",
+      "annee": null
+     },
+     {
+      "date": "5423.8",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -7853,6 +8463,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250819221650/https://www.startrek.com/en-un/news/lessons-learned-on-the-way-to-eden",
+  "dates_stellaires": [
+   {
+    "titre": "The Way to Eden",
+    "source_url": "http://www.chakoteya.net/StarTrek/75.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Way_to_Eden_(episode)",
+    "dates": [
+     {
+      "date": "5832.3",
+      "annee": null
+     },
+     {
+      "date": "5832.5",
+      "annee": null
+     },
+     {
+      "date": "5832.6",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -7977,6 +8608,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "The Apple",
+    "source_url": "http://www.chakoteya.net/StarTrek/38.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Apple_(episode)",
+    "dates": [
+     {
+      "date": "3715.3",
+      "annee": null
+     },
+     {
+      "date": "3715.6",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -8092,6 +8740,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261019182622/https://en.wikipedia.org/wiki/The_Jihad",
+  "dates_stellaires": [
+   {
+    "titre": "The Jihad",
+    "source_url": "http://www.chakoteya.net/StarTrek/TAS014.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Jihad_(episode)",
+    "dates": [
+     {
+      "date": "5683.1",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -8200,6 +8861,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260731065639/https://reactormag.com/star-trek-the-original-series-rewatch-the-slaver-weapon/",
+  "dates_stellaires": [
+   {
+    "titre": "The Slaver Weapon",
+    "source_url": "http://www.chakoteya.net/StarTrek/TAS011.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Slaver_Weapon_(episode)",
+    "dates": [
+     {
+      "date": "4187.3",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-004",
@@ -8300,6 +8974,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250726125844/https://www.startrek.com/en-un/news/star-trek-megalomaniacal-ai-guide",
+  "dates_stellaires": [
+   {
+    "titre": "The Motion Picture",
+    "source_url": "http://www.chakoteya.net/movies/movie1.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek%3A_The_Motion_Picture",
+    "dates": [
+     {
+      "date": "7412.6",
+      "annee": null
+     },
+     {
+      "date": "7413.4",
+      "annee": null
+     },
+     {
+      "date": "7414.1",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -8388,6 +9083,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251114004015/https://www.startrek.com/en-un/movies/star-trek-ii-the-wrath-of-khan",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -8488,6 +9184,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "The Voyage Home",
+    "source_url": "http://www.chakoteya.net/movies/movie4.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_IV%3A_The_Voyage_Home",
+    "dates": [
+     {
+      "date": "8390",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -8603,6 +9312,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260418003338/https://www.startrek.com/news/the-final-frontier-25-years-later",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -8711,6 +9421,19 @@
   "analyse_url": "/analyses/STP-077/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260120171141/https://www.startrek.com/en-un/movies/star-trek-vi-the-undiscovered-country",
+  "dates_stellaires": [
+   {
+    "titre": "The Undiscovered Country",
+    "source_url": "http://www.chakoteya.net/movies/movie6.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_VI%3A_The_Undiscovered_Country",
+    "dates": [
+     {
+      "date": "9522.6",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-078",
@@ -8814,6 +9537,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251012075516/https://www.startrek.com/en-un/news/undiscovered-country-underrated-classic",
+  "dates_stellaires": [
+   {
+    "titre": "The Undiscovered Country",
+    "source_url": "http://www.chakoteya.net/movies/movie6.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_VI%3A_The_Undiscovered_Country",
+    "dates": [
+     {
+      "date": "9522.6",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-077",
@@ -8945,6 +9681,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250816220147/https://www.startrek.com/en-un/news/celebrating-the-ships-of-the-line-uss-enterprise-ncc-1701-a",
+  "dates_stellaires": [
+   {
+    "titre": "The Undiscovered Country",
+    "source_url": "http://www.chakoteya.net/movies/movie6.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_VI%3A_The_Undiscovered_Country",
+    "dates": [
+     {
+      "date": "9522.6",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-077",
@@ -9053,6 +9802,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260309061913/https://www.startrek.com/en-un/news/celebrating-the-ships-of-the-line-uss-enterprise-ncc-1701-d",
+  "dates_stellaires": [
+   {
+    "titre": "Generations",
+    "source_url": "http://www.chakoteya.net/movies/movie7.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_Generations",
+    "dates": [
+     {
+      "date": "48632.4",
+      "annee": 2371
+     },
+     {
+      "date": "48650.1",
+      "annee": 2371
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -9155,6 +9921,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260213215438/https://www.startrek.com/news/star-treks-most-breathtaking-and-consequential-battles",
+  "dates_stellaires": [
+   {
+    "titre": "First Contact",
+    "source_url": "http://www.chakoteya.net/movies/movie8.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek%3A_First_Contact",
+    "dates": [
+     {
+      "date": "50893.5",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-011",
@@ -9249,6 +10028,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260120153957/https://www.startrek.com/en-un/movies/star-trek-ix-insurrection",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -9337,6 +10117,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250815173733/https://www.startrek.com/en-un/news/inside-the-romulan-warbird-valdore",
+  "dates_stellaires": [
+   {
+    "titre": "Nemesis",
+    "source_url": "http://www.chakoteya.net/movies/movie10.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_Nemesis",
+    "dates": [
+     {
+      "date": "56844.9",
+      "annee": 2379
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-084",
@@ -9433,6 +10226,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250721153335/https://www.startrek.com/en-un/news/last-minute-reinforcements-starfleet-tradition",
+  "dates_stellaires": [
+   {
+    "titre": "Nemesis",
+    "source_url": "http://www.chakoteya.net/movies/movie10.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_Nemesis",
+    "dates": [
+     {
+      "date": "56844.9",
+      "annee": 2379
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-083",
@@ -9536,6 +10342,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260514020221/https://www.startrek.com/news/everything-you-need-to-know-about-nero",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-086",
@@ -9639,6 +10446,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260514020221/https://www.startrek.com/news/everything-you-need-to-know-about-nero",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-085",
@@ -9741,6 +10549,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260809131043/https://www.startrek.com/news/a-guide-to-star-treks-bad-admirals",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -9821,6 +10630,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250725232931/https://www.startrek.com/en-un/news/starfleet-manual-for-going-rogue",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -9916,6 +10726,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250214121513/https://www.startrek.com/en-un/news/piqard-qs-influence-on-the-captain",
+  "dates_stellaires": [
+   {
+    "titre": "Encounter at Farpoint",
+    "source_url": "http://www.chakoteya.net/NextGen/101.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Encounter_at_Farpoint_(episode)",
+    "dates": [
+     {
+      "date": "41153.7",
+      "annee": 2364
+     },
+     {
+      "date": "41153.8",
+      "annee": 2364
+     },
+     {
+      "date": "41174.2",
+      "annee": 2364
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -10024,6 +10855,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261113033529/https://en.wikipedia.org/wiki/The_Last_Outpost_(Star_Trek:_The_Next_Generation)",
+  "dates_stellaires": [
+   {
+    "titre": "The Last Outpost",
+    "source_url": "http://www.chakoteya.net/NextGen/107.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Last_Outpost_(episode)",
+    "dates": [
+     {
+      "date": "41386.4",
+      "annee": 2364
+     },
+     {
+      "date": "41386.5",
+      "annee": 2364
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -10151,6 +10999,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Code of Honor",
+    "source_url": "http://www.chakoteya.net/NextGen/104.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Code_of_Honor_(episode)",
+    "dates": [
+     {
+      "date": "41235.25",
+      "annee": 2364
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -10230,6 +11091,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260923091712/https://en.wikipedia.org/wiki/Justice_(Star_Trek:_The_Next_Generation)",
+  "dates_stellaires": [
+   {
+    "titre": "Justice",
+    "source_url": "http://www.chakoteya.net/NextGen/109.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Justice_(episode)",
+    "dates": [
+     {
+      "date": "41255.6",
+      "annee": 2364
+     },
+     {
+      "date": "41255.9",
+      "annee": 2364
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -10325,6 +11203,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260411025402/https://www.startrek.com/news/below-deck-with-lower-decks-ornara-and-brekka",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -10427,6 +11306,19 @@
   "analyse_url": "/analyses/STP-094/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260717023530/https://www.startrek.com/news/star-trek-sets-course-nearest-starbase",
+  "dates_stellaires": [
+   {
+    "titre": "The Measure of a Man",
+    "source_url": "http://www.chakoteya.net/NextGen/135.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Measure_Of_A_Man_(episode)",
+    "dates": [
+     {
+      "date": "42523.7",
+      "annee": 2365
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -10522,6 +11414,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260714094940/https://www.startrek.com/news/10-star-trek-stories-crying-out-for-a-follow-up",
+  "dates_stellaires": [
+   {
+    "titre": "The Hunted",
+    "source_url": "http://www.chakoteya.net/NextGen/159.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Hunted_(episode)",
+    "dates": [
+     {
+      "date": "43489.2",
+      "annee": 2366
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -10646,6 +11551,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "The Enemy",
+    "source_url": "http://www.chakoteya.net/NextGen/155.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Enemy_(episode)",
+    "dates": [
+     {
+      "date": "43349.2",
+      "annee": 2366
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -10750,6 +11668,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260504130359/https://www.startrek.com/en-un/news/needs-of-the-many-personal-sacrifice",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -10874,6 +11793,54 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251030174237/https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
+  "dates_stellaires": [
+   {
+    "titre": "The Best of Both Worlds",
+    "source_url": "http://www.chakoteya.net/NextGen/174.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Best_of_Both_Worlds_(episode)",
+    "dates": [
+     {
+      "date": "43989.1",
+      "annee": 2366
+     },
+     {
+      "date": "43992.6",
+      "annee": 2366
+     },
+     {
+      "date": "43993.5",
+      "annee": 2366
+     },
+     {
+      "date": "43996.2",
+      "annee": 2366
+     },
+     {
+      "date": "43998.5",
+      "annee": 2366
+     }
+    ]
+   },
+   {
+    "titre": "Emissary",
+    "source_url": "http://www.chakoteya.net/DS9/401.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Emissary_(episode)",
+    "dates": [
+     {
+      "date": "46388.2",
+      "annee": 2369
+     },
+     {
+      "date": "46392.7",
+      "annee": 2369
+     },
+     {
+      "date": "46393.1",
+      "annee": 2369
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-120",
@@ -11004,6 +11971,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -11115,6 +12083,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241127171539/https://www.startrek.com/en-un/news/starfleets-detective-tales",
+  "dates_stellaires": [
+   {
+    "titre": "Reunion",
+    "source_url": "http://www.chakoteya.net/NextGen/181.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Reunion_(episode)",
+    "dates": [
+     {
+      "date": "44246.3",
+      "annee": 2367
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -11185,6 +12166,19 @@
   "analyse_url": "/analyses/STP-101/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260807162732/https://www.startrek.com/news/your-ultimate-star-trek-picard-watch-guide",
+  "dates_stellaires": [
+   {
+    "titre": "The Drumhead",
+    "source_url": "http://www.chakoteya.net/NextGen/195.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Drumhead_(episode)",
+    "dates": [
+     {
+      "date": "44769.2",
+      "annee": 2367
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -11308,6 +12302,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250307180934/https://www.startrek.com/en-un/news/best-star-trek-romulans-ranked",
+  "dates_stellaires": [
+   {
+    "titre": "Redemption",
+    "source_url": "http://www.chakoteya.net/NextGen/200.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Redemption_(episode)",
+    "dates": [
+     {
+      "date": "44995.3",
+      "annee": 2367
+     },
+     {
+      "date": "44996.1",
+      "annee": 2367
+     },
+     {
+      "date": "44998.3",
+      "annee": 2367
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -11426,6 +12441,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260715141611/https://www.startrek.com/news/star-trek-next-generation-journeys-end-native-american-representation",
+  "dates_stellaires": [
+   {
+    "titre": "Journey's End",
+    "source_url": "http://www.chakoteya.net/NextGen/272.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Journey's_End_(episode)",
+    "dates": [
+     {
+      "date": "47751.2",
+      "annee": 2370
+     },
+     {
+      "date": "47755.3",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-114",
@@ -11529,6 +12561,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260420123919/https://www.startrek.com/news/10-first-contacts-that-went-really-really-wrong",
+  "dates_stellaires": [
+   {
+    "titre": "Who Watches the Watchers",
+    "source_url": "http://www.chakoteya.net/NextGen/152.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Who_Watches_The_Watchers_(episode)",
+    "dates": [
+     {
+      "date": "43173.5",
+      "annee": 2366
+     },
+     {
+      "date": "43174.2",
+      "annee": 2366
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -11644,6 +12693,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250905235322/https://www.startrek.com/en-un/news/vulcans-and-romulans-a-primer-on-unification",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-002",
@@ -11763,6 +12813,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260411233419/https://www.startrek.com/news/the-most-influential-tal-shiar-moments-ranked",
+  "dates_stellaires": [
+   {
+    "titre": "Face of the Enemy",
+    "source_url": "http://www.chakoteya.net/NextGen/240.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Face_Of_The_Enemy_(episode)",
+    "dates": [
+     {
+      "date": "46519.1",
+      "annee": 2369
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -11856,6 +12919,23 @@
   "analyse_url": "/analyses/STP-107/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260419234958/https://www.startrek.com/news/the-next-generations-call-for-equality",
+  "dates_stellaires": [
+   {
+    "titre": "The Outcast",
+    "source_url": "http://www.chakoteya.net/NextGen/217.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Outcast_(episode)",
+    "dates": [
+     {
+      "date": "45614.6",
+      "annee": 2368
+     },
+     {
+      "date": "45620.4",
+      "annee": 2368
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -11955,6 +13035,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Half a Life",
+    "source_url": "http://www.chakoteya.net/NextGen/196.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Half_a_Life_(episode)",
+    "dates": [
+     {
+      "date": "44805.3",
+      "annee": 2367
+     },
+     {
+      "date": "44812.6",
+      "annee": 2367
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -12049,6 +13146,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Angel One",
+    "source_url": "http://www.chakoteya.net/NextGen/115.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Angel_One_(episode)",
+    "dates": [
+     {
+      "date": "41636.9",
+      "annee": 2364
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -12133,6 +13243,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260322154628/https://www.startrek.com/en-un/news/the-four-lights",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -12224,6 +13335,35 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250722235205/https://www.startrek.com/en-un/news/the-quality-of-life-consciousness-and-ai",
+  "dates_stellaires": [
+   {
+    "titre": "The Quality of Life",
+    "source_url": "http://www.chakoteya.net/NextGen/235.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Quality_of_Life_(episode)",
+    "dates": [
+     {
+      "date": "46307.2",
+      "annee": 2369
+     },
+     {
+      "date": "46315.2",
+      "annee": 2369
+     },
+     {
+      "date": "46315.5",
+      "annee": 2369
+     },
+     {
+      "date": "46316.6",
+      "annee": 2369
+     },
+     {
+      "date": "46317.8",
+      "annee": 2369
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-254",
@@ -12329,6 +13469,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20240717001510/https://www.startrek.com/en-un/news/dr-crushers-guide-to-saving-the-enterprise",
+  "dates_stellaires": [
+   {
+    "titre": "The High Ground",
+    "source_url": "http://www.chakoteya.net/NextGen/160.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_High_Ground_(episode)",
+    "dates": [
+     {
+      "date": "43510.7",
+      "annee": 2366
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -12423,6 +13576,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260809224853/https://www.startrek.com/news/10-times-captain-picard-earned-his-own-day",
+  "dates_stellaires": [
+   {
+    "titre": "The Wounded",
+    "source_url": "http://www.chakoteya.net/NextGen/186.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Wounded_(episode)",
+    "dates": [
+     {
+      "date": "44429.6",
+      "annee": 2367
+     },
+     {
+      "date": "44431.7",
+      "annee": 2367
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -12549,6 +13719,38 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260715141611/https://www.startrek.com/news/star-trek-next-generation-journeys-end-native-american-representation",
+  "dates_stellaires": [
+   {
+    "titre": "Journey's End",
+    "source_url": "http://www.chakoteya.net/NextGen/272.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Journey's_End_(episode)",
+    "dates": [
+     {
+      "date": "47751.2",
+      "annee": 2370
+     },
+     {
+      "date": "47755.3",
+      "annee": 2370
+     }
+    ]
+   },
+   {
+    "titre": "Preemptive Strike",
+    "source_url": "http://www.chakoteya.net/NextGen/276.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)",
+    "dates": [
+     {
+      "date": "47941.7",
+      "annee": 2370
+     },
+     {
+      "date": "47943.2",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-103",
@@ -12685,6 +13887,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250820115422/https://www.startrek.com/en-un/news/essential-ro-laren-watch-list",
+  "dates_stellaires": [
+   {
+    "titre": "Preemptive Strike",
+    "source_url": "http://www.chakoteya.net/NextGen/276.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)",
+    "dates": [
+     {
+      "date": "47941.7",
+      "annee": 2370
+     },
+     {
+      "date": "47943.2",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-114",
@@ -12781,6 +14000,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260809131043/https://www.startrek.com/news/a-guide-to-star-treks-bad-admirals",
+  "dates_stellaires": [
+   {
+    "titre": "The Pegasus",
+    "source_url": "http://www.chakoteya.net/NextGen/264.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Pegasus_(episode)",
+    "dates": [
+     {
+      "date": "47457.1",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -12869,6 +14101,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250824143343/https://www.startrek.com/en-un/news/admiral-red-shirt-patriarchy-on-trial-tng",
+  "dates_stellaires": [
+   {
+    "titre": "The Offspring",
+    "source_url": "http://www.chakoteya.net/NextGen/164.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Offspring_(episode)",
+    "dates": [
+     {
+      "date": "43657.0",
+      "annee": 2366
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -12963,6 +14208,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Homeward",
+    "source_url": "http://www.chakoteya.net/NextGen/265.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Homeward_(episode)",
+    "dates": [
+     {
+      "date": "47423.9",
+      "annee": 2370
+     },
+     {
+      "date": "47427.2",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -13062,6 +14324,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261019143755/https://en.wikipedia.org/wiki/First_Contact_(Star_Trek:_The_Next_Generation)",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -13205,6 +14468,38 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250821085607/https://www.startrek.com/en-un/news/starbases-of-the-federation-from-k-7-to-yorktown",
+  "dates_stellaires": [
+   {
+    "titre": "Emissary",
+    "source_url": "http://www.chakoteya.net/DS9/401.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Emissary_(episode)",
+    "dates": [
+     {
+      "date": "46388.2",
+      "annee": 2369
+     },
+     {
+      "date": "46392.7",
+      "annee": 2369
+     },
+     {
+      "date": "46393.1",
+      "annee": 2369
+     }
+    ]
+   },
+   {
+    "titre": "Necessary Evil",
+    "source_url": "http://www.chakoteya.net/DS9/428.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Necessary_Evil_(episode)",
+    "dates": [
+     {
+      "date": "47284.1",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-098",
@@ -13370,6 +14665,38 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251206172408/https://www.startrek.com/en-un/news/star-treks-best-revolutions-rebellions",
+  "dates_stellaires": [
+   {
+    "titre": "Emissary",
+    "source_url": "http://www.chakoteya.net/DS9/401.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Emissary_(episode)",
+    "dates": [
+     {
+      "date": "46388.2",
+      "annee": 2369
+     },
+     {
+      "date": "46392.7",
+      "annee": 2369
+     },
+     {
+      "date": "46393.1",
+      "annee": 2369
+     }
+    ]
+   },
+   {
+    "titre": "The Darkness and the Light",
+    "source_url": "http://www.chakoteya.net/DS9/509.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Darkness_and_the_Light_(episode)",
+    "dates": [
+     {
+      "date": "50416.2",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-098",
@@ -13523,6 +14850,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250815230042/https://www.startrek.com/en-un/news/one-trek-mind-benjamin-sisko-son-of-a-god",
+  "dates_stellaires": [
+   {
+    "titre": "Emissary",
+    "source_url": "http://www.chakoteya.net/DS9/401.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Emissary_(episode)",
+    "dates": [
+     {
+      "date": "46388.2",
+      "annee": 2369
+     },
+     {
+      "date": "46392.7",
+      "annee": 2369
+     },
+     {
+      "date": "46393.1",
+      "annee": 2369
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-098",
@@ -13661,6 +15009,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250821085607/https://www.startrek.com/en-un/news/starbases-of-the-federation-from-k-7-to-yorktown",
+  "dates_stellaires": [
+   {
+    "titre": "Emissary",
+    "source_url": "http://www.chakoteya.net/DS9/401.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Emissary_(episode)",
+    "dates": [
+     {
+      "date": "46388.2",
+      "annee": 2369
+     },
+     {
+      "date": "46392.7",
+      "annee": 2369
+     },
+     {
+      "date": "46393.1",
+      "annee": 2369
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-098",
@@ -13806,6 +15175,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260710103303/https://www.startrek.com/news/everything-you-need-to-know-about-winn-adami",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -13899,6 +15269,7 @@
   "analyse_url": "/analyses/STP-125/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250407180446/https://www.startrek.com/en-un/news/space-time-travelers-guide-to-star-trek",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-120",
@@ -14039,6 +15410,7 @@
   "analyse_url": "/analyses/STP-126/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260710103303/https://www.startrek.com/news/everything-you-need-to-know-about-winn-adami",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -14176,6 +15548,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251206172408/https://www.startrek.com/en-un/news/star-treks-best-revolutions-rebellions",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-114",
@@ -14300,6 +15673,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260123212600/https://reactormag.com/star-trek-deep-space-nine-rewatch-the-jemhadar//",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -14371,6 +15745,7 @@
   "analyse_url": "/analyses/STP-129/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260714094453/https://www.startrek.com/news/unionizing-star-trek-deep-space-nine",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -14465,6 +15840,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250824072314/https://www.startrek.com/en-un/news/the-people-vs-star-trek-9-best-courtroom-drama-episodes-ranked",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -14580,6 +15956,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -14694,6 +16071,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "The Adversary",
+    "source_url": "http://www.chakoteya.net/DS9/472.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Adversary_(episode)",
+    "dates": [
+     {
+      "date": "48959.1",
+      "annee": 2371
+     },
+     {
+      "date": "48960.9",
+      "annee": 2371
+     },
+     {
+      "date": "48962.5",
+      "annee": 2371
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -14853,6 +16251,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Cardassians",
+    "source_url": "http://www.chakoteya.net/DS9/425.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Cardassians_(episode)",
+    "dates": [
+     {
+      "date": "47177.2",
+      "annee": 2370
+     },
+     {
+      "date": "47178.3",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-125",
@@ -14964,6 +16379,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20240815185620/https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-121",
@@ -15102,6 +16518,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-121",
@@ -15204,6 +16621,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260710222444/https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)",
+  "dates_stellaires": [
+   {
+    "titre": "The Way of the Warrior",
+    "source_url": "http://www.chakoteya.net/DS9/473.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
+    "dates": [
+     {
+      "date": "49011.4",
+      "annee": 2372
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-137",
@@ -15351,6 +16781,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251030174243/https://www.startrek.com/en-un/news/ds9s-two-part-turning-point",
+  "dates_stellaires": [
+   {
+    "titre": "The Way of the Warrior",
+    "source_url": "http://www.chakoteya.net/DS9/473.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
+    "dates": [
+     {
+      "date": "49011.4",
+      "annee": 2372
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-136",
@@ -15483,6 +16926,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251030174237/https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
+  "dates_stellaires": [
+   {
+    "titre": "The Way of the Warrior",
+    "source_url": "http://www.chakoteya.net/DS9/473.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Way_of_the_Warrior_(episode)",
+    "dates": [
+     {
+      "date": "49011.4",
+      "annee": 2372
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-136",
@@ -15595,6 +17051,7 @@
   "analyse_url": "/analyses/STP-139/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260809131043/https://www.startrek.com/news/a-guide-to-star-treks-bad-admirals",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -15712,6 +17169,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260708201415/https://en.wikipedia.org/wiki/Apocalypse_Rising",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -15845,6 +17303,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250817213329/https://www.paramountplus.com/shows/star_trek_deep_space_nine/episodes/5/",
+  "dates_stellaires": [
+   {
+    "titre": "For the Uniform",
+    "source_url": "http://www.chakoteya.net/DS9/511.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/For_the_Uniform_(episode)",
+    "dates": [
+     {
+      "date": "50485.2",
+      "annee": 2373
+     },
+     {
+      "date": "50488.2",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -15998,6 +17473,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Necessary Evil",
+    "source_url": "http://www.chakoteya.net/DS9/428.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Necessary_Evil_(episode)",
+    "dates": [
+     {
+      "date": "47284.1",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-120",
@@ -16123,6 +17611,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251030174243/https://www.startrek.com/en-un/news/ds9s-two-part-turning-point",
+  "dates_stellaires": [
+   {
+    "titre": "By Inferno's Light",
+    "source_url": "http://www.chakoteya.net/DS9/513.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/By_Inferno's_Light_(episode)",
+    "dates": [
+     {
+      "date": "50564.2",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-144",
@@ -16256,6 +17757,30 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20240815185620/https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements",
+  "dates_stellaires": [
+   {
+    "titre": "By Inferno's Light",
+    "source_url": "http://www.chakoteya.net/DS9/513.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/By_Inferno's_Light_(episode)",
+    "dates": [
+     {
+      "date": "50564.2",
+      "annee": 2373
+     }
+    ]
+   },
+   {
+    "titre": "Hunters",
+    "source_url": "http://www.chakoteya.net/Voyager/413.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Hunters_(episode)",
+    "dates": [
+     {
+      "date": "51501.4",
+      "annee": 2374
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-143",
@@ -16367,6 +17892,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250726004213/https://www.startrek.com/en-un/news/federation-foes-dominion-and-emerald-chain",
+  "dates_stellaires": [
+   {
+    "titre": "Call to Arms",
+    "source_url": "http://www.chakoteya.net/DS9/524.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Call_to_Arms_(episode)",
+    "dates": [
+     {
+      "date": "50975.2",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-146",
@@ -16521,6 +18059,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251030174237/https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
+  "dates_stellaires": [
+   {
+    "titre": "Call to Arms",
+    "source_url": "http://www.chakoteya.net/DS9/524.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Call_to_Arms_(episode)",
+    "dates": [
+     {
+      "date": "50975.2",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-145",
@@ -16675,6 +18226,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251030174237/https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
+  "dates_stellaires": [
+   {
+    "titre": "Call to Arms",
+    "source_url": "http://www.chakoteya.net/DS9/524.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Call_to_Arms_(episode)",
+    "dates": [
+     {
+      "date": "50975.2",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-145",
@@ -16799,6 +18363,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251030174237/https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -16878,6 +18443,7 @@
   "analyse_url": "/analyses/STP-149/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260612175323/https://www.startrek.com/news/this-classic-ds9-episode-tackles-the-finer-points-of-morality",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -17011,6 +18577,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Behind the Lines",
+    "source_url": "http://www.chakoteya.net/DS9/528.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Behind_the_Lines_(episode)",
+    "dates": [
+     {
+      "date": "51145.3",
+      "annee": 2374
+     },
+     {
+      "date": "51149.5",
+      "annee": 2374
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -17149,6 +18732,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Hippocratic Oath",
+    "source_url": "http://www.chakoteya.net/DS9/475.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Hippocratic_Oath_(episode)",
+    "dates": [
+     {
+      "date": "49066.5",
+      "annee": 2372
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -17243,6 +18839,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20240525144657/https://www.startrek.com/en-un/news/your-star-trek-pandemic-themed-watch-list",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -17352,6 +18949,19 @@
   "analyse_url": "/analyses/STP-153/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260809041617/https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty",
+  "dates_stellaires": [
+   {
+    "titre": "Extreme Measures",
+    "source_url": "http://www.chakoteya.net/DS9/573.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Extreme_Measures_(episode)",
+    "dates": [
+     {
+      "date": "52645.7",
+      "annee": 2375
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-156",
@@ -17454,6 +19064,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260421162041/https://www.startrek.com/news/the-best-klingon-quests-from-deep-space-nine-ranked",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-155",
@@ -17555,6 +19166,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260421162041/https://www.startrek.com/news/the-best-klingon-quests-from-deep-space-nine-ranked",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-154",
@@ -17681,6 +19293,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20240815185620/https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-153",
@@ -17815,6 +19428,7 @@
   "analyse_url": "/analyses/STP-157/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251030174237/https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-158",
@@ -17933,6 +19547,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251030174237/https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-157",
@@ -18067,6 +19682,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260515100706/https://www.startrek.com/news/ishka-of-ferenginar-mother-of-a-movement",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-156",
@@ -18192,6 +19808,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260515100706/https://www.startrek.com/news/ishka-of-ferenginar-mother-of-a-movement",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-156",
@@ -18325,6 +19942,34 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251118163647/https://www.startrek.com/news/why-voyager-is-the-only-thing-im-streaming-during-a-pandemic",
+  "dates_stellaires": [
+   {
+    "titre": "Caretaker",
+    "source_url": "http://www.chakoteya.net/Voyager/101.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Caretaker_(episode)",
+    "dates": [
+     {
+      "date": "48315.6",
+      "annee": 2371
+     }
+    ]
+   },
+   {
+    "titre": "Learning Curve",
+    "source_url": "http://www.chakoteya.net/Voyager/115.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Learning_Curve_(episode)",
+    "dates": [
+     {
+      "date": "48846.5",
+      "annee": 2371
+     },
+     {
+      "date": "48859.3",
+      "annee": 2371
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-269",
@@ -18488,6 +20133,34 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Initiations",
+    "source_url": "http://www.chakoteya.net/Voyager/201.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Initiations_(episode)",
+    "dates": [
+     {
+      "date": "49005.3",
+      "annee": 2372
+     }
+    ]
+   },
+   {
+    "titre": "Maneuvers",
+    "source_url": "http://www.chakoteya.net/Voyager/207.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Maneuvers_(episode)",
+    "dates": [
+     {
+      "date": "49208.5",
+      "annee": 2372
+     },
+     {
+      "date": "49211.5",
+      "annee": 2372
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -18602,6 +20275,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241211205708/https://www.startrek.com/en-un/news/intruder-alert-ship-invaders",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -18728,6 +20402,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -18830,6 +20505,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20240814171201/https://www.startrek.com/en-un/news/voyagers-death-wish-19-years-later",
+  "dates_stellaires": [
+   {
+    "titre": "Death Wish",
+    "source_url": "http://www.chakoteya.net/Voyager/210.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Death_Wish_(episode)",
+    "dates": [
+     {
+      "date": "49301.2",
+      "annee": 2372
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -18939,6 +20627,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "The Q and the Grey",
+    "source_url": "http://www.chakoteya.net/Voyager/306.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Q_and_the_Grey_(episode)",
+    "dates": [
+     {
+      "date": "50384.2",
+      "annee": 2373
+     },
+     {
+      "date": "50392.7",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -19062,6 +20767,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "The Chute",
+    "source_url": "http://www.chakoteya.net/Voyager/301.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Chute_(episode)",
+    "dates": [
+     {
+      "date": "50156.2",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -19161,6 +20879,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250825002842/https://www.startrek.com/en-un/news/star-trek-101-seven-of-nine",
+  "dates_stellaires": [
+   {
+    "titre": "Scorpion",
+    "source_url": "http://www.chakoteya.net/Voyager/321.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Scorpion_(episode)",
+    "dates": [
+     {
+      "date": "50984.3",
+      "annee": 2373
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -19282,6 +21013,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241211205708/https://www.startrek.com/en-un/news/intruder-alert-ship-invaders",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -19377,6 +21109,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260807184744/https://www.startrek.com/news/delta-quadrant-regimes-ranked",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -19492,6 +21225,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -19602,6 +21336,27 @@
   "analyse_url": "/analyses/STP-172/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260809135029/https://www.startrek.com/news/author-author-can-teach-us-a-lot-about-ai-and-copyright",
+  "dates_stellaires": [
+   {
+    "titre": "Author, Author",
+    "source_url": "http://www.chakoteya.net/Voyager/717.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Author%2C_Author_(episode)",
+    "dates": [
+     {
+      "date": "54732.3",
+      "annee": 2377
+     },
+     {
+      "date": "54740.8",
+      "annee": 2377
+     },
+     {
+      "date": "54748.6",
+      "annee": 2377
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -19726,6 +21481,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Nemesis",
+    "source_url": "http://www.chakoteya.net/Voyager/402.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Nemesis_(episode)",
+    "dates": [
+     {
+      "date": "51082.4",
+      "annee": 2374
+     },
+     {
+      "date": "51096.5",
+      "annee": 2374
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -19825,6 +21597,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251206172408/https://www.startrek.com/en-un/news/star-treks-best-revolutions-rebellions",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -19948,6 +21721,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -20056,6 +21830,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251206182526/https://www.startrek.com/en-un/news/discovery-episode-12-primer",
+  "dates_stellaires": [
+   {
+    "titre": "What's Past Is Prologue",
+    "source_url": "http://www.chakoteya.net/STDisco17/113.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/What's_Past_Is_Prologue_(episode)",
+    "dates": [
+     {
+      "date": "1834.2",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-238",
@@ -20132,6 +21919,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251206182526/https://www.startrek.com/en-un/news/discovery-episode-12-primer",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -20278,6 +22066,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20231220100741/https://www.startrek.com/en-un/news/the-science-behind-discoverys-burn",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -20373,6 +22162,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260208010232/https://www.startrek.com/news/recap-star-trek-discovery-people-of-earth",
+  "dates_stellaires": [
+   {
+    "titre": "People of Earth",
+    "source_url": "http://www.chakoteya.net/STDisco17/303.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/People_of_Earth_(episode)",
+    "dates": [
+     {
+      "date": "865211.3",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-180",
@@ -20483,6 +22285,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260208010232/https://www.startrek.com/news/recap-star-trek-discovery-people-of-earth",
+  "dates_stellaires": [
+   {
+    "titre": "People of Earth",
+    "source_url": "http://www.chakoteya.net/STDisco17/303.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/People_of_Earth_(episode)",
+    "dates": [
+     {
+      "date": "865211.3",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-179",
@@ -20578,6 +22393,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241116072732/https://www.startrek.com/en-un/news/recap-star-trek-discovery-forget-me-not",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -20688,6 +22504,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250219192238/https://www.startrek.com/en-un/news/recap-star-trek-discovery-unification-iii",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-179",
@@ -20797,6 +22614,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250219192238/https://www.startrek.com/en-un/news/recap-star-trek-discovery-unification-iii",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-179",
@@ -20909,6 +22727,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241117065027/https://www.startrek.com/en-un/news/recap-star-trek-discovery-scavengers",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -21006,6 +22825,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260719212933/https://www.startrek.com/news/recap-star-trek-discovery-there-is-a-tide",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -21093,6 +22913,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241119070615/https://www.startrek.com/en-un/news/recap-star-trek-discovery-that-hope-is-you-part-2",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -21168,6 +22989,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241120085451/https://www.startrek.com/en-un/news/recap-star-trek-discovery-all-is-possible",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -21275,6 +23097,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241120063507/https://www.startrek.com/en-un/news/recap-star-trek-discovery-kobayashi-maru",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -21380,6 +23203,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260716040306/https://www.startrek.com/news/recap-star-trek-discovery-but-to-connect",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -21476,6 +23300,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260421064314/https://www.startrek.com/news/recap-star-trek-discovery-coming-home",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -21563,6 +23388,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251002232324/https://www.startrek.com/en-un/news/recap-507-discovery-erigah",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-192",
@@ -21675,6 +23501,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251002232324/https://www.startrek.com/en-un/news/recap-507-discovery-erigah",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-191",
@@ -21778,6 +23605,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251002180348/https://www.startrek.com/en-un/news/recap-510-discovery-life-itself",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-192",
@@ -21898,6 +23726,7 @@
   "analyse_url": "/analyses/STP-194/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260810140425/https://www.startrek.com/news/recap-505-discovery-mirrors",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-239",
@@ -22009,6 +23838,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260515112132/https://www.startrek.com/news/recap-star-trek-picard-remembrance",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-196",
@@ -22144,6 +23974,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260421040245/https://www.startrek.com/news/recap-star-trek-picard-maps-and-legends",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-195",
@@ -22259,6 +24090,7 @@
   "analyse_url": "/analyses/STP-197/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241127221616/https://www.startrek.com/en-un/news/recap-star-trek-picard-remembrance",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -22362,6 +24194,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241127221616/https://www.startrek.com/en-un/news/recap-star-trek-picard-remembrance",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-195",
@@ -22452,6 +24285,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260809035747/https://www.startrek.com/news/recap-star-trek-picard-stardust-city-rag",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -22527,6 +24361,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260411023225/https://www.startrek.com/news/recap-star-trek-picard-broken-pieces",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -22654,6 +24489,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260419182549/https://www.denofgeek.com/tv/star-trek-picard-episode-10-review-et-in-arcadia-ego-part-2/",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -22753,6 +24589,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260809041617/https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -22849,6 +24686,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260212185025/https://www.startrek.com/news/recap-star-trek-picard-penance",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -22958,6 +24796,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260422213947/https://www.startrek.com/news/recap-star-trek-picard-farewell",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-008",
@@ -23033,6 +24872,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260311171515/https://www.startrek.com/news/recap-star-trek-picard-307-dominion",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -23152,6 +24992,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260208133631/https://www.startrek.com/news/recap-star-trek-picard-309-vox",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-207",
@@ -23279,6 +25120,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260208133631/https://www.startrek.com/news/recap-star-trek-picard-309-vox",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-206",
@@ -23389,6 +25231,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260808031616/https://www.startrek.com/news/recap-star-trek-picard-310-the-last-generation-finale",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-206",
@@ -23483,6 +25326,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261014024655/https://www.denofgeek.com/tv/star-trek-lower-decks-episode-1-review-second-contact/",
+  "dates_stellaires": [
+   {
+    "titre": "Second Contact",
+    "source_url": "http://www.chakoteya.net/StarTrekLD/101.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Second_Contact_(episode)",
+    "dates": [
+     {
+      "date": "57436.2",
+      "annee": 2380
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -23601,6 +25457,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260210195514/https://blog.trekcore.com/2021/09/star-trek-lower-decks-review-where-pleasant-fountains-lie/",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -23703,6 +25560,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260415094628/https://www.startrek.com/news/how-lower-decks-captain-freeman-rose-to-the-occasion-in-season-two",
+  "dates_stellaires": [
+   {
+    "titre": "First First Contact",
+    "source_url": "http://www.chakoteya.net/StarTrekLD/210.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/First_First_Contact_(episode)",
+    "dates": [
+     {
+      "date": "58130.6",
+      "annee": 2381
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-212",
@@ -23891,6 +25761,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260330134429/https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks_season_2",
+  "dates_stellaires": [
+   {
+    "titre": "First First Contact",
+    "source_url": "http://www.chakoteya.net/StarTrekLD/210.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/First_First_Contact_(episode)",
+    "dates": [
+     {
+      "date": "58130.6",
+      "annee": 2381
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-211",
@@ -24054,6 +25937,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250813044734/https://reactormag.com/the-secret-origin-of-the-mistress-of-the-winter-constellations-star-trek-lower-decks-something-borrowed-something-green//",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-218",
@@ -24171,6 +26055,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260413104536/https://www.startrek.com/news/below-deck-lower-decks-406-slug-fest",
+  "dates_stellaires": [
+   {
+    "titre": "Parth Ferengi's Heart Place",
+    "source_url": "http://www.chakoteya.net/StarTrekLD/406.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Parth_Ferengi's_Heart_Place_(episode)",
+    "dates": [
+     {
+      "date": "58901.5",
+      "annee": 2381
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -24266,6 +26163,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260315231943/https://www.startrek.com/news/below-deck-lower-decks-race-against-the-machine",
+  "dates_stellaires": [
+   {
+    "titre": "The Stars at Night",
+    "source_url": "http://www.chakoteya.net/StarTrekLD/310.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Stars_At_Night_(episode)",
+    "dates": [
+     {
+      "date": "58499.2",
+      "annee": 2381
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -24380,6 +26290,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250724135241/https://www.startrek.com/en-un/news/below-deck-lower-decks-410-genesis-device",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-270",
@@ -24472,6 +26383,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250315044737/https://www.startrek.com/en-un/news/warp-five-lowers-decks-series-finale-cerritos-future",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -24570,6 +26482,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260807120111/https://www.startrek.com/news/below-deck-with-lower-decks-501-idol-fancies",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-213",
@@ -24666,6 +26579,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260712055329/https://www.startrek.com/news/recap-star-trek-prodigy-lost-and-found-part-1",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-220",
@@ -24761,6 +26675,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260512004247/https://www.startrek.com/news/recap-star-trek-prodigy-lost-and-found-part-2",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-219",
@@ -24888,6 +26803,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250126070152/https://www.startrek.com/en-un/news/recap-star-trek-prodigy-a-moral-star-part-2",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-222",
@@ -25010,6 +26926,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260509224533/https://www.startrek.com/news/recap-star-trek-prodigy-supernova-part-1",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-221",
@@ -25119,6 +27036,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260410163209/https://www.startrek.com/news/recap-star-trek-prodigy-supernova-part-2-finale",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-221",
@@ -25255,6 +27173,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20240815185620/https://www.startrek.com/en-un/news/resistance-planetary-uprisings-movements",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-226",
@@ -25380,6 +27299,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250116084326/https://blog.trekcore.com/2024/11/star-trek-prodigy-reviews-brink-touch-of-grey/",
+  "dates_stellaires": [
+   {
+    "titre": "Brink",
+    "source_url": "http://www.chakoteya.net/STProdigy/STP217.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Brink_(episode)",
+    "dates": [
+     {
+      "date": "62083.5",
+      "annee": 2385
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-226",
@@ -25481,6 +27413,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260702025157/https://blog.trekcore.com/2024/11/star-trek-prodigy-season-2-finale-review-ouroboros/",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-224",
@@ -25600,6 +27533,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250116084326/https://blog.trekcore.com/2024/11/star-trek-prodigy-reviews-brink-touch-of-grey/",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-224",
@@ -25726,6 +27660,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-292",
@@ -25870,6 +27805,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20260228095907/https://www.paramountplus.com/shows/star-trek-starfleet-academy/episodes/",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-292",
@@ -26043,6 +27979,7 @@
   "analyse_url": "/analyses/STP-230/",
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-294",
@@ -26190,6 +28127,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -26344,6 +28282,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-292",
@@ -26495,6 +28434,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20250817061406/https://www.startrek.com/en-un/news/cadet-training-mirror-universe-episodes-mirror-mirror",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-234",
@@ -26622,6 +28562,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20250817061406/https://www.startrek.com/en-un/news/cadet-training-mirror-universe-episodes-mirror-mirror",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-233",
@@ -26720,6 +28661,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20260807114516/https://www.startrek.com/news/cadet-training-mirror-universe-episodes-crossover",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-236",
@@ -26841,6 +28783,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20260807114516/https://www.startrek.com/news/cadet-training-mirror-universe-episodes-crossover",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-235",
@@ -26992,6 +28935,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20251206172408/https://www.startrek.com/en-un/news/star-treks-best-revolutions-rebellions",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-236",
@@ -27099,6 +29043,19 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20250819133630/https://www.startrek.com/en-un/news/discovery-episode-14-primer",
+  "dates_stellaires": [
+   {
+    "titre": "What's Past Is Prologue",
+    "source_url": "http://www.chakoteya.net/STDisco17/113.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/What's_Past_Is_Prologue_(episode)",
+    "dates": [
+     {
+      "date": "1834.2",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-176",
@@ -27221,6 +29178,7 @@
   "analyse_url": "/analyses/STP-239/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260810140425/https://www.startrek.com/news/recap-505-discovery-mirrors",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-194",
@@ -27323,6 +29281,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250120035530/https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-quality-of-mercy",
+  "dates_stellaires": [
+   {
+    "titre": "A Quality of Mercy",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/110.html",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/A_Quality_of_Mercy_(episode)",
+    "dates": [
+     {
+      "date": "1457.9",
+      "annee": null
+     },
+     {
+      "date": "1709.2",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-047",
@@ -27425,6 +29400,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20240525144657/https://www.startrek.com/en-un/news/your-star-trek-pandemic-themed-watch-list",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -27519,6 +29495,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260316000706/https://www.startrek.com/en-un/news/best-of-charles-trip-tucker",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -27621,6 +29598,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250723174332/https://www.startrek.com/en-un/news/tpol-tactics-and-protocols",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -27715,6 +29693,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250825203729/https://www.startrek.com/en-un/news/pre-warp-impersonations-prime-directive",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -27809,6 +29788,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251206172308/https://www.startrek.com/en-un/news/50-years-later-plato-s-stepchildren",
+  "dates_stellaires": [
+   {
+    "titre": "Plato's Stepchildren",
+    "source_url": "http://www.chakoteya.net/StarTrek/67.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Plato's_Stepchildren_(episode)",
+    "dates": [
+     {
+      "date": "5784.2",
+      "annee": null
+     },
+     {
+      "date": "5784.3",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -27903,6 +29899,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250726125844/https://www.startrek.com/en-un/news/star-trek-megalomaniacal-ai-guide",
+  "dates_stellaires": [
+   {
+    "titre": "The Ultimate Computer",
+    "source_url": "http://www.chakoteya.net/StarTrek/53.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Ultimate_Computer_(episode)",
+    "dates": [
+     {
+      "date": "4729.4",
+      "annee": null
+     },
+     {
+      "date": "4731.3",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -28011,6 +30024,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Whom Gods Destroy",
+    "source_url": "http://www.chakoteya.net/StarTrek/71.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Whom_Gods_Destroy_(episode)",
+    "dates": [
+     {
+      "date": "5718.3",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -28110,6 +30136,35 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Albatross",
+    "source_url": "http://www.chakoteya.net/StarTrek/TAS019.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Albatross_(episode)",
+    "dates": [
+     {
+      "date": "5275.6",
+      "annee": null
+     },
+     {
+      "date": "5275.8",
+      "annee": null
+     },
+     {
+      "date": "5275.9",
+      "annee": null
+     },
+     {
+      "date": "5276.4",
+      "annee": null
+     },
+     {
+      "date": "5276.8",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -28189,6 +30244,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261027010254/https://en.wikipedia.org/wiki/Bem_(Star_Trek:_The_Animated_Series)",
+  "dates_stellaires": [
+   {
+    "titre": "Bem",
+    "source_url": "http://www.chakoteya.net/StarTrek/TAS018.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Bem_(episode)",
+    "dates": [
+     {
+      "date": "7403.6",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -28292,6 +30360,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261029174215/https://en.wikipedia.org/wiki/The_Infinite_Vulcan",
+  "dates_stellaires": [
+   {
+    "titre": "The Infinite Vulcan",
+    "source_url": "http://www.chakoteya.net/StarTrek/TAS002.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Infinite_Vulcan_(episode)",
+    "dates": [
+     {
+      "date": "5554.4",
+      "annee": null
+     },
+     {
+      "date": "5554.8",
+      "annee": null
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -28416,6 +30501,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "The Defector",
+    "source_url": "http://www.chakoteya.net/NextGen/158.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Defector_(episode)",
+    "dates": [
+     {
+      "date": "43462.5",
+      "annee": 2366
+     },
+     {
+      "date": "43463.7",
+      "annee": 2366
+     },
+     {
+      "date": "43465.2",
+      "annee": 2366
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -28510,6 +30616,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "The Perfect Mate",
+    "source_url": "http://www.chakoteya.net/NextGen/221.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Perfect_Mate_(episode)",
+    "dates": [
+     {
+      "date": "45761.3",
+      "annee": 2368
+     },
+     {
+      "date": "45766.1",
+      "annee": 2368
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -28606,6 +30729,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260418234417/https://www.startrek.com/news/five-times-geordi-la-forge-embodied-star-treks-hopeful-future",
+  "dates_stellaires": [
+   {
+    "titre": "The Masterpiece Society",
+    "source_url": "http://www.chakoteya.net/NextGen/213.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Masterpiece_Society_(episode)",
+    "dates": [
+     {
+      "date": "45470.1",
+      "annee": 2368
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -28723,6 +30859,35 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "The Quality of Life",
+    "source_url": "http://www.chakoteya.net/NextGen/235.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Quality_of_Life_(episode)",
+    "dates": [
+     {
+      "date": "46307.2",
+      "annee": 2369
+     },
+     {
+      "date": "46315.2",
+      "annee": 2369
+     },
+     {
+      "date": "46315.5",
+      "annee": 2369
+     },
+     {
+      "date": "46316.6",
+      "annee": 2369
+     },
+     {
+      "date": "46317.8",
+      "annee": 2369
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-111",
@@ -28812,6 +30977,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20231211021631/https://www.startrek.com/news/science/fall-of-a-season-environmentalism",
+  "dates_stellaires": [
+   {
+    "titre": "Force of Nature",
+    "source_url": "http://www.chakoteya.net/NextGen/261.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Force_of_Nature_(episode)",
+    "dates": [
+     {
+      "date": "47310.2",
+      "annee": 2370
+     },
+     {
+      "date": "47312.1",
+      "annee": 2370
+     },
+     {
+      "date": "47314.5",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -28917,6 +31103,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260420004138/https://www.startrek.com/news/ds9s-far-beyond-the-stars-15-years-later",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -29031,6 +31218,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261027131857/https://www.startrek.com/en-un/news/how-ben-sisko-wrestled-with-american-history",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -29153,6 +31341,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -29255,6 +31444,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250112220906/https://www.startrek.com/en-un/news/nog-post-traumatic-progress-of-star-trek-characters",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -29349,6 +31539,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -29443,6 +31634,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250722131537/https://www.startrek.com/en-un/news/voyager-the-doctor-watchlist",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -29552,6 +31744,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Random Thoughts",
+    "source_url": "http://www.chakoteya.net/Voyager/408.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Random_Thoughts_(episode)",
+    "dates": [
+     {
+      "date": "51367.2",
+      "annee": 2374
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -29646,6 +31851,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -29761,6 +31967,27 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Workforce",
+    "source_url": "http://www.chakoteya.net/Voyager/714.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Workforce_(episode)",
+    "dates": [
+     {
+      "date": "54584.3",
+      "annee": 2377
+     },
+     {
+      "date": "54597.9",
+      "annee": 2377
+     },
+     {
+      "date": "54608.6",
+      "annee": 2377
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -29866,6 +32093,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260421034324/https://www.startrek.com/news/i-was-a-child-of-mars",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -29969,6 +32197,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250720193150/https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -30081,6 +32310,7 @@
   "analyse_url": "/analyses/STP-267/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251119202923/https://www.startrek.com/movies/star-trek-section-31",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-268",
@@ -30209,6 +32439,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260807110654/https://www.startrek.com/news/philippa-georgiou-second-chances-and-sacrifice",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-267",
@@ -30365,6 +32596,34 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Caretaker",
+    "source_url": "http://www.chakoteya.net/Voyager/101.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Caretaker_(episode)",
+    "dates": [
+     {
+      "date": "48315.6",
+      "annee": 2371
+     }
+    ]
+   },
+   {
+    "titre": "Preemptive Strike",
+    "source_url": "http://www.chakoteya.net/NextGen/276.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Preemptive_Strike_(episode)",
+    "dates": [
+     {
+      "date": "47941.7",
+      "annee": 2370
+     },
+     {
+      "date": "47943.2",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-114",
@@ -30513,6 +32772,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250724135241/https://www.startrek.com/en-un/news/below-deck-lower-decks-410-genesis-device",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-216",
@@ -30640,6 +32900,19 @@
   "analyse_url": "/analyses/STP-271/",
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Sanctuary",
+    "source_url": "http://www.chakoteya.net/DS9/430.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Sanctuary_(episode)",
+    "dates": [
+     {
+      "date": "47391.2",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -30761,6 +33034,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -30891,6 +33165,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -31011,6 +33286,7 @@
   "analyse_url": "/analyses/STP-274/",
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -31124,6 +33400,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Paradise",
+    "source_url": "http://www.chakoteya.net/DS9/435.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Paradise_(episode)",
+    "dates": [
+     {
+      "date": "47573.1",
+      "annee": 2370
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -31230,6 +33519,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260809131043/https://www.startrek.com/news/a-guide-to-star-treks-bad-admirals",
+  "dates_stellaires": [
+   {
+    "titre": "Ensign Ro",
+    "source_url": "http://www.chakoteya.net/NextGen/203.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Ensign_Ro_(episode)",
+    "dates": [
+     {
+      "date": "45076.3",
+      "annee": 2368
+     },
+     {
+      "date": "45077.8",
+      "annee": 2368
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -31351,6 +33657,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20251206195654/https://www.startrek.com/en-un/news/remain-klingon-federation-relationship-with-klingons",
+  "dates_stellaires": [
+   {
+    "titre": "Rightful Heir",
+    "source_url": "http://www.chakoteya.net/NextGen/249.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Rightful_Heir_(episode)",
+    "dates": [
+     {
+      "date": "46852.2",
+      "annee": 2369
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -31472,6 +33791,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250720172256/https://www.startrek.com/en-un/news/who-is-rachel-garrett",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -31570,6 +33890,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260809224853/https://www.startrek.com/news/10-times-captain-picard-earned-his-own-day",
+  "dates_stellaires": [
+   {
+    "titre": "Conspiracy",
+    "source_url": "http://www.chakoteya.net/NextGen/125.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Conspiracy_(episode)",
+    "dates": [
+     {
+      "date": "41775.5",
+      "annee": 2364
+     },
+     {
+      "date": "41780.2",
+      "annee": 2364
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -31668,6 +34005,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260420133452/https://www.startrek.com/news/hugh-serves-as-an-important-reminder-of-our-capacity-for-compassion",
+  "dates_stellaires": [
+   {
+    "titre": "I, Borg",
+    "source_url": "http://www.chakoteya.net/NextGen/223.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/I_Borg_(episode)",
+    "dates": [
+     {
+      "date": "45854.2",
+      "annee": 2368
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -31805,6 +34155,19 @@
   "analyse_url": "/analyses/STP-281/",
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Flesh and Blood",
+    "source_url": "http://www.chakoteya.net/Voyager/706.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Flesh_and_Blood_(episode)",
+    "dates": [
+     {
+      "date": "54337.5",
+      "annee": 2377
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -31927,6 +34290,23 @@
   "analyse_url": "/analyses/STP-282/",
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "The Void",
+    "source_url": "http://www.chakoteya.net/Voyager/713.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Void_(episode)",
+    "dates": [
+     {
+      "date": "54553.4",
+      "annee": 2377
+     },
+     {
+      "date": "54562.7",
+      "annee": 2377
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -32044,6 +34424,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -32172,6 +34553,23 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [
+   {
+    "titre": "Alliances",
+    "source_url": "http://www.chakoteya.net/Voyager/211.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Alliances_(episode)",
+    "dates": [
+     {
+      "date": "49337.4",
+      "annee": 2372
+     },
+     {
+      "date": "49342.5",
+      "annee": 2372
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -32284,6 +34682,19 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250725232931/https://www.startrek.com/en-un/news/starfleet-manual-for-going-rogue",
+  "dates_stellaires": [
+   {
+    "titre": "Thirty Days",
+    "source_url": "http://www.chakoteya.net/Voyager/508.htm",
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Thirty_Days_(episode)",
+    "dates": [
+     {
+      "date": "52179.4",
+      "annee": 2375
+     }
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -32395,6 +34806,7 @@
   "analyse_url": "/analyses/STP-286/",
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250720193150/https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -32501,6 +34913,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260423031027/https://www.startrek.com/news/your-point-light-primer",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -32609,6 +35022,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260714095147/https://www.startrek.com/news/recap-star-trek-discovery-terra-firma-part-2",
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -32734,6 +35148,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260421085449/https://reactormag.com/tv-review-star-trek-lower-decks-wej-duj//",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-212",
@@ -32870,6 +35285,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -32983,6 +35399,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -33122,6 +35539,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20260221013908/https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-228",
@@ -33282,6 +35700,7 @@
   "analyse_url": "/analyses/STP-293/",
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20260221013908/https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-228",
@@ -33431,6 +35850,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20260314071008/https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-228",
@@ -33583,6 +36003,7 @@
   "analyse_url": "/analyses/STP-295/",
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20261113132313/https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-228",
@@ -33734,6 +36155,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-228",
@@ -33895,6 +36317,7 @@
   "analyse_url": "/analyses/STP-297/",
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20260416115107/https://www.denofgeek.com/tv/star-trek-starfleet-academy-episode-9-review-300th-night/",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-228",
@@ -34046,6 +36469,7 @@
   "analyse_url": "/analyses/STP-298/",
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20261004052047/https://blog.trekcore.com/2026/08/star-trek-strange-new-worlds-episode-404-review-a-case-of-chiaroscuro/",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-054",
@@ -34185,6 +36609,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-054",
@@ -34314,6 +36739,7 @@
   "analyse_url": "/analyses/STP-300/",
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20261028201146/https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-episode-408-review-orders-of-magnitude/",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-055",
@@ -34437,6 +36863,7 @@
   "analyse_url": null,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20261029201014/https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_4",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-055",
@@ -34557,6 +36984,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261029201014/https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_4",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-303",
@@ -34669,6 +37097,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261029201014/https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_4",
+  "dates_stellaires": [],
   "associes": [
    {
     "id": "STP-302",
@@ -34799,6 +37228,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": null,
+  "dates_stellaires": [],
   "associes": []
  },
  {
@@ -34920,6 +37350,7 @@
   "analyse_url": null,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260411233419/https://www.startrek.com/news/the-most-influential-tal-shiar-moments-ranked",
+  "dates_stellaires": [],
   "associes": []
  }
 ]

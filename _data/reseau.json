@@ -7545,7 +7545,11 @@
     "serie": "DS9",
     "x": 754,
     "r": 30,
-    "y": 588
+    "y": 588,
+    "nom": "Déclenchement de la guerre…",
+    "nx": 718,
+    "ny": 592,
+    "nancre": "end"
    },
    {
     "cle": "STP-005",
@@ -7554,7 +7558,11 @@
     "serie": "PIC",
     "x": 972,
     "r": 24.5,
-    "y": 760
+    "y": 760,
+    "nom": "Attaque des synthétiques sur…",
+    "nx": 942,
+    "ny": 764,
+    "nancre": "end"
    },
    {
     "cle": "STP-105",
@@ -7563,7 +7571,11 @@
     "serie": "DIS",
     "x": 1086,
     "r": 22.9,
-    "y": 412
+    "y": 412,
+    "nom": "Le « Burn » détruit…",
+    "nx": 1057,
+    "ny": 416,
+    "nancre": "end"
    },
    {
     "cle": "STP-016",
@@ -7572,7 +7584,11 @@
     "serie": "ENT",
     "x": 254,
     "r": 17.3,
-    "y": 151
+    "y": 151,
+    "nom": "Guerre froide temporelle :…",
+    "nx": 231,
+    "ny": 155,
+    "nancre": "end"
    },
    {
     "cle": "STP-039",

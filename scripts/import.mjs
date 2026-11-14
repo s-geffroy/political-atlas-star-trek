@@ -547,6 +547,23 @@ function carteDesArcs(arcs, parId) {
     const mx = (a.x + b.x) / 2, my = Math.min(a.y, b.y) - 18;
     return { de: a.cle, vers: b.cle, n, d: `M${a.x},${a.y} Q${mx},${my} ${b.x},${b.y}` };
   });
+  // Nom court des plus grands arcs (8 evenements et plus) : place a droite, a
+  // gauche, au-dessus ou au-dessous de la bulle, la premiere position qui ne
+  // touche aucune autre bulle ; les autres arcs se lisent au survol et dans la liste.
+  for (const b of bulles) if (b.taille >= 8) {
+    const t = b.titre.length > 30 ? b.titre.slice(0, 29).replace(/\s+\S*$/, '') + '…' : b.titre;
+    const w = t.length * 6.3, h = 14;
+    const essais = [
+      { x: b.x + b.r + 6, y: b.y + 4, a: 'start', bx: b.x + b.r + 6, by: b.y - 9 },
+      { x: b.x - b.r - 6, y: b.y + 4, a: 'end', bx: b.x - b.r - 6 - w, by: b.y - 9 },
+      { x: b.x, y: b.y - b.r - 6, a: 'middle', bx: b.x - w / 2, by: b.y - b.r - 6 - 11 },
+      { x: b.x, y: b.y + b.r + 15, a: 'middle', bx: b.x - w / 2, by: b.y + b.r + 4 },
+    ];
+    const libre = (e) => e.bx >= 4 && e.bx + w <= L - 4 && bulles.every((o) => o === b ||
+      Math.max(e.bx - o.x, 0, o.x - (e.bx + w)) ** 2 + Math.max(e.by - o.y, 0, o.y - (e.by + h)) ** 2 > (o.r + 3) ** 2);
+    const e = essais.find(libre);
+    if (e) Object.assign(b, { nom: t, nx: Math.round(e.x), ny: Math.round(e.y), nancre: e.a });
+  }
   // Etiquettes de graduation trop proches : seule la plus a droite est ecrite (le trait reste).
   graduations.forEach((g, i) => { const suiv = graduations[i + 1]; g.ecrite = !suiv || suiv.x - g.x >= 44; });
   return { largeur: L, hauteur, gauche: G, couloirs, graduations, bulles: bulles.map(({ rang, dy, ...b }) => b), liens };

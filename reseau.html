@@ -23,7 +23,7 @@ description: Graphe des relations documentées entre événements politiques de 
   {%- for l in C.liens %}<path class="lien-arcs" d="{{ l.d }}" stroke-width="{{ l.n | plus: 1 }}" aria-hidden="true"/>{%- endfor %}
   {%- for b in C.bulles %}
   <a href="{{ '/reseau/' | append: b.cle | append: '/' | relative_url }}" aria-label="Arc « {{ b.titre | escape }} », {{ b.taille }} événements"><title>{{ b.titre | escape }} — {{ b.taille }} événements</title>
-    <circle class="bulle" cx="{{ b.x }}" cy="{{ b.y }}" r="{{ b.r }}"/>{% if b.r >= 11 %}<text class="bulle__n" x="{{ b.x }}" y="{{ b.y | plus: 4 }}" aria-hidden="true">{{ b.taille }}</text>{% endif %}</a>
+    <circle class="bulle" cx="{{ b.x }}" cy="{{ b.y }}" r="{{ b.r }}"/>{% if b.r >= 11 %}<text class="bulle__n" x="{{ b.x }}" y="{{ b.y | plus: 4 }}" aria-hidden="true">{{ b.taille }}</text>{% endif %}{% if b.nom %}<text class="bulle__nom" x="{{ b.nx }}" y="{{ b.ny }}" text-anchor="{{ b.nancre }}" aria-hidden="true">{{ b.nom | escape }}</text>{% endif %}</a>
   {%- endfor %}
 </svg>
 </div>

@@ -7394,8 +7394,8 @@
  "liens_episode": 44,
  "seuil_decoupe": 25,
  "carte": {
-  "largeur": 1785,
-  "hauteur": 769.3,
+  "largeur": 1383,
+  "hauteur": 796.3,
   "gauche": 236,
   "couloirs": [
    {
@@ -7423,122 +7423,122 @@
     "serie": "SNW",
     "nom": "Strange New Worlds",
     "y": 187,
-    "h": 51.3,
+    "h": 60.300000000000004,
     "ty": 208.6
    },
    {
     "serie": "DIS",
     "nom": "Discovery, Academy, Short Treks",
-    "y": 238.3,
-    "h": 90.8,
-    "ty": 279.5
+    "y": 247.3,
+    "h": 99.80000000000001,
+    "ty": 297.5
    },
    {
     "serie": "TNG",
     "nom": "The Next Generation",
-    "y": 329.1,
+    "y": 347.1,
     "h": 70.9,
-    "ty": 356.3
+    "ty": 374.3
    },
    {
     "serie": "DS9",
     "nom": "Deep Space Nine",
-    "y": 400,
+    "y": 418,
     "h": 120.7,
-    "ty": 477
+    "ty": 495
    },
    {
     "serie": "VOY",
     "nom": "Voyager",
-    "y": 520.7,
+    "y": 538.7,
     "h": 60.300000000000004,
-    "ty": 542.3000000000001
+    "ty": 560.3000000000001
    },
    {
     "serie": "PIC",
     "nom": "Picard",
-    "y": 581,
+    "y": 599,
     "h": 63,
-    "ty": 616.5
+    "ty": 634.5
    },
    {
     "serie": "LD",
     "nom": "Lower Decks et Prodigy",
-    "y": 644,
-    "h": 101.30000000000001,
-    "ty": 704.7
+    "y": 662,
+    "h": 110.30000000000001,
+    "ty": 731.7
    }
   ],
   "graduations": [
    {
     "x": 236,
-    "w": 101,
+    "w": 75,
     "t": "Passé lointain",
     "ty": 17
    },
    {
-    "x": 337,
-    "w": 64,
+    "x": 311,
+    "w": 48,
     "t": "XXe s.",
-    "ty": 17
+    "ty": 31
    },
    {
-    "x": 401,
-    "w": 94,
+    "x": 359,
+    "w": 70,
     "t": "XXIe s.",
     "ty": 17
    },
    {
-    "x": 495,
-    "w": 64,
+    "x": 429,
+    "w": 48,
     "t": "XXIe–XXIIe s.",
     "ty": 17
    },
    {
-    "x": 559,
-    "w": 175,
+    "x": 477,
+    "w": 129,
     "t": "XXIIe s.",
     "ty": 31
    },
    {
-    "x": 734,
-    "w": 216,
+    "x": 606,
+    "w": 160,
     "t": "XXIIIe s.",
     "ty": 17
    },
    {
-    "x": 950,
-    "w": 76,
+    "x": 766,
+    "w": 57,
     "t": "XXIIIe–XXIVe s.",
     "ty": 17
    },
    {
-    "x": 1026,
-    "w": 331,
+    "x": 823,
+    "w": 244,
     "t": "XXIVe s.",
     "ty": 31
    },
    {
-    "x": 1357,
-    "w": 101,
+    "x": 1067,
+    "w": 75,
     "t": "XXVe s.",
     "ty": 17
    },
    {
-    "x": 1458,
-    "w": 64,
+    "x": 1142,
+    "w": 48,
     "t": "XXXIe s.",
     "ty": 17
    },
    {
-    "x": 1522,
-    "w": 175,
+    "x": 1190,
+    "w": 129,
     "t": "XXXIIe s.",
-    "ty": 17
+    "ty": 31
    },
    {
-    "x": 1697,
-    "w": 64,
+    "x": 1319,
+    "w": 48,
     "t": "non daté",
     "ty": 17
    }
@@ -7549,13 +7549,13 @@
     "titre": "Déclenchement de la guerre ouverte Fédération–Dominion",
     "taille": 24,
     "serie": "DS9",
-    "x": 1139,
+    "x": 906,
     "r": 30,
     "court": "Klingons, Khitomer et guerre du Dominion",
-    "y": 437,
+    "y": 455,
     "nom": "Klingons, Khitomer et guerre du Dominion",
-    "nx": 1103,
-    "ny": 441,
+    "nx": 870,
+    "ny": 459,
     "nancre": "end"
    },
    {
@@ -7563,13 +7563,13 @@
     "titre": "Attaque des synthétiques sur Mars et destruction des chantiers d'Utopia Planitia",
     "taille": 16,
     "serie": "PIC",
-    "x": 1267,
+    "x": 1001,
     "r": 24.5,
     "court": "Augments, Kelvin et supernova romulienne",
-    "y": 613,
+    "y": 631,
     "nom": "Augments, Kelvin et supernova romulienne",
-    "nx": 1237,
-    "ny": 617,
+    "nx": 971,
+    "ny": 635,
     "nancre": "end"
    },
    {
@@ -7577,13 +7577,13 @@
     "titre": "Le « Burn » détruit massivement les moteurs à dilithium et brise les liaisons galactiques",
     "taille": 14,
     "serie": "DIS",
-    "x": 1550,
+    "x": 1211,
     "r": 22.9,
     "court": "Burn et réunification vulcano-romulienne",
-    "y": 276,
+    "y": 294,
     "nom": "Burn et réunification vulcano-romulienne",
-    "nx": 1521,
-    "ny": 280,
+    "nx": 1182,
+    "ny": 298,
     "nancre": "end"
    },
    {
@@ -7591,12 +7591,12 @@
     "titre": "Guerre froide temporelle : factions du futur exploitant les Sulibans",
     "taille": 8,
     "serie": "ENT",
-    "x": 619,
+    "x": 521,
     "r": 17.3,
     "court": "Guerre froide temporelle et crise xindie",
     "y": 104,
     "nom": "Guerre froide temporelle et crise xindie",
-    "nx": 629,
+    "nx": 531,
     "ny": 83,
     "nancre": "start"
    },
@@ -7605,13 +7605,13 @@
     "titre": "Guerre Fédération–Empire klingon et atrocités contre des civils",
     "taille": 7,
     "serie": "DIS",
-    "x": 778,
+    "x": 638,
     "r": 16.2,
     "court": "Guerre Fédération–Klingons (2256–2257)",
-    "y": 276,
+    "y": 294,
     "nom": "Guerre Fédération–Klingons (2256–2257)",
-    "nx": 768,
-    "ny": 256,
+    "nx": 628,
+    "ny": 274,
     "nancre": "end"
    },
    {
@@ -7619,13 +7619,13 @@
     "titre": "Crise du mouvement maquisard dans la zone démilitarisée",
     "taille": 7,
     "serie": "TNG",
-    "x": 1102,
+    "x": 879,
     "r": 16.2,
     "court": "Maquis",
-    "y": 352,
+    "y": 370,
     "nom": "Maquis",
-    "nx": 1124,
-    "ny": 356,
+    "nx": 901,
+    "ny": 374,
     "nancre": "start"
    },
    {
@@ -7633,13 +7633,13 @@
     "titre": "Infiltration de Starfleet par les Changelings et complot avec les Borg",
     "taille": 6,
     "serie": "PIC",
-    "x": 1387,
+    "x": 1090,
     "r": 15,
     "court": "Borg et changelings infiltrés",
-    "y": 613,
+    "y": 631,
     "nom": "Borg et changelings infiltrés",
-    "nx": 1408,
-    "ny": 617,
+    "nx": 1111,
+    "ny": 635,
     "nancre": "start"
    },
    {
@@ -7647,13 +7647,13 @@
     "titre": "Occupation cardassienne de Bajor et exploitation de Terok Nor",
     "taille": 6,
     "serie": "DS9",
-    "x": 1061,
+    "x": 849,
     "r": 15,
     "court": "Occupation de Bajor",
-    "y": 473,
+    "y": 491,
     "nom": "Occupation de Bajor",
-    "nx": 1052,
-    "ny": 454,
+    "nx": 840,
+    "ny": 519,
     "nancre": "end"
    },
    {
@@ -7661,13 +7661,13 @@
     "titre": "Guerre civile klingonne et soutien clandestin romulien à la maison Duras",
     "taille": 5,
     "serie": "TNG",
-    "x": 1045,
+    "x": 837,
     "r": 13.7,
     "court": "Worf contre les Duras",
-    "y": 379,
+    "y": 397,
     "nom": "Worf contre les Duras",
-    "nx": 1025,
-    "ny": 383,
+    "nx": 817,
+    "ny": 401,
     "nancre": "end"
    },
    {
@@ -7675,13 +7675,13 @@
     "titre": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
     "taille": 5,
     "serie": "DS9",
-    "x": 1237,
+    "x": 979,
     "r": 13.7,
     "court": "Section 31 et fin de la guerre du Dominion",
-    "y": 500,
+    "y": 518,
     "nom": "Section 31 et fin de la guerre du Dominion",
-    "nx": 1257,
-    "ny": 504,
+    "nx": 999,
+    "ny": 522,
     "nancre": "start"
    },
    {
@@ -7689,13 +7689,13 @@
     "titre": "Projet du Diviner visant à anéantir Starfleet pour empêcher un premier contact fatal à sa planète",
     "taille": 5,
     "serie": "LD",
-    "x": 1308,
+    "x": 1031,
     "r": 13.7,
     "court": "Diviner et guerre de Solum",
-    "y": 665,
+    "y": 683,
     "nom": "Diviner et guerre de Solum",
-    "nx": 1328,
-    "ny": 669,
+    "nx": 1051,
+    "ny": 687,
     "nancre": "start"
    },
    {
@@ -7703,21 +7703,21 @@
     "titre": "Kirk plaide pour une réforme pacifique auprès de Spock Miroir",
     "taille": 5,
     "serie": "DS9",
-    "x": 924,
+    "x": 747,
     "r": 13.7,
     "court": "Univers Miroir",
-    "y": 473,
+    "y": 491,
     "nom": "Univers Miroir",
-    "nx": 944,
-    "ny": 477,
-    "nancre": "start"
+    "nx": 727,
+    "ny": 495,
+    "nancre": "end"
    },
    {
     "cle": "STP-033",
     "titre": "Conférence interplanétaire ouvrant la voie à la Coalition des planètes",
     "taille": 4,
     "serie": "ENT",
-    "x": 690,
+    "x": 574,
     "r": 12.2,
     "court": null,
     "y": 104
@@ -7727,17 +7727,17 @@
     "titre": "Prise de pouvoir de Control dans les services secrets de Section 31",
     "taille": 4,
     "serie": "DIS",
-    "x": 807,
+    "x": 660,
     "r": 12.2,
     "court": null,
-    "y": 258
+    "y": 267
    },
    {
     "cle": "STP-004",
     "titre": "Tentative des Kzinti de s'emparer d'une arme slaver pour une nouvelle guerre contre la Fédération",
     "taille": 3,
     "serie": "TOS",
-    "x": 527,
+    "x": 453,
     "r": 10.6,
     "court": null,
     "y": 58
@@ -7747,17 +7747,17 @@
     "titre": "Attentat contre l'ambassade humaine sur Vulcain et accusation des Syrrannites",
     "taille": 3,
     "serie": "ENT",
-    "x": 658,
+    "x": 550,
     "r": 10.6,
     "court": null,
-    "y": 104
+    "y": 122
    },
    {
     "cle": "STP-047",
     "titre": "Arrestation d’Una Chin-Riley après la révélation de son origine illyrienne",
     "taille": 3,
     "serie": "SNW",
-    "x": 848,
+    "x": 690,
     "r": 10.6,
     "court": null,
     "y": 205
@@ -7767,107 +7767,107 @@
     "titre": "Report de l’adhésion de Bajor à la Fédération demandé par l’Émissaire Sisko",
     "taille": 3,
     "serie": "DS9",
-    "x": 1183,
+    "x": 939,
     "r": 10.6,
     "court": null,
-    "y": 473
+    "y": 491
    },
    {
     "cle": "STP-159",
     "titre": "Réformes ferengies : émancipation économique des femmes et droits sociaux",
     "taille": 3,
     "serie": "DS9",
-    "x": 1247,
+    "x": 986,
     "r": 10.6,
     "court": null,
-    "y": 455
+    "y": 473
    },
    {
     "cle": "STP-162",
     "titre": "Promotion par le combat chez les Kazon-Ogla et projet de Culluh d'unir les sectes kazones grâce à la technologie de Voyager",
     "taille": 3,
     "serie": "VOY",
-    "x": 1153,
+    "x": 916,
     "r": 10.6,
     "court": null,
-    "y": 538
+    "y": 556
    },
    {
     "cle": "STP-176",
     "titre": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
     "taille": 3,
     "serie": "DIS",
-    "x": 795,
+    "x": 651,
     "r": 10.6,
     "court": null,
-    "y": 303
+    "y": 321
    },
    {
     "cle": "STP-184",
     "titre": "Négociation de fusion institutionnelle proposée par Osyraa à la Fédération",
     "taille": 3,
     "serie": "DIS",
-    "x": 1566,
+    "x": 1222,
     "r": 10.6,
     "court": null,
-    "y": 312
+    "y": 330
    },
    {
     "cle": "STP-188",
     "titre": "Débat institutionnel sur une attaque préventive contre l'espèce 10-C",
     "taille": 3,
     "serie": "DIS",
-    "x": 1598,
+    "x": 1246,
     "r": 10.6,
     "court": null,
-    "y": 276
+    "y": 312
    },
    {
     "cle": "STP-191",
     "titre": "Lutte successorale des Primarques breens autour de L'ak et Moll",
     "taille": 3,
     "serie": "DIS",
-    "x": 1621,
+    "x": 1263,
     "r": 10.6,
     "court": null,
-    "y": 285
+    "y": 294
    },
    {
     "cle": "STP-211",
     "titre": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour l'explosion d'une bombe sur la planète Pakled",
     "taille": 3,
     "serie": "LD",
-    "x": 1274,
+    "x": 1006,
     "r": 10.6,
     "court": null,
-    "y": 701
+    "y": 728
    },
    {
     "cle": "STP-213",
     "titre": "Reconfiguration des relations orioniennes avec Starfleet autour de Tendi",
     "taille": 3,
     "serie": "LD",
-    "x": 1288,
+    "x": 1016,
     "r": 10.6,
     "court": null,
-    "y": 728
+    "y": 755
    },
    {
     "cle": "STP-231",
     "titre": "Menace d’une chaîne de mines Omega-47 perturbant les voyages à distorsion",
     "taille": 3,
     "serie": "DIS",
-    "x": 1661,
+    "x": 1293,
     "r": 10.6,
     "court": null,
-    "y": 276
+    "y": 294
    },
    {
     "cle": "STP-001",
     "titre": "Guerre totale de l'Antiquité vulcaine puis doctrine de Surak",
     "taille": 2,
     "serie": "TOS",
-    "x": 307,
+    "x": 289,
     "r": 8.7,
     "court": null,
     "y": 58
@@ -7877,17 +7877,17 @@
     "titre": "Protection du projet de vol spatial de Renée Picard contre des manipulations politiques et temporelles",
     "taille": 2,
     "serie": "PIC",
-    "x": 413,
+    "x": 368,
     "r": 8.7,
     "court": null,
-    "y": 613
+    "y": 631
    },
    {
     "cle": "STP-012",
     "titre": "Premier contact humain–vulcain après le vol de Zefram Cochrane",
     "taille": 2,
     "serie": "Film",
-    "x": 483,
+    "x": 420,
     "r": 8.7,
     "court": null,
     "y": 163
@@ -7897,7 +7897,7 @@
     "titre": "Dissidence des V'tosh ka'tur à bord d'un navire vulcain et fusion mentale imposée à T'Pol",
     "taille": 2,
     "serie": "ENT",
-    "x": 579,
+    "x": 492,
     "r": 8.7,
     "court": null,
     "y": 104
@@ -7907,7 +7907,7 @@
     "titre": "Crise militaro-diplomatique entre Andoria et Vulcain autour de P'Jem",
     "taille": 2,
     "serie": "ENT",
-    "x": 587,
+    "x": 498,
     "r": 8.7,
     "court": null,
     "y": 131
@@ -7917,7 +7917,7 @@
     "titre": "Guerre Terre–Romulus et bataille finale de Cheron",
     "taille": 2,
     "serie": "TOS",
-    "x": 706,
+    "x": 585,
     "r": 8.7,
     "court": null,
     "y": 58
@@ -7927,7 +7927,7 @@
     "titre": "Coup d'État de Shinzon contre le Sénat romulien",
     "taille": 2,
     "serie": "Film",
-    "x": 1261,
+    "x": 996,
     "r": 8.7,
     "court": null,
     "y": 163
@@ -7937,77 +7937,77 @@
     "titre": "Audience déterminant si Data est propriété de Starfleet ou libre de refuser son démontage",
     "taille": 2,
     "serie": "TNG",
-    "x": 1028,
+    "x": 824,
     "r": 8.7,
     "court": null,
-    "y": 352
+    "y": 370
    },
    {
     "cle": "STP-124",
     "titre": "Crise autour de l’enseignement des Prophètes à bord de la station et ascension de Vedek Winn",
     "taille": 2,
     "serie": "DS9",
-    "x": 1075,
+    "x": 859,
     "r": 8.7,
     "court": null,
-    "y": 500
+    "y": 518
    },
    {
     "cle": "STP-133",
     "titre": "Enlèvement de Kira par l'Ordre obsidien et sort des orphelins cardassiens élevés par des Bajorans",
     "taille": 2,
     "serie": "DS9",
-    "x": 1109,
+    "x": 884,
     "r": 8.7,
     "court": null,
-    "y": 473
+    "y": 491
    },
    {
     "cle": "STP-134",
     "titre": "Rivalité politique Winn–Shakaar sur l'usage des matériels agricoles",
     "taille": 2,
     "serie": "DS9",
-    "x": 1122,
+    "x": 894,
     "r": 8.7,
     "court": null,
-    "y": 491
+    "y": 509
    },
    {
     "cle": "STP-154",
     "titre": "Gowron détourne les campagnes militaires pour affaiblir Martok",
     "taille": 2,
     "serie": "DS9",
-    "x": 1227,
+    "x": 971,
     "r": 8.7,
     "court": null,
-    "y": 473
+    "y": 491
    },
    {
     "cle": "STP-165",
     "titre": "Crise du droit politique des Q, interdiction d'assister au suicide",
     "taille": 2,
     "serie": "VOY",
-    "x": 1156,
+    "x": 919,
     "r": 8.7,
     "court": null,
-    "y": 565
+    "y": 583
    },
    {
     "cle": "STP-169",
     "titre": "Occupation de Voyager par les Hirogens, qui contraignent l’équipage à des simulations de chasse",
     "taille": 2,
     "serie": "VOY",
-    "x": 1213,
+    "x": 961,
     "r": 8.7,
     "court": null,
-    "y": 538
+    "y": 556
    },
    {
     "cle": "STP-177",
     "titre": "Répression anti-extraterrestres de l'Empire terrien et pouvoir autocratique de Georgiou",
     "taille": 2,
     "serie": "Film",
-    "x": 749,
+    "x": 617,
     "r": 8.7,
     "court": null,
     "y": 163
@@ -8017,47 +8017,47 @@
     "titre": "Exode ancien de dissidents de l’Empire terrien, découvert dans l’épave du ISS Enterprise en 3191",
     "taille": 2,
     "serie": "DIS",
-    "x": 969,
+    "x": 780,
     "r": 8.7,
     "court": null,
-    "y": 276
+    "y": 294
    },
    {
     "cle": "STP-219",
     "titre": "Captivité de mineurs extraterrestres dans les mines de Tars Lamora",
     "taille": 2,
     "serie": "LD",
-    "x": 1295,
+    "x": 1021,
     "r": 8.7,
     "court": null,
-    "y": 692
+    "y": 710
    },
    {
     "cle": "STP-225",
     "titre": "Ralliement de la jeune Asencia à la rébellion contre sa version future",
     "taille": 2,
     "serie": "LD",
-    "x": 1328,
+    "x": 1046,
     "r": 8.7,
     "court": null,
-    "y": 701
+    "y": 728
    },
    {
     "cle": "STP-266",
     "titre": "Saru subit la hiérarchie Kelpiens–Ba'ul et cherche une autre vie",
     "taille": 2,
     "serie": "DIS",
-    "x": 737,
+    "x": 608,
     "r": 8.7,
     "court": null,
-    "y": 276
+    "y": 294
    },
    {
     "cle": "STP-298",
     "titre": "Occupation militaire klingonne de Mat’aar XII et résistance locale",
     "taille": 2,
     "serie": "SNW",
-    "x": 930,
+    "x": 751,
     "r": 8.7,
     "court": null,
     "y": 205
@@ -8067,17 +8067,17 @@
     "titre": "Ordre de l’amiral Reeger de détruire Argus II",
     "taille": 2,
     "serie": "SNW",
-    "x": 941,
+    "x": 760,
     "r": 8.7,
     "court": null,
-    "y": 223
+    "y": 232
    },
    {
     "cle": "STP-302",
     "titre": "Guerre interplanétaire entre Martiens anciens et Dol’drm",
     "taille": 2,
     "serie": "SNW",
-    "x": 266,
+    "x": 259,
     "r": 8.7,
     "court": null,
     "y": 205
@@ -8088,7 +8088,7 @@
     "de": "STP-103",
     "vers": "STP-062",
     "n": 1,
-    "d": "M1102,352 Q1120.5,334 1139,437"
+    "d": "M879,370 Q892.5,352 906,455"
    }
   ]
  },

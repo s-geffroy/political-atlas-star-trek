@@ -63,8 +63,12 @@ Chaque push est une publication immediate et publique.
   publiee : `docs/` est exclu), validee avant d'etre integree.
 - Ne modifie jamais a la main un fichier genere : `_data/`, `_evenements/`,
   `atlas/*.md`, `analyses/STP-*.md`, `reseau/STP-*.md`, rapports de `docs/`,
-  registres `data/ids-publies.json` et `data/reseau-cles-publiees.json`
-  (liste dans le README).
+  registres `data/ids-publies.json` et `data/reseau-cles-publiees.json`,
+  releves reseau `data/archives.json` et `data/stardates.json` (liste dans le
+  README).
+- Une analyse redigee a la main (`analyses/*.html`) est du contenu publie :
+  brouillon soumis a l'utilisateur, sources numerotees, inscription dans
+  `data/analyses-redigees.json` (procedure 6 de `docs/procedures.md`).
 - Aucune **suppression** de page existante, aucune **refonte de structure**
   -- permaliens, categories, arborescence -- sans demande explicite. Une URL
   qui disparait laisse des liens morts partout ailleurs. Ici, deux registres

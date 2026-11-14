@@ -41,13 +41,24 @@ data/source/              CSV + Markdown du corpus, une paire par version ; jama
 data/corrections/         journaux V0.N.json : passage d'une version du corpus a la suivante
 data/doublons.json        doublons tranches (secondaire -> principale), sans suppression
 data/relations.json       relations documentees (cause, suite, meme arc), chacune sourcee
-data/archives.json        copies archivees des sources et statut HTTP (genere par scripts/sources.mjs)
-data/stardates.json       dates stellaires dites a l ecran (genere par scripts/stardates.mjs ; annee deduite a l affichage, ere TNG seulement)
 data/diffusion.json       dates de diffusion relevees, chacune avec sa source
+data/analyses-redigees.json  analyses redigees a la main (fiche, fichier, adresse) : voir docs/procedures.md, 6
 ```
 
-Les trois derniers fichiers sont des enrichissements hors corpus : les
+Doublons, relations et diffusion sont des enrichissements hors corpus : les
 modifier ne demande pas de nouvelle version du corpus.
+
+### Releves reseau (generes par un script, commites comme instantanes)
+
+```
+data/archives.json        copies archivees des sources et statut HTTP (scripts/sources.mjs)
+data/stardates.json       dates stellaires des journaux de bord (scripts/stardates.mjs ; annee deduite a l affichage, ere TNG seulement)
+```
+
+Ne pas les modifier a la main ; les relancer selon `docs/procedures.md`, 7.
+Un nouveau releve peut differer du precedent (sites modifies ou indisponibles) :
+le fichier commite est l'instantane de reference, et aucun des deux scripts
+n'efface une donnee deja retenue sur un echec reseau.
 
 ### Fichiers generes (ne pas modifier a la main)
 
@@ -56,13 +67,13 @@ Le prochain import ecrase toute modification manuelle.
 | Fichier | Produit par | Contenu |
 |---|---|---|
 | `_data/*.json` (sauf `qualite.json`) | `scripts/import.mjs` | donnees lues par les gabarits |
-| `_data/qualite.json` | `scripts/validate.mjs` | bilan des controles (date du jour) |
+| `_data/qualite.json` | `scripts/validate.mjs` | bilan des controles (date de la version du corpus) |
 | `_evenements/STP-*.md` | `scripts/import.mjs` | une page par entree |
 | `atlas/*.md` | `scripts/import.mjs` | une page par domaine (`atlas/index.html` est ecrit a la main) |
-| `analyses/STP-*.md` | `scripts/import.mjs` | une page par fiche approfondie (`analyses/index.html` et `emeutes-de-bell.html` sont ecrits a la main) |
+| `analyses/STP-*.md` | `scripts/import.mjs` | une page par fiche approfondie, sauf les analyses redigees a la main (`analyses/*.html`, liste dans `data/analyses-redigees.json`) ; `analyses/index.html` est ecrit a la main |
 | `reseau/STP-*.md` | `scripts/import.mjs` | une page par groupe du reseau, et une page de renvoi par adresse de groupe deja publiee qui n'est plus tete de groupe |
 | `docs/rapport-import.md` | `scripts/import.mjs` | rapport d'import |
-| `docs/rapport-qualite.md` | `scripts/validate.mjs` | rapport des 10 controles (date du jour) |
+| `docs/rapport-qualite.md` | `scripts/validate.mjs` | rapport des 10 controles (date de la version du corpus) |
 
 ### Registres (generes, ne font que grandir)
 

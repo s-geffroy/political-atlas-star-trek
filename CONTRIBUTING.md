@@ -42,6 +42,8 @@ transforme en nouvelle version, ecrite a cote des precedentes.
 | trancher un doublon | `data/doublons.json`, `data/relations.json`, puis un journal | `docs/procedures.md`, procedure 2 |
 | ajouter une relation | `data/relations.json` | `docs/procedures.md`, procedure 3 |
 | ajouter ou corriger une date de diffusion | `data/diffusion.json` | `docs/procedures.md`, procedure 4 |
+| publier une analyse redigee | `analyses/*.html`, `data/analyses-redigees.json` | `docs/procedures.md`, procedure 6 |
+| relancer les releves reseau (copies archivees, dates stellaires) | `data/archives.json`, `data/stardates.json` (generes) | `docs/procedures.md`, procedure 7 |
 | annuler une publication | -- (`git revert`) | `docs/procedures.md`, procedure 5 |
 
 Dans tous les cas :
@@ -55,8 +57,8 @@ git push           # publie le site
 
 Les fichiers generes (`_data/`, `_evenements/`, `atlas/*.md`,
 `analyses/STP-*.md`, `reseau/STP-*.md`, rapports de `docs/`, registres
-`data/ids-publies.json` et `data/reseau-cles-publiees.json`) ne se modifient
-pas a la main. La liste complete est dans le README.
+`data/ids-publies.json` et `data/reseau-cles-publiees.json`, releves reseau
+`data/archives.json` et `data/stardates.json`) ne se modifient pas a la main. La liste complete est dans le README.
 
 ## Modifier le site
 

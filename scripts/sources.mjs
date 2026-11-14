@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Copies archivees des sources (enrichissement hors corpus). Usage :
 //
+//   npm run import && npm run sources && npm run check
 //   node scripts/sources.mjs            # reprend les URL deja archivees, reinterroge les autres
-//   node scripts/sources.mjs --tout     # reinterroge toutes les URL
+//   node scripts/sources.mjs --tout     # reinterroge toutes les URL (statuts HTTP a jour ; copies jamais perdues)
 //
 // Pour chaque URL citee par le corpus (source de controle, sources des fiches),
 // les relations et les dates de diffusion :
@@ -94,7 +95,10 @@ async function main() {
     const a = await archive(url);
     await dormir(PAUSE);
     const v = await vivant(url);
-    sources[url] = { ...a, ...v, teste_le: new Date().toISOString().slice(0, 10) };
+    // Jamais de perte sur echec : une copie deja connue est gardee si le service ne repond pas
+    // ou ne la retrouve plus (la Wayback Machine ne supprime pas ses captures).
+    const garde = prec[url]?.archive && !a.archive ? { archive: prec[url].archive, archive_date: prec[url].archive_date } : a;
+    sources[url] = { ...garde, ...v, teste_le: new Date().toISOString().slice(0, 10) };
     process.stdout.write(`${n}/${urls.length} ${v.statut_http ?? v.erreur} ${a.archive ? 'archive' : a.archive === null ? 'SANS copie' : 'archive ?'} ${url}\n`);
     await dormir(PAUSE);
   }

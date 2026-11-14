@@ -35,7 +35,8 @@ Star Trek Political Atlas — licences
    code au sens de la section 1 :
    - le corpus et ses journaux : data/source/, data/corrections/ ;
    - les enrichissements : data/relations.json, data/diffusion.json,
-     data/doublons.json, et les registres de data/ ;
+     data/doublons.json, data/analyses-redigees.json, les releves
+     data/archives.json et data/stardates.json, et les registres de data/ ;
    - les donnees et pages generees : _data/, _evenements/, analyses/,
      atlas/, reseau/ ;
    - le journal des versions (_posts/) et les textes redactionnels des pages

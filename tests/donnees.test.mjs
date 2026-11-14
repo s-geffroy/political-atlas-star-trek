@@ -239,3 +239,15 @@ test('analyses redigees : une page par adresse, et chaque analyse inscrite a sa 
   }
   for (const a of lireAnalysesRedigees()) assert.equal(adresses.get(a.permalien), a.fichier.replace('analyses/', ''), a.id);
 });
+
+test('dates stellaires : seules les dates de journal de bord, confirmees sur une page d episode', async () => {
+  const { datesDeJournal, confirmee, pageEpisode, norm } = await import('../scripts/stardates.mjs');
+  assert.deepEqual(datesDeJournal("Captain's log, stardate 42523.7. Picard: it was stardate 43000.1 then. Stardate: 41000.0"), ['42523.7']);
+  assert.deepEqual(datesDeJournal('Personal log, supplemental, stardate 44001.4.'), ['44001.4']);
+  assert.ok(confirmee('42523.7', '|date = 42523.7-42527.4'));
+  assert.ok(!confirmee('4252.3', '|date = 42523.7'));
+  assert.ok(pageEpisode('{{sidebar episode\n|date = 1'));
+  assert.ok(!pageEpisode('{{disambiguation}} Unification may refer to'));
+  assert.equal(norm('Yesterday’s Enterprise'), norm("Yesterday's Enterprise"));
+  assert.equal(norm('Code of Honour'), norm('Code of Honor'));
+});

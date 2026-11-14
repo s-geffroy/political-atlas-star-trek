@@ -45,33 +45,26 @@ Doublons tranches : STP-294 -> STP-230, STP-296 -> STP-232 (relations reportees 
 
 Doublon tranche : STP-238 -> STP-176 (renversement de Georgiou par Lorca, univers Miroir) ; relation STP-288 reportee, STP-176 -> STP-238 retiree. 299 evenements distincts pour 305 entrees.
 
-## P1 -- reste a faire
+## Fait du 12 au 14 novembre 2026 (V0.12 a V0.21)
 
-- 52 entrees B sans source officielle exploitable : pages Paramount+ d'episode non verifiables, saison 4 de SNW et Starfleet Academy sans recapitulatif officiel a ce jour.
-- Score Lighthouse officiel a mesurer (https://pagespeed.web.dev/).
+- V0.12 a V0.17 : constats historiens, typographie, sources d'episode, SFA au XXXIIe siecle, diffusion de Past Tense.
+- V0.18 : dix periodes precisees d'apres l'ecran ; V0.19 : 51 entrees B portees a A sur les pages officielles d'episode ; V0.20 : Lignes de force 1970-1986 et 2006-2016, doublon STP-055 ; V0.21 : corrections de la revue du 14/11 (docs/revue-2026-11-14.md).
+- Copies archivees des sources (data/archives.json), dates stellaires des journaux de bord (data/stardates.json), cinq analyses redigees (data/analyses-redigees.json).
+- Garde-fous : verify (arbre propre, adresses publiees conservees, rapport de qualite), hook pre-push sur HEAD.
+- Etat : 259 A, 38 B, 1 C (298 evenements distincts) ; 165 relations, 98 evenements sans relation apres quatre passes.
 
-## P1 -- historique (avant V0.4)
+## Reste a faire
 
-3. Faire passer en A ou B les entrees de niveau C (262), en commencant par DS9 puis TNG, conformement a la priorite documentaire du corpus.
-4. Qualifier les 85 entrees « autre / a qualifier » : c'est la plus grosse lacune de l'atlas thematique.
-5. Ajouter au corpus des categories pour les domaines qui n'en ont pas (institutions, colonialisme/occupation, religion, technologie/IA). Aujourd'hui, seul un rapprochement lexical non valide les alimente.
-6. Rattacher les references sans sigle (« First Contact » dans STP-009, STP-011, STP-013) en corrigeant le champ `source`.
-7. Etendre `data/diffusion.json` aux episodes de toutes les entrees (68 sur 305 sont datees). Lever les divergences de dates de DS9 (syndication) a l'aide d'une source primaire.
-8. Ajouter une source de controle a la fiche STP-077.
-9. Score Lighthouse officiel non mesure : quota anonyme PageSpeed Insights epuise, conteneur Lighthouse refuse par le controle de securite de la session. A lancer depuis https://pagespeed.web.dev/ ou Chrome DevTools > Lighthouse. DOM de l'explorateur allege depuis (environ 790 elements).
+- Revue du 14/11, actions 6 et 7 : relire les 214 periodes en annee (erreurs relevees : STP-104, 106, 113, 165, 275, 162, 098, 225) et les intitules A au regard des 85 reserves de leurs notes.
+- Reseau : recalcul des arcs (arcs tenus par les seuls liens « episode commun », chaines coupees par le decoupage par serie) -- refonte de structure, accord requis ; etiquettes tronquees ; liens passant sous des boites.
+- 38 entrees B sans source officielle confirmant l'intitule entier (choix de ne pas reduire les intitules).
+- Interface : en-tete mobile trop haut ; style.css de Primer publie.
+- Score Lighthouse et Search Console : gestes de l'utilisateur.
+- Protection de main et des tags corpus-* (ruleset GitHub) : geste de l'utilisateur.
 
-## P2 -- fait (2026-11-10)
+## Evolutions possibles
 
-- 10. Analyses fiction / histoire : une page par fiche approfondie (/analyses/STP-NNN/), composee des volets de la fiche, des dates de diffusion sourcees et du paragraphe « Lignes de force » de la periode ; aucune analyse redigee.
-- 11. Graphiques comparatifs (/graphiques/) : categories x series, categories x decennie de diffusion (cartes de chaleur lisibles comme tableaux), niveaux par serie (barres empilees). Palette des niveaux A/B/C revalidee (luminosite, daltonisme, contraste) et appliquee a tout le site.
-
-- 13. Relations documentees : 60 relations orientees (22 causes, 28 suites, 10 meme arc), chacune etablie par la page citee, affichees sur 87 fiches (`data/relations.json`, proposition validee : `docs/proposition-relations.md`).
-
-## P2 -- evolutions
-
-10. Ecrire d'autres analyses fiction / histoire a partir des 31 fiches (Terra Prime, Leyton, Section 31, Data).
-11. Graphiques comparatifs : repartition des categories par serie et par decennie de diffusion.
-12. Visualisations geopolitiques : acteurs (Federation, Klingons, Romuliens, Cardassiens, Dominion...). Cela suppose d'ajouter au corpus un champ « acteurs », qui n'existe pas aujourd'hui.
-13. Relations : 161 relations apres trois passes (docs/proposition-relations-2.md, -3.md) ; 107 evenements examines sans relation etablie (resultat enregistre dans data/relations.json et affiche sur les fiches).
-14. Le cas echeant, migrer vers Astro avec le template `github-pages-ci`, par exemple pour une recherche plein texte indexee ou des pages par acteur.
-15. Domaine personnalise : saisir le domaine dans Settings > Pages, puis vider `baseurl`.
+- Autres analyses redigees (Praxis STP-077, J'naii STP-107, Satie STP-101, Una STP-048), une a la fois.
+- Visualisations par acteur (suppose un champ « acteurs » dans le corpus).
+- Migration eventuelle vers Astro avec le template `github-pages-ci`.
+- Domaine personnalise (Settings > Pages, puis vider `baseurl`).

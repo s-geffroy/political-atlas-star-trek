@@ -13,7 +13,8 @@ Prérequis communs :
 - ne jamais modifier à la main un fichier généré : `_data/`, `_evenements/`,
   `atlas/*.md`, `analyses/STP-*.md`, `reseau/STP-*.md`,
   `docs/rapport-import.md`, `docs/rapport-qualite.md`, `data/ids-publies.json`,
-  `data/reseau-cles-publiees.json`. Le prochain import écraserait la
+  `data/reseau-cles-publiees.json`, ni les relevés réseau `data/archives.json`
+  et `data/stardates.json`. Le prochain import ou relevé écraserait la
   modification. La liste complète est dans le README.
 
 Sommaire :
@@ -23,6 +24,8 @@ Sommaire :
 3. [Ajouter une relation documentée](#3-ajouter-une-relation-documentée)
 4. [Ajouter ou corriger une date de diffusion](#4-ajouter-ou-corriger-une-date-de-diffusion)
 5. [Revenir en arrière](#5-revenir-en-arrière)
+6. [Publier une analyse rédigée](#6-publier-une-analyse-rédigée)
+7. [Relancer les relevés réseau](#7-relancer-les-relevés-réseau)
 
 ---
 
@@ -42,8 +45,11 @@ validation. Le journal cite ensuite cette proposition dans `methode`.
    et le tag le plus haut :
 
    ```bash
-   ls data/source/ && git tag -l 'corpus-*'
+   ls -v data/source/ | tail -2 && git tag -l 'corpus-*' --sort=v:refname | tail -1
    ```
+
+   (Le tri numérique `-v` / `v:refname` est nécessaire : par ordre alphabétique,
+   V0.9 viendrait après V0.20.)
 
 2. **Écrire le journal** `data/corrections/V0.N.json`, où N est la version
    suivante, avec `base` égal au suffixe de la version courante. Le format est
@@ -78,7 +84,7 @@ validation. Le journal cite ensuite cette proposition dans `methode`.
    pour garder un retour arrière ciblé :
 
    ```bash
-   git add data/ _data/ _evenements/ atlas/ analyses/ reseau/ docs/rapport-import.md docs/rapport-qualite.md
+   git add data/ _data/ _evenements/ atlas/ analyses/ reseau/ _posts/ docs/rapport-import.md docs/rapport-qualite.md
    git status            # vérifier qu'aucun script ni gabarit n'est indexé
    git commit -m "Corpus V0.N : <objet>"
    ```
@@ -103,7 +109,8 @@ validation. Le journal cite ensuite cette proposition dans `methode`.
    git push origin corpus-v0.N
    ```
 
-10. **Écrire le billet du journal des versions** : `_posts/AAAA-MM-JJ-corpus-v0-N.md`
+10. **Écrire le billet du journal des versions** (de préférence avant l'étape 6,
+    pour qu'il parte dans le commit de la version) : `_posts/AAAA-MM-JJ-corpus-v0-N.md`
     (date du journal), front matter `layout: post`, `title: "Corpus V0.N : …"`,
     `date: AAAA-MM-JJ 00:NN:00 +0000` (l'heure `00:NN` = numéro de version,
     pour ordonner les billets d'un même jour), `categories: [corpus]`,
@@ -314,6 +321,15 @@ Exemple, deux parties d'un épisode cité sous un seul libellé :
 Règle : **jamais de `git push --force` sur `main`**. On annule par un nouveau
 commit, ce qui laisse l'erreur et sa correction dans l'historique.
 
+**Pour le corpus, corriger en avant.** Une version du corpus est une copie
+complète de la précédente plus ses corrections : annuler une version
+intermédiaire n'annule pas son contenu, que les versions suivantes contiennent
+déjà, et casse le test de rejeu des journaux. Une erreur de corpus se corrige
+par une version N+1. `git revert` est réservé au code et au dernier commit de
+données. `npm run verify` (et donc le hook) refuse tout envoi qui ferait
+disparaître une adresse déjà publiée par rapport à `origin/main` : registres,
+billets du journal, pages écrites à la main.
+
 ### Annuler un commit publié
 
 ```bash
@@ -365,3 +381,61 @@ de données postérieurs, pas déplacer `main` sur le tag. Une fois la version
 annulée, ne réutilisez pas son numéro : le tag existe déjà. La version
 suivante prend le numéro d'après, avec pour `base` la dernière version restée
 dans `data/source/`.
+
+---
+
+## 6. Publier une analyse rédigée
+
+Une analyse rédigée remplace, à la même adresse, l'analyse générée d'une fiche
+approfondie. C'est du contenu publié : elle suit la règle « données parfaites ».
+
+1. **Recherche et brouillon** : chaque affirmation factuelle a sa source lue
+   (URL, citation exacte) ; aucune intention d'auteur sans déclaration citée ;
+   le contexte de diffusion n'est relié à l'œuvre que si une source le fait.
+   Le brouillon est soumis à l'utilisateur avant publication.
+2. **Écrire la page** `analyses/<nom>.html` avec `layout: analyse-redigee`, et
+   en front matter `title` (avec le titre de l'épisode), `fil`, `nav: analyses`,
+   `permalink: /analyses/STP-NNN/` (**l'adresse déjà publiée** : elle ne change
+   pas), `date`, `last_modified_at`, `seo: { type: Article }`, `description`
+   (160 caractères au plus). Modèle : `analyses/data.html`.
+3. **Corps** : les cinq parties des autres analyses ; appels
+   `<a class="appel" href="#src-n">[n]</a>` ; liste finale
+   `<ol class="sources">` dont chaque élément porte `id="src-n"` ; chaque
+   source est appelée au moins une fois ; citations anglaises dans
+   `<span lang="en">…</span>` ; encadré « Ce que cette page n'affirme pas ».
+4. **Inscrire l'analyse** dans `data/analyses-redigees.json` (id, fichier,
+   permalien).
+5. `npm run check` : l'import retire la page générée `analyses/STP-NNN.md`
+   devenue inutile, et la validation vérifie que le fichier existe, porte
+   l'adresse inscrite et qu'aucune autre page n'a la même adresse.
+6. Construction locale (`sudo appctl run pages-build`, puis
+   `node scripts/check-links.mjs _site /political-atlas-star-trek`), commit,
+   `npm run verify`, `git push`. Si les volets de la fiche contredisent
+   l'analyse, une nouvelle version du corpus les aligne (procédure 1).
+
+## 7. Relancer les relevés réseau
+
+`data/archives.json` (copies archivées des sources) et `data/stardates.json`
+(dates stellaires des journaux de bord) sont produits par des scripts qui
+interrogent des sites tiers (web.archive.org, chakoteya.net, Memory Alpha).
+Ils ne font pas partie de `npm run check`. Le fichier commité est l'instantané
+de référence : un relevé n'est pas rejouable à l'identique.
+
+```bash
+npm run import           # le relevé lit les données générées à jour
+npm run sources          # nouvelles URL seulement ; --tout pour tout réinterroger
+npm run stardates        # épisodes sans date retenue ; --tout pour tout relever
+npm run check
+git diff --stat data/archives.json data/stardates.json   # relire les écarts
+git add data/archives.json data/stardates.json _data/
+git commit -m "Sources : relevé du AAAA-MM-JJ"
+npm run verify && git push
+```
+
+Garanties : User-Agent honnête, une requête par seconde environ, aucun
+contournement de blocage ; aucune copie archivée ni date stellaire déjà retenue
+n'est effacée sur un échec réseau (un retrait éventuel se fait à la main, avec
+un commit qui l'explique). Faire le relevé dans un commit à part, jamais dans le
+commit d'une version du corpus. Une date stellaire n'est retenue que si elle est
+prononcée dans un journal de bord (transcription) et figure sur la page de
+l'épisode de Memory Alpha.

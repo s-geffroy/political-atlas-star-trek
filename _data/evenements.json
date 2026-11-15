@@ -16571,8 +16571,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-winn-adami",
-  "note_audit": "V0.5 (2026-11-10) : recoupement A (source officielle) — L'article indique qu'au début de la saison 2 l'Alliance for Global Unity (le Cercle) tente de renverser le gouvernement provisoire bajoran, armée en sous-main par les Cardassiens, Winn changeant de camp une fois ce lien révélé. Source B précédente : https://startrekarchive.com/episodes/the-circle. V0.13 (2026-11-12) : période précisée — Memory Alpha situe « The Homecoming », « The Circle » et « The Siege » (DS9 saison 2) en 2370 ; aucune date stellaire n’est donnée à l’écran. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.5 (2026-11-10) : recoupement A (source officielle) — L'article indique qu'au début de la saison 2 l'Alliance for Global Unity (le Cercle) tente de renverser le gouvernement provisoire bajoran, armée en sous-main par les Cardassiens, Winn changeant de camp une fois ce lien révélé. Source B précédente : https://startrekarchive.com/episodes/the-circle. V0.13 (2026-11-12) : période précisée — Memory Alpha situe « The Homecoming », « The Circle » et « The Siege » (DS9 saison 2) en 2370 ; aucune date stellaire n’est donnée à l’écran. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.27 (2026-11-15) : fiche alignée sur l’analyse rédigée du 15 novembre 2026 — à l’écran, le Cercle est armé et non armeur : Odo rapporte un manifeste kressari portant « a Gul's thumbscan » ; « They don't know it is the Cardassians. They think they've been buying from Kressari traders » (« The Circle ») ; Jaro : « I am the Circle, Major » ; le général Krim commande l’armée ralliée ; Winn soutient Jaro, qui promet : « I'll direct the Vedek Assembly to elect you Kai » (« The Siege »). Contexte : la phrase sur « le cycle de conflits et de recompositions étatiques de l’après-guerre froide » n’avait pas de source ; aucune source consultée ne relie la trilogie à l’actualité de 1993.",
+  "version_entree": "V0.27 révisé",
   "categories": [
    "insurrection/pouvoir"
   ],
@@ -16634,6 +16634,15 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.27",
+    "date": "15 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 15 novembre 2026 — à l’écran, le Cercle est armé et non armeur : Odo rapporte un manifeste kressari portant « a Gul's thumbscan » ; « They don't know it is the Cardassians. They think they've been buying from Kressari traders » (« The Circle ») ; Jaro : « I am the Circle, Major » ; le général Krim commande l’armée ralliée ; Winn soutient Jaro, qui promet : « I'll direct the Vedek Assembly to elect you Kai » (« The Siege »). Contexte : la phrase sur « le cycle de conflits et de recompositions étatiques de l’après-guerre froide » n’avait pas de source ; aucune source consultée ne relie la trilogie à l’actualité de 1993."
+     }
+    ]
    }
   ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
@@ -16642,6 +16651,10 @@
    {
     "libelle": "Tentative de coup d'État du Cercle contre le gouvernement provisoire bajoran.",
     "motif": "période précisée — Memory Alpha situe « The Homecoming », « The Circle » et « The Siege » (DS9 saison 2) en 2370 ; aucune date stellaire n’est donnée à l’écran."
+   },
+   {
+    "libelle": "Tentative de coup d'État du Cercle contre le gouvernement provisoire bajoran.",
+    "motif": "fiche alignée sur l’analyse rédigée du 15 novembre 2026 — à l’écran, le Cercle est armé et non armeur : Odo rapporte un manifeste kressari portant « a Gul's thumbscan » ; « They don't know it is the Cardassians. They think they've been buying from Kressari traders » (« The Circle ») ; Jaro : « I am the Circle, Major » ; le général Krim commande l’armée ralliée ; Winn soutient Jaro, qui promet : « I'll direct the Vedek Assembly to elect you Kai » (« The Siege »). Contexte : la phrase sur « le cycle de conflits et de recompositions étatiques de l’après-guerre froide » n’avait pas de source ; aucune source consultée ne relie la trilogie à l’actualité de 1993."
    }
   ],
   "note_editoriale": null,

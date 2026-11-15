@@ -270,11 +270,11 @@
    "recoupement": "A — Éditorial officiel"
   },
   "volets": {
-   "faits": "Le Cercle, mouvement nationaliste bajoran, exploite la transition fragile après le retrait cardassien. Il arme une faction, chasse les étrangers et menace la station ; l’enquête découvre un soutien secret cardassien.",
-   "mecanisme": "Une force revendiquant la souveraineté nationale s’appuie matériellement sur l’ancienne puissance occupante. Le soutien extérieur peut dénaturer une revendication d’indépendance.",
+   "faits": "Le Cercle, mouvement nationaliste et xénophobe bajoran, exploite la transition fragile après le retrait cardassien. Dirigé en secret par le ministre Jaro Essa, avec l’appui de l’armée du général Krim et de la vedek Winn, il tente de renverser le gouvernement provisoire et d’expulser les non-Bajorans de la station. Ses armes viennent, à son insu, des Cardassiens, par l’intermédiaire de marchands kressari ; la preuve présentée devant la Chambre des ministres fait échouer le coup.",
+   "mecanisme": "Une force revendiquant la souveraineté nationale est armée, à son insu, par l’ancienne puissance occupante, qui compte revenir après le départ de la Fédération. Le soutien extérieur peut dénaturer une revendication d’indépendance.",
    "parallele": "Parallèles de mécanisme avec les transitions post-occupation, le financement extérieur de milices et les fractures internes des mouvements nationalistes.",
    "objections": "Nationalisme, résistance à l’occupation et extrémisme xénophobe ne sont pas synonymes ; le Cercle est une faction particulière du paysage bajoran.",
-   "contexte": "Diffusé en 1993 pendant le cycle de conflits et de recompositions étatiques de l’après-guerre froide."
+   "contexte": "Diffusé à l’automne 1993. Aucune source consultée ne relie la trilogie à un événement précis de l’actualité, et aucune déclaration d’auteur sur son propos politique n’a été lue."
   },
   "sources": [
    {
@@ -286,6 +286,16 @@
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
     "url": "https://www.startrek.com/en-un/news/everything-you-need-to-know-about-winn-adami",
     "archive": "https://web.archive.org/web/20260710103303/https://www.startrek.com/news/everything-you-need-to-know-about-winn-adami"
+   },
+   {
+    "libelle": "Source — Transcription de « The Circle » (chakoteya.net) (V0.27)",
+    "url": "http://www.chakoteya.net/DS9/422.htm",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Transcription de « The Siege » (chakoteya.net) (V0.27)",
+    "url": "http://www.chakoteya.net/DS9/423.htm",
+    "archive": null
    }
   ]
  },

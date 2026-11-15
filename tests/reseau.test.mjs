@@ -85,3 +85,9 @@ test('reseau : chaque arc tient par des relations documentees, sans arc d un seu
     assert.equal(vus.size, c.taille, `arc ${c.cle} : relie seulement par des liens « episode commun »`);
   }
 });
+
+test('reseau : chaque nom court de data/arcs-noms.json designe un arc existant', () => {
+  const { noms } = JSON.parse(fs.readFileSync(new URL('../data/arcs-noms.json', import.meta.url), 'utf8'));
+  const cles = new Set(R.composantes.map((c) => c.cle));
+  for (const [cle, nom] of Object.entries(noms)) assert.ok(cles.has(cle), `nom « ${nom} » : l'arc ${cle} n'existe plus (cle deplacee par un recalcul ?)`);
+});

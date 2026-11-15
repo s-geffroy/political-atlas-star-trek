@@ -1,0 +1,54 @@
+{
+ "version": "V0.26",
+ "date": "2026-11-15",
+ "date_longue": "15 novembre 2026",
+ "base": "V0_25_2026-11-15",
+ "titre": "Atlas politique de Star Trek — V0.26 : fiche de « In the Pale Moonlight » alignée sur l’écran",
+ "resume": "La fiche STP-149 (« In the Pale Moonlight ») est alignée sur l’analyse rédigée du 15 novembre 2026 : le commandement de Starfleet approuve le faux ; Sisko n’ordonne aucun des meurtres, que Garak commet à son insu ; Romulus n’est pas neutre mais non belligérant, lié au Dominion par un traité de non-agression ; le contexte de création donne l’origine de l’idée déclarée par le scénariste Michael Taylor.",
+ "methode": {
+  "revue": "analyse rédigée de STP-149, proposition validée le 2026-11-15 (docs/proposition-v026.md) ; citations contrôlées sur les pages."
+ },
+ "comptes": {
+  "corrections": 1
+ },
+ "corrections": [
+  {
+   "id": "STP-149",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Sisko collabore avec Garak pour produire une fausse preuve d’une menace du Dominion contre Romulus. L’assassinat du sénateur Vreenak, organisé par Garak, conduit les Romuliens à entrer en guerre.",
+     "apres": "Avec l’accord du commandement de Starfleet, Sisko fait fabriquer par Garak une fausse preuve d’un projet d’attaque du Dominion contre les Romuliens. Le sénateur Vreenak démasque le faux ; Garak le fait assassiner à l’insu de Sisko, et l’attentat, attribué au Dominion, conduit les Romuliens à entrer en guerre."
+    },
+    "mecanisme": {
+     "avant": "Le succès stratégique repose sur la falsification d’indices et la fabrication d’un consentement à la guerre chez un tiers jusque-là neutre.",
+     "apres": "Le succès stratégique repose sur la falsification d’indices, un assassinat maquillé et la fabrication d’un consentement à la guerre chez un tiers jusque-là non belligérant, lié au Dominion par un traité de non-agression."
+    },
+    "objections": {
+     "avant": "Sisko n’ordonne pas explicitement chacun des meurtres et l’épisode ne donne pas d’accès à la décision politique romulienne complète. Le caractère efficace de la ruse n’en prouve pas la légitimité.",
+     "apres": "Sisko n’ordonne aucun des meurtres, que Garak commet à son insu, et l’épisode ne donne pas accès à la décision politique romulienne. Le caractère efficace de la ruse n’en prouve pas la légitimité."
+    },
+    "contexte": {
+     "avant": "Diffusion 1998 ; éviter les lectures qui prétendent qu’il a été écrit en réponse à une guerre survenue après 1998.",
+     "apres": "Diffusion en avril 1998. Selon le scénariste Michael Taylor (2023), l’idée du faux est née d’une variation sur le télégramme Zimmermann de 1917 ; Ronald D. Moore dit avoir récrit le scénario sans être crédité (1998). Éviter les lectures qui prétendent qu’il a été écrit en réponse à une guerre survenue après 1998."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de l’épisode (chakoteya.net)",
+     "url": "http://www.chakoteya.net/DS9/543.htm"
+    },
+    {
+     "libelle": "Source — The Hollywood Reporter — entretiens avec Ronald D. Moore et Michael Taylor (19 avril 2023)",
+     "url": "https://www.hollywoodreporter.com/tv/tv-features/star-trek-deep-space-nine-controversial-episode-1235373801/"
+    },
+    {
+     "libelle": "Source — Ronald D. Moore, message AOL du 13 avril 1998 (copie Memory Alpha archivée)",
+     "url": "http://web.archive.org/web/20230720040419/https://memory-alpha.fandom.com/wiki/Memory_Alpha:AOL_chats/Ronald_D._Moore/ron100.txt"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 15 novembre 2026 — à l’écran, le commandement approuve le faux (Sisko : « Starfleet Command had given the plan their blessing ») ; Sisko n’ordonne aucun des meurtres : il apprend la mort de Vreenak par Worf et celle de Tolar par Garak (la source de contrôle le dit aussi : « Sisko did not directly authorize Garak’s assassination of Senator Vreenak or the murder of Grathon Tolar ») ; Romulus a avec le Dominion « a treaty of non-aggression and friendship ». Contexte : Michael Taylor, The Hollywood Reporter (2023) : « What if this message was faked to get us into the war? » à propos du télégramme Zimmermann ; Ronald D. Moore, AOL (13 avril 1998) : « I did a fairly significant re-write on Mike Taylor's script »."
+  }
+ ]
+}

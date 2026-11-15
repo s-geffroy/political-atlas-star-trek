@@ -344,17 +344,32 @@
    "recoupement": "A — Éditorial officiel"
   },
   "volets": {
-   "faits": "Sisko collabore avec Garak pour produire une fausse preuve d’une menace du Dominion contre Romulus. L’assassinat du sénateur Vreenak, organisé par Garak, conduit les Romuliens à entrer en guerre.",
-   "mecanisme": "Le succès stratégique repose sur la falsification d’indices et la fabrication d’un consentement à la guerre chez un tiers jusque-là neutre.",
+   "faits": "Avec l’accord du commandement de Starfleet, Sisko fait fabriquer par Garak une fausse preuve d’un projet d’attaque du Dominion contre les Romuliens. Le sénateur Vreenak démasque le faux ; Garak le fait assassiner à l’insu de Sisko, et l’attentat, attribué au Dominion, conduit les Romuliens à entrer en guerre.",
+   "mecanisme": "Le succès stratégique repose sur la falsification d’indices, un assassinat maquillé et la fabrication d’un consentement à la guerre chez un tiers jusque-là non belligérant, lié au Dominion par un traité de non-agression.",
    "parallele": "Cas d’école pour l’étude de la désinformation d’État, de la raison d’État et des normes du consentement à la guerre.",
-   "objections": "Sisko n’ordonne pas explicitement chacun des meurtres et l’épisode ne donne pas d’accès à la décision politique romulienne complète. Le caractère efficace de la ruse n’en prouve pas la légitimité.",
-   "contexte": "Diffusion 1998 ; éviter les lectures qui prétendent qu’il a été écrit en réponse à une guerre survenue après 1998."
+   "objections": "Sisko n’ordonne aucun des meurtres, que Garak commet à son insu, et l’épisode ne donne pas accès à la décision politique romulienne. Le caractère efficace de la ruse n’en prouve pas la légitimité.",
+   "contexte": "Diffusion en avril 1998. Selon le scénariste Michael Taylor (2023), l’idée du faux est née d’une variation sur le télégramme Zimmermann de 1917 ; Ronald D. Moore dit avoir récrit le scénario sans être crédité (1998). Éviter les lectures qui prétendent qu’il a été écrit en réponse à une guerre survenue après 1998."
   },
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://www.startrek.com/news/this-classic-ds9-episode-tackles-the-finer-points-of-morality",
     "archive": "https://web.archive.org/web/20260612175323/https://www.startrek.com/news/this-classic-ds9-episode-tackles-the-finer-points-of-morality"
+   },
+   {
+    "libelle": "Source — Transcription de l’épisode (chakoteya.net) (V0.26)",
+    "url": "http://www.chakoteya.net/DS9/543.htm",
+    "archive": null
+   },
+   {
+    "libelle": "Source — The Hollywood Reporter — entretiens avec Ronald D. Moore et Michael Taylor (19 avril 2023) (V0.26)",
+    "url": "https://www.hollywoodreporter.com/tv/tv-features/star-trek-deep-space-nine-controversial-episode-1235373801/",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Ronald D. Moore, message AOL du 13 avril 1998 (copie Memory Alpha archivée) (V0.26)",
+    "url": "http://web.archive.org/web/20230720040419/https://memory-alpha.fandom.com/wiki/Memory_Alpha:AOL_chats/Ronald_D._Moore/ron100.txt",
+    "archive": null
    }
   ]
  },

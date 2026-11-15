@@ -60,7 +60,7 @@ Doublon tranche : STP-238 -> STP-176 (renversement de Georgiou par Lorca, univer
 - 38 entrees B sans source officielle confirmant l'intitule entier (choix de ne pas reduire les intitules).
 - Interface : en-tete mobile trop haut ; style.css de Primer publie.
 - Score Lighthouse et Search Console : gestes de l'utilisateur.
-- Protection de main et des tags corpus-* (ruleset GitHub) : geste de l'utilisateur.
+- Protection de main et des tags corpus-* (ruleset GitHub) : ecartee par l'utilisateur le 2026-11-15 (mainteneur unique ; le hook pre-push reste la seule garde).
 
 ## Evolutions possibles
 

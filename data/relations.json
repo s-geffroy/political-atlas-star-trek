@@ -1,10 +1,10 @@
 {
  "_lisez_moi": [
-  "Relations documentees entre evenements (enrichissement hors corpus) : 60 validees le 2026-11-10 (docs/proposition-relations.md), 82 ajoutees le meme jour (docs/proposition-relations-2.md), 21 en troisieme passe (docs/proposition-relations-3.md). 6 en quatrieme passe le 2026-11-13 (docs/proposition-relations-4.md).",
+  "Relations documentees entre evenements (enrichissement hors corpus) : 60 validees le 2026-11-10 (docs/proposition-relations.md), 82 ajoutees le meme jour (docs/proposition-relations-2.md), 21 en troisieme passe (docs/proposition-relations-3.md). 6 en quatrieme passe le 2026-11-13 (docs/proposition-relations-4.md). 8 en cinquieme passe le 2026-11-15 (docs/proposition-relations-5.md ; pages Memory Alpha lues dans leurs copies web.archive.org).",
   "Types : cause (de est presente par la source comme une cause de vers), suite (vers prolonge directement l intrigue de de), meme_arc (meme arc narratif ou conflit nomme par la source).",
   "Chaque relation cite la page qui l etablit explicitement. Deux evenements d un meme episode ne sont relies que si la source etablit un enchainement entre eux.",
   "Doublons tranches le 2026-11-10 (STP-294, STP-296) : les relations qui les visaient sont reportees sur l entree principale ou retirees si elles y existaient deja.",
-  "examinees_sans_relation : evenements pour lesquels quatre passes de recherche n ont trouve aucune relation etablie par une source (resultat, non oubli).",
+  "examinees_sans_relation : evenements pour lesquels cinq passes de recherche n ont trouve aucune relation etablie par une source (resultat, non oubli).",
   "Doublon tranche le 2026-11-14 (STP-007 -> STP-203) : la relation meme_arc STP-007 -> STP-203 est retiree, les deux entrees decrivant le meme fait."
  ],
  "relations": [
@@ -1164,15 +1164,70 @@
    "type": "cause",
    "url": "https://memory-alpha.fandom.com/wiki/Kids_These_Days_(episode)",
    "justification": "Narration de Nahla Ake à l’écran : « Then, one day, fate handed us an unimaginable loss. The Burn. And it all went away. » ; la nouvelle promotion est « the first new Starfleet Academy class in San Francisco in over a century »."
+  },
+  {
+   "de": "STP-060",
+   "vers": "STP-062",
+   "type": "meme_arc",
+   "url": "https://memory-alpha.fandom.com/wiki/Human-Klingon_history",
+   "justification": "Memory Alpha (histoire des relations Humains–Klingons) range Neural et Organia parmi les régions disputées d'un même conflit nommé, la guerre froide Fédération–Klingons : « The Federation-Klingon Cold War escalated around 2223 and lasted almost seventy years. » ; « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+  },
+  {
+   "de": "STP-065",
+   "vers": "STP-062",
+   "type": "meme_arc",
+   "url": "https://memory-alpha.fandom.com/wiki/Capella_IV",
+   "justification": "Memory Alpha (Capella IV) : « In 2267, the planet served as a pawn in the Federation-Klingon Cold War, during a trade dispute between the Klingons and the Federation over topaline mining rights. » La page Human-Klingon history range Capella IV et Organia parmi les régions disputées de cette même guerre froide : « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+  },
+  {
+   "de": "STP-010",
+   "vers": "STP-034",
+   "type": "cause",
+   "url": "https://memory-alpha.fandom.com/wiki/Phillip_Green",
+   "justification": "Memory Alpha (Phillip Green) : « John Frederick Paxton made use of his ideologies to lead a group known as Terra Prime in an unsuccessful bid to expel all non-Humans from the Sol system in 2155. » L'idéologie de Green est présentée comme le fondement de Terra Prime."
+  },
+  {
+   "de": "STP-113",
+   "vers": "STP-114",
+   "type": "meme_arc",
+   "url": "https://memory-alpha.fandom.com/wiki/Federation-Cardassian_Treaty",
+   "justification": "Memory Alpha (traité Fédération–Cardassie) : le traité de 2370 « was supposed to be the final end to the hostilities of the Federation-Cardassian War » ; parmi les violations de l'armistice qui le précède : « In 2367, Benjamin Maxwell attempted to expose the fact that the Cardassians were undermining the peace accord with secret military bases and troop movements. » Même conflit nommé, sans lien de cause."
+  },
+  {
+   "de": "STP-168",
+   "vers": "STP-098",
+   "type": "meme_arc",
+   "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+   "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » L'article y range Wolf 359 (« Using Picard's tactical knowledge, the Borg cube engaged Starfleet in the Battle of Wolf 359 ») et l'alliance de « Scorpion » (« the Borg accepted the deal and formed an unprecedented alliance with the Federation against their common enemy »)."
+  },
+  {
+   "de": "STP-174",
+   "vers": "STP-098",
+   "type": "meme_arc",
+   "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+   "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » L'article y range Wolf 359 et la section « Unimatrix Zero », dont les drones libérés vont « make up the resistance movement against the Borg »."
+  },
+  {
+   "de": "STP-280",
+   "vers": "STP-098",
+   "type": "meme_arc",
+   "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+   "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » L'article y range Wolf 359 et, dans la section « Hugh and Lore », le projet d'arme : « Picard saw this as an opportunity to destroy the Borg once and for all »."
+  },
+  {
+   "de": "STP-204",
+   "vers": "STP-207",
+   "type": "meme_arc",
+   "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+   "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » Section « Peace time » : « Jurati's Collective were granted provisional membership in the Federation to watch over the transwarp conduit » ; section « Final end of the Collective » : Frontier Day, « bringing a final end to the Borg threat »."
   }
  ],
  "examinees_sans_relation": {
-  "date": "2026-11-13",
-  "passes": 4,
+  "date": "2026-11-15",
+  "passes": 5,
   "ids": [
    "STP-003",
    "STP-006",
-   "STP-010",
    "STP-013",
    "STP-017",
    "STP-020",
@@ -1184,11 +1239,9 @@
    "STP-057",
    "STP-058",
    "STP-059",
-   "STP-060",
    "STP-061",
    "STP-063",
    "STP-064",
-   "STP-065",
    "STP-066",
    "STP-067",
    "STP-068",
@@ -1216,7 +1269,6 @@
    "STP-110",
    "STP-111",
    "STP-112",
-   "STP-113",
    "STP-116",
    "STP-118",
    "STP-119",
@@ -1226,14 +1278,11 @@
    "STP-152",
    "STP-164",
    "STP-167",
-   "STP-168",
    "STP-170",
    "STP-171",
    "STP-172",
    "STP-173",
-   "STP-174",
    "STP-175",
-   "STP-204",
    "STP-209",
    "STP-210",
    "STP-215",
@@ -1263,7 +1312,6 @@
    "STP-271",
    "STP-275",
    "STP-279",
-   "STP-280",
    "STP-282",
    "STP-283",
    "STP-285",

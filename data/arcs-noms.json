@@ -1,10 +1,10 @@
 {
  "_lisez_moi": [
   "Noms courts des principaux arcs du reseau, affiches sur la carte des arcs (/reseau/). Cle = identifiant de l'arc (plus petit identifiant de ses evenements).",
-  "Ce sont des libelles de navigation rediges d'apres les intitules des evenements de l'arc, pas des donnees du corpus. Un arc dont la cle disparait apres un recalcul n'a plus de nom court (avertissement de la validation)."
+  "Ce sont des libelles de navigation rediges d'apres les intitules des evenements de l'arc, pas des donnees du corpus. Si un recalcul deplace la cle d'un arc, le test « nom court » de tests/reseau.test.mjs echoue : reporter le nom sur la nouvelle cle."
  ],
  "noms": {
-  "STP-062": "Klingons, Khitomer et guerre du Dominion",
+  "STP-060": "Klingons, Khitomer et guerre du Dominion",
   "STP-005": "Augments, Kelvin et supernova romulienne",
   "STP-105": "Burn et réunification vulcano-romulienne",
   "STP-016": "Guerre froide temporelle et crise xindie",
@@ -15,6 +15,7 @@
   "STP-080": "Worf contre les Duras",
   "STP-153": "Section 31 et fin de la guerre du Dominion",
   "STP-221": "Diviner et guerre de Solum",
-  "STP-233": "Univers Miroir"
+  "STP-233": "Univers Miroir",
+  "STP-010": "Terra Prime et fondation de la Fédération"
  }
 }

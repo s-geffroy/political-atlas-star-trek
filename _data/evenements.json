@@ -452,8 +452,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 4,
   "bande": "Passé lointain",
@@ -953,8 +953,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 10,
   "bande": "XXIe siècle",
@@ -1466,10 +1466,18 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-034",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Phillip_Green",
+     "url_complementaire": null,
+     "justification": "Memory Alpha (Phillip Green) : « John Frederick Paxton made use of his ideologies to lead a group known as Terra Prime in an unsuccessful bid to expel all non-Humans from the Sol system in 2155. » L'idéologie de Green est présentée comme le fondement de Terra Prime."
+    }
+   ],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": null,
+   "passes": null
   },
   "rang_diegetique": 16,
   "bande": "XXIe siècle",
@@ -1935,8 +1943,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 47,
   "bande": "XXIIe siècle",
@@ -2467,8 +2475,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 19,
   "bande": "XXIIe siècle",
@@ -2904,8 +2912,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 22,
   "bande": "XXIIe siècle",
@@ -3122,8 +3130,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 25,
   "bande": "XXIIe siècle",
@@ -3450,8 +3458,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 28,
   "bande": "XXIIe siècle",
@@ -4595,7 +4603,15 @@
      "justification": "Résumé de « Demons » : « A xenophobic faction of humanity threatens to undermine talks to form a new coalition of planets. » Terra Prime et la conférence forment l'intrigue du diptyque Demons / Terra Prime."
     }
    ],
-   "entrantes": [],
+   "entrantes": [
+    {
+     "id": "STP-010",
+     "type": "cause",
+     "url": "https://memory-alpha.fandom.com/wiki/Phillip_Green",
+     "url_complementaire": null,
+     "justification": "Memory Alpha (Phillip Green) : « John Frederick Paxton made use of his ideologies to lead a group known as Terra Prime in an unsuccessful bid to expel all non-Humans from the Sol system in 2155. » L'idéologie de Green est présentée comme le fondement de Terra Prime."
+    }
+   ],
    "examinee_le": null,
    "passes": null
   },
@@ -6576,8 +6592,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 69,
   "bande": "XXIIIe siècle",
@@ -6867,8 +6883,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 71,
   "bande": "XXIIIe siècle",
@@ -7514,8 +7530,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 76,
   "bande": "XXIIIe siècle",
@@ -7631,8 +7647,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 77,
   "bande": "XXIIIe siècle",
@@ -7748,8 +7764,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 78,
   "bande": "XXIIIe siècle",
@@ -7846,8 +7862,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 79,
   "bande": "XXIIIe siècle",
@@ -7941,10 +7957,18 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-062",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Human-Klingon_history",
+     "url_complementaire": null,
+     "justification": "Memory Alpha (histoire des relations Humains–Klingons) range Neural et Organia parmi les régions disputées d'un même conflit nommé, la guerre froide Fédération–Klingons : « The Federation-Klingon Cold War escalated around 2223 and lasted almost seventy years. » ; « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+    }
+   ],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": null,
+   "passes": null
   },
   "rang_diegetique": 80,
   "bande": "XXIIIe siècle",
@@ -8054,8 +8078,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 81,
   "bande": "XXIIIe siècle",
@@ -8179,7 +8203,22 @@
      "justification": "Selon Memory Alpha, le traité d'Organia imposé par les Organiens en 2267 (TOS « Errand of Mercy ») « was eventually superseded by the Khitomer Accords of 2293, which bore out the Organians having predicted that the Klingons and the Federation would one day become friends » (Star Trek VI). Les accords de Khitomer remplacent donc explicitement la paix imposée à Organia."
     }
    ],
-   "entrantes": [],
+   "entrantes": [
+    {
+     "id": "STP-060",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Human-Klingon_history",
+     "url_complementaire": null,
+     "justification": "Memory Alpha (histoire des relations Humains–Klingons) range Neural et Organia parmi les régions disputées d'un même conflit nommé, la guerre froide Fédération–Klingons : « The Federation-Klingon Cold War escalated around 2223 and lasted almost seventy years. » ; « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+    },
+    {
+     "id": "STP-065",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Capella_IV",
+     "url_complementaire": null,
+     "justification": "Memory Alpha (Capella IV) : « In 2267, the planet served as a pawn in the Federation-Klingon Cold War, during a trade dispute between the Klingons and the Federation over topaline mining rights. » La page Human-Klingon history range Capella IV et Organia parmi les régions disputées de cette même guerre froide : « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+    }
+   ],
    "examinee_le": null,
    "passes": null
   },
@@ -8278,8 +8317,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 83,
   "bande": "XXIIIe siècle",
@@ -8412,8 +8451,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 84,
   "bande": "XXIIIe siècle",
@@ -8562,10 +8601,18 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-062",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Capella_IV",
+     "url_complementaire": null,
+     "justification": "Memory Alpha (Capella IV) : « In 2267, the planet served as a pawn in the Federation-Klingon Cold War, during a trade dispute between the Klingons and the Federation over topaline mining rights. » La page Human-Klingon history range Capella IV et Organia parmi les régions disputées de cette même guerre froide : « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+    }
+   ],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": null,
+   "passes": null
   },
   "rang_diegetique": 85,
   "bande": "XXIIIe siècle",
@@ -8686,8 +8733,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 86,
   "bande": "XXIIIe siècle",
@@ -8783,8 +8830,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 87,
   "bande": "XXIIIe siècle",
@@ -8934,8 +8981,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 88,
   "bande": "XXIIIe siècle",
@@ -9051,8 +9098,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 89,
   "bande": "XXIIIe siècle",
@@ -9202,8 +9249,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 90,
   "bande": "XXIIIe siècle",
@@ -9340,8 +9387,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 91,
   "bande": "XXIIIe siècle",
@@ -9586,8 +9633,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 101,
   "bande": "XXIIIe siècle",
@@ -9854,8 +9901,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 103,
   "bande": "XXIIIe siècle",
@@ -9988,8 +10035,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 104,
   "bande": "XXIIIe siècle",
@@ -10740,8 +10787,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 217,
   "bande": "XXIVe siècle",
@@ -11366,8 +11413,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 99,
   "bande": "XXIIIe siècle",
@@ -11464,8 +11511,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 119,
   "bande": "XXIVe siècle",
@@ -11601,8 +11648,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 120,
   "bande": "XXIVe siècle",
@@ -11753,8 +11800,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 121,
   "bande": "XXIVe siècle",
@@ -11873,8 +11920,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 122,
   "bande": "XXIVe siècle",
@@ -11993,8 +12040,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 123,
   "bande": "XXIVe siècle",
@@ -12227,8 +12274,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 127,
   "bande": "XXIVe siècle",
@@ -12372,8 +12419,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 128,
   "bande": "XXIVe siècle",
@@ -12637,7 +12684,29 @@
      "justification": "Résumé de « Võx » : « Picard's supposed Irumodic Syndrome was actually undetected, organic Borg technology from his time as Locutus ». Les Changelings l'ont copiée « into Starfleet's transporter systems » pour « infect officers under the age of 25 ». La Reine borg s'en sert ensuite le jour de Frontier Day. L'assimilation de Picard en 2366 est donc la condition de l'assimilation de masse."
     }
    ],
-   "entrantes": [],
+   "entrantes": [
+    {
+     "id": "STP-168",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+     "url_complementaire": null,
+     "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » L'article y range Wolf 359 (« Using Picard's tactical knowledge, the Borg cube engaged Starfleet in the Battle of Wolf 359 ») et l'alliance de « Scorpion » (« the Borg accepted the deal and formed an unprecedented alliance with the Federation against their common enemy »)."
+    },
+    {
+     "id": "STP-174",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+     "url_complementaire": null,
+     "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » L'article y range Wolf 359 et la section « Unimatrix Zero », dont les drones libérés vont « make up the resistance movement against the Borg »."
+    },
+    {
+     "id": "STP-280",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+     "url_complementaire": null,
+     "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » L'article y range Wolf 359 et, dans la section « Hugh and Lore », le projet d'arme : « Picard saw this as an opportunity to destroy the Borg once and for all »."
+    }
+   ],
    "examinee_le": null,
    "passes": null
   },
@@ -12831,8 +12900,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 131,
   "bande": "XXIVe siècle",
@@ -13036,8 +13105,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 138,
   "bande": "XXIVe siècle",
@@ -13469,8 +13538,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 132,
   "bande": "XXIVe siècle",
@@ -13859,8 +13928,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 144,
   "bande": "XXIVe siècle",
@@ -13983,8 +14052,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 140,
   "bande": "XXIVe siècle",
@@ -14102,8 +14171,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 124,
   "bande": "XXIVe siècle",
@@ -14207,8 +14276,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 152,
   "bande": "XXIVe siècle",
@@ -14328,8 +14397,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 153,
   "bande": "XXIVe siècle",
@@ -14470,8 +14539,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 133,
   "bande": "XXIVe siècle",
@@ -14596,10 +14665,18 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-114",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Federation-Cardassian_Treaty",
+     "url_complementaire": null,
+     "justification": "Memory Alpha (traité Fédération–Cardassie) : le traité de 2370 « was supposed to be the final end to the hostilities of the Federation-Cardassian War » ; parmi les violations de l'armistice qui le précède : « In 2367, Benjamin Maxwell attempted to expose the fact that the Cardassians were undermining the peace accord with secret military bases and troop movements. » Même conflit nommé, sans lien de cause."
+    }
+   ],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": null,
+   "passes": null
   },
   "rang_diegetique": 141,
   "bande": "XXIVe siècle",
@@ -14748,7 +14825,15 @@
      "justification": "Selon la page, l'épisode de TNG « Journey's End », diffusé un mois plus tôt, met en place la situation des colons de la nouvelle zone démilitarisée. Ces colons ne sont pas obligés de quitter les mondes annexés par Cardassia, et le diptyque de DS9 en tire la crise maquisarde."
     }
    ],
-   "entrantes": [],
+   "entrantes": [
+    {
+     "id": "STP-113",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Federation-Cardassian_Treaty",
+     "url_complementaire": null,
+     "justification": "Memory Alpha (traité Fédération–Cardassie) : le traité de 2370 « was supposed to be the final end to the hostilities of the Federation-Cardassian War » ; parmi les violations de l'armistice qui le précède : « In 2367, Benjamin Maxwell attempted to expose the fact that the Cardassians were undermining the peace accord with secret military bases and troop movements. » Même conflit nommé, sans lien de cause."
+    }
+   ],
    "examinee_le": null,
    "passes": null
   },
@@ -15093,8 +15178,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 164,
   "bande": "XXIVe siècle",
@@ -15317,8 +15402,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 165,
   "bande": "XXIVe siècle",
@@ -15441,8 +15526,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 142,
   "bande": "XXIVe siècle",
@@ -16918,8 +17003,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 181,
   "bande": "XXIVe siècle",
@@ -17015,8 +17100,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 175,
   "bande": "XXIVe siècle",
@@ -17133,8 +17218,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 176,
   "bande": "XXIVe siècle",
@@ -20200,8 +20285,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 187,
   "bande": "XXIVe siècle",
@@ -21966,8 +22051,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 190,
   "bande": "XXIVe siècle",
@@ -22363,8 +22448,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 203,
   "bande": "XXIVe siècle",
@@ -22481,10 +22566,18 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-098",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+     "url_complementaire": null,
+     "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » L'article y range Wolf 359 (« Using Picard's tactical knowledge, the Borg cube engaged Starfleet in the Battle of Wolf 359 ») et l'alliance de « Scorpion » (« the Borg accepted the deal and formed an unprecedented alliance with the Federation against their common enemy »)."
+    }
+   ],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": null,
+   "passes": null
   },
   "rang_diegetique": 209,
   "bande": "XXIVe siècle",
@@ -22723,8 +22816,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 226,
   "bande": "XXIVe siècle",
@@ -22841,8 +22934,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 233,
   "bande": "XXIVe siècle",
@@ -22954,8 +23047,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 234,
   "bande": "XXIVe siècle",
@@ -23107,8 +23200,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 211,
   "bande": "XXIVe siècle",
@@ -23229,10 +23322,18 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-098",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+     "url_complementaire": null,
+     "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » L'article y range Wolf 359 et la section « Unimatrix Zero », dont les drones libérés vont « make up the resistance movement against the Borg »."
+    }
+   ],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": null,
+   "passes": null
   },
   "rang_diegetique": 232,
   "bande": "XXIVe siècle",
@@ -23357,8 +23458,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 235,
   "bande": "XXIVe siècle",
@@ -26579,10 +26680,18 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-207",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+     "url_complementaire": null,
+     "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » Section « Peace time » : « Jurati's Collective were granted provisional membership in the Federation to watch over the transwarp conduit » ; section « Final end of the Collective » : Frontier Day, « bringing a final end to the Borg threat »."
+    }
+   ],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": null,
+   "passes": null
   },
   "rang_diegetique": 274,
   "bande": "XXVe siècle",
@@ -26909,6 +27018,13 @@
      "url": "https://memory-alpha.fandom.com/wiki/Vadic",
      "url_complementaire": null,
      "justification": "Memory Alpha : Vadic et ses partisans ont prélevé sur le corps de Picard les altérations borgs et les ont diffusées dans les transporteurs de Starfleet, « giving the Borg the opening that they needed to assimilate Starfleet ». C'est l'assimilation du Frontier Day."
+    },
+    {
+     "id": "STP-204",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+     "url_complementaire": null,
+     "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » Section « Peace time » : « Jurati's Collective were granted provisional membership in the Federation to watch over the transwarp conduit » ; section « Final end of the Collective » : Frontier Day, « bringing a final end to the Borg threat »."
     }
    ],
    "examinee_le": null,
@@ -27147,8 +27263,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 242,
   "bande": "XXIVe siècle",
@@ -27286,8 +27402,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 243,
   "bande": "XXIVe siècle",
@@ -28020,8 +28136,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 248,
   "bande": "XXIVe siècle",
@@ -28291,8 +28407,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 252,
   "bande": "XXIVe siècle",
@@ -29868,8 +29984,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 295,
   "bande": "XXXIIe siècle",
@@ -31370,8 +31486,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 100,
   "bande": "XXIIIe siècle",
@@ -31495,8 +31611,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 23,
   "bande": "XXIIe siècle",
@@ -31592,8 +31708,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 29,
   "bande": "XXIIe siècle",
@@ -31794,8 +31910,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 31,
   "bande": "XXIIe siècle",
@@ -31891,8 +32007,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 93,
   "bande": "XXIIIe siècle",
@@ -32008,8 +32124,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 94,
   "bande": "XXIIIe siècle",
@@ -32139,8 +32255,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 95,
   "bande": "XXIIIe siècle",
@@ -32257,8 +32373,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 96,
   "bande": "XXIIIe siècle",
@@ -32371,8 +32487,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 97,
   "bande": "XXIIIe siècle",
@@ -32493,8 +32609,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 98,
   "bande": "XXIIIe siècle",
@@ -32640,8 +32756,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 135,
   "bande": "XXIVe siècle",
@@ -32763,8 +32879,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 145,
   "bande": "XXIVe siècle",
@@ -32884,8 +33000,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 146,
   "bande": "XXIVe siècle",
@@ -33187,8 +33303,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 170,
   "bande": "XXIVe siècle",
@@ -33321,8 +33437,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 7,
   "bande": "XXe siècle",
@@ -33438,8 +33554,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 8,
   "bande": "XXe siècle",
@@ -33765,8 +33881,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 213,
   "bande": "XXIVe siècle",
@@ -33862,8 +33978,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 214,
   "bande": "XXIVe siècle",
@@ -33974,8 +34090,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 215,
   "bande": "XXIVe siècle",
@@ -34089,8 +34205,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 228,
   "bande": "XXIVe siècle",
@@ -34207,8 +34323,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 236,
   "bande": "XXIVe siècle",
@@ -35187,8 +35303,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 172,
   "bande": "XXIVe siècle",
@@ -35715,8 +35831,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 173,
   "bande": "XXIVe siècle",
@@ -36231,8 +36347,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 125,
   "bande": "XXIVe siècle",
@@ -36352,10 +36468,18 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-098",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
+     "url_complementaire": null,
+     "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » L'article y range Wolf 359 et, dans la section « Hugh and Lore », le projet d'arme : « Picard saw this as an opportunity to destroy the Borg once and for all »."
+    }
+   ],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": null,
+   "passes": null
   },
   "rang_diegetique": 148,
   "bande": "XXIVe siècle",
@@ -36655,8 +36779,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 238,
   "bande": "XXIVe siècle",
@@ -36797,8 +36921,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 229,
   "bande": "XXIVe siècle",
@@ -37065,8 +37189,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 230,
   "bande": "XXIVe siècle",
@@ -37800,8 +37924,8 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-13",
-   "passes": 4
+   "examinee_le": "2026-11-15",
+   "passes": 5
   },
   "rang_diegetique": 34,
   "bande": "XXIIe siècle",

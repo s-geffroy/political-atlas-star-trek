@@ -370,7 +370,7 @@
  "max_serie": 59,
  "max_categorie": 88,
  "max_cycle": 41,
- "relations": 164,
- "sans_relation": 98,
- "passes_relations": 4
+ "relations": 172,
+ "sans_relation": 90,
+ "passes_relations": 5
 }

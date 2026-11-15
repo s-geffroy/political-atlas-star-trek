@@ -1,10 +1,10 @@
 {
- "genere_le": "2026-11-14",
+ "genere_le": "2026-11-15",
  "source": {
-  "csv": "data/source/Star_Trek_Atlas_Politique_V0_24_2026-11-14.csv",
-  "md": "data/source/Star_Trek_Atlas_Politique_V0_24_2026-11-14.md",
-  "version": "0.24",
-  "etat": "État : 14 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
+  "csv": "data/source/Star_Trek_Atlas_Politique_V0_25_2026-11-15.csv",
+  "md": "data/source/Star_Trek_Atlas_Politique_V0_25_2026-11-15.md",
+  "version": "0.25",
+  "etat": "État : 15 novembre 2026. Corpus audiovisuel officiel (séries télévisées, animation, films, *Short Treks*). Roman, comics, jeux et podcast *Star Trek: Khan* non intégrés à la chronologie canonique principale.",
   "colonnes": [
    "id",
    "cycle",
@@ -53,7 +53,7 @@
    "statut": "ok",
    "erreurs": [],
    "avertissements": [],
-   "info": "727 URL contrôlées (syntaxe seulement, pas de requête réseau)."
+   "info": "730 URL contrôlées (syntaxe seulement, pas de requête réseau)."
   },
   {
    "num": 5,

@@ -10059,8 +10059,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Synopsis officiel",
   "url_source": "https://www.startrek.com/en-un/movies/star-trek-vi-the-undiscovered-country",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crise économique-écologique », « ouverture diplomatique » ; recoupement A — Le synopsis officiel indique que la lune klingonne Praxis, site clé de production d'énergie, explose à la suite d'un accident, laissant l'Empire en grande difficulté et soudain disposé à une paix durable avec la Fédération. Réserve : La dimension écologique n'est pas dans le synopsis officiel ; Wikipedia (https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country) mentionne la « dévastation écologique » du monde natal klingon. V0.13 (2026-11-12) : parallèle sourcé — la section Production de l’article Wikipedia rapporte la proposition de Leonard Nimoy (« [What if] the wall comes down in outer space? »), la réponse de Nicholas Meyer (« we start with an intergalactic Chernobyl! ») et que « the character of Gorkon was based on Mikhail Gorbachev ». Contexte daté : « The script was finished by October 1990 », tournage d’avril à septembre 1991, sortie le 6 décembre 1991, avant la dissolution de l’URSS (26 décembre 1991). L’objection précise qu’une référence revendiquée n’est pas une équivalence. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « crise économique-écologique », « ouverture diplomatique » ; recoupement A — Le synopsis officiel indique que la lune klingonne Praxis, site clé de production d'énergie, explose à la suite d'un accident, laissant l'Empire en grande difficulté et soudain disposé à une paix durable avec la Fédération. Réserve : La dimension écologique n'est pas dans le synopsis officiel ; Wikipedia (https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country) mentionne la « dévastation écologique » du monde natal klingon. V0.13 (2026-11-12) : parallèle sourcé — la section Production de l’article Wikipedia rapporte la proposition de Leonard Nimoy (« [What if] the wall comes down in outer space? »), la réponse de Nicholas Meyer (« we start with an intergalactic Chernobyl! ») et que « the character of Gorkon was based on Mikhail Gorbachev ». Contexte daté : « The script was finished by October 1990 », tournage d’avril à septembre 1991, sortie le 6 décembre 1991, avant la dissolution de l’URSS (26 décembre 1991). L’objection précise qu’une référence revendiquée n’est pas une équivalence. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.25 (2026-11-15) : fiche alignée sur l’analyse rédigée du 15 novembre 2026 — « parallèle revendiqué par les auteurs » : seule la parole de Nicholas Meyer a été lue (Starlog n° 177, 1992 ; StarTrek.com, 2004 et 2014) ; la citation de Nimoy « [What if] the wall comes down in outer space? » était une reformulation de Wikipedia, Meyer la rapporte en 1992 sous la forme « The Wall comes down in outer space » ; « Gorkon fut inspiré de Gorbatchev » reposait sur une plaisanterie de Meyer (« How about that we called Gorbachev ‘Gorkon’? », 2004). Faits précisés d’après le dialogue (Spock : « over-mining and insufficient safety precautions », « a deadly pollution of their ozone » ; Valeris désigne « Romulan Ambassador and others »), ce qui lève la réserve écologique de la V0.4. Date du scénario donnée comme « fin 1990 » : octobre selon Wikipedia, décembre selon Memory Alpha, sources d’origine non lues.",
+  "version_entree": "V0.25 révisé",
   "categories": [
    "économie/social",
    "diplomatie/traité"
@@ -10115,6 +10115,15 @@
       "texte": "harmonisation typographique (guillemets, ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.25",
+    "date": "15 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 15 novembre 2026 — « parallèle revendiqué par les auteurs » : seule la parole de Nicholas Meyer a été lue (Starlog n° 177, 1992 ; StarTrek.com, 2004 et 2014) ; la citation de Nimoy « [What if] the wall comes down in outer space? » était une reformulation de Wikipedia, Meyer la rapporte en 1992 sous la forme « The Wall comes down in outer space » ; « Gorkon fut inspiré de Gorbatchev » reposait sur une plaisanterie de Meyer (« How about that we called Gorbachev ‘Gorkon’? », 2004). Faits précisés d’après le dialogue (Spock : « over-mining and insufficient safety precautions », « a deadly pollution of their ozone » ; Valeris désigne « Romulan Ambassador and others »), ce qui lève la réserve écologique de la V0.4. Date du scénario donnée comme « fin 1990 » : octobre selon Wikipedia, décembre selon Memory Alpha, sources d’origine non lues."
+     }
+    ]
    }
   ],
   "cycle_slug": "films-classiques-et-kelvin",
@@ -10123,6 +10132,10 @@
    {
     "libelle": "Explosion de Praxis et crise économique-écologique de l'Empire klingon.",
     "motif": "parallèle sourcé — la section Production de l’article Wikipedia rapporte la proposition de Leonard Nimoy (« [What if] the wall comes down in outer space? »), la réponse de Nicholas Meyer (« we start with an intergalactic Chernobyl! ») et que « the character of Gorkon was based on Mikhail Gorbachev ». Contexte daté : « The script was finished by October 1990 », tournage d’avril à septembre 1991, sortie le 6 décembre 1991, avant la dissolution de l’URSS (26 décembre 1991). L’objection précise qu’une référence revendiquée n’est pas une équivalence."
+   },
+   {
+    "libelle": "Explosion de Praxis et crise économique-écologique de l'Empire klingon.",
+    "motif": "fiche alignée sur l’analyse rédigée du 15 novembre 2026 — « parallèle revendiqué par les auteurs » : seule la parole de Nicholas Meyer a été lue (Starlog n° 177, 1992 ; StarTrek.com, 2004 et 2014) ; la citation de Nimoy « [What if] the wall comes down in outer space? » était une reformulation de Wikipedia, Meyer la rapporte en 1992 sous la forme « The Wall comes down in outer space » ; « Gorkon fut inspiré de Gorbatchev » reposait sur une plaisanterie de Meyer (« How about that we called Gorbachev ‘Gorkon’? », 2004). Faits précisés d’après le dialogue (Spock : « over-mining and insufficient safety precautions », « a deadly pollution of their ozone » ; Valeris désigne « Romulan Ambassador and others »), ce qui lève la réserve écologique de la V0.4. Date du scénario donnée comme « fin 1990 » : octobre selon Wikipedia, décembre selon Memory Alpha, sources d’origine non lues."
    }
   ],
   "note_editoriale": null,

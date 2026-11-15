@@ -115,11 +115,11 @@
    "recoupement": "A — Synopsis officiel"
   },
   "volets": {
-   "faits": "L’explosion de Praxis menace les conditions d’existence et la puissance stratégique klingonnes. Des responsables entament un rapprochement avec la Fédération tandis que des acteurs des deux camps cherchent à le saboter.",
+   "faits": "L’explosion de Praxis, lune minière et principal site de production d’énergie de l’Empire klingon, pollue l’ozone de la planète-mère et ne lui laisse qu’une cinquantaine d’années ; le budget militaire de l’Empire l’empêche d’y faire face. Le chancelier Gorkon engage un rapprochement avec la Fédération, tandis que des officiers de la Fédération, des Klingons et l’ambassadeur romulien conspirent pour le saboter.",
    "mecanisme": "Un choc écologique et industriel agit comme accélérateur de changement diplomatique ; la crise rend l’ordre militaire coûteux et expose les intérêts des appareils hostiles à la détente.",
-   "parallele": "Parallèle revendiqué par les auteurs avec la fin de la guerre froide. Selon la section Production de l’article Wikipedia, Leonard Nimoy proposa l’intrigue en partant du fait que les Klingons avaient servi de figure de l’Union soviétique : « [What if] the wall comes down in outer space? » ; Nicholas Meyer répondit : « we start with an intergalactic Chernobyl! ». Le même article indique que Gorkon fut inspiré de Mikhaïl Gorbatchev.",
+   "parallele": "Parallèle avec la fin de la guerre froide revendiqué par Nicholas Meyer, coscénariste et réalisateur. Selon lui, Leonard Nimoy proposa l’intrigue en partant du fait que les Klingons avaient toujours tenu lieu de Russes : « The Wall comes down in outer space » (Starlog, avril 1992) ; Meyer répondit : « we start with an intergalactic Chernobyl! » (StarTrek.com, 2004). Sur Gorkon et Gorbatchev, la seule parole lue est une plaisanterie de Meyer en 2004 : « How about that we called Gorbachev ‘Gorkon’? ».",
    "objections": "Une référence revendiquée n’est pas une équivalence : Praxis n’est ni Tchernobyl ni l’effondrement de l’URSS, et Gorkon n’est pas Gorbatchev. Le film condense en un seul événement dramatique des phénomènes distincts (accident industriel, crise économique, fin d’un bloc rival).",
-   "contexte": "Scénario achevé en octobre 1990, tournage d’avril à septembre 1991. Le film sort en Amérique du Nord le 6 décembre 1991, trois semaines avant la dissolution formelle de l’Union soviétique, le 26 décembre 1991."
+   "contexte": "Scénario achevé fin 1990 (octobre selon Wikipedia), tournage du 16 avril au 27 septembre 1991, pendant lequel survient le putsch manqué d’août 1991 contre Gorbatchev. Le film sort en Amérique du Nord le 6 décembre 1991, trois semaines avant la dissolution formelle de l’Union soviétique, le 26 décembre 1991."
   },
   "sources": [
    {
@@ -141,6 +141,21 @@
     "libelle": "Source — Wikipedia — Dissolution of the Soviet Union (V0.13)",
     "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
     "archive": "https://web.archive.org/web/20261111215651/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+   },
+   {
+    "libelle": "Source — Starlog n° 177 (avril 1992) — Edward Gross, entretien avec Nicholas Meyer, p. 46-48 (V0.25)",
+    "url": "https://archive.org/details/starlog_magazine_issue_177",
+    "archive": null
+   },
+   {
+    "libelle": "Source — StarTrek.com — « Nicholas Meyer: Gorkon is Gorbachev » (29 janvier 2004), copie archivée (V0.25)",
+    "url": "https://web.archive.org/web/20040604045933/http://www.startrek.com/startrek/view/news/article/4358.html",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Transcription du film (chakoteya.net) (V0.25)",
+    "url": "http://www.chakoteya.net/movies/movie6.html",
+    "archive": null
    }
   ]
  },

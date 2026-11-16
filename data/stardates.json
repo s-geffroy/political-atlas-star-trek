@@ -24,6 +24,16 @@
   },
   {
    "serie": "DIS",
+   "titre": "All Is Possible",
+   "dates_stellaires": [
+    "865661.2"
+   ],
+   "transcription_url": "http://www.chakoteya.net/STDisco17/404.html",
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/All_Is_Possible_(episode)",
+   "releve_le": "2026-11-16"
+  },
+  {
+   "serie": "DIS",
    "titre": "Anomaly",
    "dates_stellaires": [],
    "transcription_url": "http://www.chakoteya.net/STDisco17/402.html",
@@ -984,8 +994,8 @@
     "http://www.chakoteya.net/Enterprise/26.htm",
     "http://www.chakoteya.net/Enterprise/28.htm"
    ],
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Shockwave%2C_Part_II_(episode)",
-   "releve_le": "2026-11-14",
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Shockwave_(episode)",
+   "releve_le": "2026-11-16",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
   {
@@ -1005,8 +1015,8 @@
     "http://www.chakoteya.net/Enterprise/77.htm",
     "http://www.chakoteya.net/Enterprise/78.htm"
    ],
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Storm_Front%2C_Part_II_(episode)",
-   "releve_le": "2026-11-14",
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Storm_Front_(episode)",
+   "releve_le": "2026-11-16",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
   {
@@ -1210,11 +1220,13 @@
    "serie": "Film",
    "titre": "The Undiscovered Country",
    "dates_stellaires": [
-    "9522.6"
+    "9521.6",
+    "9522.6",
+    "9529.1"
    ],
    "transcription_url": "http://www.chakoteya.net/movies/movie6.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_VI%3A_The_Undiscovered_Country",
-   "releve_le": "2026-11-14"
+   "releve_le": "2026-11-16"
   },
   {
    "serie": "Film",
@@ -1332,8 +1344,8 @@
     "http://www.chakoteya.net/StarTrekPIC/109.html",
     "http://www.chakoteya.net/StarTrekPIC/110.html"
    ],
-   "memory_alpha_url": null,
-   "releve_le": "2026-11-14",
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Et_in_Arcadia_Ego%2C_Part_1_(episode)",
+   "releve_le": "2026-11-16",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
   {
@@ -1448,8 +1460,8 @@
     "http://www.chakoteya.net/STProdigy/STP119.html",
     "http://www.chakoteya.net/STProdigy/STP120.html"
    ],
-   "memory_alpha_url": null,
-   "releve_le": "2026-11-14",
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Supernova%2C_Part_1_(episode)",
+   "releve_le": "2026-11-16",
    "note": "aucune date stellaire prononcee dans la transcription"
   },
   {
@@ -1956,15 +1968,16 @@
     "43992.6",
     "43993.5",
     "43996.2",
-    "43998.5"
+    "43998.5",
+    "44001.4",
+    "44002.3"
    ],
    "transcription_url": [
     "http://www.chakoteya.net/NextGen/174.htm",
     "http://www.chakoteya.net/NextGen/175.htm"
    ],
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Best_of_Both_Worlds_(episode)",
-   "releve_le": "2026-11-14",
-   "note": "non confirmee(s) par Memory Alpha, ecartee(s) : 44001.4, 44002.3"
+   "releve_le": "2026-11-16"
   },
   {
    "serie": "TNG",
@@ -2128,14 +2141,19 @@
   {
    "serie": "TNG",
    "titre": "Unification",
-   "dates_stellaires": [],
+   "dates_stellaires": [
+    "45233.1",
+    "45236.4",
+    "45240.1",
+    "45240.6",
+    "45245.8"
+   ],
    "transcription_url": [
     "http://www.chakoteya.net/NextGen/208.htm",
     "http://www.chakoteya.net/NextGen/207.htm"
    ],
-   "memory_alpha_url": null,
-   "releve_le": "2026-11-14",
-   "note": "date(s) prononcee(s) non confirmee(s) par Memory Alpha : 45233.1, 45236.4, 45240.1, 45240.6, 45245.8"
+   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Unification_I_(episode)",
+   "releve_le": "2026-11-16"
   },
   {
    "serie": "TNG",
@@ -2190,16 +2208,6 @@
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/A_Taste_of_Armageddon_(episode)",
    "releve_le": "2026-11-14",
    "note": "non confirmee(s) par Memory Alpha, ecartee(s) : 3192.5"
-  },
-  {
-   "serie": "TOS",
-   "titre": "Amok Time",
-   "dates_stellaires": [
-    "3372.7"
-   ],
-   "transcription_url": "http://www.chakoteya.net/StarTrek/34.htm",
-   "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Amok_Time_(episode)",
-   "releve_le": "2026-11-14"
   },
   {
    "serie": "TOS",

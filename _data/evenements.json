@@ -331,7 +331,42 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20261014005529/https://en.wikipedia.org/wiki/Surak",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Unification",
+    "source_url": "http://www.chakoteya.net/NextGen/208.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/208.htm",
+     "http://www.chakoteya.net/NextGen/207.htm"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Unification_I_(episode)",
+    "dates": [
+     {
+      "date": "45233.1",
+      "annee": 2368
+     },
+     {
+      "date": "45236.4",
+      "annee": 2368
+     },
+     {
+      "date": "45240.1",
+      "annee": 2368
+     },
+     {
+      "date": "45240.6",
+      "annee": 2368
+     },
+     {
+      "date": "45245.8",
+      "annee": 2368
+     }
+    ],
+    "annees": [
+     2368
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-031",
@@ -10179,7 +10214,15 @@
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_VI%3A_The_Undiscovered_Country",
     "dates": [
      {
+      "date": "9521.6",
+      "annee": null
+     },
+     {
       "date": "9522.6",
+      "annee": null
+     },
+     {
+      "date": "9529.1",
       "annee": null
      }
     ],
@@ -10301,7 +10344,15 @@
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_VI%3A_The_Undiscovered_Country",
     "dates": [
      {
+      "date": "9521.6",
+      "annee": null
+     },
+     {
       "date": "9522.6",
+      "annee": null
+     },
+     {
+      "date": "9529.1",
       "annee": null
      }
     ],
@@ -10451,7 +10502,15 @@
     "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Star_Trek_VI%3A_The_Undiscovered_Country",
     "dates": [
      {
+      "date": "9521.6",
+      "annee": null
+     },
+     {
       "date": "9522.6",
+      "annee": null
+     },
+     {
+      "date": "9529.1",
       "annee": null
      }
     ],
@@ -12759,10 +12818,19 @@
      {
       "date": "43998.5",
       "annee": 2366
+     },
+     {
+      "date": "44001.4",
+      "annee": 2367
+     },
+     {
+      "date": "44002.3",
+      "annee": 2367
      }
     ],
     "annees": [
-     2366
+     2366,
+     2367
     ]
    },
    {
@@ -13701,7 +13769,42 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250905235322/https://www.startrek.com/en-un/news/vulcans-and-romulans-a-primer-on-unification",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Unification",
+    "source_url": "http://www.chakoteya.net/NextGen/208.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/NextGen/208.htm",
+     "http://www.chakoteya.net/NextGen/207.htm"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Unification_I_(episode)",
+    "dates": [
+     {
+      "date": "45233.1",
+      "annee": 2368
+     },
+     {
+      "date": "45236.4",
+      "annee": 2368
+     },
+     {
+      "date": "45240.1",
+      "annee": 2368
+     },
+     {
+      "date": "45240.6",
+      "annee": 2368
+     },
+     {
+      "date": "45245.8",
+      "annee": 2368
+     }
+    ],
+    "annees": [
+     2368
+    ]
+   }
+  ],
   "associes": [
    {
     "id": "STP-002",
@@ -24872,7 +24975,23 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241120085451/https://www.startrek.com/en-un/news/recap-star-trek-discovery-all-is-possible",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "All Is Possible",
+    "source_url": "http://www.chakoteya.net/STDisco17/404.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STDisco17/404.html"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/All_Is_Possible_(episode)",
+    "dates": [
+     {
+      "date": "865661.2",
+      "annee": null
+     }
+    ],
+    "annees": []
+   }
+  ],
   "associes": [
    {
     "id": "STP-190",

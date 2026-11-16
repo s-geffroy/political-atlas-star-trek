@@ -23,6 +23,7 @@
   { "id": "STP-172", "fichier": "analyses/author-author.html", "permalien": "/analyses/STP-172/" },
   { "id": "STP-194", "fichier": "analyses/mirrors-exode.html", "permalien": "/analyses/STP-194/" },
   { "id": "STP-197", "fichier": "analyses/synthetiques.html", "permalien": "/analyses/STP-197/" },
+  { "id": "STP-230", "fichier": "analyses/vox-crise-klingonne.html", "permalien": "/analyses/STP-230/" },
   { "id": "STP-239", "fichier": "analyses/mirrors-chancelier.html", "permalien": "/analyses/STP-239/" },
   { "id": "STP-267", "fichier": "analyses/section-31-film.html", "permalien": "/analyses/STP-267/" },
   { "id": "STP-271", "fichier": "analyses/sanctuary.html", "permalien": "/analyses/STP-271/" },
@@ -30,6 +31,9 @@
   { "id": "STP-281", "fichier": "analyses/flesh-and-blood.html", "permalien": "/analyses/STP-281/" },
   { "id": "STP-282", "fichier": "analyses/the-void.html", "permalien": "/analyses/STP-282/" },
   { "id": "STP-286", "fichier": "analyses/sound-of-thunder.html", "permalien": "/analyses/STP-286/" },
+  { "id": "STP-293", "fichier": "analyses/beta-test.html", "permalien": "/analyses/STP-293/" },
+  { "id": "STP-295", "fichier": "analyses/vox-faan-alpha.html", "permalien": "/analyses/STP-295/" },
+  { "id": "STP-297", "fichier": "analyses/omega-47.html", "permalien": "/analyses/STP-297/" },
   { "id": "STP-298", "fichier": "analyses/chiaroscuro.html", "permalien": "/analyses/STP-298/" },
   { "id": "STP-300", "fichier": "analyses/orders-of-magnitude.html", "permalien": "/analyses/STP-300/" }
  ]

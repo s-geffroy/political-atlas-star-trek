@@ -244,6 +244,9 @@ test('dates stellaires : seules les dates de journal de bord, confirmees sur une
   const { datesDeJournal, confirmee, pageEpisode, norm } = await import('../scripts/stardates.mjs');
   assert.deepEqual(datesDeJournal("Captain's log, stardate 42523.7. Picard: it was stardate 43000.1 then. Stardate: 41000.0"), ['42523.7']);
   assert.deepEqual(datesDeJournal('Personal log, supplemental, stardate 44001.4.'), ['44001.4']);
+  assert.deepEqual(datesDeJournal("Captain's log, U.S.S. Enterprise, stardate 9529.1. This is the final cruise"), ['9529.1']);
+  assert.deepEqual(datesDeJournal("Stardate: 9521.6 FOR GENE RODDENBERRY Stardate 9521.6, Captain's log, U.S.S. Excelsior"), ['9521.6']);
+  assert.deepEqual(datesDeJournal('Stardate: 9521.6 FOR GENE RODDENBERRY OPENING CREDITS'), []);
   assert.ok(confirmee('42523.7', '|date = 42523.7-42527.4'));
   assert.ok(!confirmee('4252.3', '|date = 42523.7'));
   assert.ok(pageEpisode('{{sidebar episode\n|date = 1'));

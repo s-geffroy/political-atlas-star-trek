@@ -46,11 +46,15 @@ export const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, 
   .replace(/\bhonour\b/g, 'honor').replace(/\bfavour\b/g, 'favor').replace(/ (\d)/g, '$1')
   .replace(/ part ii\b/, ' part 2').replace(/ part i\b/, ' part 1').trim();
 
-// Dates de journal de bord (« Captain's log, stardate 42523.7 ») : une date citee
-// dans un dialogue peut renvoyer a un autre evenement ; l'en-tete « Stardate: »
-// ajoute par le transcripteur est ignore.
+// Dates de journal de bord (« Captain's log, stardate 42523.7 », « Captain's log,
+// U.S.S. Enterprise, stardate 9529.1 », ou dans l'ordre inverse « Stardate 9521.6,
+// Captain's log ») : une date citee dans un dialogue peut renvoyer a un autre
+// evenement ; l'en-tete « Stardate: » ajoute par le transcripteur est ignore.
 export function datesDeJournal(corps) {
-  return [...new Set([...corps.matchAll(/\blog\b[^.!?]{0,60}?\bstardate,?\s+(\d{1,6}(?:\.\d+)?)/gi)].map((m) => m[1]))];
+  const n = String.raw`(\d{1,6}(?:\.\d+)?)`;
+  const avant = new RegExp(String.raw`\blog\b(?:U\.S\.S\.|Mrs?\.|Dr\.|Lt\.|[^.!?]){0,60}?\bstardate,?\s+` + n, 'gi');
+  const apres = new RegExp(String.raw`\bstardate,?\s+` + n + String.raw`,?\s+(?:[\w']+\s+){0,2}log\b`, 'gi');
+  return [...new Set([...corps.matchAll(avant), ...corps.matchAll(apres)].sort((a, b) => a.index - b.index).map((m) => m[1]))];
 }
 // Confirmation : la date figure telle quelle (nombre entier, pas un fragment) dans la page de l'episode.
 export const confirmee = (d, wikitext) => new RegExp(`(^|[^\\d.])${d.replace('.', '\\.')}($|[^\\d])`).test(wikitext);
@@ -100,11 +104,15 @@ async function memoryAlpha(titre, serie, parties = 1) {
   const maj = t0.replace(/\b([a-z])/g, (c) => c.toUpperCase());
   if (parties > 1) {
     const pages = [];
-    for (const n of ['I', 'II', 'III'].slice(0, parties)) {
-      const p = await unePage([`${t0}, Part ${n} (episode)`, `${maj}, Part ${n} (episode)`]);
+    // Noms constates sur Memory Alpha : « Chain of Command, Part I », « Supernova, Part 1 »,
+    // « Unification I », et partie I sans numero (« The Best of Both Worlds », « Shockwave »).
+    for (const [i, n] of ['I', 'II', 'III'].slice(0, parties).entries()) {
+      const p = await unePage([`${t0}, Part ${n} (episode)`, `${maj}, Part ${n} (episode)`, `${t0}, Part ${i + 1} (episode)`,
+        `${t0} ${n} (episode)`, ...(i === 0 ? [`${t0} (episode)`] : [])]);
       if (p) pages.push(p);
     }
-    return pages.length ? { url: pages[0].url, wikitext: pages.map((p) => p.wikitext).join('\n') } : { echec: true };
+    // Une partie manquante compte comme un echec : sinon les dates des autres parties seraient ecartees a tort.
+    return pages.length === parties ? { url: pages[0].url, wikitext: pages.map((p) => p.wikitext).join('\n') } : { echec: true };
   }
   const p = await unePage(serie === 'Film' ? [`Star Trek: ${t0}`, `Star Trek ${t0}`, t0] : [`${t0} (episode)`, `${maj} (episode)`, t0]);
   return p || { echec: true };

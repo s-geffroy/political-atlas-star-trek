@@ -62,6 +62,13 @@ Doublon tranche : STP-238 -> STP-176 (renversement de Georgiou par Lorca, univer
 - Dates stellaires (16/11) : journaux « U.S.S. » et ordre inverse lus, episodes en plusieurs parties sur toutes leurs pages Memory Alpha, bandeaux de renvoi distingues des pages d'homonymie ; releve complet sans echec (121 episodes dates).
 - Etat : 256 A, 40 B, 1 C (297 evenements distincts, 305 entrees).
 
+## Fait le 16 novembre 2026 (V0.28 a V0.35)
+
+- Les 23 analyses generees restantes remplacees par des analyses redigees (31 au total) : chaque brouillon soumis et valide, citations verifiees mot pour mot dans les copies des sources, citations de seconde main gardees avec reserve ou retirees selon la decision de l'utilisateur ; fiches correspondantes alignees sur l'ecran en V0.28 a V0.35 (intitules corriges : STP-125, STP-267, STP-286, STP-295).
+- Relation STP-239 -> STP-194 : justification reecrite sur le texte de la plaque.
+- Releve des dates stellaires : liens commentes de l'index, titres a une lettre pres, nouvelles formes de journal ; 126 episodes dates.
+- Controle des annees : un numero de code (« code 8514 ») n'est plus pris pour une annee.
+
 ## Reste a faire
 
 - Search Console et score Lighthouse : gestes de l'utilisateur ; audit SEO une fois les premieres donnees disponibles.
@@ -70,7 +77,6 @@ Doublon tranche : STP-238 -> STP-176 (renversement de Georgiou par Lorca, univer
 
 ## Evolutions possibles
 
-- Autres analyses redigees (J'naii STP-107, Satie STP-101, Una STP-048), une a la fois.
 - Visualisations par acteur (suppose un champ « acteurs » dans le corpus).
 - Migration eventuelle vers Astro avec le template `github-pages-ci`.
 - Domaine personnalise (Settings > Pages, puis vider `baseurl`).

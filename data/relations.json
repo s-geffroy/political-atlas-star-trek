@@ -1,6 +1,6 @@
 {
  "_lisez_moi": [
-  "Relations documentees entre evenements (enrichissement hors corpus) : 60 validees le 2026-11-10 (docs/proposition-relations.md), 82 ajoutees le meme jour (docs/proposition-relations-2.md), 21 en troisieme passe (docs/proposition-relations-3.md). 6 en quatrieme passe le 2026-11-13 (docs/proposition-relations-4.md). 8 en cinquieme passe le 2026-11-15 (docs/proposition-relations-5.md ; pages Memory Alpha lues dans leurs copies web.archive.org).",
+  "Relations documentees entre evenements (enrichissement hors corpus) : 60 validees le 2026-11-10 (docs/proposition-relations.md), 82 ajoutees le meme jour (docs/proposition-relations-2.md), 21 en troisieme passe (docs/proposition-relations-3.md). 6 en quatrieme passe le 2026-11-13 (docs/proposition-relations-4.md). 8 en cinquieme passe le 2026-11-15 (docs/proposition-relations-5.md ; pages Memory Alpha lues dans leurs copies web.archive.org). 6 en sixieme passe le 2026-11-16 (docs/proposition-relations-6.md ; candidats issus des analyses redigees ; deux liens admis sur declaration d'auteur, signales comme tels).",
   "Types : cause (de est presente par la source comme une cause de vers), suite (vers prolonge directement l intrigue de de), meme_arc (meme arc narratif ou conflit nomme par la source).",
   "Chaque relation cite la page qui l etablit explicitement. Deux evenements d un meme episode ne sont relies que si la source etablit un enchainement entre eux.",
   "Doublons tranches le 2026-11-10 (STP-294, STP-296) : les relations qui les visaient sont reportees sur l entree principale ou retirees si elles y existaient deja.",
@@ -1170,15 +1170,17 @@
    "de": "STP-060",
    "vers": "STP-062",
    "type": "meme_arc",
-   "url": "https://memory-alpha.fandom.com/wiki/Human-Klingon_history",
-   "justification": "Memory Alpha (histoire des relations Humains–Klingons) range Neural et Organia parmi les régions disputées d'un même conflit nommé, la guerre froide Fédération–Klingons : « The Federation-Klingon Cold War escalated around 2223 and lasted almost seventy years. » ; « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+   "url": "http://web.archive.org/web/20260310175324/https://memory-alpha.fandom.com/wiki/Human-Klingon_history",
+   "justification": "Memory Alpha (histoire des relations Humains–Klingons, copie archivée du 10 mars 2026 ; la page redirige depuis vers « Federation-Klingon history ») range Neural et Organia parmi les régions disputées d'un même conflit nommé, la guerre froide Fédération–Klingons : « The Federation-Klingon Cold War escalated around 2223 and lasted almost seventy years. » ; « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »",
+   "url_complementaire": "https://memory-alpha.fandom.com/wiki/Federation-Klingon_history"
   },
   {
    "de": "STP-065",
    "vers": "STP-062",
    "type": "meme_arc",
    "url": "https://memory-alpha.fandom.com/wiki/Capella_IV",
-   "justification": "Memory Alpha (Capella IV) : « In 2267, the planet served as a pawn in the Federation-Klingon Cold War, during a trade dispute between the Klingons and the Federation over topaline mining rights. » La page Human-Klingon history range Capella IV et Organia parmi les régions disputées de cette même guerre froide : « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+   "justification": "Memory Alpha (Capella IV) : « In 2267, the planet served as a pawn in the Federation-Klingon Cold War, during a trade dispute between the Klingons and the Federation over topaline mining rights. » La page Human-Klingon history (copie archivée du 10 mars 2026) range Capella IV et Organia parmi les régions disputées de cette même guerre froide : « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »",
+   "url_complementaire": "http://web.archive.org/web/20260310175324/https://memory-alpha.fandom.com/wiki/Human-Klingon_history"
   },
   {
    "de": "STP-010",
@@ -1221,10 +1223,56 @@
    "type": "meme_arc",
    "url": "https://memory-alpha.fandom.com/wiki/Federation-Borg_conflict",
    "justification": "Memory Alpha nomme le conflit : « The Federation-Borg conflict was a series of engagements between the United Federation of Planets and the Borg Collective stretching from the mid-2360s to 2401. » Section « Peace time » : « Jurati's Collective were granted provisional membership in the Federation to watch over the transwarp conduit » ; section « Final end of the Collective » : Frontier Day, « bringing a final end to the Borg threat »."
+  },
+  {
+   "de": "STP-267",
+   "vers": "STP-268",
+   "type": "meme_arc",
+   "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31",
+   "justification": "Résumé du film (Wikipedia) : l'homme masqué que poursuit l'équipe de Section 31 pour récupérer le Godsend est San, que Georgiou avait réduit en servitude en montant sur le trône (« Georgiou enslaves him as she ascends the throne » ; « he reveals that San—who Georgiou thought was dead—is the masked man ») ; il veut utiliser l'arme pour fonder un empire « in contrast to Georgiou's cruel dictatorship ». La poursuite de l'arme et la confrontation de Georgiou à son passé forment la même intrigue."
+  },
+  {
+   "de": "STP-154",
+   "vers": "STP-156",
+   "type": "meme_arc",
+   "url": "https://en.wikipedia.org/wiki/Tacking_into_the_Wind",
+   "url_complementaire": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+   "justification": "Wikipedia présente « Tacking into the Wind », source de STP-154, comme « the sixth episode of the nine-episode concluding story arc of the series, which brings the Dominion War and other story elements to a close ». La même page rappelle que, dans les épisodes précédents, « the Cardassian leader Damar has launched a rebellion against Dominion rule », et que dans celui-ci « the Klingon chancellor Gowron orders his fleet into dangerous missions that risk the war effort ». Memory Alpha range les deux faits dans la section « Cardassian rebellion » de l'article « Dominion War » (« However, the Allied defensive efforts were soon jeopardized by Chancellor Gowron »)."
+  },
+  {
+   "de": "STP-146",
+   "vers": "STP-158",
+   "type": "meme_arc",
+   "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+   "url_complementaire": "https://en.wikipedia.org/wiki/What_You_Leave_Behind",
+   "justification": "L'article « Dominion War » de Memory Alpha couvre une guerre « fought from 2373 to 2375 ». Il en place l'ouverture au minage du trou de ver (« Both sides knew that this act would lead to open war », « Call to Arms ») et la fin à la reddition de Cardassia : « The instrument of surrender, the Dominion War Declaration of Peace, was signed on Deep Space 9 between representatives of the Federation Alliance and the Dominion several days after the surrender at Cardassia » (« What You Leave Behind »). Pour Wikipedia, ce dernier épisode « sees the end of the long-running plot arc of the Dominion War »."
+  },
+  {
+   "de": "STP-286",
+   "vers": "STP-044",
+   "type": "meme_arc",
+   "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+   "justification": "Arc de l'Ange rouge de la saison 2, que Wikipedia nomme : « This ties into a larger story that is the main arc for the second season, involving seven mysterious signals and a mysterious \"red angel\" figure. » L'un des signaux conduit Discovery à Kaminar (« Another of the mysterious signals leads Discovery to Saru's homeworld of Kaminar ») et l'Ange rouge arrête le génocide (« attempting genocide on the Kelpiens, but are stopped by the Red Angel »). L'Ange rouge cherche à soustraire les données de la Sphère à Control (« Trying to stop Control from gaining the Sphere's data »). Dans la bataille finale contre la flotte de Section 31 contrôlée par Control, « Saru's sister Siranna arrives with Ba'ul fighters »."
+  },
+  {
+   "de": "STP-301",
+   "vers": "STP-063",
+   "type": "cause",
+   "url": "https://openpike.com/episode/strange-new-words-orders-of-magnitude-with-alan-b-mcelroy",
+   "url_complementaire": "https://memory-alpha.fandom.com/wiki/Orders_of_Magnitude_(episode)",
+   "justification": "Lien établi par une déclaration d'auteur, non par l'écran : le scénariste Alan B. McElroy dit du vaisseau que Kirk laisse fuir qu'« in truth, he is wrong because this ship becomes the ship that he will end up having to confront in Balance of Terror » (podcast Open Pike Night, transcription automatique). Memory Alpha : « McElroy confirmed that this was intentional, and in his mind, the two ships are the same vessel », tout en notant : « The identity of the enemy ship is not revealed, but is heavily implied to be Romulan. »"
+  },
+  {
+   "de": "STP-288",
+   "vers": "STP-239",
+   "type": "suite",
+   "url": "https://awardsradar.com/2024/05/29/discoverys-michelle-paradise-and-olatunde-osunsanmi/",
+   "url_complementaire": "https://memory-alpha.fandom.com/wiki/Saru_(mirror)",
+   "justification": "Lien établi par une déclaration d'auteur et par la plaque, entre continuités différentes : dans « Terra Firma », Georgiou libère Saru Miroir ; dans « Mirrors », la plaque de l'ISS Enterprise mentionne « a Kelpien slave turned rebel leader » qui aide les fugitifs. La showrunner Michelle Paradise relie les deux épisodes : « Whatever happened to Mirror Saru once he and Georgiou had their exchange in the Mirror Universe? ». Memory Alpha range toutefois le Saru de « Terra Firma » sous « Alternate timeline and realities »."
   }
  ],
  "examinees_sans_relation": {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "passes": 5,
   "ids": [
    "STP-003",
@@ -1241,7 +1289,6 @@
    "STP-058",
    "STP-059",
    "STP-061",
-   "STP-063",
    "STP-064",
    "STP-066",
    "STP-067",

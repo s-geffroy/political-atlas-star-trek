@@ -708,7 +708,7 @@
      "vers": "STP-062",
      "type": "meme_arc",
      "d": "M56,49 C24.055555555555557,49 24.055555555555557,132.66666666666666 56,132.66666666666666",
-     "url": "https://memory-alpha.fandom.com/wiki/Human-Klingon_history"
+     "url": "http://web.archive.org/web/20260310175324/https://memory-alpha.fandom.com/wiki/Human-Klingon_history"
     },
     {
      "de": "STP-065",
@@ -748,6 +748,14 @@
      "autre": "STP-128",
      "sortant": false,
      "groupe": "STP-123"
+    },
+    {
+     "de": "STP-146",
+     "vers": "STP-158",
+     "type": "meme_arc",
+     "autre": "STP-158",
+     "sortant": true,
+     "groupe": "STP-153"
     }
    ],
    "largeur": 2462,
@@ -3039,6 +3047,740 @@
    "nb_relations": 7
   },
   {
+   "titre": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
+   "taille": 7,
+   "noeuds": [
+    {
+     "id": "STP-153",
+     "x": 56,
+     "y": 12,
+     "w": 270,
+     "h": 74,
+     "tx": 66,
+     "id_y": 28,
+     "lignes": [
+      {
+       "t": "Opération de Section 31 visant à",
+       "y": 44
+      },
+      {
+       "t": "infecter les Fondateurs d'une",
+       "y": 59
+      },
+      {
+       "t": "maladie génocidaire",
+       "y": 74
+      }
+     ],
+     "titre_complet": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
+     "niv": "A",
+     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
+    },
+    {
+     "id": "STP-154",
+     "x": 56,
+     "y": 204,
+     "w": 270,
+     "h": 74,
+     "tx": 66,
+     "id_y": 220,
+     "lignes": [
+      {
+       "t": "Gowron détourne les campagnes",
+       "y": 236
+      },
+      {
+       "t": "militaires pour affaiblir Martok",
+       "y": 251
+      }
+     ],
+     "titre_complet": "Gowron détourne les campagnes militaires pour affaiblir Martok",
+     "niv": "A",
+     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
+    },
+    {
+     "id": "STP-155",
+     "x": 410,
+     "y": 108,
+     "w": 270,
+     "h": 74,
+     "tx": 420,
+     "id_y": 124,
+     "lignes": [
+      {
+       "t": "Worf tue Gowron et Martok devient",
+       "y": 140
+      },
+      {
+       "t": "chancelier",
+       "y": 155
+      }
+     ],
+     "titre_complet": "Worf tue Gowron et Martok devient chancelier",
+     "niv": "A",
+     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
+    },
+    {
+     "id": "STP-156",
+     "x": 56,
+     "y": 108,
+     "w": 270,
+     "h": 74,
+     "tx": 66,
+     "id_y": 124,
+     "lignes": [
+      {
+       "t": "Formation de la résistance",
+       "y": 140
+      },
+      {
+       "t": "cardassienne menée par Damar",
+       "y": 155
+      }
+     ],
+     "titre_complet": "Formation de la résistance cardassienne menée par Damar",
+     "niv": "A",
+     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
+    },
+    {
+     "id": "STP-157",
+     "x": 410,
+     "y": 204,
+     "w": 270,
+     "h": 74,
+     "tx": 420,
+     "id_y": 220,
+     "lignes": [
+      {
+       "t": "Répression de masse de Cardassia par",
+       "y": 236
+      },
+      {
+       "t": "le Dominion et soulèvement populaire",
+       "y": 251
+      }
+     ],
+     "titre_complet": "Répression de masse de Cardassia par le Dominion et soulèvement populaire",
+     "niv": "A",
+     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
+    },
+    {
+     "id": "STP-158",
+     "x": 764,
+     "y": 156,
+     "w": 270,
+     "h": 74,
+     "tx": 774,
+     "id_y": 172,
+     "lignes": [
+      {
+       "t": "Capitulation du Dominion et",
+       "y": 188
+      },
+      {
+       "t": "armistice mettant fin à la guerre du",
+       "y": 203
+      },
+      {
+       "t": "quadrant Alpha",
+       "y": 218
+      }
+     ],
+     "titre_complet": "Capitulation du Dominion et armistice mettant fin à la guerre du quadrant Alpha",
+     "niv": "A",
+     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
+    },
+    {
+     "id": "STP-305",
+     "x": 56,
+     "y": 300,
+     "w": 270,
+     "h": 74,
+     "tx": 66,
+     "id_y": 316,
+     "lignes": [
+      {
+       "t": "Interférence de Section 31 dans la",
+       "y": 332
+      },
+      {
+       "t": "politique romulienne via une",
+       "y": 347
+      },
+      {
+       "t": "opération contre une sénatrice",
+       "y": 362
+      }
+     ],
+     "titre_complet": "Interférence de Section 31 dans la politique romulienne via une opération contre une sénatrice",
+     "niv": "A",
+     "cycle": "Deep Space Nine : situations omises"
+    }
+   ],
+   "aretes": [
+    {
+     "de": "STP-153",
+     "vers": "STP-158",
+     "type": "cause",
+     "d": "M326,36.66666666666667 C368,36.66666666666667 368,97 380,97 L710,97 C722,97 722,180.66666666666666 760,180.66666666666666",
+     "url": "https://memory-alpha.fandom.com/wiki/Morphogenic_virus"
+    },
+    {
+     "de": "STP-156",
+     "vers": "STP-157",
+     "type": "cause",
+     "d": "M326,145 C368,145 368,253.33333333333334 406,253.33333333333334",
+     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War"
+    },
+    {
+     "de": "STP-153",
+     "vers": "STP-305",
+     "type": "meme_arc",
+     "d": "M56,61.333333333333336 C8,61.333333333333336 8,337 56,337",
+     "url": "https://memory-alpha.fandom.com/wiki/Inter_Arma_Enim_Silent_Leges_(episode)"
+    },
+    {
+     "de": "STP-154",
+     "vers": "STP-155",
+     "type": "cause",
+     "d": "M326,241 C368,241 368,145 406,145",
+     "url": "https://memory-alpha.fandom.com/wiki/Tacking_Into_the_Wind_(episode)"
+    },
+    {
+     "de": "STP-157",
+     "vers": "STP-158",
+     "type": "cause",
+     "d": "M680,241 C722,241 722,205.33333333333334 760,205.33333333333334",
+     "url": "https://en.wikipedia.org/wiki/What_You_Leave_Behind"
+    },
+    {
+     "de": "STP-154",
+     "vers": "STP-156",
+     "type": "meme_arc",
+     "d": "M56,241 C24.055555555555557,241 24.055555555555557,157.33333333333334 56,157.33333333333334",
+     "url": "https://en.wikipedia.org/wiki/Tacking_into_the_Wind"
+    },
+    {
+     "de": "STP-153",
+     "vers": "STP-156",
+     "type": "episode_commun",
+     "d": "M56,36.66666666666667 C22,36.66666666666667 22,132.66666666666666 56,132.66666666666666",
+     "url": null
+    },
+    {
+     "de": "STP-153",
+     "vers": "STP-157",
+     "type": "episode_commun",
+     "d": "M326,61.333333333333336 C368,61.333333333333336 368,228.66666666666666 406,228.66666666666666",
+     "url": null
+    }
+   ],
+   "externes": [
+    {
+     "de": "STP-146",
+     "vers": "STP-158",
+     "type": "meme_arc",
+     "autre": "STP-146",
+     "sortant": false,
+     "groupe": "STP-060"
+    }
+   ],
+   "largeur": 1046,
+   "hauteur": 386,
+   "numero": 8,
+   "cle": "STP-153",
+   "ids": [
+    "STP-153",
+    "STP-154",
+    "STP-155",
+    "STP-156",
+    "STP-157",
+    "STP-158",
+    "STP-305"
+   ],
+   "series": [
+    "DS9"
+   ],
+   "series_noms": [
+    "Deep Space Nine"
+   ],
+   "nb_relations": 6
+  },
+  {
+   "titre": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
+   "taille": 7,
+   "noeuds": [
+    {
+     "id": "STP-177",
+     "x": 56,
+     "y": 12,
+     "w": 270,
+     "h": 74,
+     "tx": 66,
+     "id_y": 28,
+     "lignes": [
+      {
+       "t": "Répression anti-extraterrestres de",
+       "y": 44
+      },
+      {
+       "t": "l'Empire terrien et pouvoir",
+       "y": 59
+      },
+      {
+       "t": "autocratique de Georgiou",
+       "y": 74
+      }
+     ],
+     "titre_complet": "Répression anti-extraterrestres de l'Empire terrien et pouvoir autocratique de Georgiou",
+     "niv": "A",
+     "cycle": "Discovery : futur et reconstruction post-Burn"
+    },
+    {
+     "id": "STP-288",
+     "x": 56,
+     "y": 108,
+     "w": 270,
+     "h": 74,
+     "tx": 66,
+     "id_y": 124,
+     "lignes": [
+      {
+       "t": "Tentative de réforme de l’Empire",
+       "y": 140
+      },
+      {
+       "t": "terrien par Georgiou dans",
+       "y": 155
+      },
+      {
+       "t": "l’expérience « Terra Firma »",
+       "y": 170
+      }
+     ],
+     "titre_complet": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
+     "niv": "A",
+     "cycle": "Discovery : événements omis"
+    },
+    {
+     "id": "STP-176",
+     "x": 56,
+     "y": 204,
+     "w": 270,
+     "h": 74,
+     "tx": 66,
+     "id_y": 220,
+     "lignes": [
+      {
+       "t": "Tentative de renversement de",
+       "y": 236
+      },
+      {
+       "t": "l'Empire terrien de Georgiou dans",
+       "y": 251
+      },
+      {
+       "t": "l'univers Miroir",
+       "y": 266
+      }
+     ],
+     "titre_complet": "Tentative de renversement de l'Empire terrien de Georgiou dans l'univers Miroir",
+     "niv": "A",
+     "cycle": "Discovery : futur et reconstruction post-Burn"
+    },
+    {
+     "id": "STP-267",
+     "x": 410,
+     "y": 204,
+     "w": 270,
+     "h": 74,
+     "tx": 420,
+     "id_y": 220,
+     "lignes": [
+      {
+       "t": "Opération clandestine de Section 31",
+       "y": 236
+      },
+      {
+       "t": "autour de Philippa Georgiou et d’une",
+       "y": 251
+      },
+      {
+       "t": "arme, le Godsend",
+       "y": 266
+      }
+     ],
+     "titre_complet": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend",
+     "niv": "A",
+     "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts"
+    },
+    {
+     "id": "STP-268",
+     "x": 410,
+     "y": 12,
+     "w": 270,
+     "h": 74,
+     "tx": 420,
+     "id_y": 28,
+     "lignes": [
+      {
+       "t": "Confrontation de Georgiou aux crimes",
+       "y": 44
+      },
+      {
+       "t": "commis pendant son règne dans",
+       "y": 59
+      },
+      {
+       "t": "l’Empire terrien",
+       "y": 74
+      }
+     ],
+     "titre_complet": "Confrontation de Georgiou aux crimes commis pendant son règne dans l’Empire terrien",
+     "niv": "A",
+     "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts"
+    },
+    {
+     "id": "STP-194",
+     "x": 764,
+     "y": 108,
+     "w": 270,
+     "h": 74,
+     "tx": 774,
+     "id_y": 124,
+     "lignes": [
+      {
+       "t": "Exode ancien de dissidents de",
+       "y": 140
+      },
+      {
+       "t": "l’Empire terrien, découvert dans",
+       "y": 155
+      },
+      {
+       "t": "l’épave du ISS Enterprise en 3191",
+       "y": 170
+      }
+     ],
+     "titre_complet": "Exode ancien de dissidents de l’Empire terrien, découvert dans l’épave du ISS Enterprise en 3191",
+     "niv": "A",
+     "cycle": "Discovery : futur et reconstruction post-Burn"
+    },
+    {
+     "id": "STP-239",
+     "x": 410,
+     "y": 108,
+     "w": 270,
+     "h": 74,
+     "tx": 420,
+     "id_y": 124,
+     "lignes": [
+      {
+       "t": "Réformes d’un haut chancelier de",
+       "y": 140
+      },
+      {
+       "t": "l’Empire terrien, assassinat et",
+       "y": 155
+      },
+      {
+       "t": "fuite de dissidents sur le ISS…",
+       "y": 170
+      }
+     ],
+     "titre_complet": "Réformes d’un haut chancelier de l’Empire terrien, assassinat et fuite de dissidents sur le ISS Enterprise",
+     "niv": "A",
+     "cycle": "Univers Miroir et réalités parallèles"
+    }
+   ],
+   "aretes": [
+    {
+     "de": "STP-288",
+     "vers": "STP-267",
+     "type": "suite",
+     "d": "M326,157.33333333333334 C368,157.33333333333334 368,253.33333333333334 406,253.33333333333334",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31"
+    },
+    {
+     "de": "STP-177",
+     "vers": "STP-268",
+     "type": "cause",
+     "d": "M326,49 C368,49 368,36.66666666666667 406,36.66666666666667",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31"
+    },
+    {
+     "de": "STP-288",
+     "vers": "STP-176",
+     "type": "meme_arc",
+     "d": "M56,145 C22,145 22,241 56,241",
+     "url": "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)"
+    },
+    {
+     "de": "STP-239",
+     "vers": "STP-194",
+     "type": "cause",
+     "d": "M680,145 C722,145 722,145 760,145",
+     "url": "https://blog.trekcore.com/2024/04/star-trek-discovery-review-mirrors/"
+    },
+    {
+     "de": "STP-267",
+     "vers": "STP-268",
+     "type": "meme_arc",
+     "d": "M410,228.66666666666666 C364.1111111111111,228.66666666666666 364.1111111111111,61.333333333333336 410,61.333333333333336",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31"
+    },
+    {
+     "de": "STP-288",
+     "vers": "STP-239",
+     "type": "suite",
+     "d": "M326,132.66666666666666 C368,132.66666666666666 368,145 406,145",
+     "url": "https://awardsradar.com/2024/05/29/discoverys-michelle-paradise-and-olatunde-osunsanmi/"
+    }
+   ],
+   "externes": [],
+   "largeur": 1046,
+   "hauteur": 290,
+   "numero": 9,
+   "cle": "STP-176",
+   "ids": [
+    "STP-177",
+    "STP-288",
+    "STP-176",
+    "STP-267",
+    "STP-268",
+    "STP-194",
+    "STP-239"
+   ],
+   "series": [
+    "DIS",
+    "Film"
+   ],
+   "series_noms": [
+    "Discovery",
+    "films"
+   ],
+   "nb_relations": 6
+  },
+  {
+   "titre": "Prise de pouvoir de Control dans les services secrets de Section 31",
+   "taille": 6,
+   "noeuds": [
+    {
+     "id": "STP-266",
+     "x": 56,
+     "y": 12,
+     "w": 270,
+     "h": 74,
+     "tx": 66,
+     "id_y": 28,
+     "lignes": [
+      {
+       "t": "Saru subit la hiérarchie",
+       "y": 44
+      },
+      {
+       "t": "Kelpiens–Ba'ul et cherche une autre",
+       "y": 59
+      },
+      {
+       "t": "vie",
+       "y": 74
+      }
+     ],
+     "titre_complet": "Saru subit la hiérarchie Kelpiens–Ba'ul et cherche une autre vie",
+     "niv": "A",
+     "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts"
+    },
+    {
+     "id": "STP-044",
+     "x": 56,
+     "y": 108,
+     "w": 270,
+     "h": 74,
+     "tx": 66,
+     "id_y": 124,
+     "lignes": [
+      {
+       "t": "Prise de pouvoir de Control dans les",
+       "y": 140
+      },
+      {
+       "t": "services secrets de Section 31",
+       "y": 155
+      }
+     ],
+     "titre_complet": "Prise de pouvoir de Control dans les services secrets de Section 31",
+     "niv": "A",
+     "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle"
+    },
+    {
+     "id": "STP-286",
+     "x": 410,
+     "y": 12,
+     "w": 270,
+     "h": 74,
+     "tx": 420,
+     "id_y": 28,
+     "lignes": [
+      {
+       "t": "Remise en cause du système de",
+       "y": 44
+      },
+      {
+       "t": "sélection et de mise à mort des",
+       "y": 59
+      },
+      {
+       "t": "Kelpiens par les Ba’ul sur Kaminar",
+       "y": 74
+      }
+     ],
+     "titre_complet": "Remise en cause du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
+     "niv": "A",
+     "cycle": "Discovery : événements omis"
+    },
+    {
+     "id": "STP-287",
+     "x": 56,
+     "y": 204,
+     "w": 270,
+     "h": 74,
+     "tx": 66,
+     "id_y": 220,
+     "lignes": [
+      {
+       "t": "Révélation de la formation d’une",
+       "y": 236
+      },
+      {
+       "t": "communauté humaine isolée sur New",
+       "y": 251
+      },
+      {
+       "t": "Eden et désaccord sur l’intervention",
+       "y": 266
+      }
+     ],
+     "titre_complet": "Révélation de la formation d’une communauté humaine isolée sur New Eden et désaccord sur l’intervention",
+     "niv": "A",
+     "cycle": "Discovery : événements omis"
+    },
+    {
+     "id": "STP-045",
+     "x": 410,
+     "y": 108,
+     "w": 270,
+     "h": 74,
+     "tx": 420,
+     "id_y": 124,
+     "lignes": [
+      {
+       "t": "Effacement institutionnel",
+       "y": 140
+      },
+      {
+       "t": "d'informations sur Discovery et son",
+       "y": 155
+      },
+      {
+       "t": "équipage",
+       "y": 170
+      }
+     ],
+     "titre_complet": "Effacement institutionnel d'informations sur Discovery et son équipage",
+     "niv": "B",
+     "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle"
+    },
+    {
+     "id": "STP-046",
+     "x": 410,
+     "y": 204,
+     "w": 270,
+     "h": 74,
+     "tx": 420,
+     "id_y": 220,
+     "lignes": [
+      {
+       "t": "Crise politique de la planète Kiley",
+       "y": 236
+      },
+      {
+       "t": "279 à cause d'une technique de",
+       "y": 251
+      },
+      {
+       "t": "destruction dérivée du moteur de…",
+       "y": 266
+      }
+     ],
+     "titre_complet": "Crise politique de la planète Kiley 279 à cause d'une technique de destruction dérivée du moteur de distorsion",
+     "niv": "A",
+     "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle"
+    }
+   ],
+   "aretes": [
+    {
+     "de": "STP-266",
+     "vers": "STP-286",
+     "type": "suite",
+     "d": "M326,49 C368,49 368,36.66666666666667 406,36.66666666666667",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2#ep21"
+    },
+    {
+     "de": "STP-044",
+     "vers": "STP-045",
+     "type": "cause",
+     "d": "M326,145 C368,145 368,145 406,145",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2"
+    },
+    {
+     "de": "STP-044",
+     "vers": "STP-046",
+     "type": "cause",
+     "d": "M326,163.5 C368,163.5 368,241 406,241",
+     "url": "https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-strange-new-worlds"
+    },
+    {
+     "de": "STP-287",
+     "vers": "STP-044",
+     "type": "meme_arc",
+     "d": "M56,241 C22,241 22,145 56,145",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2#ep17"
+    },
+    {
+     "de": "STP-286",
+     "vers": "STP-044",
+     "type": "meme_arc",
+     "d": "M410,61.333333333333336 C368,61.333333333333336 368,126.5 330,126.5",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2"
+    }
+   ],
+   "externes": [],
+   "largeur": 692,
+   "hauteur": 290,
+   "numero": 10,
+   "cle": "STP-044",
+   "ids": [
+    "STP-266",
+    "STP-044",
+    "STP-286",
+    "STP-287",
+    "STP-045",
+    "STP-046"
+   ],
+   "series": [
+    "Short Treks",
+    "DIS",
+    "SNW"
+   ],
+   "series_noms": [
+    "Short Treks",
+    "Discovery",
+    "Strange New Worlds"
+   ],
+   "nb_relations": 5
+  },
+  {
    "titre": "Occupation cardassienne de Bajor et exploitation de Terok Nor",
    "taille": 6,
    "noeuds": [
@@ -3234,7 +3976,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 290,
-   "numero": 8,
+   "numero": 11,
    "cle": "STP-120",
    "ids": [
     "STP-276",
@@ -3413,7 +4155,7 @@
    "externes": [],
    "largeur": 1046,
    "hauteur": 194,
-   "numero": 9,
+   "numero": 12,
    "cle": "STP-010",
    "ids": [
     "STP-010",
@@ -3588,7 +4330,7 @@
    "externes": [],
    "largeur": 1046,
    "hauteur": 194,
-   "numero": 10,
+   "numero": 13,
    "cle": "STP-080",
    "ids": [
     "STP-097",
@@ -3604,197 +4346,6 @@
    "series_noms": [
     "The Next Generation",
     "films"
-   ],
-   "nb_relations": 4
-  },
-  {
-   "titre": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
-   "taille": 5,
-   "noeuds": [
-    {
-     "id": "STP-153",
-     "x": 56,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Opération de Section 31 visant à",
-       "y": 44
-      },
-      {
-       "t": "infecter les Fondateurs d'une",
-       "y": 59
-      },
-      {
-       "t": "maladie génocidaire",
-       "y": 74
-      }
-     ],
-     "titre_complet": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
-     "niv": "A",
-     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
-    },
-    {
-     "id": "STP-156",
-     "x": 56,
-     "y": 108,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 124,
-     "lignes": [
-      {
-       "t": "Formation de la résistance",
-       "y": 140
-      },
-      {
-       "t": "cardassienne menée par Damar",
-       "y": 155
-      }
-     ],
-     "titre_complet": "Formation de la résistance cardassienne menée par Damar",
-     "niv": "A",
-     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
-    },
-    {
-     "id": "STP-157",
-     "x": 410,
-     "y": 108,
-     "w": 270,
-     "h": 74,
-     "tx": 420,
-     "id_y": 124,
-     "lignes": [
-      {
-       "t": "Répression de masse de Cardassia par",
-       "y": 140
-      },
-      {
-       "t": "le Dominion et soulèvement populaire",
-       "y": 155
-      }
-     ],
-     "titre_complet": "Répression de masse de Cardassia par le Dominion et soulèvement populaire",
-     "niv": "A",
-     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
-    },
-    {
-     "id": "STP-158",
-     "x": 764,
-     "y": 108,
-     "w": 270,
-     "h": 74,
-     "tx": 774,
-     "id_y": 124,
-     "lignes": [
-      {
-       "t": "Capitulation du Dominion et",
-       "y": 140
-      },
-      {
-       "t": "armistice mettant fin à la guerre du",
-       "y": 155
-      },
-      {
-       "t": "quadrant Alpha",
-       "y": 170
-      }
-     ],
-     "titre_complet": "Capitulation du Dominion et armistice mettant fin à la guerre du quadrant Alpha",
-     "niv": "A",
-     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
-    },
-    {
-     "id": "STP-305",
-     "x": 56,
-     "y": 204,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 220,
-     "lignes": [
-      {
-       "t": "Interférence de Section 31 dans la",
-       "y": 236
-      },
-      {
-       "t": "politique romulienne via une",
-       "y": 251
-      },
-      {
-       "t": "opération contre une sénatrice",
-       "y": 266
-      }
-     ],
-     "titre_complet": "Interférence de Section 31 dans la politique romulienne via une opération contre une sénatrice",
-     "niv": "A",
-     "cycle": "Deep Space Nine : situations omises"
-    }
-   ],
-   "aretes": [
-    {
-     "de": "STP-153",
-     "vers": "STP-158",
-     "type": "cause",
-     "d": "M326,36.66666666666667 C368,36.66666666666667 368,97 380,97 L710,97 C722,97 722,132.66666666666666 760,132.66666666666666",
-     "url": "https://memory-alpha.fandom.com/wiki/Morphogenic_virus"
-    },
-    {
-     "de": "STP-156",
-     "vers": "STP-157",
-     "type": "cause",
-     "d": "M326,145 C368,145 368,157.33333333333334 406,157.33333333333334",
-     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War"
-    },
-    {
-     "de": "STP-153",
-     "vers": "STP-305",
-     "type": "meme_arc",
-     "d": "M56,61.333333333333336 C8.055555555555557,61.333333333333336 8.055555555555557,241 56,241",
-     "url": "https://memory-alpha.fandom.com/wiki/Inter_Arma_Enim_Silent_Leges_(episode)"
-    },
-    {
-     "de": "STP-157",
-     "vers": "STP-158",
-     "type": "cause",
-     "d": "M680,145 C722,145 722,157.33333333333334 760,157.33333333333334",
-     "url": "https://en.wikipedia.org/wiki/What_You_Leave_Behind"
-    },
-    {
-     "de": "STP-153",
-     "vers": "STP-156",
-     "type": "episode_commun",
-     "d": "M56,36.66666666666667 C19.944444444444443,36.66666666666667 19.944444444444443,145 56,145",
-     "url": null
-    },
-    {
-     "de": "STP-153",
-     "vers": "STP-157",
-     "type": "episode_commun",
-     "d": "M326,61.333333333333336 C368,61.333333333333336 368,132.66666666666666 406,132.66666666666666",
-     "url": null
-    }
-   ],
-   "externes": [],
-   "largeur": 1046,
-   "hauteur": 290,
-   "numero": 11,
-   "cle": "STP-153",
-   "ids": [
-    "STP-153",
-    "STP-156",
-    "STP-157",
-    "STP-158",
-    "STP-305"
-   ],
-   "series": [
-    "DS9"
-   ],
-   "series_noms": [
-    "Deep Space Nine"
    ],
    "nb_relations": 4
   },
@@ -3969,7 +4520,7 @@
    "externes": [],
    "largeur": 1046,
    "hauteur": 290,
-   "numero": 12,
+   "numero": 14,
    "cle": "STP-221",
    "ids": [
     "STP-221",
@@ -4141,7 +4692,7 @@
    "externes": [],
    "largeur": 1400,
    "hauteur": 194,
-   "numero": 13,
+   "numero": 15,
    "cle": "STP-233",
    "ids": [
     "STP-233",
@@ -4161,155 +4712,6 @@
     "Deep Space Nine"
    ],
    "nb_relations": 4
-  },
-  {
-   "titre": "Prise de pouvoir de Control dans les services secrets de Section 31",
-   "taille": 4,
-   "noeuds": [
-    {
-     "id": "STP-044",
-     "x": 56,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Prise de pouvoir de Control dans les",
-       "y": 44
-      },
-      {
-       "t": "services secrets de Section 31",
-       "y": 59
-      }
-     ],
-     "titre_complet": "Prise de pouvoir de Control dans les services secrets de Section 31",
-     "niv": "A",
-     "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle"
-    },
-    {
-     "id": "STP-287",
-     "x": 56,
-     "y": 108,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 124,
-     "lignes": [
-      {
-       "t": "Révélation de la formation d’une",
-       "y": 140
-      },
-      {
-       "t": "communauté humaine isolée sur New",
-       "y": 155
-      },
-      {
-       "t": "Eden et désaccord sur l’intervention",
-       "y": 170
-      }
-     ],
-     "titre_complet": "Révélation de la formation d’une communauté humaine isolée sur New Eden et désaccord sur l’intervention",
-     "niv": "A",
-     "cycle": "Discovery : événements omis"
-    },
-    {
-     "id": "STP-045",
-     "x": 410,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 420,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Effacement institutionnel",
-       "y": 44
-      },
-      {
-       "t": "d'informations sur Discovery et son",
-       "y": 59
-      },
-      {
-       "t": "équipage",
-       "y": 74
-      }
-     ],
-     "titre_complet": "Effacement institutionnel d'informations sur Discovery et son équipage",
-     "niv": "B",
-     "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle"
-    },
-    {
-     "id": "STP-046",
-     "x": 410,
-     "y": 108,
-     "w": 270,
-     "h": 74,
-     "tx": 420,
-     "id_y": 124,
-     "lignes": [
-      {
-       "t": "Crise politique de la planète Kiley",
-       "y": 140
-      },
-      {
-       "t": "279 à cause d'une technique de",
-       "y": 155
-      },
-      {
-       "t": "destruction dérivée du moteur de…",
-       "y": 170
-      }
-     ],
-     "titre_complet": "Crise politique de la planète Kiley 279 à cause d'une technique de destruction dérivée du moteur de distorsion",
-     "niv": "A",
-     "cycle": "Discovery et Strange New Worlds : crises du XXIIIe siècle"
-    }
-   ],
-   "aretes": [
-    {
-     "de": "STP-044",
-     "vers": "STP-045",
-     "type": "cause",
-     "d": "M326,36.66666666666667 C368,36.66666666666667 368,49 406,49",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2"
-    },
-    {
-     "de": "STP-044",
-     "vers": "STP-046",
-     "type": "cause",
-     "d": "M326,61.333333333333336 C368,61.333333333333336 368,145 406,145",
-     "url": "https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-strange-new-worlds"
-    },
-    {
-     "de": "STP-287",
-     "vers": "STP-044",
-     "type": "meme_arc",
-     "d": "M56,145 C22,145 22,49 56,49",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2#ep17"
-    }
-   ],
-   "externes": [],
-   "largeur": 692,
-   "hauteur": 194,
-   "numero": 14,
-   "cle": "STP-044",
-   "ids": [
-    "STP-044",
-    "STP-287",
-    "STP-045",
-    "STP-046"
-   ],
-   "series": [
-    "DIS",
-    "SNW"
-   ],
-   "series_noms": [
-    "Discovery",
-    "Strange New Worlds"
-   ],
-   "nb_relations": 3
   },
   {
    "titre": "Tentative des Kzinti de s'emparer d'une arme slaver pour une nouvelle guerre contre la Fédération",
@@ -4420,7 +4822,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 194,
-   "numero": 15,
+   "numero": 16,
    "cle": "STP-004",
    "ids": [
     "STP-004",
@@ -4544,7 +4946,7 @@
    "externes": [],
    "largeur": 1046,
    "hauteur": 98,
-   "numero": 16,
+   "numero": 17,
    "cle": "STP-030",
    "ids": [
     "STP-030",
@@ -4668,7 +5070,7 @@
    "externes": [],
    "largeur": 1046,
    "hauteur": 98,
-   "numero": 17,
+   "numero": 18,
    "cle": "STP-047",
    "ids": [
     "STP-047",
@@ -4794,7 +5196,7 @@
    ],
    "largeur": 692,
    "hauteur": 194,
-   "numero": 18,
+   "numero": 19,
    "cle": "STP-123",
    "ids": [
     "STP-123",
@@ -4806,6 +5208,113 @@
    ],
    "series_noms": [
     "Deep Space Nine"
+   ],
+   "nb_relations": 2
+  },
+  {
+   "titre": "Désobéissance de James Kirk à l’ordre de destruction d’Argus II",
+   "taille": 3,
+   "noeuds": [
+    {
+     "id": "STP-063",
+     "x": 764,
+     "y": 12,
+     "w": 270,
+     "h": 74,
+     "tx": 774,
+     "id_y": 28,
+     "lignes": [
+      {
+       "t": "Violation réciproque de la zone",
+       "y": 44
+      },
+      {
+       "t": "neutre et crise avec Romulus",
+       "y": 59
+      }
+     ],
+     "titre_complet": "Violation réciproque de la zone neutre et crise avec Romulus",
+     "niv": "B",
+     "cycle": "TOS et The Animated Series : conflits idéologiques"
+    },
+    {
+     "id": "STP-300",
+     "x": 56,
+     "y": 12,
+     "w": 270,
+     "h": 74,
+     "tx": 66,
+     "id_y": 28,
+     "lignes": [
+      {
+       "t": "Ordre de l’amiral Reeger de détruire",
+       "y": 44
+      },
+      {
+       "t": "Argus II",
+       "y": 59
+      }
+     ],
+     "titre_complet": "Ordre de l’amiral Reeger de détruire Argus II",
+     "niv": "B",
+     "cycle": "Strange New Worlds : saison 4 2026"
+    },
+    {
+     "id": "STP-301",
+     "x": 410,
+     "y": 12,
+     "w": 270,
+     "h": 74,
+     "tx": 420,
+     "id_y": 28,
+     "lignes": [
+      {
+       "t": "Désobéissance de James Kirk à",
+       "y": 44
+      },
+      {
+       "t": "l’ordre de destruction d’Argus II",
+       "y": 59
+      }
+     ],
+     "titre_complet": "Désobéissance de James Kirk à l’ordre de destruction d’Argus II",
+     "niv": "B",
+     "cycle": "Strange New Worlds : saison 4 2026"
+    }
+   ],
+   "aretes": [
+    {
+     "de": "STP-300",
+     "vers": "STP-301",
+     "type": "cause",
+     "d": "M326,49 C368,49 368,49 406,49",
+     "url": "https://memory-alpha.fandom.com/wiki/Argus_II"
+    },
+    {
+     "de": "STP-301",
+     "vers": "STP-063",
+     "type": "cause",
+     "d": "M680,49 C722,49 722,49 760,49",
+     "url": "https://openpike.com/episode/strange-new-words-orders-of-magnitude-with-alan-b-mcelroy"
+    }
+   ],
+   "externes": [],
+   "largeur": 1046,
+   "hauteur": 98,
+   "numero": 20,
+   "cle": "STP-063",
+   "ids": [
+    "STP-063",
+    "STP-300",
+    "STP-301"
+   ],
+   "series": [
+    "TOS",
+    "SNW"
+   ],
+   "series_noms": [
+    "The Original Series",
+    "Strange New Worlds"
    ],
    "nb_relations": 2
   },
@@ -4907,7 +5416,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 194,
-   "numero": 19,
+   "numero": 21,
    "cle": "STP-145",
    "ids": [
     "STP-272",
@@ -5019,7 +5528,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 194,
-   "numero": 20,
+   "numero": 22,
    "cle": "STP-159",
    "ids": [
     "STP-159",
@@ -5137,7 +5646,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 194,
-   "numero": 21,
+   "numero": 23,
    "cle": "STP-162",
    "ids": [
     "STP-162",
@@ -5151,125 +5660,6 @@
     "Voyager"
    ],
    "nb_relations": 3
-  },
-  {
-   "titre": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
-   "taille": 3,
-   "noeuds": [
-    {
-     "id": "STP-288",
-     "x": 56,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Tentative de réforme de l’Empire",
-       "y": 44
-      },
-      {
-       "t": "terrien par Georgiou dans",
-       "y": 59
-      },
-      {
-       "t": "l’expérience « Terra Firma »",
-       "y": 74
-      }
-     ],
-     "titre_complet": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
-     "niv": "A",
-     "cycle": "Discovery : événements omis"
-    },
-    {
-     "id": "STP-176",
-     "x": 56,
-     "y": 108,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 124,
-     "lignes": [
-      {
-       "t": "Tentative de renversement de",
-       "y": 140
-      },
-      {
-       "t": "l'Empire terrien de Georgiou dans",
-       "y": 155
-      },
-      {
-       "t": "l'univers Miroir",
-       "y": 170
-      }
-     ],
-     "titre_complet": "Tentative de renversement de l'Empire terrien de Georgiou dans l'univers Miroir",
-     "niv": "A",
-     "cycle": "Discovery : futur et reconstruction post-Burn"
-    },
-    {
-     "id": "STP-267",
-     "x": 410,
-     "y": 60,
-     "w": 270,
-     "h": 74,
-     "tx": 420,
-     "id_y": 76,
-     "lignes": [
-      {
-       "t": "Opération clandestine de Section 31",
-       "y": 92
-      },
-      {
-       "t": "autour de Philippa Georgiou et d’une",
-       "y": 107
-      },
-      {
-       "t": "arme, le Godsend",
-       "y": 122
-      }
-     ],
-     "titre_complet": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend",
-     "niv": "A",
-     "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts"
-    }
-   ],
-   "aretes": [
-    {
-     "de": "STP-288",
-     "vers": "STP-267",
-     "type": "suite",
-     "d": "M326,49 C368,49 368,97 406,97",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31"
-    },
-    {
-     "de": "STP-288",
-     "vers": "STP-176",
-     "type": "meme_arc",
-     "d": "M56,49 C22,49 22,145 56,145",
-     "url": "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)"
-    }
-   ],
-   "externes": [],
-   "largeur": 692,
-   "hauteur": 194,
-   "numero": 22,
-   "cle": "STP-176",
-   "ids": [
-    "STP-288",
-    "STP-176",
-    "STP-267"
-   ],
-   "series": [
-    "DIS",
-    "Film"
-   ],
-   "series_noms": [
-    "Discovery",
-    "films"
-   ],
-   "nb_relations": 2
   },
   {
    "titre": "Négociation de fusion institutionnelle proposée par Osyraa à la Fédération",
@@ -5365,7 +5755,7 @@
    "externes": [],
    "largeur": 1046,
    "hauteur": 98,
-   "numero": 23,
+   "numero": 24,
    "cle": "STP-184",
    "ids": [
     "STP-184",
@@ -5470,7 +5860,7 @@
    "externes": [],
    "largeur": 1046,
    "hauteur": 98,
-   "numero": 24,
+   "numero": 25,
    "cle": "STP-188",
    "ids": [
     "STP-188",
@@ -5575,7 +5965,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 194,
-   "numero": 25,
+   "numero": 26,
    "cle": "STP-191",
    "ids": [
     "STP-191",
@@ -5692,7 +6082,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 194,
-   "numero": 26,
+   "numero": 27,
    "cle": "STP-211",
    "ids": [
     "STP-211",
@@ -5809,7 +6199,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 194,
-   "numero": 27,
+   "numero": 28,
    "cle": "STP-213",
    "ids": [
     "STP-213",
@@ -5922,7 +6312,7 @@
    "externes": [],
    "largeur": 1046,
    "hauteur": 98,
-   "numero": 28,
+   "numero": 29,
    "cle": "STP-231",
    "ids": [
     "STP-231",
@@ -6002,7 +6392,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 29,
+   "numero": 30,
    "cle": "STP-001",
    "ids": [
     "STP-001",
@@ -6089,7 +6479,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 30,
+   "numero": 31,
    "cle": "STP-008",
    "ids": [
     "STP-008",
@@ -6168,7 +6558,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 31,
+   "numero": 32,
    "cle": "STP-012",
    "ids": [
     "STP-012",
@@ -6253,7 +6643,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 32,
+   "numero": 33,
    "cle": "STP-019",
    "ids": [
     "STP-019",
@@ -6332,7 +6722,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 33,
+   "numero": 34,
    "cle": "STP-021",
    "ids": [
     "STP-021",
@@ -6411,7 +6801,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 34,
+   "numero": 35,
    "cle": "STP-036",
    "ids": [
     "STP-036",
@@ -6488,7 +6878,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 35,
+   "numero": 36,
    "cle": "STP-083",
    "ids": [
     "STP-083",
@@ -6567,7 +6957,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 36,
+   "numero": 37,
    "cle": "STP-094",
    "ids": [
     "STP-094",
@@ -6650,7 +7040,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 37,
+   "numero": 38,
    "cle": "STP-124",
    "ids": [
     "STP-124",
@@ -6733,7 +7123,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 38,
+   "numero": 39,
    "cle": "STP-133",
    "ids": [
     "STP-133",
@@ -6812,86 +7202,11 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 39,
+   "numero": 40,
    "cle": "STP-134",
    "ids": [
     "STP-134",
     "STP-135"
-   ],
-   "series": [
-    "DS9"
-   ],
-   "series_noms": [
-    "Deep Space Nine"
-   ],
-   "nb_relations": 1
-  },
-  {
-   "titre": "Gowron détourne les campagnes militaires pour affaiblir Martok",
-   "taille": 2,
-   "noeuds": [
-    {
-     "id": "STP-154",
-     "x": 56,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Gowron détourne les campagnes",
-       "y": 44
-      },
-      {
-       "t": "militaires pour affaiblir Martok",
-       "y": 59
-      }
-     ],
-     "titre_complet": "Gowron détourne les campagnes militaires pour affaiblir Martok",
-     "niv": "A",
-     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
-    },
-    {
-     "id": "STP-155",
-     "x": 410,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 420,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Worf tue Gowron et Martok devient",
-       "y": 44
-      },
-      {
-       "t": "chancelier",
-       "y": 59
-      }
-     ],
-     "titre_complet": "Worf tue Gowron et Martok devient chancelier",
-     "niv": "A",
-     "cycle": "Deep Space Nine : occupations, démocratie, guerre"
-    }
-   ],
-   "aretes": [
-    {
-     "de": "STP-154",
-     "vers": "STP-155",
-     "type": "cause",
-     "d": "M326,49 C368,49 368,49 406,49",
-     "url": "https://memory-alpha.fandom.com/wiki/Tacking_Into_the_Wind_(episode)"
-    }
-   ],
-   "externes": [],
-   "largeur": 692,
-   "hauteur": 98,
-   "numero": 40,
-   "cle": "STP-154",
-   "ids": [
-    "STP-154",
-    "STP-155"
    ],
    "series": [
     "DS9"
@@ -7064,174 +7379,6 @@
    "nb_relations": 1
   },
   {
-   "titre": "Répression anti-extraterrestres de l'Empire terrien et pouvoir autocratique de Georgiou",
-   "taille": 2,
-   "noeuds": [
-    {
-     "id": "STP-177",
-     "x": 56,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Répression anti-extraterrestres de",
-       "y": 44
-      },
-      {
-       "t": "l'Empire terrien et pouvoir",
-       "y": 59
-      },
-      {
-       "t": "autocratique de Georgiou",
-       "y": 74
-      }
-     ],
-     "titre_complet": "Répression anti-extraterrestres de l'Empire terrien et pouvoir autocratique de Georgiou",
-     "niv": "A",
-     "cycle": "Discovery : futur et reconstruction post-Burn"
-    },
-    {
-     "id": "STP-268",
-     "x": 410,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 420,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Confrontation de Georgiou aux crimes",
-       "y": 44
-      },
-      {
-       "t": "commis pendant son règne dans",
-       "y": 59
-      },
-      {
-       "t": "l’Empire terrien",
-       "y": 74
-      }
-     ],
-     "titre_complet": "Confrontation de Georgiou aux crimes commis pendant son règne dans l’Empire terrien",
-     "niv": "A",
-     "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts"
-    }
-   ],
-   "aretes": [
-    {
-     "de": "STP-177",
-     "vers": "STP-268",
-     "type": "cause",
-     "d": "M326,49 C368,49 368,49 406,49",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31"
-    }
-   ],
-   "externes": [],
-   "largeur": 692,
-   "hauteur": 98,
-   "numero": 43,
-   "cle": "STP-177",
-   "ids": [
-    "STP-177",
-    "STP-268"
-   ],
-   "series": [
-    "DIS",
-    "Film"
-   ],
-   "series_noms": [
-    "Discovery",
-    "films"
-   ],
-   "nb_relations": 1
-  },
-  {
-   "titre": "Exode ancien de dissidents de l’Empire terrien, découvert dans l’épave du ISS Enterprise en 3191",
-   "taille": 2,
-   "noeuds": [
-    {
-     "id": "STP-194",
-     "x": 410,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 420,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Exode ancien de dissidents de",
-       "y": 44
-      },
-      {
-       "t": "l’Empire terrien, découvert dans",
-       "y": 59
-      },
-      {
-       "t": "l’épave du ISS Enterprise en 3191",
-       "y": 74
-      }
-     ],
-     "titre_complet": "Exode ancien de dissidents de l’Empire terrien, découvert dans l’épave du ISS Enterprise en 3191",
-     "niv": "A",
-     "cycle": "Discovery : futur et reconstruction post-Burn"
-    },
-    {
-     "id": "STP-239",
-     "x": 56,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Réformes d’un haut chancelier de",
-       "y": 44
-      },
-      {
-       "t": "l’Empire terrien, assassinat et",
-       "y": 59
-      },
-      {
-       "t": "fuite de dissidents sur le ISS…",
-       "y": 74
-      }
-     ],
-     "titre_complet": "Réformes d’un haut chancelier de l’Empire terrien, assassinat et fuite de dissidents sur le ISS Enterprise",
-     "niv": "A",
-     "cycle": "Univers Miroir et réalités parallèles"
-    }
-   ],
-   "aretes": [
-    {
-     "de": "STP-239",
-     "vers": "STP-194",
-     "type": "cause",
-     "d": "M326,49 C368,49 368,49 406,49",
-     "url": "https://blog.trekcore.com/2024/04/star-trek-discovery-review-mirrors/"
-    }
-   ],
-   "externes": [],
-   "largeur": 692,
-   "hauteur": 98,
-   "numero": 44,
-   "cle": "STP-194",
-   "ids": [
-    "STP-194",
-    "STP-239"
-   ],
-   "series": [
-    "DIS"
-   ],
-   "series_noms": [
-    "Discovery"
-   ],
-   "nb_relations": 1
-  },
-  {
    "titre": "Captivité de mineurs extraterrestres dans les mines de Tars Lamora",
    "taille": 2,
    "noeuds": [
@@ -7292,7 +7439,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 45,
+   "numero": 43,
    "cle": "STP-219",
    "ids": [
     "STP-219",
@@ -7367,7 +7514,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 46,
+   "numero": 44,
    "cle": "STP-225",
    "ids": [
     "STP-225",
@@ -7378,91 +7525,6 @@
    ],
    "series_noms": [
     "Prodigy"
-   ],
-   "nb_relations": 1
-  },
-  {
-   "titre": "Saru subit la hiérarchie Kelpiens–Ba'ul et cherche une autre vie",
-   "taille": 2,
-   "noeuds": [
-    {
-     "id": "STP-266",
-     "x": 56,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Saru subit la hiérarchie",
-       "y": 44
-      },
-      {
-       "t": "Kelpiens–Ba'ul et cherche une autre",
-       "y": 59
-      },
-      {
-       "t": "vie",
-       "y": 74
-      }
-     ],
-     "titre_complet": "Saru subit la hiérarchie Kelpiens–Ba'ul et cherche une autre vie",
-     "niv": "A",
-     "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts"
-    },
-    {
-     "id": "STP-286",
-     "x": 410,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 420,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Remise en cause du système de",
-       "y": 44
-      },
-      {
-       "t": "sélection et de mise à mort des",
-       "y": 59
-      },
-      {
-       "t": "Kelpiens par les Ba’ul sur Kaminar",
-       "y": 74
-      }
-     ],
-     "titre_complet": "Remise en cause du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
-     "niv": "A",
-     "cycle": "Discovery : événements omis"
-    }
-   ],
-   "aretes": [
-    {
-     "de": "STP-266",
-     "vers": "STP-286",
-     "type": "suite",
-     "d": "M326,49 C368,49 368,49 406,49",
-     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2#ep21"
-    }
-   ],
-   "externes": [],
-   "largeur": 692,
-   "hauteur": 98,
-   "numero": 47,
-   "cle": "STP-266",
-   "ids": [
-    "STP-266",
-    "STP-286"
-   ],
-   "series": [
-    "Short Treks",
-    "DIS"
-   ],
-   "series_noms": [
-    "Short Treks",
-    "Discovery"
    ],
    "nb_relations": 1
   },
@@ -7531,86 +7593,11 @@
    "externes": [],
    "largeur": 338,
    "hauteur": 194,
-   "numero": 48,
+   "numero": 45,
    "cle": "STP-298",
    "ids": [
     "STP-298",
     "STP-299"
-   ],
-   "series": [
-    "SNW"
-   ],
-   "series_noms": [
-    "Strange New Worlds"
-   ],
-   "nb_relations": 1
-  },
-  {
-   "titre": "Ordre de l’amiral Reeger de détruire Argus II",
-   "taille": 2,
-   "noeuds": [
-    {
-     "id": "STP-300",
-     "x": 56,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 66,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Ordre de l’amiral Reeger de détruire",
-       "y": 44
-      },
-      {
-       "t": "Argus II",
-       "y": 59
-      }
-     ],
-     "titre_complet": "Ordre de l’amiral Reeger de détruire Argus II",
-     "niv": "B",
-     "cycle": "Strange New Worlds : saison 4 2026"
-    },
-    {
-     "id": "STP-301",
-     "x": 410,
-     "y": 12,
-     "w": 270,
-     "h": 74,
-     "tx": 420,
-     "id_y": 28,
-     "lignes": [
-      {
-       "t": "Désobéissance de James Kirk à",
-       "y": 44
-      },
-      {
-       "t": "l’ordre de destruction d’Argus II",
-       "y": 59
-      }
-     ],
-     "titre_complet": "Désobéissance de James Kirk à l’ordre de destruction d’Argus II",
-     "niv": "B",
-     "cycle": "Strange New Worlds : saison 4 2026"
-    }
-   ],
-   "aretes": [
-    {
-     "de": "STP-300",
-     "vers": "STP-301",
-     "type": "cause",
-     "d": "M326,49 C368,49 368,49 406,49",
-     "url": "https://memory-alpha.fandom.com/wiki/Argus_II"
-    }
-   ],
-   "externes": [],
-   "largeur": 692,
-   "hauteur": 98,
-   "numero": 49,
-   "cle": "STP-300",
-   "ids": [
-    "STP-300",
-    "STP-301"
    ],
    "series": [
     "SNW"
@@ -7681,7 +7668,7 @@
    "externes": [],
    "largeur": 692,
    "hauteur": 98,
-   "numero": 50,
+   "numero": 46,
    "cle": "STP-302",
    "ids": [
     "STP-302",
@@ -7696,84 +7683,84 @@
    "nb_relations": 1
   }
  ],
- "noeuds": 207,
- "relations": 172,
- "liens_episode": 47,
+ "noeuds": 208,
+ "relations": 178,
+ "liens_episode": 48,
  "seuil_decoupe": 25,
  "carte": {
-  "largeur": 1390,
-  "hauteur": 868.3,
+  "largeur": 1392,
+  "hauteur": 884.6999999999999,
   "gauche": 236,
   "couloirs": [
    {
-    "serie": "TOS",
-    "nom": "Série originale et animée",
+    "serie": "Film",
+    "nom": "Films",
     "y": 40,
     "h": 40,
-    "ty": 61.8
+    "ty": 59.8
+   },
+   {
+    "serie": "TOS",
+    "nom": "Série originale et animée",
+    "y": 80,
+    "h": 40,
+    "ty": 101.8
    },
    {
     "serie": "ENT",
     "nom": "Enterprise",
-    "y": 80,
+    "y": 120,
     "h": 76.5,
-    "ty": 117.7
-   },
-   {
-    "serie": "Film",
-    "nom": "Films",
-    "y": 156.5,
-    "h": 40,
-    "ty": 176.3
+    "ty": 157.7
    },
    {
     "serie": "SNW",
     "nom": "Strange New Worlds",
     "y": 196.5,
-    "h": 60.599999999999994,
+    "h": 62.599999999999994,
     "ty": 218.3
-   },
-   {
-    "serie": "DIS",
-    "nom": "Discovery, Academy, Short Treks",
-    "y": 257.1,
-    "h": 100.3,
-    "ty": 307.6
    },
    {
     "serie": "TNG",
     "nom": "The Next Generation",
-    "y": 357.40000000000003,
+    "y": 259.1,
     "h": 72.7,
-    "ty": 386.1
+    "ty": 287.8
    },
    {
     "serie": "DS9",
     "nom": "Deep Space Nine",
-    "y": 430.1,
-    "h": 130,
-    "ty": 516.1
+    "y": 331.8,
+    "h": 135.8,
+    "ty": 417.8
    },
    {
     "serie": "VOY",
     "nom": "Voyager",
-    "y": 560.1,
+    "y": 467.6,
     "h": 60.599999999999994,
-    "ty": 581.9
+    "ty": 489.40000000000003
    },
    {
     "serie": "PIC",
     "nom": "Picard",
-    "y": 620.7,
+    "y": 528.2,
     "h": 112.8,
-    "ty": 651.5
+    "ty": 559
    },
    {
     "serie": "LD",
     "nom": "Lower Decks et Prodigy",
-    "y": 733.5,
+    "y": 641,
     "h": 110.8,
-    "ty": 803.5
+    "ty": 711
+   },
+   {
+    "serie": "DIS",
+    "nom": "Discovery, Academy, Short Treks",
+    "y": 751.8,
+    "h": 108.9,
+    "ty": 806.4
    }
   ],
   "graduations": [
@@ -7809,42 +7796,42 @@
    },
    {
     "x": 611,
-    "w": 163,
+    "w": 165,
     "t": "XXIIIe s.",
     "ty": 17
    },
    {
-    "x": 774,
+    "x": 776,
     "w": 57,
     "t": "XXIIIe–XXIVe s.",
     "ty": 17
    },
    {
-    "x": 831,
+    "x": 833,
     "w": 248,
     "t": "XXIVe s.",
     "ty": 31
    },
    {
-    "x": 1079,
+    "x": 1081,
     "w": 80,
     "t": "XXVe s.",
     "ty": 17
    },
    {
-    "x": 1159,
+    "x": 1161,
     "w": 48,
     "t": "XXXIe s.",
     "ty": 17
    },
    {
-    "x": 1207,
+    "x": 1209,
     "w": 129,
     "t": "XXXIIe s.",
     "ty": 31
    },
    {
-    "x": 1336,
+    "x": 1338,
     "w": 48,
     "t": "non daté",
     "ty": 17
@@ -7856,13 +7843,13 @@
     "titre": "Déclenchement de la guerre ouverte Fédération–Dominion",
     "taille": 23,
     "serie": "DS9",
-    "x": 920,
+    "x": 922,
     "r": 30,
     "court": "Klingons, Khitomer et guerre du Dominion",
-    "y": 467,
+    "y": 369,
     "nom": "Klingons, Khitomer et guerre du Dominion",
-    "nx": 956,
-    "ny": 471,
+    "nx": 958,
+    "ny": 373,
     "nancre": "start"
    },
    {
@@ -7870,13 +7857,13 @@
     "titre": "Attaque des synthétiques sur Mars et destruction des chantiers d'Utopia Planitia",
     "taille": 16,
     "serie": "PIC",
-    "x": 1015,
+    "x": 1017,
     "r": 25,
     "court": "Augments, Kelvin et supernova romulienne",
-    "y": 702,
+    "y": 609,
     "nom": "Augments, Kelvin et supernova romulienne",
-    "nx": 1046,
-    "ny": 706,
+    "nx": 1048,
+    "ny": 613,
     "nancre": "start"
    },
    {
@@ -7884,13 +7871,13 @@
     "titre": "Le « Burn » détruit massivement les moteurs à dilithium et brise les liaisons galactiques",
     "taille": 14,
     "serie": "DIS",
-    "x": 1228,
+    "x": 1230,
     "r": 23.4,
     "court": "Burn et réunification vulcano-romulienne",
-    "y": 304,
+    "y": 802,
     "nom": "Burn et réunification vulcano-romulienne",
-    "nx": 1199,
-    "ny": 308,
+    "nx": 1201,
+    "ny": 806,
     "nancre": "end"
    },
    {
@@ -7898,13 +7885,13 @@
     "titre": "Assimilation de Picard et bataille de Wolf 359",
     "taille": 10,
     "serie": "PIC",
-    "x": 1005,
+    "x": 1007,
     "r": 19.8,
     "court": "Borg et changelings infiltrés",
-    "y": 648,
+    "y": 555,
     "nom": "Borg et changelings infiltrés",
-    "nx": 1031,
-    "ny": 652,
+    "nx": 1033,
+    "ny": 559,
     "nancre": "start"
    },
    {
@@ -7915,10 +7902,10 @@
     "x": 526,
     "r": 17.7,
     "court": "Guerre froide temporelle et crise xindie",
-    "y": 105,
+    "y": 145,
     "nom": "Guerre froide temporelle et crise xindie",
     "nx": 537,
-    "ny": 83,
+    "ny": 123,
     "nancre": "start"
    },
    {
@@ -7926,13 +7913,13 @@
     "titre": "Crise du mouvement maquisard dans la zone démilitarisée",
     "taille": 8,
     "serie": "TNG",
-    "x": 886,
+    "x": 888,
     "r": 17.7,
     "court": "Maquis",
-    "y": 382,
+    "y": 284,
     "nom": "Maquis",
-    "nx": 910,
-    "ny": 386,
+    "nx": 912,
+    "ny": 288,
     "nancre": "start"
    },
    {
@@ -7943,24 +7930,66 @@
     "x": 642,
     "r": 16.6,
     "court": "Guerre Fédération–Klingons (2256–2257)",
-    "y": 304,
+    "y": 802,
     "nom": "Guerre Fédération–Klingons (2256–2257)",
-    "nx": 632,
-    "ny": 283,
+    "nx": 619,
+    "ny": 806,
     "nancre": "end"
+   },
+   {
+    "cle": "STP-153",
+    "titre": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
+    "taille": 7,
+    "serie": "DS9",
+    "x": 990,
+    "r": 16.6,
+    "court": "Section 31 et fin de la guerre du Dominion",
+    "y": 414,
+    "nom": "Section 31 et fin de la guerre du Dominion",
+    "nx": 1013,
+    "ny": 418,
+    "nancre": "start"
+   },
+   {
+    "cle": "STP-176",
+    "titre": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
+    "taille": 7,
+    "serie": "DIS",
+    "x": 667,
+    "r": 16.6,
+    "court": null,
+    "y": 775,
+    "nom": "Tentative de réforme de…",
+    "nx": 690,
+    "ny": 779,
+    "nancre": "start"
+   },
+   {
+    "cle": "STP-044",
+    "titre": "Prise de pouvoir de Control dans les services secrets de Section 31",
+    "taille": 6,
+    "serie": "DIS",
+    "x": 658,
+    "r": 15.3,
+    "court": null,
+    "y": 838,
+    "nom": "Prise de pouvoir de Control…",
+    "nx": 679,
+    "ny": 842,
+    "nancre": "start"
    },
    {
     "cle": "STP-120",
     "titre": "Occupation cardassienne de Bajor et exploitation de Terok Nor",
     "taille": 6,
     "serie": "DS9",
-    "x": 861,
+    "x": 863,
     "r": 15.3,
     "court": "Occupation de Bajor",
-    "y": 512,
+    "y": 414,
     "nom": "Occupation de Bajor",
-    "nx": 852,
-    "ny": 540,
+    "nx": 854,
+    "ny": 442,
     "nancre": "end"
    },
    {
@@ -7971,10 +8000,10 @@
     "x": 579,
     "r": 14,
     "court": "Terra Prime et fondation de la Fédération",
-    "y": 105,
+    "y": 145,
     "nom": "Terra Prime et fondation de la Fédération",
     "nx": 599,
-    "ny": 109,
+    "ny": 149,
     "nancre": "start"
    },
    {
@@ -7982,41 +8011,27 @@
     "titre": "Guerre civile klingonne et soutien clandestin romulien à la maison Duras",
     "taille": 5,
     "serie": "TNG",
-    "x": 844,
+    "x": 846,
     "r": 14,
     "court": "Worf contre les Duras",
-    "y": 409,
+    "y": 311,
     "nom": "Worf contre les Duras",
-    "nx": 824,
-    "ny": 413,
+    "nx": 826,
+    "ny": 315,
     "nancre": "end"
-   },
-   {
-    "cle": "STP-153",
-    "titre": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
-    "taille": 5,
-    "serie": "DS9",
-    "x": 990,
-    "r": 14,
-    "court": "Section 31 et fin de la guerre du Dominion",
-    "y": 539,
-    "nom": "Section 31 et fin de la guerre du Dominion",
-    "nx": 1010,
-    "ny": 543,
-    "nancre": "start"
    },
    {
     "cle": "STP-221",
     "titre": "Projet du Diviner visant à anéantir Starfleet pour empêcher un premier contact fatal à sa planète",
     "taille": 5,
     "serie": "LD",
-    "x": 1044,
+    "x": 1046,
     "r": 14,
     "court": "Diviner et guerre de Solum",
-    "y": 755,
+    "y": 662,
     "nom": "Diviner et guerre de Solum",
-    "nx": 1064,
-    "ny": 759,
+    "nx": 1066,
+    "ny": 666,
     "nancre": "start"
    },
    {
@@ -8024,24 +8039,14 @@
     "titre": "Kirk plaide pour une réforme pacifique auprès de Spock Miroir",
     "taille": 5,
     "serie": "DS9",
-    "x": 755,
+    "x": 757,
     "r": 14,
     "court": "Univers Miroir",
-    "y": 512,
+    "y": 414,
     "nom": "Univers Miroir",
-    "nx": 735,
-    "ny": 516,
+    "nx": 737,
+    "ny": 418,
     "nancre": "end"
-   },
-   {
-    "cle": "STP-044",
-    "titre": "Prise de pouvoir de Control dans les services secrets de Section 31",
-    "taille": 4,
-    "serie": "DIS",
-    "x": 663,
-    "r": 12.5,
-    "court": null,
-    "y": 277
    },
    {
     "cle": "STP-004",
@@ -8051,7 +8056,7 @@
     "x": 458,
     "r": 10.8,
     "court": null,
-    "y": 58
+    "y": 98
    },
    {
     "cle": "STP-030",
@@ -8061,14 +8066,14 @@
     "x": 555,
     "r": 10.8,
     "court": null,
-    "y": 123
+    "y": 163
    },
    {
     "cle": "STP-047",
     "titre": "Arrestation d’Una Chin-Riley après la révélation de son origine illyrienne",
     "taille": 3,
     "serie": "SNW",
-    "x": 693,
+    "x": 691,
     "r": 10.8,
     "court": null,
     "y": 214
@@ -8078,110 +8083,110 @@
     "titre": "Ouverture du passage vers le quadrant Gamma et statut stratégique de Bajor",
     "taille": 3,
     "serie": "DS9",
-    "x": 878,
+    "x": 880,
     "r": 10.8,
     "court": null,
-    "y": 485
+    "y": 387
+   },
+   {
+    "cle": "STP-063",
+    "titre": "Désobéissance de James Kirk à l’ordre de destruction d’Argus II",
+    "taille": 3,
+    "serie": "SNW",
+    "x": 770,
+    "r": 10.8,
+    "court": null,
+    "y": 241
    },
    {
     "cle": "STP-145",
     "titre": "Report de l’adhésion de Bajor à la Fédération demandé par l’Émissaire Sisko",
     "taille": 3,
     "serie": "DS9",
-    "x": 949,
+    "x": 951,
     "r": 10.8,
     "court": null,
-    "y": 512
+    "y": 414
    },
    {
     "cle": "STP-159",
     "titre": "Réformes ferengies : émancipation économique des femmes et droits sociaux",
     "taille": 3,
     "serie": "DS9",
-    "x": 998,
+    "x": 1000,
     "r": 10.8,
     "court": null,
-    "y": 494
+    "y": 450
    },
    {
     "cle": "STP-162",
     "titre": "Promotion par le combat chez les Kazon-Ogla et projet de Culluh d'unir les sectes kazones grâce à la technologie de Voyager",
     "taille": 3,
     "serie": "VOY",
-    "x": 927,
+    "x": 929,
     "r": 10.8,
     "court": null,
-    "y": 578
-   },
-   {
-    "cle": "STP-176",
-    "titre": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
-    "taille": 3,
-    "serie": "DIS",
-    "x": 655,
-    "r": 10.8,
-    "court": null,
-    "y": 340
+    "y": 485
    },
    {
     "cle": "STP-184",
     "titre": "Négociation de fusion institutionnelle proposée par Osyraa à la Fédération",
     "taille": 3,
     "serie": "DIS",
-    "x": 1239,
+    "x": 1241,
     "r": 10.8,
     "court": null,
-    "y": 340
+    "y": 838
    },
    {
     "cle": "STP-188",
     "titre": "Débat institutionnel sur une attaque préventive contre l'espèce 10-C",
     "taille": 3,
     "serie": "DIS",
-    "x": 1263,
+    "x": 1265,
     "r": 10.8,
     "court": null,
-    "y": 322
+    "y": 820
    },
    {
     "cle": "STP-191",
     "titre": "Lutte successorale des Primarques breens autour de L'ak et Moll",
     "taille": 3,
     "serie": "DIS",
-    "x": 1280,
+    "x": 1282,
     "r": 10.8,
     "court": null,
-    "y": 304
+    "y": 802
    },
    {
     "cle": "STP-211",
     "titre": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour l'explosion d'une bombe sur la planète Pakled",
     "taille": 3,
     "serie": "LD",
-    "x": 1019,
+    "x": 1021,
     "r": 10.8,
     "court": null,
-    "y": 800
+    "y": 707
    },
    {
     "cle": "STP-213",
     "titre": "Reconfiguration des relations orioniennes avec Starfleet autour de Tendi",
     "taille": 3,
     "serie": "LD",
-    "x": 1029,
+    "x": 1031,
     "r": 10.8,
     "court": null,
-    "y": 827
+    "y": 734
    },
    {
     "cle": "STP-231",
     "titre": "Menace d’une chaîne de mines Omega-47 perturbant les voyages à distorsion",
     "taille": 3,
     "serie": "DIS",
-    "x": 1310,
+    "x": 1312,
     "r": 10.8,
     "court": null,
-    "y": 304
+    "y": 802
    },
    {
     "cle": "STP-001",
@@ -8191,7 +8196,7 @@
     "x": 289,
     "r": 8.8,
     "court": null,
-    "y": 58
+    "y": 98
    },
    {
     "cle": "STP-008",
@@ -8201,7 +8206,7 @@
     "x": 367,
     "r": 8.8,
     "court": null,
-    "y": 648
+    "y": 555
    },
    {
     "cle": "STP-012",
@@ -8211,7 +8216,7 @@
     "x": 412,
     "r": 8.8,
     "court": null,
-    "y": 172
+    "y": 56
    },
    {
     "cle": "STP-019",
@@ -8221,7 +8226,7 @@
     "x": 497,
     "r": 8.8,
     "court": null,
-    "y": 114
+    "y": 154
    },
    {
     "cle": "STP-021",
@@ -8231,7 +8236,7 @@
     "x": 503,
     "r": 8.8,
     "court": null,
-    "y": 141
+    "y": 181
    },
    {
     "cle": "STP-036",
@@ -8241,157 +8246,107 @@
     "x": 590,
     "r": 8.8,
     "court": null,
-    "y": 58
+    "y": 98
    },
    {
     "cle": "STP-083",
     "titre": "Coup d'État de Shinzon contre le Sénat romulien",
     "taille": 2,
     "serie": "Film",
-    "x": 1010,
+    "x": 1012,
     "r": 8.8,
     "court": null,
-    "y": 172
+    "y": 56
    },
    {
     "cle": "STP-094",
     "titre": "Audience déterminant si Data est propriété de Starfleet ou libre de refuser son démontage",
     "taille": 2,
     "serie": "TNG",
-    "x": 832,
+    "x": 834,
     "r": 8.8,
     "court": null,
-    "y": 382
+    "y": 284
    },
    {
     "cle": "STP-124",
     "titre": "Crise autour de l’enseignement des Prophètes à bord de la station et ascension de Vedek Winn",
     "taille": 2,
     "serie": "DS9",
-    "x": 871,
+    "x": 873,
     "r": 8.8,
     "court": null,
-    "y": 539
+    "y": 441
    },
    {
     "cle": "STP-133",
     "titre": "Enlèvement de Kira par l'Ordre obsidien et sort des orphelins cardassiens élevés par des Bajorans",
     "taille": 2,
     "serie": "DS9",
-    "x": 895,
+    "x": 897,
     "r": 8.8,
     "court": null,
-    "y": 512
+    "y": 414
    },
    {
     "cle": "STP-134",
     "titre": "Rivalité politique Winn–Shakaar sur l'usage des matériels agricoles",
     "taille": 2,
     "serie": "DS9",
-    "x": 905,
+    "x": 907,
     "r": 8.8,
     "court": null,
-    "y": 539
-   },
-   {
-    "cle": "STP-154",
-    "titre": "Gowron détourne les campagnes militaires pour affaiblir Martok",
-    "taille": 2,
-    "serie": "DS9",
-    "x": 983,
-    "r": 8.8,
-    "court": null,
-    "y": 512
+    "y": 441
    },
    {
     "cle": "STP-165",
     "titre": "Crise du droit politique des Q, interdiction d'assister au suicide",
     "taille": 2,
     "serie": "VOY",
-    "x": 929,
+    "x": 931,
     "r": 8.8,
     "court": null,
-    "y": 605
+    "y": 512
    },
    {
     "cle": "STP-169",
     "titre": "Occupation de Voyager par les Hirogens, qui contraignent l’équipage à des simulations de chasse",
     "taille": 2,
     "serie": "VOY",
-    "x": 973,
+    "x": 975,
     "r": 8.8,
     "court": null,
-    "y": 578
-   },
-   {
-    "cle": "STP-177",
-    "titre": "Répression anti-extraterrestres de l'Empire terrien et pouvoir autocratique de Georgiou",
-    "taille": 2,
-    "serie": "Film",
-    "x": 621,
-    "r": 8.8,
-    "court": null,
-    "y": 172
-   },
-   {
-    "cle": "STP-194",
-    "titre": "Exode ancien de dissidents de l’Empire terrien, découvert dans l’épave du ISS Enterprise en 3191",
-    "taille": 2,
-    "serie": "DIS",
-    "x": 788,
-    "r": 8.8,
-    "court": null,
-    "y": 304
+    "y": 485
    },
    {
     "cle": "STP-219",
     "titre": "Captivité de mineurs extraterrestres dans les mines de Tars Lamora",
     "taille": 2,
     "serie": "LD",
-    "x": 1034,
+    "x": 1036,
     "r": 8.8,
     "court": null,
-    "y": 782
+    "y": 689
    },
    {
     "cle": "STP-225",
     "titre": "Ralliement de la jeune Asencia à la rébellion contre sa version future",
     "taille": 2,
     "serie": "LD",
-    "x": 1058,
+    "x": 1060,
     "r": 8.8,
     "court": null,
-    "y": 800
-   },
-   {
-    "cle": "STP-266",
-    "titre": "Saru subit la hiérarchie Kelpiens–Ba'ul et cherche une autre vie",
-    "taille": 2,
-    "serie": "DIS",
-    "x": 613,
-    "r": 8.8,
-    "court": null,
-    "y": 304
+    "y": 707
    },
    {
     "cle": "STP-298",
     "titre": "Occupation militaire klingonne de Mat’aar XII et résistance locale",
     "taille": 2,
     "serie": "SNW",
-    "x": 759,
+    "x": 762,
     "r": 8.8,
     "court": null,
     "y": 214
-   },
-   {
-    "cle": "STP-300",
-    "titre": "Ordre de l’amiral Reeger de détruire Argus II",
-    "taille": 2,
-    "serie": "SNW",
-    "x": 768,
-    "r": 8.8,
-    "court": null,
-    "y": 241
    },
    {
     "cle": "STP-302",
@@ -8406,21 +8361,27 @@
   ],
   "liens": [
    {
+    "de": "STP-060",
+    "vers": "STP-153",
+    "n": 1,
+    "d": "M922,369 Q956,351 990,414"
+   },
+   {
     "de": "STP-103",
     "vers": "STP-060",
     "n": 1,
-    "d": "M886,382 Q903,364 920,467"
+    "d": "M888,284 Q905,266 922,369"
    },
    {
     "de": "STP-123",
     "vers": "STP-060",
     "n": 1,
-    "d": "M878,485 Q899,449 920,467"
+    "d": "M880,387 Q901,351 922,369"
    }
   ]
  },
  "graphe": {
-  "largeur": 2285,
+  "largeur": 2288,
   "hauteur": 720,
   "bandes": [
    {
@@ -8456,42 +8417,42 @@
    {
     "nom": "XXIIIe siècle",
     "x": 750,
-    "w": 321,
-    "n": 39
+    "w": 324,
+    "n": 40
    },
    {
     "nom": "Entre le XXIIIe et le XXIVe siècle",
-    "x": 1071,
+    "x": 1074,
     "w": 108,
     "n": 2
    },
    {
     "nom": "XXIVe siècle",
-    "x": 1179,
+    "x": 1182,
     "w": 490,
     "n": 102
    },
    {
     "nom": "XXVe siècle",
-    "x": 1669,
+    "x": 1672,
     "w": 154,
     "n": 6
    },
    {
     "nom": "XXXIe siècle",
-    "x": 1823,
+    "x": 1826,
     "w": 90,
     "n": 1
    },
    {
     "nom": "XXXIIe siècle",
-    "x": 1913,
+    "x": 1916,
     "w": 252,
     "n": 22
    },
    {
     "nom": "Non ordonnable sans interprétation",
-    "x": 2165,
+    "x": 2168,
     "w": 90,
     "n": 1
    }
@@ -8500,7 +8461,7 @@
    {
     "id": "STP-004",
     "x": 44,
-    "y": 114,
+    "y": 256,
     "r": 6.2,
     "d": 1,
     "titre": "Domination de la galaxie par l'ancienne civilisation des Slavers et son extermination dans une guerre",
@@ -8510,7 +8471,7 @@
    {
     "id": "STP-302",
     "x": 73,
-    "y": 205,
+    "y": 282,
     "r": 6.2,
     "d": 1,
     "titre": "Guerre interplanétaire entre Martiens anciens et Dol’drm",
@@ -8520,7 +8481,7 @@
    {
     "id": "STP-303",
     "x": 102,
-    "y": 230,
+    "y": 307,
     "r": 6.2,
     "d": 1,
     "titre": "Décision de Pike de ne pas modifier le résultat d’une guerre ancienne",
@@ -8550,15 +8511,12 @@
    {
     "id": "STP-005",
     "x": 219,
-    "y": 302,
+    "y": 312,
     "r": 7.8,
     "d": 3,
     "titre": "Guerres eugéniques et domination de Khan et des « Augments »",
     "serie": "TOS",
-    "periode": "1992–1996 / chronologie instable",
-    "court": "Guerres eugéniques et…",
-    "tx": 207,
-    "ancre": "end"
+    "periode": "1992–1996 / chronologie instable"
    },
    {
     "id": "STP-008",
@@ -8573,20 +8531,20 @@
    {
     "id": "STP-009",
     "x": 307,
-    "y": 270,
+    "y": 276,
     "r": 7.1,
     "d": 2,
     "titre": "Seconde guerre civile américaine et guerres eugéniques menant à la Troisième Guerre mondiale",
     "serie": "SNW",
     "periode": "2026–2050s env.",
     "court": "Seconde guerre civile…",
-    "tx": 318,
-    "ancre": "start"
+    "tx": 296,
+    "ancre": "end"
    },
    {
     "id": "STP-011",
     "x": 336,
-    "y": 297,
+    "y": 303,
     "r": 6.2,
     "d": 1,
     "titre": "Terre en reconstruction au sortir de la Troisième Guerre mondiale (datations et bilan variables selon les récits)",
@@ -8596,7 +8554,7 @@
    {
     "id": "STP-012",
     "x": 365,
-    "y": 323,
+    "y": 328,
     "r": 6.2,
     "d": 1,
     "titre": "Premier contact humain–vulcain après le vol de Zefram Cochrane",
@@ -8606,7 +8564,7 @@
    {
     "id": "STP-010",
     "x": 394,
-    "y": 348,
+    "y": 354,
     "r": 6.2,
     "d": 1,
     "titre": "Régime et crimes militaires du colonel Phillip Green",
@@ -8616,7 +8574,7 @@
    {
     "id": "STP-014",
     "x": 453,
-    "y": 114,
+    "y": 279,
     "r": 6.2,
     "d": 1,
     "titre": "Quatre guerres de l'humanité avec les Kzinti, évoquées rétrospectivement",
@@ -8626,7 +8584,7 @@
    {
     "id": "STP-016",
     "x": 504,
-    "y": 191,
+    "y": 190,
     "r": 6.2,
     "d": 1,
     "titre": "Premier contact conflictuel avec les Klingons autour de Klaang",
@@ -8643,8 +8601,8 @@
     "serie": "ENT",
     "periode": "2151",
     "court": "Guerre froide temporelle :…",
-    "tx": 503,
-    "ancre": "end"
+    "tx": 527,
+    "ancre": "start"
    },
    {
     "id": "STP-019",
@@ -8659,7 +8617,7 @@
    {
     "id": "STP-021",
     "x": 538,
-    "y": 304,
+    "y": 303,
     "r": 6.2,
     "d": 1,
     "titre": "Crise militaro-diplomatique entre Andoria et Vulcain autour de P'Jem",
@@ -8689,7 +8647,7 @@
    {
     "id": "STP-243",
     "x": 572,
-    "y": 414,
+    "y": 413,
     "r": 6.2,
     "d": 1,
     "titre": "Stigmatisation institutionnelle des Vulcains atteints du syndrome de Pa'nar",
@@ -8730,10 +8688,7 @@
     "d": 2,
     "titre": "Manipulation des Xindis par les Constructeurs de sphères",
     "serie": "ENT",
-    "periode": "2154",
-    "court": "Manipulation des Xindis par…",
-    "tx": 596,
-    "ancre": "end"
+    "periode": "2154"
    },
    {
     "id": "STP-029",
@@ -8790,7 +8745,7 @@
    {
     "id": "STP-033",
     "x": 664,
-    "y": 238,
+    "y": 240,
     "r": 6.2,
     "d": 1,
     "titre": "Alliance temporaire d'États contre le drone romulien qui provoque des incidents sous faux pavillon",
@@ -8800,33 +8755,27 @@
    {
     "id": "STP-290",
     "x": 676,
-    "y": 275,
+    "y": 278,
     "r": 7.1,
     "d": 2,
     "titre": "Décision d’Archer de s’emparer d’un module de distorsion au détriment de son propriétaire",
     "serie": "ENT",
-    "periode": "2154",
-    "court": "Décision d’Archer de…",
-    "tx": 687,
-    "ancre": "start"
+    "periode": "2154"
    },
    {
     "id": "STP-034",
     "x": 687,
-    "y": 314,
+    "y": 317,
     "r": 7.1,
     "d": 2,
     "titre": "Proclamation et développement d'une coalition anti-étrangers Terra Prime",
     "serie": "ENT",
-    "periode": "2155",
-    "court": "Proclamation et…",
-    "tx": 698,
-    "ancre": "start"
+    "periode": "2155"
    },
    {
     "id": "STP-035",
     "x": 698,
-    "y": 353,
+    "y": 356,
     "r": 7.8,
     "d": 3,
     "titre": "Conférence interplanétaire ouvrant la voie à la Coalition des planètes",
@@ -8856,7 +8805,7 @@
    {
     "id": "STP-038",
     "x": 733,
-    "y": 297,
+    "y": 316,
     "r": 6.2,
     "d": 1,
     "titre": "Fondation de la Fédération unie des planètes en 2161",
@@ -8866,7 +8815,7 @@
    {
     "id": "STP-015",
     "x": 744,
-    "y": 334,
+    "y": 353,
     "r": 6.2,
     "d": 1,
     "titre": "Contrôle vulcain indirect de l'expansion spatiale humaine et tensions diplomatiques",
@@ -8876,7 +8825,7 @@
    {
     "id": "STP-266",
     "x": 754,
-    "y": 217,
+    "y": 163,
     "r": 6.2,
     "d": 1,
     "titre": "Saru subit la hiérarchie Kelpiens–Ba'ul et cherche une autre vie",
@@ -8886,20 +8835,17 @@
    {
     "id": "STP-085",
     "x": 762,
-    "y": 255,
+    "y": 202,
     "r": 7.1,
     "d": 2,
     "titre": "Attaque du Narada contre l'USS Kelvin, divergence historique",
     "serie": "Film",
-    "periode": "2233 (Kelvin)",
-    "court": "Attaque du Narada contre…",
-    "tx": 751,
-    "ancre": "end"
+    "periode": "2233 (Kelvin)"
    },
    {
     "id": "STP-177",
-    "x": 771,
-    "y": 294,
+    "x": 770,
+    "y": 240,
     "r": 6.2,
     "d": 1,
     "titre": "Répression anti-extraterrestres de l'Empire terrien et pouvoir autocratique de Georgiou",
@@ -8908,44 +8854,41 @@
    },
    {
     "id": "STP-288",
-    "x": 779,
-    "y": 353,
-    "r": 7.1,
-    "d": 2,
+    "x": 778,
+    "y": 279,
+    "r": 7.8,
+    "d": 3,
     "titre": "Tentative de réforme de l’Empire terrien par Georgiou dans l’expérience « Terra Firma »",
     "serie": "DIS",
     "periode": "2250s (expérience de réalité alternative)"
    },
    {
     "id": "STP-039",
-    "x": 787,
-    "y": 392,
+    "x": 786,
+    "y": 353,
     "r": 7.1,
     "d": 2,
     "titre": "Incident du Binaire et escalade vers la guerre Fédération–Klingons",
     "serie": "DIS",
-    "periode": "2256",
-    "court": "Incident du Binaire et…",
-    "tx": 776,
-    "ancre": "end"
+    "periode": "2256"
    },
    {
     "id": "STP-040",
     "x": 795,
-    "y": 431,
+    "y": 392,
     "r": 7.1,
     "d": 2,
     "titre": "Ascension politique de T'Kuvma par la rhétorique unificatrice anti-Fédération",
     "serie": "DIS",
     "periode": "2256",
     "court": "Ascension politique de…",
-    "tx": 806,
-    "ancre": "start"
+    "tx": 783,
+    "ancre": "end"
    },
    {
     "id": "STP-041",
-    "x": 804,
-    "y": 319,
+    "x": 803,
+    "y": 314,
     "r": 8.9,
     "d": 5,
     "titre": "Guerre Fédération–Empire klingon et atrocités contre des civils",
@@ -8954,21 +8897,21 @@
    },
    {
     "id": "STP-042",
-    "x": 812,
-    "y": 178,
+    "x": 811,
+    "y": 130,
     "r": 7.1,
     "d": 2,
     "titre": "Projet fédéral d'anéantir Qo'noS, abandonné sous la menace d'une mutinerie de l'équipage",
     "serie": "DIS",
     "periode": "2257",
     "court": "Projet fédéral d'anéantir…",
-    "tx": 823,
+    "tx": 822,
     "ancre": "start"
    },
    {
     "id": "STP-043",
-    "x": 820,
-    "y": 217,
+    "x": 819,
+    "y": 168,
     "r": 6.2,
     "d": 1,
     "titre": "L'Rell impose une nouvelle unification politique de l'Empire klingon",
@@ -8977,18 +8920,18 @@
    },
    {
     "id": "STP-044",
-    "x": 828,
-    "y": 256,
-    "r": 7.8,
-    "d": 3,
+    "x": 827,
+    "y": 208,
+    "r": 8.4,
+    "d": 4,
     "titre": "Prise de pouvoir de Control dans les services secrets de Section 31",
     "serie": "DIS",
     "periode": "2257"
    },
    {
     "id": "STP-176",
-    "x": 836,
-    "y": 295,
+    "x": 835,
+    "y": 248,
     "r": 6.2,
     "d": 1,
     "titre": "Tentative de renversement de l'Empire terrien de Georgiou dans l'univers Miroir",
@@ -8997,18 +8940,18 @@
    },
    {
     "id": "STP-286",
-    "x": 845,
-    "y": 332,
-    "r": 6.2,
-    "d": 1,
+    "x": 843,
+    "y": 286,
+    "r": 7.1,
+    "d": 2,
     "titre": "Remise en cause du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
     "serie": "DIS",
     "periode": "2257"
    },
    {
     "id": "STP-287",
-    "x": 853,
-    "y": 370,
+    "x": 851,
+    "y": 324,
     "r": 6.2,
     "d": 1,
     "titre": "Révélation de la formation d’une communauté humaine isolée sur New Eden et désaccord sur l’intervention",
@@ -9017,28 +8960,31 @@
    },
    {
     "id": "STP-267",
-    "x": 861,
-    "y": 407,
-    "r": 6.2,
-    "d": 1,
+    "x": 859,
+    "y": 363,
+    "r": 7.1,
+    "d": 2,
     "titre": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend",
     "serie": "Film",
     "periode": "Après 2257 (chronologie secondaire)"
    },
    {
     "id": "STP-268",
-    "x": 869,
-    "y": 195,
-    "r": 6.2,
-    "d": 1,
+    "x": 867,
+    "y": 179,
+    "r": 7.1,
+    "d": 2,
     "titre": "Confrontation de Georgiou aux crimes commis pendant son règne dans l’Empire terrien",
     "serie": "Film",
-    "periode": "Après 2257 (chronologie secondaire)"
+    "periode": "Après 2257 (chronologie secondaire)",
+    "court": "Confrontation de Georgiou…",
+    "tx": 879,
+    "ancre": "start"
    },
    {
     "id": "STP-045",
-    "x": 878,
-    "y": 232,
+    "x": 876,
+    "y": 217,
     "r": 6.2,
     "d": 1,
     "titre": "Effacement institutionnel d'informations sur Discovery et son équipage",
@@ -9047,8 +8993,8 @@
    },
    {
     "id": "STP-086",
-    "x": 886,
-    "y": 271,
+    "x": 884,
+    "y": 255,
     "r": 7.1,
     "d": 2,
     "titre": "Destruction de Vulcain par Nero",
@@ -9057,8 +9003,8 @@
    },
    {
     "id": "STP-046",
-    "x": 894,
-    "y": 309,
+    "x": 892,
+    "y": 294,
     "r": 6.2,
     "d": 1,
     "titre": "Crise politique de la planète Kiley 279 à cause d'une technique de destruction dérivée du moteur de distorsion",
@@ -9067,8 +9013,8 @@
    },
    {
     "id": "STP-047",
-    "x": 902,
-    "y": 348,
+    "x": 900,
+    "y": 332,
     "r": 7.1,
     "d": 2,
     "titre": "Arrestation d’Una Chin-Riley après la révélation de son origine illyrienne",
@@ -9077,8 +9023,8 @@
    },
    {
     "id": "STP-048",
-    "x": 911,
-    "y": 387,
+    "x": 908,
+    "y": 372,
     "r": 7.1,
     "d": 2,
     "titre": "Procès d'Una, reconnaissance d'un droit d'asile contre la persécution illyrienne",
@@ -9087,21 +9033,18 @@
    },
    {
     "id": "STP-050",
-    "x": 919,
-    "y": 247,
+    "x": 916,
+    "y": 230,
     "r": 7.1,
     "d": 2,
     "titre": "Clivages sociaux d'Illyriens génétiquement modifiés et lois de ségrégation",
     "serie": "SNW",
-    "periode": "2259",
-    "court": "Clivages sociaux d'Illyriens…",
-    "tx": 930,
-    "ancre": "start"
+    "periode": "2259"
    },
    {
     "id": "STP-052",
-    "x": 927,
-    "y": 286,
+    "x": 924,
+    "y": 268,
     "r": 6.2,
     "d": 1,
     "titre": "Tentative d'extension du conflit entre Fédération et Klingons par factions dissidentes",
@@ -9110,8 +9053,8 @@
    },
    {
     "id": "STP-053",
-    "x": 935,
-    "y": 323,
+    "x": 932,
+    "y": 306,
     "r": 6.2,
     "d": 1,
     "titre": "Révélations sur les atrocités du général Dak'Rah à J'Gal et décès lors de son passage diplomatique",
@@ -9120,18 +9063,21 @@
    },
    {
     "id": "STP-087",
-    "x": 943,
-    "y": 362,
+    "x": 940,
+    "y": 344,
     "r": 7.1,
     "d": 2,
     "titre": "Programme secret de militarisation Starfleet et complot de l'amiral Marcus",
     "serie": "Film",
-    "periode": "2259 (Kelvin)"
+    "periode": "2259 (Kelvin)",
+    "court": "Programme secret de…",
+    "tx": 951,
+    "ancre": "start"
    },
    {
     "id": "STP-060",
-    "x": 952,
-    "y": 400,
+    "x": 948,
+    "y": 382,
     "r": 6.2,
     "d": 1,
     "titre": "Intervention indirecte dans le conflit de Tyree face à des armes klingonnes",
@@ -9140,18 +9086,31 @@
    },
    {
     "id": "STP-062",
-    "x": 960,
-    "y": 439,
+    "x": 957,
+    "y": 422,
     "r": 7.8,
     "d": 3,
     "titre": "Projet impérial klingon à Organia stoppé par les Organiens",
+    "serie": "TOS",
+    "periode": "2260s",
+    "court": "Projet impérial klingon à…",
+    "tx": 945,
+    "ancre": "end"
+   },
+   {
+    "id": "STP-063",
+    "x": 965,
+    "y": 566,
+    "r": 6.2,
+    "d": 1,
+    "titre": "Violation réciproque de la zone neutre et crise avec Romulus",
     "serie": "TOS",
     "periode": "2260s"
    },
    {
     "id": "STP-065",
-    "x": 968,
-    "y": 478,
+    "x": 973,
+    "y": 242,
     "r": 6.2,
     "d": 1,
     "titre": "Lutte de succession sur Capella IV et accord minier disputé entre Fédération et Klingons",
@@ -9160,21 +9119,18 @@
    },
    {
     "id": "STP-072",
-    "x": 976,
-    "y": 114,
+    "x": 981,
+    "y": 280,
     "r": 7.1,
     "d": 2,
     "titre": "Tentative des Kzinti de s'emparer d'une arme slaver pour une nouvelle guerre contre la Fédération",
     "serie": "TAS",
-    "periode": "2260s",
-    "court": "Tentative des Kzinti de…",
-    "tx": 987,
-    "ancre": "start"
+    "periode": "2260s"
    },
    {
     "id": "STP-074",
-    "x": 985,
-    "y": 273,
+    "x": 989,
+    "y": 319,
     "r": 6.2,
     "d": 1,
     "titre": "Retour de Khan et poursuite d'une revanche contre Kirk",
@@ -9183,8 +9139,8 @@
    },
    {
     "id": "STP-077",
-    "x": 993,
-    "y": 311,
+    "x": 997,
+    "y": 356,
     "r": 6.2,
     "d": 1,
     "titre": "Explosion de Praxis et crise économique-écologique de l'Empire klingon",
@@ -9193,8 +9149,8 @@
    },
    {
     "id": "STP-078",
-    "x": 1001,
-    "y": 348,
+    "x": 1005,
+    "y": 394,
     "r": 6.2,
     "d": 1,
     "titre": "Assassinat du chancelier Gorkon et conspiration de faucons klingons et fédéraux",
@@ -9203,21 +9159,21 @@
    },
    {
     "id": "STP-079",
-    "x": 1009,
-    "y": 388,
+    "x": 1013,
+    "y": 434,
     "r": 8.4,
     "d": 4,
     "titre": "Accords de Khitomer et nouveau cadre de paix",
     "serie": "Film",
     "periode": "2293",
     "court": "Accords de Khitomer et…",
-    "tx": 1022,
+    "tx": 1026,
     "ancre": "start"
    },
    {
     "id": "STP-233",
-    "x": 1018,
-    "y": 428,
+    "x": 1021,
+    "y": 230,
     "r": 6.2,
     "d": 1,
     "titre": "Empire terrien esclavagiste et doctrine de terreur",
@@ -9226,21 +9182,18 @@
    },
    {
     "id": "STP-234",
-    "x": 1026,
-    "y": 288,
+    "x": 1029,
+    "y": 269,
     "r": 7.8,
     "d": 3,
     "titre": "Kirk plaide pour une réforme pacifique auprès de Spock Miroir",
     "serie": "TOS",
-    "periode": "XXIIIe siècle Miroir",
-    "court": "Kirk plaide pour une réforme…",
-    "tx": 1038,
-    "ancre": "start"
+    "periode": "XXIIIe siècle Miroir"
    },
    {
     "id": "STP-235",
-    "x": 1034,
-    "y": 327,
+    "x": 1038,
+    "y": 308,
     "r": 6.2,
     "d": 1,
     "titre": "Spock Miroir engage des réformes et affaiblit l'Empire terrien",
@@ -9249,8 +9202,8 @@
    },
    {
     "id": "STP-298",
-    "x": 1042,
-    "y": 364,
+    "x": 1046,
+    "y": 358,
     "r": 6.2,
     "d": 1,
     "titre": "Occupation militaire klingonne de Mat’aar XII et résistance locale",
@@ -9259,8 +9212,8 @@
    },
    {
     "id": "STP-299",
-    "x": 1050,
-    "y": 402,
+    "x": 1054,
+    "y": 396,
     "r": 6.2,
     "d": 1,
     "titre": "Assassinat de Nevette et crise de légitimité au sein de la résistance de Mat’aar XII",
@@ -9269,8 +9222,8 @@
    },
    {
     "id": "STP-300",
-    "x": 1059,
-    "y": 439,
+    "x": 1062,
+    "y": 529,
     "r": 6.2,
     "d": 1,
     "titre": "Ordre de l’amiral Reeger de détruire Argus II",
@@ -9279,18 +9232,21 @@
    },
    {
     "id": "STP-301",
-    "x": 1067,
-    "y": 477,
-    "r": 6.2,
-    "d": 1,
+    "x": 1070,
+    "y": 567,
+    "r": 7.1,
+    "d": 2,
     "titre": "Désobéissance de James Kirk à l’ordre de destruction d’Argus II",
     "serie": "SNW",
-    "periode": "XXIIIe siècle"
+    "periode": "XXIIIe siècle",
+    "court": "Désobéissance de James Kirk…",
+    "tx": 1081,
+    "ancre": "start"
    },
    {
     "id": "STP-194",
-    "x": 1098,
-    "y": 138,
+    "x": 1101,
+    "y": 255,
     "r": 6.2,
     "d": 1,
     "titre": "Exode ancien de dissidents de l’Empire terrien, découvert dans l’épave du ISS Enterprise en 3191",
@@ -9299,18 +9255,18 @@
    },
    {
     "id": "STP-239",
-    "x": 1152,
-    "y": 138,
-    "r": 6.2,
-    "d": 1,
+    "x": 1155,
+    "y": 250,
+    "r": 7.1,
+    "d": 2,
     "titre": "Réformes d’un haut chancelier de l’Empire terrien, assassinat et fuite de dissidents sur le ISS Enterprise",
     "serie": "DIS",
     "periode": "Entre 2267 et la fin du XXIVe siècle, Miroir"
    },
    {
     "id": "STP-094",
-    "x": 1181,
-    "y": 268,
+    "x": 1184,
+    "y": 276,
     "r": 6.2,
     "d": 1,
     "titre": "Audience déterminant si Data est propriété de Starfleet ou libre de refuser son démontage",
@@ -9319,8 +9275,8 @@
    },
    {
     "id": "STP-097",
-    "x": 1186,
-    "y": 306,
+    "x": 1189,
+    "y": 314,
     "r": 6.2,
     "d": 1,
     "titre": "Dévoilement du massacre de Khitomer et mensonge de l'élite klingonne",
@@ -9329,21 +9285,18 @@
    },
    {
     "id": "STP-098",
-    "x": 1191,
-    "y": 347,
+    "x": 1194,
+    "y": 355,
     "r": 8.9,
     "d": 5,
     "titre": "Assimilation de Picard et bataille de Wolf 359",
     "serie": "TNG",
-    "periode": "2366–2367",
-    "court": "Assimilation de Picard et…",
-    "tx": 1178,
-    "ancre": "end"
+    "periode": "2366–2367"
    },
    {
     "id": "STP-117",
-    "x": 1196,
-    "y": 387,
+    "x": 1199,
+    "y": 395,
     "r": 6.2,
     "d": 1,
     "titre": "Tentative de confiscation par Starfleet de Lal, enfant de Data",
@@ -9352,8 +9305,8 @@
    },
    {
     "id": "STP-278",
-    "x": 1201,
-    "y": 425,
+    "x": 1204,
+    "y": 433,
     "r": 6.2,
     "d": 1,
     "titre": "Guerre Fédération–Klingons dans la chronologie créée par le déplacement de l’Enterprise-C",
@@ -9362,34 +9315,34 @@
    },
    {
     "id": "STP-100",
-    "x": 1205,
-    "y": 464,
+    "x": 1208,
+    "y": 472,
     "r": 7.1,
     "d": 2,
     "titre": "Crise de succession du chancelier K'mpec et rivalité Gowron–Duras",
     "serie": "TNG",
     "periode": "2367",
     "court": "Crise de succession du…",
-    "tx": 1194,
+    "tx": 1197,
     "ancre": "end"
    },
    {
     "id": "STP-102",
-    "x": 1210,
-    "y": 505,
+    "x": 1213,
+    "y": 513,
     "r": 7.8,
     "d": 3,
     "titre": "Guerre civile klingonne et soutien clandestin romulien à la maison Duras",
     "serie": "TNG",
     "periode": "2367",
     "court": "Guerre civile klingonne et…",
-    "tx": 1198,
+    "tx": 1201,
     "ancre": "end"
    },
    {
     "id": "STP-113",
-    "x": 1215,
-    "y": 202,
+    "x": 1218,
+    "y": 206,
     "r": 6.2,
     "d": 1,
     "titre": "Raid illégal du capitaine Maxwell contre des vaisseaux cardassiens soupçonnés de réarmement",
@@ -9398,8 +9351,8 @@
    },
    {
     "id": "STP-105",
-    "x": 1220,
-    "y": 240,
+    "x": 1223,
+    "y": 244,
     "r": 7.1,
     "d": 2,
     "titre": "Programme secret romulien de conquête de Vulcain sous couvert de réunification",
@@ -9408,8 +9361,8 @@
    },
    {
     "id": "STP-276",
-    "x": 1225,
-    "y": 293,
+    "x": 1228,
+    "y": 297,
     "r": 6.2,
     "d": 1,
     "titre": "Affaire de l’attentat bajoran attribué à Orta et dissimulation de la responsabilité de l’amiral Kennelly",
@@ -9418,8 +9371,8 @@
    },
    {
     "id": "STP-280",
-    "x": 1229,
-    "y": 339,
+    "x": 1232,
+    "y": 344,
     "r": 6.2,
     "d": 1,
     "titre": "Projet d’utiliser le drone Borg Hugh comme arme contre le Collectif puis refus de Picard",
@@ -9428,18 +9381,21 @@
    },
    {
     "id": "STP-120",
-    "x": 1234,
-    "y": 379,
+    "x": 1237,
+    "y": 384,
     "r": 8.4,
     "d": 4,
     "titre": "Occupation cardassienne de Bajor et exploitation de Terok Nor",
     "serie": "DS9",
-    "periode": "Avant 2369"
+    "periode": "Avant 2369",
+    "court": "Occupation cardassienne de…",
+    "tx": 1225,
+    "ancre": "end"
    },
    {
     "id": "STP-121",
-    "x": 1239,
-    "y": 427,
+    "x": 1242,
+    "y": 432,
     "r": 6.2,
     "d": 1,
     "titre": "Résistance bajorane et attentats contre l'occupant cardassien",
@@ -9448,8 +9404,8 @@
    },
    {
     "id": "STP-106",
-    "x": 1244,
-    "y": 474,
+    "x": 1247,
+    "y": 478,
     "r": 7.1,
     "d": 2,
     "titre": "Opération de transfert de réfugiés romuliens par un réseau clandestin",
@@ -9458,8 +9414,8 @@
    },
    {
     "id": "STP-122",
-    "x": 1249,
-    "y": 265,
+    "x": 1252,
+    "y": 269,
     "r": 7.1,
     "d": 2,
     "titre": "Retrait de Cardassia et gouvernement provisoire de Bajor",
@@ -9468,8 +9424,8 @@
    },
    {
     "id": "STP-123",
-    "x": 1253,
-    "y": 311,
+    "x": 1256,
+    "y": 316,
     "r": 7.1,
     "d": 2,
     "titre": "Ouverture du passage vers le quadrant Gamma et statut stratégique de Bajor",
@@ -9478,8 +9434,8 @@
    },
    {
     "id": "STP-124",
-    "x": 1258,
-    "y": 350,
+    "x": 1261,
+    "y": 355,
     "r": 6.2,
     "d": 1,
     "titre": "Crise autour de l’enseignement des Prophètes à bord de la station et ascension de Vedek Winn",
@@ -9488,8 +9444,8 @@
    },
    {
     "id": "STP-125",
-    "x": 1263,
-    "y": 401,
+    "x": 1266,
+    "y": 406,
     "r": 6.2,
     "d": 1,
     "titre": "Imposture de Marritza, commis aux archives du camp de Gallitep, qui se fait passer pour Gul Darhe’el afin d’être jugé",
@@ -9498,8 +9454,8 @@
    },
    {
     "id": "STP-277",
-    "x": 1268,
-    "y": 444,
+    "x": 1271,
+    "y": 448,
     "r": 6.2,
     "d": 1,
     "titre": "Conflit institutionnel autour du retour de Kahless et de l’autorité du chancelier Gowron",
@@ -9508,8 +9464,8 @@
    },
    {
     "id": "STP-304",
-    "x": 1273,
-    "y": 499,
+    "x": 1276,
+    "y": 503,
     "r": 6.2,
     "d": 1,
     "titre": "Demande d’asile et activisme violent de Tahna Los au nom de l’indépendance bajorane",
@@ -9518,21 +9474,21 @@
    },
    {
     "id": "STP-103",
-    "x": 1277,
-    "y": 188,
+    "x": 1280,
+    "y": 193,
     "r": 7.8,
     "d": 3,
     "titre": "Déplacement des colons de Dorvan V, au cœur du traité cardassien",
     "serie": "TNG",
     "periode": "2370",
     "court": "Déplacement des colons de…",
-    "tx": 1289,
+    "tx": 1292,
     "ancre": "start"
    },
    {
     "id": "STP-114",
-    "x": 1282,
-    "y": 229,
+    "x": 1285,
+    "y": 234,
     "r": 8.4,
     "d": 4,
     "titre": "Accord Fédération–Cardassia redessinant les frontières des colonies",
@@ -9541,8 +9497,8 @@
    },
    {
     "id": "STP-115",
-    "x": 1287,
-    "y": 285,
+    "x": 1290,
+    "y": 289,
     "r": 7.8,
     "d": 3,
     "titre": "Infiltration d'une cellule du Maquis et défection de Ro Laren",
@@ -9551,8 +9507,8 @@
    },
    {
     "id": "STP-126",
-    "x": 1292,
-    "y": 332,
+    "x": 1295,
+    "y": 337,
     "r": 6.2,
     "d": 1,
     "titre": "Tentative de coup d'État du Cercle contre le gouvernement provisoire bajoran",
@@ -9561,8 +9517,8 @@
    },
    {
     "id": "STP-127",
-    "x": 1297,
-    "y": 378,
+    "x": 1300,
+    "y": 383,
     "r": 8.9,
     "d": 5,
     "titre": "Crise du mouvement maquisard dans la zone démilitarisée",
@@ -9571,8 +9527,8 @@
    },
    {
     "id": "STP-128",
-    "x": 1302,
-    "y": 422,
+    "x": 1305,
+    "y": 426,
     "r": 7.1,
     "d": 2,
     "titre": "Premier contact hostile avec le Dominion, ultimatum et destruction d'une colonie",
@@ -9581,7 +9537,7 @@
    },
    {
     "id": "STP-133",
-    "x": 1306,
+    "x": 1309,
     "y": 591,
     "r": 6.2,
     "d": 1,
@@ -9591,8 +9547,8 @@
    },
    {
     "id": "STP-269",
-    "x": 1311,
-    "y": 255,
+    "x": 1314,
+    "y": 260,
     "r": 6.2,
     "d": 1,
     "titre": "Maquis et cadres de Starfleet en conflit : infiltration de cellules maquisardes par Ro Laren et Tuvok",
@@ -9601,8 +9557,8 @@
    },
    {
     "id": "STP-080",
-    "x": 1316,
-    "y": 307,
+    "x": 1319,
+    "y": 311,
     "r": 6.2,
     "d": 1,
     "titre": "Destruction de l'Enterprise-D en crise avec les sœurs Duras et Soran",
@@ -9611,8 +9567,8 @@
    },
    {
     "id": "STP-132",
-    "x": 1321,
-    "y": 349,
+    "x": 1324,
+    "y": 354,
     "r": 7.1,
     "d": 2,
     "titre": "Changelin infiltré à bord du Defiant pour provoquer une guerre avec les Tzenkethi, et suspicion mutuelle de l'équipage",
@@ -9621,8 +9577,8 @@
    },
    {
     "id": "STP-134",
-    "x": 1326,
-    "y": 394,
+    "x": 1329,
+    "y": 399,
     "r": 6.2,
     "d": 1,
     "titre": "Rivalité politique Winn–Shakaar sur l'usage des matériels agricoles",
@@ -9631,8 +9587,8 @@
    },
    {
     "id": "STP-135",
-    "x": 1330,
-    "y": 442,
+    "x": 1333,
+    "y": 447,
     "r": 6.2,
     "d": 1,
     "titre": "Candidature de Shakaar à la direction de Bajor et retrait de la kai Winn",
@@ -9641,8 +9597,8 @@
    },
    {
     "id": "STP-161",
-    "x": 1335,
-    "y": 481,
+    "x": 1338,
+    "y": 486,
     "r": 7.1,
     "d": 2,
     "titre": "Coexistence forcée à bord entre membres de Starfleet et résistants maquisards",
@@ -9651,8 +9607,8 @@
    },
    {
     "id": "STP-136",
-    "x": 1340,
-    "y": 204,
+    "x": 1343,
+    "y": 209,
     "r": 6.2,
     "d": 1,
     "titre": "Soulèvement des Cardassiens contre le gouvernement militaire",
@@ -9661,8 +9617,8 @@
    },
    {
     "id": "STP-137",
-    "x": 1345,
-    "y": 280,
+    "x": 1348,
+    "y": 284,
     "r": 8.9,
     "d": 5,
     "titre": "Invasion de Cardassia par les Klingons sur accusation d'infiltration",
@@ -9671,8 +9627,8 @@
    },
    {
     "id": "STP-138",
-    "x": 1350,
-    "y": 322,
+    "x": 1353,
+    "y": 327,
     "r": 7.8,
     "d": 3,
     "titre": "Suspension de l'alliance Fédération–Klingons",
@@ -9681,8 +9637,8 @@
    },
    {
     "id": "STP-139",
-    "x": 1354,
-    "y": 369,
+    "x": 1357,
+    "y": 374,
     "r": 6.2,
     "d": 1,
     "titre": "Tentative de coup d’État militaire de l’amiral Leyton contre les autorités civiles fédérales",
@@ -9691,8 +9647,8 @@
    },
    {
     "id": "STP-141",
-    "x": 1359,
-    "y": 414,
+    "x": 1362,
+    "y": 419,
     "r": 7.1,
     "d": 2,
     "titre": "Traque par Sisko d'Eddington, ancien membre d'équipage passé au Maquis",
@@ -9701,8 +9657,8 @@
    },
    {
     "id": "STP-162",
-    "x": 1364,
-    "y": 454,
+    "x": 1367,
+    "y": 459,
     "r": 7.1,
     "d": 2,
     "titre": "Promotion par le combat chez les Kazon-Ogla et projet de Culluh d'unir les sectes kazones grâce à la technologie de Voyager",
@@ -9711,21 +9667,21 @@
    },
    {
     "id": "STP-163",
-    "x": 1369,
-    "y": 501,
+    "x": 1372,
+    "y": 506,
     "r": 7.1,
     "d": 2,
     "titre": "Tentative de détournement de Voyager par la faction Kazon-Nistrim",
     "serie": "VOY",
     "periode": "2372",
     "court": "Tentative de détournement de…",
-    "tx": 1380,
+    "tx": 1383,
     "ancre": "start"
    },
    {
     "id": "STP-165",
-    "x": 1374,
-    "y": 221,
+    "x": 1377,
+    "y": 225,
     "r": 6.2,
     "d": 1,
     "titre": "Crise du droit politique des Q, interdiction d'assister au suicide",
@@ -9734,8 +9690,8 @@
    },
    {
     "id": "STP-272",
-    "x": 1378,
-    "y": 258,
+    "x": 1381,
+    "y": 263,
     "r": 6.2,
     "d": 1,
     "titre": "Tentative de restauration des castes d’jarra bajoranes par un nouvel Émissaire",
@@ -9744,8 +9700,8 @@
    },
    {
     "id": "STP-284",
-    "x": 1383,
-    "y": 297,
+    "x": 1386,
+    "y": 302,
     "r": 7.1,
     "d": 2,
     "titre": "Négociations contradictoires avec les Kazons et les Trabes",
@@ -9754,8 +9710,8 @@
    },
    {
     "id": "STP-081",
-    "x": 1388,
-    "y": 348,
+    "x": 1391,
+    "y": 353,
     "r": 6.2,
     "d": 1,
     "titre": "Attaque borg contre la Terre et tentative de modifier le Premier Contact",
@@ -9764,8 +9720,8 @@
    },
    {
     "id": "STP-140",
-    "x": 1393,
-    "y": 394,
+    "x": 1396,
+    "y": 399,
     "r": 6.2,
     "d": 1,
     "titre": "Démasquage à Ty'Gokor du changeling se faisant passer pour Martok et cessez-le-feu Fédération–Klingons",
@@ -9774,8 +9730,8 @@
    },
    {
     "id": "STP-142",
-    "x": 1398,
-    "y": 432,
+    "x": 1401,
+    "y": 437,
     "r": 6.2,
     "d": 1,
     "titre": "Mémoire de la collaboration bajorane : chantage sur une liste de collaborateurs et exécutions d'innocents sous l'autorité d'Odo",
@@ -9784,8 +9740,8 @@
    },
    {
     "id": "STP-143",
-    "x": 1402,
-    "y": 478,
+    "x": 1405,
+    "y": 484,
     "r": 7.8,
     "d": 3,
     "titre": "Ralliement de Cardassia au Dominion sous l'autorité de Dukat",
@@ -9794,8 +9750,8 @@
    },
    {
     "id": "STP-144",
-    "x": 1407,
-    "y": 218,
+    "x": 1410,
+    "y": 222,
     "r": 7.1,
     "d": 2,
     "titre": "Domination du Dominion sur Cardassia et liquidation du Maquis",
@@ -9804,8 +9760,8 @@
    },
    {
     "id": "STP-145",
-    "x": 1412,
-    "y": 272,
+    "x": 1415,
+    "y": 277,
     "r": 6.2,
     "d": 1,
     "titre": "Accord temporaire de non-agression entre Bajor et le Dominion",
@@ -9814,18 +9770,18 @@
    },
    {
     "id": "STP-146",
-    "x": 1417,
-    "y": 319,
-    "r": 9.4,
-    "d": 6,
+    "x": 1420,
+    "y": 323,
+    "r": 9.8,
+    "d": 7,
     "titre": "Déclenchement de la guerre ouverte Fédération–Dominion",
     "serie": "DS9",
     "periode": "2373"
    },
    {
     "id": "STP-147",
-    "x": 1422,
-    "y": 367,
+    "x": 1425,
+    "y": 372,
     "r": 8.4,
     "d": 4,
     "titre": "Occupation de DS9 par les forces cardasso-dominion",
@@ -9834,8 +9790,8 @@
    },
    {
     "id": "STP-166",
-    "x": 1426,
-    "y": 407,
+    "x": 1429,
+    "y": 413,
     "r": 6.2,
     "d": 1,
     "titre": "Guerre civile du Continuum Q entre partisans du statu quo et partisans de l'individualisme, après le suicide de Quinn",
@@ -9844,8 +9800,8 @@
    },
    {
     "id": "STP-273",
-    "x": 1431,
-    "y": 451,
+    "x": 1434,
+    "y": 456,
     "r": 7.1,
     "d": 2,
     "titre": "Report de l’adhésion de Bajor à la Fédération demandé par l’Émissaire Sisko",
@@ -9854,8 +9810,8 @@
    },
    {
     "id": "STP-148",
-    "x": 1436,
-    "y": 244,
+    "x": 1439,
+    "y": 248,
     "r": 7.1,
     "d": 2,
     "titre": "Bataille pour la reprise de Deep Space Nine et défense du trou de ver",
@@ -9864,8 +9820,8 @@
    },
    {
     "id": "STP-149",
-    "x": 1441,
-    "y": 290,
+    "x": 1444,
+    "y": 294,
     "r": 6.2,
     "d": 1,
     "titre": "Complot de Garak et Sisko conduisant Romulus à entrer en guerre",
@@ -9874,8 +9830,8 @@
    },
    {
     "id": "STP-150",
-    "x": 1446,
-    "y": 338,
+    "x": 1449,
+    "y": 342,
     "r": 7.1,
     "d": 2,
     "titre": "Résistance clandestine de Kira, Rom et Quark face à l'Occupation",
@@ -9884,8 +9840,8 @@
    },
    {
     "id": "STP-151",
-    "x": 1450,
-    "y": 381,
+    "x": 1453,
+    "y": 387,
     "r": 6.2,
     "d": 1,
     "titre": "Dépendance des Jem'Hadar au ketracel-white, loyauté imposée envers les Vorta et dissidence de Goran'Agar",
@@ -9894,8 +9850,8 @@
    },
    {
     "id": "STP-168",
-    "x": 1455,
-    "y": 420,
+    "x": 1458,
+    "y": 425,
     "r": 6.2,
     "d": 1,
     "titre": "Accord militaire avec les Borg pour contrer l'espèce 8472",
@@ -9904,7 +9860,7 @@
    },
    {
     "id": "STP-169",
-    "x": 1460,
+    "x": 1463,
     "y": 544,
     "r": 6.2,
     "d": 1,
@@ -9914,7 +9870,7 @@
    },
    {
     "id": "STP-258",
-    "x": 1465,
+    "x": 1468,
     "y": 591,
     "r": 6.2,
     "d": 1,
@@ -9924,8 +9880,8 @@
    },
    {
     "id": "STP-274",
-    "x": 1470,
-    "y": 265,
+    "x": 1473,
+    "y": 269,
     "r": 6.2,
     "d": 1,
     "titre": "Prévision statistique d’une défaite fédérale et projet clandestin de transmettre des stratégies au Dominion",
@@ -9934,8 +9890,8 @@
    },
    {
     "id": "STP-153",
-    "x": 1474,
-    "y": 310,
+    "x": 1477,
+    "y": 314,
     "r": 7.1,
     "d": 2,
     "titre": "Opération de Section 31 visant à infecter les Fondateurs d'une maladie génocidaire",
@@ -9944,18 +9900,18 @@
    },
    {
     "id": "STP-154",
-    "x": 1479,
-    "y": 356,
-    "r": 6.2,
-    "d": 1,
+    "x": 1482,
+    "y": 361,
+    "r": 7.1,
+    "d": 2,
     "titre": "Gowron détourne les campagnes militaires pour affaiblir Martok",
     "serie": "DS9",
     "periode": "2375"
    },
    {
     "id": "STP-155",
-    "x": 1484,
-    "y": 395,
+    "x": 1487,
+    "y": 401,
     "r": 6.2,
     "d": 1,
     "titre": "Worf tue Gowron et Martok devient chancelier",
@@ -9964,41 +9920,44 @@
    },
    {
     "id": "STP-156",
-    "x": 1489,
-    "y": 433,
-    "r": 6.2,
-    "d": 1,
+    "x": 1492,
+    "y": 440,
+    "r": 7.1,
+    "d": 2,
     "titre": "Formation de la résistance cardassienne menée par Damar",
     "serie": "DS9",
-    "periode": "2375"
+    "periode": "2375",
+    "court": "Formation de la résistance…",
+    "tx": 1503,
+    "ancre": "start"
    },
    {
     "id": "STP-157",
-    "x": 1494,
-    "y": 473,
+    "x": 1497,
+    "y": 481,
     "r": 7.1,
     "d": 2,
     "titre": "Répression de masse de Cardassia par le Dominion et soulèvement populaire",
     "serie": "DS9",
     "periode": "2375",
     "court": "Répression de masse de…",
-    "tx": 1505,
+    "tx": 1508,
     "ancre": "start"
    },
    {
     "id": "STP-158",
-    "x": 1498,
-    "y": 239,
-    "r": 7.1,
-    "d": 2,
+    "x": 1501,
+    "y": 243,
+    "r": 7.8,
+    "d": 3,
     "titre": "Capitulation du Dominion et armistice mettant fin à la guerre du quadrant Alpha",
     "serie": "DS9",
     "periode": "2375"
    },
    {
     "id": "STP-159",
-    "x": 1503,
-    "y": 283,
+    "x": 1506,
+    "y": 288,
     "r": 7.1,
     "d": 2,
     "titre": "Réformes ferengies : émancipation économique des femmes et droits sociaux",
@@ -10007,8 +9966,8 @@
    },
    {
     "id": "STP-160",
-    "x": 1508,
-    "y": 330,
+    "x": 1511,
+    "y": 334,
     "r": 7.1,
     "d": 2,
     "titre": "Désignation de Rom comme Grand Nagus",
@@ -10017,8 +9976,8 @@
    },
    {
     "id": "STP-259",
-    "x": 1513,
-    "y": 370,
+    "x": 1516,
+    "y": 377,
     "r": 6.2,
     "d": 1,
     "titre": "Bataille de l'AR-558 et traumatismes d'une guerre de positions",
@@ -10027,8 +9986,8 @@
    },
    {
     "id": "STP-305",
-    "x": 1518,
-    "y": 409,
+    "x": 1521,
+    "y": 415,
     "r": 6.2,
     "d": 1,
     "titre": "Interférence de Section 31 dans la politique romulienne via une opération contre une sénatrice",
@@ -10037,8 +9996,8 @@
    },
    {
     "id": "STP-174",
-    "x": 1522,
-    "y": 447,
+    "x": 1525,
+    "y": 455,
     "r": 6.2,
     "d": 1,
     "titre": "Guerre civile des Borg et libération d'une communauté de drones",
@@ -10047,7 +10006,7 @@
    },
    {
     "id": "STP-281",
-    "x": 1527,
+    "x": 1530,
     "y": 544,
     "r": 6.2,
     "d": 1,
@@ -10057,8 +10016,8 @@
    },
    {
     "id": "STP-083",
-    "x": 1532,
-    "y": 135,
+    "x": 1535,
+    "y": 125,
     "r": 6.2,
     "d": 1,
     "titre": "Coup d'État de Shinzon contre le Sénat romulien",
@@ -10067,8 +10026,8 @@
    },
    {
     "id": "STP-084",
-    "x": 1537,
-    "y": 173,
+    "x": 1540,
+    "y": 162,
     "r": 6.2,
     "d": 1,
     "titre": "Tentative de Shinzon d'anéantir la Terre",
@@ -10077,8 +10036,8 @@
    },
    {
     "id": "STP-195",
-    "x": 1542,
-    "y": 223,
+    "x": 1545,
+    "y": 250,
     "r": 7.1,
     "d": 2,
     "titre": "Projet de sauvetage des Romuliens par la Fédération face à la supernova",
@@ -10087,8 +10046,8 @@
    },
    {
     "id": "STP-211",
-    "x": 1547,
-    "y": 268,
+    "x": 1550,
+    "y": 293,
     "r": 6.2,
     "d": 1,
     "titre": "Crise de direction sur l'USS Cerritos et interrogations du commandement",
@@ -10097,8 +10056,8 @@
    },
    {
     "id": "STP-212",
-    "x": 1551,
-    "y": 314,
+    "x": 1554,
+    "y": 333,
     "r": 7.1,
     "d": 2,
     "titre": "Agression pakled contre la Fédération, armée par un Klingon, et accusation de Freeman pour l'explosion d'une bombe sur la planète Pakled",
@@ -10107,8 +10066,8 @@
    },
    {
     "id": "STP-213",
-    "x": 1556,
-    "y": 352,
+    "x": 1559,
+    "y": 376,
     "r": 6.2,
     "d": 1,
     "titre": "Envoi de Tendi sur Orion à la demande de Starfleet et libre choix de Tendi face à son puissant clan familial",
@@ -10117,8 +10076,8 @@
    },
    {
     "id": "STP-214",
-    "x": 1561,
-    "y": 400,
+    "x": 1564,
+    "y": 423,
     "r": 7.1,
     "d": 2,
     "titre": "Négociation officielle d'entrée de Ferenginar dans la Fédération",
@@ -10127,8 +10086,8 @@
    },
    {
     "id": "STP-289",
-    "x": 1566,
-    "y": 196,
+    "x": 1569,
+    "y": 187,
     "r": 6.2,
     "d": 1,
     "titre": "Défi en duel et prise du commandement d'un vaisseau klingon par un officier contestant son capitaine",
@@ -10137,8 +10096,8 @@
    },
    {
     "id": "STP-216",
-    "x": 1571,
-    "y": 242,
+    "x": 1574,
+    "y": 225,
     "r": 6.2,
     "d": 1,
     "titre": "Complot de Nick Locarno fédérant des vaisseaux non alignés (« Nova Fleet »)",
@@ -10147,8 +10106,8 @@
    },
    {
     "id": "STP-218",
-    "x": 1575,
-    "y": 286,
+    "x": 1578,
+    "y": 268,
     "r": 7.1,
     "d": 2,
     "titre": "Reconfiguration des relations orioniennes avec Starfleet autour de Tendi",
@@ -10157,8 +10116,8 @@
    },
    {
     "id": "STP-219",
-    "x": 1580,
-    "y": 324,
+    "x": 1583,
+    "y": 307,
     "r": 6.2,
     "d": 1,
     "titre": "Captivité de mineurs extraterrestres dans les mines de Tars Lamora",
@@ -10167,8 +10126,8 @@
    },
    {
     "id": "STP-220",
-    "x": 1585,
-    "y": 372,
+    "x": 1588,
+    "y": 352,
     "r": 6.2,
     "d": 1,
     "titre": "Évasion des captifs et contrôle du Protostar par de jeunes prisonniers",
@@ -10177,8 +10136,8 @@
    },
    {
     "id": "STP-221",
-    "x": 1590,
-    "y": 426,
+    "x": 1593,
+    "y": 396,
     "r": 7.1,
     "d": 2,
     "titre": "Projet du Diviner visant à anéantir Starfleet pour empêcher un premier contact fatal à sa planète",
@@ -10187,21 +10146,18 @@
    },
    {
     "id": "STP-222",
-    "x": 1595,
-    "y": 170,
+    "x": 1598,
+    "y": 161,
     "r": 7.1,
     "d": 2,
     "titre": "Attaque informatique du réseau Starfleet par le « Living Construct »",
     "serie": "PRO",
-    "periode": "2384",
-    "court": "Attaque informatique du…",
-    "tx": 1606,
-    "ancre": "start"
+    "periode": "2384"
    },
    {
     "id": "STP-223",
-    "x": 1599,
-    "y": 217,
+    "x": 1602,
+    "y": 202,
     "r": 6.2,
     "d": 1,
     "titre": "Procès du jeune équipage du Protostar, abandon des charges et intégration dans Starfleet",
@@ -10210,8 +10166,8 @@
    },
    {
     "id": "STP-224",
-    "x": 1604,
-    "y": 261,
+    "x": 1607,
+    "y": 244,
     "r": 7.1,
     "d": 2,
     "titre": "Tentative d'éviter la guerre civile de Solum causée par le premier contact",
@@ -10220,8 +10176,8 @@
    },
    {
     "id": "STP-227",
-    "x": 1609,
-    "y": 299,
+    "x": 1612,
+    "y": 282,
     "r": 6.2,
     "d": 1,
     "titre": "Intervention de Janeway dans la guerre civile de Solum",
@@ -10230,8 +10186,8 @@
    },
    {
     "id": "STP-196",
-    "x": 1614,
-    "y": 344,
+    "x": 1617,
+    "y": 325,
     "r": 8.4,
     "d": 4,
     "titre": "Attaque des synthétiques sur Mars et destruction des chantiers d'Utopia Planitia",
@@ -10240,34 +10196,31 @@
    },
    {
     "id": "STP-197",
-    "x": 1619,
-    "y": 398,
+    "x": 1622,
+    "y": 371,
     "r": 7.1,
     "d": 2,
     "titre": "Interdiction fédérale des formes de vie synthétiques",
     "serie": "PIC",
-    "periode": "2385",
-    "court": "Interdiction fédérale des…",
-    "tx": 1630,
-    "ancre": "start"
+    "periode": "2385"
    },
    {
     "id": "STP-198",
-    "x": 1623,
-    "y": 446,
+    "x": 1626,
+    "y": 419,
     "r": 7.8,
     "d": 3,
     "titre": "Abandon par la Fédération de l'évacuation massive des Romuliens",
     "serie": "PIC",
     "periode": "2385",
     "court": "Abandon par la Fédération de…",
-    "tx": 1635,
+    "tx": 1638,
     "ancre": "start"
    },
    {
     "id": "STP-225",
-    "x": 1628,
-    "y": 147,
+    "x": 1631,
+    "y": 128,
     "r": 6.2,
     "d": 1,
     "titre": "Ralliement de la jeune Asencia à la rébellion contre sa version future",
@@ -10276,8 +10229,8 @@
    },
    {
     "id": "STP-226",
-    "x": 1633,
-    "y": 185,
+    "x": 1636,
+    "y": 165,
     "r": 6.2,
     "d": 1,
     "titre": "Renversement de l'Asencia militariste sur Solum",
@@ -10286,8 +10239,8 @@
    },
    {
     "id": "STP-265",
-    "x": 1638,
-    "y": 248,
+    "x": 1641,
+    "y": 227,
     "r": 6.2,
     "d": 1,
     "titre": "Attaque terroriste sur les chantiers martiens vue à travers des enfants de travailleurs",
@@ -10296,8 +10249,8 @@
    },
    {
     "id": "STP-199",
-    "x": 1643,
-    "y": 311,
+    "x": 1646,
+    "y": 289,
     "r": 6.2,
     "d": 1,
     "titre": "Crise des anciens territoires romuliens et milices Fenris Rangers",
@@ -10306,8 +10259,8 @@
    },
    {
     "id": "STP-200",
-    "x": 1647,
-    "y": 373,
+    "x": 1650,
+    "y": 349,
     "r": 7.1,
     "d": 2,
     "titre": "Manipulation de Starfleet par des agents romuliens Zhat Vash",
@@ -10316,47 +10269,41 @@
    },
    {
     "id": "STP-201",
-    "x": 1652,
-    "y": 417,
+    "x": 1655,
+    "y": 390,
     "r": 7.1,
     "d": 2,
     "titre": "Flotte romulienne envoyée détruire les synthétiques de Coppelius et levée des restrictions fédérales visant les synthétiques",
     "serie": "PIC",
-    "periode": "2399",
-    "court": "Flotte romulienne envoyée…",
-    "tx": 1663,
-    "ancre": "start"
+    "periode": "2399"
    },
    {
     "id": "STP-202",
-    "x": 1657,
-    "y": 214,
+    "x": 1660,
+    "y": 194,
     "r": 7.1,
     "d": 2,
     "titre": "Levée de l'interdiction fédérale des synthétiques après la crise de Coppelius",
     "serie": "PIC",
     "periode": "2399",
     "court": "Levée de l'interdiction…",
-    "tx": 1668,
+    "tx": 1671,
     "ancre": "start"
    },
    {
     "id": "STP-236",
-    "x": 1662,
-    "y": 278,
+    "x": 1665,
+    "y": 257,
     "r": 7.1,
     "d": 2,
     "titre": "Alliance klingono-cardassienne réduit des Terriens en esclavage",
     "serie": "DS9",
-    "periode": "XXIVe siècle Miroir",
-    "court": "Alliance…",
-    "tx": 1673,
-    "ancre": "start"
+    "periode": "XXIVe siècle Miroir"
    },
    {
     "id": "STP-237",
-    "x": 1667,
-    "y": 339,
+    "x": 1670,
+    "y": 316,
     "r": 6.2,
     "d": 1,
     "titre": "Rébellion terrienne contre l'Alliance",
@@ -10365,7 +10312,7 @@
    },
    {
     "id": "STP-203",
-    "x": 1682,
+    "x": 1685,
     "y": 98,
     "r": 6.2,
     "d": 1,
@@ -10375,8 +10322,8 @@
    },
    {
     "id": "STP-204",
-    "x": 1708,
-    "y": 259,
+    "x": 1711,
+    "y": 262,
     "r": 6.2,
     "d": 1,
     "titre": "Demande d'adhésion provisoire à la Fédération d'un collectif borg alternatif mené par la reine Agnes Jurati",
@@ -10385,8 +10332,8 @@
    },
    {
     "id": "STP-205",
-    "x": 1733,
-    "y": 287,
+    "x": 1736,
+    "y": 290,
     "r": 6.2,
     "d": 1,
     "titre": "Découverte d'une faction de Changelings ayant subi expérimentation et torture",
@@ -10395,8 +10342,8 @@
    },
    {
     "id": "STP-206",
-    "x": 1759,
-    "y": 318,
+    "x": 1762,
+    "y": 321,
     "r": 7.8,
     "d": 3,
     "titre": "Infiltration de Starfleet par les Changelings et complot avec les Borg",
@@ -10405,34 +10352,34 @@
    },
    {
     "id": "STP-207",
-    "x": 1785,
-    "y": 351,
+    "x": 1788,
+    "y": 354,
     "r": 8.4,
     "d": 4,
     "titre": "Crise de Frontier Day et assimilation d'une génération de personnels",
     "serie": "PIC",
     "periode": "2401",
     "court": "Crise de Frontier Day et…",
-    "tx": 1797,
+    "tx": 1800,
     "ancre": "start"
    },
    {
     "id": "STP-208",
-    "x": 1810,
-    "y": 384,
+    "x": 1813,
+    "y": 387,
     "r": 7.1,
     "d": 2,
     "titre": "Rétablissement d'un Starfleet non infiltré après la crise",
     "serie": "PIC",
     "periode": "2401",
     "court": "Rétablissement d'un…",
-    "tx": 1821,
+    "tx": 1824,
     "ancre": "start"
    },
    {
     "id": "STP-178",
-    "x": 1868,
-    "y": 288,
+    "x": 1871,
+    "y": 289,
     "r": 9.4,
     "d": 6,
     "titre": "Le « Burn » détruit massivement les moteurs à dilithium et brise les liaisons galactiques",
@@ -10441,8 +10388,8 @@
    },
    {
     "id": "STP-180",
-    "x": 1919,
-    "y": 237,
+    "x": 1922,
+    "y": 238,
     "r": 6.2,
     "d": 1,
     "titre": "Terre devenue politiquement isolationniste et indépendante du gouvernement fédéral",
@@ -10451,8 +10398,8 @@
    },
    {
     "id": "STP-181",
-    "x": 1930,
-    "y": 273,
+    "x": 1933,
+    "y": 275,
     "r": 6.2,
     "d": 1,
     "titre": "Crise Trill au sujet de l'accueil d'un symbiote dans un hôte humain",
@@ -10461,21 +10408,21 @@
    },
    {
     "id": "STP-182",
-    "x": 1942,
-    "y": 312,
+    "x": 1945,
+    "y": 314,
     "r": 8.4,
     "d": 4,
     "titre": "Ni'Var — réunification vulcano-romulienne mais départ de la Fédération",
     "serie": "DIS",
     "periode": "3188",
     "court": "Ni'Var — réunification…",
-    "tx": 1929,
+    "tx": 1932,
     "ancre": "end"
    },
    {
     "id": "STP-183",
-    "x": 1953,
-    "y": 352,
+    "x": 1956,
+    "y": 354,
     "r": 7.1,
     "d": 2,
     "titre": "Conflit autour des données du projet de propulsion SB-19 sur Ni'Var",
@@ -10484,7 +10431,7 @@
    },
    {
     "id": "STP-184",
-    "x": 1965,
+    "x": 1968,
     "y": 457,
     "r": 6.2,
     "d": 1,
@@ -10494,7 +10441,7 @@
    },
    {
     "id": "STP-185",
-    "x": 1976,
+    "x": 1979,
     "y": 495,
     "r": 7.1,
     "d": 2,
@@ -10502,12 +10449,12 @@
     "serie": "DIS",
     "periode": "3188–3189",
     "court": "Négociation de fusion…",
-    "tx": 1965,
+    "tx": 1968,
     "ancre": "end"
    },
    {
     "id": "STP-186",
-    "x": 1987,
+    "x": 1990,
     "y": 533,
     "r": 6.2,
     "d": 1,
@@ -10517,7 +10464,7 @@
    },
    {
     "id": "STP-188",
-    "x": 1999,
+    "x": 2002,
     "y": 226,
     "r": 6.2,
     "d": 1,
@@ -10527,8 +10474,8 @@
    },
    {
     "id": "STP-187",
-    "x": 2010,
-    "y": 263,
+    "x": 2013,
+    "y": 264,
     "r": 7.1,
     "d": 2,
     "titre": "Réintégration de Ni'Var et de la Terre à la Fédération",
@@ -10537,8 +10484,8 @@
    },
    {
     "id": "STP-189",
-    "x": 2022,
-    "y": 302,
+    "x": 2025,
+    "y": 303,
     "r": 7.1,
     "d": 2,
     "titre": "Débat institutionnel sur une attaque préventive contre l'espèce 10-C",
@@ -10547,8 +10494,8 @@
    },
    {
     "id": "STP-190",
-    "x": 2033,
-    "y": 339,
+    "x": 2036,
+    "y": 340,
     "r": 6.2,
     "d": 1,
     "titre": "Premier contact avec l'espèce 10-C et résolution diplomatique",
@@ -10557,7 +10504,7 @@
    },
    {
     "id": "STP-191",
-    "x": 2045,
+    "x": 2048,
     "y": 489,
     "r": 6.2,
     "d": 1,
@@ -10567,7 +10514,7 @@
    },
    {
     "id": "STP-192",
-    "x": 2056,
+    "x": 2059,
     "y": 527,
     "r": 7.1,
     "d": 2,
@@ -10575,12 +10522,12 @@
     "serie": "DIS",
     "periode": "3191",
     "court": "Lutte successorale des…",
-    "tx": 2067,
+    "tx": 2070,
     "ancre": "start"
    },
    {
     "id": "STP-193",
-    "x": 2068,
+    "x": 2071,
     "y": 565,
     "r": 6.2,
     "d": 1,
@@ -10590,8 +10537,8 @@
    },
    {
     "id": "STP-228",
-    "x": 2079,
-    "y": 213,
+    "x": 2082,
+    "y": 214,
     "r": 6.2,
     "d": 1,
     "titre": "Réouverture de l'Académie de Starfleet et intégration de nouveaux cadets",
@@ -10600,7 +10547,7 @@
    },
    {
     "id": "STP-230",
-    "x": 2091,
+    "x": 2094,
     "y": 251,
     "r": 7.1,
     "d": 2,
@@ -10610,7 +10557,7 @@
    },
    {
     "id": "STP-231",
-    "x": 2102,
+    "x": 2105,
     "y": 289,
     "r": 6.2,
     "d": 1,
@@ -10620,7 +10567,7 @@
    },
    {
     "id": "STP-232",
-    "x": 2113,
+    "x": 2116,
     "y": 325,
     "r": 6.2,
     "d": 1,
@@ -10630,7 +10577,7 @@
    },
    {
     "id": "STP-292",
-    "x": 2125,
+    "x": 2128,
     "y": 363,
     "r": 7.1,
     "d": 2,
@@ -10638,13 +10585,13 @@
     "serie": "SFA",
     "periode": "XXXIIe siècle",
     "court": "Isolement de Betazed…",
-    "tx": 2136,
+    "tx": 2139,
     "ancre": "start"
    },
    {
     "id": "STP-293",
-    "x": 2136,
-    "y": 400,
+    "x": 2139,
+    "y": 401,
     "r": 6.2,
     "d": 1,
     "titre": "Négociation de réintégration de Betazed et proposition d’y établir le siège fédéral",
@@ -10653,7 +10600,7 @@
    },
    {
     "id": "STP-295",
-    "x": 2148,
+    "x": 2151,
     "y": 249,
     "r": 6.2,
     "d": 1,
@@ -10663,7 +10610,7 @@
    },
    {
     "id": "STP-297",
-    "x": 2159,
+    "x": 2162,
     "y": 304,
     "r": 7.1,
     "d": 2,
@@ -10673,7 +10620,7 @@
    },
    {
     "id": "STP-179",
-    "x": 2210,
+    "x": 2213,
     "y": 283,
     "r": 6.2,
     "d": 1,
@@ -10687,175 +10634,175 @@
     "de": "STP-234",
     "vers": "STP-235",
     "type": "cause",
-    "d": "M1026,288 Q1030,306 1034,327"
+    "d": "M1029,269 Q1034,287 1038,308"
    },
    {
     "de": "STP-234",
     "vers": "STP-236",
     "type": "cause",
-    "d": "M1026,288 Q1344,223 1662,278"
+    "d": "M1029,269 Q1347,203 1665,257"
    },
    {
     "de": "STP-103",
     "vers": "STP-127",
     "type": "cause",
-    "d": "M1277,188 Q1287,280 1297,378"
+    "d": "M1280,193 Q1290,285 1300,383"
    },
    {
     "de": "STP-137",
     "vers": "STP-143",
     "type": "cause",
-    "d": "M1345,280 Q1374,369 1402,478"
+    "d": "M1348,284 Q1377,374 1405,484"
    },
    {
     "de": "STP-143",
     "vers": "STP-146",
     "type": "cause",
-    "d": "M1402,478 Q1410,396 1417,319"
+    "d": "M1405,484 Q1413,401 1420,323"
    },
    {
     "de": "STP-153",
     "vers": "STP-158",
     "type": "cause",
-    "d": "M1474,310 Q1486,271 1498,239"
+    "d": "M1477,314 Q1489,274 1501,243"
    },
    {
     "de": "STP-156",
     "vers": "STP-157",
     "type": "cause",
-    "d": "M1489,433 Q1491,452 1494,473"
+    "d": "M1492,440 Q1494,460 1497,481"
    },
    {
     "de": "STP-138",
     "vers": "STP-140",
     "type": "suite",
-    "d": "M1350,322 Q1371,351 1393,394"
+    "d": "M1353,327 Q1374,356 1396,399"
    },
    {
     "de": "STP-133",
     "vers": "STP-258",
     "type": "suite",
-    "d": "M1306,591 Q1386,565 1465,591"
+    "d": "M1309,591 Q1389,565 1468,591"
    },
    {
     "de": "STP-147",
     "vers": "STP-148",
     "type": "suite",
-    "d": "M1422,367 Q1429,303 1436,244"
+    "d": "M1425,372 Q1432,308 1439,248"
    },
    {
     "de": "STP-147",
     "vers": "STP-150",
     "type": "suite",
-    "d": "M1422,367 Q1434,348 1446,338"
+    "d": "M1425,372 Q1437,353 1449,342"
    },
    {
     "de": "STP-150",
     "vers": "STP-148",
     "type": "suite",
-    "d": "M1446,338 Q1441,289 1436,244"
+    "d": "M1449,342 Q1444,294 1439,248"
    },
    {
     "de": "STP-153",
     "vers": "STP-305",
     "type": "meme_arc",
-    "d": "M1474,310 Q1496,352 1518,409"
+    "d": "M1477,314 Q1499,357 1521,415"
    },
    {
     "de": "STP-127",
     "vers": "STP-141",
     "type": "meme_arc",
-    "d": "M1297,378 Q1328,386 1359,414"
+    "d": "M1300,383 Q1331,390 1362,419"
    },
    {
     "de": "STP-127",
     "vers": "STP-161",
     "type": "meme_arc",
-    "d": "M1297,378 Q1316,423 1335,481"
+    "d": "M1300,383 Q1319,428 1338,486"
    },
    {
     "de": "STP-127",
     "vers": "STP-115",
     "type": "meme_arc",
-    "d": "M1297,378 Q1292,330 1287,285"
+    "d": "M1300,383 Q1295,335 1290,289"
    },
    {
     "de": "STP-141",
     "vers": "STP-144",
     "type": "meme_arc",
-    "d": "M1359,414 Q1383,308 1407,218"
+    "d": "M1362,419 Q1386,312 1410,222"
    },
    {
     "de": "STP-272",
     "vers": "STP-273",
     "type": "meme_arc",
-    "d": "M1378,258 Q1405,346 1431,451"
+    "d": "M1381,263 Q1408,351 1434,456"
    },
    {
     "de": "STP-005",
     "vers": "STP-074",
     "type": "suite",
-    "d": "M219,302 Q602,228 985,273"
+    "d": "M219,312 Q604,255 989,319"
    },
    {
     "de": "STP-097",
     "vers": "STP-100",
     "type": "suite",
-    "d": "M1186,306 Q1196,382 1205,464"
+    "d": "M1189,314 Q1199,390 1208,472"
    },
    {
     "de": "STP-100",
     "vers": "STP-102",
     "type": "suite",
-    "d": "M1205,464 Q1208,483 1210,505"
+    "d": "M1208,472 Q1211,491 1213,513"
    },
    {
     "de": "STP-278",
     "vers": "STP-102",
     "type": "suite",
-    "d": "M1201,425 Q1205,463 1210,505"
+    "d": "M1204,433 Q1208,471 1213,513"
    },
    {
     "de": "STP-098",
     "vers": "STP-081",
     "type": "suite",
-    "d": "M1191,347 Q1289,315 1388,348"
+    "d": "M1194,355 Q1292,321 1391,353"
    },
    {
     "de": "STP-098",
     "vers": "STP-207",
     "type": "cause",
-    "d": "M1191,347 Q1488,289 1785,351"
+    "d": "M1194,355 Q1491,294 1788,354"
    },
    {
     "de": "STP-105",
     "vers": "STP-182",
     "type": "suite",
-    "d": "M1220,240 Q1581,216 1942,312"
+    "d": "M1223,244 Q1584,219 1945,314"
    },
    {
     "de": "STP-103",
     "vers": "STP-115",
     "type": "meme_arc",
-    "d": "M1277,188 Q1282,235 1287,285"
+    "d": "M1280,193 Q1285,240 1290,289"
    },
    {
     "de": "STP-019",
     "vers": "STP-243",
     "type": "cause",
-    "d": "M527,267 Q550,333 572,414"
+    "d": "M527,267 Q550,332 572,413"
    },
    {
     "de": "STP-165",
     "vers": "STP-166",
     "type": "cause",
-    "d": "M1374,221 Q1400,305 1426,407"
+    "d": "M1377,225 Q1403,310 1429,413"
    },
    {
     "de": "STP-169",
     "vers": "STP-281",
     "type": "suite",
-    "d": "M1460,544 Q1494,533 1527,544"
+    "d": "M1463,544 Q1497,533 1530,544"
    },
    {
     "de": "STP-028",
@@ -10897,277 +10844,277 @@
     "de": "STP-021",
     "vers": "STP-023",
     "type": "suite",
-    "d": "M538,304 Q544,320 550,340"
+    "d": "M538,303 Q544,320 550,340"
    },
    {
     "de": "STP-162",
     "vers": "STP-284",
     "type": "suite",
-    "d": "M1364,454 Q1374,373 1383,297"
+    "d": "M1367,459 Q1377,377 1386,302"
    },
    {
     "de": "STP-162",
     "vers": "STP-163",
     "type": "suite",
-    "d": "M1364,454 Q1366,477 1369,501"
+    "d": "M1367,459 Q1369,482 1372,506"
    },
    {
     "de": "STP-284",
     "vers": "STP-163",
     "type": "meme_arc",
-    "d": "M1383,297 Q1376,397 1369,501"
+    "d": "M1386,302 Q1379,402 1372,506"
    },
    {
     "de": "STP-265",
     "vers": "STP-196",
     "type": "meme_arc",
-    "d": "M1638,248 Q1626,292 1614,344"
+    "d": "M1641,227 Q1629,272 1617,325"
    },
    {
     "de": "STP-266",
     "vers": "STP-286",
     "type": "suite",
-    "d": "M754,217 Q799,260 845,332"
+    "d": "M754,163 Q799,210 843,286"
    },
    {
     "de": "STP-039",
     "vers": "STP-041",
     "type": "cause",
-    "d": "M787,392 Q795,353 804,319"
+    "d": "M786,353 Q795,331 803,314"
    },
    {
     "de": "STP-044",
     "vers": "STP-045",
     "type": "cause",
-    "d": "M828,256 Q853,236 878,232"
+    "d": "M827,208 Q851,204 876,217"
    },
    {
     "de": "STP-050",
     "vers": "STP-047",
     "type": "cause",
-    "d": "M919,247 Q911,295 902,348"
+    "d": "M916,230 Q908,278 900,332"
    },
    {
     "de": "STP-047",
     "vers": "STP-048",
     "type": "suite",
-    "d": "M902,348 Q906,366 911,387"
+    "d": "M900,332 Q904,351 908,372"
    },
    {
     "de": "STP-041",
     "vers": "STP-052",
     "type": "meme_arc",
-    "d": "M804,319 Q865,282 927,286"
+    "d": "M803,314 Q863,271 924,268"
    },
    {
     "de": "STP-178",
     "vers": "STP-179",
     "type": "cause",
-    "d": "M1868,288 Q2039,229 2210,283"
+    "d": "M1871,289 Q2042,229 2213,283"
    },
    {
     "de": "STP-184",
     "vers": "STP-185",
     "type": "suite",
-    "d": "M1965,457 Q1970,474 1976,495"
+    "d": "M1968,457 Q1973,474 1979,495"
    },
    {
     "de": "STP-185",
     "vers": "STP-186",
     "type": "suite",
-    "d": "M1976,495 Q1982,512 1987,533"
+    "d": "M1979,495 Q1985,512 1990,533"
    },
    {
     "de": "STP-180",
     "vers": "STP-187",
     "type": "suite",
-    "d": "M1919,237 Q1965,235 2010,263"
+    "d": "M1922,238 Q1968,236 2013,264"
    },
    {
     "de": "STP-182",
     "vers": "STP-187",
     "type": "suite",
-    "d": "M1942,312 Q1976,276 2010,263"
+    "d": "M1945,314 Q1979,277 2013,264"
    },
    {
     "de": "STP-188",
     "vers": "STP-189",
     "type": "cause",
-    "d": "M1999,226 Q2010,260 2022,302"
+    "d": "M2002,226 Q2013,261 2025,303"
    },
    {
     "de": "STP-189",
     "vers": "STP-190",
     "type": "suite",
-    "d": "M2022,302 Q2028,319 2033,339"
+    "d": "M2025,303 Q2031,319 2036,340"
    },
    {
     "de": "STP-200",
     "vers": "STP-196",
     "type": "cause",
-    "d": "M1647,373 Q1631,353 1614,344"
+    "d": "M1650,349 Q1634,331 1617,325"
    },
    {
     "de": "STP-196",
     "vers": "STP-197",
     "type": "cause",
-    "d": "M1614,344 Q1616,370 1619,398"
+    "d": "M1617,325 Q1619,347 1622,371"
    },
    {
     "de": "STP-197",
     "vers": "STP-202",
     "type": "suite",
-    "d": "M1619,398 Q1638,300 1657,214"
+    "d": "M1622,371 Q1641,276 1660,194"
    },
    {
     "de": "STP-178",
     "vers": "STP-292",
     "type": "cause",
-    "d": "M1868,288 Q1996,283 2125,363"
+    "d": "M1871,289 Q1999,283 2128,363"
    },
    {
     "de": "STP-221",
     "vers": "STP-224",
     "type": "suite",
-    "d": "M1590,426 Q1597,341 1604,261"
+    "d": "M1593,396 Q1600,317 1607,244"
    },
    {
     "de": "STP-225",
     "vers": "STP-226",
     "type": "suite",
-    "d": "M1628,147 Q1631,165 1633,185"
+    "d": "M1631,128 Q1634,145 1636,165"
    },
    {
     "de": "STP-121",
     "vers": "STP-122",
     "type": "cause",
-    "d": "M1239,427 Q1244,344 1249,265"
+    "d": "M1242,432 Q1247,349 1252,269"
    },
    {
     "de": "STP-120",
     "vers": "STP-122",
     "type": "suite",
-    "d": "M1234,379 Q1241,320 1249,265"
+    "d": "M1237,384 Q1244,324 1252,269"
    },
    {
     "de": "STP-123",
     "vers": "STP-128",
     "type": "cause",
-    "d": "M1253,311 Q1277,358 1302,422"
+    "d": "M1256,316 Q1280,363 1305,426"
    },
    {
     "de": "STP-128",
     "vers": "STP-146",
     "type": "meme_arc",
-    "d": "M1302,422 Q1359,351 1417,319"
+    "d": "M1305,426 Q1362,356 1420,323"
    },
    {
     "de": "STP-273",
     "vers": "STP-145",
     "type": "cause",
-    "d": "M1431,451 Q1422,358 1412,272"
+    "d": "M1434,456 Q1425,363 1415,277"
    },
    {
     "de": "STP-134",
     "vers": "STP-135",
     "type": "cause",
-    "d": "M1326,394 Q1328,417 1330,442"
+    "d": "M1329,399 Q1331,422 1333,447"
    },
    {
     "de": "STP-136",
     "vers": "STP-137",
     "type": "cause",
-    "d": "M1340,204 Q1342,241 1345,280"
+    "d": "M1343,209 Q1345,246 1348,284"
    },
    {
     "de": "STP-132",
     "vers": "STP-137",
     "type": "meme_arc",
-    "d": "M1321,349 Q1333,311 1345,280"
+    "d": "M1324,354 Q1336,315 1348,284"
    },
    {
     "de": "STP-132",
     "vers": "STP-139",
     "type": "meme_arc",
-    "d": "M1321,349 Q1338,354 1354,369"
+    "d": "M1324,354 Q1341,358 1357,374"
    },
    {
     "de": "STP-154",
     "vers": "STP-155",
     "type": "cause",
-    "d": "M1479,356 Q1482,375 1484,395"
+    "d": "M1482,361 Q1485,380 1487,401"
    },
    {
     "de": "STP-159",
     "vers": "STP-160",
     "type": "meme_arc",
-    "d": "M1503,283 Q1506,306 1508,330"
+    "d": "M1506,288 Q1509,310 1511,334"
    },
    {
     "de": "STP-160",
     "vers": "STP-214",
     "type": "suite",
-    "d": "M1508,330 Q1534,357 1561,400"
+    "d": "M1511,334 Q1537,370 1564,423"
    },
    {
     "de": "STP-269",
     "vers": "STP-161",
     "type": "suite",
-    "d": "M1311,255 Q1323,364 1335,481"
+    "d": "M1314,260 Q1326,369 1338,486"
    },
    {
     "de": "STP-236",
     "vers": "STP-237",
     "type": "suite",
-    "d": "M1662,278 Q1664,308 1667,339"
+    "d": "M1665,257 Q1667,286 1670,316"
    },
    {
     "de": "STP-077",
     "vers": "STP-079",
     "type": "cause",
-    "d": "M993,311 Q1001,347 1009,388"
+    "d": "M997,356 Q1005,392 1013,434"
    },
    {
     "de": "STP-078",
     "vers": "STP-079",
     "type": "suite",
-    "d": "M1001,348 Q1005,367 1009,388"
+    "d": "M1005,394 Q1009,412 1013,434"
    },
    {
     "de": "STP-079",
     "vers": "STP-138",
     "type": "suite",
-    "d": "M1009,388 Q1179,298 1350,322"
+    "d": "M1013,434 Q1183,324 1353,327"
    },
    {
     "de": "STP-114",
     "vers": "STP-103",
     "type": "cause",
-    "d": "M1282,229 Q1280,208 1277,188"
+    "d": "M1285,234 Q1283,213 1280,193"
    },
    {
     "de": "STP-114",
     "vers": "STP-115",
     "type": "cause",
-    "d": "M1282,229 Q1285,256 1287,285"
+    "d": "M1285,234 Q1288,261 1290,289"
    },
    {
     "de": "STP-114",
     "vers": "STP-127",
     "type": "cause",
-    "d": "M1282,229 Q1289,302 1297,378"
+    "d": "M1285,234 Q1292,306 1300,383"
    },
    {
     "de": "STP-120",
     "vers": "STP-276",
     "type": "cause",
-    "d": "M1234,379 Q1229,334 1225,293"
+    "d": "M1237,384 Q1232,339 1228,297"
    },
    {
     "de": "STP-012",
     "vers": "STP-015",
     "type": "cause",
-    "d": "M365,323 Q555,268 744,334"
+    "d": "M365,328 Q555,280 744,353"
    },
    {
     "de": "STP-001",
@@ -11185,85 +11132,85 @@
     "de": "STP-014",
     "vers": "STP-072",
     "type": "cause",
-    "d": "M453,114 Q715,54 976,114"
+    "d": "M453,279 Q717,220 981,280"
    },
    {
     "de": "STP-004",
     "vers": "STP-072",
     "type": "cause",
-    "d": "M44,114 Q510,54 976,114"
+    "d": "M44,256 Q513,208 981,280"
    },
    {
     "de": "STP-085",
     "vers": "STP-086",
     "type": "suite",
-    "d": "M762,255 Q824,243 886,271"
+    "d": "M762,202 Q823,208 884,255"
    },
    {
     "de": "STP-083",
     "vers": "STP-084",
     "type": "suite",
-    "d": "M1532,135 Q1534,153 1537,173"
+    "d": "M1535,125 Q1537,143 1540,162"
    },
    {
     "de": "STP-094",
     "vers": "STP-117",
     "type": "suite",
-    "d": "M1181,268 Q1189,325 1196,387"
+    "d": "M1184,276 Q1192,333 1199,395"
    },
    {
     "de": "STP-288",
     "vers": "STP-267",
     "type": "suite",
-    "d": "M779,353 Q820,366 861,407"
+    "d": "M778,279 Q819,308 859,363"
    },
    {
     "de": "STP-177",
     "vers": "STP-268",
     "type": "cause",
-    "d": "M771,294 Q820,228 869,195"
+    "d": "M770,240 Q819,193 867,179"
    },
    {
     "de": "STP-044",
     "vers": "STP-046",
     "type": "cause",
-    "d": "M828,256 Q861,271 894,309"
+    "d": "M827,208 Q859,240 892,294"
    },
    {
     "de": "STP-005",
     "vers": "STP-009",
     "type": "meme_arc",
-    "d": "M219,302 Q263,272 307,270"
+    "d": "M219,312 Q263,279 307,276"
    },
    {
     "de": "STP-034",
     "vers": "STP-035",
     "type": "meme_arc",
-    "d": "M687,314 Q693,331 698,353"
+    "d": "M687,317 Q693,334 698,356"
    },
    {
     "de": "STP-035",
     "vers": "STP-038",
     "type": "suite",
-    "d": "M698,353 Q716,319 733,297"
+    "d": "M698,356 Q716,330 733,316"
    },
    {
     "de": "STP-018",
     "vers": "STP-016",
     "type": "cause",
-    "d": "M515,229 Q509,208 504,191"
+    "d": "M515,229 Q509,208 504,190"
    },
    {
     "de": "STP-027",
     "vers": "STP-290",
     "type": "cause",
-    "d": "M595,249 Q635,249 676,275"
+    "d": "M595,249 Q635,250 676,278"
    },
    {
     "de": "STP-290",
     "vers": "STP-029",
     "type": "suite",
-    "d": "M676,275 Q647,291 618,326"
+    "d": "M676,278 Q647,293 618,326"
    },
    {
     "de": "STP-028",
@@ -11275,229 +11222,229 @@
     "de": "STP-040",
     "vers": "STP-041",
     "type": "cause",
-    "d": "M795,431 Q799,374 804,319"
+    "d": "M795,392 Q799,352 803,314"
    },
    {
     "de": "STP-041",
     "vers": "STP-042",
     "type": "suite",
-    "d": "M804,319 Q808,247 812,178"
+    "d": "M803,314 Q807,221 811,130"
    },
    {
     "de": "STP-042",
     "vers": "STP-043",
     "type": "cause",
-    "d": "M812,178 Q816,196 820,217"
+    "d": "M811,130 Q815,148 819,168"
    },
    {
     "de": "STP-041",
     "vers": "STP-053",
     "type": "meme_arc",
-    "d": "M804,319 Q869,299 935,323"
+    "d": "M803,314 Q867,288 932,306"
    },
    {
     "de": "STP-288",
     "vers": "STP-176",
     "type": "meme_arc",
-    "d": "M779,353 Q808,314 836,295"
+    "d": "M778,279 Q807,254 835,248"
    },
    {
     "de": "STP-239",
     "vers": "STP-194",
     "type": "cause",
-    "d": "M1152,138 Q1125,129 1098,138"
+    "d": "M1155,250 Q1128,243 1101,255"
    },
    {
     "de": "STP-178",
     "vers": "STP-183",
     "type": "cause",
-    "d": "M1868,288 Q1911,306 1953,352"
+    "d": "M1871,289 Q1914,307 1956,354"
    },
    {
     "de": "STP-182",
     "vers": "STP-183",
     "type": "cause",
-    "d": "M1942,312 Q1947,330 1953,352"
+    "d": "M1945,314 Q1950,332 1956,354"
    },
    {
     "de": "STP-192",
     "vers": "STP-193",
     "type": "cause",
-    "d": "M2056,527 Q2062,544 2068,565"
+    "d": "M2059,527 Q2065,544 2071,565"
    },
    {
     "de": "STP-196",
     "vers": "STP-198",
     "type": "cause",
-    "d": "M1614,344 Q1619,394 1623,446"
+    "d": "M1617,325 Q1622,370 1626,419"
    },
    {
     "de": "STP-195",
     "vers": "STP-198",
     "type": "suite",
-    "d": "M1542,223 Q1583,321 1623,446"
+    "d": "M1545,250 Q1586,321 1626,419"
    },
    {
     "de": "STP-195",
     "vers": "STP-085",
     "type": "meme_arc",
-    "d": "M1542,223 Q1152,179 762,255"
+    "d": "M1545,250 Q1153,166 762,202"
    },
    {
     "de": "STP-198",
     "vers": "STP-199",
     "type": "suite",
-    "d": "M1623,446 Q1633,376 1643,311"
+    "d": "M1626,419 Q1636,351 1646,289"
    },
    {
     "de": "STP-200",
     "vers": "STP-201",
     "type": "suite",
-    "d": "M1647,373 Q1650,394 1652,417"
+    "d": "M1650,349 Q1653,369 1655,390"
    },
    {
     "de": "STP-201",
     "vers": "STP-202",
     "type": "suite",
-    "d": "M1652,417 Q1655,315 1657,214"
+    "d": "M1655,390 Q1658,291 1660,194"
    },
    {
     "de": "STP-203",
     "vers": "STP-008",
     "type": "cause",
-    "d": "M1682,98 Q980,38 278,98"
+    "d": "M1685,98 Q982,38 278,98"
    },
    {
     "de": "STP-205",
     "vers": "STP-206",
     "type": "cause",
-    "d": "M1733,287 Q1746,298 1759,318"
+    "d": "M1736,290 Q1749,301 1762,321"
    },
    {
     "de": "STP-206",
     "vers": "STP-207",
     "type": "cause",
-    "d": "M1759,318 Q1772,330 1785,351"
+    "d": "M1762,321 Q1775,333 1788,354"
    },
    {
     "de": "STP-207",
     "vers": "STP-208",
     "type": "suite",
-    "d": "M1785,351 Q1797,363 1810,384"
+    "d": "M1788,354 Q1800,366 1813,387"
    },
    {
     "de": "STP-206",
     "vers": "STP-208",
     "type": "suite",
-    "d": "M1759,318 Q1785,342 1810,384"
+    "d": "M1762,321 Q1788,345 1813,387"
    },
    {
     "de": "STP-212",
     "vers": "STP-289",
     "type": "cause",
-    "d": "M1551,314 Q1559,252 1566,196"
+    "d": "M1554,333 Q1562,257 1569,187"
    },
    {
     "de": "STP-159",
     "vers": "STP-214",
     "type": "suite",
-    "d": "M1503,283 Q1532,332 1561,400"
+    "d": "M1506,288 Q1535,346 1564,423"
    },
    {
     "de": "STP-213",
     "vers": "STP-218",
     "type": "suite",
-    "d": "M1556,352 Q1566,316 1575,286"
+    "d": "M1559,376 Q1569,319 1578,268"
    },
    {
     "de": "STP-219",
     "vers": "STP-220",
     "type": "suite",
-    "d": "M1580,324 Q1583,347 1585,372"
+    "d": "M1583,307 Q1586,329 1588,352"
    },
    {
     "de": "STP-221",
     "vers": "STP-222",
     "type": "cause",
-    "d": "M1590,426 Q1592,297 1595,170"
+    "d": "M1593,396 Q1595,278 1598,161"
    },
    {
     "de": "STP-222",
     "vers": "STP-223",
     "type": "suite",
-    "d": "M1595,170 Q1597,193 1599,217"
+    "d": "M1598,161 Q1600,180 1602,202"
    },
    {
     "de": "STP-224",
     "vers": "STP-227",
     "type": "meme_arc",
-    "d": "M1604,261 Q1607,279 1609,299"
+    "d": "M1607,244 Q1610,262 1612,282"
    },
    {
     "de": "STP-178",
     "vers": "STP-230",
     "type": "cause",
-    "d": "M1868,288 Q1979,233 2091,251"
+    "d": "M1871,289 Q1982,233 2094,251"
    },
    {
     "de": "STP-230",
     "vers": "STP-295",
     "type": "cause",
-    "d": "M2091,251 Q2119,241 2148,249"
+    "d": "M2094,251 Q2122,241 2151,249"
    },
    {
     "de": "STP-292",
     "vers": "STP-293",
     "type": "suite",
-    "d": "M2125,363 Q2131,380 2136,400"
+    "d": "M2128,363 Q2134,380 2139,401"
    },
    {
     "de": "STP-297",
     "vers": "STP-232",
     "type": "suite",
-    "d": "M2159,304 Q2136,307 2113,325"
+    "d": "M2162,304 Q2139,307 2116,325"
    },
    {
     "de": "STP-231",
     "vers": "STP-297",
     "type": "suite",
-    "d": "M2102,289 Q2131,287 2159,304"
+    "d": "M2105,289 Q2134,287 2162,304"
    },
    {
     "de": "STP-040",
     "vers": "STP-039",
     "type": "cause",
-    "d": "M795,431 Q791,410 787,392"
+    "d": "M795,392 Q791,371 786,353"
    },
    {
     "de": "STP-137",
     "vers": "STP-138",
     "type": "cause",
-    "d": "M1345,280 Q1347,300 1350,322"
+    "d": "M1348,284 Q1350,305 1353,327"
    },
    {
     "de": "STP-143",
     "vers": "STP-144",
     "type": "cause",
-    "d": "M1402,478 Q1405,347 1407,218"
+    "d": "M1405,484 Q1408,352 1410,222"
    },
    {
     "de": "STP-146",
     "vers": "STP-147",
     "type": "suite",
-    "d": "M1417,319 Q1419,342 1422,367"
+    "d": "M1420,323 Q1422,347 1425,372"
    },
    {
     "de": "STP-157",
     "vers": "STP-158",
     "type": "cause",
-    "d": "M1494,473 Q1496,355 1498,239"
+    "d": "M1497,481 Q1499,361 1501,243"
    },
    {
     "de": "STP-050",
     "vers": "STP-048",
     "type": "cause",
-    "d": "M919,247 Q915,316 911,387"
+    "d": "M916,230 Q912,299 908,372"
    },
    {
     "de": "STP-031",
@@ -11509,211 +11456,247 @@
     "de": "STP-233",
     "vers": "STP-234",
     "type": "cause",
-    "d": "M1018,428 Q1022,356 1026,288"
+    "d": "M1021,230 Q1025,248 1029,269"
    },
    {
     "de": "STP-062",
     "vers": "STP-079",
     "type": "suite",
-    "d": "M960,439 Q985,405 1009,388"
+    "d": "M957,422 Q985,418 1013,434"
    },
    {
     "de": "STP-009",
     "vers": "STP-011",
     "type": "cause",
-    "d": "M307,270 Q322,279 336,297"
+    "d": "M307,276 Q322,285 336,303"
    },
    {
     "de": "STP-086",
     "vers": "STP-087",
     "type": "cause",
-    "d": "M886,271 Q915,307 943,362"
+    "d": "M884,255 Q912,290 940,344"
    },
    {
     "de": "STP-005",
     "vers": "STP-087",
     "type": "suite",
-    "d": "M219,302 Q581,272 943,362"
+    "d": "M219,312 Q580,268 940,344"
    },
    {
     "de": "STP-105",
     "vers": "STP-106",
     "type": "suite",
-    "d": "M1220,240 Q1232,353 1244,474"
+    "d": "M1223,244 Q1235,357 1247,478"
    },
    {
     "de": "STP-106",
     "vers": "STP-182",
     "type": "meme_arc",
-    "d": "M1244,474 Q1593,333 1942,312"
+    "d": "M1247,478 Q1596,336 1945,314"
    },
    {
     "de": "STP-120",
     "vers": "STP-125",
     "type": "cause",
-    "d": "M1234,379 Q1249,385 1263,401"
+    "d": "M1237,384 Q1252,390 1266,406"
    },
    {
     "de": "STP-124",
     "vers": "STP-126",
     "type": "suite",
-    "d": "M1258,350 Q1275,336 1292,332"
+    "d": "M1261,355 Q1278,340 1295,337"
    },
    {
     "de": "STP-277",
     "vers": "STP-137",
     "type": "suite",
-    "d": "M1268,444 Q1306,349 1345,280"
+    "d": "M1271,448 Q1309,354 1348,284"
    },
    {
     "de": "STP-146",
     "vers": "STP-149",
     "type": "meme_arc",
-    "d": "M1417,319 Q1429,300 1441,290"
+    "d": "M1420,323 Q1432,305 1444,294"
    },
    {
     "de": "STP-147",
     "vers": "STP-151",
     "type": "suite",
-    "d": "M1422,367 Q1436,369 1450,381"
+    "d": "M1425,372 Q1439,375 1453,387"
    },
    {
     "de": "STP-146",
     "vers": "STP-259",
     "type": "meme_arc",
-    "d": "M1417,319 Q1465,329 1513,370"
+    "d": "M1420,323 Q1468,334 1516,377"
    },
    {
     "de": "STP-146",
     "vers": "STP-274",
     "type": "meme_arc",
-    "d": "M1417,319 Q1443,283 1470,265"
+    "d": "M1420,323 Q1446,287 1473,269"
    },
    {
     "de": "STP-120",
     "vers": "STP-142",
     "type": "meme_arc",
-    "d": "M1234,379 Q1316,378 1398,432"
+    "d": "M1237,384 Q1319,383 1401,437"
    },
    {
     "de": "STP-123",
     "vers": "STP-304",
     "type": "cause",
-    "d": "M1253,311 Q1263,402 1273,499"
+    "d": "M1256,316 Q1266,406 1276,503"
    },
    {
     "de": "STP-302",
     "vers": "STP-303",
     "type": "cause",
-    "d": "M73,205 Q88,212 102,230"
+    "d": "M73,282 Q88,290 102,307"
    },
    {
     "de": "STP-216",
     "vers": "STP-218",
     "type": "cause",
-    "d": "M1571,242 Q1573,263 1575,286"
+    "d": "M1574,225 Q1576,246 1578,268"
    },
    {
     "de": "STP-211",
     "vers": "STP-212",
     "type": "meme_arc",
-    "d": "M1547,268 Q1549,290 1551,314"
+    "d": "M1550,293 Q1552,312 1554,333"
    },
    {
     "de": "STP-287",
     "vers": "STP-044",
     "type": "meme_arc",
-    "d": "M853,370 Q841,308 828,256"
+    "d": "M851,324 Q839,262 827,208"
    },
    {
     "de": "STP-191",
     "vers": "STP-192",
     "type": "meme_arc",
-    "d": "M2045,489 Q2050,506 2056,527"
+    "d": "M2048,489 Q2053,506 2059,527"
    },
    {
     "de": "STP-033",
     "vers": "STP-035",
     "type": "cause",
-    "d": "M664,238 Q681,290 698,353"
+    "d": "M664,240 Q681,292 698,356"
    },
    {
     "de": "STP-102",
     "vers": "STP-080",
     "type": "meme_arc",
-    "d": "M1210,505 Q1263,388 1316,307"
+    "d": "M1213,513 Q1266,394 1319,311"
    },
    {
     "de": "STP-300",
     "vers": "STP-301",
     "type": "cause",
-    "d": "M1059,439 Q1063,457 1067,477"
+    "d": "M1062,529 Q1066,546 1070,567"
    },
    {
     "de": "STP-298",
     "vers": "STP-299",
     "type": "meme_arc",
-    "d": "M1042,364 Q1046,382 1050,402"
+    "d": "M1046,358 Q1050,375 1054,396"
    },
    {
     "de": "STP-178",
     "vers": "STP-181",
     "type": "cause",
-    "d": "M1868,288 Q1899,271 1930,273"
+    "d": "M1871,289 Q1902,272 1933,275"
    },
    {
     "de": "STP-178",
     "vers": "STP-228",
     "type": "cause",
-    "d": "M1868,288 Q1974,216 2079,213"
+    "d": "M1871,289 Q1977,216 2082,214"
    },
    {
     "de": "STP-060",
     "vers": "STP-062",
     "type": "meme_arc",
-    "d": "M952,400 Q956,418 960,439"
+    "d": "M948,382 Q953,401 957,422"
    },
    {
     "de": "STP-065",
     "vers": "STP-062",
     "type": "meme_arc",
-    "d": "M968,478 Q964,457 960,439"
+    "d": "M973,242 Q965,329 957,422"
    },
    {
     "de": "STP-010",
     "vers": "STP-034",
     "type": "cause",
-    "d": "M394,348 Q540,282 687,314"
+    "d": "M394,354 Q540,286 687,317"
    },
    {
     "de": "STP-113",
     "vers": "STP-114",
     "type": "meme_arc",
-    "d": "M1215,202 Q1249,204 1282,229"
+    "d": "M1218,206 Q1252,209 1285,234"
    },
    {
     "de": "STP-168",
     "vers": "STP-098",
     "type": "meme_arc",
-    "d": "M1455,420 Q1323,340 1191,347"
+    "d": "M1458,425 Q1326,346 1194,355"
    },
    {
     "de": "STP-174",
     "vers": "STP-098",
     "type": "meme_arc",
-    "d": "M1522,447 Q1357,342 1191,347"
+    "d": "M1525,455 Q1360,350 1194,355"
    },
    {
     "de": "STP-280",
     "vers": "STP-098",
     "type": "meme_arc",
-    "d": "M1229,339 Q1210,336 1191,347"
+    "d": "M1232,344 Q1213,343 1194,355"
    },
    {
     "de": "STP-204",
     "vers": "STP-207",
     "type": "meme_arc",
-    "d": "M1708,259 Q1746,292 1785,351"
+    "d": "M1711,262 Q1749,295 1788,354"
+   },
+   {
+    "de": "STP-267",
+    "vers": "STP-268",
+    "type": "meme_arc",
+    "d": "M859,363 Q863,269 867,179"
+   },
+   {
+    "de": "STP-154",
+    "vers": "STP-156",
+    "type": "meme_arc",
+    "d": "M1482,361 Q1487,399 1492,440"
+   },
+   {
+    "de": "STP-146",
+    "vers": "STP-158",
+    "type": "meme_arc",
+    "d": "M1420,323 Q1461,269 1501,243"
+   },
+   {
+    "de": "STP-286",
+    "vers": "STP-044",
+    "type": "meme_arc",
+    "d": "M843,286 Q835,244 827,208"
+   },
+   {
+    "de": "STP-301",
+    "vers": "STP-063",
+    "type": "cause",
+    "d": "M1070,567 Q1017,549 965,566"
+   },
+   {
+    "de": "STP-288",
+    "vers": "STP-239",
+    "type": "suite",
+    "d": "M778,279 Q967,205 1155,250"
    }
   ]
  }

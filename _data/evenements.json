@@ -487,7 +487,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 4,
@@ -988,7 +988,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 10,
@@ -1994,7 +1994,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 47,
@@ -2526,7 +2526,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 19,
@@ -2963,7 +2963,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 22,
@@ -3181,7 +3181,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 25,
@@ -3509,7 +3509,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 28,
@@ -6024,6 +6024,13 @@
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2#ep17",
      "url_complementaire": null,
      "justification": "Arc de l'Ange rouge de la saison 2 : les colons de Terralysium y ont été amenés par l'Ange rouge, dont « Perpetual Infinity » révèle qu'il s'agit de Gabrielle Burnham cherchant à empêcher le futur où Control détruit toute vie ; Control infiltre ensuite Section 31."
+    },
+    {
+     "id": "STP-286",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+     "url_complementaire": null,
+     "justification": "Arc de l'Ange rouge de la saison 2, que Wikipedia nomme : « This ties into a larger story that is the main arc for the second season, involving seven mysterious signals and a mysterious \"red angel\" figure. » L'un des signaux conduit Discovery à Kaminar (« Another of the mysterious signals leads Discovery to Saru's homeworld of Kaminar ») et l'Ange rouge arrête le génocide (« attempting genocide on the Kelpiens, but are stopped by the Red Angel »). L'Ange rouge cherche à soustraire les données de la Sphère à Control (« Trying to stop Control from gaining the Sphere's data »). Dans la bataille finale contre la flotte de Section 31 contrôlée par Control, « Saru's sister Siranna arrives with Ba'ul fighters »."
     }
    ],
    "examinee_le": null,
@@ -6703,7 +6710,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 69,
@@ -6994,7 +7001,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 71,
@@ -7641,7 +7648,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 76,
@@ -7758,7 +7765,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 77,
@@ -7875,7 +7882,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 78,
@@ -7973,7 +7980,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 79,
@@ -8072,9 +8079,9 @@
     {
      "id": "STP-062",
      "type": "meme_arc",
-     "url": "https://memory-alpha.fandom.com/wiki/Human-Klingon_history",
-     "url_complementaire": null,
-     "justification": "Memory Alpha (histoire des relations Humains–Klingons) range Neural et Organia parmi les régions disputées d'un même conflit nommé, la guerre froide Fédération–Klingons : « The Federation-Klingon Cold War escalated around 2223 and lasted almost seventy years. » ; « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+     "url": "http://web.archive.org/web/20260310175324/https://memory-alpha.fandom.com/wiki/Human-Klingon_history",
+     "url_complementaire": "https://memory-alpha.fandom.com/wiki/Federation-Klingon_history",
+     "justification": "Memory Alpha (histoire des relations Humains–Klingons, copie archivée du 10 mars 2026 ; la page redirige depuis vers « Federation-Klingon history ») range Neural et Organia parmi les régions disputées d'un même conflit nommé, la guerre froide Fédération–Klingons : « The Federation-Klingon Cold War escalated around 2223 and lasted almost seventy years. » ; « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
     }
    ],
    "entrantes": [],
@@ -8203,7 +8210,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 81,
@@ -8332,16 +8339,16 @@
     {
      "id": "STP-060",
      "type": "meme_arc",
-     "url": "https://memory-alpha.fandom.com/wiki/Human-Klingon_history",
-     "url_complementaire": null,
-     "justification": "Memory Alpha (histoire des relations Humains–Klingons) range Neural et Organia parmi les régions disputées d'un même conflit nommé, la guerre froide Fédération–Klingons : « The Federation-Klingon Cold War escalated around 2223 and lasted almost seventy years. » ; « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+     "url": "http://web.archive.org/web/20260310175324/https://memory-alpha.fandom.com/wiki/Human-Klingon_history",
+     "url_complementaire": "https://memory-alpha.fandom.com/wiki/Federation-Klingon_history",
+     "justification": "Memory Alpha (histoire des relations Humains–Klingons, copie archivée du 10 mars 2026 ; la page redirige depuis vers « Federation-Klingon history ») range Neural et Organia parmi les régions disputées d'un même conflit nommé, la guerre froide Fédération–Klingons : « The Federation-Klingon Cold War escalated around 2223 and lasted almost seventy years. » ; « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
     },
     {
      "id": "STP-065",
      "type": "meme_arc",
      "url": "https://memory-alpha.fandom.com/wiki/Capella_IV",
-     "url_complementaire": null,
-     "justification": "Memory Alpha (Capella IV) : « In 2267, the planet served as a pawn in the Federation-Klingon Cold War, during a trade dispute between the Klingons and the Federation over topaline mining rights. » La page Human-Klingon history range Capella IV et Organia parmi les régions disputées de cette même guerre froide : « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+     "url_complementaire": "http://web.archive.org/web/20260310175324/https://memory-alpha.fandom.com/wiki/Human-Klingon_history",
+     "justification": "Memory Alpha (Capella IV) : « In 2267, the planet served as a pawn in the Federation-Klingon Cold War, during a trade dispute between the Klingons and the Federation over topaline mining rights. » La page Human-Klingon history (copie archivée du 10 mars 2026) range Capella IV et Organia parmi les régions disputées de cette même guerre froide : « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
     }
    ],
    "examinee_le": null,
@@ -8441,9 +8448,17 @@
   "doublons": [],
   "relations": {
    "sortantes": [],
-   "entrantes": [],
-   "examinee_le": "2026-11-15",
-   "passes": 5
+   "entrantes": [
+    {
+     "id": "STP-301",
+     "type": "cause",
+     "url": "https://openpike.com/episode/strange-new-words-orders-of-magnitude-with-alan-b-mcelroy",
+     "url_complementaire": "https://memory-alpha.fandom.com/wiki/Orders_of_Magnitude_(episode)",
+     "justification": "Lien établi par une déclaration d'auteur, non par l'écran : le scénariste Alan B. McElroy dit du vaisseau que Kirk laisse fuir qu'« in truth, he is wrong because this ship becomes the ship that he will end up having to confront in Balance of Terror » (podcast Open Pike Night, transcription automatique). Memory Alpha : « McElroy confirmed that this was intentional, and in his mind, the two ships are the same vessel », tout en notant : « The identity of the enemy ship is not revealed, but is heavily implied to be Romulan. »"
+    }
+   ],
+   "examinee_le": null,
+   "passes": null
   },
   "rang_diegetique": 83,
   "bande": "XXIIIe siècle",
@@ -8576,7 +8591,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 84,
@@ -8731,8 +8746,8 @@
      "id": "STP-062",
      "type": "meme_arc",
      "url": "https://memory-alpha.fandom.com/wiki/Capella_IV",
-     "url_complementaire": null,
-     "justification": "Memory Alpha (Capella IV) : « In 2267, the planet served as a pawn in the Federation-Klingon Cold War, during a trade dispute between the Klingons and the Federation over topaline mining rights. » La page Human-Klingon history range Capella IV et Organia parmi les régions disputées de cette même guerre froide : « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
+     "url_complementaire": "http://web.archive.org/web/20260310175324/https://memory-alpha.fandom.com/wiki/Human-Klingon_history",
+     "justification": "Memory Alpha (Capella IV) : « In 2267, the planet served as a pawn in the Federation-Klingon Cold War, during a trade dispute between the Klingons and the Federation over topaline mining rights. » La page Human-Klingon history (copie archivée du 10 mars 2026) range Capella IV et Organia parmi les régions disputées de cette même guerre froide : « Key disputed regions included Sherman's Planet, Organia, Donatu V, Neural, Capella IV, the Archanis sector, and the Tellun system. »"
     }
    ],
    "entrantes": [],
@@ -8858,7 +8873,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 86,
@@ -8955,7 +8970,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 87,
@@ -9106,7 +9121,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 88,
@@ -9223,7 +9238,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 89,
@@ -9374,7 +9389,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 90,
@@ -9512,7 +9527,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 91,
@@ -9758,7 +9773,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 101,
@@ -10026,7 +10041,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 103,
@@ -10160,7 +10175,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 104,
@@ -10949,7 +10964,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 217,
@@ -11575,7 +11590,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 99,
@@ -11673,7 +11688,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 119,
@@ -11810,7 +11825,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 120,
@@ -11962,7 +11977,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 121,
@@ -12082,7 +12097,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 122,
@@ -12202,7 +12217,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 123,
@@ -12436,7 +12451,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 127,
@@ -12581,7 +12596,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 128,
@@ -13071,7 +13086,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 131,
@@ -13290,7 +13305,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 138,
@@ -13723,7 +13738,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 132,
@@ -14161,7 +14176,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 144,
@@ -14285,7 +14300,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 140,
@@ -14404,7 +14419,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 124,
@@ -14509,7 +14524,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 152,
@@ -14630,7 +14645,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 153,
@@ -14772,7 +14787,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 133,
@@ -15411,7 +15426,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 164,
@@ -15635,7 +15650,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 165,
@@ -15759,7 +15774,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 142,
@@ -17277,7 +17292,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 181,
@@ -17374,7 +17389,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 175,
@@ -17510,7 +17525,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 176,
@@ -19743,6 +19758,13 @@
      "url": "https://en.wikipedia.org/wiki/Statistical_Probabilities",
      "url_complementaire": null,
      "justification": "L'épisode appartient au « Dominion War storyline » : la prévision des augmentés (« the Federation is doomed to lose the war ») porte sur cette guerre, pendant des pourparlers proposés par Damar."
+    },
+    {
+     "id": "STP-158",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "url_complementaire": "https://en.wikipedia.org/wiki/What_You_Leave_Behind",
+     "justification": "L'article « Dominion War » de Memory Alpha couvre une guerre « fought from 2373 to 2375 ». Il en place l'ouverture au minage du trou de ver (« Both sides knew that this act would lead to open war », « Call to Arms ») et la fin à la reddition de Cardassia : « The instrument of surrender, the Dominion War Declaration of Peace, was signed on Deep Space 9 between representatives of the Federation Alliance and the Dominion several days after the surrender at Cardassia » (« What You Leave Behind »). Pour Wikipedia, ce dernier épisode « sees the end of the long-running plot arc of the Dominion War »."
     }
    ],
    "entrantes": [
@@ -20591,7 +20613,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 187,
@@ -20883,6 +20905,13 @@
      "url": "https://memory-alpha.fandom.com/wiki/Tacking_Into_the_Wind_(episode)",
      "url_complementaire": null,
      "justification": "Gowron envoie Martok dans des attaques vouées à l'échec pour le discréditer. Worf le défie alors pour ce motif (« wasting ships and lives […] just so he can perform a petty act of vengeance »), le tue et remet la robe de chancelier à Martok."
+    },
+    {
+     "id": "STP-156",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Tacking_into_the_Wind",
+     "url_complementaire": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "justification": "Wikipedia présente « Tacking into the Wind », source de STP-154, comme « the sixth episode of the nine-episode concluding story arc of the series, which brings the Dominion War and other story elements to a close ». La même page rappelle que, dans les épisodes précédents, « the Cardassian leader Damar has launched a rebellion against Dominion rule », et que dans celui-ci « the Klingon chancellor Gowron orders his fleet into dangerous missions that risk the war effort ». Memory Alpha range les deux faits dans la section « Cardassian rebellion » de l'article « Dominion War » (« However, the Allied defensive efforts were soon jeopardized by Chancellor Gowron »)."
     }
    ],
    "entrantes": [],
@@ -21118,7 +21147,15 @@
      "justification": "La révolte de Damar, soutenue par la Fédération (« When It Rains… »), est écrasée (« The Dogs of War ») mais « had left a scintillating impression upon the Cardassian people » : Damar, Garak et Kira entraînent alors « a popular uprising against the Dominion » (« What You Leave Behind »)."
     }
    ],
-   "entrantes": [],
+   "entrantes": [
+    {
+     "id": "STP-154",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Tacking_into_the_Wind",
+     "url_complementaire": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "justification": "Wikipedia présente « Tacking into the Wind », source de STP-154, comme « the sixth episode of the nine-episode concluding story arc of the series, which brings the Dominion War and other story elements to a close ». La même page rappelle que, dans les épisodes précédents, « the Cardassian leader Damar has launched a rebellion against Dominion rule », et que dans celui-ci « the Klingon chancellor Gowron orders his fleet into dangerous missions that risk the war effort ». Memory Alpha range les deux faits dans la section « Cardassian rebellion » de l'article « Dominion War » (« However, the Allied defensive efforts were soon jeopardized by Chancellor Gowron »)."
+    }
+   ],
    "examinee_le": null,
    "passes": null
   },
@@ -21444,6 +21481,13 @@
      "url": "https://en.wikipedia.org/wiki/What_You_Leave_Behind",
      "url_complementaire": null,
      "justification": "Le soulèvement cardassien coupe les communications du Dominion et les vaisseaux cardassiens changent de camp, renversant la bataille ; la Fondatrice capturée finit par ordonner la reddition et signer l'armistice."
+    },
+    {
+     "id": "STP-146",
+     "type": "meme_arc",
+     "url": "https://memory-alpha.fandom.com/wiki/Dominion_War",
+     "url_complementaire": "https://en.wikipedia.org/wiki/What_You_Leave_Behind",
+     "justification": "L'article « Dominion War » de Memory Alpha couvre une guerre « fought from 2373 to 2375 ». Il en place l'ouverture au minage du trou de ver (« Both sides knew that this act would lead to open war », « Call to Arms ») et la fin à la reddition de Cardassia : « The instrument of surrender, the Dominion War Declaration of Peace, was signed on Deep Space 9 between representatives of the Federation Alliance and the Dominion several days after the surrender at Cardassia » (« What You Leave Behind »). Pour Wikipedia, ce dernier épisode « sees the end of the long-running plot arc of the Dominion War »."
     }
    ],
    "examinee_le": null,
@@ -22371,7 +22415,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 190,
@@ -22768,7 +22812,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 203,
@@ -23136,7 +23180,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 226,
@@ -23254,7 +23298,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 233,
@@ -23380,7 +23424,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 234,
@@ -23533,7 +23577,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 211,
@@ -23791,7 +23835,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 235,
@@ -27655,7 +27699,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 242,
@@ -27794,7 +27838,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 243,
@@ -28528,7 +28572,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 248,
@@ -28799,7 +28843,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 252,
@@ -30376,7 +30420,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 295,
@@ -31815,7 +31859,15 @@
      "justification": "La plaque de l'ISS Enterprise, dans les passages identiques de ses deux transcriptions écrites (TrekCore ; Memory Alpha) : « But some saw this as weakness. They killed him, and we sought help from an unlikely ally: a Kelpien slave turned rebel leader » ; « With his aid we secured the Enterprise » ; « We bear scars from our escape ». À l'écran, Book la résume : « The Terran High Chancellor was killed for trying to make reforms, and this crew escaped » (transcription de « Mirrors »)."
     }
    ],
-   "entrantes": [],
+   "entrantes": [
+    {
+     "id": "STP-288",
+     "type": "suite",
+     "url": "https://awardsradar.com/2024/05/29/discoverys-michelle-paradise-and-olatunde-osunsanmi/",
+     "url_complementaire": "https://memory-alpha.fandom.com/wiki/Saru_(mirror)",
+     "justification": "Lien établi par une déclaration d'auteur et par la plaque, entre continuités différentes : dans « Terra Firma », Georgiou libère Saru Miroir ; dans « Mirrors », la plaque de l'ISS Enterprise mentionne « a Kelpien slave turned rebel leader » qui aide les fugitifs. La showrunner Michelle Paradise relie les deux épisodes : « Whatever happened to Mirror Saru once he and Georgiou had their exchange in the Mirror Universe? ». Memory Alpha range toutefois le Saru de « Terra Firma » sous « Alternate timeline and realities »."
+    }
+   ],
    "examinee_le": null,
    "passes": null
   },
@@ -31937,7 +31989,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 100,
@@ -32062,7 +32114,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 23,
@@ -32159,7 +32211,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 29,
@@ -32361,7 +32413,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 31,
@@ -32458,7 +32510,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 93,
@@ -32575,7 +32627,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 94,
@@ -32706,7 +32758,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 95,
@@ -32824,7 +32876,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 96,
@@ -32938,7 +32990,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 97,
@@ -33060,7 +33112,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 98,
@@ -33207,7 +33259,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 135,
@@ -33330,7 +33382,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 145,
@@ -33451,7 +33503,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 146,
@@ -33754,7 +33806,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 170,
@@ -33888,7 +33940,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 7,
@@ -34005,7 +34057,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 8,
@@ -34332,7 +34384,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 213,
@@ -34429,7 +34481,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 214,
@@ -34541,7 +34593,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 215,
@@ -34656,7 +34708,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 228,
@@ -34774,7 +34826,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 236,
@@ -35146,7 +35198,15 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-268",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31",
+     "url_complementaire": null,
+     "justification": "Résumé du film (Wikipedia) : l'homme masqué que poursuit l'équipe de Section 31 pour récupérer le Godsend est San, que Georgiou avait réduit en servitude en montant sur le trône (« Georgiou enslaves him as she ascends the throne » ; « he reveals that San—who Georgiou thought was dead—is the masked man ») ; il veut utiliser l'arme pour fonder un empire « in contrast to Georgiou's cruel dictatorship ». La poursuite de l'arme et la confrontation de Georgiou à son passé forment la même intrigue."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-288",
@@ -35286,6 +35346,13 @@
      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31",
      "url_complementaire": null,
      "justification": "Le film revient sur la prise du trône terrien par Georgiou : elle a empoisonné sa famille et réduit en esclavage son ancien allié San. Ce dernier revient l'affronter ; ce sont les crimes de son règne qui fondent la confrontation."
+    },
+    {
+     "id": "STP-267",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Section_31",
+     "url_complementaire": null,
+     "justification": "Résumé du film (Wikipedia) : l'homme masqué que poursuit l'équipe de Section 31 pour récupérer le Godsend est San, que Georgiou avait réduit en servitude en montant sur le trône (« Georgiou enslaves him as she ascends the throne » ; « he reveals that San—who Georgiou thought was dead—is the masked man ») ; il veut utiliser l'arme pour fonder un empire « in contrast to Georgiou's cruel dictatorship ». La poursuite de l'arme et la confrontation de Georgiou à son passé forment la même intrigue."
     }
    ],
    "examinee_le": null,
@@ -35780,7 +35847,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 172,
@@ -36322,7 +36389,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 173,
@@ -36838,7 +36905,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 125,
@@ -37298,7 +37365,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 238,
@@ -37440,7 +37507,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 229,
@@ -37708,7 +37775,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 230,
@@ -37844,7 +37911,15 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-044",
+     "type": "meme_arc",
+     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery_season_2",
+     "url_complementaire": null,
+     "justification": "Arc de l'Ange rouge de la saison 2, que Wikipedia nomme : « This ties into a larger story that is the main arc for the second season, involving seven mysterious signals and a mysterious \"red angel\" figure. » L'un des signaux conduit Discovery à Kaminar (« Another of the mysterious signals leads Discovery to Saru's homeworld of Kaminar ») et l'Ange rouge arrête le génocide (« attempting genocide on the Kelpiens, but are stopped by the Red Angel »). L'Ange rouge cherche à soustraire les données de la Sphère à Control (« Trying to stop Control from gaining the Sphere's data »). Dans la bataille finale contre la flotte de Section 31 contrôlée par Control, « Saru's sister Siranna arrives with Ba'ul fighters »."
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-266",
@@ -38071,6 +38146,13 @@
      "url": "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)",
      "url_complementaire": null,
      "justification": "« Terra Firma » est situé « a few days before the first season's Mirror Universe storyline begins » ; Georgiou y fait éliminer « her former co-conspirators and Gabriel Lorca's spies » : même complot que le coup d'État de Lorca. (Relation reportée de STP-238, doublon tranché de STP-176.)"
+    },
+    {
+     "id": "STP-239",
+     "type": "suite",
+     "url": "https://awardsradar.com/2024/05/29/discoverys-michelle-paradise-and-olatunde-osunsanmi/",
+     "url_complementaire": "https://memory-alpha.fandom.com/wiki/Saru_(mirror)",
+     "justification": "Lien établi par une déclaration d'auteur et par la plaque, entre continuités différentes : dans « Terra Firma », Georgiou libère Saru Miroir ; dans « Mirrors », la plaque de l'ISS Enterprise mentionne « a Kelpien slave turned rebel leader » qui aide les fugitifs. La showrunner Michelle Paradise relie les deux épisodes : « Whatever happened to Mirror Saru once he and Georgiou had their exchange in the Mirror Universe? ». Memory Alpha range toutefois le Saru de « Terra Firma » sous « Alternate timeline and realities »."
     }
    ],
    "entrantes": [],
@@ -38457,7 +38539,7 @@
   "relations": {
    "sortantes": [],
    "entrantes": [],
-   "examinee_le": "2026-11-15",
+   "examinee_le": "2026-11-16",
    "passes": 5
   },
   "rang_diegetique": 34,
@@ -40030,7 +40112,15 @@
   "doublon_de": null,
   "doublons": [],
   "relations": {
-   "sortantes": [],
+   "sortantes": [
+    {
+     "id": "STP-063",
+     "type": "cause",
+     "url": "https://openpike.com/episode/strange-new-words-orders-of-magnitude-with-alan-b-mcelroy",
+     "url_complementaire": "https://memory-alpha.fandom.com/wiki/Orders_of_Magnitude_(episode)",
+     "justification": "Lien établi par une déclaration d'auteur, non par l'écran : le scénariste Alan B. McElroy dit du vaisseau que Kirk laisse fuir qu'« in truth, he is wrong because this ship becomes the ship that he will end up having to confront in Balance of Terror » (podcast Open Pike Night, transcription automatique). Memory Alpha : « McElroy confirmed that this was intentional, and in his mind, the two ships are the same vessel », tout en notant : « The identity of the enemy ship is not revealed, but is heavily implied to be Romulan. »"
+    }
+   ],
    "entrantes": [
     {
      "id": "STP-300",

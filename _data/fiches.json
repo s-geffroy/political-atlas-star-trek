@@ -881,9 +881,9 @@
    "recoupement": "B — Compte rendu indépendant détaillé"
   },
   "volets": {
-   "faits": "La présidence de Betazed, longtemps isolée derrière une barrière psionique, négocie son retour dans la Fédération. Les responsables fédéraux proposent d’établir le siège politique fédéral sur Betazed pour crédibiliser l’engagement.",
+   "faits": "Betazed, isolée depuis plus d’un siècle derrière un mur psionique, négocie son retour dans la Fédération ; son président, Emrin Sadal, qui a fait campagne sur le maintien de ce mur, ouvre les négociations sous la pression de la délégation de la jeunesse bétazoïde. Après la rupture des discussions sur les garanties de sécurité, la chancelière de l’Académie Nahla Ake, avec l’amiral Vance, propose, si Betazed revient dans la Fédération, d’y bâtir le nouveau siège du gouvernement fédéral plutôt qu’à Paris. L’épisode s’achève sur le « Yes » de Sadal ; les termes de l’accord ne sont pas montrés.",
    "mecanisme": "L’offre déplace le centre institutionnel pour rendre une réintégration plus symétrique ; la négociation concerne la crédibilité des garanties, pas seulement l’appartenance formelle.",
-   "parallele": "Rapprochement avec les fédérations asymétriques, les garanties de souveraineté et les politiques de sortie de l’isolationnisme.",
+   "parallele": "Rapprochement avec les fédérations asymétriques, les garanties de souveraineté et les politiques de sortie de l’isolationnisme. Aucune source consultée ne fait ce rapprochement ni ne relie l’épisode à une sécession, à un retour dans une union ou à un déplacement de capitale réels : la comparaison est une construction de l’atlas.",
    "objections": "La proposition fictionnelle ne permet pas d’affirmer que tout État revenu dans une organisation doit accueillir ses institutions centrales.",
    "contexte": "Épisode de janvier 2026."
   },
@@ -892,6 +892,11 @@
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/",
     "archive": "https://web.archive.org/web/20260221013908/https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-beta-test/"
+   },
+   {
+    "libelle": "Source — Transcription de « Beta Test » (chakoteya.net) (V0.34)",
+    "url": "http://www.chakoteya.net/SFAcad/SFA102.html",
+    "archive": null
    }
   ]
  },
@@ -932,9 +937,9 @@
    "recoupement": "B — Compte rendu indépendant détaillé"
   },
   "volets": {
-   "faits": "Nus Braka détient des mines Omega-47 capables de détruire les conditions matérielles du voyage à distorsion et utilise cette menace contre la Fédération.",
+   "faits": "Nus Braka vole à une base stellaire de l’Omega-47, substance créée par Starfleet, dont une seule particule rend le voyage à distorsion impossible pour des millions d’années, et en fait des mines. Il les dispose en une chaîne autour du territoire fédéral, où la flotte, rappelée pour le défendre, se trouve enfermée ; sa menace doit couvrir un cartel de mondes non membres, libres de piller toute planète. Les mines sont désarmées sans exploser.",
    "mecanisme": "Une menace de destruction systémique vise les infrastructures de mobilité et de liaison sur lesquelles repose un ordre politique interplanétaire.",
-   "parallele": "Résonance avec les stratégies de dissuasion, les armes perturbant les infrastructures critiques et les théories de coercition.",
+   "parallele": "Résonance avec les stratégies de dissuasion, les armes perturbant les infrastructures critiques et les théories de coercition. Aucune source consultée, ni déclaration d’auteur ni critique, ne fait ce rapprochement ni ne relie les mines au terrorisme ou à une arme réelle : la comparaison est une construction de l’atlas.",
    "objections": "Les propriétés de l’Omega-47 sont imaginaires ; ne pas les assimiler scientifiquement à une arme réelle précise.",
    "contexte": "Épisodes de mars 2026."
   },
@@ -948,6 +953,16 @@
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
     "url": "https://www.denofgeek.com/tv/star-trek-starfleet-academy-episode-9-review-300th-night/",
     "archive": "https://web.archive.org/web/20260416115107/https://www.denofgeek.com/tv/star-trek-starfleet-academy-episode-9-review-300th-night/"
+   },
+   {
+    "libelle": "Source — Transcription de « 300th Night » (chakoteya.net) (V0.34)",
+    "url": "http://www.chakoteya.net/SFAcad/SFA109.html",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Transcription de « Rubincon » (chakoteya.net) (V0.34)",
+    "url": "http://www.chakoteya.net/SFAcad/SFA110.html",
+    "archive": null
    }
   ]
  },

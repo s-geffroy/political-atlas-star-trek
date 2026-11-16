@@ -1,0 +1,64 @@
+{
+ "version": "V0.34",
+ "date": "2026-11-16",
+ "date_longue": "16 novembre 2026",
+ "base": "V0_33_2026-11-16",
+ "titre": "Atlas politique de Star Trek — V0.34 : fiches de « Beta Test » et de « 300th Night » / « Rubincon » alignées sur l’écran",
+ "resume": "Deux fiches de la saison 1 de « Starfleet Academy » sont alignées sur les analyses rédigées du 16 novembre 2026. STP-293 (« Beta Test ») attribue l’offre d’établir le siège du gouvernement fédéral sur Betazed à la chancelière de l’Académie Nahla Ake, avec l’amiral Vance, et non à des responsables fédéraux, la dit conditionnelle et note que l’épisode s’achève sur le « Yes » du président Sadal, sans montrer les termes de l’accord. STP-297 (« 300th Night » et « Rubincon ») précise que l’Omega-47 a été créé par Starfleet, que la chaîne de mines enferme la flotte fédérale, que la menace doit couvrir un cartel de mondes non membres et que les mines sont désarmées sans exploser. Les deux parallèles sont donnés pour ce qu’ils sont, des constructions de l’atlas qu’aucune source consultée n’établit.",
+ "methode": {
+  "revue": "analyses rédigées de STP-293 et STP-297 ; proposition validée le 2026-11-16 (docs/proposition-v034.md) ; niveaux de recoupement inchangés ; citations contrôlées sur les transcriptions et les sources lues."
+ },
+ "comptes": {
+  "corrections": 2
+ },
+ "corrections": [
+  {
+   "id": "STP-293",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "La présidence de Betazed, longtemps isolée derrière une barrière psionique, négocie son retour dans la Fédération. Les responsables fédéraux proposent d’établir le siège politique fédéral sur Betazed pour crédibiliser l’engagement.",
+     "apres": "Betazed, isolée depuis plus d’un siècle derrière un mur psionique, négocie son retour dans la Fédération ; son président, Emrin Sadal, qui a fait campagne sur le maintien de ce mur, ouvre les négociations sous la pression de la délégation de la jeunesse bétazoïde. Après la rupture des discussions sur les garanties de sécurité, la chancelière de l’Académie Nahla Ake, avec l’amiral Vance, propose, si Betazed revient dans la Fédération, d’y bâtir le nouveau siège du gouvernement fédéral plutôt qu’à Paris. L’épisode s’achève sur le « Yes » de Sadal ; les termes de l’accord ne sont pas montrés."
+    },
+    "parallele": {
+     "avant": "Rapprochement avec les fédérations asymétriques, les garanties de souveraineté et les politiques de sortie de l’isolationnisme.",
+     "apres": "Rapprochement avec les fédérations asymétriques, les garanties de souveraineté et les politiques de sortie de l’isolationnisme. Aucune source consultée ne fait ce rapprochement ni ne relie l’épisode à une sécession, à un retour dans une union ou à un déplacement de capitale réels : la comparaison est une construction de l’atlas."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « Beta Test » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/SFAcad/SFA102.html"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’offre est faite par la chancelière de l’Académie (NAHLA : « Should Betazed rejoin, the Federation will build its new seat of government not in Paris, where it once stood, but on Betazed. »), avec l’amiral Vance (« Should Betazed lower her walls, we will be there, with equal investment in building and protecting a future we both desperately need. »), et non par des responsables fédéraux, dont aucun n’apparaît ; elle est conditionnelle ; l’épisode s’achève sur la réponse de Sadal (« Yes. »), sans retour sur les vaisseaux ni les sièges au conseil de sécurité discutés plus tôt. Le président est « an isolationist who campaigned his presidency on keeping that wall up » ; la délégation de la jeunesse est celle « that pressured their government to enter negotiations with us » ; rupture : « The negotiations are over. » (transcription de « Beta Test »). Parallèle : aucune source consultée ne rapproche l’épisode du fédéralisme asymétrique, d’une sécession, d’un retour dans une union ou d’un déplacement de capitale réels ; les rapprochements avec l’actualité sont ceux de critiques, qui ne nomment aucun pays. Niveau de recoupement inchangé (B) : la transcription, Memory Alpha, Wikipedia et TrekCore concordent, mais aucune source officielle ne résume l’épisode (startrek.com : titre et date seulement)"
+  },
+  {
+   "id": "STP-297",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Nus Braka détient des mines Omega-47 capables de détruire les conditions matérielles du voyage à distorsion et utilise cette menace contre la Fédération.",
+     "apres": "Nus Braka vole à une base stellaire de l’Omega-47, substance créée par Starfleet, dont une seule particule rend le voyage à distorsion impossible pour des millions d’années, et en fait des mines. Il les dispose en une chaîne autour du territoire fédéral, où la flotte, rappelée pour le défendre, se trouve enfermée ; sa menace doit couvrir un cartel de mondes non membres, libres de piller toute planète. Les mines sont désarmées sans exploser."
+    },
+    "parallele": {
+     "avant": "Résonance avec les stratégies de dissuasion, les armes perturbant les infrastructures critiques et les théories de coercition.",
+     "apres": "Résonance avec les stratégies de dissuasion, les armes perturbant les infrastructures critiques et les théories de coercition. Aucune source consultée, ni déclaration d’auteur ni critique, ne fait ce rapprochement ni ne relie les mines au terrorisme ou à une arme réelle : la comparaison est une construction de l’atlas."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « 300th Night » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/SFAcad/SFA109.html"
+    },
+    {
+     "libelle": "Source — Transcription de « Rubincon » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/SFAcad/SFA110.html"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’Omega-47 a été volé à la base stellaire J19-Alpha (« That wasn't the only classified weapon held there ») et créé par Starfleet (SAM : « When Starfleet created Omega-47, they used Rubin particles to make it easier to stabilise. ») ; une particule a suffi dans le secteur 953 (« It'll be millions of years before warp travel will be possible there again, if ever. ») ; la flotte rappelée est enfermée (« They're forming a ring around Federation territory. » ; « He manoeuvred us into a defensive position and then put a wall around the entire Federation. He put us in a box. ») ; la menace doit couvrir « A cartel of non-member worlds, free to pillage any planet under threat of Omega-47 » ; les mines sont désarmées sans exploser (« Mine field deactivated. Omega-47 particles stabilised. ») (transcriptions de « 300th Night » et « Rubincon »). La nature de l’Omega-47 reste disputée à l’écran (Ake : « We were trying to create a new power source ») ; la fiche dit « substance ». Parallèle : aucune source lue ne relie les mines à la dissuasion, au terrorisme ou aux attaques d’infrastructures ; les déclarations de Kurtzman et Landau portent sur le procès et les institutions, non sur les mines. Niveau de recoupement inchangé"
+  }
+ ]
+}

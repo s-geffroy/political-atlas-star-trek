@@ -8,13 +8,17 @@
   { "id": "STP-006", "fichier": "analyses/emeutes-de-bell.html", "permalien": "/analyses/emeutes-de-bell/" },
   { "id": "STP-034", "fichier": "analyses/terra-prime.html", "permalien": "/analyses/STP-034/" },
   { "id": "STP-048", "fichier": "analyses/una.html", "permalien": "/analyses/STP-048/" },
+  { "id": "STP-061", "fichier": "analyses/cloud-minders.html", "permalien": "/analyses/STP-061/" },
   { "id": "STP-077", "fichier": "analyses/praxis-khitomer.html", "permalien": "/analyses/STP-077/" },
   { "id": "STP-094", "fichier": "analyses/data.html", "permalien": "/analyses/STP-094/" },
   { "id": "STP-101", "fichier": "analyses/drumhead.html", "permalien": "/analyses/STP-101/" },
   { "id": "STP-107", "fichier": "analyses/outcast.html", "permalien": "/analyses/STP-107/" },
+  { "id": "STP-125", "fichier": "analyses/duet.html", "permalien": "/analyses/STP-125/" },
   { "id": "STP-126", "fichier": "analyses/cercle.html", "permalien": "/analyses/STP-126/" },
+  { "id": "STP-129", "fichier": "analyses/bar-association.html", "permalien": "/analyses/STP-129/" },
   { "id": "STP-139", "fichier": "analyses/leyton.html", "permalien": "/analyses/STP-139/" },
   { "id": "STP-149", "fichier": "analyses/pale-moonlight.html", "permalien": "/analyses/STP-149/" },
-  { "id": "STP-153", "fichier": "analyses/section-31.html", "permalien": "/analyses/STP-153/" }
+  { "id": "STP-153", "fichier": "analyses/section-31.html", "permalien": "/analyses/STP-153/" },
+  { "id": "STP-274", "fichier": "analyses/statistical-probabilities.html", "permalien": "/analyses/STP-274/" }
  ]
 }

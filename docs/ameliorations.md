@@ -53,18 +53,24 @@ Doublon tranche : STP-238 -> STP-176 (renversement de Georgiou par Lorca, univer
 - Garde-fous : verify (arbre propre, adresses publiees conservees, rapport de qualite), hook pre-push sur HEAD.
 - Etat : 259 A, 38 B, 1 C (298 evenements distincts) ; 165 relations, 98 evenements sans relation apres quatre passes.
 
+## Fait du 14 au 16 novembre 2026 (V0.22 a V0.27)
+
+- Revue du 14/11, actions 6 et 7 : V0.22 (214 periodes en annee comparees aux journaux de bord, dix corrigees), V0.23 (84 reserves d'intitules triees, seize intitules corriges) ; V0.24 : niveaux A sur pages d'episode.
+- Reseau : arcs recalcules sur les seules relations documentees, chaines causales non coupees, etiquettes sur trois lignes, liens longs par couloirs libres, carte des arcs (noms courts), graphe chronologique ; cinquieme passe de relations (172 relations, 90 evenements examines sans relation, pages restees ouvertes closes).
+- Interface : en-tete mobile compact, theme Primer retire (commit 40fc24d).
+- Analyses redigees : Praxis (STP-077), In the Pale Moonlight (STP-149), le Cercle (STP-126), avec fiches alignees en V0.25 a V0.27 (huit analyses au total).
+- Dates stellaires (16/11) : journaux « U.S.S. » et ordre inverse lus, episodes en plusieurs parties sur toutes leurs pages Memory Alpha, bandeaux de renvoi distingues des pages d'homonymie ; releve complet sans echec (121 episodes dates).
+- Etat : 256 A, 40 B, 1 C (297 evenements distincts, 305 entrees).
+
 ## Reste a faire
 
-- Revue du 14/11, actions 6 et 7 : relire les 214 periodes en annee (erreurs relevees : STP-104, 106, 113, 165, 275, 162, 098, 225) et les intitules A au regard des 85 reserves de leurs notes.
-- Reseau : recalcul des arcs (arcs tenus par les seuls liens « episode commun », chaines coupees par le decoupage par serie) -- refonte de structure, accord requis ; etiquettes tronquees ; liens passant sous des boites.
-- 38 entrees B sans source officielle confirmant l'intitule entier (choix de ne pas reduire les intitules).
-- Interface : en-tete mobile trop haut ; style.css de Primer publie.
-- Score Lighthouse et Search Console : gestes de l'utilisateur.
+- Search Console et score Lighthouse : gestes de l'utilisateur ; audit SEO une fois les premieres donnees disponibles.
+- Entrees B sans source officielle confirmant l'intitule entier : choix de ne pas reduire les intitules (decision maintenue).
 - Protection de main et des tags corpus-* (ruleset GitHub) : ecartee par l'utilisateur le 2026-11-15 (mainteneur unique ; le hook pre-push reste la seule garde).
 
 ## Evolutions possibles
 
-- Autres analyses redigees (Praxis STP-077, J'naii STP-107, Satie STP-101, Una STP-048), une a la fois.
+- Autres analyses redigees (J'naii STP-107, Satie STP-101, Una STP-048), une a la fois.
 - Visualisations par acteur (suppose un champ « acteurs » dans le corpus).
 - Migration eventuelle vers Astro avec le template `github-pages-ci`.
 - Domaine personnalise (Settings > Pages, puis vider `baseurl`).

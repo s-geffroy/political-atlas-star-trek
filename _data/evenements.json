@@ -39306,8 +39306,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://blog.trekcore.com/2026/08/star-trek-strange-new-worlds-episode-404-review-a-case-of-chiaroscuro/",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — colonialisme/occupation ajoutée : « Occupation militaire », « résistance locale ». V0.8 (2026-11-10) : doublon tranché : entrée principale ; STP-054 lui est rattachée comme doublon. V0.12 (2026-11-12) : revérification de novembre 2026 — TrekCore (critique de l’épisode 404) : l’équipe se cache « on Mat’aar XII », planète « fully under Klingon control, with patrols, checkpoints, loyalty tests, random arrests », et se retrouve mêlée à « the planet’s fight for freedom against Klingon occupation ». Wikipedia (saison 4) concorde sur une organisation de résistance mat’aarane. Fait central concordant. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — colonialisme/occupation ajoutée : « Occupation militaire », « résistance locale ». V0.8 (2026-11-10) : doublon tranché : entrée principale ; STP-054 lui est rattachée comme doublon. V0.12 (2026-11-12) : revérification de novembre 2026 — TrekCore (critique de l’épisode 404) : l’équipe se cache « on Mat’aar XII », planète « fully under Klingon control, with patrols, checkpoints, loyalty tests, random arrests », et se retrouve mêlée à « the planet’s fight for freedom against Klingon occupation ». Wikipedia (saison 4) concorde sur une organisation de résistance mat’aarane. Fait central concordant. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.33 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’occupant s’appuie sur des « Local collaborators » ; Kor annonce que « Native Mat’Aarans will no longer hold positions of power, nor will they be free to live where they wish » ; la cible de la résistance est précise : « Once acquired, a proximity detonator will trigger an electromagnetic pulse and overload Klingon security », puis « The forcefield is down! » et « Ja’lem prepared the evacuations quickly » (transcription) ; Nevette « outwardly became one of the highest-ranking collaborators in the occupation » (Memory Alpha). Roman est un collaborateur, non un résistant : « Nevette was fatally poisoned by her subordinate » (Memory Alpha) ; il avoue « She never respected me. Respected her resistance, though » et « I make myself useful. They’ll find a place for me » (transcription). La source de contrôle startrekarchive.com le présente à tort comme « the resistance member who killed Nevette ».",
+  "version_entree": "V0.33 révisé",
   "categories": [
    "insurrection/pouvoir",
    "colonialisme/occupation"
@@ -39385,11 +39385,25 @@
       "texte": "harmonisation typographique (guillemets, ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.33",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’occupant s’appuie sur des « Local collaborators » ; Kor annonce que « Native Mat’Aarans will no longer hold positions of power, nor will they be free to live where they wish » ; la cible de la résistance est précise : « Once acquired, a proximity detonator will trigger an electromagnetic pulse and overload Klingon security », puis « The forcefield is down! » et « Ja’lem prepared the evacuations quickly » (transcription) ; Nevette « outwardly became one of the highest-ranking collaborators in the occupation » (Memory Alpha). Roman est un collaborateur, non un résistant : « Nevette was fatally poisoned by her subordinate » (Memory Alpha) ; il avoue « She never respected me. Respected her resistance, though » et « I make myself useful. They’ll find a place for me » (transcription). La source de contrôle startrekarchive.com le présente à tort comme « the resistance member who killed Nevette »."
+     }
+    ]
    }
   ],
   "cycle_slug": "strange-new-worlds-saison-4-2026",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Occupation militaire klingonne de Mat’aar XII et résistance locale.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’occupant s’appuie sur des « Local collaborators » ; Kor annonce que « Native Mat’Aarans will no longer hold positions of power, nor will they be free to live where they wish » ; la cible de la résistance est précise : « Once acquired, a proximity detonator will trigger an electromagnetic pulse and overload Klingon security », puis « The forcefield is down! » et « Ja’lem prepared the evacuations quickly » (transcription) ; Nevette « outwardly became one of the highest-ranking collaborators in the occupation » (Memory Alpha). Roman est un collaborateur, non un résistant : « Nevette was fatally poisoned by her subordinate » (Memory Alpha) ; il avoue « She never respected me. Respected her resistance, though » et « I make myself useful. They’ll find a place for me » (transcription). La source de contrôle startrekarchive.com le présente à tort comme « the resistance member who killed Nevette »"
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {
@@ -39594,8 +39608,8 @@
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-episode-408-review-orders-of-magnitude/",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — TrekCore (critique de l’épisode 408) nomme la planète : « the impending destruction of 5,000 people on Argus II ». Selon la critique, Reeger veut venger sa famille. Wikipedia (saison 4) : « Reeger orders the Enterprise to eliminate all life there ». Le prétexte des « collaborateurs » n’apparaît dans aucune des trois sources lues (TrekCore, Wikipedia EN/IT, TL;DR) : l’intitulé est donc réduit à ce qui est confirmé. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — TrekCore (critique de l’épisode 408) nomme la planète : « the impending destruction of 5,000 people on Argus II ». Selon la critique, Reeger veut venger sa famille. Wikipedia (saison 4) : « Reeger orders the Enterprise to eliminate all life there ». Le prétexte des « collaborateurs » n’apparaît dans aucune des trois sources lues (TrekCore, Wikipedia EN/IT, TL;DR) : l’intitulé est donc réduit à ce qui est confirmé. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.33 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : « vétéran traumatisé » remplacé par ce que dit l’écran, une blessure (« Captain Reeger suffered a traumatic brain injury at the start of the Battle of Zeta Reticuli ») et un deuil (« Did you know that he had a wife and two daughters? ») ; « sa mise hors de fonction est organisée » remplacé par la séquence vue à l’écran : Kirk est arrêté (« place Lieutenant Commander Kirk under arrest for the dereliction of duty »), drogue l’amiral (« I spiked Reeger’s coffee with cordrazine »), et M’Benga le relève (« in accordance with Starfleet order 104, section C, I am certifying you as unfit and immediately relieving you of command ») ; planète « non-Federation », « 5,321 » habitants. Parallèle : les principes de distinction et de proportionnalité ne sont nommés par aucune source lue ; à l’écran, l’ordre général 24 est une directive en vigueur (« General Order 24 is a directive of last resort »).",
+  "version_entree": "V0.33 révisé",
   "categories": [
    "guerre/bataille"
   ],
@@ -39654,6 +39668,15 @@
       "texte": "harmonisation typographique (guillemets, ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.33",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : « vétéran traumatisé » remplacé par ce que dit l’écran, une blessure (« Captain Reeger suffered a traumatic brain injury at the start of the Battle of Zeta Reticuli ») et un deuil (« Did you know that he had a wife and two daughters? ») ; « sa mise hors de fonction est organisée » remplacé par la séquence vue à l’écran : Kirk est arrêté (« place Lieutenant Commander Kirk under arrest for the dereliction of duty »), drogue l’amiral (« I spiked Reeger’s coffee with cordrazine »), et M’Benga le relève (« in accordance with Starfleet order 104, section C, I am certifying you as unfit and immediately relieving you of command ») ; planète « non-Federation », « 5,321 » habitants. Parallèle : les principes de distinction et de proportionnalité ne sont nommés par aucune source lue ; à l’écran, l’ordre général 24 est une directive en vigueur (« General Order 24 is a directive of last resort »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "strange-new-worlds-saison-4-2026",
@@ -39662,6 +39685,10 @@
    {
     "libelle": "Ordre de l’amiral Reeger de détruire Argus II.",
     "motif": "revérification de novembre 2026 — TrekCore (critique de l’épisode 408) nomme la planète : « the impending destruction of 5,000 people on Argus II ». Selon la critique, Reeger veut venger sa famille. Wikipedia (saison 4) : « Reeger orders the Enterprise to eliminate all life there ». Le prétexte des « collaborateurs » n’apparaît dans aucune des trois sources lues (TrekCore, Wikipedia EN/IT, TL;DR) : l’intitulé est donc réduit à ce qui est confirmé."
+   },
+   {
+    "libelle": "Ordre de l’amiral Reeger de détruire Argus II.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : « vétéran traumatisé » remplacé par ce que dit l’écran, une blessure (« Captain Reeger suffered a traumatic brain injury at the start of the Battle of Zeta Reticuli ») et un deuil (« Did you know that he had a wife and two daughters? ») ; « sa mise hors de fonction est organisée » remplacé par la séquence vue à l’écran : Kirk est arrêté (« place Lieutenant Commander Kirk under arrest for the dereliction of duty »), drogue l’amiral (« I spiked Reeger’s coffee with cordrazine »), et M’Benga le relève (« in accordance with Starfleet order 104, section C, I am certifying you as unfit and immediately relieving you of command ») ; planète « non-Federation », « 5,321 » habitants. Parallèle : les principes de distinction et de proportionnalité ne sont nommés par aucune source lue ; à l’écran, l’ordre général 24 est une directive en vigueur (« General Order 24 is a directive of last resort »)"
    }
   ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",

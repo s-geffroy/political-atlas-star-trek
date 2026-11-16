@@ -960,7 +960,7 @@
    "recoupement": "B — Compte rendu indépendant détaillé"
   },
   "volets": {
-   "faits": "Sur Mat’aar XII, une autorité klingonne maintient une occupation et une surveillance de la population. Une résistance clandestine tente de frapper ses dispositifs militaires et de protéger des habitants.",
+   "faits": "Sur Mat’aar XII, une autorité klingonne maintient une occupation et une surveillance de la population, avec l’appui de collaborateurs locaux, et prépare une prise de contrôle militaire totale : les Mat’aarans autochtones n’occuperaient plus de postes de pouvoir et ne pourraient plus choisir leur lieu de vie. Une résistance clandestine, dirigée en secret par Nevette, que l’occupant tient pour l’une de ses principales collaboratrices, évacue des familles et prépare une impulsion électromagnétique pour neutraliser le système de sécurité klingon ; Nevette est empoisonnée avant d’agir par Roman, un collaborateur placé sous ses ordres. Une fois l’impulsion déclenchée, le champ de force planétaire tombe et les évacuations sont organisées.",
    "mecanisme": "L’occupation produit une double économie d’information : collaboration apparente et résistance cachée. Les agents vivent au croisement des contraintes de survie et des impératifs de loyauté.",
    "parallele": "Comparaison avec les mécanismes généraux d’une occupation militaire, notamment surveillance, soupçon et débats sur les cibles d’une résistance.",
    "objections": "Éviter d’identifier d’office les Klingons à une armée ou un pays existant ; les enjeux légaux dépendent de faits contextuels propres à chaque conflit.",
@@ -976,6 +976,16 @@
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
     "url": "https://blog.trekcore.com/2026/08/star-trek-strange-new-worlds-episode-404-review-a-case-of-chiaroscuro/",
     "archive": "https://web.archive.org/web/20261004052047/https://blog.trekcore.com/2026/08/star-trek-strange-new-worlds-episode-404-review-a-case-of-chiaroscuro/"
+   },
+   {
+    "libelle": "Source — Transcription de « A Case of Chiaroscuro » (chakoteya.net) (V0.33)",
+    "url": "http://www.chakoteya.net/StarTrekSNW/404.html",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Memory Alpha, « Mat’Aaran resistance » (V0.33)",
+    "url": "https://memory-alpha.fandom.com/wiki/Mat%27Aaran_resistance",
+    "archive": null
    }
   ]
  },
@@ -988,9 +998,9 @@
    "recoupement": "B — Compte rendu indépendant détaillé"
   },
   "volets": {
-   "faits": "Vétéran traumatisé, l’amiral Reeger veut détruire Argus II, planète non fédérée de milliers d’habitants, qu’il considère collectivement comme complice. Kirk refuse et sa mise hors de fonction est organisée.",
+   "faits": "Vétéran de la guerre klingonne, blessé au cerveau au combat, l’amiral Reeger, dont la femme et les deux filles ont péri au massacre de Vaardan, ordonne en vertu de l’ordre général 24 de détruire la surface habitée d’Argus II, planète non fédérée de 5 321 habitants où s’est posé le vaisseau qu’il traque, et qu’il présume complice. Kirk s’y oppose et est mis aux arrêts ; il s’évade et verse de la cordrazine dans le café de l’amiral, que M’Benga relève alors de son commandement pour inaptitude, en vertu de l’ordre 104, section C.",
    "mecanisme": "Le commandement militaire cherche à substituer une présomption de culpabilité collective à l’individualisation des actes. Le refus d’obéir devient la dernière protection contre une politique d’anéantissement.",
-   "parallele": "Confrontation avec les principes de distinction et de proportionnalité du droit humanitaire et les devoirs militaires face à un ordre manifestement criminel.",
+   "parallele": "Confrontation avec les principes de distinction et de proportionnalité du droit humanitaire et les devoirs militaires face à un ordre manifestement criminel. Dans la fiction, l’ordre général 24 est une directive en vigueur, que Kirk appelle une directive de dernier recours ; aucune source lue ne rapporte l’épisode aux principes de distinction et de proportionnalité : la comparaison est une construction de l’atlas.",
    "objections": "Un épisode dramatique condense la procédure de contrôle du commandement ; la qualification d’un crime réel exige une analyse précise de l’intention, du contexte et des faits.",
    "contexte": "Diffusé le 10 septembre 2026."
   },
@@ -1004,6 +1014,11 @@
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
     "url": "https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-episode-408-review-orders-of-magnitude/",
     "archive": "https://web.archive.org/web/20261028201146/https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-episode-408-review-orders-of-magnitude/"
+   },
+   {
+    "libelle": "Source — Transcription de « Orders of Magnitude » (chakoteya.net) (V0.33)",
+    "url": "http://www.chakoteya.net/StarTrekSNW/408.html",
+    "archive": null
    }
   ]
  }

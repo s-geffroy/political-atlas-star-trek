@@ -1,0 +1,60 @@
+{
+ "version": "V0.33",
+ "date": "2026-11-16",
+ "date_longue": "16 novembre 2026",
+ "base": "V0_32_2026-11-16",
+ "titre": "Atlas politique de Star Trek — V0.33 : fiches de « A Case of Chiaroscuro » et « Orders of Magnitude » alignées sur l’écran",
+ "resume": "Deux fiches de la saison 4 de « Strange New Worlds » sont alignées sur les analyses rédigées du 16 novembre 2026. STP-298 (« A Case of Chiaroscuro ») ajoute l’exclusion annoncée des Mat’aarans autochtones des postes de pouvoir et du libre choix de leur lieu de vie, précise la cible de la résistance, le système de sécurité klingon, et fait de Roman un collaborateur, non un résistant. STP-300 (« Orders of Magnitude ») remplace « vétéran traumatisé » par la blessure et le deuil dits à l’écran, décrit l’arrestation de Kirk, la cordrazine et la relève médicale de l’amiral par M’Benga, et note que l’ordre général 24 est, dans la fiction, une directive en vigueur.",
+ "methode": {
+  "revue": "analyses rédigées de STP-298 et STP-300 ; proposition validée le 2026-11-16 (docs/proposition-v033.md) ; niveaux de recoupement inchangés ; citations contrôlées sur les transcriptions et les sources lues."
+ },
+ "comptes": {
+  "corrections": 2
+ },
+ "corrections": [
+  {
+   "id": "STP-298",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Sur Mat’aar XII, une autorité klingonne maintient une occupation et une surveillance de la population. Une résistance clandestine tente de frapper ses dispositifs militaires et de protéger des habitants.",
+     "apres": "Sur Mat’aar XII, une autorité klingonne maintient une occupation et une surveillance de la population, avec l’appui de collaborateurs locaux, et prépare une prise de contrôle militaire totale : les Mat’aarans autochtones n’occuperaient plus de postes de pouvoir et ne pourraient plus choisir leur lieu de vie. Une résistance clandestine, dirigée en secret par Nevette, que l’occupant tient pour l’une de ses principales collaboratrices, évacue des familles et prépare une impulsion électromagnétique pour neutraliser le système de sécurité klingon ; Nevette est empoisonnée avant d’agir par Roman, un collaborateur placé sous ses ordres. Une fois l’impulsion déclenchée, le champ de force planétaire tombe et les évacuations sont organisées."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « A Case of Chiaroscuro » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/StarTrekSNW/404.html"
+    },
+    {
+     "libelle": "Source — Memory Alpha, « Mat’Aaran resistance »",
+     "url": "https://memory-alpha.fandom.com/wiki/Mat%27Aaran_resistance"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’occupant s’appuie sur des « Local collaborators » ; Kor annonce que « Native Mat’Aarans will no longer hold positions of power, nor will they be free to live where they wish » ; la cible de la résistance est précise : « Once acquired, a proximity detonator will trigger an electromagnetic pulse and overload Klingon security », puis « The forcefield is down! » et « Ja’lem prepared the evacuations quickly » (transcription) ; Nevette « outwardly became one of the highest-ranking collaborators in the occupation » (Memory Alpha). Roman est un collaborateur, non un résistant : « Nevette was fatally poisoned by her subordinate » (Memory Alpha) ; il avoue « She never respected me. Respected her resistance, though » et « I make myself useful. They’ll find a place for me » (transcription). La source de contrôle startrekarchive.com le présente à tort comme « the resistance member who killed Nevette »"
+  },
+  {
+   "id": "STP-300",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Vétéran traumatisé, l’amiral Reeger veut détruire Argus II, planète non fédérée de milliers d’habitants, qu’il considère collectivement comme complice. Kirk refuse et sa mise hors de fonction est organisée.",
+     "apres": "Vétéran de la guerre klingonne, blessé au cerveau au combat, l’amiral Reeger, dont la femme et les deux filles ont péri au massacre de Vaardan, ordonne en vertu de l’ordre général 24 de détruire la surface habitée d’Argus II, planète non fédérée de 5 321 habitants où s’est posé le vaisseau qu’il traque, et qu’il présume complice. Kirk s’y oppose et est mis aux arrêts ; il s’évade et verse de la cordrazine dans le café de l’amiral, que M’Benga relève alors de son commandement pour inaptitude, en vertu de l’ordre 104, section C."
+    },
+    "parallele": {
+     "avant": "Confrontation avec les principes de distinction et de proportionnalité du droit humanitaire et les devoirs militaires face à un ordre manifestement criminel.",
+     "apres": "Confrontation avec les principes de distinction et de proportionnalité du droit humanitaire et les devoirs militaires face à un ordre manifestement criminel. Dans la fiction, l’ordre général 24 est une directive en vigueur, que Kirk appelle une directive de dernier recours ; aucune source lue ne rapporte l’épisode aux principes de distinction et de proportionnalité : la comparaison est une construction de l’atlas."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « Orders of Magnitude » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/StarTrekSNW/408.html"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : « vétéran traumatisé » remplacé par ce que dit l’écran, une blessure (« Captain Reeger suffered a traumatic brain injury at the start of the Battle of Zeta Reticuli ») et un deuil (« Did you know that he had a wife and two daughters? ») ; « sa mise hors de fonction est organisée » remplacé par la séquence vue à l’écran : Kirk est arrêté (« place Lieutenant Commander Kirk under arrest for the dereliction of duty »), drogue l’amiral (« I spiked Reeger’s coffee with cordrazine »), et M’Benga le relève (« in accordance with Starfleet order 104, section C, I am certifying you as unfit and immediately relieving you of command ») ; planète « non-Federation », « 5,321 » habitants. Parallèle : les principes de distinction et de proportionnalité ne sont nommés par aucune source lue ; à l’écran, l’ordre général 24 est une directive en vigueur (« General Order 24 is a directive of last resort »)"
+  }
+ ]
+}

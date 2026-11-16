@@ -1149,15 +1149,11 @@
        "y": 332
       },
       {
-       "t": "les synthétiques de Coppelius et",
+       "t": "les synthétiques de Coppelius",
        "y": 347
-      },
-      {
-       "t": "levée des restrictions fédérales…",
-       "y": 362
       }
      ],
-     "titre_complet": "Flotte romulienne envoyée détruire les synthétiques de Coppelius et levée des restrictions fédérales visant les synthétiques",
+     "titre_complet": "Flotte romulienne envoyée détruire les synthétiques de Coppelius",
      "niv": "B",
      "cycle": "Picard : gouvernance, synthétiques, Romuliens"
     },
@@ -10273,7 +10269,7 @@
     "y": 390,
     "r": 7.1,
     "d": 2,
-    "titre": "Flotte romulienne envoyée détruire les synthétiques de Coppelius et levée des restrictions fédérales visant les synthétiques",
+    "titre": "Flotte romulienne envoyée détruire les synthétiques de Coppelius",
     "serie": "PIC",
     "periode": "2399"
    },

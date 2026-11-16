@@ -1,0 +1,27 @@
+{
+ "version": "V0.36",
+ "date": "2026-11-16",
+ "date_longue": "16 novembre 2026",
+ "base": "V0_35_2026-11-16",
+ "titre": "Atlas politique de Star Trek — V0.36 : un fait par fiche pour la crise de Coppelius",
+ "resume": "La fiche STP-201 décrivait deux faits, la flotte romulienne envoyée détruire les synthétiques de Coppelius et la levée des restrictions fédérales, dont le second est l’objet de STP-202. Son intitulé est réduit au premier ; la levée reste décrite par STP-202, et la relation de suite entre les deux fiches devient exacte. Aucun doublon n’est déclaré.",
+ "methode": {
+  "revue": "recouvrement relevé lors de la sixième passe de relations ; décision de l’utilisateur du 2026-11-16 (séparer les faits plutôt que déclarer un doublon) ; citations contrôlées sur les pages déjà citées par la note d’audit de STP-201."
+ },
+ "comptes": {
+  "corrections": 1
+ },
+ "corrections": [
+  {
+   "id": "STP-201",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Flotte romulienne envoyée détruire les synthétiques de Coppelius et levée des restrictions fédérales visant les synthétiques",
+     "apres": "Flotte romulienne envoyée détruire les synthétiques de Coppelius"
+    }
+   },
+   "motif": "un fait par fiche : la levée de l’interdiction des synthétiques est l’objet de STP-202 (niveau A), que STP-201 précède (relation de suite). L’intitulé garde le fait propre à STP-201, confirmé par la critique Den of Geek de la partie 2 (« a Romulan fleet of warbirds is set to arrive at the planet to destroy all synthetic life they find there ») et par le récapitulatif officiel, qui confirme la flotte romulienne commandée par Oh ; niveau de recoupement inchangé."
+  }
+ ]
+}

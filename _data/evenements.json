@@ -26689,15 +26689,15 @@
   "id": "STP-201",
   "cycle": "Picard : gouvernance, synthétiques, Romuliens",
   "period": "2399",
-  "event": "Flotte romulienne envoyée détruire les synthétiques de Coppelius et levée des restrictions fédérales visant les synthétiques",
+  "event": "Flotte romulienne envoyée détruire les synthétiques de Coppelius",
   "source": "PIC « Et in Arcadia Ego »",
   "politics": "Droits des personnes artificielles et discrimination juridique.",
   "categories_politiques": "justice/droits ; technologie/bioéthique",
   "niveau_recoupement": "B",
   "nature_source": "Compte rendu indépendant détaillé",
   "url_source": "https://www.denofgeek.com/tv/star-trek-picard-episode-10-review-et-in-arcadia-ego-part-2/",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « droits des synthétiques » ; recoupement B — La liste d'épisodes Wikipedia décrit, pour le final en deux parties, l'arrivée sur Coppelius, monde natal de Soji, le plan des synthétiques, la flotte romulienne prête à envahir ce monde et la levée par la Fédération de l'interdiction des synthétiques. Réserve : Le fait est surtout montré dans « Et in Arcadia Ego, Part 2 ». Wikipedia ne décrit pas de « débat » sur les droits : elle rapporte l'interdiction et sa levée. Le récapitulatif officiel de la partie 2 (https://www.startrek.com/news/recap-star-trek-picard-et-in-arcadia-ego-part-2) confirme la flotte romulienne commandée par Oh et le sacrifice de Picard, mais pas l'interdiction. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). Aucune page d'épisode lue ne décrit un « débat » sur l'existence et les droits des synthétiques : ni les récapitulatifs officiels des parties 1 et 2 (startrek.com), ni Den of Geek, ni Reactor. La critique Den of Geek de la partie 2 confirme l'intitulé réduit : « a Romulan fleet of warbirds is set to arrive at the planet to destroy all synthetic life they find there » ; « The synth travel restrictions have been lifted ». Reactor concorde : « the synth ban has been lifted » (https://reactormag.com/the-picard-maneuver-star-trek-picards-et-in-arcadia-ego-part-2/). Niveau B maintenu sur une page d'épisode.",
-  "version_entree": "V0.15 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « droits des synthétiques » ; recoupement B — La liste d'épisodes Wikipedia décrit, pour le final en deux parties, l'arrivée sur Coppelius, monde natal de Soji, le plan des synthétiques, la flotte romulienne prête à envahir ce monde et la levée par la Fédération de l'interdiction des synthétiques. Réserve : Le fait est surtout montré dans « Et in Arcadia Ego, Part 2 ». Wikipedia ne décrit pas de « débat » sur les droits : elle rapporte l'interdiction et sa levée. Le récapitulatif officiel de la partie 2 (https://www.startrek.com/news/recap-star-trek-picard-et-in-arcadia-ego-part-2) confirme la flotte romulienne commandée par Oh et le sacrifice de Picard, mais pas l'interdiction. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). Aucune page d'épisode lue ne décrit un « débat » sur l'existence et les droits des synthétiques : ni les récapitulatifs officiels des parties 1 et 2 (startrek.com), ni Den of Geek, ni Reactor. La critique Den of Geek de la partie 2 confirme l'intitulé réduit : « a Romulan fleet of warbirds is set to arrive at the planet to destroy all synthetic life they find there » ; « The synth travel restrictions have been lifted ». Reactor concorde : « the synth ban has been lifted » (https://reactormag.com/the-picard-maneuver-star-trek-picards-et-in-arcadia-ego-part-2/). Niveau B maintenu sur une page d'épisode. V0.36 (2026-11-16) : un fait par fiche : la levée de l’interdiction des synthétiques est l’objet de STP-202 (niveau A), que STP-201 précède (relation de suite). L’intitulé garde le fait propre à STP-201, confirmé par la critique Den of Geek de la partie 2 (« a Romulan fleet of warbirds is set to arrive at the planet to destroy all synthetic life they find there ») et par le récapitulatif officiel, qui confirme la flotte romulienne commandée par Oh ; niveau de recoupement inchangé.",
+  "version_entree": "V0.36 révisé",
   "categories": [
    "justice/droits",
    "technologie/bioéthique"
@@ -26758,6 +26758,15 @@
       "texte": "). Niveau B maintenu sur une page d'épisode."
      }
     ]
+   },
+   {
+    "version": "V0.36",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "un fait par fiche : la levée de l’interdiction des synthétiques est l’objet de STP-202 (niveau A), que STP-201 précède (relation de suite). L’intitulé garde le fait propre à STP-201, confirmé par la critique Den of Geek de la partie 2 (« a Romulan fleet of warbirds is set to arrive at the planet to destroy all synthetic life they find there ») et par le récapitulatif officiel, qui confirme la flotte romulienne commandée par Oh ; niveau de recoupement inchangé."
+     }
+    ]
    }
   ],
   "cycle_slug": "picard-gouvernance-synthetiques-romuliens",
@@ -26766,6 +26775,10 @@
    {
     "libelle": "Flotte romulienne envoyée détruire les synthétiques de Coppelius et levée des restrictions fédérales visant les synthétiques.",
     "motif": "revérification de novembre 2026 — Pas d'article Wikipedia propre à l'épisode (redirection vers la saison). Aucune page d'épisode lue ne décrit un « débat » sur l'existence et les droits des synthétiques : ni les récapitulatifs officiels des parties 1 et 2 (startrek.com), ni Den of Geek, ni Reactor. La critique Den of Geek de la partie 2 confirme l'intitulé réduit : « a Romulan fleet of warbirds is set to arrive at the planet to destroy all synthetic life they find there » ; « The synth travel restrictions have been lifted ». Reactor concorde : « the synth ban has been lifted » (<https://reactormag.com/the-picard-maneuver-star-trek-picards-et-in-arcadia-ego-part-2/>). Niveau B maintenu sur une page d'épisode."
+   },
+   {
+    "libelle": "Flotte romulienne envoyée détruire les synthétiques de Coppelius.",
+    "motif": "un fait par fiche : la levée de l’interdiction des synthétiques est l’objet de STP-202 (niveau A), que STP-201 précède (relation de suite). L’intitulé garde le fait propre à STP-201, confirmé par la critique Den of Geek de la partie 2 (« a Romulan fleet of warbirds is set to arrive at the planet to destroy all synthetic life they find there ») et par le récapitulatif officiel, qui confirme la flotte romulienne commandée par Oh ; niveau de recoupement inchangé."
    }
   ],
   "note_editoriale": null,
@@ -26813,7 +26826,15 @@
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260419182549/https://www.denofgeek.com/tv/star-trek-picard-episode-10-review-et-in-arcadia-ego-part-2/",
   "dates_stellaires": [],
-  "associes": []
+  "associes": [
+   {
+    "id": "STP-202",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   }
+  ]
  },
  {
   "id": "STP-202",
@@ -26915,7 +26936,15 @@
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260809041617/https://www.startrek.com/news/recap-star-trek-picard-306-the-bounty",
   "dates_stellaires": [],
-  "associes": []
+  "associes": [
+   {
+    "id": "STP-201",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   }
+  ]
  },
  {
   "id": "STP-203",

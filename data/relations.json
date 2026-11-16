@@ -742,8 +742,9 @@
    "de": "STP-239",
    "vers": "STP-194",
    "type": "cause",
-   "url": "https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras",
-   "justification": "La plaque de l'ISS Enterprise : « The Terran High Chancellor was killed for trying to make reforms » ; « some Terrans who believed in peace escaped on the I.S.S. Enterprise » jusqu'à l'univers principal."
+   "url": "https://blog.trekcore.com/2024/04/star-trek-discovery-review-mirrors/",
+   "url_complementaire": "http://www.chakoteya.net/STDisco17/505.html",
+   "justification": "La plaque de l'ISS Enterprise, dans les passages identiques de ses deux transcriptions écrites (TrekCore ; Memory Alpha) : « But some saw this as weakness. They killed him, and we sought help from an unlikely ally: a Kelpien slave turned rebel leader » ; « With his aid we secured the Enterprise » ; « We bear scars from our escape ». À l'écran, Book la résume : « The Terran High Chancellor was killed for trying to make reforms, and this crew escaped » (transcription de « Mirrors »)."
   },
   {
    "de": "STP-178",

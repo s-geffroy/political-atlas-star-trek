@@ -251,6 +251,7 @@ test('dates stellaires : seules les dates de journal de bord, confirmees sur une
   assert.ok(!confirmee('4252.3', '|date = 42523.7'));
   assert.ok(pageEpisode('{{sidebar episode\n|date = 1'));
   assert.ok(!pageEpisode('{{disambiguation}} Unification may refer to'));
+  assert.ok(pageEpisode('{{sidebar episode\n|date = 1709.2}}\n{{disambiguation|the unseen namesake prop book|Balance of Terror (production art)}}'));
   assert.equal(norm('Yesterday’s Enterprise'), norm("Yesterday's Enterprise"));
   assert.equal(norm('Code of Honour'), norm('Code of Honor'));
 });

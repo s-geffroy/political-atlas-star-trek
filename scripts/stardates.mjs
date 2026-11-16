@@ -58,8 +58,10 @@ export function datesDeJournal(corps) {
 }
 // Confirmation : la date figure telle quelle (nombre entier, pas un fragment) dans la page de l'episode.
 export const confirmee = (d, wikitext) => new RegExp(`(^|[^\\d.])${d.replace('.', '\\.')}($|[^\\d])`).test(wikitext);
-// Page d'episode ou de film, jamais une page d'homonymie ou de notion.
-export const pageEpisode = (wikitext) => /\{\{sidebar (episode|film)/i.test(wikitext) && !/\{\{disambig/i.test(wikitext);
+// Page d'episode ou de film, jamais une page d'homonymie ou de notion. Le modele seul
+// {{disambiguation}} marque une page d'homonymie ; avec des parametres
+// ({{disambiguation|l'accessoire|...}}), c'est un bandeau de renvoi en tete d'une page d'episode.
+export const pageEpisode = (wikitext) => /\{\{sidebar (episode|film)/i.test(wikitext) && !/\{\{disambig(uation)?\s*\}\}/i.test(wikitext);
 
 // Lecture avec delai d'expiration et trois essais. Renvoie { corps } ou
 // { echec: true } (indisponible) ou { absent: true } (404). Les transcriptions

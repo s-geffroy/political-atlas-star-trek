@@ -1,0 +1,69 @@
+{
+ "version": "V0.35",
+ "date": "2026-11-16",
+ "date_longue": "16 novembre 2026",
+ "base": "V0_34_2026-11-16",
+ "titre": "Atlas politique de Star Trek — V0.35 : fiches de « Vox in Excelso » alignées sur l’écran",
+ "resume": "Les deux fiches tirées de « Vox in Excelso » (Starfleet Academy) sont alignées sur les analyses rédigées du 16 novembre 2026. STP-230 compte les huit maisons klingonnes qui subsistent, recentre ses objections sur la crise elle-même, que la fiche STP-295 ne traite pas, et date la mise en ligne de l’épisode sur Paramount+. STP-295 décrit ce que montre l’écran : une déclaration de guerre publique de la Fédération, un combat où seuls les vaisseaux de Starfleet tirent à côté, puis une reddition complète ; ses objections ne prêtent plus à la réception un reproche de paternalisme qu’aucune critique lue ne formule.",
+ "methode": {
+  "revue": "analyses rédigées de STP-230 et STP-295 ; proposition validée le 2026-11-16 (docs/proposition-v035.md), intitulé de STP-295 : option 2 ; citations contrôlées sur la transcription et les sources lues."
+ },
+ "comptes": {
+  "corrections": 2
+ },
+ "corrections": [
+  {
+   "id": "STP-230",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Après le Burn, Qo’noS est inhabitable et plusieurs maisons klingonnes vivent en diaspora. La Fédération propose une planète de repli, mais leur représentativité et leur conception de l’honneur rendent l’aide politiquement délicate.",
+     "apres": "Après le Burn, Qo’noS est inhabitable et les huit maisons klingonnes qui subsistent vivent en diaspora. La Fédération propose une planète de repli, mais leur représentativité et leur conception de l’honneur rendent l’aide politiquement délicate."
+    },
+    "objections": {
+     "avant": "Un geste diplomatique théâtral de la Fédération ne constitue pas un modèle général applicable aux réfugiés réels.",
+     "apres": "Le récit choisit une crise sans responsable : l’avarie d’un vaisseau, sur fond de Burn, et non un État qui chasse ou persécute les Klingons. Le refus de l’aide y est un trait de culture d’un peuple fictif défini par l’honneur guerrier ; appliquer la thèse de l’épisode à des réfugiés réels leur prêterait ce refus. La crise est réglée par une planète vide, sans que soient traitées les questions du territoire, du nombre et du coût."
+    },
+    "contexte": {
+     "avant": "Diffusé le 29 janvier 2026.",
+     "apres": "Mis en ligne sur Paramount+ le 29 janvier 2026."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « Vox in Excelso » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/SFAcad/SFA104.html"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : l’écran parle des « members of the eight remaining Klingon Houses », non de plusieurs maisons ; objections : le volet portait sur la solution, qui relève de STP-295 ; il porte désormais sur la crise elle-même : un accident (« catastrophic mechanical failure ») dont la cause lointaine est le Burn, un refus de l’aide tenu pour un trait de culture (« Accepting the charity of the Federation is an impossibility »), une planète vide (« an uninhabited planet within Federation space ») qui laisse de côté la question des moyens (« limited post-Burn resources ») ; contexte : l’épisode a été mis en ligne sur Paramount+ (« Original Release: 29 January 2026 » ; « All episodes are now streaming »)"
+  },
+  {
+   "id": "STP-295",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
+     "apres": "Déclaration de guerre et reddition de la Fédération mises en scène pour que les Klingons « conquièrent » Faan Alpha"
+    }
+   },
+   "volets": {
+    "faits": {
+     "avant": "Une flotte klingonne reçoit l’occasion de présenter l’installation sur Faan Alpha comme une conquête plutôt qu’une concession humanitaire de la Fédération.",
+     "apres": "Sur une idée du cadet Jay-Den Kraag, la Fédération déclare publiquement la guerre aux vaisseaux klingons entrés dans le secteur de Faan Alpha ; après un combat où seuls les vaisseaux de Starfleet ont l’ordre de tirer à côté, elle offre une reddition complète. La flotte klingonne peut ainsi présenter l’installation sur Faan Alpha comme une conquête plutôt qu’une concession humanitaire de la Fédération."
+    },
+    "objections": {
+     "avant": "La mise en scène pourrait être jugée paternaliste ou manipulatrice ; son efficacité locale ne valide pas toutes les politiques fondées sur l’honneur.",
+     "apres": "La mise en scène est facilitée par la fiction : la planète est vide, la cession ne déplace personne et la Fédération risque peu. L’écran ne dit pas qui, côté klingon, sait le combat simulé ; les critiques discutent la vraisemblance de la ruse plutôt que sa loyauté. Son efficacité locale ne valide pas toutes les politiques fondées sur l’honneur."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « Vox in Excelso » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/SFAcad/SFA104.html"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucun accord n’est montré : Vance déclare la guerre (« The Federation has no choice but to declare any Klingon ship an enemy vessel »), Ake invite Wochak au combat (« Fight with me, Obel ») et la Fédération se rend (« we offer you complete surrender ») ; seuls les vaisseaux de Starfleet ont l’ordre de manquer leur cible (« make sure they miss wide »), les tirs klingons touchent les boucliers (« Shields holding at 95 percent ») : l’article Wikipedia de l’épisode, qui écrit « both sides intentionally missing », se trompe ; l’idée vient du cadet (« At Jay-Den's suggestion »). Objections : aucune critique nommée lue ne juge la ruse paternaliste ou manipulatrice ; elles en discutent la vraisemblance (« laughably thin » ; « rings false ») et se demandent pour qui la face est sauvée (« who exactly are they saving face for? ») ; intitulé : « Déclaration de guerre et reddition de la Fédération mises en scène pour que les Klingons « conquièrent » Faan Alpha »"
+  }
+ ]
+}

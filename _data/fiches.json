@@ -602,11 +602,11 @@
    "recoupement": "A — Synopsis officiel"
   },
   "volets": {
-   "faits": "Après le Burn, Qo’noS est inhabitable et plusieurs maisons klingonnes vivent en diaspora. La Fédération propose une planète de repli, mais leur représentativité et leur conception de l’honneur rendent l’aide politiquement délicate.",
+   "faits": "Après le Burn, Qo’noS est inhabitable et les huit maisons klingonnes qui subsistent vivent en diaspora. La Fédération propose une planète de repli, mais leur représentativité et leur conception de l’honneur rendent l’aide politiquement délicate.",
    "mecanisme": "Secourir n’autorise pas à définir à la place du bénéficiaire son identité et sa souveraineté. La prise en charge humanitaire devient une négociation interculturelle.",
    "parallele": "Comparer aux situations de déplacement forcé et à la protection des héritages culturels lors de crises d’habitat.",
-   "objections": "Un geste diplomatique théâtral de la Fédération ne constitue pas un modèle général applicable aux réfugiés réels.",
-   "contexte": "Diffusé le 29 janvier 2026."
+   "objections": "Le récit choisit une crise sans responsable : l’avarie d’un vaisseau, sur fond de Burn, et non un État qui chasse ou persécute les Klingons. Le refus de l’aide y est un trait de culture d’un peuple fictif défini par l’honneur guerrier ; appliquer la thèse de l’épisode à des réfugiés réels leur prêterait ce refus. La crise est réglée par une planète vide, sans que soient traitées les questions du territoire, du nombre et du coût.",
+   "contexte": "Mis en ligne sur Paramount+ le 29 janvier 2026."
   },
   "sources": [
    {
@@ -622,6 +622,11 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.17)",
     "url": "https://www.paramountplus.com/shows/video/TWM68Ce3TC9HdLIN2ulAh8YbyCkkRkzf/",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Transcription de « Vox in Excelso » (chakoteya.net) (V0.35)",
+    "url": "http://www.chakoteya.net/SFAcad/SFA104.html",
     "archive": null
    }
   ]
@@ -902,17 +907,17 @@
  },
  "STP-295": {
   "id": "STP-295",
-  "titre": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
+  "titre": "Déclaration de guerre et reddition de la Fédération mises en scène pour que les Klingons « conquièrent » Faan Alpha",
   "entetes": {
    "periode": "XXXIIe siècle",
    "source_audiovisuelle": "SFA « Vox in Excelso »",
    "recoupement": "B — Résumé de saison (Wikipedia)"
   },
   "volets": {
-   "faits": "Une flotte klingonne reçoit l’occasion de présenter l’installation sur Faan Alpha comme une conquête plutôt qu’une concession humanitaire de la Fédération.",
+   "faits": "Sur une idée du cadet Jay-Den Kraag, la Fédération déclare publiquement la guerre aux vaisseaux klingons entrés dans le secteur de Faan Alpha ; après un combat où seuls les vaisseaux de Starfleet ont l’ordre de tirer à côté, elle offre une reddition complète. La flotte klingonne peut ainsi présenter l’installation sur Faan Alpha comme une conquête plutôt qu’une concession humanitaire de la Fédération.",
    "mecanisme": "La diplomatie transforme un transfert territorial en acte symbolique acceptable pour la culture des bénéficiaires. Le jeu des apparences est au cœur de la ratification sociale d’un accord.",
    "parallele": "Étudier en parallèle les rituels diplomatiques, les récits de légitimité et la protection de la dignité collective.",
-   "objections": "La mise en scène pourrait être jugée paternaliste ou manipulatrice ; son efficacité locale ne valide pas toutes les politiques fondées sur l’honneur.",
+   "objections": "La mise en scène est facilitée par la fiction : la planète est vide, la cession ne déplace personne et la Fédération risque peu. L’écran ne dit pas qui, côté klingon, sait le combat simulé ; les critiques discutent la vraisemblance de la ruse plutôt que sa loyauté. Son efficacité locale ne valide pas toutes les politiques fondées sur l’honneur.",
    "contexte": "Épisode de 2026."
   },
   "sources": [
@@ -925,6 +930,11 @@
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
     "url": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
     "archive": "https://web.archive.org/web/20261113132313/https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1"
+   },
+   {
+    "libelle": "Source — Transcription de « Vox in Excelso » (chakoteya.net) (V0.35)",
+    "url": "http://www.chakoteya.net/SFAcad/SFA104.html",
+    "archive": null
    }
   ]
  },

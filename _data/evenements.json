@@ -30333,8 +30333,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Synopsis officiel",
   "url_source": "https://www.paramountplus.com/shows/video/TWM68Ce3TC9HdLIN2ulAh8YbyCkkRkzf/",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Survie d'un peuple », « intervention fédérale ». V0.5 (2026-11-10) : recoupement A (source officielle) — Le synopsis officiel Paramount+ de l'épisode 1×04 « Vox in Excelso » : Jay-Den fait face à une crise existentielle qui menace son espèce (les Klingons) tout en affrontant son passé. Source B précédente : https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/. V0.10 (2026-11-10) : doublon tranché : entrée principale ; STP-294 lui est rattachée comme doublon. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Aucune page officielle propre à l'épisode n'a pu être lue : les pages d'épisode Paramount+ (/shows/video/…) renvoient une erreur 404 ou 500 et ne sont pas archivées, et startrek.com ne publie pas de récapitulatif d'épisode pour Starfleet Academy. Le niveau A repose toujours sur la liste d'épisodes Paramount+ : « Jay-Den faces an existential crisis that threatens his species while confronting his past. » La liste ne nomme pas les Klingons ; l'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Vox_in_Excelso) le fait : un vaisseau klingon s'est écrasé, « putting the species on the brink of extinction ». Niveau maintenu, source de liste signalée. V0.17 (2026-11-12) : revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-12 (elle ne répond pas aux clients sans navigateur) : « S1 E4: Jay-Den faces an existential crisis that threatens his species while confronting his past. » ; description : « When an existential crisis threatens to wipe out his species […] Nahla races against time to save his species from extinction. » L'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Vox_in_Excelso) nomme l'espèce : « Klingon cadet Jay-Den Kraag […] when the future of his species is placed under threat ». Niveau A maintenu, sur la page propre à l'épisode.",
-  "version_entree": "V0.17 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Survie d'un peuple », « intervention fédérale ». V0.5 (2026-11-10) : recoupement A (source officielle) — Le synopsis officiel Paramount+ de l'épisode 1×04 « Vox in Excelso » : Jay-Den fait face à une crise existentielle qui menace son espèce (les Klingons) tout en affrontant son passé. Source B précédente : https://blog.trekcore.com/2026/01/star-trek-starfleet-academy-review-vox-in-excelso/. V0.10 (2026-11-10) : doublon tranché : entrée principale ; STP-294 lui est rattachée comme doublon. V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.15 (2026-11-12) : revérification de novembre 2026 — Aucune page officielle propre à l'épisode n'a pu être lue : les pages d'épisode Paramount+ (/shows/video/…) renvoient une erreur 404 ou 500 et ne sont pas archivées, et startrek.com ne publie pas de récapitulatif d'épisode pour Starfleet Academy. Le niveau A repose toujours sur la liste d'épisodes Paramount+ : « Jay-Den faces an existential crisis that threatens his species while confronting his past. » La liste ne nomme pas les Klingons ; l'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Vox_in_Excelso) le fait : un vaisseau klingon s'est écrasé, « putting the species on the brink of extinction ». Niveau maintenu, source de liste signalée. V0.17 (2026-11-12) : revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-12 (elle ne répond pas aux clients sans navigateur) : « S1 E4: Jay-Den faces an existential crisis that threatens his species while confronting his past. » ; description : « When an existential crisis threatens to wipe out his species […] Nahla races against time to save his species from extinction. » L'article Wikipedia de l'épisode (https://en.wikipedia.org/wiki/Vox_in_Excelso) nomme l'espèce : « Klingon cadet Jay-Den Kraag […] when the future of his species is placed under threat ». Niveau A maintenu, sur la page propre à l'épisode. V0.35 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : l’écran parle des « members of the eight remaining Klingon Houses », non de plusieurs maisons ; objections : le volet portait sur la solution, qui relève de STP-295 ; il porte désormais sur la crise elle-même : un accident (« catastrophic mechanical failure ») dont la cause lointaine est le Burn, un refus de l’aide tenu pour un trait de culture (« Accepting the charity of the Federation is an impossibility »), une planète vide (« an uninhabited planet within Federation space ») qui laisse de côté la question des moyens (« limited post-Burn resources ») ; contexte : l’épisode a été mis en ligne sur Paramount+ (« Original Release: 29 January 2026 » ; « All episodes are now streaming »).",
+  "version_entree": "V0.35 révisé",
   "categories": [
    "diplomatie/traité"
   ],
@@ -30429,6 +30429,15 @@
       "texte": ") nomme l'espèce : « Klingon cadet Jay-Den Kraag […] when the future of his species is placed under threat ». Niveau A maintenu, sur la page propre à l'épisode."
      }
     ]
+   },
+   {
+    "version": "V0.35",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : l’écran parle des « members of the eight remaining Klingon Houses », non de plusieurs maisons ; objections : le volet portait sur la solution, qui relève de STP-295 ; il porte désormais sur la crise elle-même : un accident (« catastrophic mechanical failure ») dont la cause lointaine est le Burn, un refus de l’aide tenu pour un trait de culture (« Accepting the charity of the Federation is an impossibility »), une planète vide (« an uninhabited planet within Federation space ») qui laisse de côté la question des moyens (« limited post-Burn resources ») ; contexte : l’épisode a été mis en ligne sur Paramount+ (« Original Release: 29 January 2026 » ; « All episodes are now streaming »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "starfleet-academy-saison-1-2026",
@@ -30437,6 +30446,10 @@
    {
     "libelle": "Crise menaçant l'existence et l'avenir des Klingons.",
     "motif": "revérification de novembre 2026 — page d'épisode officielle Paramount+ lue dans un navigateur le 2026-11-12 (elle ne répond pas aux clients sans navigateur) : « S1 E4: Jay-Den faces an existential crisis that threatens his species while confronting his past. » ; description : « When an existential crisis threatens to wipe out his species […] Nahla races against time to save his species from extinction. » L'article Wikipedia de l'épisode (<https://en.wikipedia.org/wiki/Vox_in_Excelso>) nomme l'espèce : « Klingon cadet Jay-Den Kraag […] when the future of his species is placed under threat ». Niveau A maintenu, sur la page propre à l'épisode."
+   },
+   {
+    "libelle": "Crise menaçant l'existence et l'avenir des Klingons.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : l’écran parle des « members of the eight remaining Klingon Houses », non de plusieurs maisons ; objections : le volet portait sur la solution, qui relève de STP-295 ; il porte désormais sur la crise elle-même : un accident (« catastrophic mechanical failure ») dont la cause lointaine est le Burn, un refus de l’aide tenu pour un trait de culture (« Accepting the charity of the Federation is an impossibility »), une planète vide (« an uninhabited planet within Federation space ») qui laisse de côté la question des moyens (« limited post-Burn resources ») ; contexte : l’épisode a été mis en ligne sur Paramount+ (« Original Release: 29 January 2026 » ; « All episodes are now streaming »)"
    }
   ],
   "note_editoriale": null,
@@ -30493,6 +30506,7 @@
    {
     "id": "STP-295",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : vox in excelso"
     ],
     "autre_continuite": false
@@ -38846,15 +38860,15 @@
   "id": "STP-295",
   "cycle": "Starfleet Academy : actualisation 2026",
   "period": "XXXIIe siècle",
-  "event": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés",
+  "event": "Déclaration de guerre et reddition de la Fédération mises en scène pour que les Klingons « conquièrent » Faan Alpha",
   "source": "SFA « Vox in Excelso »",
   "politics": "Diplomatie interculturelle et négociation symbolique.",
   "categories_politiques": "diplomatie/traité ; économie/social",
   "niveau_recoupement": "B",
   "nature_source": "Résumé de saison (Wikipedia)",
   "url_source": "https://en.wikipedia.org/wiki/Star_Trek:_Starfleet_Academy_season_1",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — La source actuelle (TrekCore) ne confirme que partiellement : les Klingons refusent « the Federation’s charity offer of a new homeworld » puis prennent Faan Alpha, mais la critique ne présente pas cette prise comme un arrangement mis en scène. Wikipedia (saison 1, résumé de « Vox in Excelso ») confirme le fait central : les Klingons « will only accept the planet via conquest » et « Vance and Ake stage a battle with Obel, allowing the Klingons to claim their new home by conquest ». D’où le changement d’URL. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.17 (2026-11-12) : période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232.",
-  "version_entree": "V0.17 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — La source actuelle (TrekCore) ne confirme que partiellement : les Klingons refusent « the Federation’s charity offer of a new homeworld » puis prennent Faan Alpha, mais la critique ne présente pas cette prise comme un arrangement mis en scène. Wikipedia (saison 1, résumé de « Vox in Excelso ») confirme le fait central : les Klingons « will only accept the planet via conquest » et « Vance and Ake stage a battle with Obel, allowing the Klingons to claim their new home by conquest ». D’où le changement d’URL. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.17 (2026-11-12) : période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232. V0.35 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucun accord n’est montré : Vance déclare la guerre (« The Federation has no choice but to declare any Klingon ship an enemy vessel »), Ake invite Wochak au combat (« Fight with me, Obel ») et la Fédération se rend (« we offer you complete surrender ») ; seuls les vaisseaux de Starfleet ont l’ordre de manquer leur cible (« make sure they miss wide »), les tirs klingons touchent les boucliers (« Shields holding at 95 percent ») : l’article Wikipedia de l’épisode, qui écrit « both sides intentionally missing », se trompe ; l’idée vient du cadet (« At Jay-Den's suggestion »). Objections : aucune critique nommée lue ne juge la ruse paternaliste ou manipulatrice ; elles en discutent la vraisemblance (« laughably thin » ; « rings false ») et se demandent pour qui la face est sauvée (« who exactly are they saving face for? ») ; intitulé : « Déclaration de guerre et reddition de la Fédération mises en scène pour que les Klingons « conquièrent » Faan Alpha ».",
+  "version_entree": "V0.35 révisé",
   "categories": [
    "diplomatie/traité",
    "économie/social"
@@ -38923,6 +38937,15 @@
       "texte": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
      }
     ]
+   },
+   {
+    "version": "V0.35",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucun accord n’est montré : Vance déclare la guerre (« The Federation has no choice but to declare any Klingon ship an enemy vessel »), Ake invite Wochak au combat (« Fight with me, Obel ») et la Fédération se rend (« we offer you complete surrender ») ; seuls les vaisseaux de Starfleet ont l’ordre de manquer leur cible (« make sure they miss wide »), les tirs klingons touchent les boucliers (« Shields holding at 95 percent ») : l’article Wikipedia de l’épisode, qui écrit « both sides intentionally missing », se trompe ; l’idée vient du cadet (« At Jay-Den's suggestion »). Objections : aucune critique nommée lue ne juge la ruse paternaliste ou manipulatrice ; elles en discutent la vraisemblance (« laughably thin » ; « rings false ») et se demandent pour qui la face est sauvée (« who exactly are they saving face for? ») ; intitulé : « Déclaration de guerre et reddition de la Fédération mises en scène pour que les Klingons « conquièrent » Faan Alpha »."
+     }
+    ]
    }
   ],
   "cycle_slug": "starfleet-academy-actualisation-2026",
@@ -38931,6 +38954,10 @@
    {
     "libelle": "Accord mettant en scène une « conquête » klingonne de Faan Alpha pour préserver l’honneur des réfugiés.",
     "motif": "période corrigée — aucune année n'est dite à l'écran dans les épisodes de Starfleet Academy, et les sources officielles disent seulement « 32nd century » (Paramount+ : « Star Trek: Starfleet Academy is set in the 32nd century » ; startrek.com : « Set in the 32nd century »). « 3191–3192 » venait d'une conversion de dates stellaires que Memory Alpha juge elle-même incertaine (« there is still no certainty one way or another ») ; d'autres indices à l'écran mènent à 3194, 3195 ou 3196. Période alignée sur STP-228 à STP-232."
+   },
+   {
+    "libelle": "Déclaration de guerre et reddition de la Fédération mises en scène pour que les Klingons « conquièrent » Faan Alpha.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucun accord n’est montré : Vance déclare la guerre (« The Federation has no choice but to declare any Klingon ship an enemy vessel »), Ake invite Wochak au combat (« Fight with me, Obel ») et la Fédération se rend (« we offer you complete surrender ») ; seuls les vaisseaux de Starfleet ont l’ordre de manquer leur cible (« make sure they miss wide »), les tirs klingons touchent les boucliers (« Shields holding at 95 percent ») : l’article Wikipedia de l’épisode, qui écrit « both sides intentionally missing », se trompe ; l’idée vient du cadet (« At Jay-Den's suggestion »). Objections : aucune critique nommée lue ne juge la ruse paternaliste ou manipulatrice ; elles en discutent la vraisemblance (« laughably thin » ; « rings false ») et se demandent pour qui la face est sauvée (« who exactly are they saving face for? ») ; intitulé : « Déclaration de guerre et reddition de la Fédération mises en scène pour que les Klingons « conquièrent » Faan Alpha »"
    }
   ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
@@ -38976,6 +39003,7 @@
    {
     "id": "STP-230",
     "motifs": [
+     "identifiant cité dans la notice",
      "épisode commun : vox in excelso"
     ],
     "autre_continuite": false

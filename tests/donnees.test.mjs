@@ -202,6 +202,7 @@ test('controle : annee citee par la fiche absente de la periode', () => {
   const faits = 'Deux voyageurs rejoignent une Zone de Sanctuaire en septembre 2024.';
   assert.deepEqual(anneesHorsPeriode('XXIe siècle', [faits]), ['2024']);
   assert.deepEqual(anneesHorsPeriode('2024', [faits]), []);
+  assert.deepEqual(anneesHorsPeriode('2259', ['l’asile prévu par le code 8514 de Starfleet']), []);
   assert.deepEqual(anneesHorsPeriode('Entre 2267 et la fin du XXIVe siècle (événement relaté en 3191)', ['Épave découverte (en 3191)']), []);
   assert.deepEqual(anneesHorsPeriode('2374', ["Accord avec les Borg contre l'espèce 8472"]), []);
 });

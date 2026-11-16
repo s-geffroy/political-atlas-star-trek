@@ -135,7 +135,7 @@ export function ordreDiegetique(period) {
 // siecle » alors que la fiche dit « septembre 2024 »). Les parentheses et les
 // numeros d'espece (« espece 8472 ») sont ignores.
 export function anneesHorsPeriode(period, textes) {
-  const t = textes.filter(Boolean).join(' ').replace(/\([^)]*\)/g, '').replace(/\b(?:espèce|Species|species) \d{4}\b/g, '');
+  const t = textes.filter(Boolean).join(' ').replace(/\([^)]*\)/g, '').replace(/\b(?:espèce|Species|species|code|Code) \d{4}\b/g, '');
   return [...new Set([...t.matchAll(/\b(\d{4})\b/g)].map((m) => m[1]))].filter((y) => +y >= 1000 && !period.includes(y));
 }
 

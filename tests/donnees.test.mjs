@@ -248,6 +248,12 @@ test('dates stellaires : seules les dates de journal de bord, confirmees sur une
   assert.deepEqual(datesDeJournal("Captain's log, U.S.S. Enterprise, stardate 9529.1. This is the final cruise"), ['9529.1']);
   assert.deepEqual(datesDeJournal("Stardate: 9521.6 FOR GENE RODDENBERRY Stardate 9521.6, Captain's log, U.S.S. Excelsior"), ['9521.6']);
   assert.deepEqual(datesDeJournal('Stardate: 9521.6 FOR GENE RODDENBERRY OPENING CREDITS'), []);
+  assert.deepEqual(datesDeJournal('Personal log, Cleveland Booker. Stardate 866282.9. My mentor'), ['866282.9']);
+  assert.deepEqual(datesDeJournal("Stardate 869631.7. This is my first cadet's log entry."), ['869631.7']);
+  const { uneLettre } = await import('../scripts/stardates.mjs');
+  assert.ok(uneLettre(norm('The Sounds of Thunder'), norm('The Sound of Thunder')));
+  assert.ok(uneLettre(norm('Rubicon'), norm('Rubincon')));
+  assert.ok(!uneLettre(norm('Emissary'), norm('Emissary')) && !uneLettre(norm('Shakaar'), norm('Sanctuary')));
   assert.ok(confirmee('42523.7', '|date = 42523.7-42527.4'));
   assert.ok(!confirmee('4252.3', '|date = 42523.7'));
   assert.ok(pageEpisode('{{sidebar episode\n|date = 1'));

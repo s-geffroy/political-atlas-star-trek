@@ -52,9 +52,18 @@ export const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, 
 // evenement ; l'en-tete « Stardate: » ajoute par le transcripteur est ignore.
 export function datesDeJournal(corps) {
   const n = String.raw`(\d{1,6}(?:\.\d+)?)`;
-  const avant = new RegExp(String.raw`\blog\b(?:U\.S\.S\.|Mrs?\.|Dr\.|Lt\.|[^.!?]){0,60}?\bstardate,?\s+` + n, 'gi');
-  const apres = new RegExp(String.raw`\bstardate,?\s+` + n + String.raw`,?\s+(?:[\w']+\s+){0,2}log\b`, 'gi');
+  // « Personal log, Cleveland Booker. Stardate 866282.9 » : un point peut separer le nom de la date.
+  const avant = new RegExp(String.raw`\blog\b(?:U\.S\.S\.|Mrs?\.|Dr\.|Lt\.|[^.!?]){0,60}?(?:\.\s+)?\bstardate,?\s+` + n, 'gi');
+  // « Stardate 869631.7. This is my first cadet's log entry » : la phrase suivante peut annoncer le journal.
+  const apres = new RegExp(String.raw`\bstardate,?\s+` + n + String.raw`[.,]?\s+(?:this is\s+)?(?:[\w']+\s+){0,3}log\b`, 'gi');
   return [...new Set([...corps.matchAll(avant), ...corps.matchAll(apres)].sort((a, b) => a.index - b.index).map((m) => m[1]))];
+}
+// Deux titres normalises qui different d'une seule lettre (ajout, suppression ou substitution).
+export function uneLettre(a, b) {
+  if (a === b || Math.abs(a.length - b.length) > 1 || Math.min(a.length, b.length) < 5) return false;
+  let i = 0; while (i < a.length && a[i] === b[i]) i++;
+  const ra = a.slice(i), rb = b.slice(i);
+  return ra.slice(1) === rb.slice(1) || ra.slice(1) === rb || ra === rb.slice(1);
 }
 // Confirmation : la date figure telle quelle (nombre entier, pas un fragment) dans la page de l'episode.
 export const confirmee = (d, wikitext) => new RegExp(`(^|[^\\d.])${d.replace('.', '\\.')}($|[^\\d])`).test(wikitext);
@@ -93,6 +102,11 @@ async function indexDe(serie) {
   for (const x of html.matchAll(/<a\s+href="([^"#]+\.html?)"[^>]*>([\s\S]*?)<\/a>/gi)) {
     const titre = x[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     if (titre && !/episodes|index|listing/i.test(x[1]) && !m.has(norm(titre))) m.set(norm(titre), new URL(x[1], base).href);
+  }
+  // Liens mis en commentaire par le transcripteur : la page existe, l'index ne la lie pas.
+  for (const x of html.matchAll(/([^<>]+?)\s*<!--\s*a\s+href="([^"#]+\.html?)"\s*-->/gi)) {
+    const titre = x[1].replace(/\s+/g, ' ').trim();
+    if (titre && !m.has(norm(titre))) m.set(norm(titre), new URL(x[2], base).href);
   }
   indexes.set(p, m);
   await dormir(1000);
@@ -152,7 +166,9 @@ async function main() {
     if (!idx) { sortie.push(avant || { ...r, note: 'index des transcriptions indisponible' }); console.log(`${n}/${eps.size} ${cle(ep)} -> index indisponible, releve conserve`); continue; }
     // Titre exact, sinon toutes les parties d'un episode en plusieurs parties, dans l'ordre.
     const t = norm(ep.titre);
-    const urls = idx.has(t) ? [idx.get(t)] : [...idx].filter(([k]) => k.startsWith(t + ' part')).sort(([a], [b]) => a.localeCompare(b, 'en')).map(([, u]) => u);
+    let urls = idx.has(t) ? [idx.get(t)] : [...idx].filter(([k]) => k.startsWith(t + ' part')).sort(([a], [b]) => a.localeCompare(b, 'en')).map(([, u]) => u);
+    // Titre de l'index a une lettre pres (« The Sounds of Thunder », « Rubicon ») : retenu seulement s'il est unique.
+    if (!urls.length) { const proches = [...idx].filter(([k]) => uneLettre(k, t)); if (proches.length === 1) urls = [proches[0][1]]; }
     const ma = await memoryAlpha(ep.titre, ep.serie, urls.length);
     let echec = Boolean(ma.echec);
     if (!ma.echec) r.memory_alpha_url = ma.url;

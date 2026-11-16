@@ -3144,15 +3144,19 @@
      "id_y": 124,
      "lignes": [
       {
-       "t": "Tribunal du passé d'un",
+       "t": "Imposture de Marritza, commis aux",
        "y": 140
       },
       {
-       "t": "administrateur de camp cardassien",
+       "t": "archives du camp de Gallitep, qui se",
        "y": 155
+      },
+      {
+       "t": "fait passer pour Gul Darhe’el afin…",
+       "y": 170
       }
      ],
-     "titre_complet": "Tribunal du passé d'un administrateur de camp cardassien",
+     "titre_complet": "Imposture de Marritza, commis aux archives du camp de Gallitep, qui se fait passer pour Gul Darhe’el afin d’être jugé",
      "niv": "A",
      "cycle": "Deep Space Nine : occupations, démocratie, guerre"
     },
@@ -9488,7 +9492,7 @@
     "y": 401,
     "r": 6.2,
     "d": 1,
-    "titre": "Tribunal du passé d'un administrateur de camp cardassien",
+    "titre": "Imposture de Marritza, commis aux archives du camp de Gallitep, qui se fait passer pour Gul Darhe’el afin d’être jugé",
     "serie": "DS9",
     "periode": "2369"
    },

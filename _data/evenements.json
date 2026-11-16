@@ -8074,8 +8074,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/news/resistance-planetary-uprisings-movements",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Structure de caste, lutte sociale et inégalités ». V0.12 (2026-11-12) : revérification de novembre 2026 — L'éditorial officiel « Resistance is Fruitful: Planetary Uprisings and Political Movements » (startrek.com, 14 août 2024) confirme tout le fait central. Citations : « Troglyte workers toiled away in the zenite mines while the intellectuals enjoyed life in the ornate city floating in the clouds above the planet Ardana » ; « the Disrupters … devoted to obtaining equal access to a leisurely life in the city ». Il ne nomme pas la cité. Le nom de Stratos vient de la page « Lost Trek History » déjà citée (« eventually, Stratos »). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « Structure de caste, lutte sociale et inégalités ». V0.12 (2026-11-12) : revérification de novembre 2026 — L'éditorial officiel « Resistance is Fruitful: Planetary Uprisings and Political Movements » (startrek.com, 14 août 2024) confirme tout le fait central. Citations : « Troglyte workers toiled away in the zenite mines while the intellectuals enjoyed life in the ornate city floating in the clouds above the planet Ardana » ; « the Disrupters … devoted to obtaining equal access to a leisurely life in the city ». Il ne nomme pas la cité. Le nom de Stratos vient de la page « Lost Trek History » déjà citée (« eventually, Stratos »). V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.29 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : les Troglytes ne sont pas seulement mineurs (DROXINE : « They mine zenite for shipment, till the soil » ; PLASUS : « A few Troglytes are brought here as retainers. Vanna was one of them, as are the sentinels ») ; l’issue n’est pas une réforme : Vanna, « Our demands have just begun » ; Plasus, « I will tolerate absolutely no interference! You will not set foot here as long as I rule! » (transcription de « The Cloud Minders »). Parallèle : la source documentaire de la fiche (archives.gov, Civil Rights Act de 1964) ne mentionne pas l’épisode ; le rapprochement avec les droits civiques est celui de critiques (Gonzalez, Foundation, 2021 : « the cultural importance of the series to the US Civil Rights Movement of the 1960s ») et de David Gerrold cité par Memory Alpha (« one a militant, and one a Martin Luther King figure »), dont l’histoire a été réécrite.",
+  "version_entree": "V0.29 révisé",
   "categories": [
    "économie/social"
   ],
@@ -8123,11 +8123,25 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.29",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : les Troglytes ne sont pas seulement mineurs (DROXINE : « They mine zenite for shipment, till the soil » ; PLASUS : « A few Troglytes are brought here as retainers. Vanna was one of them, as are the sentinels ») ; l’issue n’est pas une réforme : Vanna, « Our demands have just begun » ; Plasus, « I will tolerate absolutely no interference! You will not set foot here as long as I rule! » (transcription de « The Cloud Minders »). Parallèle : la source documentaire de la fiche (archives.gov, Civil Rights Act de 1964) ne mentionne pas l’épisode ; le rapprochement avec les droits civiques est celui de critiques (Gonzalez, Foundation, 2021 : « the cultural importance of the series to the US Civil Rights Movement of the 1960s ») et de David Gerrold cité par Memory Alpha (« one a militant, and one a Martin Luther King figure »), dont l’histoire a été réécrite."
+     }
+    ]
    }
   ],
   "cycle_slug": "tos-et-the-animated-series-conflits-ideologiques",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Lutte des Troglytes de la planète Ardana contre les élites de Stratos.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : les Troglytes ne sont pas seulement mineurs (DROXINE : « They mine zenite for shipment, till the soil » ; PLASUS : « A few Troglytes are brought here as retainers. Vanna was one of them, as are the sentinels ») ; l’issue n’est pas une réforme : Vanna, « Our demands have just begun » ; Plasus, « I will tolerate absolutely no interference! You will not set foot here as long as I rule! » (transcription de « The Cloud Minders »). Parallèle : la source documentaire de la fiche (archives.gov, Civil Rights Act de 1964) ne mentionne pas l’épisode ; le rapprochement avec les droits civiques est celui de critiques (Gonzalez, Foundation, 2021 : « the cultural importance of the series to the US Civil Rights Movement of the 1960s ») et de David Gerrold cité par Memory Alpha (« one a militant, and one a Martin Luther King figure »), dont l’histoire a été réécrite."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -16611,15 +16625,15 @@
   "id": "STP-125",
   "cycle": "Deep Space Nine : occupations, démocratie, guerre",
   "period": "2369",
-  "event": "Tribunal du passé d'un administrateur de camp cardassien",
+  "event": "Imposture de Marritza, commis aux archives du camp de Gallitep, qui se fait passer pour Gul Darhe’el afin d’être jugé",
   "source": "DS9 « Duet »",
   "politics": "Justice transitionnelle, mémoire collective et culpabilité.",
   "categories_politiques": "justice/droits",
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/space-time-travelers-guide-to-star-trek",
-  "note_audit": "V0.5 (2026-11-10) : recoupement A (source officielle) — L'article présente « Duet » : Kira interroge un patient cardassien qu'elle croit être le criminel de guerre surnommé le « Boucher de Gallitep », sur fond de justice et de traumatisme. Source B précédente : https://startrekarchive.com/episodes/duet. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.5 (2026-11-10) : recoupement A (source officielle) — L'article présente « Duet » : Kira interroge un patient cardassien qu'elle croit être le criminel de guerre surnommé le « Boucher de Gallitep », sur fond de justice et de traumatisme. Source B précédente : https://startrekarchive.com/episodes/duet. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.29 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Intitulé : aucun tribunal ne siège, le gouvernement provisoire prépare seulement un « war crimes tribunal » et Sisko précise : « So far, we haven't charged him with anything » ; le détenu n’est pas l’administrateur du camp mais Marritza, son commis aux archives, « only good for cowering under his bunk », qui se fait passer pour Gul Darhe’el : « My trial will force Cardassia to acknowledge its guilt » (transcription de « Duet »). Contexte : la mention de l’ex-Yougoslavie n’avait pas de source ; le seul rapprochement avec un procès contemporain est celui de Michelle Erica Green (2004) : « This episode aired in the midst of a trial in Israel where an extradited U.S. citizen was accused of being a Nazi war criminal; he was exonerated within days of the airing » ; l’arrêt de la Cour suprême d’Israël est du 29 juillet 1993 (International Crimes Database : « acquitted by the Supreme Court of Israel on the grounds of mistaken identity »).",
+  "version_entree": "V0.29 révisé",
   "categories": [
    "justice/droits"
   ],
@@ -16664,11 +16678,25 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.29",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Intitulé : aucun tribunal ne siège, le gouvernement provisoire prépare seulement un « war crimes tribunal » et Sisko précise : « So far, we haven't charged him with anything » ; le détenu n’est pas l’administrateur du camp mais Marritza, son commis aux archives, « only good for cowering under his bunk », qui se fait passer pour Gul Darhe’el : « My trial will force Cardassia to acknowledge its guilt » (transcription de « Duet »). Contexte : la mention de l’ex-Yougoslavie n’avait pas de source ; le seul rapprochement avec un procès contemporain est celui de Michelle Erica Green (2004) : « This episode aired in the midst of a trial in Israel where an extradited U.S. citizen was accused of being a Nazi war criminal; he was exonerated within days of the airing » ; l’arrêt de la Cour suprême d’Israël est du 29 juillet 1993 (International Crimes Database : « acquitted by the Supreme Court of Israel on the grounds of mistaken identity »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Imposture de Marritza, commis aux archives du camp de Gallitep, qui se fait passer pour Gul Darhe’el afin d’être jugé.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Intitulé : aucun tribunal ne siège, le gouvernement provisoire prépare seulement un « war crimes tribunal » et Sisko précise : « So far, we haven't charged him with anything » ; le détenu n’est pas l’administrateur du camp mais Marritza, son commis aux archives, « only good for cowering under his bunk », qui se fait passer pour Gul Darhe’el : « My trial will force Cardassia to acknowledge its guilt » (transcription de « Duet »). Contexte : la mention de l’ex-Yougoslavie n’avait pas de source ; le seul rapprochement avec un procès contemporain est celui de Michelle Erica Green (2004) : « This episode aired in the midst of a trial in Israel where an extradited U.S. citizen was accused of being a Nazi war criminal; he was exonerated within days of the airing » ; l’arrêt de la Cour suprême d’Israël est du 29 juillet 1993 (International Crimes Database : « acquitted by the Supreme Court of Israel on the grounds of mistaken identity »)."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -17137,8 +17165,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/news/unionizing-star-trek-deep-space-nine",
-  "note_audit": "V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.29 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : les « retenues de salaire » étaient deux mesures distinctes, la retenue sur Rom (QUARK : « I'm going to dock his pay ») et la baisse générale (« starting tomorrow, everyone's salary gets cut by a third ») ; violence : Brunt écarte de frapper Rom (« Attack the leader of a movement, you risk creating a martyr ») et fait battre Quark par les Nausicaans ; menaces : « your financial accounts on Ferenginar will be confiscated, your families fined and your trading permits revoked » ; issue : « you dissolve the union, make it look like I've won, and I'll give you everything you want » ; « But the union dies here. Today » ; Rom : « I do a lot better when you're not around » (transcription de « Bar Association »). Contexte : la phrase sur les « transformations du marché du travail » n’avait pas de source ; l’article de StarTrek.com (2019), source de la fiche, cite Wolfe : « We wanted to give that historical context to show how that worked to a viewership that might be increasingly hostile to the idea of organized labor » et paraphrase : « produced in a time when union membership was (and still is) in decline » ; Wolfe : « Some of the [ DS9 ] writers, not me, had just been through a writers' strike in the late '80s ».",
+  "version_entree": "V0.29 révisé",
   "categories": [
    "justice/droits",
    "économie/social"
@@ -17169,11 +17197,25 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.29",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : les « retenues de salaire » étaient deux mesures distinctes, la retenue sur Rom (QUARK : « I'm going to dock his pay ») et la baisse générale (« starting tomorrow, everyone's salary gets cut by a third ») ; violence : Brunt écarte de frapper Rom (« Attack the leader of a movement, you risk creating a martyr ») et fait battre Quark par les Nausicaans ; menaces : « your financial accounts on Ferenginar will be confiscated, your families fined and your trading permits revoked » ; issue : « you dissolve the union, make it look like I've won, and I'll give you everything you want » ; « But the union dies here. Today » ; Rom : « I do a lot better when you're not around » (transcription de « Bar Association »). Contexte : la phrase sur les « transformations du marché du travail » n’avait pas de source ; l’article de StarTrek.com (2019), source de la fiche, cite Wolfe : « We wanted to give that historical context to show how that worked to a viewership that might be increasingly hostile to the idea of organized labor » et paraphrase : « produced in a time when union membership was (and still is) in decline » ; Wolfe : « Some of the [ DS9 ] writers, not me, had just been through a writers' strike in the late '80s »."
+     }
+    ]
    }
   ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Grève des salariés de Quark et affrontement avec l'Autorité commerciale ferengie.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : les « retenues de salaire » étaient deux mesures distinctes, la retenue sur Rom (QUARK : « I'm going to dock his pay ») et la baisse générale (« starting tomorrow, everyone's salary gets cut by a third ») ; violence : Brunt écarte de frapper Rom (« Attack the leader of a movement, you risk creating a martyr ») et fait battre Quark par les Nausicaans ; menaces : « your financial accounts on Ferenginar will be confiscated, your families fined and your trading permits revoked » ; issue : « you dissolve the union, make it look like I've won, and I'll give you everything you want » ; « But the union dies here. Today » ; Rom : « I do a lot better when you're not around » (transcription de « Bar Association »). Contexte : la phrase sur les « transformations du marché du travail » n’avait pas de source ; l’article de StarTrek.com (2019), source de la fiche, cite Wolfe : « We wanted to give that historical context to show how that worked to a viewership that might be increasingly hostile to the idea of organized labor » et paraphrase : « produced in a time when union membership was (and still is) in decline » ; Wolfe : « Some of the [ DS9 ] writers, not me, had just been through a writers' strike in the late '80s »."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -35816,8 +35858,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://web.archive.org/web/20130312074939/http://www.startrek.com:80/database_article/statistical-probabilities",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (article de l’épisode) : les augmentés « conclude that the Federation is doomed to lose the war » puis « decide to leak Starfleet's strategic plans to the Dominion ». Les deux volets du fait central concordent. La page ne donne ni année ni date stellaire : la période 2374 n’a pas été recoupée (inchangée). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.19 (2026-11-13) : revérification de novembre 2026 — page d'épisode officielle de l'ancienne base de données de startrek.com lue dans sa copie archivée : https://web.archive.org/web/20130312074939/http://www.startrek.com:80/database_article/statistical-probabilities. Elle confirme le fait central : « The savants determine that the Federation will lose the war, with casualties in the hundreds of billions. » ; « the group decides to give the Dominion leaders information that will help them take control of the Alpha Quadrant. » Niveau B porté à A.",
-  "version_entree": "V0.19 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (article de l’épisode) : les augmentés « conclude that the Federation is doomed to lose the war » puis « decide to leak Starfleet's strategic plans to the Dominion ». Les deux volets du fait central concordent. La page ne donne ni année ni date stellaire : la période 2374 n’a pas été recoupée (inchangée). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.19 (2026-11-13) : revérification de novembre 2026 — page d'épisode officielle de l'ancienne base de données de startrek.com lue dans sa copie archivée : https://web.archive.org/web/20130312074939/http://www.startrek.com:80/database_article/statistical-probabilities. Elle confirme le fait central : « The savants determine that the Federation will lose the war, with casualties in the hundreds of billions. » ; « the group decides to give the Dominion leaders information that will help them take control of the Alpha Quadrant. » Niveau B porté à A. V0.29 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : le projet de livrer les plans n’est pas celui de Bashir ; il naît après le rejet de la recommandation (BASHIR : « Starfleet rejected our recommendations » ; JACK : « We've got to take matters into our own hands » ; LAUREN : « They could take the Alpha Quadrant in a matter of weeks » ; « There wouldn't be more than two billion casualties ») ; Bashir refuse : « I'm not going to be a party to treason » ; il persuade Sarina que les autres seront « arrested and charged with treason » (transcription de « Statistical Probabilities ») ; récapitulatif officiel : « After convincing her to free him, Bashir alerts Odo to the impending meeting, and the plan is foiled ». Mécanisme : aucune instance démocratique n’apparaît ; Sisko : « You've made your recommendation. I'll pass it on to Starfleet Command » ; Bashir : « We presented our case to Starfleet Command. They rejected it. Case closed ». Parallèle : aucune source consultée ne rapproche l’épisode de la gouvernementalité algorithmique ; Handlen (The A.V. Club, 2013) : « basically a form of psychohistory » ; Mooney (2017) : « could be read as a defense of those populist movements », puis « it seems churlish to complain about the episode’s subtext in light of events that occurred twenty years after it was broadcast ».",
+  "version_entree": "V0.29 révisé",
   "categories": [
    "renseignement/sécurité"
   ],
@@ -35889,11 +35931,25 @@
       "texte": ". Elle confirme le fait central : « The savants determine that the Federation will lose the war, with casualties in the hundreds of billions. » ; « the group decides to give the Dominion leaders information that will help them take control of the Alpha Quadrant. » Niveau B porté à A."
      }
     ]
+   },
+   {
+    "version": "V0.29",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : le projet de livrer les plans n’est pas celui de Bashir ; il naît après le rejet de la recommandation (BASHIR : « Starfleet rejected our recommendations » ; JACK : « We've got to take matters into our own hands » ; LAUREN : « They could take the Alpha Quadrant in a matter of weeks » ; « There wouldn't be more than two billion casualties ») ; Bashir refuse : « I'm not going to be a party to treason » ; il persuade Sarina que les autres seront « arrested and charged with treason » (transcription de « Statistical Probabilities ») ; récapitulatif officiel : « After convincing her to free him, Bashir alerts Odo to the impending meeting, and the plan is foiled ». Mécanisme : aucune instance démocratique n’apparaît ; Sisko : « You've made your recommendation. I'll pass it on to Starfleet Command » ; Bashir : « We presented our case to Starfleet Command. They rejected it. Case closed ». Parallèle : aucune source consultée ne rapproche l’épisode de la gouvernementalité algorithmique ; Handlen (The A.V. Club, 2013) : « basically a form of psychohistory » ; Mooney (2017) : « could be read as a defense of those populist movements », puis « it seems churlish to complain about the episode’s subtext in light of events that occurred twenty years after it was broadcast »."
+     }
+    ]
    }
   ],
   "cycle_slug": "pouvoir-technocratique",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Prévision statistique d’une défaite fédérale et projet clandestin de transmettre des stratégies au Dominion.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : le projet de livrer les plans n’est pas celui de Bashir ; il naît après le rejet de la recommandation (BASHIR : « Starfleet rejected our recommendations » ; JACK : « We've got to take matters into our own hands » ; LAUREN : « They could take the Alpha Quadrant in a matter of weeks » ; « There wouldn't be more than two billion casualties ») ; Bashir refuse : « I'm not going to be a party to treason » ; il persuade Sarina que les autres seront « arrested and charged with treason » (transcription de « Statistical Probabilities ») ; récapitulatif officiel : « After convincing her to free him, Bashir alerts Odo to the impending meeting, and the plan is foiled ». Mécanisme : aucune instance démocratique n’apparaît ; Sisko : « You've made your recommendation. I'll pass it on to Starfleet Command » ; Bashir : « We presented our case to Starfleet Command. They rejected it. Case closed ». Parallèle : aucune source consultée ne rapproche l’épisode de la gouvernementalité algorithmique ; Handlen (The A.V. Club, 2013) : « basically a form of psychohistory » ; Mooney (2017) : « could be read as a defense of those populist movements », puis « it seems churlish to complain about the episode’s subtext in light of events that occurred twenty years after it was broadcast »."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {

@@ -82,9 +82,9 @@
    "recoupement": "A — Éditorial officiel"
   },
   "volets": {
-   "faits": "Sur Ardana, des élites habitent Stratos tandis que les Troglytes travaillent dans des mines dont les conditions affectent leurs capacités. Un mouvement de contestation remet en cause cette hiérarchie.",
+   "faits": "Sur Ardana, planète membre de la Fédération, des élites habitent Stratos, cité qui flotte dans les nuages, tandis que les Troglytes vivent à la surface : ils extraient la zénite et cultivent le sol, et quelques-uns servent à Stratos comme domestiques et sentinelles. Le gaz qu’émet la zénite brute ralentit leurs facultés intellectuelles. Un groupe organisé, les Disrupters, dont Vanna est la porte-parole, réclame pour les Troglytes le même droit à la cité que ses habitants ; le haut conseiller Plasus répond par la force. L’issue n’est pas une réforme : Kirk démontre l’effet du gaz et annonce que des masques filtrants en protégeront les mineurs, mais Plasus garde le pouvoir et refuse toute médiation de la Fédération, et Vanna annonce que les revendications ne font que commencer.",
    "mecanisme": "La fiction relie statut social, environnement professionnel et légitimation idéologique : une inégalité structurelle est justifiée comme une différence naturelle entre groupes.",
-   "parallele": "Éclairage historique de la ségrégation et des luttes pour les droits civiques dans l’Amérique de 1969, ainsi que des rapports entre exposition aux risques professionnels et pouvoir politique.",
+   "parallele": "Le rapprochement avec la ségrégation et les luttes pour les droits civiques n’est fait que par des critiques et, d’après Memory Alpha, par David Gerrold, auteur de l’histoire originale, qui plaçait parmi les chefs des travailleurs de son histoire, écrite en 1968, une figure à la Martin Luther King ; aucune source lue ne relie la version diffusée, réécrite par Margaret Armen, aux droits civiques. George A. Gonzalez (2021) range l’épisode parmi les récits anti-racistes de la série, Darren Mooney (2016) le rattache aux mouvements sociaux des années 1960 et à la question des classes, Roger Thompson (2023) compare Ardana à l’apartheid. L’épisode reste un appui pour étudier les rapports entre exposition aux risques professionnels et pouvoir politique.",
    "objections": "Les Troglytes ne représentent pas un groupe américain précis. Réduire l’épisode à une métaphore raciale unique ferait perdre la dimension de classe et de santé au travail.",
    "contexte": "Épisode de 1969 dans la continuité des conflits politiques des années 1960."
   },
@@ -103,6 +103,21 @@
     "libelle": "Source secondaire/éditoriale de contrôle (V0.12)",
     "url": "https://www.startrek.com/news/resistance-planetary-uprisings-movements",
     "archive": "https://web.archive.org/web/20260807113011/https://www.startrek.com/news/resistance-planetary-uprisings-movements"
+   },
+   {
+    "libelle": "Source — Transcription de « The Cloud Minders » (chakoteya.net) (V0.29)",
+    "url": "http://www.chakoteya.net/StarTrek/74.htm",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Memory Alpha, « The Cloud Minders (episode) » (citation de David Gerrold, The World of Star Trek, 1973, non consulté) (V0.29)",
+    "url": "https://memory-alpha.fandom.com/wiki/The_Cloud_Minders_(episode)",
+    "archive": null
+   },
+   {
+    "libelle": "Source — George A. Gonzalez, « ‘May we together become greater’: In Defence of Star Trek and Anti-Racism », Foundation, n° 138, 2021 (V0.29)",
+    "url": "https://www.fanac.org/fanzines/Foundation/Foundation%20138%20v50n1%20March-Russell,%20Paul%202021-Sp%20UK.pdf",
+    "archive": null
    }
   ]
  },
@@ -245,7 +260,7 @@
  },
  "STP-125": {
   "id": "STP-125",
-  "titre": "Tribunal du passé d'un administrateur de camp cardassien",
+  "titre": "Imposture de Marritza, commis aux archives du camp de Gallitep, qui se fait passer pour Gul Darhe’el afin d’être jugé",
   "entetes": {
    "periode": "2369",
    "source_audiovisuelle": "DS9 « Duet »",
@@ -256,7 +271,7 @@
    "mecanisme": "L’épisode oppose mémoire, identification personnelle et responsabilité collective. Le besoin de justice peut se transformer en punition fondée sur la seule appartenance nationale.",
    "parallele": "Analogies prudentes avec les débats sur la justice transitionnelle, les témoignages des crimes de masse et la mémoire des occupations.",
    "objections": "Il ne présente pas un tribunal pénal formel comparable à Nuremberg ; Marritza cherche volontairement à endosser une culpabilité qui ne lui appartient pas.",
-   "contexte": "Diffusion 1993, dans une Amérique qui suit notamment les guerres de l’ex-Yougoslavie et les débats sur les crimes de guerre."
+   "contexte": "Diffusé à la mi-juin 1993. Aucune source consultée ne relie l’épisode aux guerres de l’ex-Yougoslavie. En 2004, la critique Michelle Erica Green l’a rapproché d’un procès alors en cours en Israël contre un citoyen américain extradé, accusé d’être un criminel de guerre nazi : l’affaire John Demjanjuk, acquitté en appel le 29 juillet 1993, environ six semaines après la diffusion, et non « quelques jours » comme elle l’écrit. Aucune source ne dit que les auteurs y ont pensé."
   },
   "sources": [
    {
@@ -268,6 +283,21 @@
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
     "url": "https://www.startrek.com/en-un/news/space-time-travelers-guide-to-star-trek",
     "archive": "https://web.archive.org/web/20250407180446/https://www.startrek.com/en-un/news/space-time-travelers-guide-to-star-trek"
+   },
+   {
+    "libelle": "Source — Transcription de « Duet » (chakoteya.net) (V0.29)",
+    "url": "http://www.chakoteya.net/DS9/419.htm",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Michelle Erica Green, « Duet », The Trek Nation, 2004 (copie archivée) (V0.29)",
+    "url": "http://web.archive.org/web/20081106062836/http://www.treknation.com:80/reviews/ds9/duet.shtml",
+    "archive": null
+   },
+   {
+    "libelle": "Source — International Crimes Database, State of Israel v. Ivan (John) Demjanjuk, décision du 29 juillet 1993 (V0.29)",
+    "url": "https://www.internationalcrimesdatabase.org/Case/191",
+    "archive": null
    }
   ]
  },
@@ -318,17 +348,22 @@
    "recoupement": "A — Éditorial officiel"
   },
   "volets": {
-   "faits": "Rom et les salariés de Quark s’organisent en syndicat après des retenues de salaire et l’absence de garanties sociales. L’Autorité commerciale ferengie intervient pour casser la grève.",
-   "mecanisme": "Le conflit montre les mécanismes de négociation collective, de dépendance à l’employeur et de répression économique, dans une société où la poursuite du profit prétend être une valeur totale.",
+   "faits": "Quark retient le salaire de son frère Rom après un malaise dû à une infection que celui-ci n’a pas pu faire soigner, puis baisse d’un tiers les salaires de tout le personnel du bar. Rom et les salariés s’organisent en syndicat, la Guild of Restaurant and Casino Employees, et se mettent en grève pour obtenir une hausse des salaires, des horaires réduits et des congés maladie payés. L’Autorité commerciale ferengie intervient pour casser la grève : son liquidateur, Brunt, menace les grévistes de confiscations et d’amendes, puis fait battre Quark par ses hommes de main. Le syndicat est officiellement dissous, mais Quark accorde ses revendications en secret, et Rom quitte le bar pour devenir technicien de maintenance de la station.",
+   "mecanisme": "Le conflit montre les mécanismes de négociation collective, de dépendance à l’employeur et de répression, économique (confiscation des comptes, amendes infligées aux familles, retrait des licences commerciales) comme physique (Quark battu sur l’ordre du liquidateur), dans une société où la poursuite du profit prétend être une valeur totale.",
    "parallele": "À mettre en regard de l’histoire du syndicalisme et des désaccords contemporains sur représentation collective, statuts des salariés et pouvoir de négociation.",
    "objections": "La Fédération n’est pas dépeinte comme un modèle économique institutionnel documenté dans tous ses détails ; comparer Quark à une entreprise américaine précise serait abusif.",
-   "contexte": "Diffusion 1996, au moment de transformations du marché du travail dans les économies occidentales."
+   "contexte": "Diffusé en février 1996. Aucune source consultée ne relie l’épisode à un conflit social précis de l’époque. En 2019, ses scénaristes, Robert Hewitt Wolfe et Ira Steven Behr, ont dit avoir voulu montrer pourquoi le mouvement ouvrier avait été historiquement une bonne chose, à un public peut-être de plus en plus hostile aux syndicats ; l’article qui rapporte leurs propos situe la production dans une période de déclin des effectifs syndicaux, et Wolfe rappelle que certains scénaristes de la série venaient de connaître la grève des scénaristes de la fin des années 1980."
   },
   "sources": [
    {
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://www.startrek.com/news/unionizing-star-trek-deep-space-nine",
     "archive": "https://web.archive.org/web/20260714094453/https://www.startrek.com/news/unionizing-star-trek-deep-space-nine"
+   },
+   {
+    "libelle": "Source — Transcription de « Bar Association » (chakoteya.net) (V0.29)",
+    "url": "http://www.chakoteya.net/DS9/488.htm",
+    "archive": null
    }
   ]
  },
@@ -664,9 +699,9 @@
    "recoupement": "A — Récapitulatif officiel"
   },
   "volets": {
-   "faits": "Bashir et des personnes génétiquement augmentées élaborent une prévision selon laquelle la Fédération perdra la guerre. Certains envisagent de communiquer au Dominion des informations militaires pour forcer la paix.",
-   "mecanisme": "Une prédiction devient une prescription : les experts remplacent un choix démocratique, moral et stratégique par une projection mathématique tenue pour certaine.",
-   "parallele": "Rapprochement avec la gouvernementalité algorithmique et les limites des prévisions probabilistes en situations complexes.",
+   "faits": "Quatre patients génétiquement modifiés, internés dans un institut, analysent avec Bashir les pourparlers de paix proposés par Damar. Après avoir obtenu l’accès à des informations classifiées de Starfleet, ils concluent, et Bashir vérifie, que la Fédération perdra la guerre, et recommandent la capitulation ; Sisko transmet la recommandation sans l’appuyer, et Starfleet la rejette. Jack conçoit alors, avec Lauren et Patrick, le projet clandestin de livrer au Dominion les plans de bataille de Starfleet, pour que la guerre s’achève en quelques semaines avec moins de victimes. Bashir refuse et est assommé ; Sarina, qu’il a persuadée, le libère, et le projet est déjoué.",
+   "mecanisme": "Une prédiction devient une prescription : une projection mathématique tenue pour certaine fonde une recommandation de capitulation. À l’écran, aucun choix démocratique n’est remplacé : la recommandation remonte la chaîne de commandement, qui la rejette, et c’est contre ce refus que le groupe tente de passer outre, en secret, par une fuite d’informations.",
+   "parallele": "Rapprochement possible avec les limites des prévisions probabilistes en situations complexes. Le parallèle avec la gouvernementalité algorithmique est une hypothèse de l’atlas : aucune source consultée ne le fait. Les critiques rapprochent plutôt l’épisode de la psychohistoire des romans Fondation d’Isaac Asimov (Zack Handlen, 2013), et Darren Mooney (2017) y voit une lecture possible des populismes anti-élites, qu’il nuance lui-même.",
    "objections": "Un modèle fictionnel erroné ne prouve pas que la modélisation quantitative est inutile ; il illustre le coût de l’hubris prédictive et de l’absence de contre-expertise.",
    "contexte": "Diffusion 1997, avant l’essor actuel de l’IA générative."
   },
@@ -684,6 +719,11 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.19)",
     "url": "https://web.archive.org/web/20130312074939/http://www.startrek.com:80/database_article/statistical-probabilities",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Transcription de « Statistical Probabilities » (chakoteya.net) (V0.29)",
+    "url": "http://www.chakoteya.net/DS9/533.htm",
     "archive": null
    }
   ]

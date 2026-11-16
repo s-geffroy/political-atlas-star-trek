@@ -1,0 +1,129 @@
+{
+ "version": "V0.29",
+ "date": "2026-11-16",
+ "date_longue": "16 novembre 2026",
+ "base": "V0_28_2026-11-16",
+ "titre": "Atlas politique de Star Trek — V0.29 : fiches de « The Cloud Minders », « Duet », « Bar Association » et « Statistical Probabilities » alignées sur l’écran",
+ "resume": "Les fiches STP-061, STP-125, STP-129 et STP-274 sont alignées sur les analyses rédigées du 16 novembre 2026 : la lutte des Troglytes ne s’achève sur aucune réforme et le rapprochement avec les droits civiques n’est fait que par des critiques ; l’intitulé de STP-125 nomme l’imposture de Marritza, et son contexte ne prête plus à l’épisode un lien avec l’ex-Yougoslavie ; la grève chez Quark est décrite jusqu’à son issue ; le projet de livrer les plans de Starfleet au Dominion est rendu à ses auteurs, et aucun choix démocratique n’y est remplacé.",
+ "methode": {
+  "revue": "analyses rédigées de STP-061, STP-125, STP-129 et STP-274 ; proposition validée le 2026-11-16 (docs/proposition-v029.md) ; citations contrôlées sur les transcriptions et les numérisations."
+ },
+ "comptes": {
+  "corrections": 4
+ },
+ "corrections": [
+  {
+   "id": "STP-061",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Sur Ardana, des élites habitent Stratos tandis que les Troglytes travaillent dans des mines dont les conditions affectent leurs capacités. Un mouvement de contestation remet en cause cette hiérarchie.",
+     "apres": "Sur Ardana, planète membre de la Fédération, des élites habitent Stratos, cité qui flotte dans les nuages, tandis que les Troglytes vivent à la surface : ils extraient la zénite et cultivent le sol, et quelques-uns servent à Stratos comme domestiques et sentinelles. Le gaz qu’émet la zénite brute ralentit leurs facultés intellectuelles. Un groupe organisé, les Disrupters, dont Vanna est la porte-parole, réclame pour les Troglytes le même droit à la cité que ses habitants ; le haut conseiller Plasus répond par la force. L’issue n’est pas une réforme : Kirk démontre l’effet du gaz et annonce que des masques filtrants en protégeront les mineurs, mais Plasus garde le pouvoir et refuse toute médiation de la Fédération, et Vanna annonce que les revendications ne font que commencer."
+    },
+    "parallele": {
+     "avant": "Éclairage historique de la ségrégation et des luttes pour les droits civiques dans l’Amérique de 1969, ainsi que des rapports entre exposition aux risques professionnels et pouvoir politique.",
+     "apres": "Le rapprochement avec la ségrégation et les luttes pour les droits civiques n’est fait que par des critiques et, d’après Memory Alpha, par David Gerrold, auteur de l’histoire originale, qui plaçait parmi les chefs des travailleurs de son histoire, écrite en 1968, une figure à la Martin Luther King ; aucune source lue ne relie la version diffusée, réécrite par Margaret Armen, aux droits civiques. George A. Gonzalez (2021) range l’épisode parmi les récits anti-racistes de la série, Darren Mooney (2016) le rattache aux mouvements sociaux des années 1960 et à la question des classes, Roger Thompson (2023) compare Ardana à l’apartheid. L’épisode reste un appui pour étudier les rapports entre exposition aux risques professionnels et pouvoir politique."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « The Cloud Minders » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/StarTrek/74.htm"
+    },
+    {
+     "libelle": "Source — Memory Alpha, « The Cloud Minders (episode) » (citation de David Gerrold, The World of Star Trek, 1973, non consulté)",
+     "url": "https://memory-alpha.fandom.com/wiki/The_Cloud_Minders_(episode)"
+    },
+    {
+     "libelle": "Source — George A. Gonzalez, « ‘May we together become greater’: In Defence of Star Trek and Anti-Racism », Foundation, n° 138, 2021",
+     "url": "https://www.fanac.org/fanzines/Foundation/Foundation%20138%20v50n1%20March-Russell,%20Paul%202021-Sp%20UK.pdf"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : les Troglytes ne sont pas seulement mineurs (DROXINE : « They mine zenite for shipment, till the soil » ; PLASUS : « A few Troglytes are brought here as retainers. Vanna was one of them, as are the sentinels ») ; l’issue n’est pas une réforme : Vanna, « Our demands have just begun » ; Plasus, « I will tolerate absolutely no interference! You will not set foot here as long as I rule! » (transcription de « The Cloud Minders »). Parallèle : la source documentaire de la fiche (archives.gov, Civil Rights Act de 1964) ne mentionne pas l’épisode ; le rapprochement avec les droits civiques est celui de critiques (Gonzalez, Foundation, 2021 : « the cultural importance of the series to the US Civil Rights Movement of the 1960s ») et de David Gerrold cité par Memory Alpha (« one a militant, and one a Martin Luther King figure »), dont l’histoire a été réécrite."
+  },
+  {
+   "id": "STP-125",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Tribunal du passé d'un administrateur de camp cardassien",
+     "apres": "Imposture de Marritza, commis aux archives du camp de Gallitep, qui se fait passer pour Gul Darhe’el afin d’être jugé"
+    }
+   },
+   "volets": {
+    "contexte": {
+     "avant": "Diffusion 1993, dans une Amérique qui suit notamment les guerres de l’ex-Yougoslavie et les débats sur les crimes de guerre.",
+     "apres": "Diffusé à la mi-juin 1993. Aucune source consultée ne relie l’épisode aux guerres de l’ex-Yougoslavie. En 2004, la critique Michelle Erica Green l’a rapproché d’un procès alors en cours en Israël contre un citoyen américain extradé, accusé d’être un criminel de guerre nazi : l’affaire John Demjanjuk, acquitté en appel le 29 juillet 1993, environ six semaines après la diffusion, et non « quelques jours » comme elle l’écrit. Aucune source ne dit que les auteurs y ont pensé."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « Duet » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/DS9/419.htm"
+    },
+    {
+     "libelle": "Source — Michelle Erica Green, « Duet », The Trek Nation, 2004 (copie archivée)",
+     "url": "http://web.archive.org/web/20081106062836/http://www.treknation.com:80/reviews/ds9/duet.shtml"
+    },
+    {
+     "libelle": "Source — International Crimes Database, State of Israel v. Ivan (John) Demjanjuk, décision du 29 juillet 1993",
+     "url": "https://www.internationalcrimesdatabase.org/Case/191"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Intitulé : aucun tribunal ne siège, le gouvernement provisoire prépare seulement un « war crimes tribunal » et Sisko précise : « So far, we haven't charged him with anything » ; le détenu n’est pas l’administrateur du camp mais Marritza, son commis aux archives, « only good for cowering under his bunk », qui se fait passer pour Gul Darhe’el : « My trial will force Cardassia to acknowledge its guilt » (transcription de « Duet »). Contexte : la mention de l’ex-Yougoslavie n’avait pas de source ; le seul rapprochement avec un procès contemporain est celui de Michelle Erica Green (2004) : « This episode aired in the midst of a trial in Israel where an extradited U.S. citizen was accused of being a Nazi war criminal; he was exonerated within days of the airing » ; l’arrêt de la Cour suprême d’Israël est du 29 juillet 1993 (International Crimes Database : « acquitted by the Supreme Court of Israel on the grounds of mistaken identity »)."
+  },
+  {
+   "id": "STP-129",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Rom et les salariés de Quark s’organisent en syndicat après des retenues de salaire et l’absence de garanties sociales. L’Autorité commerciale ferengie intervient pour casser la grève.",
+     "apres": "Quark retient le salaire de son frère Rom après un malaise dû à une infection que celui-ci n’a pas pu faire soigner, puis baisse d’un tiers les salaires de tout le personnel du bar. Rom et les salariés s’organisent en syndicat, la Guild of Restaurant and Casino Employees, et se mettent en grève pour obtenir une hausse des salaires, des horaires réduits et des congés maladie payés. L’Autorité commerciale ferengie intervient pour casser la grève : son liquidateur, Brunt, menace les grévistes de confiscations et d’amendes, puis fait battre Quark par ses hommes de main. Le syndicat est officiellement dissous, mais Quark accorde ses revendications en secret, et Rom quitte le bar pour devenir technicien de maintenance de la station."
+    },
+    "mecanisme": {
+     "avant": "Le conflit montre les mécanismes de négociation collective, de dépendance à l’employeur et de répression économique, dans une société où la poursuite du profit prétend être une valeur totale.",
+     "apres": "Le conflit montre les mécanismes de négociation collective, de dépendance à l’employeur et de répression, économique (confiscation des comptes, amendes infligées aux familles, retrait des licences commerciales) comme physique (Quark battu sur l’ordre du liquidateur), dans une société où la poursuite du profit prétend être une valeur totale."
+    },
+    "contexte": {
+     "avant": "Diffusion 1996, au moment de transformations du marché du travail dans les économies occidentales.",
+     "apres": "Diffusé en février 1996. Aucune source consultée ne relie l’épisode à un conflit social précis de l’époque. En 2019, ses scénaristes, Robert Hewitt Wolfe et Ira Steven Behr, ont dit avoir voulu montrer pourquoi le mouvement ouvrier avait été historiquement une bonne chose, à un public peut-être de plus en plus hostile aux syndicats ; l’article qui rapporte leurs propos situe la production dans une période de déclin des effectifs syndicaux, et Wolfe rappelle que certains scénaristes de la série venaient de connaître la grève des scénaristes de la fin des années 1980."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « Bar Association » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/DS9/488.htm"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : les « retenues de salaire » étaient deux mesures distinctes, la retenue sur Rom (QUARK : « I'm going to dock his pay ») et la baisse générale (« starting tomorrow, everyone's salary gets cut by a third ») ; violence : Brunt écarte de frapper Rom (« Attack the leader of a movement, you risk creating a martyr ») et fait battre Quark par les Nausicaans ; menaces : « your financial accounts on Ferenginar will be confiscated, your families fined and your trading permits revoked » ; issue : « you dissolve the union, make it look like I've won, and I'll give you everything you want » ; « But the union dies here. Today » ; Rom : « I do a lot better when you're not around » (transcription de « Bar Association »). Contexte : la phrase sur les « transformations du marché du travail » n’avait pas de source ; l’article de StarTrek.com (2019), source de la fiche, cite Wolfe : « We wanted to give that historical context to show how that worked to a viewership that might be increasingly hostile to the idea of organized labor » et paraphrase : « produced in a time when union membership was (and still is) in decline » ; Wolfe : « Some of the [ DS9 ] writers, not me, had just been through a writers' strike in the late '80s »."
+  },
+  {
+   "id": "STP-274",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Bashir et des personnes génétiquement augmentées élaborent une prévision selon laquelle la Fédération perdra la guerre. Certains envisagent de communiquer au Dominion des informations militaires pour forcer la paix.",
+     "apres": "Quatre patients génétiquement modifiés, internés dans un institut, analysent avec Bashir les pourparlers de paix proposés par Damar. Après avoir obtenu l’accès à des informations classifiées de Starfleet, ils concluent, et Bashir vérifie, que la Fédération perdra la guerre, et recommandent la capitulation ; Sisko transmet la recommandation sans l’appuyer, et Starfleet la rejette. Jack conçoit alors, avec Lauren et Patrick, le projet clandestin de livrer au Dominion les plans de bataille de Starfleet, pour que la guerre s’achève en quelques semaines avec moins de victimes. Bashir refuse et est assommé ; Sarina, qu’il a persuadée, le libère, et le projet est déjoué."
+    },
+    "mecanisme": {
+     "avant": "Une prédiction devient une prescription : les experts remplacent un choix démocratique, moral et stratégique par une projection mathématique tenue pour certaine.",
+     "apres": "Une prédiction devient une prescription : une projection mathématique tenue pour certaine fonde une recommandation de capitulation. À l’écran, aucun choix démocratique n’est remplacé : la recommandation remonte la chaîne de commandement, qui la rejette, et c’est contre ce refus que le groupe tente de passer outre, en secret, par une fuite d’informations."
+    },
+    "parallele": {
+     "avant": "Rapprochement avec la gouvernementalité algorithmique et les limites des prévisions probabilistes en situations complexes.",
+     "apres": "Rapprochement possible avec les limites des prévisions probabilistes en situations complexes. Le parallèle avec la gouvernementalité algorithmique est une hypothèse de l’atlas : aucune source consultée ne le fait. Les critiques rapprochent plutôt l’épisode de la psychohistoire des romans Fondation d’Isaac Asimov (Zack Handlen, 2013), et Darren Mooney (2017) y voit une lecture possible des populismes anti-élites, qu’il nuance lui-même."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « Statistical Probabilities » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/DS9/533.htm"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Faits : le projet de livrer les plans n’est pas celui de Bashir ; il naît après le rejet de la recommandation (BASHIR : « Starfleet rejected our recommendations » ; JACK : « We've got to take matters into our own hands » ; LAUREN : « They could take the Alpha Quadrant in a matter of weeks » ; « There wouldn't be more than two billion casualties ») ; Bashir refuse : « I'm not going to be a party to treason » ; il persuade Sarina que les autres seront « arrested and charged with treason » (transcription de « Statistical Probabilities ») ; récapitulatif officiel : « After convincing her to free him, Bashir alerts Odo to the impending meeting, and the plan is foiled ». Mécanisme : aucune instance démocratique n’apparaît ; Sisko : « You've made your recommendation. I'll pass it on to Starfleet Command » ; Bashir : « We presented our case to Starfleet Command. They rejected it. Case closed ». Parallèle : aucune source consultée ne rapproche l’épisode de la gouvernementalité algorithmique ; Handlen (The A.V. Club, 2013) : « basically a form of psychohistory » ; Mooney (2017) : « could be read as a defense of those populist movements », puis « it seems churlish to complain about the episode’s subtext in light of events that occurred twenty years after it was broadcast »."
+  }
+ ]
+}

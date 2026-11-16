@@ -409,7 +409,7 @@
    },
    {
     "cle": "insurrection/pouvoir",
-    "total": 58,
+    "total": 57,
     "cellules": [
      {
       "n": 6,
@@ -472,8 +472,8 @@
       "q": 3
      },
      {
-      "n": 3,
-      "pct": 17,
+      "n": 2,
+      "pct": 11,
       "q": 2
      },
      {
@@ -561,7 +561,7 @@
    },
    {
     "cle": "technologie/bioéthique",
-    "total": 32,
+    "total": 33,
     "cellules": [
      {
       "n": 3,
@@ -624,8 +624,8 @@
       "q": 2
      },
      {
-      "n": 5,
-      "pct": 28,
+      "n": 6,
+      "pct": 33,
       "q": 3
      },
      {
@@ -1043,7 +1043,7 @@
    },
    {
     "cle": "insurrection/pouvoir",
-    "total": 54,
+    "total": 53,
     "cellules": [
      {
       "n": 6,
@@ -1076,8 +1076,8 @@
       "q": 4
      },
      {
-      "n": 12,
-      "pct": 16,
+      "n": 11,
+      "pct": 15,
       "q": 2
      }
     ]
@@ -1125,7 +1125,7 @@
    },
    {
     "cle": "technologie/bioéthique",
-    "total": 26,
+    "total": 27,
     "cellules": [
      {
       "n": 3,
@@ -1158,8 +1158,8 @@
       "q": 0
      },
      {
-      "n": 11,
-      "pct": 15,
+      "n": 12,
+      "pct": 16,
       "q": 2
      }
     ]

@@ -59,11 +59,11 @@
    "recoupement": "A — Récapitulatif officiel"
   },
   "volets": {
-   "faits": "Una est poursuivie pour avoir caché son origine illyrienne et des modifications génétiques culturellement constitutives de son groupe. Sa défense établit qu’elle s’est signalée et demande la protection prévue par le Code de Starfleet.",
-   "mecanisme": "L’interdit fédéral contre les Augments, construit à partir d’un traumatisme historique, devient une discrimination indiscriminée. L’audience mobilise la contradiction entre norme générale et droit d’asile individuel.",
+   "faits": "Una est poursuivie pour avoir caché son origine illyrienne et des modifications génétiques culturellement constitutives de son groupe ; l’accusation y ajoute deux chefs de sédition. Sa défense invoque l’asile prévu par le code 8514 de Starfleet : la démission qu’Una avait remise à Pike, et que celui-ci avait refusée (« Ghosts of Illyria »), est présentée comme une demande d’asile, et ce refus comme son octroi. Le tribunal retient cette lecture, lui accorde l’asile et l’acquitte.",
+   "mecanisme": "L’interdit de la modification génétique permanente, justifié par le souvenir des guerres eugéniques, se décline en plusieurs normes : la loi fédérale, le règlement 17 (article 12) de Starfleet, qui écarte du service les personnes génétiquement modifiées, et le code 614 à 617, qui interdit aux officiers toute bio-ingénierie permanente. Il frappe indistinctement les Illyriens, pour qui la modification est une pratique culturelle. L’audience oppose cette norme générale au droit d’asile individuel ; le tribunal maintient la loi, mais refuse de traiter de la même façon Augments, Illyriens et autres personnes à l’ADN modifié.",
    "parallele": "L’épisode permet de confronter régulation des biotechnologies et garanties contre la discrimination, sans supprimer les débats de bioéthique.",
    "objections": "Le jugement n’abroge pas l’interdiction générale de modification génétique. Une victoire individuelle en justice n’est pas la réforme complète d’un système.",
-   "contexte": "Diffusé en 2023, dans un contexte de discussion accrue sur les identités, la protection des minorités et les technologies de modification génétique."
+   "contexte": "Mis en ligne le 22 juin 2023 (saison tournée de février à juillet 2022), dans un contexte de discussion accrue sur les identités et la protection des minorités. À l’écran, la modification génétique est une pratique culturelle illyrienne interdite par la loi fédérale ; aucune source lue ne relie l’épisode à un débat de 2023 sur les biotechnologies."
   },
   "sources": [
    {
@@ -191,7 +191,7 @@
    "recoupement": "A — Éditorial officiel"
   },
   "volets": {
-   "faits": "L’amirale Norah Satie transforme une enquête sur une suspicion de sabotage en procédure accusatoire visant des officiers, notamment Picard, malgré l’absence de preuve d’un complot généralisé.",
+   "faits": "Un exobiologiste klingon en échange à bord, J’Dan, avoue espionner pour les Romulans, et l’explosion qui a endommagé la propulsion se révèle accidentelle avant l’audience publique. L’amirale à la retraite Norah Satie poursuit pourtant la recherche d’un complot : elle met en cause un membre d’équipage d’ascendance romulienne, Simon Tarses, technicien médical du rang (« Crewman First Class »), puis le capitaine Picard. Les audiences cessent quand l’amiral Henry, de la sécurité de Starfleet, quitte la salle, puis y met fin.",
    "mecanisme": "L’état d’exception est construit discursivement : l’accusation devient le propre critère de suspicion, et la sécurité prend la place des garanties procédurales.",
    "parallele": "Rapprochement historique avec le maccarthysme américain ; rapprochement contemporain plus général avec les abus de pouvoirs de contrôle en situation d’alerte.",
    "objections": "La vérification de risques réels de sécurité est parfois nécessaire. Le problème de l’épisode est l’absence de preuves et de proportionnalité, pas le principe même d’une enquête.",
@@ -202,6 +202,11 @@
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://www.startrek.com/news/your-ultimate-star-trek-picard-watch-guide",
     "archive": "https://web.archive.org/web/20260807162732/https://www.startrek.com/news/your-ultimate-star-trek-picard-watch-guide"
+   },
+   {
+    "libelle": "Source — Cinefantastique, vol. 22, n° 2, octobre 1991 (dossier de Mark A. Altman sur la quatrième saison : déclarations de Jeri Taylor et Michael Piller) (V0.28)",
+    "url": "https://archive.org/download/cinefantastique_1970-2002/Cinefantastique%20Vol%2022%20No%202%20%20(Oct%201991)_djvu.txt",
+    "archive": null
    }
   ]
  },
@@ -214,7 +219,7 @@
    "recoupement": "A — Éditorial officiel"
   },
   "volets": {
-   "faits": "Sur la planète des J’naii, Soren vit une identité de genre réprouvée par les normes officielles. Le dispositif social prétend effacer l’écart par une « correction » forcée.",
+   "faits": "Sur la planète des J’naii, société androgyne où l’on enseigne que « gender is primitive », Soren se dit femme, une identité réprouvée. L’écran ne montre aucune loi : dénoncée, Soren comparaît à huis clos devant Noor, qui parle de perversion, de maladie et de guérison, puis subit une thérapie « psychotectic » destinée à éliminer tout élément de genre ; après le traitement, elle se dit guérie et refuse de partir.",
    "mecanisme": "L’assimilation est présentée comme une violence institutionnelle se disant thérapeutique. La force politique de l’épisode provient du renversement du point de vue majoritaire.",
    "parallele": "Le récit fait écho aux discriminations liées à l’orientation sexuelle et à l’identité de genre, aux pratiques dites de conversion et au statut public du consentement.",
    "objections": "Sa métaphore n’est pas un modèle exact de la diversité des expériences LGBTQ+ ; le choix d’un couple visuellement hétérosexuel a aussi été débattu.",
@@ -230,6 +235,11 @@
     "libelle": "Source — Wikipedia — The Outcast (Star Trek: The Next Generation) (V0.13)",
     "url": "https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)",
     "archive": "https://web.archive.org/web/20261007105143/https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)"
+   },
+   {
+    "libelle": "Source — Cinefantastique, vol. 23, n° 2/3, octobre 1992 (article de Mark A. Altman : déclarations de Jeri Taylor, Rick Berman et Michael Piller) (V0.28)",
+    "url": "https://archive.org/download/cinefantastique_1970-2002/Cinefantastique%20Vol%2023%20No%202-3%20(Oct%201992)_djvu.txt",
+    "archive": null
    }
   ]
  },

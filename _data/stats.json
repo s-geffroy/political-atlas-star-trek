@@ -235,7 +235,7 @@
   },
   {
    "cle": "insurrection/pouvoir",
-   "n": 55
+   "n": 54
   },
   {
    "cle": "institutions/fédéralisme",
@@ -243,7 +243,7 @@
   },
   {
    "cle": "technologie/bioéthique",
-   "n": 30
+   "n": 31
   },
   {
    "cle": "économie/social",
@@ -283,7 +283,7 @@
  "versions": [
   {
    "cle": "V0.14 révisé",
-   "n": 183
+   "n": 180
   },
   {
    "cle": "V0.19 révisé",
@@ -320,6 +320,10 @@
   {
    "cle": "V0.4 révisé",
    "n": 4
+  },
+  {
+   "cle": "V0.28 révisé",
+   "n": 3
   },
   {
    "cle": "V0.16 révisé",

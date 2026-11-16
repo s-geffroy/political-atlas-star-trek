@@ -1,0 +1,77 @@
+{
+ "version": "V0.28",
+ "date": "2026-11-16",
+ "date_longue": "16 novembre 2026",
+ "base": "V0_27_2026-11-15",
+ "titre": "Atlas politique de Star Trek — V0.28 : fiches d’Una, de l’enquête Satie et de « The Outcast » alignées sur l’écran",
+ "resume": "Trois fiches sont alignées sur les analyses rédigées du 16 novembre 2026. STP-048 (procès d’Una) distingue les normes en cause (loi fédérale, règlement 17 de Starfleet, code 614 à 617), précise que l’asile du code 8514 est une relecture, par la défense, de la démission refusée par Pike, et ne prête plus à l’épisode un contexte de débat sur les biotechnologies qu’aucune source n’établit. STP-101 (enquête de l’amirale Satie) montre l’espion réel, le sabotage écarté avant l’audience publique, un accusé du rang et la fin des audiences décidée par l’amiral Henry, et ajoute Cinefantastique (octobre 1991) aux sources. STP-107 (« The Outcast ») décrit ce que montre l’écran, une dénonciation, une audience à huis clos et un traitement, sans loi énoncée, et ajoute Cinefantastique (octobre 1992) aux sources.",
+ "methode": {
+  "revue": "analyses rédigées de STP-048, STP-101 et STP-107 ; proposition validée le 2026-11-16 (docs/proposition-v028.md) ; citations contrôlées sur les transcriptions et les numérisations."
+ },
+ "comptes": {
+  "corrections": 3
+ },
+ "corrections": [
+  {
+   "id": "STP-048",
+   "type": "correction",
+   "champs": {
+    "categories_politiques": {
+     "avant": "justice/droits ; insurrection/pouvoir",
+     "apres": "justice/droits ; technologie/bioéthique"
+    }
+   },
+   "volets": {
+    "faits": {
+     "avant": "Una est poursuivie pour avoir caché son origine illyrienne et des modifications génétiques culturellement constitutives de son groupe. Sa défense établit qu’elle s’est signalée et demande la protection prévue par le Code de Starfleet.",
+     "apres": "Una est poursuivie pour avoir caché son origine illyrienne et des modifications génétiques culturellement constitutives de son groupe ; l’accusation y ajoute deux chefs de sédition. Sa défense invoque l’asile prévu par le code 8514 de Starfleet : la démission qu’Una avait remise à Pike, et que celui-ci avait refusée (« Ghosts of Illyria »), est présentée comme une demande d’asile, et ce refus comme son octroi. Le tribunal retient cette lecture, lui accorde l’asile et l’acquitte."
+    },
+    "mecanisme": {
+     "avant": "L’interdit fédéral contre les Augments, construit à partir d’un traumatisme historique, devient une discrimination indiscriminée. L’audience mobilise la contradiction entre norme générale et droit d’asile individuel.",
+     "apres": "L’interdit de la modification génétique permanente, justifié par le souvenir des guerres eugéniques, se décline en plusieurs normes : la loi fédérale, le règlement 17 (article 12) de Starfleet, qui écarte du service les personnes génétiquement modifiées, et le code 614 à 617, qui interdit aux officiers toute bio-ingénierie permanente. Il frappe indistinctement les Illyriens, pour qui la modification est une pratique culturelle. L’audience oppose cette norme générale au droit d’asile individuel ; le tribunal maintient la loi, mais refuse de traiter de la même façon Augments, Illyriens et autres personnes à l’ADN modifié."
+    },
+    "contexte": {
+     "avant": "Diffusé en 2023, dans un contexte de discussion accrue sur les identités, la protection des minorités et les technologies de modification génétique.",
+     "apres": "Mis en ligne le 22 juin 2023 (saison tournée de février à juillet 2022), dans un contexte de discussion accrue sur les identités et la protection des minorités. À l’écran, la modification génétique est une pratique culturelle illyrienne interdite par la loi fédérale ; aucune source lue ne relie l’épisode à un débat de 2023 sur les biotechnologies."
+    }
+   },
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : l’accusation retient aussi « two counts of sedition » ; la défense invoque le « Starfleet Code 8514 » (« She asked for it and Captain Pike granted it »), alors que, dans « Ghosts of Illyria », Una remet sa démission (« I am resigning my commission and surrendering myself for disciplinary review ») et Pike répond « Rejected », sans que le mot asile soit prononcé ; verdict : « we grant the defendant's request for asylum and find Una Chin-Riley not guilty of all charges ». Mécanisme : l’épisode distingue la loi fédérale (« illegal under Federation law »), le règlement de Starfleet (« Regulation 17, Article 12 ») et le code visé par l’accusation (« Starfleet code 614 to 617 ») ; Javas refuse de traiter de la même façon « Augment, Illyrian, or other persons with modified DNA ». Contexte : « technologies de modification génétique » n’avait pas de source ; l’épisode, mis en ligne le 22 juin 2023, a été tourné à partir du 1er février 2022 (TrekMovie, 1er juillet 2022), et la modification y est « an Illyrian cultural practice done to children before they are even born » ; catégories revues : retrait d’insurrection/pouvoir, qui ne reposait que sur « two counts of sedition », jamais débattus à l’audience ; technologie/bioéthique, comme STP-047."
+  },
+  {
+   "id": "STP-101",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "L’amirale Norah Satie transforme une enquête sur une suspicion de sabotage en procédure accusatoire visant des officiers, notamment Picard, malgré l’absence de preuve d’un complot généralisé.",
+     "apres": "Un exobiologiste klingon en échange à bord, J’Dan, avoue espionner pour les Romulans, et l’explosion qui a endommagé la propulsion se révèle accidentelle avant l’audience publique. L’amirale à la retraite Norah Satie poursuit pourtant la recherche d’un complot : elle met en cause un membre d’équipage d’ascendance romulienne, Simon Tarses, technicien médical du rang (« Crewman First Class »), puis le capitaine Picard. Les audiences cessent quand l’amiral Henry, de la sécurité de Starfleet, quitte la salle, puis y met fin."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Cinefantastique, vol. 22, n° 2, octobre 1991 (dossier de Mark A. Altman sur la quatrième saison : déclarations de Jeri Taylor et Michael Piller)",
+     "url": "https://archive.org/download/cinefantastique_1970-2002/Cinefantastique%20Vol%2022%20No%202%20%20(Oct%201991)_djvu.txt"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Tarses est « Crewman First Class, medical technician », non un officier ; le sabotage est écarté avant l’audience publique (« This wasn't sabotage at all. It was nothing more than an accident ») ; un espion réel, J’Dan, avoue (« Romulans are strong. They are worthy allies ») ; Satie est « Retired Admiral » ; l’amiral Henry quitte la salle, puis « has called an end to any more hearings on this matter ». Source ajoutée : Cinefantastique d’octobre 1991, où Jeri Taylor déclare le parallèle maccarthyste (« The idea was taking the McCarthy era and the Salem witch hunts »), que la source de contrôle (StarTrek.com, 2020) ne mentionne pas."
+  },
+  {
+   "id": "STP-107",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Sur la planète des J’naii, Soren vit une identité de genre réprouvée par les normes officielles. Le dispositif social prétend effacer l’écart par une « correction » forcée.",
+     "apres": "Sur la planète des J’naii, société androgyne où l’on enseigne que « gender is primitive », Soren se dit femme, une identité réprouvée. L’écran ne montre aucune loi : dénoncée, Soren comparaît à huis clos devant Noor, qui parle de perversion, de maladie et de guérison, puis subit une thérapie « psychotectic » destinée à éliminer tout élément de genre ; après le traitement, elle se dit guérie et refuse de partir."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Cinefantastique, vol. 23, n° 2/3, octobre 1992 (article de Mark A. Altman : déclarations de Jeri Taylor, Rick Berman et Michael Piller)",
+     "url": "https://archive.org/download/cinefantastique_1970-2002/Cinefantastique%20Vol%2023%20No%202-3%20(Oct%201992)_djvu.txt"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’écran ne montre aucune loi, mais une dénonciation, une audience à huis clos (« these proceedings are closed to everyone ») et un traitement (« psychotectic therapy and having all elements of gender eliminated »), décrits dans le vocabulaire de la maladie (« Soren is sick, and sick people want to get well »). Source ajoutée : Cinefantastique d’octobre 1992, source d’époque de la déclaration de Jeri Taylor que cite la fiche (« ‘The Outcast,’ though, is a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues »)."
+  }
+ ]
+}

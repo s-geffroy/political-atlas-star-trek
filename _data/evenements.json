@@ -36830,8 +36830,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://web.archive.org/web/20230322223853/https://www.startrek.com/database_article/flesh-and-blood-part-i",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « proies holographiques intelligentes », « droit des intelligences artificielles ». V0.5 (2026-11-10) : recoupement A (source officielle) — Le synopsis Paramount+ de « Flesh & Blood » partie 1 (S7E9) indique que des hologrammes guerriers se rebellent contre leurs créateurs hirogens ; la partie 2 évoque le Docteur rejoignant les hologrammes rebelles. Source B précédente : https://startrekarchive.com/episodes/flesh-and-blood. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.15 (2026-11-12) : revérification de novembre 2026 — La page d'épisode officielle de startrek.com (base de données) affiche aujourd'hui « Coming Soon » ; elle est lue dans sa copie archivée (Wayback Machine, 22 mars 2023) : https://web.archive.org/web/20230322223853/https://www.startrek.com/database_article/flesh-and-blood-part-i. La page de la partie I confirme tout le fait central : « the Holograms malfunctioned, took control and deactivated the safety protocols » ; « Donik confesses that he modified the Holograms under his Alpha's orders to make them formidable prey » ; Iden « joined other photonic beings who were being oppressed […] and who had chosen to fight back » ; « a highly intelligent Cardassian hologram ». La partie II n'a pas de copie archivée. Niveau A maintenu, désormais sur une page d'épisode.",
-  "version_entree": "V0.15 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « proies holographiques intelligentes », « droit des intelligences artificielles ». V0.5 (2026-11-10) : recoupement A (source officielle) — Le synopsis Paramount+ de « Flesh & Blood » partie 1 (S7E9) indique que des hologrammes guerriers se rebellent contre leurs créateurs hirogens ; la partie 2 évoque le Docteur rejoignant les hologrammes rebelles. Source B précédente : https://startrekarchive.com/episodes/flesh-and-blood. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.15 (2026-11-12) : revérification de novembre 2026 — La page d'épisode officielle de startrek.com (base de données) affiche aujourd'hui « Coming Soon » ; elle est lue dans sa copie archivée (Wayback Machine, 22 mars 2023) : https://web.archive.org/web/20230322223853/https://www.startrek.com/database_article/flesh-and-blood-part-i. La page de la partie I confirme tout le fait central : « the Holograms malfunctioned, took control and deactivated the safety protocols » ; « Donik confesses that he modified the Holograms under his Alpha's orders to make them formidable prey » ; Iden « joined other photonic beings who were being oppressed […] and who had chosen to fight back » ; « a highly intelligent Cardassian hologram ». La partie II n'a pas de copie archivée. Niveau A maintenu, désormais sur une page d'épisode. V0.31 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : les proies ont été modifiées sur ordre de l’Alpha (« Under orders from my Alpha » ; « there's no satisfaction in hunting something that doesn't suffer when you kill it ») ; le Docteur ne se borne pas à soutenir leur revendication : il livre les fréquences des boucliers (« You have my word »), quitte Voyager, puis détruit Iden (« If you've taught me anything, it's that I'm not one of your own ») ; aucune planète n’est accordée : Ha’Dara est le projet d’Iden (« We call this planet Ha'Dara »), et Janeway laisse Kejal et Donik repartir avec le vaisseau (« I don't suppose I have a right to tell either of you how to live your lives »), sans que l’écran dise où. Parallèle : la servitude est dans le dialogue (« They're denied basic freedoms » ; « They're no one's property ») et chez les critiques (« Is it right for species across the galaxy to create holographic slave labor? », Michelle Erica Green) ; aucun auteur ne la déclare ; Picardo rapporte qu’un scénariste prenait « Castro and what's happened to the Cuban revolution as his model » pour Iden (entretien du 30 octobre 2000).",
+  "version_entree": "V0.31 révisé",
   "categories": [
    "justice/droits",
    "insurrection/pouvoir",
@@ -36920,11 +36920,25 @@
       "texte": ". La page de la partie I confirme tout le fait central : « the Holograms malfunctioned, took control and deactivated the safety protocols » ; « Donik confesses that he modified the Holograms under his Alpha's orders to make them formidable prey » ; Iden « joined other photonic beings who were being oppressed […] and who had chosen to fight back » ; « a highly intelligent Cardassian hologram ». La partie II n'a pas de copie archivée. Niveau A maintenu, désormais sur une page d'épisode."
      }
     ]
+   },
+   {
+    "version": "V0.31",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : les proies ont été modifiées sur ordre de l’Alpha (« Under orders from my Alpha » ; « there's no satisfaction in hunting something that doesn't suffer when you kill it ») ; le Docteur ne se borne pas à soutenir leur revendication : il livre les fréquences des boucliers (« You have my word »), quitte Voyager, puis détruit Iden (« If you've taught me anything, it's that I'm not one of your own ») ; aucune planète n’est accordée : Ha’Dara est le projet d’Iden (« We call this planet Ha'Dara »), et Janeway laisse Kejal et Donik repartir avec le vaisseau (« I don't suppose I have a right to tell either of you how to live your lives »), sans que l’écran dise où. Parallèle : la servitude est dans le dialogue (« They're denied basic freedoms » ; « They're no one's property ») et chez les critiques (« Is it right for species across the galaxy to create holographic slave labor? », Michelle Erica Green) ; aucun auteur ne la déclare ; Picardo rapporte qu’un scénariste prenait « Castro and what's happened to the Cuban revolution as his model » pour Iden (entretien du 30 octobre 2000)."
+     }
+    ]
    }
   ],
   "cycle_slug": "voyager-evenements-omis",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Révolte de proies holographiques intelligentes contre leurs créateurs hirogens.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : les proies ont été modifiées sur ordre de l’Alpha (« Under orders from my Alpha » ; « there's no satisfaction in hunting something that doesn't suffer when you kill it ») ; le Docteur ne se borne pas à soutenir leur revendication : il livre les fréquences des boucliers (« You have my word »), quitte Voyager, puis détruit Iden (« If you've taught me anything, it's that I'm not one of your own ») ; aucune planète n’est accordée : Ha’Dara est le projet d’Iden (« We call this planet Ha'Dara »), et Janeway laisse Kejal et Donik repartir avec le vaisseau (« I don't suppose I have a right to tell either of you how to live your lives »), sans que l’écran dise où. Parallèle : la servitude est dans le dialogue (« They're denied basic freedoms » ; « They're no one's property ») et chez les critiques (« Is it right for species across the galaxy to create holographic slave labor? », Michelle Erica Green) ; aucun auteur ne la déclare ; Picardo rapporte qu’un scénariste prenait « Castro and what's happened to the Cuban revolution as his model » pour Iden (entretien du 30 octobre 2000)."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {
@@ -37548,15 +37562,15 @@
   "id": "STP-286",
   "cycle": "Discovery : événements omis",
   "period": "2257",
-  "event": "Fin du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
+  "event": "Remise en cause du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
   "source": "DIS « The Sound of Thunder »",
   "politics": "Révolution sociale, domination raciale et risque d’extermination.",
   "categories_politiques": "insurrection/pouvoir",
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.5 (2026-11-10) : recoupement A (source officielle) — Le guide officiel décrit, pour « The Sound of Thunder », les abattages imposés aux Kelpiens par les Ba'ul (« Great Balance ») et révèle que ce système était une invention des Ba'ul ; le récapitulatif officiel de « The Sanctuary » rappelle que Discovery a déclenché le vahar'ai de tous les Kelpiens dans cet épisode. Source B précédente : https://startrekarchive.com/episodes/the-sound-of-thunder. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.5 (2026-11-10) : recoupement A (source officielle) — Le guide officiel décrit, pour « The Sound of Thunder », les abattages imposés aux Kelpiens par les Ba'ul (« Great Balance ») et révèle que ce système était une invention des Ba'ul ; le récapitulatif officiel de « The Sanctuary » rappelle que Discovery a déclenché le vahar'ai de tous les Kelpiens dans cet épisode. Source B précédente : https://startrekarchive.com/episodes/the-sound-of-thunder. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.31 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — la rupture est la décision de déclencher le vahar’ai de tous les Kelpiens (« We will not perpetuate the cycle. We will create a new balance » ; Pike : « Discovery will help you amplify the signal ») ; l’extermination (« Rather than let them evolve, the Ba'ul are committing genocide? ») est arrêtée par l’ange rouge, qui « used its advanced technology to save the Kelpiens from genocide », non par Starfleet ; Siranna : « There is a long road ahead. Our minds must truly be free before Kelpien and Ba'ul accept each other » (transcription de « The Sound of Thunder »). La source de contrôle (guide officiel des premiers contacts, StarTrek.com, 5 avril 2024) présente d’abord les Ba’ul comme « predatory species that hunted Kelpiens », ce que l’épisode renverse (« The Ba'ul were originally the prey species ») ; la même page rapporte ensuite la révélation ; niveau de recoupement inchangé ; intitulé : « Fin » devient « Remise en cause », l’écran ne montrant pas la fin du système (SIRANNA : « a long road ahead »).",
+  "version_entree": "V0.31 révisé",
   "categories": [
    "insurrection/pouvoir"
   ],
@@ -37619,11 +37633,25 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.31",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — la rupture est la décision de déclencher le vahar’ai de tous les Kelpiens (« We will not perpetuate the cycle. We will create a new balance » ; Pike : « Discovery will help you amplify the signal ») ; l’extermination (« Rather than let them evolve, the Ba'ul are committing genocide? ») est arrêtée par l’ange rouge, qui « used its advanced technology to save the Kelpiens from genocide », non par Starfleet ; Siranna : « There is a long road ahead. Our minds must truly be free before Kelpien and Ba'ul accept each other » (transcription de « The Sound of Thunder »). La source de contrôle (guide officiel des premiers contacts, StarTrek.com, 5 avril 2024) présente d’abord les Ba’ul comme « predatory species that hunted Kelpiens », ce que l’épisode renverse (« The Ba'ul were originally the prey species ») ; la même page rapporte ensuite la révélation ; niveau de recoupement inchangé ; intitulé : « Fin » devient « Remise en cause », l’écran ne montrant pas la fin du système (SIRANNA : « a long road ahead »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "discovery-evenements-omis",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Remise en cause du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — la rupture est la décision de déclencher le vahar’ai de tous les Kelpiens (« We will not perpetuate the cycle. We will create a new balance » ; Pike : « Discovery will help you amplify the signal ») ; l’extermination (« Rather than let them evolve, the Ba'ul are committing genocide? ») est arrêtée par l’ange rouge, qui « used its advanced technology to save the Kelpiens from genocide », non par Starfleet ; Siranna : « There is a long road ahead. Our minds must truly be free before Kelpien and Ba'ul accept each other » (transcription de « The Sound of Thunder »). La source de contrôle (guide officiel des premiers contacts, StarTrek.com, 5 avril 2024) présente d’abord les Ba’ul comme « predatory species that hunted Kelpiens », ce que l’épisode renverse (« The Ba'ul were originally the prey species ») ; la même page rapporte ensuite la révélation ; niveau de recoupement inchangé ; intitulé : « Fin » devient « Remise en cause », l’écran ne montrant pas la fin du système (SIRANNA : « a long road ahead »)."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {

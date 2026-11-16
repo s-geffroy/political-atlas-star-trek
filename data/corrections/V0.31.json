@@ -1,0 +1,65 @@
+{
+ "version": "V0.31",
+ "date": "2026-11-16",
+ "date_longue": "16 novembre 2026",
+ "base": "V0_30_2026-11-16",
+ "titre": "Atlas politique de Star Trek — V0.31 : fiches de « Flesh and Blood » et de « The Sound of Thunder » alignées sur l’écran",
+ "resume": "Deux fiches sont alignées sur les analyses rédigées du 16 novembre 2026. STP-281 (« Flesh and Blood ») décrit l’issue de la révolte, que la fiche omettait : le Docteur désobéit, livre les fréquences des boucliers et quitte Voyager, puis détruit lui-même Iden ; aucune planète n’est accordée aux hologrammes. Son parallèle avec les systèmes de servitude est rapporté au dialogue et à la critique, non à une intention déclarée. STP-286 (« The Sound of Thunder ») situe la rupture dans la décision de Saru, approuvée par Pike, de déclencher le vahar’ai de tous les Kelpiens, et précise que l’extermination est arrêtée par l’ange rouge, non par Starfleet.",
+ "methode": {
+  "revue": "analyses rédigées de STP-281 et STP-286 ; proposition validée le 2026-11-16 (docs/proposition-v031.md), intitulé de STP-286 : option 3 ; citations contrôlées sur les transcriptions et les numérisations."
+ },
+ "comptes": {
+  "corrections": 2
+ },
+ "corrections": [
+  {
+   "id": "STP-281",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Des hologrammes créés comme proies pour les chasses hirogenes développent une autonomie et se révoltent. Le Docteur soutient leur revendication, avant de devoir s’opposer aux violences du meneur Iden.",
+     "apres": "Des hologrammes créés comme proies pour les chasses hirogènes, que les Hirogens ont eux-mêmes rendus capables d’apprendre et de souffrir, se révoltent sous la conduite d’Iden et cherchent un foyer, la planète Ha’Dara. Le Docteur prend leur parti : il désobéit à Janeway, livre aux hologrammes les fréquences des boucliers de Voyager et quitte le vaisseau. Devant les violences d’Iden, qui tue les deux occupants d’un vaisseau minier puis veut chasser les Hirogens désarmés, il se retourne contre lui et le détruit lui-même. Aucune planète n’est accordée aux hologrammes : Janeway laisse Kejal, seule hologramme encore active, et le technicien hirogen Donik repartir avec leur vaisseau, vers une destination que l’écran ne dit pas."
+    },
+    "parallele": {
+     "avant": "Parallèle philosophique avec les débats sur la sentience artificielle, et historique avec les luttes contre des systèmes de servitude.",
+     "apres": "Parallèle philosophique avec les débats sur la sentience artificielle, et historique avec les luttes contre des systèmes de servitude. Ce second parallèle s’appuie sur le vocabulaire du dialogue (« enslave », « property ») et sur la critique, non sur une intention déclarée : la seule référence historique de l’équipe rapportée de première main, par Robert Picardo, est Castro et la révolution cubaine, modèle du meneur Iden et non de la révolte."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « Flesh and Blood » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/Voyager/706.htm"
+    },
+    {
+     "libelle": "Source — Michelle Erica Green, « Turning the Doctor On: Robert Picardo Enjoys the Home Stretch », entretien, 30 octobre 2000",
+     "url": "http://www.littlereview.com/getcritical/trektalk/picardo4.htm"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : les proies ont été modifiées sur ordre de l’Alpha (« Under orders from my Alpha » ; « there's no satisfaction in hunting something that doesn't suffer when you kill it ») ; le Docteur ne se borne pas à soutenir leur revendication : il livre les fréquences des boucliers (« You have my word »), quitte Voyager, puis détruit Iden (« If you've taught me anything, it's that I'm not one of your own ») ; aucune planète n’est accordée : Ha’Dara est le projet d’Iden (« We call this planet Ha'Dara »), et Janeway laisse Kejal et Donik repartir avec le vaisseau (« I don't suppose I have a right to tell either of you how to live your lives »), sans que l’écran dise où. Parallèle : la servitude est dans le dialogue (« They're denied basic freedoms » ; « They're no one's property ») et chez les critiques (« Is it right for species across the galaxy to create holographic slave labor? », Michelle Erica Green) ; aucun auteur ne la déclare ; Picardo rapporte qu’un scénariste prenait « Castro and what's happened to the Cuban revolution as his model » pour Iden (entretien du 30 octobre 2000)."
+  },
+  {
+   "id": "STP-286",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Fin du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
+     "apres": "Remise en cause du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar"
+    }
+   },
+   "volets": {
+    "faits": {
+     "avant": "Sur Kaminar, le gouvernement ba’ul contrôle les Kelpiens en leur présentant le vahar’ai comme une mort inéluctable. La découverte d’un passé où les rôles étaient inversés provoque une rupture, puis une tentative d’extermination.",
+     "apres": "Sur Kaminar, le gouvernement ba’ul contrôle les Kelpiens en leur présentant le vahar’ai comme une mort inéluctable. La découverte d’un passé où les rôles étaient inversés conduit Saru, avec l’accord de Pike, à déclencher le vahar’ai de tous les Kelpiens à la fois, avec l’aide du Discovery ; c’est cette décision qui fait rupture. Les Ba’ul y répondent par une tentative d’extermination, que l’ange rouge arrête en désactivant les pylônes, et non Starfleet. Siranna annonce aux villageois qu’ils n’ont plus à avoir peur, mais aussi un long chemin avant que Kelpiens et Ba’ul s’acceptent (« a long road ahead »)."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « The Sound of Thunder » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/STDisco17/206.html"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — la rupture est la décision de déclencher le vahar’ai de tous les Kelpiens (« We will not perpetuate the cycle. We will create a new balance » ; Pike : « Discovery will help you amplify the signal ») ; l’extermination (« Rather than let them evolve, the Ba'ul are committing genocide? ») est arrêtée par l’ange rouge, qui « used its advanced technology to save the Kelpiens from genocide », non par Starfleet ; Siranna : « There is a long road ahead. Our minds must truly be free before Kelpien and Ba'ul accept each other » (transcription de « The Sound of Thunder »). La source de contrôle (guide officiel des premiers contacts, StarTrek.com, 5 avril 2024) présente d’abord les Ba’ul comme « predatory species that hunted Kelpiens », ce que l’épisode renverse (« The Ba'ul were originally the prey species ») ; la même page rapporte ensuite la révélation ; niveau de recoupement inchangé ; intitulé : « Fin » devient « Remise en cause », l’écran ne montrant pas la fin du système (SIRANNA : « a long road ahead »)."
+  }
+ ]
+}

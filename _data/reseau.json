@@ -7421,19 +7421,19 @@
      "id_y": 28,
      "lignes": [
       {
-       "t": "Fin du système de sélection et de",
+       "t": "Remise en cause du système de",
        "y": 44
       },
       {
-       "t": "mise à mort des Kelpiens par les",
+       "t": "sélection et de mise à mort des",
        "y": 59
       },
       {
-       "t": "Ba’ul sur Kaminar",
+       "t": "Kelpiens par les Ba’ul sur Kaminar",
        "y": 74
       }
      ],
-     "titre_complet": "Fin du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
+     "titre_complet": "Remise en cause du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
      "niv": "A",
      "cycle": "Discovery : événements omis"
     }
@@ -9001,7 +9001,7 @@
     "y": 332,
     "r": 6.2,
     "d": 1,
-    "titre": "Fin du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
+    "titre": "Remise en cause du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
     "serie": "DIS",
     "periode": "2257"
    },

@@ -737,9 +737,9 @@
    "recoupement": "A — Récapitulatif officiel"
   },
   "volets": {
-   "faits": "Des hologrammes créés comme proies pour les chasses hirogenes développent une autonomie et se révoltent. Le Docteur soutient leur revendication, avant de devoir s’opposer aux violences du meneur Iden.",
+   "faits": "Des hologrammes créés comme proies pour les chasses hirogènes, que les Hirogens ont eux-mêmes rendus capables d’apprendre et de souffrir, se révoltent sous la conduite d’Iden et cherchent un foyer, la planète Ha’Dara. Le Docteur prend leur parti : il désobéit à Janeway, livre aux hologrammes les fréquences des boucliers de Voyager et quitte le vaisseau. Devant les violences d’Iden, qui tue les deux occupants d’un vaisseau minier puis veut chasser les Hirogens désarmés, il se retourne contre lui et le détruit lui-même. Aucune planète n’est accordée aux hologrammes : Janeway laisse Kejal, seule hologramme encore active, et le technicien hirogen Donik repartir avec leur vaisseau, vers une destination que l’écran ne dit pas.",
    "mecanisme": "L’émancipation d’un groupe construit pour souffrir pose la question du statut de victime et de la légitimité des moyens de libération.",
-   "parallele": "Parallèle philosophique avec les débats sur la sentience artificielle, et historique avec les luttes contre des systèmes de servitude.",
+   "parallele": "Parallèle philosophique avec les débats sur la sentience artificielle, et historique avec les luttes contre des systèmes de servitude. Ce second parallèle s’appuie sur le vocabulaire du dialogue (« enslave », « property ») et sur la critique, non sur une intention déclarée : la seule référence historique de l’équipe rapportée de première main, par Robert Picardo, est Castro et la révolution cubaine, modèle du meneur Iden et non de la révolte.",
    "objections": "Les hologrammes de l’épisode sont explicitement dotés de propriétés fictives ; leur traitement ne constitue pas une preuve concernant les IA réelles.",
    "contexte": "Diffusion 2000."
   },
@@ -757,6 +757,16 @@
    {
     "libelle": "Source secondaire/éditoriale de contrôle (V0.15)",
     "url": "https://web.archive.org/web/20230322223853/https://www.startrek.com/database_article/flesh-and-blood-part-i",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Transcription de « Flesh and Blood » (chakoteya.net) (V0.31)",
+    "url": "http://www.chakoteya.net/Voyager/706.htm",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Michelle Erica Green, « Turning the Doctor On: Robert Picardo Enjoys the Home Stretch », entretien, 30 octobre 2000 (V0.31)",
+    "url": "http://www.littlereview.com/getcritical/trektalk/picardo4.htm",
     "archive": null
    }
   ]
@@ -796,14 +806,14 @@
  },
  "STP-286": {
   "id": "STP-286",
-  "titre": "Fin du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
+  "titre": "Remise en cause du système de sélection et de mise à mort des Kelpiens par les Ba’ul sur Kaminar",
   "entetes": {
    "periode": "2257",
    "source_audiovisuelle": "DIS « The Sound of Thunder »",
    "recoupement": "A — Éditorial officiel"
   },
   "volets": {
-   "faits": "Sur Kaminar, le gouvernement ba’ul contrôle les Kelpiens en leur présentant le vahar’ai comme une mort inéluctable. La découverte d’un passé où les rôles étaient inversés provoque une rupture, puis une tentative d’extermination.",
+   "faits": "Sur Kaminar, le gouvernement ba’ul contrôle les Kelpiens en leur présentant le vahar’ai comme une mort inéluctable. La découverte d’un passé où les rôles étaient inversés conduit Saru, avec l’accord de Pike, à déclencher le vahar’ai de tous les Kelpiens à la fois, avec l’aide du Discovery ; c’est cette décision qui fait rupture. Les Ba’ul y répondent par une tentative d’extermination, que l’ange rouge arrête en désactivant les pylônes, et non Starfleet. Siranna annonce aux villageois qu’ils n’ont plus à avoir peur, mais aussi un long chemin avant que Kelpiens et Ba’ul s’acceptent (« a long road ahead »).",
    "mecanisme": "Le système de domination repose sur une mémoire historique traumatique devenue justification permanente de la répression.",
    "parallele": "Permet de discuter cycles de violence, gouvernance par la peur et transition après système de domination.",
    "objections": "L’histoire d’une inversion ancienne du rapport prédateur/proie interdit une lecture manichéenne pure ; elle ne justifie pas davantage les mises à mort institutionnelles.",
@@ -819,6 +829,11 @@
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
     "url": "https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide",
     "archive": "https://web.archive.org/web/20250720193150/https://www.startrek.com/en-un/news/star-trek-discovery-first-contacts-guide"
+   },
+   {
+    "libelle": "Source — Transcription de « The Sound of Thunder » (chakoteya.net) (V0.31)",
+    "url": "http://www.chakoteya.net/STDisco17/206.html",
+    "archive": null
    }
   ]
  },

@@ -1,0 +1,84 @@
+{
+ "version": "V0.30",
+ "date": "2026-11-16",
+ "date_longue": "16 novembre 2026",
+ "base": "V0_29_2026-11-16",
+ "titre": "Atlas politique de Star Trek — V0.30 : fiches de « Sanctuary », « Author, Author », « What You Leave Behind » et « The Void » alignées sur l’écran",
+ "resume": "Quatre fiches sont alignées sur les analyses rédigées du 16 novembre 2026. STP-271 (« Sanctuary ») montre des Skrreeans qui fuient une servitude, un refus décidé par les ministres en accord avec l’Assemblée des vedeks et approuvé par Kira, une planète de remplacement trouvée par Sisko et Dax, et ne relie plus l’épisode aux guerres de l’ex-Yougoslavie, faute de source. STP-172 (« Author, Author ») attribue la décision à un arbitre de la Fédération et ne parle plus de citoyenneté, mot absent de l’écran. STP-157 (« What You Leave Behind ») rétablit la chronologie de la répression : Lakarian City rasée en représailles d’un sabotage civil, puis ordre d’extermination après le ralliement cardassien. STP-282 (« The Void ») décrit une alliance temporaire, fondée sur l’interdiction de tuer et de voler et sur la mise en commun des ressources, sans redistribution, et dont l’unique sanction, l’exclusion, est décidée par Janeway.",
+ "methode": {
+  "revue": "analyses rédigées de STP-271, STP-172, STP-157 et STP-282 ; proposition validée le 2026-11-16 (docs/proposition-v030.md) ; citations contrôlées sur les transcriptions et les numérisations."
+ },
+ "comptes": {
+  "corrections": 4
+ },
+ "corrections": [
+  {
+   "id": "STP-271",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Les Skrreeans, chassés de leur monde et guidés par une croyance en un nouveau foyer, veulent s’établir sur Bajor. Le gouvernement provisoire refuse, invoquant sa propre reconstruction et les ressources disponibles.",
+     "apres": "Les Skrreeans, qui ont fui huit siècles de servitude et que guide une croyance en un nouveau foyer, veulent s’établir sur Bajor. Les ministres du gouvernement provisoire, en accord avec l’Assemblée des vedeks, refusent, invoquant la reconstruction de Bajor et les ressources disponibles ; Kira, officier bajoran de la station, approuve ce refus."
+    },
+    "objections": {
+     "avant": "L’épisode ne démontre pas une violation automatique d’une convention réelle ; Bajor offre une autre planète, mais la relation aux Skrreeans est marquée par la violence et le refus.",
+     "apres": "L’épisode ne démontre pas une violation automatique d’une convention réelle ; une autre planète, Draylon II, est trouvée par Sisko et Dax, non offerte par Bajor, mais la relation aux Skrreeans est marquée par la violence et le refus."
+    },
+    "contexte": {
+     "avant": "Diffusion 1993, dans le contexte de flux de déplacés liés aux guerres de l’ex-Yougoslavie.",
+     "apres": "Diffusion fin novembre 1993 ; aucune source lue ne relie l’épisode à une crise de réfugiés précise, ni aux guerres de l’ex-Yougoslavie."
+    }
+   },
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : les Skrreeans ne sont pas chassés de leur monde, ils fuient une servitude (« For eight centuries my people have lived under their rule […] We were able to escape when the T-Rogorans were invaded and conquered ») ; le refus est celui des ministres « in accord with the Vedek Assembly » ; Kira l’approuve (« I’m sorry, Haneek, but they’re right » ; « I honestly believe the provisional government made the right decision, for both Bajor and the Skrreeans »). Objections : Draylon II est trouvée par Sisko et Dax (« Stable orbit, temperate climate, and very low surface radiation »), non offerte par Bajor. Contexte : aucune source lue (propos de production rapportés, critiques de 1997 à 2013) ne relie l’épisode aux guerres de l’ex-Yougoslavie ; les sources datent la diffusion du 28 ou du 29 novembre 1993."
+  },
+  {
+   "id": "STP-172",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Le Docteur poursuit son éditeur pour reprendre le contrôle d’un holoroman diffusé sans son accord. L’arbitre lui reconnaît un droit d’auteur sans décider qu’il est pleinement une personne.",
+     "apres": "Le Docteur poursuit son éditeur pour reprendre le contrôle d’un holoroman diffusé sans son accord. Un arbitre de la Fédération lui reconnaît un droit d’auteur sans décider qu’il est pleinement une personne."
+    },
+    "mecanisme": {
+     "avant": "Le droit de propriété intellectuelle constitue un premier seuil de reconnaissance fonctionnelle, mais ne résout pas le problème de la citoyenneté.",
+     "apres": "Le droit de propriété intellectuelle constitue un premier seuil de reconnaissance fonctionnelle, mais ne tranche pas la question de la personne : l’arbitre refuse de juger que le Docteur est une personne au regard de la loi et renvoie la question des droits des hologrammes à plus tard."
+    }
+   },
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’arbitre est « A Federation arbitrator », non Starfleet (la note d’audit V0.5 reprenait la page officielle : « Starfleet isn’t prepared to go that far ») ; le mot « citizen » n’est pas prononcé : l’arbitre déclare « at this time, I am not prepared to rule that the Doctor is a person under the law », puis « I am willing to extend the legal definition of artist to include the Doctor », et ajoute « Eventually we will have to decide, because the issue of holographic rights isn’t going to go away »."
+  },
+  {
+   "id": "STP-157",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Lorsque les forces cardassiennes se retournent contre le Dominion, la dirigeante des Fondateurs ordonne une répression de masse contre les civils de Cardassia. La résistance et la coalition remportent finalement le conflit.",
+     "apres": "Après un sabotage mené par des civils, le Dominion rase en représailles Lakarian City (deux millions de morts). Lorsque les forces cardassiennes se retournent contre lui, la dirigeante des Fondateurs ordonne l’extermination de toute la population de Cardassia ; le bilan, encore provisoire, atteint huit cents millions de morts. La résistance et la coalition remportent finalement le conflit."
+    },
+    "mecanisme": {
+     "avant": "La domination d’un allié devient exterminatrice à partir du moment où ce dernier reprend sa souveraineté. Le coût civil révèle la logique punitive de l’empire.",
+     "apres": "La domination d’un allié devient exterminatrice dès que ce dernier se soulève : interrogatoires et civils placés autour des installations militaires, puis destruction d’une ville et menace d’en raser une autre à chaque sabotage, enfin ordre d’extermination. Le coût civil révèle la logique punitive de l’empire."
+    }
+   },
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — chronologie : la première tuerie punit un sabotage commis par des civils (« They’re ordinary citizens » ; « then it’s the people who should be punished ») et précède le ralliement des forces cardassiennes (« Dominion troops reduced Lakarian City to ashes. There were no survivors. Two million men, women and children gone in a matter of moments. For each act of sabotage committed against the Dominion, another Cardassian city will be destroyed ») ; l’ordre d’extermination vient après (« I want the Cardassians exterminated. » — « Which ones? » — « All of them. The entire population ») ; bilan : « Eight hundred million dead » — « And casualty reports still coming in ». Mécanisme : l’escalade commence avant le dernier épisode (« Tacking Into the Wind » : « begin interrogating Cardassian teachers, scientists, local officials » ; « putting Cardassian civilians in and around Dominion military installations ») et répond à un soulèvement (« I call on Cardassians everywhere to rise up »)."
+  },
+  {
+   "id": "STP-282",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Bloquée dans le Void, Voyager refuse une économie de survie par pillage et agrège des navires acceptant des règles communes de non-agression et de redistribution.",
+     "apres": "Bloquée dans le Void, Voyager refuse une économie de survie par pillage et agrège des navires dans une alliance temporaire : ses membres s’engagent à ne pas tuer, à ne pas voler, à ne pas abandonner et à ne lancer aucune attaque non provoquée, et mettent leurs ressources en commun pour s’échapper. L’alliance se dissout une fois la sortie acquise."
+    },
+    "mecanisme": {
+     "avant": "La Fédération se présente comme une technologie institutionnelle reproductible sans territoire ni centre coercitif : la coopération produit une capacité de sortie de crise.",
+     "apres": "La Fédération se présente comme une technologie institutionnelle reproductible sans territoire ni force commune : la coopération produit une capacité de sortie de crise. L’alliance connaît pourtant une sanction : Janeway exclut seule un membre qui a tué pour se procurer une pièce nécessaire à la sortie, contre l’avis d’un allié qui voulait l’utiliser."
+    }
+   },
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’écran ne parle pas de redistribution : les règles sont « No killing, no stealing, and no giving up » et « Everyone in the Alliance must agree not to launch unprovoked attacks », et le projet est de « pool our resources and escape » ; l’alliance est « temporary » dès son annonce et se sépare à la sortie du Void. Mécanisme : l’alliance n’a pas de force commune, mais Janeway exclut seule Bosaal, qui a tué pour obtenir le modulateur, alors que Garon voulait l’utiliser (« it’s a violation of everything this Alliance stands for » ; « using it would make us accessories to murder. Take it and get out »)."
+  }
+ ]
+}

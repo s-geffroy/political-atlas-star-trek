@@ -21100,8 +21100,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/star-treks-most-breathtaking-and-consequential-battles",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — colonialisme/occupation ajoutée : « perte de légitimité de l'occupant ». V0.5 (2026-11-10) : recoupement A (source officielle) — L'article (bataille de Cardassia) indique que les Cardassiens se retournent contre leurs maîtres et que le Dominion entreprend alors d'éliminer la population locale. Source B précédente : https://startrekarchive.com/episodes/what-you-leave-behind. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — colonialisme/occupation ajoutée : « perte de légitimité de l'occupant ». V0.5 (2026-11-10) : recoupement A (source officielle) — L'article (bataille de Cardassia) indique que les Cardassiens se retournent contre leurs maîtres et que le Dominion entreprend alors d'éliminer la population locale. Source B précédente : https://startrekarchive.com/episodes/what-you-leave-behind. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.30 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — chronologie : la première tuerie punit un sabotage commis par des civils (« They’re ordinary citizens » ; « then it’s the people who should be punished ») et précède le ralliement des forces cardassiennes (« Dominion troops reduced Lakarian City to ashes. There were no survivors. Two million men, women and children gone in a matter of moments. For each act of sabotage committed against the Dominion, another Cardassian city will be destroyed ») ; l’ordre d’extermination vient après (« I want the Cardassians exterminated. » — « Which ones? » — « All of them. The entire population ») ; bilan : « Eight hundred million dead » — « And casualty reports still coming in ». Mécanisme : l’escalade commence avant le dernier épisode (« Tacking Into the Wind » : « begin interrogating Cardassian teachers, scientists, local officials » ; « putting Cardassian civilians in and around Dominion military installations ») et répond à un soulèvement (« I call on Cardassians everywhere to rise up »).",
+  "version_entree": "V0.30 révisé",
   "categories": [
    "guerre/bataille",
    "justice/droits",
@@ -21157,11 +21157,25 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.30",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — chronologie : la première tuerie punit un sabotage commis par des civils (« They’re ordinary citizens » ; « then it’s the people who should be punished ») et précède le ralliement des forces cardassiennes (« Dominion troops reduced Lakarian City to ashes. There were no survivors. Two million men, women and children gone in a matter of moments. For each act of sabotage committed against the Dominion, another Cardassian city will be destroyed ») ; l’ordre d’extermination vient après (« I want the Cardassians exterminated. » — « Which ones? » — « All of them. The entire population ») ; bilan : « Eight hundred million dead » — « And casualty reports still coming in ». Mécanisme : l’escalade commence avant le dernier épisode (« Tacking Into the Wind » : « begin interrogating Cardassian teachers, scientists, local officials » ; « putting Cardassian civilians in and around Dominion military installations ») et répond à un soulèvement (« I call on Cardassians everywhere to rise up »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "deep-space-nine-occupations-democratie-guerre",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Répression de masse de Cardassia par le Dominion et soulèvement populaire.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — chronologie : la première tuerie punit un sabotage commis par des civils (« They’re ordinary citizens » ; « then it’s the people who should be punished ») et précède le ralliement des forces cardassiennes (« Dominion troops reduced Lakarian City to ashes. There were no survivors. Two million men, women and children gone in a matter of moments. For each act of sabotage committed against the Dominion, another Cardassian city will be destroyed ») ; l’ordre d’extermination vient après (« I want the Cardassians exterminated. » — « Which ones? » — « All of them. The entire population ») ; bilan : « Eight hundred million dead » — « And casualty reports still coming in ». Mécanisme : l’escalade commence avant le dernier épisode (« Tacking Into the Wind » : « begin interrogating Cardassian teachers, scientists, local officials » ; « putting Cardassian civilians in and around Dominion military installations ») et répond à un soulèvement (« I call on Cardassians everywhere to rise up »)."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -23198,8 +23212,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/en-un/news/author-author-can-teach-us-a-lot-about-ai-and-copyright",
-  "note_audit": "CORRECTION : « Author, Author » ne confère pas une citoyenneté complète aux hologrammes. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « Statut des IA ». V0.5 (2026-11-10) : recoupement A (source officielle) — La page officielle indique que Starfleet refuse de déclarer le Docteur « personne », mais que l'arbitre étend la définition légale d'« artiste » pour l'inclure et ordonne le rappel de toutes les copies de l'holoroman (« Author, Author »). Source B précédente : https://startrekarchive.com/events/holographic-rights-ruling. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "CORRECTION : « Author, Author » ne confère pas une citoyenneté complète aux hologrammes. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « Statut des IA ». V0.5 (2026-11-10) : recoupement A (source officielle) — La page officielle indique que Starfleet refuse de déclarer le Docteur « personne », mais que l'arbitre étend la définition légale d'« artiste » pour l'inclure et ordonne le rappel de toutes les copies de l'holoroman (« Author, Author »). Source B précédente : https://startrekarchive.com/events/holographic-rights-ruling. V0.14 (2026-11-12) : harmonisation typographique (guillemets, majuscule accentuée). V0.30 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’arbitre est « A Federation arbitrator », non Starfleet (la note d’audit V0.5 reprenait la page officielle : « Starfleet isn’t prepared to go that far ») ; le mot « citizen » n’est pas prononcé : l’arbitre déclare « at this time, I am not prepared to rule that the Doctor is a person under the law », puis « I am willing to extend the legal definition of artist to include the Doctor », et ajoute « Eventually we will have to decide, because the issue of holographic rights isn’t going to go away ».",
+  "version_entree": "V0.30 révisé",
   "categories": [
    "justice/droits",
    "économie/social",
@@ -23264,6 +23278,15 @@
       "texte": "harmonisation typographique (guillemets, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.30",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’arbitre est « A Federation arbitrator », non Starfleet (la note d’audit V0.5 reprenait la page officielle : « Starfleet isn’t prepared to go that far ») ; le mot « citizen » n’est pas prononcé : l’arbitre déclare « at this time, I am not prepared to rule that the Doctor is a person under the law », puis « I am willing to extend the legal definition of artist to include the Doctor », et ajoute « Eventually we will have to decide, because the issue of holographic rights isn’t going to go away »."
+     }
+    ]
    }
   ],
   "cycle_slug": "voyager-delta-quadrant-gouvernance-et-droits",
@@ -23272,6 +23295,10 @@
    {
     "libelle": "Arbitrage reconnaissant au Docteur la maîtrise de son œuvre sans statuer sur sa pleine personnalité.",
     "motif": "CORRECTION : « Author, Author » ne confère pas une citoyenneté complète aux hologrammes."
+   },
+   {
+    "libelle": "Arbitrage reconnaissant au Docteur la maîtrise de son œuvre sans statuer sur sa pleine personnalité.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’arbitre est « A Federation arbitrator », non Starfleet (la note d’audit V0.5 reprenait la page officielle : « Starfleet isn’t prepared to go that far ») ; le mot « citizen » n’est pas prononcé : l’arbitre déclare « at this time, I am not prepared to rule that the Doctor is a person under the law », puis « I am willing to extend the legal definition of artist to include the Doctor », et ajoute « Eventually we will have to decide, because the issue of holographic rights isn’t going to go away »."
    }
   ],
   "note_editoriale": "CORRECTION : « Author, Author » ne confère pas une citoyenneté complète aux hologrammes.",
@@ -35462,8 +35489,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://web.archive.org/web/20160314105237/http://www.startrek.com/database_article/sanctuary",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (article de l’épisode) : les Skrreeans rencontrent des représentants du gouvernement bajoran « who refuse to allow them to relocate there ». Fait central concordant. Période : Memory Alpha (lu via pplx fetch-url --facts, extraction et non citation littérale ; WebFetch direct refusé, HTTP 402) indique une entrée de journal datée « Deep Space 9, 2370 » et que les Skrreeans partent pour Draylon II ; l’historien a raison, 2369 → 2370. Pas de confirmation officielle : la recherche startrek.com ne renvoie qu’une interview (Deborah May) qui ne mentionne pas le refus. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.19 (2026-11-13) : revérification de novembre 2026 — page d'épisode officielle de l'ancienne base de données de startrek.com lue dans sa copie archivée : https://web.archive.org/web/20160314105237/http://www.startrek.com/database_article/sanctuary. Elle confirme le fait central : « Rozahn tells Haneek that the Skrreeans' request for immigration has been turned down. » Niveau B porté à A.",
-  "version_entree": "V0.19 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (article de l’épisode) : les Skrreeans rencontrent des représentants du gouvernement bajoran « who refuse to allow them to relocate there ». Fait central concordant. Période : Memory Alpha (lu via pplx fetch-url --facts, extraction et non citation littérale ; WebFetch direct refusé, HTTP 402) indique une entrée de journal datée « Deep Space 9, 2370 » et que les Skrreeans partent pour Draylon II ; l’historien a raison, 2369 → 2370. Pas de confirmation officielle : la recherche startrek.com ne renvoie qu’une interview (Deborah May) qui ne mentionne pas le refus. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.19 (2026-11-13) : revérification de novembre 2026 — page d'épisode officielle de l'ancienne base de données de startrek.com lue dans sa copie archivée : https://web.archive.org/web/20160314105237/http://www.startrek.com/database_article/sanctuary. Elle confirme le fait central : « Rozahn tells Haneek that the Skrreeans' request for immigration has been turned down. » Niveau B porté à A. V0.30 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : les Skrreeans ne sont pas chassés de leur monde, ils fuient une servitude (« For eight centuries my people have lived under their rule […] We were able to escape when the T-Rogorans were invaded and conquered ») ; le refus est celui des ministres « in accord with the Vedek Assembly » ; Kira l’approuve (« I’m sorry, Haneek, but they’re right » ; « I honestly believe the provisional government made the right decision, for both Bajor and the Skrreeans »). Objections : Draylon II est trouvée par Sisko et Dax (« Stable orbit, temperate climate, and very low surface radiation »), non offerte par Bajor. Contexte : aucune source lue (propos de production rapportés, critiques de 1997 à 2013) ne relie l’épisode aux guerres de l’ex-Yougoslavie ; les sources datent la diffusion du 28 ou du 29 novembre 1993.",
+  "version_entree": "V0.30 révisé",
   "categories": [
    "justice/droits",
    "économie/social"
@@ -35536,6 +35563,15 @@
       "texte": ". Elle confirme le fait central : « Rozahn tells Haneek that the Skrreeans' request for immigration has been turned down. » Niveau B porté à A."
      }
     ]
+   },
+   {
+    "version": "V0.30",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : les Skrreeans ne sont pas chassés de leur monde, ils fuient une servitude (« For eight centuries my people have lived under their rule […] We were able to escape when the T-Rogorans were invaded and conquered ») ; le refus est celui des ministres « in accord with the Vedek Assembly » ; Kira l’approuve (« I’m sorry, Haneek, but they’re right » ; « I honestly believe the provisional government made the right decision, for both Bajor and the Skrreeans »). Objections : Draylon II est trouvée par Sisko et Dax (« Stable orbit, temperate climate, and very low surface radiation »), non offerte par Bajor. Contexte : aucune source lue (propos de production rapportés, critiques de 1997 à 2013) ne relie l’épisode aux guerres de l’ex-Yougoslavie ; les sources datent la diffusion du 28 ou du 29 novembre 1993."
+     }
+    ]
    }
   ],
   "cycle_slug": "la-politique-des-refugies",
@@ -35544,6 +35580,10 @@
    {
     "libelle": "Rejet par Bajor de l’installation des réfugiés skrreeans sur sa planète.",
     "motif": "revérification de novembre 2026 — Wikipedia (article de l’épisode) : les Skrreeans rencontrent des représentants du gouvernement bajoran « who refuse to allow them to relocate there ». Fait central concordant. Période : Memory Alpha (lu via pplx fetch-url --facts, extraction et non citation littérale ; WebFetch direct refusé, HTTP 402) indique une entrée de journal datée « Deep Space 9, 2370 » et que les Skrreeans partent pour Draylon II ; l’historien a raison, 2369 → 2370. Pas de confirmation officielle : la recherche startrek.com ne renvoie qu’une interview (Deborah May) qui ne mentionne pas le refus."
+   },
+   {
+    "libelle": "Rejet par Bajor de l’installation des réfugiés skrreeans sur sa planète.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : les Skrreeans ne sont pas chassés de leur monde, ils fuient une servitude (« For eight centuries my people have lived under their rule […] We were able to escape when the T-Rogorans were invaded and conquered ») ; le refus est celui des ministres « in accord with the Vedek Assembly » ; Kira l’approuve (« I’m sorry, Haneek, but they’re right » ; « I honestly believe the provisional government made the right decision, for both Bajor and the Skrreeans »). Objections : Draylon II est trouvée par Sisko et Dax (« Stable orbit, temperate climate, and very low surface radiation »), non offerte par Bajor. Contexte : aucune source lue (propos de production rapportés, critiques de 1997 à 2013) ne relie l’épisode aux guerres de l’ex-Yougoslavie ; les sources datent la diffusion du 28 ou du 29 novembre 1993."
    }
   ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
@@ -36948,8 +36988,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://web.archive.org/web/20100717064508/http://www.startrek.com:80/database_article/void",
-  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « institutions endogènes ». V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (article de l’épisode) : Voyager est piégé dans une zone où d’autres vaisseaux lui prennent ses ressources (« transports away its deuterium stock and other supplies ») ; Janeway « offers the idea of creating an alliance with the other ships to pool their resources ». Fait central concordant. Période 2377 non recoupée sur cette page (inchangée). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.19 (2026-11-13) : revérification de novembre 2026 — page d'épisode officielle de l'ancienne base de données de startrek.com lue dans sa copie archivée : https://web.archive.org/web/20100717064508/http://www.startrek.com:80/database_article/void. Elle confirme le fait central : « In order to survive, the trapped ships compete for resources from new ships that are drawn in. » ; « Using the Federation model of mutual cooperation, Janeway proposes forming an alliance with other ships to pool resources and devise a way to escape, on the condition that members of the alliance not resort to killing or stealing. » Niveau B porté à A.",
-  "version_entree": "V0.19 révisé",
+  "note_audit": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité. V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — institutions/fédéralisme ajoutée : « institutions endogènes ». V0.12 (2026-11-12) : revérification de novembre 2026 — Wikipedia (article de l’épisode) : Voyager est piégé dans une zone où d’autres vaisseaux lui prennent ses ressources (« transports away its deuterium stock and other supplies ») ; Janeway « offers the idea of creating an alliance with the other ships to pool their resources ». Fait central concordant. Période 2377 non recoupée sur cette page (inchangée). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.19 (2026-11-13) : revérification de novembre 2026 — page d'épisode officielle de l'ancienne base de données de startrek.com lue dans sa copie archivée : https://web.archive.org/web/20100717064508/http://www.startrek.com:80/database_article/void. Elle confirme le fait central : « In order to survive, the trapped ships compete for resources from new ships that are drawn in. » ; « Using the Federation model of mutual cooperation, Janeway proposes forming an alliance with other ships to pool resources and devise a way to escape, on the condition that members of the alliance not resort to killing or stealing. » Niveau B porté à A. V0.30 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’écran ne parle pas de redistribution : les règles sont « No killing, no stealing, and no giving up » et « Everyone in the Alliance must agree not to launch unprovoked attacks », et le projet est de « pool our resources and escape » ; l’alliance est « temporary » dès son annonce et se sépare à la sortie du Void. Mécanisme : l’alliance n’a pas de force commune, mais Janeway exclut seule Bosaal, qui a tué pour obtenir le modulateur, alors que Garon voulait l’utiliser (« it’s a violation of everything this Alliance stands for » ; « using it would make us accessories to murder. Take it and get out »).",
+  "version_entree": "V0.30 révisé",
   "categories": [
    "diplomatie/traité",
    "institutions/fédéralisme"
@@ -37031,11 +37071,25 @@
       "texte": ". Elle confirme le fait central : « In order to survive, the trapped ships compete for resources from new ships that are drawn in. » ; « Using the Federation model of mutual cooperation, Janeway proposes forming an alliance with other ships to pool resources and devise a way to escape, on the condition that members of the alliance not resort to killing or stealing. » Niveau B porté à A."
      }
     ]
+   },
+   {
+    "version": "V0.30",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’écran ne parle pas de redistribution : les règles sont « No killing, no stealing, and no giving up » et « Everyone in the Alliance must agree not to launch unprovoked attacks », et le projet est de « pool our resources and escape » ; l’alliance est « temporary » dès son annonce et se sépare à la sortie du Void. Mécanisme : l’alliance n’a pas de force commune, mais Janeway exclut seule Bosaal, qui a tué pour obtenir le modulateur, alors que Garon voulait l’utiliser (« it’s a violation of everything this Alliance stands for » ; « using it would make us accessories to murder. Take it and get out »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "voyager-evenements-omis",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Formation d’une coalition de survie dans le Void contre une économie de pillage.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’écran ne parle pas de redistribution : les règles sont « No killing, no stealing, and no giving up » et « Everyone in the Alliance must agree not to launch unprovoked attacks », et le projet est de « pool our resources and escape » ; l’alliance est « temporary » dès son annonce et se sépare à la sortie du Void. Mécanisme : l’alliance n’a pas de force commune, mais Janeway exclut seule Bosaal, qui a tué pour obtenir le modulateur, alors que Garon voulait l’utiliser (« it’s a violation of everything this Alliance stands for » ; « using it would make us accessories to murder. Take it and get out »)."
+   }
+  ],
   "note_editoriale": "Ajout V0.3 : vérifier l’épisode cité avant qualification en fait canonique définitivement audité.",
   "diffusion": [
    {

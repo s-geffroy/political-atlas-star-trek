@@ -475,8 +475,8 @@
    "recoupement": "A — Éditorial officiel"
   },
   "volets": {
-   "faits": "Lorsque les forces cardassiennes se retournent contre le Dominion, la dirigeante des Fondateurs ordonne une répression de masse contre les civils de Cardassia. La résistance et la coalition remportent finalement le conflit.",
-   "mecanisme": "La domination d’un allié devient exterminatrice à partir du moment où ce dernier reprend sa souveraineté. Le coût civil révèle la logique punitive de l’empire.",
+   "faits": "Après un sabotage mené par des civils, le Dominion rase en représailles Lakarian City (deux millions de morts). Lorsque les forces cardassiennes se retournent contre lui, la dirigeante des Fondateurs ordonne l’extermination de toute la population de Cardassia ; le bilan, encore provisoire, atteint huit cents millions de morts. La résistance et la coalition remportent finalement le conflit.",
+   "mecanisme": "La domination d’un allié devient exterminatrice dès que ce dernier se soulève : interrogatoires et civils placés autour des installations militaires, puis destruction d’une ville et menace d’en raser une autre à chaque sabotage, enfin ordre d’extermination. Le coût civil révèle la logique punitive de l’empire.",
    "parallele": "Permet d’étudier punition collective, crimes de masse, dépendance de régimes satellites et reconstruction post-conflit.",
    "objections": "Il est impossible de faire correspondre précisément Cardassia à un seul pays réel ; la série recycle plusieurs traditions historiques d’occupation et de guerre totale.",
    "contexte": "Fin de DS9 en 1999 après plusieurs saisons consacrées à l’occupation de Bajor et à l’effondrement d’une alliance de guerre."
@@ -503,8 +503,8 @@
    "recoupement": "A — Éditorial officiel"
   },
   "volets": {
-   "faits": "Le Docteur poursuit son éditeur pour reprendre le contrôle d’un holoroman diffusé sans son accord. L’arbitre lui reconnaît un droit d’auteur sans décider qu’il est pleinement une personne.",
-   "mecanisme": "Le droit de propriété intellectuelle constitue un premier seuil de reconnaissance fonctionnelle, mais ne résout pas le problème de la citoyenneté.",
+   "faits": "Le Docteur poursuit son éditeur pour reprendre le contrôle d’un holoroman diffusé sans son accord. Un arbitre de la Fédération lui reconnaît un droit d’auteur sans décider qu’il est pleinement une personne.",
+   "mecanisme": "Le droit de propriété intellectuelle constitue un premier seuil de reconnaissance fonctionnelle, mais ne tranche pas la question de la personne : l’arbitre refuse de juger que le Docteur est une personne au regard de la loi et renvoie la question des droits des hologrammes à plus tard.",
    "parallele": "Débat utile pour distinguer titularité de droits, propriété de données et statut moral des agents artificiels.",
    "objections": "La décision fictionnelle ne règle aucune question juridique actuelle sur les modèles génératifs, les droits d’auteur ou la conscience machinique.",
    "contexte": "Épisode diffusé en 2001, avant les débats actuels sur les modèles de fondation."
@@ -661,11 +661,11 @@
    "recoupement": "A — Récapitulatif officiel"
   },
   "volets": {
-   "faits": "Les Skrreeans, chassés de leur monde et guidés par une croyance en un nouveau foyer, veulent s’établir sur Bajor. Le gouvernement provisoire refuse, invoquant sa propre reconstruction et les ressources disponibles.",
+   "faits": "Les Skrreeans, qui ont fui huit siècles de servitude et que guide une croyance en un nouveau foyer, veulent s’établir sur Bajor. Les ministres du gouvernement provisoire, en accord avec l’Assemblée des vedeks, refusent, invoquant la reconstruction de Bajor et les ressources disponibles ; Kira, officier bajoran de la station, approuve ce refus.",
    "mecanisme": "Une société fraîchement sortie d’une occupation se retrouve à décider si sa propre vulnérabilité justifie d’exclure d’autres victimes. L’asile est une décision politique située.",
    "parallele": "Confrontation utile aux règles de protection des réfugiés et au principe de non-refoulement, dont l’application suppose néanmoins d’établir les conditions juridiques précises.",
-   "objections": "L’épisode ne démontre pas une violation automatique d’une convention réelle ; Bajor offre une autre planète, mais la relation aux Skrreeans est marquée par la violence et le refus.",
-   "contexte": "Diffusion 1993, dans le contexte de flux de déplacés liés aux guerres de l’ex-Yougoslavie."
+   "objections": "L’épisode ne démontre pas une violation automatique d’une convention réelle ; une autre planète, Draylon II, est trouvée par Sisko et Dax, non offerte par Bajor, mais la relation aux Skrreeans est marquée par la violence et le refus.",
+   "contexte": "Diffusion fin novembre 1993 ; aucune source lue ne relie l’épisode à une crise de réfugiés précise, ni aux guerres de l’ex-Yougoslavie."
   },
   "sources": [
    {
@@ -770,8 +770,8 @@
    "recoupement": "A — Récapitulatif officiel"
   },
   "volets": {
-   "faits": "Bloquée dans le Void, Voyager refuse une économie de survie par pillage et agrège des navires acceptant des règles communes de non-agression et de redistribution.",
-   "mecanisme": "La Fédération se présente comme une technologie institutionnelle reproductible sans territoire ni centre coercitif : la coopération produit une capacité de sortie de crise.",
+   "faits": "Bloquée dans le Void, Voyager refuse une économie de survie par pillage et agrège des navires dans une alliance temporaire : ses membres s’engagent à ne pas tuer, à ne pas voler, à ne pas abandonner et à ne lancer aucune attaque non provoquée, et mettent leurs ressources en commun pour s’échapper. L’alliance se dissout une fois la sortie acquise.",
+   "mecanisme": "La Fédération se présente comme une technologie institutionnelle reproductible sans territoire ni force commune : la coopération produit une capacité de sortie de crise. L’alliance connaît pourtant une sanction : Janeway exclut seule un membre qui a tué pour se procurer une pièce nécessaire à la sortie, contre l’avis d’un allié qui voulait l’utiliser.",
    "parallele": "Cas pédagogique pour comparer dilemme du prisonnier, biens communs et institutions coopératives.",
    "objections": "L’épisode valorise une coalition qui tient grâce à la confiance et à l’autorité personnelle de Janeway ; il ne prouve pas que la coopération est toujours dominante.",
    "contexte": "Diffusion 2001."

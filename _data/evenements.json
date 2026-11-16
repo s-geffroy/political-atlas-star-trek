@@ -6404,6 +6404,13 @@
   ],
   "associes": [
    {
+    "id": "STP-048",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
+   {
     "id": "STP-052",
     "motifs": [
      "épisode commun : the broken circle"
@@ -6426,15 +6433,15 @@
   "event": "Procès d'Una, reconnaissance d'un droit d'asile contre la persécution illyrienne",
   "source": "SNW « Ad Astra per Aspera »",
   "politics": "Égalité devant la loi, asile et réforme jurisprudentielle limitée.",
-  "categories_politiques": "justice/droits ; insurrection/pouvoir",
+  "categories_politiques": "justice/droits ; technologie/bioéthique",
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/news/recap-202-ad-astra-per-aspera-strange-new-worlds",
-  "note_audit": "V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.28 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : l’accusation retient aussi « two counts of sedition » ; la défense invoque le « Starfleet Code 8514 » (« She asked for it and Captain Pike granted it »), alors que, dans « Ghosts of Illyria », Una remet sa démission (« I am resigning my commission and surrendering myself for disciplinary review ») et Pike répond « Rejected », sans que le mot asile soit prononcé ; verdict : « we grant the defendant's request for asylum and find Una Chin-Riley not guilty of all charges ». Mécanisme : l’épisode distingue la loi fédérale (« illegal under Federation law »), le règlement de Starfleet (« Regulation 17, Article 12 ») et le code visé par l’accusation (« Starfleet code 614 to 617 ») ; Javas refuse de traiter de la même façon « Augment, Illyrian, or other persons with modified DNA ». Contexte : « technologies de modification génétique » n’avait pas de source ; l’épisode, mis en ligne le 22 juin 2023, a été tourné à partir du 1er février 2022 (TrekMovie, 1er juillet 2022), et la modification y est « an Illyrian cultural practice done to children before they are even born » ; catégories revues : retrait d’insurrection/pouvoir, qui ne reposait que sur « two counts of sedition », jamais débattus à l’audience ; technologie/bioéthique, comme STP-047.",
+  "version_entree": "V0.28 révisé",
   "categories": [
    "justice/droits",
-   "insurrection/pouvoir"
+   "technologie/bioéthique"
   ],
   "series": [
    "SNW"
@@ -6462,11 +6469,25 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.28",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : l’accusation retient aussi « two counts of sedition » ; la défense invoque le « Starfleet Code 8514 » (« She asked for it and Captain Pike granted it »), alors que, dans « Ghosts of Illyria », Una remet sa démission (« I am resigning my commission and surrendering myself for disciplinary review ») et Pike répond « Rejected », sans que le mot asile soit prononcé ; verdict : « we grant the defendant's request for asylum and find Una Chin-Riley not guilty of all charges ». Mécanisme : l’épisode distingue la loi fédérale (« illegal under Federation law »), le règlement de Starfleet (« Regulation 17, Article 12 ») et le code visé par l’accusation (« Starfleet code 614 to 617 ») ; Javas refuse de traiter de la même façon « Augment, Illyrian, or other persons with modified DNA ». Contexte : « technologies de modification génétique » n’avait pas de source ; l’épisode, mis en ligne le 22 juin 2023, a été tourné à partir du 1er février 2022 (TrekMovie, 1er juillet 2022), et la modification y est « an Illyrian cultural practice done to children before they are even born » ; catégories revues : retrait d’insurrection/pouvoir, qui ne reposait que sur « two counts of sedition », jamais débattus à l’audience ; technologie/bioéthique, comme STP-047."
+     }
+    ]
    }
   ],
   "cycle_slug": "discovery-et-strange-new-worlds-crises-du-xxiiie-siecle",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Procès d'Una, reconnaissance d'un droit d'asile contre la persécution illyrienne.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : l’accusation retient aussi « two counts of sedition » ; la défense invoque le « Starfleet Code 8514 » (« She asked for it and Captain Pike granted it »), alors que, dans « Ghosts of Illyria », Una remet sa démission (« I am resigning my commission and surrendering myself for disciplinary review ») et Pike répond « Rejected », sans que le mot asile soit prononcé ; verdict : « we grant the defendant's request for asylum and find Una Chin-Riley not guilty of all charges ». Mécanisme : l’épisode distingue la loi fédérale (« illegal under Federation law »), le règlement de Starfleet (« Regulation 17, Article 12 ») et le code visé par l’accusation (« Starfleet code 614 to 617 ») ; Javas refuse de traiter de la même façon « Augment, Illyrian, or other persons with modified DNA ». Contexte : « technologies de modification génétique » n’avait pas de source ; l’épisode, mis en ligne le 22 juin 2023, a été tourné à partir du 1er février 2022 (TrekMovie, 1er juillet 2022), et la modification y est « an Illyrian cultural practice done to children before they are even born » ; catégories revues : retrait d’insurrection/pouvoir, qui ne reposait que sur « two counts of sedition », jamais débattus à l’audience ; technologie/bioéthique, comme STP-047."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -6523,6 +6544,13 @@
    }
   ],
   "associes": [
+   {
+    "id": "STP-047",
+    "motifs": [
+     "identifiant cité dans la notice"
+    ],
+    "autre_continuite": false
+   },
    {
     "id": "STP-050",
     "motifs": [
@@ -13137,8 +13165,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/news/your-ultimate-star-trek-picard-watch-guide",
-  "note_audit": "V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.28 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Tarses est « Crewman First Class, medical technician », non un officier ; le sabotage est écarté avant l’audience publique (« This wasn't sabotage at all. It was nothing more than an accident ») ; un espion réel, J’Dan, avoue (« Romulans are strong. They are worthy allies ») ; Satie est « Retired Admiral » ; l’amiral Henry quitte la salle, puis « has called an end to any more hearings on this matter ». Source ajoutée : Cinefantastique d’octobre 1991, où Jeri Taylor déclare le parallèle maccarthyste (« The idea was taking the McCarthy era and the Salem witch hunts »), que la source de contrôle (StarTrek.com, 2020) ne mentionne pas.",
+  "version_entree": "V0.28 révisé",
   "categories": [
    "justice/droits"
   ],
@@ -13168,11 +13196,25 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.28",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Tarses est « Crewman First Class, medical technician », non un officier ; le sabotage est écarté avant l’audience publique (« This wasn't sabotage at all. It was nothing more than an accident ») ; un espion réel, J’Dan, avoue (« Romulans are strong. They are worthy allies ») ; Satie est « Retired Admiral » ; l’amiral Henry quitte la salle, puis « has called an end to any more hearings on this matter ». Source ajoutée : Cinefantastique d’octobre 1991, où Jeri Taylor déclare le parallèle maccarthyste (« The idea was taking the McCarthy era and the Salem witch hunts »), que la source de contrôle (StarTrek.com, 2020) ne mentionne pas."
+     }
+    ]
    }
   ],
   "cycle_slug": "the-next-generation-institutions-guerre-droits",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Enquête de l'amirale Satie et montée d'une chasse aux suspects.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — Tarses est « Crewman First Class, medical technician », non un officier ; le sabotage est écarté avant l’audience publique (« This wasn't sabotage at all. It was nothing more than an accident ») ; un espion réel, J’Dan, avoue (« Romulans are strong. They are worthy allies ») ; Satie est « Retired Admiral » ; l’amiral Henry quitte la salle, puis « has called an end to any more hearings on this matter ». Source ajoutée : Cinefantastique d’octobre 1991, où Jeri Taylor déclare le parallèle maccarthyste (« The idea was taking the McCarthy era and the Salem witch hunts »), que la source de contrôle (StarTrek.com, 2020) ne mentionne pas."
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [
    {
@@ -13972,8 +14014,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Éditorial officiel",
   "url_source": "https://www.startrek.com/news/the-next-generations-call-for-equality",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « correction forcée de l'identité de genre », « Persécution des minorités ». V0.13 (2026-11-12) : intention d’auteur sourcée — l’affirmation « les auteurs mobilisent explicitement le langage du débat américain » n’était pas sourcée. L’éditorial officiel déjà cité rapporte une déclaration de la scénariste Jeri Taylor (« a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues ») et note que Soren est qualifiée de « sick » et « deviant ». Le volet « contexte » s’en tient à ces éléments ; épisode diffusé le 16 mars 1992 (Wikipedia). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — « autre / à qualifier » requalifiée : « correction forcée de l'identité de genre », « Persécution des minorités ». V0.13 (2026-11-12) : intention d’auteur sourcée — l’affirmation « les auteurs mobilisent explicitement le langage du débat américain » n’était pas sourcée. L’éditorial officiel déjà cité rapporte une déclaration de la scénariste Jeri Taylor (« a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues ») et note que Soren est qualifiée de « sick » et « deviant ». Le volet « contexte » s’en tient à ces éléments ; épisode diffusé le 16 mars 1992 (Wikipedia). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation, majuscule accentuée). V0.28 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’écran ne montre aucune loi, mais une dénonciation, une audience à huis clos (« these proceedings are closed to everyone ») et un traitement (« psychotectic therapy and having all elements of gender eliminated »), décrits dans le vocabulaire de la maladie (« Soren is sick, and sick people want to get well »). Source ajoutée : Cinefantastique d’octobre 1992, source d’époque de la déclaration de Jeri Taylor que cite la fiche (« ‘The Outcast,’ though, is a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues »).",
+  "version_entree": "V0.28 révisé",
   "categories": [
    "justice/droits"
   ],
@@ -14021,6 +14063,15 @@
       "texte": "harmonisation typographique (guillemets, ponctuation, majuscule accentuée)."
      }
     ]
+   },
+   {
+    "version": "V0.28",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’écran ne montre aucune loi, mais une dénonciation, une audience à huis clos (« these proceedings are closed to everyone ») et un traitement (« psychotectic therapy and having all elements of gender eliminated »), décrits dans le vocabulaire de la maladie (« Soren is sick, and sick people want to get well »). Source ajoutée : Cinefantastique d’octobre 1992, source d’époque de la déclaration de Jeri Taylor que cite la fiche (« ‘The Outcast,’ though, is a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "the-next-generation-institutions-guerre-droits",
@@ -14029,6 +14080,10 @@
    {
     "libelle": "Politique de correction forcée de l'identité de genre sur J'naii.",
     "motif": "intention d’auteur sourcée — l’affirmation « les auteurs mobilisent explicitement le langage du débat américain » n’était pas sourcée. L’éditorial officiel déjà cité rapporte une déclaration de la scénariste Jeri Taylor (« a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues ») et note que Soren est qualifiée de « sick » et « deviant ». Le volet « contexte » s’en tient à ces éléments ; épisode diffusé le 16 mars 1992 (Wikipedia)."
+   },
+   {
+    "libelle": "Politique de correction forcée de l'identité de genre sur J'naii.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — l’écran ne montre aucune loi, mais une dénonciation, une audience à huis clos (« these proceedings are closed to everyone ») et un traitement (« psychotectic therapy and having all elements of gender eliminated »), décrits dans le vocabulaire de la maladie (« Soren is sick, and sick people want to get well »). Source ajoutée : Cinefantastique d’octobre 1992, source d’époque de la déclaration de Jeri Taylor que cite la fiche (« ‘The Outcast,’ though, is a gay rights story. It absolutely, specifically and outspokenly dealt with gay issues »)."
    }
   ],
   "note_editoriale": null,
@@ -35469,7 +35524,7 @@
   "bande": "XXIVe siècle",
   "amorce": "Événement politique de la fiction Star Trek (Star Trek: Deep Space Nine, épisode « Sanctuary ») ; période fictive : 2370.",
   "analyse_url": "/analyses/STP-271/",
-  "analyse_redigee": false,
+  "analyse_redigee": true,
   "sous_bande": null,
   "url_archive": null,
   "dates_stellaires": [

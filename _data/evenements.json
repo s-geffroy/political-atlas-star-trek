@@ -1371,7 +1371,23 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20241203143856/https://www.startrek.com/en-un/news/recap-star-trek-strange-new-worlds-strange-new-worlds",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Strange New Worlds",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/101.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/101.html"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Strange_New_Worlds_(episode)",
+    "dates": [
+     {
+      "date": "2259.42",
+      "annee": null
+     }
+    ],
+    "annees": []
+   }
+  ],
   "associes": [
    {
     "id": "STP-046",
@@ -5894,7 +5910,23 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250723182033/https://www.startrek.com/en-un/news/captain-georgious-fate-discoverys-future",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Point of Light",
+    "source_url": "http://www.chakoteya.net/STDisco17/203.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STDisco17/203.html"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Point_of_Light_(episode)",
+    "dates": [
+     {
+      "date": "1029.46",
+      "annee": null
+     }
+    ],
+    "annees": []
+   }
+  ],
   "associes": [
    {
     "id": "STP-042",
@@ -6221,7 +6253,23 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260314100411/https://www.startrek.com/news/recap-star-trek-strange-new-worlds-strange-new-worlds",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Strange New Worlds",
+    "source_url": "http://www.chakoteya.net/StarTrekSNW/101.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/StarTrekSNW/101.html"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Strange_New_Worlds_(episode)",
+    "dates": [
+     {
+      "date": "2259.42",
+      "annee": null
+     }
+    ],
+    "annees": []
+   }
+  ],
   "associes": [
    {
     "id": "STP-009",
@@ -17336,7 +17384,25 @@
   "analyse_redigee": false,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20250824072314/https://www.startrek.com/en-un/news/the-people-vs-star-trek-9-best-courtroom-drama-episodes-ranked",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Dax",
+    "source_url": "http://www.chakoteya.net/DS9/408.htm",
+    "transcriptions": [
+     "http://www.chakoteya.net/DS9/408.htm"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Dax_(episode)",
+    "dates": [
+     {
+      "date": "46910.1",
+      "annee": 2369
+     }
+    ],
+    "annees": [
+     2369
+    ]
+   }
+  ],
   "associes": []
  },
  {
@@ -25895,7 +25961,23 @@
   "analyse_redigee": true,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260810140425/https://www.startrek.com/news/recap-505-discovery-mirrors",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Mirrors",
+    "source_url": "http://www.chakoteya.net/STDisco17/505.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STDisco17/505.html"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Mirrors_(episode)",
+    "dates": [
+     {
+      "date": "866282.9",
+      "annee": null
+     }
+    ],
+    "annees": []
+   }
+  ],
   "associes": [
    {
     "id": "STP-239",
@@ -30801,7 +30883,23 @@
   "analyse_redigee": false,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": null,
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Rubincon",
+    "source_url": "http://www.chakoteya.net/SFAcad/SFA110.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/SFAcad/SFA110.html"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Rubincon_(episode)",
+    "dates": [
+     {
+      "date": "869631.7",
+      "annee": null
+     }
+    ],
+    "annees": []
+   }
+  ],
   "associes": [
    {
     "id": "STP-292",
@@ -31728,7 +31826,23 @@
   "analyse_redigee": true,
   "sous_bande": null,
   "url_archive": "https://web.archive.org/web/20260810140425/https://www.startrek.com/news/recap-505-discovery-mirrors",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Mirrors",
+    "source_url": "http://www.chakoteya.net/STDisco17/505.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/STDisco17/505.html"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Mirrors_(episode)",
+    "dates": [
+     {
+      "date": "866282.9",
+      "annee": null
+     }
+    ],
+    "annees": []
+   }
+  ],
   "associes": [
    {
     "id": "STP-194",
@@ -39146,7 +39260,23 @@
   "analyse_redigee": false,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": null,
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Rubincon",
+    "source_url": "http://www.chakoteya.net/SFAcad/SFA110.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/SFAcad/SFA110.html"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Rubincon_(episode)",
+    "dates": [
+     {
+      "date": "869631.7",
+      "annee": null
+     }
+    ],
+    "annees": []
+   }
+  ],
   "associes": [
    {
     "id": "STP-228",
@@ -39323,7 +39453,23 @@
   "analyse_redigee": true,
   "sous_bande": "Datation imprécise dans le siècle",
   "url_archive": "https://web.archive.org/web/20260416115107/https://www.denofgeek.com/tv/star-trek-starfleet-academy-episode-9-review-300th-night/",
-  "dates_stellaires": [],
+  "dates_stellaires": [
+   {
+    "titre": "Rubincon",
+    "source_url": "http://www.chakoteya.net/SFAcad/SFA110.html",
+    "transcriptions": [
+     "http://www.chakoteya.net/SFAcad/SFA110.html"
+    ],
+    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Rubincon_(episode)",
+    "dates": [
+     {
+      "date": "869631.7",
+      "annee": null
+     }
+    ],
+    "annees": []
+   }
+  ],
   "associes": [
    {
     "id": "STP-228",

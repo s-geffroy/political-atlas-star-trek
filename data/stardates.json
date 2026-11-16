@@ -107,11 +107,12 @@
   {
    "serie": "DIS",
    "titre": "Mirrors",
-   "dates_stellaires": [],
+   "dates_stellaires": [
+    "866282.9"
+   ],
    "transcription_url": "http://www.chakoteya.net/STDisco17/505.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Mirrors_(episode)",
-   "releve_le": "2026-11-14",
-   "note": "aucune date stellaire prononcee dans la transcription"
+   "releve_le": "2026-11-16"
   },
   {
    "serie": "DIS",
@@ -135,11 +136,12 @@
   {
    "serie": "DIS",
    "titre": "Point of Light",
-   "dates_stellaires": [],
+   "dates_stellaires": [
+    "1029.46"
+   ],
    "transcription_url": "http://www.chakoteya.net/STDisco17/203.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Point_of_Light_(episode)",
-   "releve_le": "2026-11-14",
-   "note": "aucune date stellaire prononcee dans la transcription"
+   "releve_le": "2026-11-16"
   },
   {
    "serie": "DIS",
@@ -221,10 +223,10 @@
    "serie": "DIS",
    "titre": "The Sound of Thunder",
    "dates_stellaires": [],
-   "transcription_url": null,
+   "transcription_url": "http://www.chakoteya.net/STDisco17/206.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/The_Sound_of_Thunder_(episode)",
-   "releve_le": "2026-11-14",
-   "note": "transcription introuvable"
+   "releve_le": "2026-11-16",
+   "note": "aucune date stellaire prononcee dans la transcription"
   },
   {
    "serie": "DIS",
@@ -372,11 +374,12 @@
   {
    "serie": "DS9",
    "titre": "Dax",
-   "dates_stellaires": [],
+   "dates_stellaires": [
+    "46910.1"
+   ],
    "transcription_url": "http://www.chakoteya.net/DS9/408.htm",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Dax_(episode)",
-   "releve_le": "2026-11-14",
-   "note": "aucune date stellaire prononcee dans la transcription"
+   "releve_le": "2026-11-16"
   },
   {
    "serie": "DS9",
@@ -1361,10 +1364,10 @@
    "serie": "PIC",
    "titre": "Imposters",
    "dates_stellaires": [],
-   "transcription_url": null,
+   "transcription_url": "http://www.chakoteya.net/StarTrekPIC/305.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Imposters_(episode)",
-   "releve_le": "2026-11-14",
-   "note": "transcription introuvable"
+   "releve_le": "2026-11-16",
+   "note": "aucune date stellaire prononcee dans la transcription"
   },
   {
    "serie": "PIC",
@@ -1468,55 +1471,56 @@
    "serie": "SFA",
    "titre": "300th Night",
    "dates_stellaires": [],
-   "transcription_url": null,
+   "transcription_url": "http://www.chakoteya.net/SFAcad/SFA109.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/300th_Night_(episode)",
-   "releve_le": "2026-11-14",
-   "note": "transcription introuvable"
+   "releve_le": "2026-11-16",
+   "note": "aucune date stellaire prononcee dans la transcription"
   },
   {
    "serie": "SFA",
    "titre": "Beta Test",
    "dates_stellaires": [],
-   "transcription_url": null,
+   "transcription_url": "http://www.chakoteya.net/SFAcad/SFA102.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Beta_Test_(episode)",
    "releve_le": "2026-11-16",
-   "note": "transcription introuvable"
+   "note": "aucune date stellaire prononcee dans la transcription"
   },
   {
    "serie": "SFA",
    "titre": "Come, Let's Away",
    "dates_stellaires": [],
-   "transcription_url": null,
+   "transcription_url": "http://www.chakoteya.net/SFAcad/SFA106.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Come%2C_Let's_Away_(episode)",
-   "releve_le": "2026-11-14",
-   "note": "transcription introuvable"
+   "releve_le": "2026-11-16",
+   "note": "aucune date stellaire prononcee dans la transcription"
   },
   {
    "serie": "SFA",
    "titre": "Kids These Days",
    "dates_stellaires": [],
-   "transcription_url": null,
+   "transcription_url": "http://www.chakoteya.net/SFAcad/SFA101.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Kids_These_Days_(episode)",
-   "releve_le": "2026-11-14",
-   "note": "transcription introuvable"
+   "releve_le": "2026-11-16",
+   "note": "aucune date stellaire prononcee dans la transcription"
   },
   {
    "serie": "SFA",
    "titre": "Rubincon",
-   "dates_stellaires": [],
-   "transcription_url": null,
+   "dates_stellaires": [
+    "869631.7"
+   ],
+   "transcription_url": "http://www.chakoteya.net/SFAcad/SFA110.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Rubincon_(episode)",
-   "releve_le": "2026-11-16",
-   "note": "transcription introuvable"
+   "releve_le": "2026-11-16"
   },
   {
    "serie": "SFA",
    "titre": "Vox in Excelso",
    "dates_stellaires": [],
-   "transcription_url": null,
+   "transcription_url": "http://www.chakoteya.net/SFAcad/SFA104.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Vox_In_Excelso_(episode)",
-   "releve_le": "2026-11-14",
-   "note": "transcription introuvable"
+   "releve_le": "2026-11-16",
+   "note": "aucune date stellaire prononcee dans la transcription"
   },
   {
    "serie": "Short Treks",
@@ -1619,11 +1623,12 @@
   {
    "serie": "SNW",
    "titre": "Strange New Worlds",
-   "dates_stellaires": [],
+   "dates_stellaires": [
+    "2259.42"
+   ],
    "transcription_url": "http://www.chakoteya.net/StarTrekSNW/101.html",
    "memory_alpha_url": "https://memory-alpha.fandom.com/wiki/Strange_New_Worlds_(episode)",
-   "releve_le": "2026-11-16",
-   "note": "aucune date stellaire prononcee dans la transcription"
+   "releve_le": "2026-11-16"
   },
   {
    "serie": "SNW",

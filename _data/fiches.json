@@ -531,7 +531,7 @@
    "recoupement": "A — Récapitulatif officiel"
   },
   "volets": {
-   "faits": "En 3191, Discovery retrouve une épave de l’ISS Enterprise. Une inscription raconte une mutinerie menée par des dissidents de l’Empire terrien qui tentaient de faire passer des réfugiés dans l’univers principal.",
+   "faits": "En 3191, Discovery retrouve une épave de l’ISS Enterprise, dont les journaux du capitaine ont été effacés. Une plaque, que Book résume, raconte qu’après l’assassinat d’un haut chancelier réformateur, qu’elle ne nomme pas, l’équipage s’est mutiné et s’est enfui en emmenant des réfugiés vers l’univers principal. La plupart de ses membres figurent ensuite dans les bases de données de la Fédération.",
    "mecanisme": "La mémoire inscrite dans l’artefact distingue l’événement ancien de son dévoilement tardif. Il s’agit d’une politique d’exil et non d’un déplacement de populations survenu en 3191.",
    "parallele": "Parallèle structurel avec les exils politiques et la conservation des traces matérielles de résistances clandestines.",
    "objections": "Identifier sans réserve le haut chancelier mentionné avec Spock relève d’une hypothèse de continuité, pas de la seule inscription.",
@@ -542,6 +542,11 @@
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://www.startrek.com/news/recap-505-discovery-mirrors",
     "archive": "https://web.archive.org/web/20260810140425/https://www.startrek.com/news/recap-505-discovery-mirrors"
+   },
+   {
+    "libelle": "Source — Transcription de « Mirrors » (chakoteya.net) (V0.32)",
+    "url": "http://www.chakoteya.net/STDisco17/505.html",
+    "archive": null
    }
   ]
  },
@@ -554,7 +559,7 @@
    "recoupement": "A — Récapitulatif officiel"
   },
   "volets": {
-   "faits": "Après l’attaque des chantiers martiens en 2385, le Conseil de la Fédération interdit la création et l’usage de synthétiques. L’effort de secours massif des Romuliens est également abandonné.",
+   "faits": "Après l’attaque des chantiers martiens en 2385, les formes de vie synthétiques sont interdites dans toute la Fédération, avec effet immédiat : les unités en service sont démantelées et les recherches arrêtées. L’effort de secours massif des Romuliens est également abandonné, avec sa cause propre : avant même l’attaque, quatorze espèces membres menaçaient de quitter la Fédération si le sauvetage continuait, et les navires manquaient. La levée de l’interdiction, à la fin de la saison, n’est annoncée que par une réplique.",
    "mecanisme": "Réponse à la catastrophe par interdiction générale d’une catégorie technique et désengagement humanitaire. Une vulnérabilité institutionnelle se transforme en exclusion politique.",
    "parallele": "Comparaison avec la régulation d’urgence des technologies et les politiques qui suspendent des garanties en situation de choc.",
    "objections": "La réalité des dangers d’une technologie doit être établie empiriquement ; la série révèle ensuite une manipulation derrière l’attaque de Mars.",
@@ -570,6 +575,21 @@
     "libelle": "Source secondaire/éditoriale de contrôle (V0.5)",
     "url": "https://www.startrek.com/en-un/news/recap-star-trek-picard-remembrance",
     "archive": "https://web.archive.org/web/20241127221616/https://www.startrek.com/en-un/news/recap-star-trek-picard-remembrance"
+   },
+   {
+    "libelle": "Source — Transcription de « The End is the Beginning » (chakoteya.net) (V0.32)",
+    "url": "http://www.chakoteya.net/StarTrekPIC/103.html",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Transcription de « Maps and Legends » (chakoteya.net) (V0.32)",
+    "url": "http://www.chakoteya.net/StarTrekPIC/102.html",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Transcription de « Et in Arcadia Ego, Part 2 » (chakoteya.net) (V0.32)",
+    "url": "http://www.chakoteya.net/StarTrekPIC/110.html",
+    "archive": null
    }
   ]
  },
@@ -615,7 +635,7 @@
    "recoupement": "A — Récapitulatif officiel"
   },
   "volets": {
-   "faits": "Le journal de bord et l’inscription du ISS Enterprise indiquent qu’un haut chancelier terrien réformiste a été tué. Des dissidents ont ensuite fui avec le navire en aidant des réfugiés à passer entre les univers.",
+   "faits": "Une plaque de l’ISS Enterprise, seul récit lisible à bord puisque les journaux du capitaine ont été effacés, indique qu’un haut chancelier terrien réformiste, qu’elle ne nomme pas, a été tué. Une partie de l’équipage a ensuite pris le navire et s’est enfuie en emmenant des réfugiés vers l’univers principal.",
    "mecanisme": "Le pouvoir autoritaire peut connaître des réformes internes que des factions radicales répriment ; l’exil conserve une continuité de la réforme avortée.",
    "parallele": "Éclairages possibles par des tentatives de libéralisation au sein de régimes autoritaires et les risques subis par leurs soutiens.",
    "objections": "L’identité de ce chancelier n’est pas directement confirmée dans l’épisode. Le document ne prouve pas que toutes les initiatives ont pris la forme d’un programme constitutionnel.",
@@ -626,21 +646,26 @@
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://www.startrek.com/news/recap-505-discovery-mirrors",
     "archive": "https://web.archive.org/web/20260810140425/https://www.startrek.com/news/recap-505-discovery-mirrors"
+   },
+   {
+    "libelle": "Source — Transcription de « Mirrors » (chakoteya.net) (V0.32)",
+    "url": "http://www.chakoteya.net/STDisco17/505.html",
+    "archive": null
    }
   ]
  },
  "STP-267": {
   "id": "STP-267",
-  "titre": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure",
+  "titre": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend",
   "entetes": {
    "periode": "Après 2257 (chronologie secondaire)",
    "source_audiovisuelle": "Film « Star Trek: Section 31 » (2025)",
    "recoupement": "A — Synopsis officiel ; année diégétique secondaire seulement"
   },
   "volets": {
-   "faits": "Le film suit Georgiou, ancienne impératrice d’un régime esclavagiste, impliquée dans une mission de Section 31 pour empêcher la mise en service d’une arme dangereuse.",
+   "faits": "Le film suit Georgiou, ancienne impératrice d’un régime esclavagiste, impliquée dans une mission de Section 31 qui vise d’abord à empêcher la vente d’une arme au Haut Conseil minosien, puis à récupérer et détruire cette arme, le Godsend, que Georgiou avait elle-même fait construire.",
    "mecanisme": "La sécurité collective est confiée à une structure opaque et à une personne dont l’expérience de l’autocratie est à la fois un atout tactique et un risque moral.",
-   "parallele": "La comparaison pertinente touche au contrôle démocratique des services secrets et à la responsabilité des anciens dirigeants impliqués dans des crimes.",
+   "parallele": "La comparaison pertinente touche au contrôle démocratique des services secrets et à la responsabilité des anciens dirigeants impliqués dans des crimes. Le film ne montre aucun organe de contrôle : le seul contrepoids visible est une officière de Starfleet détachée auprès de l’équipe, qui réclame une supervision ; la comparaison avec le contrôle démocratique est une construction de l’atlas.",
    "objections": "La datation du film n’est pas établie à l’écran : « vers 2324 » vient d’une conversion de date stellaire, et la seule borne dite à l’écran est 2257.",
    "contexte": "Film diffusé en 2025, après cinq saisons de Discovery."
   },
@@ -649,6 +674,16 @@
     "libelle": "Source secondaire/éditoriale de contrôle",
     "url": "https://www.startrek.com/movies/star-trek-section-31",
     "archive": "https://web.archive.org/web/20251119202923/https://www.startrek.com/movies/star-trek-section-31"
+   },
+   {
+    "libelle": "Source — Transcription de « Star Trek: Section 31 », tirée des sous-titres (Springfield! Springfield!) (V0.32)",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=star-trek-section-31",
+    "archive": null
+   },
+   {
+    "libelle": "Source — Memory Alpha, « Godsend » (V0.32)",
+    "url": "https://memory-alpha.fandom.com/wiki/Godsend",
+    "archive": null
    }
   ]
  },

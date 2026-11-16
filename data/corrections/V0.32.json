@@ -1,0 +1,109 @@
+{
+ "version": "V0.32",
+ "date": "2026-11-16",
+ "date_longue": "16 novembre 2026",
+ "base": "V0_31_2026-11-16",
+ "titre": "Atlas politique de Star Trek — V0.32 : fiches de « Star Trek: Section 31 », « Mirrors » et de la saison 1 de « Picard » alignées sur l’écran",
+ "resume": "Quatre fiches sont alignées sur les analyses rédigées du 16 novembre 2026. STP-267 (« Star Trek: Section 31 ») décrit une mission qui vise d’abord à empêcher la vente d’une arme au Haut Conseil minosien, puis à récupérer et détruire le Godsend, et note que le film ne montre aucun organe de contrôle des services secrets. STP-194 et STP-239 (« Mirrors ») ne parlent plus de journal de bord, effacé à l’écran, ni de dissidents, mot que l’épisode n’emploie pas, et précisent que la plaque ne nomme pas le haut chancelier. STP-197 (saison 1 de « Picard ») ne prête plus l’interdiction des synthétiques au Conseil de la Fédération, qu’aucune réplique ne nomme, donne à l’abandon des Romuliens sa cause propre et indique que la levée tient en une réplique.",
+ "methode": {
+  "revue": "analyses rédigées de STP-267, STP-194, STP-239 et STP-197 ; proposition validée le 2026-11-16 (docs/proposition-v032.md), intitulé de STP-267 : option 2 ; citations contrôlées sur les transcriptions et les sources lues."
+ },
+ "comptes": {
+  "corrections": 4
+ },
+ "corrections": [
+  {
+   "id": "STP-267",
+   "type": "correction",
+   "champs": {
+    "event": {
+     "avant": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure",
+     "apres": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend"
+    }
+   },
+   "volets": {
+    "faits": {
+     "avant": "Le film suit Georgiou, ancienne impératrice d’un régime esclavagiste, impliquée dans une mission de Section 31 pour empêcher la mise en service d’une arme dangereuse.",
+     "apres": "Le film suit Georgiou, ancienne impératrice d’un régime esclavagiste, impliquée dans une mission de Section 31 qui vise d’abord à empêcher la vente d’une arme au Haut Conseil minosien, puis à récupérer et détruire cette arme, le Godsend, que Georgiou avait elle-même fait construire."
+    },
+    "parallele": {
+     "avant": "La comparaison pertinente touche au contrôle démocratique des services secrets et à la responsabilité des anciens dirigeants impliqués dans des crimes.",
+     "apres": "La comparaison pertinente touche au contrôle démocratique des services secrets et à la responsabilité des anciens dirigeants impliqués dans des crimes. Le film ne montre aucun organe de contrôle : le seul contrepoids visible est une officière de Starfleet détachée auprès de l’équipe, qui réclame une supervision ; la comparaison avec le contrôle démocratique est une construction de l’atlas."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « Star Trek: Section 31 », tirée des sous-titres (Springfield! Springfield!)",
+     "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=star-trek-section-31"
+    },
+    {
+     "libelle": "Source — Memory Alpha, « Godsend »",
+     "url": "https://memory-alpha.fandom.com/wiki/Godsend"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : la mission vise d’abord une vente (« Noe’s on his way to the Baraam to sell his latest creation to the Minosian High Council ») ; l’arme est le Godsend, construit pour Georgiou (« So I built a weapon to end all threats. I called it the Godsend » ; « It’s Godsend. No apostrophe »), qu’elle détruit dans le passage entre les univers. La source de contrôle ne parle pas d’arme (« joins a secret division of Starfleet ») ; le terme de l’intitulé s’appuie sur Memory Alpha, ajouté aux sources (« of mass destruction »). Parallèle : aucun organe de contrôle à l’écran ; seule l’officière détachée réclame une supervision (« you all definitely need oversight ») ; intitulé : « Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend »"
+  },
+  {
+   "id": "STP-194",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "En 3191, Discovery retrouve une épave de l’ISS Enterprise. Une inscription raconte une mutinerie menée par des dissidents de l’Empire terrien qui tentaient de faire passer des réfugiés dans l’univers principal.",
+     "apres": "En 3191, Discovery retrouve une épave de l’ISS Enterprise, dont les journaux du capitaine ont été effacés. Une plaque, que Book résume, raconte qu’après l’assassinat d’un haut chancelier réformateur, qu’elle ne nomme pas, l’équipage s’est mutiné et s’est enfui en emmenant des réfugiés vers l’univers principal. La plupart de ses membres figurent ensuite dans les bases de données de la Fédération."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « Mirrors » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/STDisco17/505.html"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucun journal n’est lisible (« Captain’s logs erased ») ; le récit vient d’une plaque que Book résume (« The Terran High Chancellor was killed for trying to make reforms, and this crew escaped. They mutinied. Brought refugees with them who were trying to flee their universe for ours ») ; le mot « dissidents » n’est pas prononcé, et le chancelier n’est nommé nulle part ; l’intégration est connue après coup (« Most of them ended up in Federation databases »)"
+  },
+  {
+   "id": "STP-239",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Le journal de bord et l’inscription du ISS Enterprise indiquent qu’un haut chancelier terrien réformiste a été tué. Des dissidents ont ensuite fui avec le navire en aidant des réfugiés à passer entre les univers.",
+     "apres": "Une plaque de l’ISS Enterprise, seul récit lisible à bord puisque les journaux du capitaine ont été effacés, indique qu’un haut chancelier terrien réformiste, qu’elle ne nomme pas, a été tué. Une partie de l’équipage a ensuite pris le navire et s’est enfuie en emmenant des réfugiés vers l’univers principal."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « Mirrors » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/STDisco17/505.html"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — il n’y a pas de journal de bord : les journaux du capitaine sont effacés (« Captain’s logs erased ») ; seule la plaque raconte les faits (« The new High Chancellor presented hope and justice as if they were natural to our world » ; « But some saw this as weakness. They killed him »), sans nommer le chancelier ; le mot « dissidents » n’est pas prononcé : Book parle d’un équipage qui « mutinied » et de « refugees »"
+  },
+  {
+   "id": "STP-197",
+   "type": "correction",
+   "champs": {},
+   "volets": {
+    "faits": {
+     "avant": "Après l’attaque des chantiers martiens en 2385, le Conseil de la Fédération interdit la création et l’usage de synthétiques. L’effort de secours massif des Romuliens est également abandonné.",
+     "apres": "Après l’attaque des chantiers martiens en 2385, les formes de vie synthétiques sont interdites dans toute la Fédération, avec effet immédiat : les unités en service sont démantelées et les recherches arrêtées. L’effort de secours massif des Romuliens est également abandonné, avec sa cause propre : avant même l’attaque, quatorze espèces membres menaçaient de quitter la Fédération si le sauvetage continuait, et les navires manquaient. La levée de l’interdiction, à la fin de la saison, n’est annoncée que par une réplique."
+    }
+   },
+   "sources_fiche": [
+    {
+     "libelle": "Source — Transcription de « The End is the Beginning » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/StarTrekPIC/103.html"
+    },
+    {
+     "libelle": "Source — Transcription de « Maps and Legends » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/StarTrekPIC/102.html"
+    },
+    {
+     "libelle": "Source — Transcription de « Et in Arcadia Ego, Part 2 » (chakoteya.net)",
+     "url": "http://www.chakoteya.net/StarTrekPIC/110.html"
+    }
+   ],
+   "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucune réplique ne nomme le Conseil de la Fédération : « All synthetic lifeforms are banned, throughout the Federation, effective immediately. All active units are dismantled and all research is halted » ; l’abandon du sauvetage a sa cause propre (« even before the synthetics attacked Mars, 14 species within the Federation said, cut the Romulans loose, or we’ll pull out » ; « We didn’t have enough ships left ») ; la levée tient en une réplique (« now that they’ve lifted the ban on synthetics, I’m free to travel »)"
+  }
+ ]
+}

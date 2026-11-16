@@ -5226,11 +5226,11 @@
        "y": 107
       },
       {
-       "t": "arme de destruction majeure",
+       "t": "arme, le Godsend",
        "y": 122
       }
      ],
-     "titre_complet": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure",
+     "titre_complet": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend",
      "niv": "A",
      "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts"
     }
@@ -7211,7 +7211,7 @@
      "vers": "STP-194",
      "type": "cause",
      "d": "M326,49 C368,49 368,49 406,49",
-     "url": "https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras"
+     "url": "https://blog.trekcore.com/2024/04/star-trek-discovery-review-mirrors/"
     }
    ],
    "externes": [],
@@ -9021,7 +9021,7 @@
     "y": 407,
     "r": 6.2,
     "d": 1,
-    "titre": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure",
+    "titre": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend",
     "serie": "Film",
     "periode": "Après 2257 (chronologie secondaire)"
    },

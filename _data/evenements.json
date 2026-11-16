@@ -25781,8 +25781,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/news/recap-505-discovery-mirrors",
-  "note_audit": "CORRECTION : l’accueil des réfugiés appartient à un passé découvert rétrospectivement, non à 3191. V0.10 (2026-11-10) : période précisée : aucune source ne place l’exode lui-même au XXIVe siècle ; il est seulement borné entre 2267 et la fin du XXIVe siècle. Sources : https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras (« At some point after the events of \"Mirror, Mirror\" » ; « it did crossover sometime before the end of the 24th Century ») ; Memory Alpha, ISS Enterprise (NCC-1701). V0.14 (2026-11-12) : harmonisation typographique (guillemets).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "CORRECTION : l’accueil des réfugiés appartient à un passé découvert rétrospectivement, non à 3191. V0.10 (2026-11-10) : période précisée : aucune source ne place l’exode lui-même au XXIVe siècle ; il est seulement borné entre 2267 et la fin du XXIVe siècle. Sources : https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras (« At some point after the events of \"Mirror, Mirror\" » ; « it did crossover sometime before the end of the 24th Century ») ; Memory Alpha, ISS Enterprise (NCC-1701). V0.14 (2026-11-12) : harmonisation typographique (guillemets). V0.32 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucun journal n’est lisible (« Captain’s logs erased ») ; le récit vient d’une plaque que Book résume (« The Terran High Chancellor was killed for trying to make reforms, and this crew escaped. They mutinied. Brought refugees with them who were trying to flee their universe for ours ») ; le mot « dissidents » n’est pas prononcé, et le chancelier n’est nommé nulle part ; l’intégration est connue après coup (« Most of them ended up in Federation databases »).",
+  "version_entree": "V0.32 révisé",
   "categories": [
    "justice/droits"
   ],
@@ -25837,6 +25837,15 @@
       "texte": "harmonisation typographique (guillemets)."
      }
     ]
+   },
+   {
+    "version": "V0.32",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucun journal n’est lisible (« Captain’s logs erased ») ; le récit vient d’une plaque que Book résume (« The Terran High Chancellor was killed for trying to make reforms, and this crew escaped. They mutinied. Brought refugees with them who were trying to flee their universe for ours ») ; le mot « dissidents » n’est pas prononcé, et le chancelier n’est nommé nulle part ; l’intégration est connue après coup (« Most of them ended up in Federation databases »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "discovery-futur-et-reconstruction-post-burn",
@@ -25849,6 +25858,10 @@
    {
     "libelle": "Exode ancien de dissidents de l’Empire terrien, découvert dans l’épave du ISS Enterprise en 3191.",
     "motif": "période précisée : aucune source ne place l’exode lui-même au XXIVe siècle ; il est seulement borné entre 2267 et la fin du XXIVe siècle. Sources : <https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras> (« At some point after the events of \"Mirror, Mirror\" » ; « it did crossover sometime before the end of the 24th Century ») ; Memory Alpha, ISS Enterprise (NCC-1701)"
+   },
+   {
+    "libelle": "Exode ancien de dissidents de l’Empire terrien, découvert dans l’épave du ISS Enterprise en 3191.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucun journal n’est lisible (« Captain’s logs erased ») ; le récit vient d’une plaque que Book résume (« The Terran High Chancellor was killed for trying to make reforms, and this crew escaped. They mutinied. Brought refugees with them who were trying to flee their universe for ours ») ; le mot « dissidents » n’est pas prononcé, et le chancelier n’est nommé nulle part ; l’intégration est connue après coup (« Most of them ended up in Federation databases »)"
    }
   ],
   "note_editoriale": "CORRECTION : l’accueil des réfugiés appartient à un passé découvert rétrospectivement, non à 3191.",
@@ -25867,9 +25880,9 @@
     {
      "id": "STP-239",
      "type": "cause",
-     "url": "https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras",
-     "url_complementaire": null,
-     "justification": "La plaque de l'ISS Enterprise : « The Terran High Chancellor was killed for trying to make reforms » ; « some Terrans who believed in peace escaped on the I.S.S. Enterprise » jusqu'à l'univers principal."
+     "url": "https://blog.trekcore.com/2024/04/star-trek-discovery-review-mirrors/",
+     "url_complementaire": "http://www.chakoteya.net/STDisco17/505.html",
+     "justification": "La plaque de l'ISS Enterprise, dans les passages identiques de ses deux transcriptions écrites (TrekCore ; Memory Alpha) : « But some saw this as weakness. They killed him, and we sought help from an unlikely ally: a Kelpien slave turned rebel leader » ; « With his aid we secured the Enterprise » ; « We bear scars from our escape ». À l'écran, Book la résume : « The Terran High Chancellor was killed for trying to make reforms, and this crew escaped » (transcription de « Mirrors »)."
     }
    ],
    "examinee_le": null,
@@ -26163,8 +26176,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/en-un/news/recap-star-trek-picard-remembrance",
-  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « formes de vie synthétiques ». V0.5 (2026-11-10) : recoupement A (source officielle) — Le récapitulatif officiel indique que l'attaque de Mars par des synthétiques renégats a entraîné une interdiction de la vie artificielle et l'arrêt du sauvetage, ce qui a poussé Picard à démissionner. Source B précédente : https://startrekarchive.com/events/synthetic-ban. V0.14 (2026-11-12) : harmonisation typographique (ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "V0.4 (2026-11-10) : catégories attribuées en V0.4 (proposition validée le 2026-11-10, docs/proposition-categories.md) — technologie/bioéthique ajoutée : « formes de vie synthétiques ». V0.5 (2026-11-10) : recoupement A (source officielle) — Le récapitulatif officiel indique que l'attaque de Mars par des synthétiques renégats a entraîné une interdiction de la vie artificielle et l'arrêt du sauvetage, ce qui a poussé Picard à démissionner. Source B précédente : https://startrekarchive.com/events/synthetic-ban. V0.14 (2026-11-12) : harmonisation typographique (ponctuation). V0.32 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucune réplique ne nomme le Conseil de la Fédération : « All synthetic lifeforms are banned, throughout the Federation, effective immediately. All active units are dismantled and all research is halted » ; l’abandon du sauvetage a sa cause propre (« even before the synthetics attacked Mars, 14 species within the Federation said, cut the Romulans loose, or we’ll pull out » ; « We didn’t have enough ships left ») ; la levée tient en une réplique (« now that they’ve lifted the ban on synthetics, I’m free to travel »).",
+  "version_entree": "V0.32 révisé",
   "categories": [
    "justice/droits",
    "technologie/bioéthique"
@@ -26214,11 +26227,25 @@
       "texte": "harmonisation typographique (ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.32",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucune réplique ne nomme le Conseil de la Fédération : « All synthetic lifeforms are banned, throughout the Federation, effective immediately. All active units are dismantled and all research is halted » ; l’abandon du sauvetage a sa cause propre (« even before the synthetics attacked Mars, 14 species within the Federation said, cut the Romulans loose, or we’ll pull out » ; « We didn’t have enough ships left ») ; la levée tient en une réplique (« now that they’ve lifted the ban on synthetics, I’m free to travel »)."
+     }
+    ]
    }
   ],
   "cycle_slug": "picard-gouvernance-synthetiques-romuliens",
   "fiche": true,
-  "corrections": [],
+  "corrections": [
+   {
+    "libelle": "Interdiction fédérale des formes de vie synthétiques.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — aucune réplique ne nomme le Conseil de la Fédération : « All synthetic lifeforms are banned, throughout the Federation, effective immediately. All active units are dismantled and all research is halted » ; l’abandon du sauvetage a sa cause propre (« even before the synthetics attacked Mars, 14 species within the Federation said, cut the Romulans loose, or we’ll pull out » ; « We didn’t have enough ships left ») ; la levée tient en une réplique (« now that they’ve lifted the ban on synthetics, I’m free to travel »)"
+   }
+  ],
   "note_editoriale": null,
   "diffusion": [],
   "doublon_de": null,
@@ -31572,8 +31599,8 @@
   "niveau_recoupement": "A",
   "nature_source": "Récapitulatif officiel",
   "url_source": "https://www.startrek.com/news/recap-505-discovery-mirrors",
-  "note_audit": "Attesté par une plaque dans DIS « Mirrors »; l’identité du chancelier n’est pas explicitement prouvée par ce seul document. V0.10 (2026-11-10) : période corrigée : « XXXIIe siècle » correspondait à la découverte de la plaque en 3191, non aux faits ; les réformes et l’assassinat du chancelier, dans l’univers Miroir, ne sont datés par aucune source qu’entre « Mirror, Mirror » (2267) et la fin du XXIVe siècle. Sources : https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras (« At some point after the events of \"Mirror, Mirror\" » ; « it did crossover sometime before the end of the 24th Century ») ; Memory Alpha, ISS Enterprise (NCC-1701). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation).",
-  "version_entree": "V0.14 révisé",
+  "note_audit": "Attesté par une plaque dans DIS « Mirrors »; l’identité du chancelier n’est pas explicitement prouvée par ce seul document. V0.10 (2026-11-10) : période corrigée : « XXXIIe siècle » correspondait à la découverte de la plaque en 3191, non aux faits ; les réformes et l’assassinat du chancelier, dans l’univers Miroir, ne sont datés par aucune source qu’entre « Mirror, Mirror » (2267) et la fin du XXIVe siècle. Sources : https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras (« At some point after the events of \"Mirror, Mirror\" » ; « it did crossover sometime before the end of the 24th Century ») ; Memory Alpha, ISS Enterprise (NCC-1701). V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.32 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — il n’y a pas de journal de bord : les journaux du capitaine sont effacés (« Captain’s logs erased ») ; seule la plaque raconte les faits (« The new High Chancellor presented hope and justice as if they were natural to our world » ; « But some saw this as weakness. They killed him »), sans nommer le chancelier ; le mot « dissidents » n’est pas prononcé : Book parle d’un équipage qui « mutinied » et de « refugees ».",
+  "version_entree": "V0.32 révisé",
   "categories": [
    "justice/droits",
    "insurrection/pouvoir"
@@ -31629,6 +31656,15 @@
       "texte": "harmonisation typographique (guillemets, ponctuation)."
      }
     ]
+   },
+   {
+    "version": "V0.32",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — il n’y a pas de journal de bord : les journaux du capitaine sont effacés (« Captain’s logs erased ») ; seule la plaque raconte les faits (« The new High Chancellor presented hope and justice as if they were natural to our world » ; « But some saw this as weakness. They killed him »), sans nommer le chancelier ; le mot « dissidents » n’est pas prononcé : Book parle d’un équipage qui « mutinied » et de « refugees »."
+     }
+    ]
    }
   ],
   "cycle_slug": "univers-miroir-et-realites-paralleles",
@@ -31641,6 +31677,10 @@
    {
     "libelle": "Réformes d’un haut chancelier de l’Empire terrien, assassinat et fuite de dissidents sur le ISS Enterprise.",
     "motif": "période corrigée : « XXXIIe siècle » correspondait à la découverte de la plaque en 3191, non aux faits ; les réformes et l’assassinat du chancelier, dans l’univers Miroir, ne sont datés par aucune source qu’entre « Mirror, Mirror » (2267) et la fin du XXIVe siècle. Sources : <https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras> (« At some point after the events of \"Mirror, Mirror\" » ; « it did crossover sometime before the end of the 24th Century ») ; Memory Alpha, ISS Enterprise (NCC-1701)"
+   },
+   {
+    "libelle": "Réformes d’un haut chancelier de l’Empire terrien, assassinat et fuite de dissidents sur le ISS Enterprise.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — il n’y a pas de journal de bord : les journaux du capitaine sont effacés (« Captain’s logs erased ») ; seule la plaque raconte les faits (« The new High Chancellor presented hope and justice as if they were natural to our world » ; « But some saw this as weakness. They killed him »), sans nommer le chancelier ; le mot « dissidents » n’est pas prononcé : Book parle d’un équipage qui « mutinied » et de « refugees »"
    }
   ],
   "note_editoriale": "Attesté par une plaque dans DIS « Mirrors » ; l’identité du chancelier n’est pas explicitement prouvée par ce seul document.",
@@ -31658,9 +31698,9 @@
     {
      "id": "STP-194",
      "type": "cause",
-     "url": "https://www.startrek.com/en-un/news/iss-enterprise-connects-three-eras",
-     "url_complementaire": null,
-     "justification": "La plaque de l'ISS Enterprise : « The Terran High Chancellor was killed for trying to make reforms » ; « some Terrans who believed in peace escaped on the I.S.S. Enterprise » jusqu'à l'univers principal."
+     "url": "https://blog.trekcore.com/2024/04/star-trek-discovery-review-mirrors/",
+     "url_complementaire": "http://www.chakoteya.net/STDisco17/505.html",
+     "justification": "La plaque de l'ISS Enterprise, dans les passages identiques de ses deux transcriptions écrites (TrekCore ; Memory Alpha) : « But some saw this as weakness. They killed him, and we sought help from an unlikely ally: a Kelpien slave turned rebel leader » ; « With his aid we secured the Enterprise » ; « We bear scars from our escape ». À l'écran, Book la résume : « The Terran High Chancellor was killed for trying to make reforms, and this crew escaped » (transcription de « Mirrors »)."
     }
    ],
    "entrantes": [],
@@ -34863,15 +34903,15 @@
   "id": "STP-267",
   "cycle": "Compléments : épisodes sociaux, politiques locales et formats courts",
   "period": "Après 2257 (chronologie secondaire)",
-  "event": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure",
+  "event": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend",
   "source": "Film « Star Trek: Section 31 » (2025)",
   "politics": "Services secrets non contrôlés et héritage d'un pouvoir génocidaire.",
   "categories_politiques": "guerre/bataille ; renseignement/sécurité",
   "niveau_recoupement": "A",
   "nature_source": "Synopsis officiel ; année diégétique secondaire seulement",
   "url_source": "https://www.startrek.com/movies/star-trek-section-31",
-  "note_audit": "CORRECTION : le film 2025 se situe autour de 2324 dans les chronologies secondaires, non vers 2250. Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.18 (2026-11-13) : période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » (https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31). V0.21 (2026-11-14) : volet aligné sur la période corrigée en V0.18 (revue du 14 novembre 2026).",
-  "version_entree": "V0.21 révisé",
+  "note_audit": "CORRECTION : le film 2025 se situe autour de 2324 dans les chronologies secondaires, non vers 2250. Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran. V0.14 (2026-11-12) : harmonisation typographique (guillemets, ponctuation). V0.18 (2026-11-13) : période corrigée — « vers 2324 » est une conversion de date stellaire (Memory Alpha : « Using the stardate conventions established by TNG, the movie is set in 2324 »), que la règle de l’atlas n’accepte pas pour cette période ; la seule borne dite à l’écran est le briefing de Control : « In 2257, she was brought to our universe… after a few years, we lost contact » (https://memory-alpha.fandom.com/wiki/Star_Trek:_Section_31). V0.21 (2026-11-14) : volet aligné sur la période corrigée en V0.18 (revue du 14 novembre 2026). V0.32 (2026-11-16) : fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : la mission vise d’abord une vente (« Noe’s on his way to the Baraam to sell his latest creation to the Minosian High Council ») ; l’arme est le Godsend, construit pour Georgiou (« So I built a weapon to end all threats. I called it the Godsend » ; « It’s Godsend. No apostrophe »), qu’elle détruit dans le passage entre les univers. La source de contrôle ne parle pas d’arme (« joins a secret division of Starfleet ») ; le terme de l’intitulé s’appuie sur Memory Alpha, ajouté aux sources (« of mass destruction »). Parallèle : aucun organe de contrôle à l’écran ; seule l’officière détachée réclame une supervision (« you all definitely need oversight ») ; intitulé : « Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend ».",
+  "version_entree": "V0.32 révisé",
   "categories": [
    "guerre/bataille",
    "renseignement/sécurité"
@@ -34936,6 +34976,15 @@
       "texte": "volet aligné sur la période corrigée en V0.18 (revue du 14 novembre 2026)."
      }
     ]
+   },
+   {
+    "version": "V0.32",
+    "date": "16 novembre 2026",
+    "segments": [
+     {
+      "texte": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : la mission vise d’abord une vente (« Noe’s on his way to the Baraam to sell his latest creation to the Minosian High Council ») ; l’arme est le Godsend, construit pour Georgiou (« So I built a weapon to end all threats. I called it the Godsend » ; « It’s Godsend. No apostrophe »), qu’elle détruit dans le passage entre les univers. La source de contrôle ne parle pas d’arme (« joins a secret division of Starfleet ») ; le terme de l’intitulé s’appuie sur Memory Alpha, ajouté aux sources (« of mass destruction »). Parallèle : aucun organe de contrôle à l’écran ; seule l’officière détachée réclame une supervision (« you all definitely need oversight ») ; intitulé : « Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend »."
+     }
+    ]
    }
   ],
   "cycle_slug": "complements-episodes-sociaux-politiques-locales-et-formats-courts",
@@ -34952,6 +35001,10 @@
    {
     "libelle": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme de destruction majeure.",
     "motif": "volet aligné sur la période corrigée en V0.18 (revue du 14 novembre 2026)."
+   },
+   {
+    "libelle": "Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend.",
+    "motif": "fiche alignée sur l’analyse rédigée du 16 novembre 2026 — faits : la mission vise d’abord une vente (« Noe’s on his way to the Baraam to sell his latest creation to the Minosian High Council ») ; l’arme est le Godsend, construit pour Georgiou (« So I built a weapon to end all threats. I called it the Godsend » ; « It’s Godsend. No apostrophe »), qu’elle détruit dans le passage entre les univers. La source de contrôle ne parle pas d’arme (« joins a secret division of Starfleet ») ; le terme de l’intitulé s’appuie sur Memory Alpha, ajouté aux sources (« of mass destruction »). Parallèle : aucun organe de contrôle à l’écran ; seule l’officière détachée réclame une supervision (« you all definitely need oversight ») ; intitulé : « Opération clandestine de Section 31 autour de Philippa Georgiou et d’une arme, le Godsend »"
    }
   ],
   "note_editoriale": "CORRECTION : le film 2025 se situe autour de 2324 dans les chronologies secondaires, non vers 2250. Datation circa 2324 d’après une chronologie secondaire, non explicitement confirmée à l’écran.",
